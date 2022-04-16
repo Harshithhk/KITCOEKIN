@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const HeroSection = () => {
   return (
-    <section className="h-[621px] md:h-[calc(100vh-88px)] w-full bg-slate-600 relative mb-[100px] md:mb-0 md:overflow-hidden">
+    <section className="h-[621px] md:h-[calc(100vh-88px)] w-full bg-slate-600 relative  md:mb-0 md:overflow-hidden">
       <img
         src="/images/HomePage/Hero-Background.png"
         className="h-[621px] w-full object-cover "

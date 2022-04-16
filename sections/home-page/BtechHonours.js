@@ -1,65 +1,92 @@
 import Image from "next/image"
 const BtechHonours = () => {
   return (
-    <section className="mt-[100px]">
-      <div className="flex justify-around">
-        <div>
-          <div className="flex font-Poppins text-[#3D3859] tracking-[0.005em] italic text-[35.97px] font-[800] w-[428.44px] h-[53.96px]">
+    <section className="p-[50px] pt-[114px] pr-[5%]   flex md:block  md:p-[16px] ">
+      <div className="w-fit">
+        <div className="flex items-center w-fit">
+          <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
+          <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center   text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
             NEW B.TECH HONOURS
           </div>
-          <img className=" pt-20 bg-center bg-cover w-[749.69px] h-[450.52px] bg-[url('/images/HomePage/s1.png')]"></img>
         </div>
-
-        <div className="space-y-3 text-center text-white">
-          <div className=" w-[427.33px] h-[132.15px] bg-[#3D3859] border-2 ">
-            <img
-              className=" mt-[30px] ml-[36px] float-left  w-[150px] h-[90px]"
-              src="/images/HomePage/Bulb.png"
-            ></img>
-            <div className="flex flex-col w-[169.81px] h-[77.1px]">
-              <div className="">1790</div>
-              <p className="normal font-[Montserrat] w-[190px] m-auto h-[108px] text-[22x] tracking-[0.005em] leading-[27px] text-center font-[800]">
-                Projected first year 2021 fall enrollment
-              </p>
+        <div className="flex-1 h-full md:hidden">
+          <img src="/images/HomePage/Btech-Honours/Btech Honours.svg"></img>
+        </div>
+      </div>
+      <div className="w-[608px] ml-auto md:mx-auto md:w-fit">
+        {/* ------------------BLOCK ----------------- */}
+        <div className="flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-accent rounded-xl ml-auto md:mr-auto p-4  ">
+          <Image
+            src="/images/HomePage/Btech-Honours/Bulb.svg"
+            width={95}
+            height={80}
+          ></Image>
+          <div className="flex flex-col items-center ml-12 font-bold text-white">
+            <div className="text-5xl leading-none -translate-y-2 w-fit md:text-4xl">
+              1790
+            </div>
+            <div className="text-lg font-semibold text-center -translate-y-2 md:text-xs">
+              Projected 2022 first year fall enrollment
             </div>
           </div>
+        </div>
+        {/* ------------------BLOCK ----------------- */}
 
-          <div className=" w-[427.33px] h-[120.89px] bg-[#7D7D7D] border-2 text-center">
-            <img
-              className="float-left pt-5 pl-5"
-              src="/images/HomePage/3.84.png"
-            ></img>
-            <div className="flex flex-col w-[169.81px] h-[77.1px] ">
-              <div className="">3.84</div>
-              <p className="normal font-[Montserrat] w-[190px] m-auto h-[108px] text-[22x] tracking-[0.005em] leading-[27px] text-center font-[800]">
-                Average GPA for admitted fall first years
-              </p>
+        <div className="relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden">
+          <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
+            3.84
+          </div>
+          <Image
+            src="/images/HomePage/Btech-Honours/Bub.svg"
+            width={95}
+            height={80}
+          ></Image>
+          <div className="flex flex-col items-center ml-12 font-bold text-white">
+            <div className="text-5xl leading-none -translate-y-2 w-fit md:text-4xl">
+              3.84
+            </div>
+            <div className="text-lg font-semibold text-center -translate-y-2  md:text-xs">
+              Average GPA for admitted fall first years
             </div>
           </div>
+        </div>
+        {/* ------------------BLOCK ----------------- */}
 
-          <div className=" w-[427.33px] h-[120.89px] bg-[#8D8D8D] border-2 ">
-            <img
-              className="float-left pt-5 pl-5 "
-              src="/images/HomePage/86.png"
-            ></img>
-            <div className="flex flex-col w-[169.81px] h-[77.1px]">
-              <div className="">86%</div>
-              <p className="normal font-[Montserrat] w-[190px] m-auto h-[108px] text-[22x] tracking-[0.005em] leading-[27px] text-center font-[800]">
-                First year students gets financial Aid
-              </p>
+        <div className="relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3">
+          <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
+            86
+          </div>
+          <Image
+            src="/images/HomePage/Btech-Honours/Bub.svg"
+            width={95}
+            height={80}
+          ></Image>
+          <div className="flex flex-col items-center ml-12 text-white">
+            <div className="text-5xl leading-none -translate-y-2 w-fit md:text-4xl">
+              86%
+            </div>
+            <div className="text-lg font-semibold text-center -translate-y-2 md:text-xs">
+              First year students get financial aid
             </div>
           </div>
+        </div>
+        {/* ------------------BLOCK ----------------- */}
 
-          <div className=" w-[427.33px] h-[120.89px] bg-[#8D8D8D] border-2 ">
-            <img
-              className="float-left pt-5 pl-5"
-              src="/images/HomePage/400.png"
-            ></img>
-            <div className="flex flex-col w-[169.81px] h-[77.1px]">
-              <div className="">400</div>
-              <p className="normal font-[Montserrat] w-[190px] m-auto h-[108px] text-[22x] tracking-[0.005em] leading-[27px] text-center font-[800]">
-                projected transfer fall 2021 enrollment
-              </p>
+        <div className=" relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3">
+          <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
+            400
+          </div>
+          <Image
+            src="/images/HomePage/Btech-Honours/Blb.svg"
+            width={95}
+            height={80}
+          ></Image>
+          <div className="flex flex-col items-center ml-12 text-white">
+            <div className="text-5xl leading-none -translate-y-2 w-fit md:text-4xl">
+              400
+            </div>
+            <div className="text-lg font-semibold text-center -translate-y-2 md:text-xs">
+              projected transfer fall 2022 enrollment
             </div>
           </div>
         </div>

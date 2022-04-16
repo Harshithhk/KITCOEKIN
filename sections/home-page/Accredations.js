@@ -1,6 +1,6 @@
 const Accredations = () => {
   return (
-    <div className="w-full h-[480px]  bg-no-repeat bg-cover bg-[url('/images/HomePage/Accredations/accredations-bg.svg')] md:hidden ">
+    <div className="w-full h-[480px]  bg-no-repeat bg-center bg-cover bg-[url('/images/HomePage/Accredations/accredations-bg.svg')] md:hidden ">
       <h2 className=" text-4xl text-white font-extrabold italic translate-y-[75px] pl-[74.94px]">
         ACCREDATIONS & APPROVALS
       </h2>
