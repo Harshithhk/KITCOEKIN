@@ -53,8 +53,13 @@ const NewsAndNotices = () => {
         </div>
         {/* CONTENT */}
         <div className="mt-8">
-          {news.map((element) => (
-            <div className="cursor-pointer hover:shadow-lg transition-all  flex  h-28 md:h-[75px] mt-6 rounded-2xl overflow-hidden">
+          {news.map((element, index) => (
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-delay={`${index * 10}`}
+              className="cursor-pointer hover:shadow-lg transition-all  flex  h-28 md:h-[75px] mt-6 rounded-2xl overflow-hidden"
+            >
               <div className="h-full w-40 bg-[#495AB6] flex flex-col justify-center items-center">
                 <div className="text-5xl text-white md:text-3xl">
                   {element.date.split(` `)[0]}
@@ -88,8 +93,13 @@ const NewsAndNotices = () => {
           </div>
         </div>
         <div className="mt-8">
-          {notices.map((notice) => (
-            <div className="cursor-pointer hover:shadow-lg transition-all  flex  h-28 md:h-[75px] mt-6 rounded-2xl overflow-hidden">
+          {notices.map((notice, index) => (
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-delay={`${index * 20}`}
+              className="cursor-pointer hover:shadow-lg transition-all  flex  h-28 md:h-[75px] mt-6 rounded-2xl overflow-hidden"
+            >
               <div className="border-4 border-r-2 rounded-l-2xl h-full  w-40 text-[#F07C00]  flex flex-col justify-center items-center">
                 <div className="text-5xl md:text-3xl">
                   {notice.date.split(` `)[0]}

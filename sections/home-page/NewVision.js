@@ -43,13 +43,19 @@ const NewVision = () => {
           integer leo. Pharetra in in molestie egestas.
         </p>
         <button
+          data-aos="zoom-in"
+          data-aos-delay="0"
           className=" h-[80.94px] w-[325.26px] text-white text-[37.47px]  mt-9 bg-[#3D3859] hover:bg-[#272242] italic rounded-[7.4943px]"
           href="#about"
         >
           EXPLORE
         </button>
       </div>
-      <div className="min-w-[869.13px] h-[651.37px] overflow-visible ">
+      <div
+        data-aos="zoom-in"
+        data-aos-delay="0"
+        className="min-w-[869.13px] h-[651.37px] overflow-visible "
+      >
         <img
           src="/images/HomePage/NewVision.png"
           className="h-full translate-y-[-30%] "

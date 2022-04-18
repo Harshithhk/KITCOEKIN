@@ -1,7 +1,7 @@
 import Image from "next/image"
 const BtechHonours = () => {
   return (
-    <section className="p-[50px] pt-[114px] pr-[5%]   flex md:block  md:p-[16px] ">
+    <section className="p-[50px] pt-[60px] pr-[5%]   flex md:block  md:p-[16px] ">
       <div className="w-fit">
         <div className="flex items-center w-fit">
           <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
@@ -9,13 +9,21 @@ const BtechHonours = () => {
             NEW B.TECH HONOURS
           </div>
         </div>
-        <div className="flex-1 h-full md:hidden">
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="0"
+          className="flex-1 h-full md:hidden"
+        >
           <img src="/images/HomePage/Btech-Honours/Btech Honours.svg"></img>
         </div>
       </div>
       <div className="w-[608px] ml-auto md:mx-auto md:w-fit">
         {/* ------------------BLOCK ----------------- */}
-        <div className="flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-accent rounded-xl ml-auto md:mr-auto p-4  ">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="0"
+          className="flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-accent rounded-xl ml-auto md:mr-auto p-4  "
+        >
           <Image
             src="/images/HomePage/Btech-Honours/Bulb.svg"
             width={95}
@@ -32,7 +40,11 @@ const BtechHonours = () => {
         </div>
         {/* ------------------BLOCK ----------------- */}
 
-        <div className="relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="10"
+          className="relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
+        >
           <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
             3.84
           </div>
@@ -52,7 +64,11 @@ const BtechHonours = () => {
         </div>
         {/* ------------------BLOCK ----------------- */}
 
-        <div className="relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="20"
+          className="relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
+        >
           <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
             86
           </div>
@@ -72,7 +88,11 @@ const BtechHonours = () => {
         </div>
         {/* ------------------BLOCK ----------------- */}
 
-        <div className=" relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="30"
+          className=" relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
+        >
           <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
             400
           </div>

@@ -10,7 +10,16 @@ import EsteemedRecruiters from "../sections/home-page/EsteemedRecruiters"
 import BtechHonours from "../sections/home-page/BtechHonours"
 import Statistics from "../sections/home-page/Statistics"
 import Testimonials from "../sections/home-page/Testimonials"
+
+import Aos from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from "react"
+
 const Home = () => {
+  useEffect(() => {
+    Aos.init({ duration: 500, delay: 20 })
+  }, [])
+
   return (
     <DefaultLayout>
       <Head>
