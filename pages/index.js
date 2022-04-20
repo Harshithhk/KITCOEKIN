@@ -10,6 +10,7 @@ import EsteemedRecruiters from "../sections/home-page/EsteemedRecruiters"
 import BtechHonours from "../sections/home-page/BtechHonours"
 import Statistics from "../sections/home-page/Statistics"
 import Testimonials from "../sections/home-page/Testimonials"
+import Carousel from "../sections/home-page/Carousel"
 
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -26,7 +27,8 @@ const Home = () => {
         <title>KITCOEK</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <HeroSection />
+      <Carousel />
+      {/* <HeroSection /> */}
       <BtechHonours />
       <NewVision />
       <Accredations />
