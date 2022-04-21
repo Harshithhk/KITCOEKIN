@@ -1,17 +1,22 @@
+import { useEffect,useState } from "react"
+
 let news = [
   {
+    id:1,
     date: "13 Feb, 2022",
     title: "Dummy text of the printing & typesetting industry",
     startTime: "8:00 AM",
     endTime: "01:00 PM",
   },
   {
+    id:2,
     date: "13 Feb, 2022",
     title: "Dummy text of the printing & typesetting industry",
     startTime: "8:00 AM",
     endTime: "01:00 PM",
   },
   {
+    id:3,
     date: "13 Feb, 2022",
     title: "Dummy text of the printing & typesetting industry",
     startTime: "8:00 AM",
@@ -21,18 +26,21 @@ let news = [
 
 let notices = [
   {
+    id:5,
     date: "13 Feb, 2022",
     title: "General Notices",
     startTime: "8:00 AM",
     endTime: "01:00 PM",
   },
   {
+    id:6,
     date: "13 Feb, 2022",
     title: "General Notices",
     startTime: "8:00 AM",
     endTime: "01:00 PM",
   },
   {
+    id:7,
     date: "13 Feb, 2022",
     title: "General Notices",
     startTime: "8:00 AM",
@@ -40,7 +48,43 @@ let notices = [
   },
 ]
 
-const NewsAndNotices = () => {
+const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+function NewsAndNotices (props) {
+
+  const [news,setNews] = useState(()=>props.news)
+  const [notices,setNotices] = useState(()=>props.notices)
+
+  
+
+  useEffect(async() => {
+
+    let updatedNews = news.map((element)=> {
+      let date = new Date(element.date)
+      let day = date.getDate()
+      let year = date.getFullYear()
+      let monthName = month[date.getMonth()];
+      element.date = `${day} ${monthName} ${year}`
+      return element
+    })
+
+    let updatedNotices = notices.map((element)=> {
+      let date = new Date(element.date)
+      let day = date.getDate()
+      let year = date.getFullYear()
+      let monthName = month[date.getMonth()];
+      element.date = `${day} ${monthName} ${year}`
+
+      return element
+    })
+
+    setNews(updatedNews)
+    setNotices(updatedNotices)
+
+    console.log({news,notices});
+  }, [])
+  
+
   return (
     <section className="flex mt-16 md:mt-8 md:flex-col">
       <section className="w-1/2 md:w-full pl-[50px] pr-[2.5%] md:p-[16px]">
@@ -53,8 +97,9 @@ const NewsAndNotices = () => {
         </div>
         {/* CONTENT */}
         <div className="mt-8">
-          {news.map((element, index) => (
+          {news && news.map((element, index) => (
             <div
+            key={element.id}
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               data-aos-delay={`${index * 10}`}
@@ -78,7 +123,7 @@ const NewsAndNotices = () => {
                       alt=""
                     />{" "}
                   </div>
-                  {element.startTime} - {element.endTime}
+                  {element.duration[0]} - {element.duration[1]}
                 </div>
               </div>
             </div>
@@ -93,8 +138,9 @@ const NewsAndNotices = () => {
           </div>
         </div>
         <div className="mt-8">
-          {notices.map((notice, index) => (
+          {notices && notices.map((notice, index) => (
             <div
+            key={notice.id}
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               data-aos-delay={`${index * 20}`}
@@ -115,7 +161,7 @@ const NewsAndNotices = () => {
                   <div className="mr-2">
                     <img src="/images/HomePage/Clock.svg" alt="" />{" "}
                   </div>
-                  {notice.startTime} - {notice.endTime}
+                  {notice.duration[0]} - {notice.duration[1]}
                 </div>
               </div>
             </div>
@@ -124,6 +170,7 @@ const NewsAndNotices = () => {
       </section>
     </section>
   )
+  
 }
 
 export default NewsAndNotices

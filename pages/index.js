@@ -15,7 +15,28 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
 
-const Home = () => {
+
+
+
+
+export async function getStaticProps() {
+  let news = await fetch('http://localhost:5000/api/newsandnotices/news')
+  news = await news.json()
+  
+  let notices = await fetch('http://localhost:5000/api/newsandnotices/notices')
+  notices = await notices.json()
+
+
+  return{
+    props: {
+      news:news,
+      notices:notices
+    }
+  }
+}
+
+
+const Home = (props) => {
   useEffect(() => {
     Aos.init({ duration: 500, delay: 20 })
   }, [])
@@ -30,7 +51,7 @@ const Home = () => {
       <BtechHonours />
       <NewVision />
       <Accredations />
-      <NewsAndNotices />
+      <NewsAndNotices news={props.news} notices={props.notices}/>
       <Overveiw />
       <Statistics />
       <EsteemedRecruiters />
