@@ -19,10 +19,10 @@ import { useEffect } from "react"
 
 
 export async function getStaticProps() {
-  let news = await fetch('http://localhost:5000/api/newsandnotices/news')
+  let news = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/news')
   news = await news.json()
   
-  let notices = await fetch('http://localhost:5000/api/newsandnotices/notices')
+  let notices = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/notices')
   notices = await notices.json()
 
 
