@@ -103,7 +103,7 @@ function NewsAndNotices (props) {
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               data-aos-delay={`${index * 10}`}
-              className="cursor-pointer hover:shadow-lg transition-all  flex  h-28 md:h-[75px] mt-6 rounded-2xl overflow-hidden"
+              className="cursor-pointer hover:shadow-lg transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl  overflow-hidden"
             >
               <div className="h-full w-40 bg-[#495AB6] flex flex-col justify-center items-center">
                 <div className="text-5xl text-white md:text-3xl">
@@ -113,9 +113,9 @@ function NewsAndNotices (props) {
                   {element.date.split(` `)[1]} {element.date.split(` `)[2]}
                 </div>
               </div>
-              <div className="flex flex-col justify-center w-full pl-4 text-black border-4 rounded-r-2xl">
+              <div className="flex flex-col justify-center w-full pl-4 md:pl-2 text-black border-4 rounded-r-2xl">
                 <div className="text-lg md:text-sm">{element.title}</div>
-                <div className="text-[13.5px] md:text-[10px] text-[#717171] mt-3 md:mt-1 flex items-center">
+                <div className="text-[13.5px] md:-translate-x-[2px] md:text-[10px] text-[#717171] mt-3 md:mt-1 flex items-center">
                   <div className="object-contain mr-2">
                     <img
                       src="/images/HomePage/Clock.svg"
@@ -144,7 +144,7 @@ function NewsAndNotices (props) {
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               data-aos-delay={`${index * 20}`}
-              className="cursor-pointer hover:shadow-lg transition-all  flex  h-28 md:h-[75px] mt-6 rounded-2xl overflow-hidden"
+              className="cursor-pointer hover:shadow-lg transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl overflow-hidden"
             >
               <div className="border-4 border-r-2 rounded-l-2xl h-full  w-40 text-[#F07C00]  flex flex-col justify-center items-center">
                 <div className="text-5xl md:text-3xl">
@@ -155,11 +155,11 @@ function NewsAndNotices (props) {
                   {notice.date.split(` `)[1]} {notice.date.split(` `)[2]}
                 </div>
               </div>
-              <div className="flex flex-col justify-center w-full pl-4 text-black border-4 border-l-2 rounded-r-2xl">
+              <div className="flex flex-col justify-center w-full pl-4 md:pl-2 text-black border-4 border-l-2 rounded-r-2xl">
                 <div className="text-lg md:text-sm">{notice.title}</div>
-                <div className="text-[13.5px] text-[#717171] md:mt-1 md:text-[10px] mt-3 flex">
-                  <div className="mr-2">
-                    <img src="/images/HomePage/Clock.svg" alt="" />{" "}
+                <div className="text-[13.5px] md:-translate-x-[2px] text-[#717171] md:mt-1 md:text-[10px] mt-3 flex">
+                  <div className= "object-contain mr-2">
+                    <img src="/images/HomePage/Clock.svg" className="object-contain h-full" alt="" />{" "}
                   </div>
                   {notice.duration[0]} - {notice.duration[1]}
                 </div>

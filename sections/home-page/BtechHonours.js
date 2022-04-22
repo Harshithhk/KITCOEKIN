@@ -17,12 +17,12 @@ const BtechHonours = () => {
           <img src="/images/HomePage/Btech-Honours/Btech Honours.svg"></img>
         </div>
       </div>
-      <div className="w-[608px] ml-auto md:mx-auto md:w-fit">
+      <div className="w-[608px] ml-auto md:mx-auto md:w-full">
         {/* ------------------BLOCK ----------------- */}
         <div
           data-aos="fade-in"
           data-aos-delay="0"
-          className="flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-accent rounded-xl ml-auto md:mr-auto p-4  "
+          className="flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-accent rounded-xl mx-auto md:mx-auto p-4  "
         >
           <Image
             src="/images/HomePage/Btech-Honours/Bulb.svg"
@@ -43,7 +43,7 @@ const BtechHonours = () => {
         <div
           data-aos="fade-in"
           data-aos-delay="10"
-          className="relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
+          className="relative flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
         >
           <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
             3.84
@@ -67,7 +67,7 @@ const BtechHonours = () => {
         <div
           data-aos="fade-in"
           data-aos-delay="20"
-          className="relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
+          className="relative flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
         >
           <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
             86
@@ -91,7 +91,7 @@ const BtechHonours = () => {
         <div
           data-aos="fade-in"
           data-aos-delay="30"
-          className=" relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
+          className=" relative flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
         >
           <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
             400
