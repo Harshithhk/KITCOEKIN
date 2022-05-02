@@ -14,26 +14,22 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
 
-
-
-
-
 export async function getStaticProps() {
-  let news = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/news')
+  // let news = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/news')
+  let news = await fetch("http://localhost:5000/api/newsandnotices/news")
   news = await news.json()
-  
-  let notices = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/notices')
+
+  // let notices = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/notices')
+  let notices = await fetch("http://localhost:5000/api/newsandnotices/notices")
   notices = await notices.json()
 
-
-  return{
+  return {
     props: {
-      news:news,
-      notices:notices
-    }
+      news: news,
+      notices: notices,
+    },
   }
 }
-
 
 const Home = (props) => {
   useEffect(() => {
@@ -50,7 +46,7 @@ const Home = (props) => {
       <BtechHonours />
       <NewVision />
       <Accredations />
-      <NewsAndNotices news={props.news} notices={props.notices}/>
+      <NewsAndNotices news={props.news} notices={props.notices} />
       <Overviews />
       <Statistics />
       <EsteemedRecruiters />

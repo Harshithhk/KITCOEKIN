@@ -3,63 +3,69 @@ import Image from "next/image"
 const Footer = () => {
   return (
     <footer>
-      <div className=" flex flex-col justify-between h-[299.77px] bg-cover bg-[url('/images/HomePage/FooterBG.png')] mt-24  ">
-        <img
-          className=" bg-[white] mx-auto h-[155.88px]"
-          src="\images\Navbar\Logo.svg"
-          alt="footerbg.png"
-        />
-        <div className="  mb-2 text-right text-[#F07C00] underline leading-[37px] font-poppins font-bold text-[32.23px] pr-[20px]">
-          Resources
+      <section className="relative h-[299.77px] sm:h-44 sm:bg-contain bg-bottom bg-no-repeat bg-cover bg-[url('/images/HomePage/FooterBG.png')] mt-10 ">
+        <div className="absolute w-64 h-32 -translate-x-1/2 sm:h-20 sm:w-fit left-1/2 top-6">
+          <img src="/images/Navbar/Logo.svg" className="h-full " alt="LOGO" />
         </div>
-      </div>
-
-      <div className="flex justify-between h-[270px] bg-[#443B3C]">
-        <div className="pl-[37px] pt-[30px] flex-1 font-poppins font-[700] text-white text-[26.230px]">
-          <div>
-            <img className="inline m-[5px]" src="/images/HomePage/Gmail.png" />
-            <span>info@kitcoek.in</span>
-          </div>
-          <div>
+      </section>
+      <section className="flex h-[320px] bg-[#443b3c] pt-6 ">
+        <div className="flex-1 sm:hidden">
+          <div className="flex items-center ml-8 h-11">
             <img
-              className="inline m-[5px]"
+              src="/images/HomePage/Gmail.png"
+              className="h-full"
+              alt="email"
+            />
+            <div className="ml-3 text-xl leading-none text-white underline ">
+              info@kitcoek.in
+            </div>
+          </div>
+          <div className="flex items-center mt-4 ml-8 h-11">
+            <img
               src="/images/HomePage/phoneNo.png"
+              className="h-[39px]"
+              alt="email"
             />
-            <span> 7769001199</span>
+            <div className="ml-3 text-xl leading-none text-white ">
+              +91-7769001199
+            </div>
           </div>
-          <div>
+          <div className="flex items-center mt-4 ml-8 h-11">
             <img
-              className="inline m-[5px]"
               src="/images/HomePage/location.png"
+              className="h-[50px]"
+              alt="email"
             />
-            <span> Kolhapur, Maharashtra.</span>
+            <div className="ml-3 text-xl leading-none text-white ">
+              Kolhapur, Maharashtra
+            </div>
           </div>
         </div>
-
-        {/* CENTER DIV */}
-        <div className="flex-1">
-          <img
-            className="m-auto translate-y-[240%]"
-            src="/images/HomePage/socialMedia.png"
-          />
+        <div className="justify-center flex-1 mt-auto mb-4">
+          <div className="flex justify-center  h-[79px]">
+            <img
+              src="/images/HomePage/socialMedia.png"
+              className="h-full "
+              alt=""
+            />
+          </div>
         </div>
-
-        <div className=" flex-1 text-right text-white leading-[37px] font-poppins font-[600] text-[24.7314px] pr-[20px] md:pr-0">
-          <a>A-Z index </a>
-          <br />
-          <a>Campus Map</a>
-          <br />
-          <a>CU Safety</a>
-          <br />
-          <a>Directory</a>
-          <br />
-          <a>Webcams</a>
-          <br />
-          <a className="font-[900] underline" href="">
-            Apply to KIT
-          </a>
+        <div className="flex justify-end flex-1 sm:hidden">
+          <div className="mr-8 font-semibold text-right text-white -translate-y-20">
+            <div className="text-3xl font-bold text-[#F07C00] mt-3">
+              Resources
+            </div>
+            <div className="mt-3 text-2xl sm:text-xl">A-Z index</div>
+            <div className="mt-3 text-2xl sm:text-xl">Campus Map</div>
+            <div className="mt-3 text-2xl sm:text-xl">CU Safety</div>
+            <div className="mt-3 text-2xl sm:text-xl">Directory</div>
+            <div className="mt-3 text-2xl sm:text-xl">Webcams</div>
+            <div className="mt-3 text-2xl font-extrabold sm:text-xl">
+              Apply to KIT
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </footer>
   )
 }

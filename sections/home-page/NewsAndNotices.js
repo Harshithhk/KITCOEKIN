@@ -99,7 +99,7 @@ function NewsAndNotices (props) {
         <div className="mt-8">
           {news && news.map((element, index) => (
             <div
-            key={element.id}
+            key={element._id}
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               data-aos-delay={`${index * 10}`}
@@ -113,7 +113,7 @@ function NewsAndNotices (props) {
                   {element.date.split(` `)[1]} {element.date.split(` `)[2]}
                 </div>
               </div>
-              <div className="flex flex-col justify-center w-full pl-4 md:pl-2 text-black border-4 rounded-r-2xl">
+              <div className="flex flex-col justify-center w-full pl-4 text-black border-4 md:pl-2 rounded-r-2xl">
                 <div className="text-lg md:text-sm">{element.title}</div>
                 <div className="text-[13.5px] md:-translate-x-[2px] md:text-[10px] text-[#717171] mt-3 md:mt-1 flex items-center">
                   <div className="object-contain mr-2">
@@ -140,7 +140,7 @@ function NewsAndNotices (props) {
         <div className="mt-8">
           {notices && notices.map((notice, index) => (
             <div
-            key={notice.id}
+            key={notice._id}
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               data-aos-delay={`${index * 20}`}
@@ -155,7 +155,7 @@ function NewsAndNotices (props) {
                   {notice.date.split(` `)[1]} {notice.date.split(` `)[2]}
                 </div>
               </div>
-              <div className="flex flex-col justify-center w-full pl-4 md:pl-2 text-black border-4 border-l-2 rounded-r-2xl">
+              <div className="flex flex-col justify-center w-full pl-4 text-black border-4 border-l-2 md:pl-2 rounded-r-2xl">
                 <div className="text-lg md:text-sm">{notice.title}</div>
                 <div className="text-[13.5px] md:-translate-x-[2px] text-[#717171] md:mt-1 md:text-[10px] mt-3 flex">
                   <div className= "object-contain mr-2">

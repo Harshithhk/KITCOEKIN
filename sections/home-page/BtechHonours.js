@@ -22,7 +22,7 @@ const BtechHonours = () => {
         <div
           data-aos="fade-in"
           data-aos-delay="0"
-          className="flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-accent rounded-xl mx-auto md:mx-auto p-4  "
+          className="relative flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-accent rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
         >
           <Image
             src="/images/HomePage/Btech-Honours/Bulb.svg"

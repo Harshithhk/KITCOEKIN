@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="h-[100px] md:h-[88px] bg-[#F9FBFB]  ">
+    <nav className="h-[100px] md:h-[88px] sm:h-12 bg-[#F9FBFB]  ">
       <div className="flex items-center justify-center h-full 2xl:hidden w-fit">
         <img
           src="/images/Navbar/Logo.svg"
