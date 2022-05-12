@@ -2,7 +2,7 @@ import React from "react"
 
 const AboutUs = () => {
   return (
-    <section className="mt-16 mx-auto  w-[1407px]">
+    <section className="mt-16 mx-auto  w-[1407px] sm:w-[90%] sm:mt-8">
       {/* HEADING */}
       <div className="flex items-center w-full">
         <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
@@ -13,7 +13,7 @@ const AboutUs = () => {
 
       {/* CONTENT */}
       <div className="flex w-full">
-        <p className="w-3/4 mt-8 h-fit text-xl text-[#24346D] font-semibold">
+        <p className="w-3/4 sm:w-full mt-8 sm:mt-4 h-fit text-xl sm:text-base text-[#24346D] font-semibold">
           Premier Institute in engineering & Technology established in 1983 by
           group of visionary industrialist, professionals and educationalists.
           The vast exposure and experience of its founders has helped Kolhapur
