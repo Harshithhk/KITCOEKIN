@@ -41,21 +41,11 @@ const Navbar = () => {
           OTHERS
         </li>
         <li href="#" className="flex items-center cursor-pointer">
-          <img
-            src="/images/Navbar/Phone.svg"
-            className="mr-2"
-            alt=""
-            srcset=""
-          />
+          <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
           CONTACT
         </li>
         <li href="#" className="flex items-center cursor-pointer">
-          <img
-            src="/images/Navbar/Mention.svg"
-            className="mr-2"
-            alt=""
-            srcset=""
-          />
+          <img src="/images/Navbar/Mention.svg" className="mr-2" alt="" />
           APPLY
         </li>
         <li
@@ -66,7 +56,6 @@ const Navbar = () => {
             src="/images/Navbar/Search_Magnifying_Glass.svg"
             className="mr-2"
             alt=""
-            srcset=""
           />
           SEARCH
         </li>
