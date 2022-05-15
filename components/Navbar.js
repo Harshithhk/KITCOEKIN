@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav
       className={`h-[88px] md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
-        router.route === "/about" ? "bg-[#24346D]" : ""
+        router.route != "/" ? "bg-[#24346D]" : ""
       }`}
     >
       <img
@@ -17,13 +17,13 @@ const Navbar = () => {
       />
       <ul
         className={`sm:hidden flex justify-between w-3/4 ml-auto text-lg ${
-          router.route === "/about" ? "text-white" : "text-[#666666]"
+          router.route != "/" ? "text-white" : "text-[#666666]"
         } `}
       >
         <li
           href="#"
           className={`flex items-center font-bold  cursor-pointer  ${
-            router.route === "/about" ? "text-white" : "text-black"
+            router.route != "/" ? "text-white" : "text-black"
           }`}
         >
           ABOUT
