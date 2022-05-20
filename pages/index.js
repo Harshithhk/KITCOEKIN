@@ -10,6 +10,8 @@ import BtechHonours from "../sections/home-page/BtechHonours"
 import Statistics from "../sections/home-page/Statistics"
 import Testimonials from "../sections/home-page/Testimonials"
 import Overviews from "../sections/home-page/Overviews"
+import Milestones from "./milestones"
+
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"

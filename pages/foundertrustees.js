@@ -37,7 +37,7 @@ const FounderTrustees = () => {
           </h1>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
-        <section className="h-fit pb-20  bg-green-50 w-full z-30 relative px-14 sm:px-4 sm:pb-10">
+        <section className="relative z-30 w-full pb-20 h-fit bg-green-50 px-14 sm:px-4 sm:pb-10">
           <div className="z-10  absolute w-full top-0 left-0 h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/FounderTrustees/KITBG.jpeg')]  opacity-10"></div>
 
           <h1 className="text-5xl w-fit mx-auto pt-16 sm:pt-8 text-[#24346D] font-bold sm:text-2xl">
@@ -50,17 +50,17 @@ const FounderTrustees = () => {
             sed tempora quaerat eum?
           </div>
 
-          <div className=" flex flex-wrap justify-center items-center  w-full  gap-x-16 gap-y-16 mt-16 sm:mt-8 sm:gap-x-7 sm:gap-y-7">
+          <div className="flex flex-wrap items-center justify-center w-full mt-16 gap-x-16 gap-y-16 sm:mt-8 sm:gap-x-7 sm:gap-y-7">
             <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
               <img
                 src="/images/FounderTrustees/shivajirao-desai.jpg"
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
-              <div className="text-center  text-xl mx-auto font-semibold sm:text-xs text-accent">
+              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
                 Late. Shri. Shivajirao Desai
               </div>
-              <h2 className="mx-auto w-fit text-center text-xl text-accent-light sm:text-xs">
+              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
                 Founder Chairman
               </h2>
             </div>
@@ -70,10 +70,10 @@ const FounderTrustees = () => {
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
-              <div className="text-center  text-xl mx-auto font-semibold sm:text-xs text-accent">
+              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
                 Late. Shri. Shivajirao Desai
               </div>
-              <h2 className="mx-auto w-fit text-center text-xl text-accent-light sm:text-xs">
+              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
                 Founder Chairman
               </h2>
             </div>
@@ -83,10 +83,10 @@ const FounderTrustees = () => {
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
-              <div className="text-center  text-xl mx-auto font-semibold sm:text-xs text-accent">
+              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
                 Late. Shri. Shivajirao Desai
               </div>
-              <h2 className="mx-auto w-fit text-center text-xl text-accent-light sm:text-xs">
+              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
                 Founder Chairman
               </h2>
             </div>
@@ -96,10 +96,10 @@ const FounderTrustees = () => {
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
-              <div className="text-center  text-xl mx-auto font-semibold sm:text-xs text-accent">
+              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
                 Late. Shri. Shivajirao Desai
               </div>
-              <h2 className="mx-auto w-fit text-center text-xl text-accent-light sm:text-xs">
+              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
                 Founder Chairman
               </h2>
             </div>
@@ -109,10 +109,10 @@ const FounderTrustees = () => {
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
-              <div className="text-center  text-xl mx-auto font-semibold sm:text-xs text-accent">
+              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
                 Late. Shri. Shivajirao Desai
               </div>
-              <h2 className="mx-auto w-fit text-center text-xl text-accent-light sm:text-xs">
+              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
                 Founder Chairman
               </h2>
             </div>
@@ -122,10 +122,10 @@ const FounderTrustees = () => {
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
-              <div className="text-center  text-xl mx-auto font-semibold sm:text-xs text-accent">
+              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
                 Late. Shri. Shivajirao Desai
               </div>
-              <h2 className="mx-auto w-fit text-center text-xl text-accent-light sm:text-xs">
+              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
                 Founder Chairman
               </h2>
             </div>
@@ -135,10 +135,10 @@ const FounderTrustees = () => {
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
-              <div className="text-center  text-xl mx-auto font-semibold sm:text-xs text-accent">
+              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
                 Late. Shri. Shivajirao Desai
               </div>
-              <h2 className="mx-auto w-fit text-center text-xl text-accent-light sm:text-xs">
+              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
                 Founder Chairman
               </h2>
             </div>
@@ -148,10 +148,10 @@ const FounderTrustees = () => {
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
-              <div className="text-center  text-xl mx-auto font-semibold sm:text-xs text-accent">
+              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
                 Late. Shri. Shivajirao Desai
               </div>
-              <h2 className="mx-auto w-fit text-center text-xl text-accent-light sm:text-xs">
+              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
                 Founder Chairman
               </h2>
             </div>
@@ -161,10 +161,10 @@ const FounderTrustees = () => {
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
-              <div className="text-center  text-xl mx-auto font-semibold sm:text-xs text-accent">
+              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
                 Late. Shri. Shivajirao Desai
               </div>
-              <h2 className="mx-auto w-fit text-center text-xl text-accent-light sm:text-xs">
+              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
                 Founder Chairman
               </h2>
             </div>
@@ -174,10 +174,10 @@ const FounderTrustees = () => {
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
-              <div className="text-center  text-xl mx-auto font-semibold sm:text-xs text-accent">
+              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
                 Late. Shri. Shivajirao Desai
               </div>
-              <h2 className="mx-auto w-fit text-center text-xl text-accent-light sm:text-xs">
+              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
                 Founder Chairman
               </h2>
             </div>
