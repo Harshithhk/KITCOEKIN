@@ -135,7 +135,7 @@ const Milestones = () => {
                 2015
               </h1>
               <h1 className="text-3xl font-bold text-accent">
-                NAAC 'A' Grade Accrediation
+                NAAC &lsquo;A&lsquo; Grade Accrediation
               </h1>
               <img
                 src="/images/Milestones/arrow-down-right.svg"
@@ -174,7 +174,7 @@ const Milestones = () => {
                 2018
               </h1>
               <h1 className="text-3xl font-bold text-accent">
-                NAAC 'A' Grade Accredoatopm (Elx,Civil,CSE & Prod)
+                NAAC &lsquo;A&lsquo; Grade Accredoatopm (Elx,Civil,CSE & Prod)
               </h1>
             </div>
             <img
