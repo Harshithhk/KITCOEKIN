@@ -4,7 +4,7 @@ import Footer from "../sections/home-page/Footer"
 const FounderTrustees = () => {
   return (
     <DefaultLayout>
-      <div className="w-full">
+      <div className="w-full bg-[#24346D]">
         <section className="flex flex-col h-[250px] items-center w-full relative">
           <img
             src="/images/AboutUs/bgcircle.png"
@@ -37,7 +37,7 @@ const FounderTrustees = () => {
           </h1>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
-        <section className="relative z-30 w-full pb-20 h-fit bg-green-50 px-14 sm:px-4 sm:pb-10">
+        <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-green-50 px-14 sm:px-4 sm:pb-10">
           <div className="z-10  absolute w-full top-0 left-0 h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/FounderTrustees/KITBG.jpeg')]  opacity-10"></div>
 
           <h1 className="text-5xl w-fit mx-auto pt-16 sm:pt-8 text-[#24346D] font-bold sm:text-2xl">

@@ -20,14 +20,16 @@ const Navbar = () => {
           router.route != "/" ? "text-white" : "text-[#666666]"
         } `}
       >
-        <li
-          href="#"
-          className={`flex items-center font-bold  cursor-pointer  ${
-            router.route != "/" ? "text-white" : "text-black"
-          }`}
-        >
-          ABOUT
-        </li>
+        <a href="/about">
+          <li
+            href="/about"
+            className={`flex items-center font-bold  cursor-pointer  ${
+              router.route != "/" ? "text-white" : "text-black"
+            }`}
+          >
+            ABOUT
+          </li>
+        </a>
         <li href="#" className="flex items-center cursor-pointer">
           ADMISSIONS
         </li>
