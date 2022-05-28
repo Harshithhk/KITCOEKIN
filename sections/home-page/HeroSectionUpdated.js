@@ -32,7 +32,7 @@ const HeroSectionUpdated = () => {
             </div>
           </div>
 
-          <div className=" text-lg text-accent ml-8 w-auto mt-7 md:text-sm md:w-[280px] md:translate-x-0  md:p-1 text-center md:text-white">
+          <div className=" text-lg text-accent ml-8 w-auto mt-7 md:text-sm md:w-[280px] md:translate-x-0  md:p-1 md:text-center md:text-white">
             Et dolor sed sed leo eget leo turpis id. Vel viverra id velit, in
             feugiat et feugiat. Quisque amet pulvinar urna lacus, risus
             tincidunt. Sollicitudin diam integer sagittism

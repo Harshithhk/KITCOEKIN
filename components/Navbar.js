@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { useRouter } from "next/router"
 
 const Navbar = () => {
@@ -20,7 +21,7 @@ const Navbar = () => {
           router.route != "/" ? "text-white" : "text-[#666666]"
         } `}
       >
-        <a href="/about">
+        <Link href="/about">
           <li
             href="/about"
             className={`flex items-center font-bold  cursor-pointer  ${
@@ -29,7 +30,7 @@ const Navbar = () => {
           >
             ABOUT
           </li>
-        </a>
+        </Link>
         <li href="#" className="flex items-center cursor-pointer">
           ADMISSIONS
         </li>
