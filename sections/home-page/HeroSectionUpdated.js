@@ -24,8 +24,8 @@ const HeroSectionUpdated = () => {
               <span className="text-[#F07C00] ml-[13px] italic"> KIT</span>
             </div>
             <div
-              //   data-aos="zoom-in"
-              //   data-aos-delay="50"
+              data-aos="zoom-in"
+              data-aos-delay="50"
               className="bg-slate-50 h-24  md:h-16 mt-2 w-fit px-9 py-4 md:py-2  md:px-4  text-7xl md:text-5xl  text-[#5C5487]  md:translate-x-0"
             >
               Start In You

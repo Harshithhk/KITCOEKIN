@@ -18,15 +18,15 @@ import { useEffect } from "react"
 import HeroSectionUpdated from "../sections/home-page/HeroSectionUpdated"
 
 export async function getStaticProps() {
-  // let news = []
-  // let notices = []
-  // let news = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/news')
-  let news = await fetch("http://localhost:5000/api/newsandnotices/news")
-  news = await news.json()
+  let news = []
+  let notices = []
+  // // let news = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/news')
+  // let news = await fetch("http://localhost:5000/api/newsandnotices/news")
+  // news = await news.json()
 
-  // let notices = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/notices')
-  let notices = await fetch("http://localhost:5000/api/newsandnotices/notices")
-  notices = await notices.json()
+  // // let notices = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/notices')
+  // let notices = await fetch("http://localhost:5000/api/newsandnotices/notices")
+  // notices = await notices.json()
 
   return {
     props: {
