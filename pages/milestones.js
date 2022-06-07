@@ -55,21 +55,28 @@ const Milestones = () => {
               WE STARTED AT
             </h1>
             <div className="relative mt-4 w-fit">
-              <h1 className="text-7xl text-[#24346D] opacity-25 font-bold">
+              <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 1983
               </h1>
-              <h1 className="text-3xl font-bold text-accent">Established</h1>
-              <img
+              <h1 className="text-3xl font-bold text-accent md:text-xl">
+                Established
+              </h1>
+              {/* <img
                 src="/images/Milestones/arrow1.svg"
-                className="absolute top-8 left-full"
+                className="absolute top-8 left-full md:hidden"
+                alt=""
+              /> */}
+              <img
+                src="/images/Milestones/arrow-down-right.svg"
+                className="absolute top-full left-14"
                 alt=""
               />
             </div>
             <div className="relative mt-4 ml-40 w-fit">
-              <h1 className="text-7xl text-[#24346D] opacity-25 font-bold">
+              <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2005
               </h1>
-              <h1 className="text-3xl font-bold text-accent">
+              <h1 className="text-3xl font-bold text-accent md:text-xl">
                 1st NBA Accrediation (Elx,Civil,Env,Prod)
               </h1>
               <img
@@ -79,10 +86,10 @@ const Milestones = () => {
               />
             </div>
             <div className="relative ml-0 mt-14 w-fit">
-              <h1 className="text-7xl text-[#24346D] opacity-25 font-bold">
+              <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2008
               </h1>
-              <h1 className="text-3xl font-bold text-accent">
+              <h1 className="text-3xl font-bold text-accent md:text-xl">
                 1st NBA Accrediation (Elx,Civil,Env,Prod,Mech,CSE,IT,Bio)
               </h1>
               <img
@@ -92,10 +99,10 @@ const Milestones = () => {
               />
             </div>
             <div className="relative ml-40 mt-14 w-fit">
-              <h1 className="text-7xl text-[#24346D] opacity-25 font-bold">
+              <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2009
               </h1>
-              <h1 className="text-3xl font-bold text-accent">
+              <h1 className="text-3xl font-bold text-accent md:text-xl">
                 SUK Lead College
               </h1>
               <img
@@ -105,10 +112,10 @@ const Milestones = () => {
               />
             </div>
             <div className="relative ml-0 mt-14 w-fit">
-              <h1 className="text-7xl text-[#24346D] opacity-25 font-bold">
+              <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2008
               </h1>
-              <h1 className="text-3xl font-bold text-accent">
+              <h1 className="text-3xl font-bold text-accent md:text-xl">
                 1st NBA Accrediation (Elx,Civil,Env,Prod,Mech,CSE,IT,Bio)
               </h1>
               <img
@@ -118,10 +125,10 @@ const Milestones = () => {
               />
             </div>
             <div className="relative ml-40 mt-14 w-fit">
-              <h1 className="text-7xl text-[#24346D] opacity-25 font-bold">
+              <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2009
               </h1>
-              <h1 className="text-3xl font-bold text-accent">
+              <h1 className="text-3xl font-bold text-accent md:text-xl">
                 SUK Lead College
               </h1>
               <img
@@ -131,10 +138,10 @@ const Milestones = () => {
               />
             </div>
             <div className="relative ml-0 mt-14 w-fit">
-              <h1 className="text-7xl text-[#24346D] opacity-25 font-bold">
+              <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2015
               </h1>
-              <h1 className="text-3xl font-bold text-accent">
+              <h1 className="text-3xl font-bold text-accent md:text-xl">
                 NAAC &lsquo;A&lsquo; Grade Accrediation
               </h1>
               <img
@@ -144,10 +151,10 @@ const Milestones = () => {
               />
             </div>
             <div className="relative ml-40 mt-14 w-fit">
-              <h1 className="text-7xl text-[#24346D] opacity-25 font-bold">
+              <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2016
               </h1>
-              <h1 className="text-3xl font-bold text-accent">
+              <h1 className="text-3xl font-bold text-accent md:text-xl">
                 SUK Permanent Affiliation SUK Lead College
               </h1>
               <img
@@ -157,10 +164,10 @@ const Milestones = () => {
               />
             </div>
             <div className="relative ml-0 mt-14 w-fit">
-              <h1 className="text-7xl text-[#24346D] opacity-25 font-bold">
+              <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2017
               </h1>
-              <h1 className="text-3xl font-bold text-accent">
+              <h1 className="text-3xl font-bold text-accent md:text-xl">
                 Autonomous Status Recognition Under 2 (f) and 12 (B){" "}
               </h1>
               <img
@@ -170,10 +177,10 @@ const Milestones = () => {
               />
             </div>
             <div className="relative ml-40 mt-14 w-fit">
-              <h1 className="text-7xl text-[#24346D] opacity-25 font-bold">
+              <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2018
               </h1>
-              <h1 className="text-3xl font-bold text-accent">
+              <h1 className="text-3xl font-bold text-accent md:text-xl">
                 NAAC &lsquo;A&lsquo; Grade Accredoatopm (Elx,Civil,CSE & Prod)
               </h1>
             </div>

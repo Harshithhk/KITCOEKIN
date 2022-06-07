@@ -66,7 +66,7 @@ const FounderTrustees = () => {
             </div>
             <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
               <img
-                src="/images/FounderTrustees/shivajirao-desai.jpg"
+                src="/images/FounderTrustees/a-p-rane.jpg"
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
@@ -79,7 +79,7 @@ const FounderTrustees = () => {
             </div>
             <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
               <img
-                src="/images/FounderTrustees/shivajirao-desai.jpg"
+                src="/images/FounderTrustees/b-s-kulkarni.jpg"
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
@@ -92,7 +92,7 @@ const FounderTrustees = () => {
             </div>
             <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
               <img
-                src="/images/FounderTrustees/shivajirao-desai.jpg"
+                src="/images/FounderTrustees/c-d-joshi.jpg"
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />
@@ -105,7 +105,7 @@ const FounderTrustees = () => {
             </div>
             <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
               <img
-                src="/images/FounderTrustees/shivajirao-desai.jpg"
+                src="/images/FounderTrustees/d-s-patil.jpg"
                 className="w-full h-[190px] sm:h-20"
                 alt=""
               />

@@ -4,7 +4,7 @@ const HeroSectionUpdated = () => {
   return (
     <section className=" h-[621px] md:h-[calc(100vh-88px)] w-full overflow-hidden  relative mb-4  md:mb-0 md:overflow-hidden">
       <img
-        src="/images/HomePage/herobg.png"
+        src="/images/HomePage/herobg1.png"
         data-aos="zoom-in"
         data-aos-delay="20"
         className="h-[621px]   object-cover float-right"
@@ -12,9 +12,9 @@ const HeroSectionUpdated = () => {
         srcSet=""
       />
       <div className="absolute md:block w-[580px] h-full md:h-[500px] md:w-screen left-[50px] md:left-0 top-0 md:top-auto md:bottom-0  bg-opacity-60 flex  mt-10">
-        <div className=" md:translate-x-0 mt-8">
+        <div className="mt-8 md:translate-x-0">
           {/* TITLE */}
-          <div className="flex flex-col  italic font-extrabold md:flex md:justify-center md:items-center">
+          <div className="flex flex-col italic font-extrabold md:flex md:justify-center md:items-center">
             <div
               data-aos="zoom-in"
               data-aos-delay="20"

@@ -20,7 +20,7 @@ import HeroSectionUpdated from "../sections/home-page/HeroSectionUpdated"
 export async function getStaticProps() {
   let news = []
   let notices = []
-  // // let news = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/news')
+  //let news = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/news')
   // let news = await fetch("http://localhost:5000/api/newsandnotices/news")
   // news = await news.json()
 
