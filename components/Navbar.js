@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav
       className={`h-[88px] sticky top-0 z-50  md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
-        router.route != "/" ? "bg-[#24346D]" : ""
+        router.route != "/" ? "bg-[#24346D]" : "bg-slate-50"
       }`}
     >
       <Link href="/">
@@ -86,9 +86,21 @@ const Navbar = () => {
         className="ml-auto space-y-2 HAMBURGER-ICON sm:block 2xl:hidden"
         onClick={() => setIsNavOpen((prev) => !prev)}
       >
-        <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
-        <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
-        <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
+        <span
+          className={`block h-0.5 w-8 animate-pulse  ${
+            router.route != "/" ? "bg-white" : "bg-[#24346D]"
+          }`}
+        ></span>
+        <span
+          className={`block h-0.5 w-8 animate-pulse  ${
+            router.route != "/" ? "bg-white" : "bg-[#24346D]"
+          }`}
+        ></span>
+        <span
+          className={`block h-0.5 w-8 animate-pulse  ${
+            router.route != "/" ? "bg-white" : "bg-[#24346D]"
+          }`}
+        ></span>
       </div>
       {isNavOpen && (
         <div className="absolute top-0 left-0 w-screen h-screen ">
