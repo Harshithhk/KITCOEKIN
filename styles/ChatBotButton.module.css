@@ -1,0 +1,17 @@
+.overlay {
+    background: transparent;
+    bottom: 0;
+    position: fixed;
+    margin: 58px 35px;
+    right: 0;
+    z-index: 998;
+    cursor: pointer;
+  }
+
+.botPicButton{
+    -webkit-filter: drop-shadow(0px 16px 10px rgba(0,0,60,0.6));
+    -moz-filter: drop-shadow(0px 16px 10px rgba(0,0,60,0.6));
+    -ms-filter: drop-shadow(0px 16px 10px rgba(0,0,60,0.6)); 
+    -o-filter: drop-shadow(0px 16px 10px rgba(0,0,60,0.6));
+     filter: drop-shadow(0px 16px 10px rgba(0,0,60 ,0.6)); 
+    }
