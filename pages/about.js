@@ -11,7 +11,7 @@ const about = () => {
   return (
     <DefaultLayout>
       <div className="w-full">
-        <section className="flex flex-col items-center w-full relative">
+        <section className="relative flex flex-col items-center w-full">
           <img
             src="/images/AboutUs/bgcircle.png"
             className="w-24 h-24 absolute top-0 left-[25%] z-10 sm:w-16 sm:h-16 sm:top-[5%]"
@@ -35,10 +35,18 @@ const about = () => {
             alt=""
           />
           <div className="absolute w-full h-[500px] top-0 left-0 bg-[#24346D] z-0"></div>
-          <h1 className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20">
+          <h1
+            data-aos="zoom-in"
+            data-aos-delay="0"
+            className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
+          >
             KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
           </h1>
-          <h1 className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20">
+          <h1
+            data-aos="zoom-in"
+            data-aos-delay="0"
+            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
+          >
             COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
           </h1>
 
