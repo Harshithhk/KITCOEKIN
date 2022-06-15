@@ -63,7 +63,8 @@ const Milestones = () => {
               <div className=" w-[10%] text-left pl-2">Director</div>
               <div className=" w-[10%] text-left pl-2">02/02/2014 </div>
               <div className=" w-[25%] text-left pl-2">
-                BE (Electrical) , ME (Electronics) Ph.D
+                BE (Electrical) , ME (Electronics) Ph.D BE (Electrical) , ME
+                (Electronics) Ph.D
               </div>
               <div className=" w-[15%] text-left pl-2">Regular</div>
               <div className=" w-[5%] text-left pl-2">34</div>
