@@ -1,7 +1,7 @@
 import Image from "next/image"
 const BtechHonours = () => {
   return (
-    <section className="p-[50px] pt-[60px] pr-[5%]   flex md:block  md:p-[16px] ">
+    <section className=" bg-[#f2f2f0] p-[50px] pt-[60px] pr-[5%]   flex md:block  md:p-[16px] ">
       <div className="w-fit">
         <div className="flex items-center w-fit">
           <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
@@ -14,15 +14,18 @@ const BtechHonours = () => {
           data-aos-delay="0"
           className="flex-1 h-full md:hidden"
         >
-          <img src="/images/HomePage/Btech-Honours/Btech Honours.svg"></img>
+          <img
+            className="h-[90%] w-[90%] mt-8"
+            src="/images/HomePage/Btech-Honours/Btech Honours.svg"
+          ></img>
         </div>
       </div>
-      <div className="w-[608px] ml-auto md:mx-auto md:w-fit">
+      <div className="w-[608px] ml-auto md:mx-auto md:w-full">
         {/* ------------------BLOCK ----------------- */}
         <div
           data-aos="fade-in"
           data-aos-delay="0"
-          className="flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-accent rounded-xl ml-auto md:mr-auto p-4  "
+          className="relative flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-[#3D3859] rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
         >
           <Image
             src="/images/HomePage/Btech-Honours/Bulb.svg"
@@ -43,7 +46,7 @@ const BtechHonours = () => {
         <div
           data-aos="fade-in"
           data-aos-delay="10"
-          className="relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
+          className="relative flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
         >
           <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
             3.84
@@ -67,7 +70,7 @@ const BtechHonours = () => {
         <div
           data-aos="fade-in"
           data-aos-delay="20"
-          className="relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
+          className="relative flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
         >
           <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
             86
@@ -91,7 +94,7 @@ const BtechHonours = () => {
         <div
           data-aos="fade-in"
           data-aos-delay="30"
-          className=" relative flex w-[420px] md:w-[350px] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
+          className=" relative flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
         >
           <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
             400

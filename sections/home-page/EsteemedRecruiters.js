@@ -107,23 +107,23 @@ const EsteemedRecruiters = () => {
           {">"}
         </div>
 
-        <section className="flex justify-around mt-24 ">
+        <section className="flex justify-around mt-24 text-center">
           <div className="flex flex-col items-center w-56 p-1 pb-3 cursor-pointer hover:bg-slate-300 rounded-3xl">
-            <div className="h-[135px] bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Arrow_Circle_Down.svg')]  w-32 md:w-24 md:bg-contain"></div>
-            <h2 className="text-[#3D3859] underline text-lg italic font-bold mt-2">
+            <div className="h-[135px] md:h-28 bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Arrow_Circle_Down.svg')]  w-32 md:w-24 md:bg-contain"></div>
+            <h2 className="text-[#3D3859] underline text-lg italic font-bold mt-2 md:text-base md:mt-0">
               DOWNLOAD BROCHURE
             </h2>
           </div>
           <div className="flex flex-col items-center w-56 p-1 pb-3 cursor-pointer hover:bg-slate-300 rounded-3xl">
-            <div className="h-[135px] bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Phone.svg')]  w-32 md:w-24 md:bg-contain"></div>
-            <h2 className="text-[#3D3859] underline text-lg italic font-bold mt-2">
+            <div className="h-[135px] md:h-28 bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Phone.svg')]  w-32 md:w-24 md:bg-contain"></div>
+            <h2 className="text-[#3D3859] underline text-lg italic font-bold mt-2  md:text-base md:mt-0">
               ADMISSION ENQUIRY
             </h2>
           </div>
           <div className="flex flex-col items-center w-56 p-1 pb-3 cursor-pointer hover:bg-slate-300 rounded-3xl">
-            <div className="h-[135px] bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Note.svg')]  w-32 md:w-24 md:bg-contain"></div>
-            <h2 className="text-[#3D3859] underline text-lg italic font-bold mt-2">
-              DTE CODE : 6267
+            <div className="h-[135px] md:h-28 bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Note.svg')]  w-32 md:w-24 md:bg-contain"></div>
+            <h2 className="text-[#3D3859] underline text-lg italic font-bold mt-2  md:text-base md:mt-0">
+              DTE CODE 6267
             </h2>
           </div>
         </section>

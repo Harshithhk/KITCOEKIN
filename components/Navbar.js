@@ -1,80 +1,168 @@
+import { useState, useEffect } from "react"
+import Link from "next/link"
+import { useRouter } from "next/router"
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 const Navbar = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false)
+
+  useEffect(() => {
+    Aos.init({ duration: 500, delay: 20 })
+  }, [])
+
+  const router = useRouter()
+  console.log(router.route)
   return (
-    <nav className="h-[100px] md:h-[88px] bg-[#F9FBFB]  ">
-      <div className="flex items-center justify-center h-full 2xl:hidden w-fit">
+    <nav
+      className={`h-[88px] sticky top-0 z-50  md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
+        router.route != "/" ? "bg-[#24346D]" : "bg-slate-50"
+      }`}
+    >
+      <Link href="/">
         <img
-          src="/images/Navbar/Logo.svg"
-          className=" h-5/6"
+          src={`${
+            router.route != "/"
+              ? "/images/Navbar/Logo-white.svg"
+              : "/images/Navbar/Logo.svg"
+          }`}
+          className="h-16 py-1 cursor-pointer sm:h-full"
           alt=""
           srcSet=""
         />
-      </div>
-      <section className="flex h-full md:hidden">
-        <div className="h-full w-72 ">
+      </Link>
+      <ul
+        className={`sm:hidden flex justify-between w-3/4 ml-auto text-lg ${
+          router.route != "/" ? "text-white" : "text-[#666666]"
+        } `}
+      >
+        <Link href="/about">
+          <li
+            href="/about"
+            className={`flex items-center font-bold  cursor-pointer  ${
+              router.route != "/" ? "text-white" : "text-black"
+            }`}
+          >
+            ABOUT
+          </li>
+        </Link>
+        <Link href="/milestones">
+          <li href="#" className="flex items-center cursor-pointer">
+            MILESTONES
+          </li>
+        </Link>
+        <Link href="/foundertrustees">
+          <li href="#" className="flex items-center cursor-pointer">
+            FOUNDER TRUSTEES
+          </li>
+        </Link>
+        <li href="#" className="flex items-center cursor-pointer">
+          DEPARTMENTS{" "}
+        </li>
+        <li href="#" className="flex items-center cursor-pointer">
+          OTHERS
+        </li>
+        <li href="#" className="flex items-center cursor-pointer">
+          <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
+          CONTACT
+        </li>
+        <li href="#" className="flex items-center cursor-pointer">
+          <img src="/images/Navbar/Mention.svg" className="mr-2" alt="" />
+          APPLY
+        </li>
+        <li
+          href="#"
+          className="flex items-center w-32 h-12  text-white rounded-[75px] bg-primary overflow-hidden px-4 py-2 cursor-pointer"
+        >
           <img
-            src="/images/Navbar/Logo.svg"
-            className="h-full m-auto"
+            src="/images/Navbar/Search_Magnifying_Glass.svg"
+            className="mr-2"
             alt=""
-            srcSet=""
           />
-        </div>
-        <div className="flex-grow">
-          <div className="flex justify-between flex-grow h-1/2">
-            <img
-              src="/images/Navbar/Navbar-Arrows.svg"
-              className="h-full "
-              alt=""
-              srcSet=""
-            />
-            <div className="flex">
-              <div className="w-64 my-3 border-x flex justify-center items-center font-bold text-[#333333]  text-lg">
-                <img
-                  src="/images/Navbar/Contact.svg"
-                  className="h-8 mr-4"
-                  alt=""
-                />
-                CONTACT
-              </div>
-              <div className="w-64 my-3 border-x flex justify-center items-center font-bold text-[#333333] text-lg">
-                <img
-                  src="/images/Navbar/Apply.svg"
-                  className="h-8 mr-4"
-                  alt=""
-                />
-                APPLY
-              </div>
+          SEARCH
+        </li>
+      </ul>
+      <div
+        className="ml-auto space-y-2 HAMBURGER-ICON sm:block 2xl:hidden"
+        onClick={() => setIsNavOpen((prev) => !prev)}
+      >
+        <span
+          className={`block h-0.5 w-8 animate-pulse  ${
+            router.route != "/" ? "bg-white" : "bg-[#24346D]"
+          }`}
+        ></span>
+        <span
+          className={`block h-0.5 w-8 animate-pulse  ${
+            router.route != "/" ? "bg-white" : "bg-[#24346D]"
+          }`}
+        ></span>
+        <span
+          className={`block h-0.5 w-8 animate-pulse  ${
+            router.route != "/" ? "bg-white" : "bg-[#24346D]"
+          }`}
+        ></span>
+      </div>
+      {isNavOpen && (
+        <div className="absolute top-0 left-0 w-screen h-screen ">
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="0"
+            className="absolute z-10 w-full h-full transition-all duration-300 bg-slate-100 "
+          ></div>
+          <div className="z-20 absolute right-3 top-5 mr-2 text-[30px] font-bold text-primary">
+            <div
+              className="ml-auto space-y-2 HAMBURGER-ICON sm:block 2xl:hidden"
+              onClick={() => setIsNavOpen((prev) => !prev)}
+            >
+              <span className="block h-0.5 w-8 animate-pulse bg-primary"></span>
+              <span className="block ml-auto h-0.5 w-6 animate-pulse bg-primary"></span>
+              <span className="block h-0.5 ml-auto w-5 animate-pulse bg-primary"></span>
             </div>
           </div>
-          <div className="h-1/2 flex-grow bg-[#fcfcfc] flex">
-            <div className="w-[calc(100%/6)] my-3 border-r  flex justify-center items-center font-bold text-[#333333] text-lg">
-              ABOUT
-            </div>
-            <div className="w-[calc(100%/6)] my-3 border-x  flex justify-center items-center font-bold text-[#333333] text-lg">
-              ADMISSIONS
-            </div>
-            <div className="w-[calc(100%/6)] my-3 border-x  flex justify-center items-center font-bold text-[#333333] text-lg">
-              DEPARTMENTS
-            </div>
-            <div className="w-[calc(100%/6)] my-3 border-x  flex justify-center items-center font-bold text-[#333333] text-lg">
-              T&P CELL
-            </div>
-            <div className="w-[calc(100%/6)] my-3 border-x  flex justify-center items-center font-bold text-[#333333] text-lg">
-              OTHER
-            </div>
-            <div className="h-full flex j6stify-center items-center bg-[#f5be84] w-[calc(100%/6)]">
-              <div className=" flex w-full justify-center items-center font-bold text-[#333333] text-lg">
-                <img
-                  src="/images/Navbar/Lens.svg"
-                  className="h-8 mr-2"
-                  alt=""
-                  srcSet=""
-                />
-                SEARCH
-              </div>
-            </div>
-          </div>
+          <ul className="z-20">
+            <Link href="/about">
+              <li>
+                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
+                  ABOUT
+                </h1>
+              </li>
+            </Link>
+            <Link href="/milestones">
+              <li>
+                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
+                  MILESTONES
+                </h1>
+              </li>
+            </Link>
+            <Link href="/foundertrustees">
+              <li>
+                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
+                  FOUNDER TRUSTEES
+                </h1>
+              </li>
+            </Link>
+            <Link href="#">
+              <li>
+                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
+                  DEPARTMENTS
+                </h1>
+              </li>
+            </Link>
+            <Link href="/">
+              <li>
+                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
+                  OTHERS{" "}
+                  <img
+                    src="/images/Milestones/.svg"
+                    className="absolute"
+                    alt=""
+                  />
+                </h1>
+              </li>
+            </Link>
+          </ul>
         </div>
-      </section>
+      )}
     </nav>
   )
 }
