@@ -2,11 +2,6 @@ import React from "react"
 
 const hod = () => (
   <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-white px-14 sm:px-4 sm:pb-10">
-    <img
-      className="absolute -top-28 w-[205px] h-[170px]"
-      src="/images/TnP/indicator.png"
-      alt=""
-    />
     <div className="flex justify-between">
       <div>
         <div className="pt-28 text-[#24346D] text-4xl font-bold flex h-fit items-center align-middle">
