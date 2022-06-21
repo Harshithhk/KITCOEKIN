@@ -56,9 +56,11 @@ const Navbar = () => {
             FOUNDER TRUSTEES
           </li>
         </Link>
-        <li href="#" className="flex items-center cursor-pointer">
-          DEPARTMENTS{" "}
-        </li>
+        <Link href="/department">
+          <li href="#" className="flex items-center cursor-pointer">
+            DEPARTMENTS{" "}
+          </li>
+        </Link>
         <Link href="/stafflist">
           <li href="#" className="flex items-center cursor-pointer">
             STAFFS
@@ -143,7 +145,7 @@ const Navbar = () => {
                 </h1>
               </li>
             </Link>
-            <Link href="#">
+            <Link href="/department">
               <li>
                 <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
                   DEPARTMENTS

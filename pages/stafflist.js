@@ -47,8 +47,6 @@ const Milestones = () => {
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="overflow-x-scroll max-w-screen">
           <section className="relative z-30 w-[1500px] pb-20 mx-auto h-fit px-14 sm:px-4 sm:pb-10  ">
-            {/* <div className="z-10  absolute w-full top-0 left-0 h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/FounderTrustees/KITBG.jpeg')]  opacity-5"></div> */}
-
             <div className="flex items-center w-full h-16 p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
               <div className=" w-[5%] text-left pl-2">Sr.No.</div>
               <div className=" w-[20%] text-left pl-2">Name of the Faculty</div>

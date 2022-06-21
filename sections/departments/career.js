@@ -11,9 +11,9 @@ const Career = () => {
           alt="pose"
         />
       </div>
-      <div className=" w-[750px] bg-slate-50 p-6">
+      <div className=" w-[750px] rounded-xl bg-slate-50 p-6">
         {/* <div className=" h-[65px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div> */}
-        <div className="ml-3 md:ml-2 w-fit  font-[800]   text-[#3D3859] leading-[54px] text-5xl  md:text-[22px]">
+        <div className="ml-3 md:ml-2 w-fit  font-[800]   text-[#3D3859] leading-[54px] text-4xl  md:text-[22px]">
           CONSTRUCT A <span className="text-[#20AD96] "> STUNNING</span> CAREER
           PERSPECTIVE
         </div>

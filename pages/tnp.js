@@ -1,5 +1,8 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
+import BranchPlacement from "../sections/departments/branchPlacement"
+import EsteemedRecruiters from "../sections/home-page/EsteemedRecruiters"
+import Career from "../sections/departments/career"
 
 const TnP = () => {
   return (
@@ -55,7 +58,7 @@ const TnP = () => {
           <div className="flex justify-between">
             <div>
               <div className="pt-28 text-[#24346D] text-4xl font-bold flex h-fit items-center align-middle">
-                <div className="h-10 w-2 bg-primary rounded-md mr-4"></div>
+                <div className="w-2 h-10 mr-4 rounded-md bg-primary"></div>
                 TPO'S MESSAGE
               </div>
               <div className="mt-10 w-[800px] text-xl text-accent">
@@ -71,14 +74,16 @@ const TnP = () => {
               </div>
             </div>
             <div className="w-[300px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl items-center flex flex-col">
-              <div className="bg-white rounded-xl overflow-hidden">
+              <div className="overflow-hidden bg-white rounded-xl">
                 <img src="/images/TnP/amitsarkar.png" alt="amitsarkar.png" />
               </div>
               <div className="mt-2">DR. Amit Sarkar</div>
             </div>
           </div>
         </section>
-
+        <BranchPlacement />
+        <Career />
+        <EsteemedRecruiters />
         <Footer />
       </div>
     </DefaultLayout>

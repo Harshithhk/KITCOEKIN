@@ -8,6 +8,8 @@ import MissionCards from "../sections/about-us/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
 import Career from "../sections/departments/career"
+import Hod from "../sections/departments/hod"
+import TnP from "./tnp"
 const about = () => {
   return (
     <DefaultLayout>
@@ -66,7 +68,7 @@ const about = () => {
         </section>
         <section className="mt-16 mx-auto  w-[1407px] sm:w-[90%] sm:mt-8"></section>
         <Career />
-        <AboutUs />
+        <Hod />
         <Awsome />
         <OurVision />
         <MissionCards />
