@@ -59,7 +59,7 @@ const TnP = () => {
             <div>
               <div className="pt-28 text-[#24346D] text-4xl font-bold flex h-fit items-center align-middle">
                 <div className="w-2 h-10 mr-4 rounded-md bg-primary"></div>
-                TPO'S MESSAGE
+                TPO&apos;S MESSAGE
               </div>
               <div className="mt-10 w-[800px] text-xl text-accent">
                 This era of globalization has opened enormous opportunities for
