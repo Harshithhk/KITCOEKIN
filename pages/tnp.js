@@ -50,18 +50,18 @@ const TnP = () => {
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-white px-14 sm:px-4 sm:pb-10">
           <img
-            className="absolute -top-28 w-[205px] h-[170px]"
+            className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
             src="/images/TnP/indicator.png"
             alt=""
           />
 
-          <div className="flex justify-between">
+          <div className="flex justify-between sm:flex-col">
             <div>
-              <div className="pt-28 text-[#24346D] text-4xl font-bold flex h-fit items-center align-middle">
-                <div className="w-2 h-10 mr-4 rounded-md bg-primary"></div>
+              <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                 TPO&apos;S MESSAGE
               </div>
-              <div className="mt-10 w-[800px] text-xl text-accent">
+              <div className="mt-10 sm:mt-4 w-[800px] text-xl text-accent sm:w-full sm:text-base">
                 This era of globalization has opened enormous opportunities for
                 young and talented budding engineers in all the walks of life.
                 As a result, the expectations from the young engineers are that
@@ -73,7 +73,7 @@ const TnP = () => {
                 students from academics to corporate life.
               </div>
             </div>
-            <div className="w-[300px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl items-center flex flex-col">
+            <div className="w-[300px] sm:h-[320px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl sm:text-lg items-center flex flex-col sm:mt-8 sm:w-[250px] sm:mx-auto">
               <div className="overflow-hidden bg-white rounded-xl">
                 <img src="/images/TnP/amitsarkar.png" alt="amitsarkar.png" />
               </div>
@@ -82,8 +82,10 @@ const TnP = () => {
           </div>
         </section>
         <BranchPlacement />
-        <Career />
         <EsteemedRecruiters />
+        <section className="w-full py-8 bg-white">
+          <Career />
+        </section>
         <Footer />
       </div>
     </DefaultLayout>
