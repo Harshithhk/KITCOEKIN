@@ -56,12 +56,16 @@ const Navbar = () => {
             FOUNDER TRUSTEES
           </li>
         </Link>
-        <li href="#" className="flex items-center cursor-pointer">
-          DEPARTMENTS{" "}
-        </li>
-        <li href="#" className="flex items-center cursor-pointer">
-          OTHERS
-        </li>
+        <Link href="/department">
+          <li href="#" className="flex items-center cursor-pointer">
+            DEPARTMENTS{" "}
+          </li>
+        </Link>
+        <Link href="/stafflist">
+          <li href="#" className="flex items-center cursor-pointer">
+            STAFFS
+          </li>
+        </Link>
         <li href="#" className="flex items-center cursor-pointer">
           <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
           CONTACT
@@ -141,17 +145,17 @@ const Navbar = () => {
                 </h1>
               </li>
             </Link>
-            <Link href="#">
+            <Link href="/department">
               <li>
                 <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
                   DEPARTMENTS
                 </h1>
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/stafflist">
               <li>
                 <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
-                  OTHERS{" "}
+                  STAFFS{" "}
                   <img
                     src="/images/Milestones/.svg"
                     className="absolute"

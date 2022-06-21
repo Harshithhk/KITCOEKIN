@@ -29,18 +29,24 @@ const Milestones = () => {
             alt=""
           />
           <div className="absolute w-full h-[250px] top-0 left-0 bg-[#24346D] z-0"></div>
-          <h1 className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20">
+          <h1
+            data-aos="zoom-in"
+            data-aos-delay="0"
+            className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
+          >
             KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
           </h1>
-          <h1 className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20">
+          <h1
+            data-aos="zoom-in"
+            data-aos-delay="0"
+            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
+          >
             COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
           </h1>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="overflow-x-scroll max-w-screen">
           <section className="relative z-30 w-[1500px] pb-20 mx-auto h-fit px-14 sm:px-4 sm:pb-10  ">
-            {/* <div className="z-10  absolute w-full top-0 left-0 h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/FounderTrustees/KITBG.jpeg')]  opacity-5"></div> */}
-
             <div className="flex items-center w-full h-16 p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
               <div className=" w-[5%] text-left pl-2">Sr.No.</div>
               <div className=" w-[20%] text-left pl-2">Name of the Faculty</div>
@@ -63,7 +69,8 @@ const Milestones = () => {
               <div className=" w-[10%] text-left pl-2">Director</div>
               <div className=" w-[10%] text-left pl-2">02/02/2014 </div>
               <div className=" w-[25%] text-left pl-2">
-                BE (Electrical) , ME (Electronics) Ph.D
+                BE (Electrical) , ME (Electronics) Ph.D BE (Electrical) , ME
+                (Electronics) Ph.D
               </div>
               <div className=" w-[15%] text-left pl-2">Regular</div>
               <div className=" w-[5%] text-left pl-2">34</div>

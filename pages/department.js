@@ -7,6 +7,9 @@ import AboutUs from "../sections/about-us/AboutUs"
 import MissionCards from "../sections/about-us/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
+import Career from "../sections/departments/career"
+import Hod from "../sections/departments/hod"
+import TnP from "./tnp"
 const about = () => {
   return (
     <DefaultLayout>
@@ -52,7 +55,7 @@ const about = () => {
 
           <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">
             <img
-              src="/images/AboutUs/IMAGE-GALLARY.png"
+              src="/images/Department/DepartmentGalary.png"
               className="w-full h-full sm:hidden 2xl:block"
               alt=""
             />
@@ -63,7 +66,9 @@ const about = () => {
             />
           </div>
         </section>
-        <AboutUs />
+        <section className="mt-16 mx-auto  w-[1407px] sm:w-[90%] sm:mt-8"></section>
+        <Career />
+        <Hod />
         <Awsome />
         <OurVision />
         <MissionCards />
