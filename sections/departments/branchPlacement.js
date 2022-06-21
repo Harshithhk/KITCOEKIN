@@ -9,7 +9,7 @@ const branchPlacement = () => {
           BRANCH WISE PLACEMENT
         </div>
       </div>
-      <section className="relative z-30 w-[1500px] pb-20 mx-auto h-fit px-14  sm:px-4 sm:pb-10">
+      <section className="relative z-30 w-[1500px] pb-20 mx-auto h-fit px-14  sm:px-4 sm:pb-10 sm:w-[1000px]">
         <div className="flex items-center w-full h-16 p-2 mt-8 font-semibold text-center rounded-lg shadow-lg ">
           <div className=" w-[25%] text-left pl-2">Branch</div>
           <div className=" w-[25%] text-left pl-2">2018-2019</div>
