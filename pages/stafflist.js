@@ -1,7 +1,7 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 
-const Milestones = () => {
+const StaffList = () => {
   return (
     <DefaultLayout>
       <div className="w-full ">
@@ -168,4 +168,4 @@ const Milestones = () => {
   )
 }
 
-export default Milestones
+export default StaffList
