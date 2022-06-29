@@ -4,7 +4,7 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import Aos from "aos"
 import "aos/dist/aos.css"
-import About from "../sections/Navbar/about/index.js"
+import About from "./about/index.js"
 
 const Navbar = () => {
   
