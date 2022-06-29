@@ -14,7 +14,7 @@ const Awsome = () => {
           <h1 className="text-[#24346D] sm:text-xl text-[26px] font-bold mt-1 sm:mt-0">
             Best Program
           </h1>
-          <div className="text-xl text-[#35457E] mt-2 sm:text-sm">
+          <div className="text-xl text-justify text-[#35457E] mt-2 sm:text-sm">
             Lorem Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibg euismod
           </div>
@@ -30,7 +30,7 @@ const Awsome = () => {
           <h1 className="text-[#24346D] sm:text-xl text-[26px] font-bold mt-1 sm:mt-0">
             Best Program
           </h1>
-          <div className="text-xl text-[#35457E] mt-2 sm:text-sm">
+          <div className="text-xl text-justify text-[#35457E] mt-2 sm:text-sm">
             Lorem Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibg euismod
           </div>
@@ -45,7 +45,7 @@ const Awsome = () => {
           <h1 className="text-[#24346D] sm:text-xl text-[26px] font-bold mt-1 sm:mt-0">
             Best Program
           </h1>
-          <div className="text-xl text-[#35457E] mt-2 sm:text-sm">
+          <div className="text-xl text-justify text-[#35457E] mt-2 sm:text-sm">
             Lorem Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibg euismod
           </div>
@@ -60,7 +60,7 @@ const Awsome = () => {
           <h1 className="text-[#24346D] sm:text-xl text-[26px] font-bold mt-1 sm:mt-0">
             Best Program
           </h1>
-          <div className="text-xl text-[#35457E] mt-2 sm:text-sm">
+          <div className="text-xl text-justify text-[#35457E] mt-2 sm:text-sm">
             Lorem Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibg euismod
           </div>

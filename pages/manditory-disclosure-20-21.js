@@ -1,7 +1,7 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 
-const GoverningCouncil = () => {
+const ManditoryDisclosure20 = () => {
    let governingCouncilList = [
     {
       "SrNo": "1",
@@ -138,29 +138,120 @@ const GoverningCouncil = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            Governing Council
+            Manditory Disclosure 
           </h1>
           <br></br>
           <br></br>
           <h6
-            // data-aos="zoom-in"
-            // data-aos-delay="0"
+            data-aos="zoom-in"
+            data-aos-delay="0"
             className="w-[75%] sm:text-xl font-bold text-center text-white z-20"
           >
-             Home<i style='font-size:24px' class='fas'>&#xf0da;</i>Governing Council
+             Home | Manditory Disclosure 2020-2021
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="overflow-x-scroll max-w-screen">
           <section className="relative z-30 w-[1500px] pb-20 mx-auto h-fit px-14 sm:px-4 sm:pb-10  ">
-            <div className="flex items-center w-full h-16 p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
-              <div className=" w-[5%] text-left pl-2">Sr.No.</div>
-              <div className=" w-[18.5%] text-left pl-2">Name</div>
-              <div className=" w-[52.5%] text-left pl-2">Designation</div>
-              <div className=" w-[20%] text-left pl-2">Position in Governing Council</div>
+           
+           
+            <div className=" items-center w-[800px] h-fit p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
+                               <div className="flex mt-2 mb-2">
+                                    <div className=" w-[50%] text-left pl-2 text-slate-400">	Name of the Institution</div>
+                                    <div className=" w-[50%] text-left pl-2 ">		
+                                        Kolhapur Institute of Technology's
+                                        College of Engineering (Autonomous), Kolhapur
+                                    </div>
+                                </div>
+                                <hr></hr>   
+                                <div className="flex mt-2 mb-2">
+                                    <div className=" w-[50%] text-left pl-2 text-slate-400">	Address of the Institution</div>
+                                    <div className=" w-[50%] text-left pl-2">	R.S.No.199B/1-3
+                                        Gokul Shirgaon, Kolhapur - 416 234,
+                                        Maharashtra, INDIA.
+                                    </div>
+                                </div> 
+                                <hr></hr> 
+                                    <div className="flex mt-2 mb-2">
+                                        <div className=" w-[50%] text-left pl-2 text-slate-400">		City and Pin Code</div>
+                                        <div className=" w-[50%] text-left pl-2">	Kolhapur – 416234</div>
+                                    </div>   
+                                    <hr></hr> 
+                                    <div className="flex mt-2 mb-2">
+                                        <div className=" w-[50%] text-left pl-2 text-slate-400">		State / UT</div>
+                                        <div className=" w-[50%] text-left pl-2">		Maharashtra</div>
+                                    </div> 
+                                    <hr></hr> 
+                                    <div className="flex mt-2 mb-2">
+                                        <div className=" w-[50%] text-left pl-2 text-slate-400">			Phone number with STD code</div>
+                                        <div className=" w-[50%] text-left pl-2">		0231-2636202</div>
+                                    </div> 
+                                    <hr></hr> 
+                                    <div className="flex mt-2 mb-2">
+                                        <div className=" w-[50%] text-left pl-2 text-slate-400">			Email</div>
+                                        <div className=" w-[50%] text-left pl-2">		info@mail.kitcoek.in</div>
+                                    </div> 
+                                    <hr></hr> 
+                                    <div className="flex mt-2 mb-2">
+                                        <div className=" w-[50%] text-left pl-2 text-slate-400">			Website</div>
+                                        <div className=" w-[50%] text-left pl-2">		www.kitcoek.in</div>
+                                    </div>                                 
             </div>
 
-            {governingCouncilList.map((item,index)=>{
+            
+            <div className=" items-center  w-[800px] h-fit p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
+                               <div className="flex mt-2 mb-2">
+                                    <div className=" w-[50%] text-left pl-2 text-slate-400">Name of the Trust</div>
+                                    <div className=" w-[50%] text-left pl-2 ">		
+                                    Kolhapur Institute of Technology, Kolhapur
+                                    </div>
+                                </div>
+                                <hr></hr>   
+                                <div className="flex mt-2 mb-2">
+                                    <div className=" w-[50%] text-left pl-2 text-slate-400">Address of the organization</div>
+                                    <div className=" w-[50%] text-left pl-2">		R.S.No.199B/1-3,Gokul Shirgaon,
+Kolhapur - 416 234, Maharashtra, INDIA.
+                                    </div>
+                                </div> 
+                                <hr></hr> 
+                                    <div className="flex mt-2 mb-2">
+                                        <div className=" w-[50%] text-left pl-2 text-slate-400">Website of the organization</div>
+                                        <div className=" w-[50%] text-left pl-2">	www.kitcoek.in</div>
+                                    </div>   
+                                    <hr></hr> 
+                                    <div className="flex mt-2 mb-2">
+                                        <div className=" w-[50%] text-left pl-2 text-slate-400">Phone number with STD code</div>
+                                        <div className=" w-[50%] text-left pl-2">	7769001199, 9168781199</div>
+                                    </div>                                  
+            </div>
+            {/*  */}
+
+            <div className=" items-center  w-[800px] h-fit p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
+                               <div className="flex mt-2 mb-2">
+                                    <div className=" w-[50%] text-left pl-2 text-slate-400">Name of the Trust</div>
+                                    <div className=" w-[50%] text-left pl-2 ">		
+                                    Kolhapur Institute of Technology, Kolhapur
+                                    </div>
+                                </div>
+                                <hr></hr>   
+                                <div className="flex mt-2 mb-2">
+                                    <div className=" w-[50%] text-left pl-2 text-slate-400">Address of the organization</div>
+                                    <div className=" w-[50%] text-left pl-2">		R.S.No.199B/1-3,Gokul Shirgaon,
+Kolhapur - 416 234, Maharashtra, INDIA.
+                                    </div>
+                                </div> 
+                                <hr></hr> 
+                                    <div className="flex mt-2 mb-2">
+                                        <div className=" w-[50%] text-left pl-2 text-slate-400">Website of the organization</div>
+                                        <div className=" w-[50%] text-left pl-2">	www.kitcoek.in</div>
+                                    </div>   
+                                    <hr></hr> 
+                                    <div className="flex mt-2 mb-2">
+                                        <div className=" w-[50%] text-left pl-2 text-slate-400">Phone number with STD code</div>
+                                        <div className=" w-[50%] text-left pl-2">	7769001199, 9168781199</div>
+                                    </div>                                  
+            </div>
+            {/* {governingCouncilList.map((item,index)=>{
                         console.log(item)
                         if(index == 0){
                             return(
@@ -191,7 +282,7 @@ const GoverningCouncil = () => {
                             );
                         }
                        
-            })}
+            })} */}
 
 
     
@@ -205,4 +296,4 @@ const GoverningCouncil = () => {
   )
 }
 
-export default GoverningCouncil
+export default ManditoryDisclosure20

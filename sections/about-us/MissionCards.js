@@ -8,7 +8,7 @@ const MissionCards = () => {
         <h1 className="font-bold text-primary text-5xl sm:text-lg">
           Our Mission
         </h1>
-        <div className="text-xl mt-5 sm:text-xs sm:mt-1">
+        <div className="text-xl text-justify mt-5 sm:text-xs sm:mt-1">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint
           dolorem nesciunt officia alias aut. Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Explicabo dolorum ipsum similique sint
@@ -21,7 +21,7 @@ const MissionCards = () => {
         <h1 className="font-bold text-primary text-5xl sm:text-lg">
           Our Mission
         </h1>
-        <div className="text-xl mt-5 sm:text-xs sm:mt-1">
+        <div className="text-xl text-justify mt-5 sm:text-xs sm:mt-1">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint
           dolorem nesciunt officia alias aut. Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Explicabo dolorum ipsum similique sint
@@ -33,7 +33,7 @@ const MissionCards = () => {
         <h1 className="font-bold text-primary text-5xl sm:text-lg">
           Our Mission
         </h1>
-        <div className="text-xl mt-5 sm:text-xs sm:mt-1">
+        <div className="text-xl text-justify mt-5 sm:text-xs sm:mt-1">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint
           dolorem nesciunt officia alias aut. Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Explicabo dolorum ipsum similique sint
@@ -45,7 +45,7 @@ const MissionCards = () => {
         <h1 className="font-bold text-primary text-5xl sm:text-lg">
           Our Mission
         </h1>
-        <div className="text-xl mt-5 sm:text-xs sm:mt-1">
+        <div className="text-xl text-justify mt-5 sm:text-xs sm:mt-1">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint
           dolorem nesciunt officia alias aut. Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Explicabo dolorum ipsum similique sint

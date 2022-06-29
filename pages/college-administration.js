@@ -4,7 +4,7 @@ import BranchPlacement from "../sections/departments/branchPlacement"
 import EsteemedRecruiters from "../sections/home-page/EsteemedRecruiters"
 import Career from "../sections/departments/career"
 
-const BoardOfDirectors = () => {
+const CollegeAdministration = () => {
   return (
     <DefaultLayout>
       <div className="w-full bg-[#24346D]">
@@ -59,18 +59,20 @@ const BoardOfDirectors = () => {
             <div>
               <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                CHAIRMAN&apos;S MESSAGE
+                DIRECTOR&apos;S MESSAGE
               </div>
-              <div className="mt-10 sm:mt-4 w-[800px] text-xl text-accent sm:w-full sm:text-base">
-              KIT, over the years, has created a brand image at the State and National level 
-              for giving our country, engineers, who are well prepared to face the future challenges, 
-              Our institute has constantly made efforts to give more focus in enhancing teaching and learning 
-              systems.We do understand that a lot needs to be done in bringing creativity and critical thinking 
-              in our curriculum, which will further inculcate skills to enable our students’ demonstrate higher 
-              levels of expertise. It will be our endeavours to add more qualified PhDs into our faculty base, 
-              which will strengthen research at all levels. I greatly appreciate the involvement of both the students 
-              and faculty in organizing State and National level workshops, which greatly help our institute to 
-              understand the current trends in the market.
+              <div className="mt-10 text-justify sm:mt-4 w-[800px] text-xl text-accent sm:w-full sm:text-base">
+              Education, wealth and strength are necessary for everyone. But the value of each of them 
+              depends on the way you use it. Education without character, politics without principles 
+              and commerce without morality are not only useless, but positively dangerous. Education 
+              is the ornament for human beings. It is the secret wealth. It is to be valued not as means 
+              of earning one’s livelihood, but as the essential requisite for a happy, peaceful and progressive 
+              life. Engineering offers a highly rewarding and lucrative career – one in which you can apply 
+              intuitive, imaginative and creative ideas to find appropriate solutions to the challenges 
+              facing our society. I wish you success in sharing knowledge, ideas and solving important societal 
+              needs and issues. However, the ‘Success in life’ will certainly depend upon creating high ethical 
+              and moral values besides imparting and inculcating up-to date knowledge and skills. On behalf of KIT’s 
+              College of Engineering, I wish you all the best in your personal and professional career.
               <br></br>
               <br></br>
               <p>I wish everyone the very best for the year ahead.</p>
@@ -78,9 +80,9 @@ const BoardOfDirectors = () => {
             </div>
             <div className="w-[300px] sm:h-[320px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl sm:text-lg items-center flex flex-col sm:mt-8 sm:w-[250px] sm:mx-auto">
               <div className="overflow-hidden bg-white rounded-xl">
-                <img src="/images/BoardOfDirectors/sunil-kulkarni1.jpg" alt="sunil-kulkarni1.jpg" />
+                <img src="/images/CollegeAdministration/v-v-karjinni.jpg" alt="v-v-karjinni.jpg" />
               </div>
-              <div className="mt-2">Shri. Sunil Kulkarni</div>
+              <div className="mt-2">Dr. V. V. Karjinni</div>
             </div>
           </div>
         </section>
@@ -95,4 +97,4 @@ const BoardOfDirectors = () => {
   )
 }
 
-export default BoardOfDirectors
+export default CollegeAdministration

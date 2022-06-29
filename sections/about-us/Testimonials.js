@@ -52,7 +52,7 @@ const Testimonials = () => {
             />
           </div>
 
-          <div className="mt-2  sm:text-sm text-xl text-accent">
+          <div className="mt-2 text-justify sm:text-sm text-xl text-accent">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
             minus reiciendis quae aspernatur soluta saepe incidunt culpa
             molestias, nesciunt maxime esse.
@@ -83,7 +83,7 @@ const Testimonials = () => {
             />
           </div>
 
-          <div className="mt-2  sm:text-sm text-xl text-accent">
+          <div className="mt-2 text-justify sm:text-sm text-xl text-accent">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
             minus reiciendis quae aspernatur soluta saepe incidunt culpa
             molestias, nesciunt maxime esse.
@@ -114,7 +114,7 @@ const Testimonials = () => {
             />
           </div>
 
-          <div className="mt-2  sm:text-sm text-xl text-accent">
+          <div className="mt-2 text-justify sm:text-sm text-xl text-accent">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
             minus reiciendis quae aspernatur soluta saepe incidunt culpa
             molestias, nesciunt maxime esse.

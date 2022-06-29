@@ -1,10 +1,13 @@
+import React from "react"
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import About from "../sections/Navbar/about/index.js"
 
 const Navbar = () => {
+  
   const [isNavOpen, setIsNavOpen] = useState(false)
 
   useEffect(() => {
@@ -19,6 +22,7 @@ const Navbar = () => {
         router.route != "/" ? "bg-[#24346D]" : "bg-slate-50"
       }`}
     >
+      
       <Link href="/">
         <img
           src={`${
@@ -36,22 +40,12 @@ const Navbar = () => {
           router.route != "/" ? "text-white" : "text-[#666666]"
         } `}
       >
-        <Link href="/about">
-          <li
-            href="/about"
-            className={`flex items-center font-bold  cursor-pointer  ${
-              router.route != "/" ? "text-white" : "text-black"
-            }`}
-          >
-            ABOUT
-          </li>
+        
+        <Link href="#">
+          <About/>       
         </Link>
-        <Link href="/milestones">
-          <li href="#" className="flex items-center cursor-pointer">
-            MILESTONES
-          </li>
-        </Link>
-        <Link href="/foundertrustees">
+        
+        <Link href="/founder-trustees">
           <li href="#" className="flex items-center cursor-pointer">
             FOUNDER TRUSTEES
           </li>
@@ -61,11 +55,12 @@ const Navbar = () => {
             DEPARTMENTS{" "}
           </li>
         </Link>
-        <Link href="/stafflist">
+        <Link href="/staff-list">
           <li href="#" className="flex items-center cursor-pointer">
             STAFFS
           </li>
         </Link>
+        
         <li href="#" className="flex items-center cursor-pointer">
           <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
           CONTACT

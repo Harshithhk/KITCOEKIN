@@ -24,7 +24,7 @@ const OurVision = () => {
             alt=""
           />
         </div>
-        <div className="text-xl sm:mt-4  mt-8 text-[#24346D] font-semibold sm:text-base">
+        <div className="text-xl text-justify sm:mt-4  mt-8 text-[#24346D] font-semibold sm:text-base">
           To be the center of excellence in technical education andpreffered
           choice of students, faculty, industry and society. Lorem ipsum, dolor
           sit amet consectetur adipisicing elit. Quibusdam, omnis. Lorem ipsum
