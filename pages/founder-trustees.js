@@ -45,7 +45,7 @@ const FounderTrustees = () => {
           </h1>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
-        <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-green-50 px-14 sm:px-4 sm:pb-10">
+        <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-[#F8F7FC] px-14 sm:px-4 sm:pb-10">
           <div className="z-10  absolute w-full top-0 left-0 h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/FounderTrustees/KITBG.jpeg')]  opacity-10"></div>
 
           <h1 className="text-5xl w-fit mx-auto pt-16 sm:pt-8 text-[#24346D] font-bold sm:text-2xl">

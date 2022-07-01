@@ -38,7 +38,7 @@ const Testimonials = () => {
               />
               <div className="ml-2 sm:ml-1 ">
                 <h1 className="text-3xl text-accent font-bold sm:text-base">
-                  Rushikesh Patil
+                  Swapnil Jadhav
                 </h1>
                 <div className="text-base text-[#6A6A6A] sm:text-xs sm:-translate-y-1">
                   Software Engineer
@@ -69,7 +69,7 @@ const Testimonials = () => {
               />
               <div className="ml-2 sm:ml-1 ">
                 <h1 className="text-3xl text-accent font-bold sm:text-base">
-                  Rushikesh Patil
+                  Harshith Kelkar
                 </h1>
                 <div className="text-base text-[#6A6A6A] sm:text-xs sm:-translate-y-1">
                   Software Engineer

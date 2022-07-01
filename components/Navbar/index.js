@@ -5,10 +5,13 @@ import { useRouter } from "next/router"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import About from "./about/index.js"
+import Admissions from "./admissions/index.js"
+import Departments from "./departments/index.js"
 
 const Navbar = () => {
   
   const [isNavOpen, setIsNavOpen] = useState(false)
+ 
 
   useEffect(() => {
     Aos.init({ duration: 500, delay: 20 })
@@ -45,19 +48,15 @@ const Navbar = () => {
           <About/>       
         </Link>
         
-        <Link href="/founder-trustees">
-          <li href="#" className="flex items-center cursor-pointer">
-            FOUNDER TRUSTEES
-          </li>
+        <Link href="#">
+          <Admissions/>
         </Link>
-        <Link href="/department">
-          <li href="#" className="flex items-center cursor-pointer">
-            DEPARTMENTS{" "}
-          </li>
+        <Link href="/#">
+          <Departments/>
         </Link>
-        <Link href="/staff-list">
+        <Link href="/tnp">
           <li href="#" className="flex items-center cursor-pointer">
-            STAFFS
+            T&P CELL
           </li>
         </Link>
         

@@ -30,7 +30,7 @@ const About = () => {
     <div className="mt-2 ">
           <li
             href="/about"
-            className={`flex items-center font-bold  cursor-pointer  ${
+            className={`flex items-center   cursor-pointer  ${
               router.route != "/" ? "text-white" : "text-black"
             }`}
             onClick={() => (setFlyer(!flyer), setFlyerTwo(false))}

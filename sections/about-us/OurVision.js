@@ -25,10 +25,9 @@ const OurVision = () => {
           />
         </div>
         <div className="text-xl text-justify sm:mt-4  mt-8 text-[#24346D] font-semibold sm:text-base">
-          To be the center of excellence in technical education andpreffered
-          choice of students, faculty, industry and society. Lorem ipsum, dolor
-          sit amet consectetur adipisicing elit. Quibusdam, omnis. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. <br />
+        To be preferred choice of stakeholders by building core theoretical and practical 
+        skills in the students and abreast them to be globally competent with the latest technologies,
+         skills and developments emerging in the field of Computer Science and Engineering. <br />
           <br />
           Cupiditate laudantium repellendus recusandae aliquam, provident nihil
           neque voluptatem et facere dolore incidunt ratione, quas earum

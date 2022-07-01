@@ -8,7 +8,7 @@ const hod = () => (
           <div className="w-2 h-10 mr-4 rounded-md bg-primary"></div>
           HOD'S MESSAGE
         </div>
-        <div className="mt-10 w-[800px] text-xl text-accent">
+        <div className="mt-10 w-[800px] text-xl text-accent text-justify">
           This era of globalization has opened enormous opportunities for young
           and talented budding engineers in all the walks of life. As a result,
           the expectations from the young engineers are that they should mould
