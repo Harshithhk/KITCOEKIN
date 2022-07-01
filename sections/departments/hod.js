@@ -2,13 +2,13 @@ import React from "react"
 
 const hod = () => (
   <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-white px-14 sm:px-4 sm:pb-10">
-    <div className="flex justify-between">
+    <div className="flex md:flex-col justify-between">
       <div>
-        <div className="pt-28 text-[#24346D] text-4xl font-bold flex h-fit items-center align-middle">
-          <div className="w-2 h-10 mr-4 rounded-md bg-primary"></div>
+        <div className="pt-28 md:pt-14 text-[#24346D] text-4xl md:text-3xl font-bold flex h-fit items-center align-middle">
+          <div className="w-2 h-10 md:h-8 md:w-1 md:mr-2 mr-4 rounded-md bg-primary "></div>
           HOD'S MESSAGE
         </div>
-        <div className="mt-10 w-[800px] text-xl text-accent">
+        <div className="mt-10 w-[800px] text-xl text-accent md:w-[95%] md:mt-4 md:text-base ">
           This era of globalization has opened enormous opportunities for young
           and talented budding engineers in all the walks of life. As a result,
           the expectations from the young engineers are that they should mould
@@ -27,11 +27,11 @@ const hod = () => (
           blanditiis?
         </div>
       </div>
-      <div className="w-[300px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl items-center flex flex-col">
+      <div className="md:mx-auto w-[300px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl md:text-xl  items-center flex flex-col md:mt-14">
         <div className="overflow-hidden bg-white rounded-xl">
-          <img src="/images/Department/mamta-kalas.png" alt="amitsarkar.png" />
+          <img src="/images/Department/mamta-kalas.png" alt="mamtakalas.png" />
         </div>
-        <div className="mt-2">DR. Amit Sarkar</div>
+        <div className="mt-2">DR.Mamata S.Kalash</div>
       </div>
     </div>
   </section>

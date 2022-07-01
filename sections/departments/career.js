@@ -2,16 +2,15 @@ import React from "react"
 
 const Career = () => {
   return (
-    <section className="mt-16 mx-auto  w-[1407px] sm:w-full sm:mt-8 flex items-start justify-between">
+    <section className="mt-16 mx-auto  w-[1407px] sm:w-full sm:mt-8 flex items-end relative justify-between ">
+      <img
+        className="absolute md:hidden w-[800px]"
+        src="/images/AboutUs/pose.png"
+        alt="pose"
+      />
       {/* HEADING */}
-      <div className="w-[542px] sm:hidden  h-[500px]">
-        <img
-          className="h-[650px] w-fit"
-          src="/images/Department/pose.png"
-          alt="pose"
-        />
-      </div>
-      <div className=" w-[750px] rounded-xl bg-slate-50 p-6 sm:w-full">
+      <div className="w-[542px] sm:hidden  bg-cover h-[500px]"></div>
+      <div className="  w-[750px] rounded-xl bg-slate-50 p-6 sm:w-full">
         {/* <div className=" h-[65px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div> */}
         <div className="ml-3 md:ml-2 w-fit  font-[800]   text-[#3D3859] leading-[54px] text-4xl  md:text-[22px] sm:leading-normal">
           CONSTRUCT A <span className="text-[#20AD96] "> STUNNING</span> CAREER

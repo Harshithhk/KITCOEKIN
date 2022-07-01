@@ -3,6 +3,7 @@ import Footer from "../sections/home-page/Footer"
 import BranchPlacement from "../sections/departments/branchPlacement"
 import EsteemedRecruiters from "../sections/home-page/EsteemedRecruiters"
 import Career from "../sections/departments/career"
+import CampusPlacement from "../sections/departments/campusplacement"
 
 const TnP = () => {
   return (
@@ -81,6 +82,7 @@ const TnP = () => {
             </div>
           </div>
         </section>
+        <CampusPlacement />
         <BranchPlacement />
         <EsteemedRecruiters />
         <section className="w-full py-8 bg-white">
