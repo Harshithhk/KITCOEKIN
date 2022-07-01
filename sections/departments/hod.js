@@ -27,11 +27,11 @@ const hod = () => (
           blanditiis?
         </div>
       </div>
-      <div className="w-[300px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl items-center flex flex-col">
+      <div className="md:mx-auto w-[300px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl md:text-xl  items-center flex flex-col md:mt-14">
         <div className="overflow-hidden bg-white rounded-xl">
-          <img src="/images/Department/mamta-kalas.png" alt="amitsarkar.png" />
+          <img src="/images/Department/mamta-kalas.png" alt="mamtakalas.png" />
         </div>
-        <div className="mt-2">DR. Amit Sarkar</div>
+        <div className="mt-2">DR.Mamata S.Kalash</div>
       </div>
     </div>
   </section>
