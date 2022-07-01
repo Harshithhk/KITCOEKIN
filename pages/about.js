@@ -52,12 +52,12 @@ const about = () => {
 
           <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">
             <img
-              src="/images/AboutUs/IMAGE-GALLARY.png"
+              src="/images/AboutUs/IMAGE-GALLARY-1.png"
               className="w-full h-full sm:hidden 2xl:block"
               alt=""
             />
             <img
-              src="/images/AboutUs/Gallary-mobile.png"
+              src="/images/AboutUs/Gallary-mobile-1.png"
               className="w-full h-full sm:block 2xl:hidden"
               alt=""
             />
