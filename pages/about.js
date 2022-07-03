@@ -7,6 +7,7 @@ import AboutUs from "../sections/about-us/AboutUs"
 import MissionCards from "../sections/about-us/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
+import Accreditation from "../sections/home-page/Accredations"
 const about = () => {
   return (
     <DefaultLayout>
@@ -65,7 +66,10 @@ const about = () => {
         </section>
         <AboutUs />
         <Awsome />
-        <OurVision />
+        <Accreditation />
+        <div className="mt-4">
+          <OurVision />
+        </div>
         <MissionCards />
         <Testimonials />
         <Footer />

@@ -25,13 +25,13 @@ const OurVision = () => {
           />
         </div>
         <div className="text-xl text-justify sm:mt-4  mt-8 text-[#24346D] font-semibold sm:text-base">
-        To be preferred choice of stakeholders by building core theoretical and practical 
-        skills in the students and abreast them to be globally competent with the latest technologies,
-         skills and developments emerging in the field of Computer Science and Engineering. <br />
+          To be the center of excellence in technical education and predered
+          choise of Students, Facult, Industry and Society
           <br />
-          Cupiditate laudantium repellendus recusandae aliquam, provident nihil
-          neque voluptatem et facere dolore incidunt ratione, quas earum
-          corporis, sapiente sit veniam voluptates tempore!
+          <br />
+          Building core theoretical and practical skills in the students and
+          abreast them to be globally competent with the latest technologies,
+          skills and developments emerging in the field of Engineering.
         </div>
       </div>
     </section>

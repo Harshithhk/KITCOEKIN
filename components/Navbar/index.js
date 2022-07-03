@@ -9,28 +9,24 @@ import Admissions from "./admissions/index.js"
 import Departments from "./departments/index.js"
 
 const Navbar = () => {
-  
   const [isNavOpen, setIsNavOpen] = useState(false)
- 
 
   useEffect(() => {
     Aos.init({ duration: 500, delay: 20 })
   }, [])
 
   const router = useRouter()
-  console.log(router.route)
   return (
     <nav
-      className={`h-[88px] sticky top-0 z-50  md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
+      className={`h-[75px] sticky top-0 z-50  md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
         router.route != "/" ? "bg-[#24346D]" : "bg-slate-50"
       }`}
     >
-      
       <Link href="/">
         <img
           src={`${
             router.route != "/"
-              ? "/images/Navbar/Logo-white.svg"
+              ? "/images/Navbar/Logo.svg"
               : "/images/Navbar/Logo.svg"
           }`}
           className="h-16 py-1 cursor-pointer sm:h-full"
@@ -43,23 +39,22 @@ const Navbar = () => {
           router.route != "/" ? "text-white" : "text-[#666666]"
         } `}
       >
-        
         <Link href="#">
-          <About/>       
+          <About />
         </Link>
-        
+
         <Link href="#">
-          <Admissions/>
+          <Admissions />
         </Link>
         <Link href="/#">
-          <Departments/>
+          <Departments />
         </Link>
         <Link href="/tnp">
           <li href="#" className="flex items-center cursor-pointer">
             T&P CELL
           </li>
         </Link>
-        
+
         <li href="#" className="flex items-center cursor-pointer">
           <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
           CONTACT
