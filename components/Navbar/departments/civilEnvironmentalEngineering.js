@@ -1,8 +1,9 @@
 import React from "react"
+import Link from "next/link"
 
 const CivilEnvironmentalEngineering = () => (
  
-    <a
+    <Link
                         href="/about"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
@@ -20,7 +21,7 @@ const CivilEnvironmentalEngineering = () => (
                             {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                           </p>
                         </div>
-                      </a>
+                      </Link>
  
 )
 

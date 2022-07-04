@@ -1,7 +1,8 @@
 import React from "react"
+import Link from "next/link"
 
 const GoverningCouncil = () => (
-                <a
+                <Link
                     href="governing-council"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -29,7 +30,7 @@ const GoverningCouncil = () => (
                         
                     </p>
                     </div>
-                </a>
+                </Link>
   )
 
 

@@ -1,9 +1,10 @@
 import React from "react"
+import Link from "next/link"
 
 const NIRF = () => {
 const [subNav20, setSubNav20] = React.useState(false);
   return (
-        <a
+        <Link
             href="#"
             className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
             onMouseEnter ={() => (setSubNav20(!subNav20))} onMouseLeave ={() => (setSubNav20(!subNav20))}
@@ -46,7 +47,7 @@ const [subNav20, setSubNav20] = React.useState(false);
             >
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                <a
+                <Link
                     href="#"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -62,8 +63,8 @@ const [subNav20, setSubNav20] = React.useState(false);
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
-                <a
+                </Link>
+                <Link
                     href="#"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -79,8 +80,8 @@ const [subNav20, setSubNav20] = React.useState(false);
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
-                <a
+                </Link>
+                <Link
                     href="/NIRF_IPR"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -97,8 +98,8 @@ const [subNav20, setSubNav20] = React.useState(false);
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
-                <a
+                </Link>
+                <Link
                     href="#"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -114,8 +115,8 @@ const [subNav20, setSubNav20] = React.useState(false);
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
-                <a
+                </Link>
+                <Link
                     href="#"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -130,11 +131,11 @@ const [subNav20, setSubNav20] = React.useState(false);
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
+                </Link>
                 </div>
                 </div>
         </div>
-        </a>
+        </Link>
   )
 }
 

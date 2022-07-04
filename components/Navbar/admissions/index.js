@@ -6,7 +6,7 @@ import Postgraduate from "./postgraduate"
 import Phdprogram from "./phdprogram"
 import Scholarship from "./scholarship"
 import VocationalCourses from "./vocationalCourses"
-
+import Link from "next/link"
 
 const Admissions = () => {
 
@@ -62,9 +62,9 @@ const Admissions = () => {
                       <VocationalCourses/>
                       <Scholarship/>
                     </div>
-                    <div className=" hidden px-5 py-5 bg-gray-50 flex">
+                    <div className=" hidden px-5 py-5 bg-gray-50  ">
                       
-                        <a
+                        <Link
                           href="#"
                           className="-m-3 p-3 w-[50%] flex items-center rounded-md text-base font-medium text-[#24346D]  hover:bg-gray-100"
                         >
@@ -91,10 +91,10 @@ const Admissions = () => {
                             />
                           </svg>
                           <span className="ml-3">Watch Video</span>
-                        </a>
+                        </Link>
                     
                      
-                        <a
+                        <Link
                           href="#"
                           className="-m-3 p-3 ml-4 w-[50%] flex items-center rounded-md text-base font-medium text-[#24346D]  hover:bg-gray-100"
                         >
@@ -115,7 +115,7 @@ const Admissions = () => {
                             />
                           </svg>
                           <span className="ml-3">Contact Us</span>
-                        </a>
+                        </Link>
                       
                     </div>
                   </div>

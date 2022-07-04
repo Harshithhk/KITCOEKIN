@@ -1,7 +1,8 @@
 import React from "react"
+import Link from "next/link"
 
 const Milestones = () => (
-            <a
+            <Link
                 href="milestones"
                 className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
             >
@@ -18,7 +19,7 @@ const Milestones = () => (
                     
                 </p>
                 </div>
-            </a>
+            </Link>
   )
 
 

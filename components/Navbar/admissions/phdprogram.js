@@ -1,10 +1,11 @@
 import React from "react"
+import Link from "next/link"
 
 const Phdprogram = () => {
   const [subNav30, setSubNav30] = React.useState(false);
   const [subNav31, setSubNav31] = React.useState(false);
   return (
-        <a
+        <Link
             href="#"
             className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
             onMouseEnter ={() => (setSubNav30(!subNav30))} onMouseLeave ={() => (setSubNav30(!subNav30))}
@@ -50,7 +51,7 @@ const Phdprogram = () => {
             >
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                <a
+                <Link
                     href="aicte-approval"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -67,8 +68,8 @@ const Phdprogram = () => {
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
-                <a
+                </Link>
+                <Link
                     href="aicte-approval"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -84,8 +85,8 @@ const Phdprogram = () => {
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
-                <a
+                </Link>
+                <Link
                     href="#"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                     onMouseEnter ={() => (setSubNav31(!subNav31))} onMouseLeave ={() => (setSubNav31(!subNav31))}
@@ -130,7 +131,7 @@ const Phdprogram = () => {
             >
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                <a
+                <Link
                     href="#"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -146,8 +147,8 @@ const Phdprogram = () => {
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
-                <a
+                </Link>
+                <Link
                     href="#"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -162,8 +163,8 @@ const Phdprogram = () => {
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
-                <a
+                </Link>
+                <Link
                     href="#"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -179,8 +180,8 @@ const Phdprogram = () => {
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
-                <a
+                </Link>
+                <Link
                     href="#"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -196,15 +197,15 @@ const Phdprogram = () => {
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
+                </Link>
                 </div>
                 </div>
         </div>
-                </a>
+                </Link>
                 </div>
                 </div>
         </div>
-        </a>
+        </Link>
   )
 }
 

@@ -1,7 +1,8 @@
 import React from "react"
+import Link from "next/link"
 
 const IQAC = () => (
-            <a
+            <Link
                 href="internal-quality-assurance-cell"
                 className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
             >
@@ -17,7 +18,7 @@ const IQAC = () => (
                 
                 </p>
                 </div>
-            </a>
+            </Link>
   )
 
 

@@ -1,10 +1,11 @@
 import React from "react"
+import Link from "next/link"
 
 const ManditoryDisclosure = () => {
     
   const [subNav40, setSubNav40] = React.useState(false);
   return (
-        <a
+        <Link
             href="#"
             className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
             onMouseEnter ={() => (setSubNav40(!subNav40))} onMouseLeave ={() => (setSubNav40(!subNav40))}
@@ -47,7 +48,7 @@ const ManditoryDisclosure = () => {
             >
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                <a
+                <Link
                     href="manditory-disclosure-20-21"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -63,8 +64,8 @@ const ManditoryDisclosure = () => {
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
-                <a
+                </Link>
+                <Link
                     href="#"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
@@ -81,11 +82,11 @@ const ManditoryDisclosure = () => {
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                </a>
+                </Link>
                 </div>
                 </div>
         </div>
-        </a>
+        </Link>
   )
 }
 
