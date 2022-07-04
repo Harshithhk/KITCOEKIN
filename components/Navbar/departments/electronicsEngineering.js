@@ -1,6 +1,6 @@
 import React from "react"
 
-const BiotechnologyEngineering = () => (
+const ElectronicsEngineering = () => (
  
     <a
                         href="/about"
@@ -14,8 +14,7 @@ const BiotechnologyEngineering = () => (
                        
                         <div className="ml-4">
                           <p className="text-base font-medium text-[#24346D]    ">
-                            Biotechnology Engineering
-                          </p>
+                          Electronics Engineering                          </p>
                           <p className="mt-1 text-sm text-gray-500">
                             {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                           </p>
@@ -24,4 +23,4 @@ const BiotechnologyEngineering = () => (
  
 )
 
-export default BiotechnologyEngineering
+export default ElectronicsEngineering
