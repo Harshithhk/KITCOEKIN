@@ -134,7 +134,7 @@ const Navbar = () => {
                 </h1>
               </li>
             </Link>
-            <Link href="/department">
+            <Link href="/best-cse-college-kolhapur-best-computer-science-engineering-data-science-college">
               <li>
                 <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
                   DEPARTMENTS
