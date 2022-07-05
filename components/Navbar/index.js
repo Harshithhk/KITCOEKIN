@@ -26,7 +26,7 @@ const Navbar = () => {
       }`}
     >
       
-      <Link href="/">
+      <Link href="/" passHref>
         <img
           src={`${
             router.route != "/"
@@ -44,17 +44,17 @@ const Navbar = () => {
         } `}
       >
         
-        <Link href="#">
+        <Link href="#" passHref>
           <About/>       
         </Link>
         
-        <Link href="#">
+        <Link href="#" passHref>
           <Admissions/>
         </Link>
-        <Link href="/#">
+        <Link href="/#" passHref>
           <Departments/>
         </Link>
-        <Link href="/tnp">
+        <Link href="/tnp" passHref>
           <li href="#" className="flex items-center cursor-pointer">
             T&P CELL
           </li>
@@ -118,35 +118,35 @@ const Navbar = () => {
             </div>
           </div>
           <ul className="z-20">
-            <Link href="/about">
+            <Link href="/about" passHref>
               <li>
                 <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
                   ABOUT
                 </h1>
               </li>
             </Link>
-            <Link href="/milestones">
+            <Link href="/milestones" passHref>
               <li>
                 <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
                   MILESTONES
                 </h1>
               </li>
             </Link>
-            <Link href="/foundertrustees">
+            <Link href="/foundertrustees" passHref>
               <li>
                 <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
                   FOUNDER TRUSTEES
                 </h1>
               </li>
             </Link>
-            <Link href="/department">
+            <Link href="/department" passHref>
               <li>
                 <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
                   DEPARTMENTS
                 </h1>
               </li>
             </Link>
-            <Link href="/stafflist">
+            <Link href="/stafflist" passHref>
               <li>
                 <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
                   STAFFS{" "}

@@ -48,8 +48,8 @@ const Career = () => {
                                <div className="flex mt-2 mb-2">
                                     <div className=" w-[90%] text-left pl-2 text-slate-400">	Activities</div>
                                     <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                          <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                       </svg>
                                     </div>
                                     
@@ -58,8 +58,8 @@ const Career = () => {
                                 <div className="flex mt-2 mb-2">
                                     <div className=" w-[90%] text-left pl-2 text-slate-400">	Staff</div>
                                     <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                          <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                       </svg>
                                     </div>
                                     
@@ -68,8 +68,8 @@ const Career = () => {
                                     <div className="flex mt-2 mb-2">
                                         <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">	Laboratories</div>
                                         <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                          <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                       </svg>
                                         </div>
                                        
@@ -110,8 +110,8 @@ const Career = () => {
                                           <div className={subLinkHover1===true?"flex mt-2 mb-2 bg-[#F8F7FC]":"flex mt-2 mb-2"} onMouseEnter ={() => (setSubLinkHover1(!subLinkHover1))} onMouseLeave ={() => (setSubLinkHover1(!subLinkHover1))}>
                                               <div className=" w-[90%] text-left pl-2 text-slate-400">	Activities</div>
                                               <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                                 </svg>
                                               </div>
                                           </div>
@@ -119,8 +119,8 @@ const Career = () => {
                                           <div className={subLinkHover2===true?"flex mt-2 mb-2 bg-[#F8F7FC]":"flex mt-2 mb-2"} onMouseEnter ={() => (setSubLinkHover2(!subLinkHover2))} onMouseLeave ={() => (setSubLinkHover2(!subLinkHover2))}>
                                               <div className=" w-[90%] text-left pl-2 text-slate-400">	Staff</div>
                                               <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                                 </svg>
                                               </div>
                                           </div> 
@@ -164,8 +164,8 @@ const Career = () => {
                                           <div className={subLinkHover1===true?"flex mt-2 mb-2 bg-[#F8F7FC]":"flex mt-2 mb-2"} onMouseEnter ={() => (setSubLinkHover1(!subLinkHover1))} onMouseLeave ={() => (setSubLinkHover1(!subLinkHover1))}>
                                               <div className=" w-[90%] text-left pl-2 text-slate-400">	Activities</div>
                                               <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                                 </svg>
                                               </div>
                                           </div>
@@ -173,8 +173,8 @@ const Career = () => {
                                           <div className={subLinkHover2===true?"flex mt-2 mb-2 bg-[#F8F7FC]":"flex mt-2 mb-2"} onMouseEnter ={() => (setSubLinkHover2(!subLinkHover2))} onMouseLeave ={() => (setSubLinkHover2(!subLinkHover2))}>
                                               <div className=" w-[90%] text-left pl-2 text-slate-400">	Staff</div>
                                               <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                                 </svg>
                                               </div>
                                           </div> 
@@ -186,8 +186,8 @@ const Career = () => {
                                     <div className="flex mt-2 mb-2">
                                         <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">	Recruiters</div>
                                         <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                             </svg>
                                         </div>
                                        
@@ -197,8 +197,8 @@ const Career = () => {
                                     <div className="flex mt-2 mb-2">
                                         <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">	MOU'S</div>
                                         <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                          <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                       </svg>
                                         </div>
                                        
@@ -208,8 +208,8 @@ const Career = () => {
                                     <div className="flex mt-2 mb-2">
                                         <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">	PO's & PEO'S</div>
                                         <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                          <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                       </svg>
                                         </div>
                                        
@@ -219,8 +219,8 @@ const Career = () => {
                                     <div className="flex mt-2 mb-2">
                                         <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">	Student Achievements</div>
                                         <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                          <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                       </svg>
                                         </div>
                                        
@@ -230,8 +230,8 @@ const Career = () => {
                                     <div className="flex mt-2 mb-2">
                                         <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">	Department Gallery</div>
                                         <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                          <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                       </svg>
                                         </div>
                                        
@@ -241,8 +241,8 @@ const Career = () => {
                                     <div className="flex mt-2 mb-2">
                                         <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">	Press Release</div>
                                         <div className=" w-[20%] text-left pl-2 text-slate-400">	 
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                          <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                       </svg>
                                         </div>
                                        
