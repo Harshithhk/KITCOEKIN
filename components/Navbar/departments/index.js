@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import { useRouter } from "next/router"
 import BiotechnologyEngineering from "./biotechnologyEngineering"
 import CivilEngineering from "./civilEngineering"
+import ComputerScienceEngineering from "./computerScienceEngineering"
 
 const Admissions = () => {
 
@@ -52,10 +53,10 @@ const Admissions = () => {
                 >
                   <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                    <BiotechnologyEngineering/>
+                    <ComputerScienceEngineering/>
                     <CivilEngineering/>
                     </div>
-                    <div className=" hidden px-5 py-5 bg-gray-50 flex">
+                    <div className=" hidden px-5 py-5 bg-gray-50 ">
                       
                         <a
                           href="#"

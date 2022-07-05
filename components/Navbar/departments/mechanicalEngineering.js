@@ -1,9 +1,9 @@
 import React from "react"
 
-const ComputerScienceEngineeringDataScience = () => (
+const MechanicalEngineering = () => (
  
     <a
-                        href="/best-cse-college-kolhapur-best-computer-science-engineering-data-science-college"
+                        href="/about"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                         <svg xmlns="http://www.w3.org/2000/svg"  className="flex-shrink-0 h-6 w-6 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -14,7 +14,7 @@ const ComputerScienceEngineeringDataScience = () => (
                        
                         <div className="ml-4">
                           <p className="text-base font-medium text-[#24346D]    ">
-                          Computer Science Engineering - Data Science
+                          Mechanical Engineering
                           </p>
                           <p className="mt-1 text-sm text-gray-500">
                             {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
@@ -24,4 +24,4 @@ const ComputerScienceEngineeringDataScience = () => (
  
 )
 
-export default ComputerScienceEngineeringDataScience
+export default MechanicalEngineering
