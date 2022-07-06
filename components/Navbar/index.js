@@ -7,6 +7,7 @@ import "aos/dist/aos.css"
 import About from "./about/index.js"
 import Admissions from "./admissions/index.js"
 import Departments from "./departments/index.js"
+import MonileNavbar from "./monileNavbar/index.js"
 
 const Navbar = () => {
   
@@ -101,65 +102,7 @@ const Navbar = () => {
         ></span>
       </div>
       {isNavOpen && (
-        <div className="absolute top-0 left-0 w-screen h-screen ">
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className="absolute z-10 w-full h-full transition-all duration-300 bg-slate-100 "
-          ></div>
-          <div className="z-20 absolute right-3 top-5 mr-2 text-[30px] font-bold text-primary">
-            <div
-              className="ml-auto space-y-2 HAMBURGER-ICON sm:block 2xl:hidden"
-              onClick={() => setIsNavOpen((prev) => !prev)}
-            >
-              <span className="block h-0.5 w-8 animate-pulse bg-primary"></span>
-              <span className="block ml-auto h-0.5 w-6 animate-pulse bg-primary"></span>
-              <span className="block h-0.5 ml-auto w-5 animate-pulse bg-primary"></span>
-            </div>
-          </div>
-          <ul className="z-20">
-            <Link href="/about" passHref>
-              <li>
-                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
-                  ABOUT
-                </h1>
-              </li>
-            </Link>
-            <Link href="/milestones" passHref>
-              <li>
-                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
-                  MILESTONES
-                </h1>
-              </li>
-            </Link>
-            <Link href="/foundertrustees" passHref>
-              <li>
-                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
-                  FOUNDER TRUSTEES
-                </h1>
-              </li>
-            </Link>
-            <Link href="/department" passHref>
-              <li>
-                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
-                  DEPARTMENTS
-                </h1>
-              </li>
-            </Link>
-            <Link href="/stafflist" passHref>
-              <li>
-                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
-                  STAFFS{" "}
-                  <img
-                    src="/images/Milestones/.svg"
-                    className="absolute"
-                    alt=""
-                  />
-                </h1>
-              </li>
-            </Link>
-          </ul>
-        </div>
+        <MonileNavbar setIsNavOpen = {setIsNavOpen}/>
       )}
     </nav>
   )
