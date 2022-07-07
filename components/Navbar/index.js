@@ -23,12 +23,10 @@ const Navbar = () => {
         router.route != "/" ? "bg-[#24346D]" : "bg-slate-50"
       }`}
     >
-<<<<<<< HEAD
+
       
       <Link href="/" passHref>
-=======
-      <Link href="/">
->>>>>>> finishing-new
+
         <img
           src={`${
             router.route != "/"
@@ -45,7 +43,7 @@ const Navbar = () => {
           router.route != "/" ? "text-white" : "text-[#666666]"
         } `}
       >
-<<<<<<< HEAD
+
         
         <Link href="#" passHref>
           <About/>       
@@ -56,17 +54,6 @@ const Navbar = () => {
         </Link>
         <Link href="/#" passHref>
           <Departments/>
-=======
-        <Link href="#">
-          <About />
-        </Link>
-
-        <Link href="#">
-          <Admissions />
-        </Link>
-        <Link href="/#">
-          <Departments />
->>>>>>> finishing-new
         </Link>
         <Link href="/tnp" passHref>
           <li href="#" className="flex items-center cursor-pointer">
@@ -115,69 +102,8 @@ const Navbar = () => {
         ></span>
       </div>
       {isNavOpen && (
-<<<<<<< HEAD
         <MobileNavbar setIsNavOpen = {setIsNavOpen}/>
-=======
-        <div className="absolute top-0 left-0 w-screen h-screen ">
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className="absolute z-10 w-full h-full transition-all duration-300 bg-slate-100 "
-          ></div>
-          <div className="z-20 absolute right-3 top-5 mr-2 text-[30px] font-bold text-primary">
-            <div
-              className="ml-auto space-y-2 HAMBURGER-ICON sm:block 2xl:hidden"
-              onClick={() => setIsNavOpen((prev) => !prev)}
-            >
-              <span className="block h-0.5 w-8 animate-pulse bg-primary"></span>
-              <span className="block ml-auto h-0.5 w-6 animate-pulse bg-primary"></span>
-              <span className="block h-0.5 ml-auto w-5 animate-pulse bg-primary"></span>
-            </div>
-          </div>
-          <ul className="z-20">
-            <Link href="/about">
-              <li>
-                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
-                  ABOUT
-                </h1>
-              </li>
-            </Link>
-            <Link href="/milestones">
-              <li>
-                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
-                  MILESTONES
-                </h1>
-              </li>
-            </Link>
-            <Link href="/foundertrustees">
-              <li>
-                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
-                  FOUNDER TRUSTEES
-                </h1>
-              </li>
-            </Link>
-            <Link href="/best-cse-college-kolhapur-best-computer-science-engineering-data-science-college">
-              <li>
-                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
-                  DEPARTMENTS
-                </h1>
-              </li>
-            </Link>
-            <Link href="/stafflist">
-              <li>
-                <h1 className="relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent">
-                  STAFFS{" "}
-                  <img
-                    src="/images/Milestones/.svg"
-                    className="absolute"
-                    alt=""
-                  />
-                </h1>
-              </li>
-            </Link>
-          </ul>
-        </div>
->>>>>>> finishing-new
+
       )}
     </nav>
   )

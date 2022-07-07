@@ -62,7 +62,7 @@ const Admissions = () => {
                       <VocationalCourses/>
                       <Scholarship/>
                     </div>
-                    <div className=" hidden px-5 py-5 bg-gray-50 flex">
+                    <div className=" hidden px-5 py-5 bg-gray-50 ">
                       
                         <a
                           href="#"
