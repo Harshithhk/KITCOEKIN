@@ -7,7 +7,7 @@ import "aos/dist/aos.css"
 import About from "./about/index.js"
 import Admissions from "./admissions/index.js"
 import Departments from "./departments/index.js"
-import MonileNavbar from "./monileNavbar/index.js"
+import MobileNavbar from "./mobileNavbar/index.js"
 
 const Navbar = () => {
   
@@ -102,7 +102,7 @@ const Navbar = () => {
         ></span>
       </div>
       {isNavOpen && (
-        <MonileNavbar setIsNavOpen = {setIsNavOpen}/>
+        <MobileNavbar setIsNavOpen = {setIsNavOpen}/>
       )}
     </nav>
   )

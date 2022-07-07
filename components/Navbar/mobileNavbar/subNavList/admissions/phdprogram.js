@@ -1,12 +1,11 @@
 import React from "react"
-import Link from "next/link";
 
-const AboutKit = (props) => {
+const Phdprogram = (props) => {
   
     return (
-      <li>
-      <a href="about" className={props.nav1 === false ? "transform transition duration-300 translate-y-20 opacity-0 ease-out  relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center" : "transform transition duration-300 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
-      About Kit
+      
+      <a href="#" className={props.nav2 === false ? "transform transition duration-300 translate-y-20 opacity-0 ease-out  relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center" : "transform transition duration-300 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
+      Ph.D. Program Details
       {/* <svg
         className={
           props.nav2 === true
@@ -25,9 +24,9 @@ const AboutKit = (props) => {
         />
       </svg>  */}
     </a>
-    </li>
+  
    
         );
-};
+  };
 
-export default AboutKit
+export default Phdprogram

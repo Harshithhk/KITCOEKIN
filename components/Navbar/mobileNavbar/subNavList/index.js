@@ -1,7 +1,8 @@
 import React from "react"
 import Link from "next/link";
 import AboutKit from "./about";
-import AdmissionUndergraduate from "./admissions/admissions-udergraduate";
+import Admissions from "./admissions";
+import Departments from "./departments";
 
 const SubNavList = (props) => {
  
@@ -9,13 +10,17 @@ const SubNavList = (props) => {
       return(
         <AboutKit nav1 = {props.nav1} />
       );
-  } if(props.nav2 === true){
+  }else if(props.nav2 === true){
     return(
-      <AdmissionUndergraduate  nav2 = {props.nav2} />
+      <Admissions  nav2 = {props.nav2} />
+    );
+  }else if(props.nav3=== true){
+    return(
+      <Departments  nav3 = {props.nav3} />
     );
   }else{
     return(
-      <AboutKit nav1 = {props.nav1} />
+      <></>
     );
   }
 

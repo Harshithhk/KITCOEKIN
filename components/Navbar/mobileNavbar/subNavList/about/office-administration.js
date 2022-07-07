@@ -1,10 +1,11 @@
 import React from "react"
 
-const BoardOfDirectors = (props) => {
-  return (
-    <li>
-    <h1 className={props.nav1 === false ? "transform transition duration-300 translate-y-20 opacity-0 ease-out  relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center" : "transform transition duration-300 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
-    Board Of Directors
+const OfficeAdministration = (props) => {
+    return (
+    
+  
+    <a href="office-administration" className={props.nav1 === false ? "transform transition duration-300 translate-y-20 opacity-0 ease-out  relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center" : "transform transition duration-300 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
+    Office Administration
     {/* <svg
       className={
         props.nav2 === true
@@ -22,11 +23,10 @@ const BoardOfDirectors = (props) => {
         clipRule="evenodd"
       />
     </svg>  */}
-  </h1>
-  </li>
- 
-      );
-}
+  </a>
+
+    )
+  }
 
 
-export default BoardOfDirectors
+export default OfficeAdministration

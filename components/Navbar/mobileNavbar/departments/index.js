@@ -23,7 +23,7 @@ const Departments = (props) => {
         DEPARTMENTS
         <svg
           className={
-            props.nav2 === true
+            props.nav3 === true
               ? "transform relative   z-20 rotate-180 ml-2 h-5 w-5 text-primary group-hover:text-gray-500 transition  ease-out duration-200"
               : "transform relative  z-20 rotate-0 transition ease-out duration-200 ml-2 h-5 w-5 text-primary group-hover:text-gray-500"
           }
