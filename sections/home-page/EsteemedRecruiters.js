@@ -1,8 +1,29 @@
 import React from "react"
 
 const EsteemedRecruiters = () => {
+  let recruiters = [
+    "bg-[url('/images/HomePage/Recruiters/Vector-0.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-1.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-2.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-3.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-4.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-5.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-6.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-7.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-8.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-9.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-10.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-11.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-12.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-13.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-14.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-15.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-16.png')]",
+    "bg-[url('/images/HomePage/Recruiters/Vector-17.png')]",
+  ]
+
   return (
-    <section className="p-[50px] mt-16   bg-slate-100 md:p-[16px]">
+    <section className="p-[50px]    bg-slate-100 md:p-[16px] bg-[url('/images/HomePage/Recruiters/Recruiters-bg.png')] bg-cover bg-center bg-no-repeat  ">
       <div className="flex items-center">
         <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
         <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center   text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">

@@ -1,9 +1,9 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 import BranchPlacement from "../sections/departments/branchPlacement"
-import EsteemedRecruiters from "../sections/home-page/EsteemedRecruiters"
 import Career from "../sections/departments/career"
 import CampusPlacement from "../sections/departments/campusplacement"
+import TnPEsteemedRecruiters from "../sections/tnp/TnPEsteemedRecruters"
 
 const TnP = () => {
   return (
@@ -83,8 +83,8 @@ const TnP = () => {
           </div>
         </section>
         <CampusPlacement />
+        <TnPEsteemedRecruiters />
         <BranchPlacement />
-        <EsteemedRecruiters />
         <section className="w-full py-8 bg-white">
           <Career />
         </section>
