@@ -249,7 +249,7 @@ const AdmissionUndergraduate = () => {
                <div className="shadow-lg  grid grid-cols-3  w-[1100px] h-fit p-2 mt-6 bg-white font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2 m-2 min-h-[55px] ">  
                       {/* row end */}
                       <div className="">Name of Faculty</div>
-                      <div class="grid grid-cols-1 divide-y">
+                      <div className="grid grid-cols-1 divide-y">
                          <div>
                           <p>Dr. Mahesh B. Shinde</p>
                           <p className="text-slate-400">Assistant Professor</p>
@@ -265,7 +265,7 @@ const AdmissionUndergraduate = () => {
                           <p className="text-slate-400">Assistant Professor</p>
                          </div>
                       </div>
-                      <div class="grid grid-cols-1 divide-y">
+                      <div className="grid grid-cols-1 divide-y">
                          <div>
                           <p>
                             <span className="text-slate-400">Mobile :</span>{" "}
@@ -290,12 +290,12 @@ const AdmissionUndergraduate = () => {
                <div className="shadow-lg  grid grid-cols-3  w-[1100px] h-fit p-2 mt-6 bg-white font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2 m-2 min-h-[55px] ">  
                       {/* row end */}
                       <div className="">Name of Faculty</div>
-                      <div class="grid grid-cols-1 divide-y">
+                      <div className="grid grid-cols-1 divide-y">
                          <div>01</div>
                          <div>02</div>
                          <div>03</div>
                       </div>
-                      <div class="grid grid-cols-1 divide-y">
+                      <div className="grid grid-cols-1 divide-y">
                          <div>01</div>
                          <div>02</div>
                          <div>03</div>
@@ -305,12 +305,12 @@ const AdmissionUndergraduate = () => {
                <div className="shadow-lg  grid grid-cols-3  w-[1100px] h-fit p-2 mt-6 bg-white font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2 m-2 min-h-[55px] ">  
                       {/* row end */}
                       <div className="">Name of Faculty</div>
-                      <div class="grid grid-cols-1 divide-y">
+                      <div className="grid grid-cols-1 divide-y">
                          <div>01</div>
                          <div>02</div>
                          <div>03</div>
                       </div>
-                      <div class="grid grid-cols-1 divide-y">
+                      <div className="grid grid-cols-1 divide-y">
                          <div>01</div>
                          <div>02</div>
                          <div>03</div>
