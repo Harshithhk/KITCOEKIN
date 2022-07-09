@@ -3,6 +3,10 @@ import Footer from "../sections/home-page/Footer"
 import BranchPlacement from "../sections/departments/branchPlacement"
 import EsteemedRecruiters from "../sections/home-page/EsteemedRecruiters"
 import Career from "../sections/departments/career"
+import { Tab } from '@headlessui/react'
+import ProvisionalAdmission from "../sections/academics/undergraduate/ProvisionalAdmission"
+import Admission2223 from "../sections/academics/undergraduate/Admission2223"
+import Admission2122 from "../sections/academics/undergraduate/Admission2122"
 
 const AdmissionUndergraduate = () => {
   return (
@@ -55,438 +59,11 @@ const AdmissionUndergraduate = () => {
             alt=""
           />
           {/* - */}
-          <div className="flex justify-between sm:flex-col">
-            <div>
-              <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
-                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                Provisional Admission 2022-2023
-              </div>
-              {/* -- */}
-              <div className="flex  sm:flex-row">
-                {/* ---*/}
-                <div className=" items-center  w-[650px] h-fit p-2 mt-6 font-semibold text-center rounded-lg  bg-[#F8F7FC]">
-                  <div className="flex mt-2 mb-2">
-                    <div className=" w-[25%] text-left pl-2 text-[#24346D]">
-                      First Year B. Tech
-                    </div>
-                  </div>
-                  <hr className="w-[23%] border-[1.5px] bg-[#24346D] border-[#24346D]"></hr>
-                  <hr></hr>
-
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        APPLICATION FORM :- F.Y. B.TECH. FOUNDATION PROGRAM
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/*  */}
-                <div className=" items-center  w-[650px] h-fit p-2 mt-6 ml-6 font-semibold text-center rounded-lg  bg-[#F8F7FC]">
-                  <div className="flex mt-2 mb-2">
-                    <div className=" w-[25%] text-left pl-2 text-[#24346D]">
-                      Direct Second Year
-                    </div>
-                  </div>
-                  <hr className="w-[24.3%] border-[1.5px] bg-[#24346D] border-[#24346D]"></hr>
-                  <hr></hr>
-
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        APPLICATION FORM :- F.Y. B.TECH. FOUNDATION PROGRAM
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/*  */}
-            </div>
-          </div>
-          {/* - */}
-          <div className="flex justify-between sm:flex-col">
-            <div>
-              <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
-                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                Admission 2022-2023
-              </div>
-              {/* -- */}
-              <div className="flex  sm:flex-row">
-                {/* ---*/}
-                <div className=" items-center  w-[650px] h-fit p-2 mt-6 font-semibold text-center rounded-lg  bg-[#F8F7FC]">
-                  <div className="flex mt-2 mb-2">
-                    <div className=" w-[25%] text-left pl-2 text-[#24346D]">
-                      First Year B. Tech
-                    </div>
-                  </div>
-                  <hr className="w-[23%] border-[1.5px] bg-[#24346D] border-[#24346D]"></hr>
-                  <hr></hr>
-
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Last Year Cutoff [Male] AY:2021-22
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Last Year Cutoff [Female] AY:2021-22
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Fee Structure
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/*  */}
-                <div className=" items-center  w-[650px] h-fit p-2 mt-6 ml-6 font-semibold text-center rounded-lg  bg-[#F8F7FC]">
-                  <div className="flex mt-2 mb-2">
-                    <div className=" w-[25%] text-left pl-2 text-[#24346D]">
-                      Direct Second Year
-                    </div>
-                  </div>
-                  <hr className="w-[24.3%] border-[1.5px] bg-[#24346D] border-[#24346D]"></hr>
-                  <hr></hr>
-
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Last Year Cutoff [Female] AY:2021-22
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Last Year Cutoff [Male] AY:2021-22
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Fee Structure
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/*  */}
-            </div>
-          </div>
-          {/* - */}
-          <div className="flex justify-between sm:flex-col">
-            <div>
-              <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
-                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                Admission 2021-2022
-              </div>
-              {/* -- */}
-              <div className="flex  sm:flex-row">
-                {/* ---*/}
-                <div className=" items-center  w-[650px] h-fit p-2 mt-6 font-semibold text-center rounded-lg  bg-[#F8F7FC]">
-                  <div className="flex mt-2 mb-2">
-                    <div className=" w-[25%] text-left pl-2 text-[#24346D]">
-                      First Year B. Tech
-                    </div>
-                  </div>
-                  <hr className="w-[23%] border-[1.5px] bg-[#24346D] border-[#24346D]"></hr>
-                  <hr></hr>
-
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        List of documents During Online Registration F.Y.B.TECH
-                        2021-22
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Cut off list for previous year (Female)
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Cut off list for previous year (Male)
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Cut Off Lists of CAP Round for Previous 3 Years
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Scholarships Schemes Offered by State Govt. / Central
-                        Govt.
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        F. Y B. Tech Fee Structure for Academic Year 2021-22
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/*  */}
-                <div className=" items-center  w-[650px] h-fit p-2 mt-6 ml-6 font-semibold text-center rounded-lg  bg-[#F8F7FC]">
-                  <div className="flex mt-2 mb-2">
-                    <div className=" w-[25%] text-left pl-2 text-[#24346D]">
-                      Direct Second Year
-                    </div>
-                  </div>
-                  <hr className="w-[24.3%] border-[1.5px] bg-[#24346D] border-[#24346D]"></hr>
-                  <hr></hr>
-
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Cut off list for previous year (Female)
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Cut off list for previous year (Male)
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Cut Off Lists of CAP Round for Previous 3 Years
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        Scholarships Schemes Offered by State Govt. / Central
-                        Govt.
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className=" items-center  w-auto h-[63px] p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-[#ffffff]">
-                    <div className="flex mt-2 mb-2">
-                      <img
-                        src="/images/Others/pdf-files.png"
-                        className="w-8 h-8 ml-2 "
-                        alt=""
-                      />
-                      <div className=" w-[100%] mt-1 text-left pl-2 ml-2 text-[#24346D]">
-                        F. Y B. Tech Fee Structure for Academic Year 2021-22
-                      </div>
-                      <img
-                        src="/images/Others/download-file.png"
-                        className="w-8 h-8 mr-2 "
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/*  */}
-            </div>
-          </div>
+          <ProvisionalAdmission />
+          <Admission2223 />
+          <Admission2122 />
         </section>
-        <section className="pt-16 mt-16 mb-[-60px] overflow-x-scroll  bg-[#F8F7FC] max-w-screen">
+        <section className="pt-16 mt-16 mb-[-60px] overflow-x-scroll bg-[#F8F7FC] max-w-screen">
           <div className="flex items-center w-full ml-16 sm:ml-4">
             <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
             <div className="ml-3 md:ml-2 w-fit  text-center   text-[#24346D] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">
@@ -649,170 +226,100 @@ const AdmissionUndergraduate = () => {
               <div className=" w-[25%] text-left pl-2">29</div>
             </div>
           </section>
-          <section className="relative pt-16 mt-16 rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-[#24346D] px-14 sm:px-4 sm:pb-10">
-            <div className="flex items-center w-full  sm:ml-4">
-              <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
-              <div className="ml-3 md:ml-2 w-fit  text-center   text-[#ffffff] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">
-                Admission Process & Details
-              </div>
+         
+        </section>
+        
+         
+        <section className=" z-30 pt-[120px] w-[100%] mx-auto pb-20 h-fit bg-[#F8F7FC]  sm:px-4 sm:pb-10">
+       
+        <div className="flex items-center w-full mb-10 ml-16 sm:ml-4">
+            <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
+            <div className="ml-3 md:ml-2 w-fit  text-center   text-[#24346D] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">
+            For Admission Process & Details
             </div>
-
-            <div className="flex items-center  w-[1100px] ml-[110px] h-16 p-2 mt-8 font-semibold text-center rounded-lg shadow-lg text-slate-500 bg-[#F8F7FC] ">
-              <div className=" w-[50%]  pl-2">Department</div>
-              <div className=" w-[50%]  pl-2">Name of Faculty</div>
-              <div className=" w-[50%]  pl-2">Contact Details</div>
-            </div>
-
-            <div className="flex   w-[1100px] ml-[110px] h-fit p-2 mt-6 font-semibold text-center rounded-lg shadow-lg bg-white ">
-              <div className="w-[35%] mt-2">For general queries</div>
-              <div className="mr-6 w-[65%]">
-                <div className="flex mt-2 mb-2">
-                  <div className=" w-[50%]  pl-2 ">
-                    <p>Dr. Mahesh B. Shinde</p>
-                    <p className="text-slate-400">Assistant Professor</p>
-                  </div>
-                  <div className=" ml-[110px]  pl-2 ">
-                    <p>
-                      <span className="text-slate-400">Mobile :</span>{" "}
-                      7030861199
-                    </p>
-                    <p className="ml-16">9767873887</p>
-                  </div>
-                </div>
-                <hr></hr>
-                <div className="flex mt-2 mb-2">
-                  <div className=" w-[50%]  pl-2 ">
-                    <p>Mr. Saurabh S. Joshi</p>
-                    <p className="text-slate-400">Assistant Professor</p>
-                  </div>
-                  <div className=" ml-[110px]  pl-2 ">
-                    <p>
-                      <span className="text-slate-400">Mobile :</span>{" "}
-                      9028486124
-                    </p>
-                  </div>
-                </div>
-                <hr></hr>
-                <div className="flex mt-2 mb-2">
-                  <div className=" w-[50%]  pl-2 ">
-                    <p>Mr. Amar H. Tikole</p>
-                    <p className="text-slate-400">Assistant Professor</p>
-                  </div>
-                  <div className=" ml-[110px]  pl-2 ">
-                    <p>
-                      <span className="text-slate-400">Mobile :</span>{" "}
-                      9272319199
-                    </p>
-                  </div>
-                </div>
-                <hr></hr>
-                <div className="flex mt-2 mb-2">
-                  <div className=" w-[50%]  pl-2 ">
-                    <p>Dr. Nivas S. Patil</p>
-                    <p className="text-slate-400">Assistant Professor</p>
-                  </div>
-                  <div className=" ml-[110px]  pl-2 ">
-                    <p>
-                      <span className="text-slate-400">Mobile :</span>{" "}
-                      9158337227
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex   w-[1100px] ml-[110px] h-fit p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-white ">
-              <div className="w-[35%] mt-2">Bio Technology</div>
-              <div className="mr-6 w-[65%]">
-                <div className="flex mt-2 mb-2">
-                  <div className=" w-[50%]  pl-2 ">
-                    <p>Dr. Rajesh M. Jorgewad</p>
-                    <p className="text-slate-400">Assistant Professor</p>
-                  </div>
-                  <div className=" ml-[110px]  pl-2 ">
-                    <p>
-                      <span className="text-slate-400">Mobile :</span>{" "}
-                      8668406496
-                    </p>
-                  </div>
-                </div>
-                <hr></hr>
-                <div className="flex mt-2 mb-2">
-                  <div className=" w-[50%]  pl-2 ">
-                    <p>Mrs. Saee H. Thakur</p>
-                    <p className="text-slate-400">Assistant Professor</p>
-                  </div>
-                  <div className=" ml-[110px]  pl-2 ">
-                    <p>
-                      <span className="text-slate-400">Mobile :</span>{" "}
-                      9850317278
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex   w-[1100px] ml-[110px] h-fit p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-white ">
-              <div className="w-[35%] mt-2">
-                Civil and Environmental Engineering
-              </div>
-              <div className="mr-6 w-[65%]">
-                <div className="flex mt-2 mb-2">
-                  <div className=" w-[50%]  pl-2 ">
-                    <p>Dr. Akshay R. Thorvat</p>
-                    <p className="text-slate-400">Assistant Professor</p>
-                  </div>
-                  <div className=" ml-[110px]  pl-2 ">
-                    <p>
-                      <span className="text-slate-400">Mobile :</span>{" "}
-                      9175886755
-                    </p>
-                  </div>
-                </div>
-                <hr></hr>
-                <div className="flex mt-2 mb-2">
-                  <div className=" w-[50%]  pl-2 ">
-                    <p>Mr. Bharat C. Ingavale</p>
-                    <p className="text-slate-400">Assistant Professor</p>
-                  </div>
-                  <div className=" ml-[110px]  pl-2 ">
-                    <p>
-                      <span className="text-slate-400">Mobile :</span>{" "}
-                      9823644466
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex   w-[1100px] ml-[110px] h-fit p-2 mt-2 font-semibold text-center rounded-lg shadow-lg bg-white ">
-              <div className="w-[35%] mt-2">Bio Technology</div>
-              <div className="mr-6 w-[65%]">
-                <div className="flex mt-2 mb-2">
-                  <div className=" w-[50%]  pl-2 ">
-                    <p>Dr. Rajesh M. Jorgewad</p>
-                    <p className="text-slate-400">Assistant Professor</p>
-                  </div>
-                  <div className=" ml-[110px]  pl-2 ">
-                    <p>
-                      <span className="text-slate-400">Mobile :</span>{" "}
-                      8668406496
-                    </p>
-                  </div>
-                </div>
-                <hr></hr>
-                <div className="flex mt-2 mb-2">
-                  <div className=" w-[50%]  pl-2 ">
-                    <p>Mrs. Saee H. Thakur</p>
-                    <p className="text-slate-400">Assistant Professor</p>
-                  </div>
-                  <div className=" ml-[110px]  pl-2 ">
-                    <p>
-                      <span className="text-slate-400">Mobile :</span>{" "}
-                      9850317278
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          </div>
+        <div className="flex flex-col items-center sm:flex-col">
+           
+           <div className=" shadow-lg items-center grid grid-cols-3  w-[1100px] h-fit p-2 mt-6 bg-[#F8F7FC] font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2 m-2 min-h-[55px] ">  
+                     <div className="">Department</div>
+                     <div className="">Name of Faculty</div>
+                     <div className="">Contact Details</div> 
+               </div>
+         
+               <div className="shadow-lg  grid grid-cols-3  w-[1100px] h-fit p-2 mt-6 bg-white font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2 m-2 min-h-[55px] ">  
+                      {/* row end */}
+                      <div className="">Name of Faculty</div>
+                      <div class="grid grid-cols-1 divide-y">
+                         <div>
+                          <p>Dr. Mahesh B. Shinde</p>
+                          <p className="text-slate-400">Assistant Professor</p>
+                         </div>
+                         <div>
+                          <p>Dr. Mahesh B. Shinde</p>
+                          <p className="text-slate-400">Assistant Professor</p>
+                         </div><div>
+                          <p>Dr. Mahesh B. Shinde</p>
+                          <p className="text-slate-400">Assistant Professor</p>
+                         </div><div>
+                          <p>Dr. Mahesh B. Shinde</p>
+                          <p className="text-slate-400">Assistant Professor</p>
+                         </div>
+                      </div>
+                      <div class="grid grid-cols-1 divide-y">
+                         <div>
+                          <p>
+                            <span className="text-slate-400">Mobile :</span>{" "}
+                            7030861199
+                          </p>
+                      </div>
+                         <div><p>
+                            <span className="text-slate-400">Mobile :</span>{" "}
+                            7030861199
+                          </p></div>
+                         <div><p>
+                            <span className="text-slate-400">Mobile :</span>{" "}
+                            7030861199
+                          </p></div>
+                         <div><p>
+                            <span className="text-slate-400">Mobile :</span>{" "}
+                            7030861199
+                          </p></div>
+                      </div>
+                      {/* row end */}
+               </div>
+               <div className="shadow-lg  grid grid-cols-3  w-[1100px] h-fit p-2 mt-6 bg-white font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2 m-2 min-h-[55px] ">  
+                      {/* row end */}
+                      <div className="">Name of Faculty</div>
+                      <div class="grid grid-cols-1 divide-y">
+                         <div>01</div>
+                         <div>02</div>
+                         <div>03</div>
+                      </div>
+                      <div class="grid grid-cols-1 divide-y">
+                         <div>01</div>
+                         <div>02</div>
+                         <div>03</div>
+                      </div>
+                      {/* row end */}
+               </div>
+               <div className="shadow-lg  grid grid-cols-3  w-[1100px] h-fit p-2 mt-6 bg-white font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2 m-2 min-h-[55px] ">  
+                      {/* row end */}
+                      <div className="">Name of Faculty</div>
+                      <div class="grid grid-cols-1 divide-y">
+                         <div>01</div>
+                         <div>02</div>
+                         <div>03</div>
+                      </div>
+                      <div class="grid grid-cols-1 divide-y">
+                         <div>01</div>
+                         <div>02</div>
+                         <div>03</div>
+                      </div>
+                      {/* row end */}
+               </div>
+          
+           </div>
+      
         </section>
 
         <Footer />

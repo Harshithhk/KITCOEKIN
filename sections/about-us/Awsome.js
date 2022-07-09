@@ -3,7 +3,7 @@ import React from "react"
 const Awsome = () => {
   return (
     <section className="w-full h-[346px] sm:h-fit mt-20 sm:mt-8  flex items-center">
-      <div class="w-[160px] h-[160px] rounded-full border-2 bg-[#F8F7FC] absolute ml-[200px] mb-[330px] z-0 border-[#F8F7FC] flex justify-center items-center"></div>
+      <div className="w-[160px] h-[160px] rounded-full border-2 bg-[#F8F7FC] absolute ml-[200px] mb-[330px] z-0 border-[#F8F7FC] flex justify-center items-center"></div>
       <section className="h-[290px] sm:h-fit z-10  w-[1407px] flex-wrap sm:w-[340px] mx-auto flex justify-center gap-20 md:gap-4">
         {/* BOX */}
 
