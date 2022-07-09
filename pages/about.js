@@ -7,6 +7,7 @@ import AboutUs from "../sections/about-us/AboutUs"
 import MissionCards from "../sections/about-us/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
+import Accreditation from "../sections/home-page/Accredations"
 const about = () => {
   return (
     <DefaultLayout>
@@ -52,12 +53,12 @@ const about = () => {
 
           <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">
             <img
-              src="/images/AboutUs/IMAGE-GALLARY.png"
+              src="/images/AboutUs/IMAGE-GALLARY-1.png"
               className="w-full h-full sm:hidden 2xl:block"
               alt=""
             />
             <img
-              src="/images/AboutUs/Gallary-mobile.png"
+              src="/images/AboutUs/Gallary-mobile-1.png"
               className="w-full h-full sm:block 2xl:hidden"
               alt=""
             />
@@ -65,7 +66,10 @@ const about = () => {
         </section>
         <AboutUs />
         <Awsome />
-        <OurVision />
+        <Accreditation />
+        <div className="mt-4">
+          <OurVision />
+        </div>
         <MissionCards />
         <Testimonials />
         <Footer />

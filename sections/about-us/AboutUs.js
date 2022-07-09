@@ -13,7 +13,7 @@ const AboutUs = () => {
 
       {/* CONTENT */}
       <div className="flex w-full">
-        <p className="w-3/4 sm:w-full mt-8 sm:mt-4 h-fit text-xl sm:text-base text-[#24346D] font-semibold">
+        <p className="w-full sm:w-full text-justify mt-8 sm:mt-4 h-fit text-xl sm:text-base text-[#24346D] font-semibold">
           Premier Institute in engineering & Technology established in 1983 by
           group of visionary industrialist, professionals and educationalists.
           The vast exposure and experience of its founders has helped Kolhapur

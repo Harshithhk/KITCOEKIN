@@ -38,7 +38,7 @@ const Testimonials = () => {
               />
               <div className="ml-2 sm:ml-1 ">
                 <h1 className="text-3xl text-accent font-bold sm:text-base">
-                  Rushikesh Patil
+                  Swapnil Jadhav
                 </h1>
                 <div className="text-base text-[#6A6A6A] sm:text-xs sm:-translate-y-1">
                   Software Engineer
@@ -52,7 +52,7 @@ const Testimonials = () => {
             />
           </div>
 
-          <div className="mt-2  sm:text-sm text-xl text-accent">
+          <div className="mt-2 text-justify sm:text-sm text-xl text-accent">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
             minus reiciendis quae aspernatur soluta saepe incidunt culpa
             molestias, nesciunt maxime esse.
@@ -69,7 +69,7 @@ const Testimonials = () => {
               />
               <div className="ml-2 sm:ml-1 ">
                 <h1 className="text-3xl text-accent font-bold sm:text-base">
-                  Rushikesh Patil
+                  Harshith Kelkar
                 </h1>
                 <div className="text-base text-[#6A6A6A] sm:text-xs sm:-translate-y-1">
                   Software Engineer
@@ -83,7 +83,7 @@ const Testimonials = () => {
             />
           </div>
 
-          <div className="mt-2  sm:text-sm text-xl text-accent">
+          <div className="mt-2 text-justify sm:text-sm text-xl text-accent">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
             minus reiciendis quae aspernatur soluta saepe incidunt culpa
             molestias, nesciunt maxime esse.
@@ -114,7 +114,7 @@ const Testimonials = () => {
             />
           </div>
 
-          <div className="mt-2  sm:text-sm text-xl text-accent">
+          <div className="mt-2 text-justify sm:text-sm text-xl text-accent">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
             minus reiciendis quae aspernatur soluta saepe incidunt culpa
             molestias, nesciunt maxime esse.

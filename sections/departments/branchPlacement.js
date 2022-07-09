@@ -2,7 +2,7 @@ import React from "react"
 
 const branchPlacement = () => {
   return (
-    <section className="pt-16 mt-16 overflow-x-scroll bg-white max-w-screen">
+    <section className="pt-16 mt-8 overflow-x-scroll bg-white max-w-screen">
       <div className="flex items-center w-full ml-16 sm:ml-4">
         <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
         <div className="ml-3 md:ml-2 w-fit  text-center   text-[#24346D] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">

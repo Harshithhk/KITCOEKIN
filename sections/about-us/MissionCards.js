@@ -8,48 +8,26 @@ const MissionCards = () => {
         <h1 className="font-bold text-primary text-5xl sm:text-lg">
           Our Mission
         </h1>
-        <div className="text-xl mt-5 sm:text-xs sm:mt-1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint
-          dolorem nesciunt officia alias aut. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Explicabo dolorum ipsum similique sint
-          alias mollitia debitis illo maxime quidem ea.
+        <div className="text-xl  mt-5 sm:text-xs sm:mt-1">
+          To empower the faculty, Staff and aspiring Engineers with essential
+          technical knowledge & skills. <br />
+          <br /> To develop competence towards serving the ever changing needs
+          of Industry & society
         </div>
       </div>
 
       <div className="w-[500px] h-[370px] bg-[#FEF6ED] px-9 py-10 rounded-[36px] relative sm:w-[165px] sm:h-fit sm:p-3 sm:rounded-xl">
         <div className="absolute bg-primary w-16 h-16 rounded-full top-0 right-0 translate-x-1/3 -translate-y-1/3 sm:-translate-x-0 sm:-translate-y-1/3 sm:w-6 sm:h-6"></div>
-        <h1 className="font-bold text-primary text-5xl sm:text-lg">
-          Our Mission
-        </h1>
-        <div className="text-xl mt-5 sm:text-xs sm:mt-1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint
-          dolorem nesciunt officia alias aut. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Explicabo dolorum ipsum similique sint
-          alias mollitia debitis illo maxime quidem ea.
+        <div className="md:hidden absolute  w-[300px] h-[300px] rounded-full -top-20 -right-16 translate-x-1/3 -translate-y-1/3 sm:-translate-x-0 sm:-translate-y-1/3 sm:w-6 sm:h-6">
+          <img src="/images/Department/dart.png" alt="" className="h-full" />
         </div>
-      </div>
-      <div className="w-[500px] h-[370px] bg-[#FEF6ED] mt-20 px-9 py-10 rounded-[36px] relative sm:w-[165px] sm:h-fit sm:p-3 sm:rounded-xl sm:mt-4">
-        <div className="absolute bg-primary w-16 h-16 rounded-full top-0 right-0 translate-x-1/3 -translate-y-1/3 sm:-translate-x-0 sm:-translate-y-1/3 sm:w-6 sm:h-6"></div>
         <h1 className="font-bold text-primary text-5xl sm:text-lg">
           Our Mission
         </h1>
-        <div className="text-xl mt-5 sm:text-xs sm:mt-1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint
-          dolorem nesciunt officia alias aut. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Explicabo dolorum ipsum similique sint
-          alias mollitia debitis illo maxime quidem ea.
-        </div>
-      </div>
-      <div className="w-[500px] h-[370px] bg-[#FEF6ED] mt-20 px-9 py-10 rounded-[36px] relative sm:w-[165px] sm:h-fit sm:p-3 sm:rounded-xl sm:mt-4">
-        <div className="absolute bg-primary w-16 h-16 rounded-full top-0 right-0 translate-x-1/3 -translate-y-1/3 sm:-translate-x-0 sm:-translate-y-1/3 sm:w-6 sm:h-6"></div>
-        <h1 className="font-bold text-primary text-5xl sm:text-lg">
-          Our Mission
-        </h1>
-        <div className="text-xl mt-5 sm:text-xs sm:mt-1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint
-          dolorem nesciunt officia alias aut. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Explicabo dolorum ipsum similique sint
-          alias mollitia debitis illo maxime quidem ea.
+        <div className="text-xl  mt-5 sm:text-xs sm:mt-1">
+          To Inculcate social and ethical values amongst the Students and
+          Employees. <br /> <br /> To strengthen collaborative research and
+          consulting environment with Industry and other Institution
         </div>
       </div>
     </section>
