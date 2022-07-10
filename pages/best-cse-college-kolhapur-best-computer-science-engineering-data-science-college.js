@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import ReactPlayer from "react-player"
 import DefaultLayout from "../components/DefaultLayout"
 import Awsome from "../sections/about-us/Awsome"
@@ -10,11 +10,24 @@ import Footer from "../sections/home-page/Footer"
 import Career from "../sections/departments/career"
 import Hod from "../sections/departments/hod"
 import TnP from "./tnp"
+import Gallaryslider from "../components/Gallary-slider"
+
+let images = [
+  "/images/Gallary-1png.png",
+  "/images/Gallary-2.png",
+  "/images/Gallary-3.png",
+  "/images/Gallary-2.png",
+]
+
 const about = () => {
+  const [gallary, setGallary] = useState(false)
+
   return (
     <DefaultLayout>
-      <div className="w-full">
-        <section className="relative flex flex-col items-center w-full">
+      <div className="w-full relative">
+        {gallary && <Gallaryslider images={images} setGallary={setGallary} />}
+
+        <section className="cursor-pointer relative flex flex-col items-center w-full">
           <img
             src="/images/AboutUs/bgcircle.png"
             className="w-24 h-24 absolute top-0 left-[25%] z-10 sm:w-16 sm:h-16 sm:top-[5%]"
@@ -55,7 +68,10 @@ const about = () => {
             Home | Computer Science Engineering Department
           </h6>
 
-          <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">
+          <div
+            className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8"
+            onClick={() => setGallary(true)}
+          >
             <img
               src="/images/Department/DepartmentGalary.png"
               className="w-full h-full sm:hidden 2xl:block"

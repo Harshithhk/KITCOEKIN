@@ -71,7 +71,7 @@ const Navbar = () => {
         </li>
         <li
           href="#"
-          className="flex items-center w-32 h-12  text-white rounded-[75px] bg-primary overflow-hidden px-4 py-2 cursor-pointer"
+          className="flex border-2 border-primary items-center w-32 h-12  text-primary rounded-[75px]  overflow-hidden px-4 py-2 cursor-pointer"
         >
           <img
             src="/images/Navbar/Search_Magnifying_Glass.svg"

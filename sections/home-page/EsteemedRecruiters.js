@@ -23,8 +23,9 @@ const EsteemedRecruiters = () => {
   ]
 
   return (
-    <section className="p-[50px]    bg-slate-100 md:p-[16px] bg-[url('/images/HomePage/Recruiters/Recruiters-bg.png')] bg-cover bg-center bg-no-repeat  ">
-      <div className="flex items-center">
+    <section className="p-[50px]    bg-slate-100 relative md:p-[16px] bg-[url('/images/HomePage/Recruiters/Recruiters-bg-2.jpg')] backdrop-blur-lg bg-cover bg-center bg-no-repeat  ">
+      {/* <div className="absolute z-0 w-full h-full bg-white/50 top-0 left-0"></div> */}
+      <div className="flex z-10 items-center">
         <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
         <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center   text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
           ESTEEMED RECRUITERS
@@ -123,7 +124,7 @@ const EsteemedRecruiters = () => {
             className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-17.png')] shadow-sm md:w-[145px] md:h-[105px]"
           ></div>
         </div>
-        <div className="w-fit underline text-[#3D3859] text-lg font-bold italic mt-10 mx-auto">
+        <div className="w-fit  underline text-[#3D3859] text-lg font-bold italic mt-10 mx-auto">
           See More {">"}
           {">"}
         </div>

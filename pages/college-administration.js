@@ -62,25 +62,34 @@ const CollegeAdministration = () => {
                 DIRECTOR&apos;S MESSAGE
               </div>
               <div className="mt-10 text-justify sm:mt-4 w-[800px] text-xl text-accent sm:w-full sm:text-base">
-              Education, wealth and strength are necessary for everyone. But the value of each of them 
-              depends on the way you use it. Education without character, politics without principles 
-              and commerce without morality are not only useless, but positively dangerous. Education 
-              is the ornament for human beings. It is the secret wealth. It is to be valued not as means 
-              of earning one’s livelihood, but as the essential requisite for a happy, peaceful and progressive 
-              life. Engineering offers a highly rewarding and lucrative career – one in which you can apply 
-              intuitive, imaginative and creative ideas to find appropriate solutions to the challenges 
-              facing our society. I wish you success in sharing knowledge, ideas and solving important societal 
-              needs and issues. However, the ‘Success in life’ will certainly depend upon creating high ethical 
-              and moral values besides imparting and inculcating up-to date knowledge and skills. On behalf of KIT’s 
-              College of Engineering, I wish you all the best in your personal and professional career.
-              <br></br>
-              <br></br>
-              <p>I wish everyone the very best for the year ahead.</p>
+                Education, wealth and strength are necessary for everyone. But
+                the value of each of them depends on the way you use it.
+                Education without character, politics without principles and
+                commerce without morality are not only useless, but positively
+                dangerous. Education is the ornament for human beings. It is the
+                secret wealth. It is to be valued not as means of earning one’s
+                livelihood, but as the essential requisite for a happy, peaceful
+                and progressive life. Engineering offers a highly rewarding and
+                lucrative career – one in which you can apply intuitive,
+                imaginative and creative ideas to find appropriate solutions to
+                the challenges facing our society. I wish you success in sharing
+                knowledge, ideas and solving important societal needs and
+                issues. However, the ‘Success in life’ will certainly depend
+                upon creating high ethical and moral values besides imparting
+                and inculcating up-to date knowledge and skills. On behalf of
+                KIT’s College of Engineering, I wish you all the best in your
+                personal and professional career.
+                <br></br>
+                <br></br>
+                <p>I wish everyone the very best for the year ahead.</p>
               </div>
             </div>
             <div className="w-[300px] sm:h-[320px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl sm:text-lg items-center flex flex-col sm:mt-8 sm:w-[250px] sm:mx-auto">
               <div className="overflow-hidden bg-white rounded-xl">
-                <img src="/images/CollegeAdministration/v-v-karjinni.jpg" alt="v-v-karjinni.jpg" />
+                <img
+                  src="/images/CollegeAdministration/v-v-karjinni.jpg"
+                  alt="v-v-karjinni.jpg"
+                />
               </div>
               <div className="mt-2">Dr. V. V. Karjinni</div>
             </div>
@@ -91,8 +100,8 @@ const CollegeAdministration = () => {
         <section className="w-full py-8 bg-white">
           <Career />
         </section>
-        <Footer />
       </div>
+      <Footer />
     </DefaultLayout>
   )
 }

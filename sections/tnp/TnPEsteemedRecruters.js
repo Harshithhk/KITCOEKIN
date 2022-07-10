@@ -22,21 +22,33 @@ const TnPEsteemedRecruiters = () => {
     "bg-[url('/images/HomePage/Recruiters/Vector-17.png')]",
   ]
 
+  // let avatars = [
+  //   "/images/HomePage/Recruiters/avatar.png",
+  //   "/images/HomePage/Recruiters/avatar.png",
+  //   "/images/HomePage/Recruiters/avatar.png",
+  //   "/images/HomePage/Recruiters/avatar.png",
+  //   "/images/HomePage/Recruiters/avatar.png",
+  //   "/images/HomePage/Recruiters/avatar.png",
+  //   "/images/HomePage/Recruiters/avatar.png",
+  //   "/images/HomePage/Recruiters/avatar.png",
+  //   "/images/HomePage/Recruiters/avatar.png",
+  //   "/images/HomePage/Recruiters/avatar.png",
+  // ]
   let avatars = [
-    "/images/HomePage/Recruiters/avatar.png",
-    "/images/HomePage/Recruiters/avatar.png",
-    "/images/HomePage/Recruiters/avatar.png",
-    "/images/HomePage/Recruiters/avatar.png",
-    "/images/HomePage/Recruiters/avatar.png",
-    "/images/HomePage/Recruiters/avatar.png",
-    "/images/HomePage/Recruiters/avatar.png",
-    "/images/HomePage/Recruiters/avatar.png",
-    "/images/HomePage/Recruiters/avatar.png",
-    "/images/HomePage/Recruiters/avatar.png",
+    "/images/tnp/vp.jpg",
+    "/images/tnp/gc.jpg",
+    "/images/tnp/pg.jpg",
+    "/images/tnp/vp.jpg",
+    "/images/tnp/pg.jpg",
+    "/images/tnp/gc.jpg",
+    "/images/tnp/vp.jpg",
+    "/images/tnp/pg.jpg",
+    "/images/tnp/gc.jpg",
+    "/images/tnp/vp.jpg",
   ]
 
   return (
-    <section className="p-[50px]   mt-16 bg-slate-100 md:p-[16px] bg-[url('/images/HomePage/Recruiters/Recruiters-bg.png')] bg-cover bg-center bg-no-repeat  ">
+    <section className="p-[50px]   mt-16 bg-slate-100 md:p-[16px] bg-[url('/images/HomePage/Recruiters/Recruiters-bg-2.jpg')] bg-cover bg-center bg-no-repeat  ">
       <div className="flex items-center">
         <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
         <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center   text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
@@ -66,8 +78,8 @@ const TnPEsteemedRecruiters = () => {
                     srcset=""
                   />
                 </div>
-                <div className="w-full text-center font-bold mt-2 md:text-white">
-                  Aaron
+                <div className="w-[70%] text-center font-bold mt-2 md:text-white">
+                  Mr. Vinay S. Prabhavalkar{" "}
                 </div>
               </div>
             )

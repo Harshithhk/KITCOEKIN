@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import ReactPlayer from "react-player"
 import DefaultLayout from "../components/DefaultLayout"
 import Awsome from "../sections/about-us/Awsome"
@@ -8,10 +8,29 @@ import MissionCards from "../sections/about-us/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
 import Accreditation from "../sections/home-page/Accredations"
+import Statistics from "../sections/home-page/Statistics"
+import StatisticsNew from "../sections/home-page/StatisticsNew"
+import Gallaryslider from "../components/Gallary-slider"
+
+let images = [
+  "/images/Gallary-1png.png",
+  "/images/Gallary-2.png",
+  "/images/Gallary-3.png",
+  "/images/Gallary-2.png",
+]
+
 const about = () => {
+  const [gallary, setGallary] = useState(false)
+
+  useEffect(() => {
+    console.log(gallary)
+    return () => {}
+  }, [gallary])
+
   return (
     <DefaultLayout>
-      <div className="w-full">
+      <div className="w-full relative">
+        {gallary && <Gallaryslider images={images} setGallary={setGallary} />}
         <section className="relative flex flex-col items-center w-full">
           <img
             src="/images/AboutUs/bgcircle.png"
@@ -51,7 +70,10 @@ const about = () => {
             COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
           </h1>
 
-          <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">
+          <div
+            className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8 cursor-pointer"
+            onClick={() => setGallary(true)}
+          >
             <img
               src="/images/AboutUs/IMAGE-GALLARY-1.png"
               className="w-full h-full sm:hidden 2xl:block"
@@ -69,6 +91,9 @@ const about = () => {
         <Accreditation />
         <div className="mt-4">
           <OurVision />
+        </div>
+        <div className="px-6 md:px-1">
+          <StatisticsNew />
         </div>
         <MissionCards />
         <Testimonials />

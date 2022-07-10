@@ -35,7 +35,6 @@ const NIRF_IPR = () => {
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
             NIRF IPR
-
           </h1>
           <br></br>
           <br></br>
@@ -44,18 +43,17 @@ const NIRF_IPR = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-xl font-bold text-center text-white z-20"
           >
-             Home | NIRF IPR
+            Home | NIRF IPR
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="overflow-x-scroll max-w-screen">
           <section className="relative z-30 w-[1500px] pb-20 mx-auto h-fit px-14 sm:px-4 sm:pb-10  ">
-            
             <div className="flex items-center w-full mt-6">
-                <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
-                <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
+              <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
+              <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
                 AY:2020-21
-                </div>
+              </div>
             </div>
             <div className="flex items-center w-full h-16 p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
               <div className=" w-[5%] text-left pl-2">Sr.No.</div>
@@ -66,28 +64,30 @@ const NIRF_IPR = () => {
 
             <div className="flex items-center w-full h-16 p-2 mt-6 text-center shadow-lg rounded-2xl bg-blue-50">
               <div className=" w-[5%] text-left pl-2">1</div>
-              <div className=" w-[20%] text-left pl-2">
-                Dr. Uma Gurav
+              <div className=" w-[20%] text-left pl-2">Dr. Uma Gurav</div>
+              <div className=" w-[63%] text-left pl-2">
+                A BLOCKCHAIN TECHNOLOGY-BASED METHOD FOR STOCK MARKET ANALYSIS
+                AND TRANSACTIONS
               </div>
-              <div className=" w-[63%] text-left pl-2">A BLOCKCHAIN TECHNOLOGY-BASED METHOD FOR STOCK MARKET ANALYSIS AND TRANSACTIONS</div>
-              <div className=" w-[10%] text-left pl-2">Downolad Icon</div>
+              <div className=" w-[10%] text-left pl-2">Downolad</div>
             </div>
 
             <div className="flex items-center w-full h-16 p-2 mt-2 text-center shadow-lg rounded-2xl bg-slate-100">
-            <div className=" w-[5%] text-left pl-2">2</div>
+              <div className=" w-[5%] text-left pl-2">2</div>
               <div className=" w-[20%] text-left pl-2">
-              Mr. Pradeep Sadasniv Khot
+                Mr. Pradeep Sadasniv Khot
               </div>
-              <div className=" w-[63%] text-left pl-2">AN INTELLIGENT STENOGRAPHER DESIGNSD FOR JUDICIARY SYSTEM</div>
-              <div className=" w-[10%] text-left pl-2">Downolad Icon</div>
+              <div className=" w-[63%] text-left pl-2">
+                AN INTELLIGENT STENOGRAPHER DESIGNSD FOR JUDICIARY SYSTEM
+              </div>
+              <div className=" w-[10%] text-left pl-2">Downolad</div>
             </div>
 
-
             <div className="flex items-center w-full mt-6">
-                <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
-                <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
+              <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
+              <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
                 AY:2019-220
-                </div>
+              </div>
             </div>
             <div className="flex items-center w-full h-16 p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
               <div className=" w-[5%] text-left pl-2">Sr.No.</div>
@@ -96,14 +96,11 @@ const NIRF_IPR = () => {
               <div className=" w-[10%] text-left pl-2">Download</div>
             </div>
 
-           
-
-
             <div className="flex items-center w-full mt-6">
-                <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
-                <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
+              <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
+              <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
                 AY:2018-19
-                </div>
+              </div>
             </div>
             <div className="flex items-center w-full h-16 p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
               <div className=" w-[5%] text-left pl-2">Sr.No.</div>
@@ -114,16 +111,13 @@ const NIRF_IPR = () => {
 
             <div className="flex items-center w-full h-16 p-2 mt-6 text-center shadow-lg rounded-2xl bg-blue-50">
               <div className=" w-[5%] text-left pl-2">1</div>
-              <div className=" w-[20%] text-left pl-2">
-               Dr. Vidula Swami
+              <div className=" w-[20%] text-left pl-2">Dr. Vidula Swami</div>
+              <div className=" w-[63%] text-left pl-2">
+                Identification of Ideal Structure for Water Conservation in
+                Rural Areas using SWAT Model
               </div>
-              <div className=" w-[63%] text-left pl-2">Identification of Ideal Structure for Water Conservation in Rural Areas using SWAT Model</div>
-              <div className=" w-[10%] text-left pl-2">Downolad Icon</div>
+              <div className=" w-[10%] text-left pl-2">Downolad</div>
             </div>
-
-            
-
-           
           </section>
         </section>
 
