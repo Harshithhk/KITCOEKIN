@@ -181,9 +181,9 @@ const OfficeAdministration = () => {
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
-        <section className="overflow-x-scroll max-w-fit mx-auto">
-          <section className="relative z-30 w-[1500px] pb-20 mx-auto h-fit px-14 sm:px-4 sm:pb-10  ">
-            <div className="flex mx-auto items-center w-[800px] h-16 p-2 mt-6  font-semibold text-center rounded-lg shadow-lg ">
+        <section className="overflow-x-scroll max-w-fit mx-auto md:mx-0">
+          <section className="relative z-30 w-[1500px] md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
+            <div className="flex md:mx-0 mx-auto items-center w-[800px] h-16 p-2 mt-6  font-semibold text-center rounded-lg shadow-lg ">
               <div className=" w-[9%] text-left pl-2">Sr.No.</div>
               <div className=" w-[35%] text-left pl-2">Name</div>
               <div className=" w-[35%] text-left pl-2">Designation</div>
@@ -194,7 +194,7 @@ const OfficeAdministration = () => {
               console.log(item)
               if (index == 0) {
                 return (
-                  <div className="flex  mx-auto w-[800px] h-16 p-2 mt-6  text-center shadow-lg rounded-2xl bg-blue-50">
+                  <div className="flex md:mx-0  mx-auto w-[800px] h-16 p-2 mt-6  text-center shadow-lg rounded-2xl bg-blue-50">
                     <div className=" w-[9%] text-left pl-2">{item.SrNo}</div>
                     <div className=" w-[35%] text-left pl-2">{item.Name}</div>
                     <div className=" w-[35%] text-left pl-2">
@@ -207,7 +207,7 @@ const OfficeAdministration = () => {
                 )
               } else if (index % 2 == 0) {
                 return (
-                  <div className="flex mx-auto  w-[800px]  h-16 p-2 mt-2  text-center shadow-lg rounded-2xl bg-blue-50">
+                  <div className="flex md:mx-0 mx-auto  w-[800px]  h-16 p-2 mt-2  text-center shadow-lg rounded-2xl bg-blue-50">
                     <div className=" w-[9%] text-left pl-2">{item.SrNo}</div>
                     <div className=" w-[35%] text-left pl-2">{item.Name}</div>
                     <div className=" w-[35%] text-left pl-2">
@@ -220,7 +220,7 @@ const OfficeAdministration = () => {
                 )
               } else {
                 return (
-                  <div className="flex  mx-auto w-[800px]  h-16 p-2 mt-2  text-center shadow-lg rounded-2xl bg-slate-100">
+                  <div className="flex md:mx-0  mx-auto w-[800px]  h-16 p-2 mt-2  text-center shadow-lg rounded-2xl bg-slate-100">
                     <div className=" w-[9%] text-left pl-2">{item.SrNo}</div>
                     <div className=" w-[35%] text-left pl-2">{item.Name}</div>
                     <div className=" w-[35%] text-left pl-2">

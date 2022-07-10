@@ -207,57 +207,58 @@ const AicteIdeaLab = () => {
         </div>
       </div>
       
-      <section className="flex flex-col h-fit  bg-[#F8F7FC] items-center w-auto p-20 pt-10 sm:p-2 ">
-        <div className="grid grid-cols-4 w-full h-16 p-2 mt-8 font-semibold text-center rounded-lg shadow-lg ">
-          <div className=" w-[25%] text-left pl-2">Branch</div>
-          <div className=" w-[25%] text-left pl-2">2018-2019</div>
-          <div className=" w-[25%] text-left pl-2">2019-2020</div>
-          <div className=" w-[25%] text-left pl-2">2020-2021</div>
-        </div>
-
-        <div className="flex items-center w-full h-16 p-2 mt-6 text-center shadow-lg rounded-2xl bg-blue-50">
-          <div className=" w-[25%] text-left pl-2">Computer Science</div>
-          <div className=" w-[25%] text-left pl-2">17</div>
-          <div className=" w-[25%] text-left pl-2">25</div>
-          <div className=" w-[25%] text-left pl-2">29</div>
-        </div>
-        <div className="flex items-center w-full h-16 p-2 mt-2 text-center shadow-lg rounded-2xl bg-slate-100">
-          <div className=" w-[25%] text-left pl-2">Computer Science</div>
-          <div className=" w-[25%] text-left pl-2">18</div>
-          <div className=" w-[25%] text-left pl-2">25</div>
-          <div className=" w-[25%] text-left pl-2">29</div>
-        </div>
-        <div className="flex items-center w-full h-16 p-2 mt-2 text-center shadow-lg rounded-2xl bg-blue-50">
-          <div className=" w-[25%] text-left pl-2">Computer Science</div>
-          <div className=" w-[25%] text-left pl-2">25</div>
-          <div className=" w-[25%] text-left pl-2">25</div>
-          <div className=" w-[25%] text-left pl-2">29</div>
-        </div>
-        <div className="flex items-center w-full h-16 p-2 mt-2 text-center shadow-lg rounded-2xl bg-slate-100">
-          <div className=" w-[25%] text-left pl-2">Computer Science</div>
-          <div className=" w-[25%] text-left pl-2">42</div>
-          <div className=" w-[25%] text-left pl-2">25</div>
-          <div className=" w-[25%] text-left pl-2">29</div>
-        </div>
-        <div className="flex items-center w-full h-16 p-2 mt-2 text-center shadow-lg rounded-2xl bg-blue-50">
-          <div className=" w-[25%] text-left pl-2">Computer Science</div>
-          <div className=" w-[25%] text-left pl-2">18</div>
-          <div className=" w-[25%] text-left pl-2">25</div>
-          <div className=" w-[25%] text-left pl-2">29</div>
-        </div>
-        <div className="flex items-center w-full h-16 p-2 mt-2 text-center shadow-lg rounded-2xl bg-slate-100">
-          <div className=" w-[25%] text-left pl-2">Computer Science</div>
-          <div className=" w-[25%] text-left pl-2">25</div>
-          <div className=" w-[25%] text-left pl-2">25</div>
-          <div className=" w-[25%] text-left pl-2">29</div>
-        </div>
-        <div className="flex items-center w-full h-16 p-2 mt-2 text-center shadow-lg rounded-2xl bg-blue-50">
-          <div className=" w-[25%] text-left pl-2">Computer Science</div>
-          <div className=" w-[25%] text-left pl-2">55</div>
-          <div className=" w-[25%] text-left pl-2">25</div>
-          <div className=" w-[25%] text-left pl-2">29</div>
-        </div>
-      </section>
+      <section className="relative rounded-3xl z-30 w-[100%] mx-auto pb-20 h-fit bg-[#F8F7FC] sm:p-4">
+          
+          <div className="flex flex-col items-center sm:flex-col">
+           
+          <div className=" shadow-lg items-center grid grid-cols-3  w-[1100px] h-fit p-2 mt-6 bg-[#F8F7FC] font-semibold text-center rounded-lg sm:w-full justify-between  min-h-[55px] ">  
+                    <div className="">Department</div>
+                    <div className="">Name of Faculty</div>
+                    <div className="">Contact Details</div> 
+              </div>
+        
+              <div className="shadow-lg  grid grid-cols-3 divide-x  w-[1100px] h-fit p-2 mt-6 bg-white font-semibold text-center rounded-lg sm:w-full justify-between  min-h-[55px] ">  
+                     {/* row end */}
+                     <div className="">	Dr. Akshay  Thorwat</div>
+                     <div >
+                        Assoc. Professor and Head,
+                        Dept. of Civil and Environmental Engg.
+                     </div>
+                     <div>Coordinator</div>
+                     {/* row end */}
+              </div>
+              <div className="shadow-lg  grid grid-cols-3 divide-x  w-[1100px] h-fit p-2 mt-2 bg-white font-semibold text-center rounded-lg sm:w-full justify-between   min-h-[55px] ">  
+                     {/* row end */}
+                     <div className="">	Dr. Akshay  Thorwat</div>
+                     <div >
+                        Assoc. Professor and Head,
+                        Dept. of Civil and Environmental Engg.
+                     </div>
+                     <div>Coordinator</div>
+                     {/* row end */}
+              </div><div className="shadow-lg  grid grid-cols-3 divide-x  w-[1100px] h-fit p-2 mt-2 bg-white font-semibold text-center rounded-lg sm:w-full justify-between min-h-[55px] ">  
+                     {/* row end */}
+                     <div className="">	Dr. Akshay  Thorwat</div>
+                     <div >
+                        Assoc. Professor and Head,
+                        Dept. of Civil and Environmental Engg.
+                     </div>
+                     <div>Coordinator</div>
+                     {/* row end */}
+              </div><div className="shadow-lg  grid grid-cols-3 divide-x  w-[1100px] h-fit p-2 mt-2 bg-white font-semibold text-center rounded-lg sm:w-full justify-between   min-h-[55px] ">  
+                     {/* row end */}
+                     <div className="">	Dr. Akshay  Thorwat</div>
+                     <div >
+                        Assoc. Professor and Head,
+                        Dept. of Civil and Environmental Engg.
+                     </div>
+                     <div>Coordinator</div>
+                     {/* row end */}
+              </div>
+         
+          </div>
+          
+        </section>
     </section>
         <Footer />
       </div>

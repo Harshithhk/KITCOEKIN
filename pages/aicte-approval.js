@@ -209,9 +209,9 @@ const AicteApproval = () => {
           <section className="relative z-30 w-[1500px] md:w-fit pb-20 mx-auto h-fit px-14 sm:px-4 sm:pb-10  ">
             <br></br>
 
-            <div className="flex items-center mt-6 w-fit  mx-auto">
+            <div className="flex items-center mt-6 w-fit  mx-auto md:mx-0 md:w-[350px] ">
               <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
-              <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
+              <div className="ml-3 md:ml-2 w-fit italic font-[800] md:leading-none  text-[#3D3859] leading-[54px]  text-[35.97px]  md:text-[22px]">
                 Extension of Approval (EoA)/LoA
               </div>
             </div>

@@ -38,15 +38,17 @@ const HeroSectionUpdated = () => {
             tincidunt. Sollicitudin diam integer sagittism
           </div>
 
-          <button className="text-2xl cursor-pointer italic font-bold text-white flex items-center bg-[#F07C00] px-5 py-2 ml-8 mt-7 relative hover:bg-[#b3620c] md:translate-x-8">
-            LET'S BEGIN
-            <span className="ml-2 text-xl font-extrabold"> &gt;&gt;</span>
-            <div className="w-28  flex justify-between h-fit md:left-1/4 items-center absolute bottom-[-40px] left-[50%] ">
-              <div className=" bg-slate-50  w-8 h-[3px]"></div>
-              <div className=" bg-slate-50  w-8 h-[2.5px] opacity-50"></div>
-              <div className=" bg-slate-50  w-8 h-[2.5px] opacity-50"></div>
-            </div>
-          </button>
+          <a href="#btech">
+            <button className="text-2xl cursor-pointer italic font-bold text-white flex items-center rounded-md bg-[#F07C00] px-5 py-2 ml-8 mt-7 relative hover:bg-[#b3620c] md:translate-x-8">
+              LET'S BEGIN
+              <span className="ml-2 text-xl font-extrabold"> &gt;&gt;</span>
+              <div className="w-28  flex justify-between h-fit md:left-1/4 items-center absolute bottom-[-40px] left-[50%] ">
+                <div className=" bg-slate-50  w-8 h-[3px]"></div>
+                <div className=" bg-slate-50  w-8 h-[2.5px] opacity-50"></div>
+                <div className=" bg-slate-50  w-8 h-[2.5px] opacity-50"></div>
+              </div>
+            </button>
+          </a>
         </div>
       </div>
     </section>

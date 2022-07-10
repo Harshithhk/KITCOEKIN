@@ -52,7 +52,7 @@ const about = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-xl font-bold text-center text-slate-300 z-20"
           >
-             Home | Computer Science Engineering Department
+            Home | Computer Science Engineering Department
           </h6>
 
           <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">
