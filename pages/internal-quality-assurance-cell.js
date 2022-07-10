@@ -7,7 +7,7 @@ import Career from "../sections/departments/career"
 const InternalQualityAssuranceCell = () => {
   return (
     <DefaultLayout>
-      <div className="w-full bg-[#24346D]">
+      <div className="w-full pb-10 bg-[#24346D]">
         <section className="flex flex-col h-[250px] items-center w-full relative">
           <img
             src="/images/AboutUs/bgcircle.png"
@@ -46,7 +46,7 @@ const InternalQualityAssuranceCell = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-xl font-bold text-center text-white z-20"
           >
-             Home | IQAC
+            Home | IQAC
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
@@ -63,118 +63,174 @@ const InternalQualityAssuranceCell = () => {
                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                 Introduction
               </div>
-              <div className="mt-10 sm:mt-4 w-[800px] text-justify text-xl text-accent sm:w-full sm:text-base">
+              <div className="mt-10 sm:mt-4 w-[800px] lg:w-fit lg:mr-5 text-justify text-xl text-accent sm:w-full sm:text-base">
                 NAAC Accreditation: Self Study Report Cycle-1 (Download Icon)
-                <br></br><br></br>
-                In pursuance of the National Action Plan of the National Assessment and Accreditation Council (NAAC),
-                 Bangalore, for performance evaluation, assessment and accreditation and quality up gradation of 
-                 institutions of higher education, the NAAC proposes that every accredited institution should 
-                 establish an Internal Quality Assurance Cell (IQAC) as a post-accreditation quality sustenance 
-                 measure. Since quality enhancement is a continuous process, the IQAC will become a part of an 
-                 institution’s system and work towards realizing the goals of quality enhancement and sustenance. 
-                 The prime task of the IQAC is to develop a system for conscious, consistent and catalytic improvement 
-                 in the performance of institutions. The IQAC will make a significant and meaningful contribution in
-                  the post-accreditation phase of institutions. During the post-accreditation period, the IQAC will 
-                  channelise the efforts and measures of an institution towards academic excellence. The guidelines 
-                  provided in the following pages will facilitate the institution in the creation and operation of 
-                  the Internal Quality Assurance Cell (IQAC). The work of the IQAC is the first step towards the 
-                  internalization and institutionalization of quality enhancement. Its success depends upon the 
-                  sense of belongingness and participation it can inculcate in all the constituents of the institution. 
-                  It will not be yet another hierarchical structure or recordkeeping exercise in the institution; it 
-                  will be a facilitative and participative voluntary system/unit/organ of the institution. The IQAC has 
-                  the potential to become a vehicle for ushering in quality by working out intervention strategies to remove
-                 deficiencies and enhance quality. Quality circles in industries operate on similar lines.
-                 <br></br><br></br>
-                 <b>Objective:</b><br></br><br></br>
-                 The Primary aim of the IQAC is to develop a system for conscious, consistent and catalytic action to improve the academic and administrative performance of the institution.
-                 <br></br><br></br>
-                 Internal Quality Assurance Cell (IQAC) Committee (Download Icon)
+                <br></br>
+                <br></br>
+                In pursuance of the National Action Plan of the National
+                Assessment and Accreditation Council (NAAC), Bangalore, for
+                performance evaluation, assessment and accreditation and quality
+                up gradation of institutions of higher education, the NAAC
+                proposes that every accredited institution should establish an
+                Internal Quality Assurance Cell (IQAC) as a post-accreditation
+                quality sustenance measure. Since quality enhancement is a
+                continuous process, the IQAC will become a part of an
+                institution’s system and work towards realizing the goals of
+                quality enhancement and sustenance. The prime task of the IQAC
+                is to develop a system for conscious, consistent and catalytic
+                improvement in the performance of institutions. The IQAC will
+                make a significant and meaningful contribution in the
+                post-accreditation phase of institutions. During the
+                post-accreditation period, the IQAC will channelise the efforts
+                and measures of an institution towards academic excellence. The
+                guidelines provided in the following pages will facilitate the
+                institution in the creation and operation of the Internal
+                Quality Assurance Cell (IQAC). The work of the IQAC is the first
+                step towards the internalization and institutionalization of
+                quality enhancement. Its success depends upon the sense of
+                belongingness and participation it can inculcate in all the
+                constituents of the institution. It will not be yet another
+                hierarchical structure or recordkeeping exercise in the
+                institution; it will be a facilitative and participative
+                voluntary system/unit/organ of the institution. The IQAC has the
+                potential to become a vehicle for ushering in quality by working
+                out intervention strategies to remove deficiencies and enhance
+                quality. Quality circles in industries operate on similar lines.
+                <br></br>
+                <br></br>
+                <b>Objective:</b>
+                <br></br>
+                <br></br>
+                The Primary aim of the IQAC is to develop a system for
+                conscious, consistent and catalytic action to improve the
+                academic and administrative performance of the institution.
+                <br></br>
+                <br></br>
+                Internal Quality Assurance Cell (IQAC) Committee (Download Icon)
               </div>
             </div>
-              
-              
-                    <div>
-                            <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
-                                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                                IQAC
-                            </div>
-                            <div className=" items-center w-fit h-fit p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
-                            
-                               <div className="flex mt-2 mb-2">
-                                    <div className=" w-[90%] text-left pl-2 text-slate-400">	Best Practices</div>
-                                    <div className=" w-[20%] text-left pl-2 text-slate-400">	 Icon</div>
-                                </div>
-                                <hr></hr>   
-                                <div className="flex mt-2 mb-2">
-                                    <div className=" w-[90%] text-left pl-2 text-slate-400">	IQAR Records</div>
-                                    <div className=" w-[20%] text-left pl-2 text-slate-400">	 Icon</div>
-                                </div> 
-                                <hr></hr> 
-                                    <div className="flex mt-2 mb-2">
-                                        <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">	Infrastructure and Learning Resources</div>
-                                        <div className=" w-[20%] text-left pl-2 text-slate-400">	 Icon</div>
-                                    </div>   
-                                    <hr></hr> 
-                                                           
-                                </div>
-                               
-                            <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
-                                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                                NAAC Records
-                            </div>
-                            <div className=" items-center w-fit h-fit p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
-                            
-                               <div className="flex mt-2 mb-2">
-                                    <div className=" w-[90%] text-left pl-2 text-slate-400">	KIT NAAC Certificate</div>
-                                    <div className=" w-[20%] text-left pl-2 text-slate-400">	 Icon</div>
-                                    
-                                </div>
-                                <hr></hr>   
-                                <div className="flex mt-2 mb-2">
-                                    <div className=" w-[90%] text-left pl-2 text-slate-400">	KIT NAAC Quality Profile</div>
-                                    <div className=" w-[20%] text-left pl-2 text-slate-400">	 Icon</div>
-                                    
-                                </div> 
-                                <hr></hr> 
-                                    <div className="flex mt-2 mb-2">
-                                        <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">	NAAC Peer team report</div>
-                                        <div className=" w-[20%] text-left pl-2 text-slate-400">	 Icon</div>
-                                       
-                                    </div>   
-                                    <hr></hr> 
-                                    <hr></hr> 
-                                    <div className="flex mt-2 mb-2">
-                                        <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">	NAAC Self Study Report Cycle-1 as on 15th Nov 2014</div>
-                                        <div className=" w-[20%] text-left pl-2 text-slate-400">	 Icon</div>
-                                       
-                                    </div>   
-                                    <hr></hr> 
-                                    <hr></hr> 
-                                    <div className="flex mt-2 mb-2">
-                                        <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">	NAAC: Central Committee</div>
-                                        <div className=" w-[20%] text-left pl-2 text-slate-400">	 Icon</div>
-                                       
-                                    </div>   
-                                    <hr></hr> 
-                                    <hr></hr> 
-                                    <div className="flex mt-2 mb-2">
-                                        <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">	Student Satisfaction Survey for year 2020-21</div>
-                                        <div className=" w-[20%] text-left pl-2 text-slate-400">	 Icon</div>
-                                       
-                                    </div>   
-                                    <hr></hr> 
-                                                           
-                        </div>
-                    
-                    </div>
 
-                    
-                        
+            <div className="min-w-[300px]">
+              <div className="pt-28 sm:pt-20 w-full text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
+                IQAC
+              </div>
+              <div className=" items-center w-fit h-fit p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
+                <div className="flex mt-2 mb-2">
+                  <div className=" w-[90%] text-left pl-2 text-slate-400">
+                    {" "}
+                    Best Practices
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-slate-400">
+                    {" "}
+                    Icon
+                  </div>
+                </div>
+                <hr></hr>
+                <div className="flex mt-2 mb-2">
+                  <div className=" w-[90%] text-left pl-2 text-slate-400">
+                    {" "}
+                    IQAR Records
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-slate-400">
+                    {" "}
+                    Icon
+                  </div>
+                </div>
+                <hr></hr>
+                <div className="flex mt-2 mb-2">
+                  <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
+                    {" "}
+                    Infrastructure and Learning Resources
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-slate-400">
+                    {" "}
+                    Icon
+                  </div>
+                </div>
+                <hr></hr>
+              </div>
+
+              <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
+                NAAC Records
+              </div>
+              <div className=" items-center w-fit h-fit p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
+                <div className="flex mt-2 mb-2">
+                  <div className=" w-[90%] text-left pl-2 text-slate-400">
+                    {" "}
+                    KIT NAAC Certificate
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-slate-400">
+                    {" "}
+                    Icon
+                  </div>
+                </div>
+                <hr></hr>
+                <div className="flex mt-2 mb-2">
+                  <div className=" w-[90%] text-left pl-2 text-slate-400">
+                    {" "}
+                    KIT NAAC Quality Profile
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-slate-400">
+                    {" "}
+                    Icon
+                  </div>
+                </div>
+                <hr></hr>
+                <div className="flex mt-2 mb-2">
+                  <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
+                    {" "}
+                    NAAC Peer team report
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-slate-400">
+                    {" "}
+                    Icon
+                  </div>
+                </div>
+                <hr></hr>
+                <hr></hr>
+                <div className="flex mt-2 mb-2">
+                  <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
+                    {" "}
+                    NAAC Self Study Report Cycle-1 as on 15th Nov 2014
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-slate-400">
+                    {" "}
+                    Icon
+                  </div>
+                </div>
+                <hr></hr>
+                <hr></hr>
+                <div className="flex mt-2 mb-2">
+                  <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
+                    {" "}
+                    NAAC: Central Committee
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-slate-400">
+                    {" "}
+                    Icon
+                  </div>
+                </div>
+                <hr></hr>
+                <hr></hr>
+                <div className="flex mt-2 mb-2">
+                  <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
+                    {" "}
+                    Student Satisfaction Survey for year 2020-21
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-slate-400">
+                    {" "}
+                    Icon
+                  </div>
+                </div>
+                <hr></hr>
+              </div>
+            </div>
           </div>
         </section>
-        
-        <Footer />
       </div>
+      <Footer />
     </DefaultLayout>
   )
 }

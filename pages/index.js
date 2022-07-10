@@ -8,7 +8,7 @@ import NewsAndNotices from "../sections/home-page/NewsAndNotices"
 import EsteemedRecruiters from "../sections/home-page/EsteemedRecruiters"
 import BtechHonours from "../sections/home-page/BtechHonours"
 import Statistics from "../sections/home-page/Statistics"
-import Testimonials from "../sections/home-page/Testimonials"
+
 import Overviews from "../sections/home-page/Overviews"
 import Milestones from "./milestones"
 
@@ -16,7 +16,8 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
 import HeroSectionUpdated from "../sections/home-page/HeroSectionUpdated"
-
+import StatisticsNew from "../sections/home-page/StatisticsNew"
+import Testimonials from "../sections/about-us/Testimonials"
 export async function getStaticProps() {
   let news = []
   let notices = []
@@ -54,9 +55,9 @@ const Home = (props) => {
       <Accredations />
       <NewsAndNotices news={props.news} notices={props.notices} />
       <Overviews />
-      <Statistics />
+      <StatisticsNew />
       <EsteemedRecruiters />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <Footer />
     </DefaultLayout>
   )

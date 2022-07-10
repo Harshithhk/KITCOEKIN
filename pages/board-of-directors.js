@@ -62,23 +62,31 @@ const BoardOfDirectors = () => {
                 CHAIRMAN&apos;S MESSAGE
               </div>
               <div className="mt-10 text-justify sm:mt-4 w-[800px] text-xl text-accent sm:w-full sm:text-base">
-              KIT, over the years, has created a brand image at the State and National level 
-              for giving our country, engineers, who are well prepared to face the future challenges, 
-              Our institute has constantly made efforts to give more focus in enhancing teaching and learning 
-              systems.We do understand that a lot needs to be done in bringing creativity and critical thinking 
-              in our curriculum, which will further inculcate skills to enable our students’ demonstrate higher 
-              levels of expertise. It will be our endeavours to add more qualified PhDs into our faculty base, 
-              which will strengthen research at all levels. I greatly appreciate the involvement of both the students 
-              and faculty in organizing State and National level workshops, which greatly help our institute to 
-              understand the current trends in the market.
-              <br></br>
-              <br></br>
-              <p>I wish everyone the very best for the year ahead.</p>
+                KIT, over the years, has created a brand image at the State and
+                National level for giving our country, engineers, who are well
+                prepared to face the future challenges, Our institute has
+                constantly made efforts to give more focus in enhancing teaching
+                and learning systems.We do understand that a lot needs to be
+                done in bringing creativity and critical thinking in our
+                curriculum, which will further inculcate skills to enable our
+                students’ demonstrate higher levels of expertise. It will be our
+                endeavours to add more qualified PhDs into our faculty base,
+                which will strengthen research at all levels. I greatly
+                appreciate the involvement of both the students and faculty in
+                organizing State and National level workshops, which greatly
+                help our institute to understand the current trends in the
+                market.
+                <br></br>
+                <br></br>
+                <p>I wish everyone the very best for the year ahead.</p>
               </div>
             </div>
             <div className="w-[300px] sm:h-[320px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl sm:text-lg items-center flex flex-col sm:mt-8 sm:w-[250px] sm:mx-auto">
               <div className="overflow-hidden bg-white rounded-xl">
-                <img src="/images/BoardOfDirectors/sunil-kulkarni1.jpg" alt="sunil-kulkarni1.jpg" />
+                <img
+                  src="/images/BoardOfDirectors/sunil-kulkarni1.jpg"
+                  alt="sunil-kulkarni1.jpg"
+                />
               </div>
               <div className="mt-2">Shri. Sunil Kulkarni</div>
             </div>
@@ -89,8 +97,8 @@ const BoardOfDirectors = () => {
         <section className="w-full py-8 bg-white">
           <Career />
         </section>
-        <Footer />
       </div>
+      <Footer />
     </DefaultLayout>
   )
 }

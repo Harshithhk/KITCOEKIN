@@ -1,10 +1,64 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 
+let founders = [
+  {
+    name: "Late.Shri Shivajirao Desai",
+    designation: "Founder Chairman",
+    img: "/images/FounderTrustees/shivajirao-desai.jpg",
+  },
+  {
+    name: "Late.Shri.M.M.Hudli",
+    designation: "Founder Vice Chairman",
+    img: "/images/FounderTrustees/m-m-hadli.jpg",
+  },
+  {
+    name: "Late.Shri.B.S.Kulkarni",
+    designation: "Founder Secretary",
+    img: "/images/FounderTrustees/b-s-kulkarni.jpg",
+  },
+  {
+    name: "Late.Shri.Ram Menon",
+    designation: "Trustee",
+    img: "/images/FounderTrustees/ram-menon.jpg",
+  },
+
+  {
+    name: "Late.Shri. L.B. Chougule",
+    designation: "Trustee",
+    img: "/images/FounderTrustees/l-b-chougule.jpg",
+  },
+  {
+    name: "Late.Shri. D.S. Patil",
+    designation: "Trustee",
+    img: "/images/FounderTrustees/d-s-patil.jpg",
+  },
+  {
+    name: "Late.Shri. Shri. M.R. Pungavkar",
+    designation: "Trustee",
+    img: "/images/FounderTrustees/m-r-pungavkar.jpg",
+  },
+  {
+    name: "Late.Shri. C.D.Joshi",
+    designation: "Trustee",
+    img: "/images/FounderTrustees/c-d-joshi.jpg",
+  },
+  {
+    name: "Late Prin. Shri. A.P. Rane",
+    designation: "Trustee",
+    img: "/images/FounderTrustees/a-p-rane.jpg",
+  },
+  {
+    name: "Late.Shri. E. S. Beri",
+    designation: "Trustee",
+    img: "/images/FounderTrustees/r-s-beri.jpg",
+  },
+]
+
 const FounderTrustees = () => {
   return (
     <DefaultLayout>
-      <div className="w-full bg-[#24346D]">
+      <div className="w-full bg-[#24346D] pb-10">
         <section className="flex flex-col h-[250px] items-center w-full relative">
           <img
             src="/images/AboutUs/bgcircle.png"
@@ -58,142 +112,26 @@ const FounderTrustees = () => {
             sed tempora quaerat eum?
           </div>
 
-          <div className="flex flex-wrap items-center justify-center w-full mt-16 gap-x-16 gap-y-16 sm:mt-8 sm:gap-x-7 sm:gap-y-7">
-            <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
-              <img
-                src="/images/FounderTrustees/shivajirao-desai.jpg"
-                className="w-full h-[190px] sm:h-20"
-                alt=""
-              />
-              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
-                Late. Shri. Shivajirao Desai
+          <div className="flex flex-wrap  justify-center w-full mt-16 gap-x-16 gap-y-16 sm:mt-8 sm:gap-x-7 sm:gap-y-7">
+            {founders.map((founder) => (
+              <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
+                <img
+                  src={founder.img}
+                  className="w-full h-[190px] sm:h-20"
+                  alt={founder.img}
+                />
+                <div className="mx-auto text-lg font-semibold text-center sm:text-xs text-accent">
+                  {founder.name}
+                </div>
+                <h2 className="mx-auto text-lg text-center w-fit text-accent-light sm:text-xs">
+                  {founder.designation}
+                </h2>
               </div>
-              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
-                Founder Chairman
-              </h2>
-            </div>
-            <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
-              <img
-                src="/images/FounderTrustees/a-p-rane.jpg"
-                className="w-full h-[190px] sm:h-20"
-                alt=""
-              />
-              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
-                Late. Shri. Shivajirao Desai
-              </div>
-              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
-                Founder Chairman
-              </h2>
-            </div>
-            <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
-              <img
-                src="/images/FounderTrustees/b-s-kulkarni.jpg"
-                className="w-full h-[190px] sm:h-20"
-                alt=""
-              />
-              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
-                Late. Shri. Shivajirao Desai
-              </div>
-              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
-                Founder Chairman
-              </h2>
-            </div>
-            <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
-              <img
-                src="/images/FounderTrustees/c-d-joshi.jpg"
-                className="w-full h-[190px] sm:h-20"
-                alt=""
-              />
-              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
-                Late. Shri. Shivajirao Desai
-              </div>
-              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
-                Founder Chairman
-              </h2>
-            </div>
-            <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
-              <img
-                src="/images/FounderTrustees/d-s-patil.jpg"
-                className="w-full h-[190px] sm:h-20"
-                alt=""
-              />
-              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
-                Late. Shri. Shivajirao Desai
-              </div>
-              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
-                Founder Chairman
-              </h2>
-            </div>
-            <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
-              <img
-                src="/images/FounderTrustees/shivajirao-desai.jpg"
-                className="w-full h-[190px] sm:h-20"
-                alt=""
-              />
-              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
-                Late. Shri. Shivajirao Desai
-              </div>
-              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
-                Founder Chairman
-              </h2>
-            </div>
-            <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
-              <img
-                src="/images/FounderTrustees/shivajirao-desai.jpg"
-                className="w-full h-[190px] sm:h-20"
-                alt=""
-              />
-              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
-                Late. Shri. Shivajirao Desai
-              </div>
-              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
-                Founder Chairman
-              </h2>
-            </div>
-            <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
-              <img
-                src="/images/FounderTrustees/shivajirao-desai.jpg"
-                className="w-full h-[190px] sm:h-20"
-                alt=""
-              />
-              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
-                Late. Shri. Shivajirao Desai
-              </div>
-              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
-                Founder Chairman
-              </h2>
-            </div>
-            <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
-              <img
-                src="/images/FounderTrustees/shivajirao-desai.jpg"
-                className="w-full h-[190px] sm:h-20"
-                alt=""
-              />
-              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
-                Late. Shri. Shivajirao Desai
-              </div>
-              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
-                Founder Chairman
-              </h2>
-            </div>
-            <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
-              <img
-                src="/images/FounderTrustees/shivajirao-desai.jpg"
-                className="w-full h-[190px] sm:h-20"
-                alt=""
-              />
-              <div className="mx-auto text-xl font-semibold text-center sm:text-xs text-accent">
-                Late. Shri. Shivajirao Desai
-              </div>
-              <h2 className="mx-auto text-xl text-center w-fit text-accent-light sm:text-xs">
-                Founder Chairman
-              </h2>
-            </div>
+            ))}
           </div>
         </section>
-
-        <Footer />
       </div>
+      <Footer />
     </DefaultLayout>
   )
 }
