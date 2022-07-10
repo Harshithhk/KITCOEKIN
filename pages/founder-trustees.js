@@ -113,9 +113,10 @@ const FounderTrustees = () => {
           </div>
 
           <div className="flex flex-wrap  justify-center w-full mt-16 gap-x-16 gap-y-16 sm:mt-8 sm:gap-x-7 sm:gap-y-7">
-            {founders.map((founder) => (
-              <div className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
+            {founders.map((founder,index) => (
+              <div  key={index} className="z-30 w-[170px] h-fit sm:w-[89px] rounded-lg overflow-hidden  ">
                 <img
+               
                   src={founder.img}
                   className="w-full h-[190px] sm:h-20"
                   alt={founder.img}

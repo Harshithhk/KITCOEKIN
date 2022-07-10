@@ -22,8 +22,8 @@ const Gallaryslider = ({ images, setGallary }) => {
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
       >
-        {images.map((img) => (
-          <SwiperSlide>
+        {images.map((img,index) => (
+          <SwiperSlide key={index}>
             <img src={img} className="w-[80%]  mx-auto" alt="" />
           </SwiperSlide>
         ))}
