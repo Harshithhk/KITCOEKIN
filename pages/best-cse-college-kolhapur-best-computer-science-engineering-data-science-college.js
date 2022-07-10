@@ -43,7 +43,7 @@ const about = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            Department of Computer Science Engineering
+            Department of Computer Science Engineering(Data Science)
           </h1>
           <br></br>
           <br></br>
@@ -52,7 +52,7 @@ const about = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-xl font-bold text-center text-slate-300 z-20"
           >
-            Home | Computer Science Engineering Department
+            Home | Computer Science Engineering Data Science Department
           </h6>
 
           <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">

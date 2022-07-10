@@ -1,6 +1,6 @@
 import React from "react"
 
-const OurVision = () => {
+const   OurVision = () => {
   return (
     <section className="mt-16 mx-auto flex sm:flex-col w-[1407px] sm:w-[90%] sm:mt-8">
       <div className="w-1/2 sm:w-[90%] sm:hidden">
