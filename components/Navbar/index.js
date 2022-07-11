@@ -8,9 +8,11 @@ import About from "./about/index.js"
 import Admissions from "./admissions/index.js"
 import Departments from "./departments/index.js"
 import MobileNavbar from "./mobileNavbar/index.js"
+import OthersNavbar from "./others/index.js"
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
+  const [othersNavOpen, setOthersNavOpen] = useState(false)
 
   useEffect(() => {
     Aos.init({ duration: 500, delay: 20 })
@@ -71,16 +73,32 @@ const Navbar = () => {
         </li>
         <li
           href="#"
-          className="flex border-2 border-primary items-center w-32 h-12  text-primary rounded-[75px]  overflow-hidden px-4 py-2 cursor-pointer"
-        >
-          <img
-            src="/images/Navbar/Search_Magnifying_Glass.svg"
-            className="mr-2"
-            alt=""
-          />
-          SEARCH
+          className="flex items-center cursor-pointer"        >
+           <div
+        className="ml-auto space-y-2 HAMBURGER-ICON "
+        onClick={() => setOthersNavOpen((prev) => !prev)}
+      >
+        <span
+          className={`block h-0.5 w-8 animate-pulse  ${
+            router.route != "/" ? "bg-white" : "bg-primary"
+          }`}
+        ></span>
+        <span
+          className={`block h-0.5 w-8 animate-pulse  ${
+            router.route != "/" ? "bg-white" : "bg-primary"
+          }`}
+        ></span>
+        <span
+          className={`block h-0.5 w-8 animate-pulse  ${
+            router.route != "/" ? "bg-white" : "bg-primary"
+          }`}
+        ></span>
+      </div>
         </li>
       </ul>
+      {othersNavOpen && (
+        <OthersNavbar setOthersNavOpen = {setOthersNavOpen}/>
+      )}
       <div
         className="ml-auto space-y-2 HAMBURGER-ICON sm:block 2xl:hidden"
         onClick={() => setIsNavOpen((prev) => !prev)}
@@ -103,7 +121,6 @@ const Navbar = () => {
       </div>
       {isNavOpen && (
         <MobileNavbar setIsNavOpen = {setIsNavOpen}/>
-
       )}
     </nav>
   )

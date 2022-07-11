@@ -19,7 +19,7 @@ let images = [
   "/images/Gallary-2.png",
 ]
 
-const about = () => {
+const About = () => {
   const [gallary, setGallary] = useState(false)
 
   useEffect(() => {
@@ -103,7 +103,7 @@ const about = () => {
   )
 }
 
-export default about
+export default About
 
 {
   /* <div className="mt-10 ">
