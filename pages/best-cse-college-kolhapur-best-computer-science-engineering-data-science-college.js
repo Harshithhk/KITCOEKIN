@@ -2,13 +2,13 @@ import React, { useState } from "react"
 import ReactPlayer from "react-player"
 import DefaultLayout from "../components/DefaultLayout"
 import Awsome from "../sections/about-us/Awsome"
-import OurVision from "../sections/about-us/OurVision"
+import OurVision from "../sections/departments/cseDS/OurVision"
 import AboutUs from "../sections/about-us/AboutUs"
-import MissionCards from "../sections/about-us/MissionCards"
+import MissionCards from "../sections/departments/cseDS/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
-import Career from "../sections/departments/career"
-import Hod from "../sections/departments/hod"
+import Career from "../sections/departments/cseDS/career"
+import Hod from "../sections/departments/cseDS/hod"
 import TnP from "./tnp"
 import Gallaryslider from "../components/Gallary-slider"
 
@@ -56,7 +56,7 @@ const About = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            Department of Computer Science Engineering
+            Department of Computer Science Engineering(Data Science)
           </h1>
           <br></br>
           <br></br>
@@ -65,7 +65,7 @@ const About = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-xl font-bold text-center text-slate-300 z-20"
           >
-            Home | Computer Science Engineering Department
+            Home | Computer Science Engineering Data Science Department
           </h6>
 
           <div

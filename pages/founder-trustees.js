@@ -86,17 +86,19 @@ const FounderTrustees = () => {
           <h1
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
+            className="w-[75%] mt-14 sm:text-2xl  text-4xl font-bold text-center text-white z-20"
           >
-            KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
+            Founder Trustees
           </h1>
-          <h1
+          <br></br>
+          <br></br>
+          <h6
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
+            className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
-          </h1>
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Founder Trustees
+          </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-[#F8F7FC] px-14 sm:px-4 sm:pb-10">

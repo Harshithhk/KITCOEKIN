@@ -7,10 +7,10 @@ import AboutUs from "../sections/about-us/AboutUs"
 import MissionCards from "../sections/about-us/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
-import Career from "../sections/departments/career"
-import Hod from "../sections/departments/hod"
+// import Career from "../sections/departments/career"
+// import Hod from "../sections/departments/hod"
 import TnP from "./tnp"
-const about = () => {
+const About = () => {
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -69,8 +69,8 @@ const about = () => {
           </div>
         </section>
         <section className="mt-16 mx-auto  w-[1407px] sm:w-[90%] sm:mt-8"></section>
-        <Career />
-        <Hod />
+        {/* <Career /> */}
+        {/* <Hod /> */}
         <Awsome />
         <OurVision />
         <MissionCards />
@@ -81,7 +81,7 @@ const about = () => {
   )
 }
 
-export default about
+export default About
 
 {
   /* <div className="mt-10 ">

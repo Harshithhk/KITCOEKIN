@@ -2,15 +2,15 @@ import React from "react"
 import ReactPlayer from "react-player"
 import DefaultLayout from "../components/DefaultLayout"
 import Awsome from "../sections/about-us/Awsome"
-import OurVision from "../sections/about-us/OurVision"
+import OurVision from "../sections/departments/cse/OurVision"
 import AboutUs from "../sections/about-us/AboutUs"
-import MissionCards from "../sections/about-us/MissionCards"
+import MissionCards from "../sections/departments/cse/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
-import Career from "../sections/departments/career"
-import Hod from "../sections/departments/hod"
+import Career from "../sections/departments/cse/career"
+import Hod from "../sections/departments/cse/hod"
 import TnP from "./tnp"
-const about = () => {
+const About = () => {
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -81,7 +81,7 @@ const about = () => {
   )
 }
 
-export default about
+export default About
 
 {
   /* <div className="mt-10 ">

@@ -8,29 +8,29 @@ const Gallery = () => {
       <div class="flex flex-wrap w-1/2 sm:w-fit">
         <div class="w-1/2 p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
+            src="images/LifeAtKit/1.jpg" />
         </div>
         <div class="w-1/2 p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+            src="images/LifeAtKit/4.jpg" />
         </div>
         <div class="w-full p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
+            src="images/LifeAtKit/3.jpg" />
         </div>
       </div>
       <div class="flex flex-wrap w-1/2 sm:w-fit">
         <div class="w-full p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp" /> 
+            src="images/LifeAtKit/2.jpg" /> 
         </div>
         <div class="w-1/2 p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
+            src="images/LifeAtKit/5.jpg" />
         </div>
         <div class="w-1/2 p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp" />
+            src="images/LifeAtKit/6.jpg" />
         </div>
       </div>
     </div>

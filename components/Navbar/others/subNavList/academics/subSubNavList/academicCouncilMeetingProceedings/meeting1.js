@@ -4,7 +4,7 @@ const Meeting1 = (props) => {
     return (
    
   
-    <a href="#" className={props.subNav3 === false ? "transform transition duration-300 translate-y-20 opacity-0 ease-out  relative z-20 w-full text-2xl font-bold text-center mt-5 sm:text-xl text-accent flex flex-row justify-center" : "transform transition duration-300 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
+    <a href="#" className={props.subSubNav1 === false ? "transform transition duration-300 translate-y-20 opacity-0 ease-out  relative z-20 w-full text-2xl font-bold text-center mt-5 sm:text-xl text-accent flex flex-row justify-center" : "transform transition duration-300 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
     Meeting 1 - 21-July-2017
 
 

@@ -3,7 +3,7 @@ import React from "react"
 const VocationalCourses = () => (
  
     <a
-                        href="/about"
+                        href="/vocational-courses-at-kit-college-kolhapur"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                         

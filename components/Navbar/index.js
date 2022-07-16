@@ -67,10 +67,12 @@ const Navbar = () => {
           <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
           CONTACT
         </li>
-        <li href="#" className="flex items-center cursor-pointer">
+        <Link href="/apply-admission" passHref>
+        <li  className="flex items-center cursor-pointer">
           <img src="/images/Navbar/Mention.svg" className="mr-2" alt="" />
           APPLY
         </li>
+        </Link>
         <li
           href="#"
           className="flex items-center cursor-pointer"        >

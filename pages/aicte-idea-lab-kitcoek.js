@@ -1,9 +1,6 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
-import BranchPlacement from "../sections/departments/branchPlacement"
-import Career from "../sections/departments/career"
-import CampusPlacement from "../sections/departments/campusplacement"
-import TnPEsteemedRecruiters from "../sections/tnp/TnPEsteemedRecruters"
+
 
 const AicteIdeaLab = () => {
   return (

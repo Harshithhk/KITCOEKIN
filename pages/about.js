@@ -11,6 +11,7 @@ import Accreditation from "../sections/home-page/Accredations"
 import Statistics from "../sections/home-page/Statistics"
 import StatisticsNew from "../sections/home-page/StatisticsNew"
 import Gallaryslider from "../components/Gallary-slider"
+import ImageGrid from "../sections/about-us/imageGrid"
 
 let images = [
   "/images/Gallary-1png.png",
@@ -58,23 +59,27 @@ const About = () => {
           <h1
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
+            className="w-[75%] mt-14 sm:text-2xl  text-4xl font-bold text-center text-white z-20"
           >
-            KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
+            About KIT
           </h1>
-          <h1
+          <br></br>
+          <br></br>
+          <h6
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
+            className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
-          </h1>
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> About KIT
+          </h6>
 
           <div
             className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8 cursor-pointer"
             onClick={() => setGallary(true)}
           >
-            <img
+            
+            <ImageGrid />   
+            {/* <img
               src="/images/AboutUs/IMAGE-GALLARY-1.png"
               className="w-full h-full sm:hidden 2xl:block"
               alt=""
@@ -83,7 +88,7 @@ const About = () => {
               src="/images/AboutUs/Gallary-mobile-1.png"
               className="w-full h-full sm:block 2xl:hidden"
               alt=""
-            />
+            /> */}
           </div>
         </section>
         <AboutUs />

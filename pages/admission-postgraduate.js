@@ -1,8 +1,6 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
-import BranchPlacement from "../sections/departments/branchPlacement"
-import EsteemedRecruiters from "../sections/home-page/EsteemedRecruiters"
-import Career from "../sections/departments/career"
+
 
 const AdmissionUndergraduate = () => {
   return (

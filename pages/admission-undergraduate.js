@@ -1,8 +1,7 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
-import BranchPlacement from "../sections/departments/branchPlacement"
 import EsteemedRecruiters from "../sections/home-page/EsteemedRecruiters"
-import Career from "../sections/departments/career"
+
 import { Tab } from '@headlessui/react'
 import ProvisionalAdmission from "../sections/admissions/undergraduate/ProvisionalAdmission"
 import Admission2223 from "../sections/admissions/undergraduate/Admission2223"
