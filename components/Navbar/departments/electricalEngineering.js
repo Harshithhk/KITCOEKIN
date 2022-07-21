@@ -1,6 +1,6 @@
 import React from "react"
 
-const electricalEngineering = () => (
+const ElectricalEngineering = () => (
  
     <a
                         href="/best-electrical-engineering-college-kolhapur-electrical-engineering-college"
@@ -24,4 +24,4 @@ const electricalEngineering = () => (
  
 )
 
-export default electricalEngineering
+export default ElectricalEngineering

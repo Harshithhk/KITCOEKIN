@@ -1,15 +1,14 @@
 import React from "react"
 import ReactPlayer from "react-player"
 import DefaultLayout from "../components/DefaultLayout"
-import Awsome from "../sections/about-us/Awsome"
+import Awsome from "../sections/departments/biotech/Awsome"
 import OurVision from "../sections/departments/biotech/OurVision"
-import AboutUs from "../sections/about-us/AboutUs"
 import MissionCards from "../sections/departments/biotech/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
 import Career from "../sections/departments/biotech/career"
 import Hod from "../sections/departments/biotech/hod"
-import TnP from "./tnp"
+import ImageGrid from "../sections/departments/biotech/imageGrid"
 const About = () => {
   return (
     <DefaultLayout>
@@ -45,18 +44,19 @@ const About = () => {
           >
             Biotechnology Department
           </h1>
+        
           <br></br>
           <br></br>
           <h6
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="w-[75%] sm:text-xl font-bold text-center text-slate-300 z-20"
+            className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-             Home | Biotechnology Department
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Biotechnology Department 
           </h6>
-
           <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">
-            <img
+            <ImageGrid />
+            {/* <img
               src="/images/Department/DepartmentGalary.png"
               className="w-full h-full sm:hidden 2xl:block"
               alt=""
@@ -65,7 +65,7 @@ const About = () => {
               src="/images/AboutUs/Gallary-mobile.png"
               className="w-full h-full sm:block 2xl:hidden"
               alt=""
-            />
+            /> */}
           </div>
         </section>
         <section className="mt-16 mx-auto  w-[1407px] sm:w-[90%] sm:mt-8"></section>

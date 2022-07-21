@@ -45,15 +45,17 @@ const VocationalCourses = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
+            Vocational Courses
           </h1>
-          <h1
+          <br></br>
+          <br></br>
+          <h6
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
+            className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
-          </h1>
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Vocational Courses
+          </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-white px-14 sm:px-4 sm:pb-10">
@@ -175,7 +177,7 @@ A Diploma Program in BIM technology for a period of one year. This course is div
         </section>
         <div className="w-full mt-16 pb-16 bg-white h-fit ">
                 <div className="m-4 ">
-                    <div className="pt-20 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+                    <div className="pt-20 sm:pt-20 px-6 sm:px-0  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                         <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                         Why Choose BIM as Career Option
                     </div>
@@ -247,11 +249,11 @@ A Diploma Program in BIM technology for a period of one year. This course is div
         </div>
         <div className="w-full -mt-24 pb-16 bg-white h-fit ">
             <div className="m-4 ">
-                    <div className="pt-20 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+                    <div className="pt-20 sm:pt-20 px-6 sm:px-0  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                         <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                         The Market Report on BIM
                     </div>
-                    <div className="flex w-full items-center ">  
+                    <div className="flex w-full items-center px-8 sm:px-0 ">  
                     <p className="w-full sm:w-full text-justify mt-8 sm:mt-4 h-fit text-xl sm:text-base text-[#24346D] font-semibold">
                     Building Information Modeling (BIM) is one of the major development that has been seen in Architectural, Engineering, Construction, and Operation (AECO) industry over the last two decades. Many countries have taken a shift towards BIM adoption. Government organizations have made BIM implementation mandatory for contractors while delivering their projects. Many countries like the United States, the United Kingdom, Singapore, China, the Scandinavian countries (Norway, Denmark, Finland, and Sweden, etc.), France, South Korea, etc. as adopted BIM technology at public level projects. Government bodies played an important role in encouraging the adoption and in spreading awareness of BIM by setting law, developing BIM standards, creating BIM guidelines that can be taken up by the private sector, and can be implemented. Cheng and Lu (2015) have conducted an extensive review of how several countries had invested their efforts in BIM technology and workflow diffusion in their projects.
 
@@ -260,7 +262,7 @@ India having a multi-billion dollar AECO industry and is the second-largest grow
         </p>
 
                     </div>
-                    <div className="pt-20 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+                    <div className="pt-20 sm:pt-20 px-6 sm:px-0 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                         <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                         ARIIA 2021: FRAMEWORK
 

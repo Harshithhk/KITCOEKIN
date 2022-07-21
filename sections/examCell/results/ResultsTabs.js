@@ -2,7 +2,8 @@ import { Tab } from '@headlessui/react'
 
 const ResultsTabs = () => {
 
-    return( <div className="flex flex-col sm:flex-col">
+    return(
+       <div className="flex flex-col sm:flex-col">
     <div>
       <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
         <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
@@ -89,7 +90,8 @@ const ResultsTabs = () => {
 
       {/*  */}
     </div>
-  </div>);
+       </div>
+  );
 }
 
 export default ResultsTabs

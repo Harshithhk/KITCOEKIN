@@ -5,6 +5,51 @@ import EsteemedRecruiters from "../sections/home-page/EsteemedRecruiters"
 import Career from "../sections/departments/career"
 
 const BoardOfDirectors = () => {
+
+  let founders = [
+    {
+      name: "Shri. Sunil Kulkarni",
+      designation: "Chairman",
+      img: "/images/About/BoardOfDirectors/sunil-kulkarni.jpg",
+    },
+    {
+      name: "Shri. Sajid Hudli",
+      designation: "Vice Chairman",
+      img: "/images/About/BoardOfDirectors/sajid-hudli.jpg ",
+    },
+    {
+      name: "Shri. Dipak Chougule",
+      designation: "Secretary",
+      img: "/images/About/BoardOfDirectors/dipak-chougule.jpg",
+    },
+    {
+      name: "Shri. Bharat Patil",
+      designation: "Trustee",
+      img: "/images/About/BoardOfDirectors/bharat-patil.jpg",
+    },
+  
+    {
+      name: "Shri. Sachin Menon",
+      designation: "Trustee",
+      img: "/images/About/BoardOfDirectors/sachin-menon.jpg",
+    },
+    {
+      name: "Shri. Dilip Joshi",
+      designation: "Trustee",
+      img: "/images/About/BoardOfDirectors/d-c-joshi.jpg",
+    },
+    {
+      name: "Mrs. Shilpaja P. Kangutkar-Pungaonkar",
+      designation: "Trustee",
+      img: "/images/About/BoardOfDirectors/shilpaja-kangutkar-pungaonkar.jpg",
+    },
+    {
+      name: "Col. Pratapsinh Raorane (Rtd.)",
+      designation: "Trustee",
+      img: "/images/About/BoardOfDirectors/pratapsinh-raorane.jpg",
+    }
+  ]
+
   return (
     <DefaultLayout>
       <div className="w-full bg-[#24346D]">
@@ -37,15 +82,17 @@ const BoardOfDirectors = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
+           Board of Directors
           </h1>
-          <h1
+          <br></br>
+          <br></br>
+          <h6
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
+            className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
-          </h1>
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Board of Directors
+          </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-white px-14 sm:px-4 sm:pb-10">
@@ -81,21 +128,47 @@ const BoardOfDirectors = () => {
                 <p>I wish everyone the very best for the year ahead.</p>
               </div>
             </div>
-            <div className="w-[300px] sm:h-[320px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl sm:text-lg items-center flex flex-col sm:mt-8 sm:w-[250px] sm:mx-auto">
-              <div className="overflow-hidden bg-white rounded-xl">
-                <img
-                  src="/images/BoardOfDirectors/sunil-kulkarni1.jpg"
-                  alt="sunil-kulkarni1.jpg"
-                />
+          
+            <div className="md:mx-auto w-[300px] h-[370px] bg-transparent   mt-28 mr-6 rounded-xl text-white text-2xl md:text-xl  items-center justify-between flex flex-col md:mt-14">
+              <div className="absolute bg-[#24346D]  w-[300px] sm:w-[305px] h-36 mt-36"></div>
+              <div className="overflow-hidden relative bg-transparent sm:-mx-1 sm:-mt-1 ">
+                <img src="/images/About/BoardOfDirectors/sunil-kulkarni.png " className=" " alt="mamtakalas.png" />
               </div>
-              <div className="mt-2">Shri. Sunil Kulkarni</div>
+              <div className="mt-2 mb-2 flex flex-col py-2 items-center  text-[#24346D]">
+                  <div className="bg-primary w-16 h-[3px]   rounded-xl"></div>
+                  Shri. Sunil Kulkarni
+              </div> 
             </div>
           </div>
         </section>
-        <BranchPlacement />
-        <EsteemedRecruiters />
-        <section className="w-full py-8 bg-white">
-          <Career />
+        <section className="relative  z-30 w-full mx-auto pt-20 sm:pt-14 mt-20 sm:mt-14 pb-20 h-fit bg-[#F8F7FC] px-14 sm:px-4 sm:pb-10">
+         
+        <div className="flex items-center w-full sm:ml-2">
+            <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
+            <div className="ml-3 md:ml-2 w-fit  text-center sm:text-xl   text-[#24346D] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">
+            OUR VALUABLE TEAM MEMBERS
+            </div>
+          </div>
+
+          <div className="flex flex-wrap  justify-center w-full mt-16 gap-x-16 gap-y-16 sm:mt-14 sm:gap-x-7 sm:gap-y-7">
+            {founders.map((image,index) => (
+              <div  key={index} className="z-30 w-[190px] h-fit sm:w-[120px] rounded-lg overflow-hidden ">
+                <img
+               
+                  src={image.img}
+                  className="w-full h-fit sm:h-fit"
+                  alt={image.img}
+                />
+                <div className="mx-auto text-lg font-semibold text-center py-2  sm:text-xs text-accent">
+                  {image.name}
+                </div>
+                <div className="bg-primary w-10 h-[2px] sm:ml-10 ml-20 rounded-xl"></div>
+                <h2 className="mx-auto text-base text-center py-2 w-fit text-accent-light sm:text-[11px]">
+                  {image.designation}
+                </h2>
+              </div>
+            ))}
+          </div>
         </section>
       </div>
       <Footer />

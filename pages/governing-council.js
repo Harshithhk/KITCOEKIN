@@ -142,58 +142,46 @@ const GoverningCouncil = () => {
           </h1>
           <br></br>
           <br></br>
+
           <h6
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="w-[75%] sm:text-xl font-bold text-center text-white z-20"
+            className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-             Home | Governing Council
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Governing Council
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
-        <section className="overflow-x-scroll max-w-screen">
-          <section className="relative z-30 w-[1500px] pb-20 mx-auto h-fit px-14 sm:px-4 sm:pb-10  ">
-            <div className="flex items-center w-full h-16 p-2 mt-6 font-semibold text-center rounded-lg shadow-lg ">
-              <div className=" w-[5%] text-left pl-2">Sr.No.</div>
-              <div className=" w-[18.5%] text-left pl-2">Name</div>
-              <div className=" w-[52.5%] text-left pl-2">Designation</div>
-              <div className=" w-[20%] text-left pl-2">Position in Governing Council</div>
+        <section className=" overflow-auto max-w-screen bg-secondary">
+          <section className="relative z-30 w-[1500px] sm:w-fit pb-20 mx-auto h-fit px-14 sm:px-4 sm:pb-10   ">
+          
+            <div className="grid grid-cols-4 sm:grid-cols-3 items-center text-slate-500 justify-items-center mt-6  w-full h-16 sm:h-fit p-2 mb-6 shadow-lg rounded-2xl">
+              <div className="sm:hidden ">Sr.No.</div>
+              <div className="">Name</div>
+              <div className=" ">Designation</div>
+              <div className=" ">Position in Governing Council</div>
             </div>
 
             {governingCouncilList.map((item,index)=>{
-                        console.log(item)
-                        if(index == 0){
+                        
                             return(
-                                <div className="flex items-center w-full h-16 p-2 mt-6 text-center shadow-lg rounded-2xl bg-blue-50">
-                                    <div className=" w-[5%] text-left pl-2">{item.SrNo}</div>
-                                    <div className=" w-[20%] text-left pl-2">{item.Name}</div>
-                                    <div className=" w-[55%] text-left pl-2">{item.Designation}</div>
-                                    <div className=" w-[25%] text-left pl-2">{item.PositionInGoverningCouncil}</div>
+                                <div key={index} className="grid grid-cols-4 sm:grid-cols-3 items-center justify-items-center  w-full h-16 sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                                    <div className=" sm:hidden ">{item.SrNo}</div>
+                                    <div className="">{item.Name}</div>
+                                    <div className=" ">{item.Designation}</div>
+                                    <div className=" ">{item.PositionInGoverningCouncil}</div>
                                 </div>
                             );
-                        }else if(index%2==0){
-                            return(
-                                <div className="flex items-center w-full h-16 p-2 mt-2 text-center shadow-lg rounded-2xl bg-blue-50">
-                                    <div className=" w-[5%] text-left pl-2">{item.SrNo}</div>
-                                    <div className=" w-[20%] text-left pl-2">{item.Name}</div>
-                                    <div className=" w-[55%] text-left pl-2">{item.Designation}</div>
-                                    <div className=" w-[25%] text-left pl-2">{item.PositionInGoverningCouncil}</div>
-                                </div>
-                            );
-                        }else{
-                            return(
-                                <div className="flex items-center w-full h-16 p-2 mt-2 text-center shadow-lg rounded-2xl bg-slate-100">
-                                    <div className=" w-[5%] text-left pl-2">{item.SrNo}</div>
-                                    <div className=" w-[20%] text-left pl-2">{item.Name}</div>
-                                    <div className=" w-[55%] text-left pl-2">{item.Designation}</div>
-                                    <div className=" w-[25%] text-left pl-2">{item.PositionInGoverningCouncil}</div>
-                                </div>
-                            );
-                        }
+                        
                        
             })}
 
-
+{/* <div className="flex items-center w-full h-16 p-2 mt-2 text-center shadow-lg rounded-2xl bg-slate-100">
+                                    <div className=" w-[5%] text-left pl-2">{item.SrNo}</div>
+                                    <div className=" w-[20%] text-left pl-2">{item.Name}</div>
+                                    <div className=" w-[55%] text-left pl-2">{item.Designation}</div>
+                                    <div className=" w-[25%] text-left pl-2">{item.PositionInGoverningCouncil}</div>
+                                </div> */}
     
             
           </section>

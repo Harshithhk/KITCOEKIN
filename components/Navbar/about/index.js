@@ -74,7 +74,7 @@ const About = () => {
                       <IQAC/>
                       <StaffList/>
                       <NIRF/>
-                      <Accreditation/>
+                      {/* <Accreditation/> */}
                       <ManditoryDisclosure/>
                     </div>
                     <div className="px-5 py-5 bg-gray-50 flex">

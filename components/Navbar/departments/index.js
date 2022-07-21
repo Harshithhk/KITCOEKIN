@@ -5,6 +5,13 @@ import BiotechnologyEngineering from "./biotechnologyEngineering"
 import CivilEngineering from "./civilEngineering"
 import ComputerScienceEngineering from "./computerScienceEngineering"
 import CivilEnvironmentalEngineering from "./civilEnvironmentalEngineering"
+import ComputerScienceEngineeringDataScience from "./computerScienceEngineeringDataScience"
+import ComputerScienceEngineeringAIML from "./computerScienceEngineeringAIML"
+import ElectricalEngineering from "./electricalEngineering"
+import ElectronicsEngineering from "./electronicsEngineering"
+import ElectronicsTelecommEngineering from "./electronicsTelecommEngineering"
+import MechanicalEngineering from "./mechanicalEngineering"
+import BasicSciencesHumanities from "./basicSciencesHumanities"
 
 const Admissions = () => {
 
@@ -58,6 +65,13 @@ const Admissions = () => {
                     <CivilEngineering/>
                     <CivilEnvironmentalEngineering/>
                     <ComputerScienceEngineering/>
+                    <ComputerScienceEngineeringDataScience />
+                    <ComputerScienceEngineeringAIML />
+                    <ElectricalEngineering />
+                    <ElectronicsEngineering />
+                    <ElectronicsTelecommEngineering />
+                    <MechanicalEngineering />
+                    <BasicSciencesHumanities />
                     </div>
                     <div className=" hidden px-5 py-5 bg-gray-50 ">
                       
