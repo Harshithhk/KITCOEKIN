@@ -44,32 +44,32 @@ const BiotechnologyEngineeringLaboratories = () => {
             excerpt: "UV double beam spectrophotometer, shaker incubator, compound microscope, centrifuge, digital pH meter, colorimeter, water distillation plant,water bath",
             date: "2021-12-01",
             author: "Dept Of BioTechnology Engineering",
-            img: "https://source.unsplash.com/l3Jdvs1Qui4/800x600"
+            img: "images/department/bioTech/lab/micro-lab.jpg"
         }, {
             title: "MOLECULAR BIOLOGY LABORATORY",
             excerpt: "Thermocycler (PCR), Electrophoretic Separation Systems for DNA and Proteins, Gel Documentation System, Ice matic, Cooling Centrifuge. ",
             date: "2021-12-01",
             author: "Dept Of BioTechnology Engineering",
-            img: "https://source.unsplash.com/dG_p9P6aroQ/800x600"
+            img: "images/department/bioTech/lab/mol-bio-lab.jpg"
         }, {
             title: "BIOPROCESSES LABORATORY",
             excerpt: "B plus Biostat fermentor (7 liter capacity) fully equipped with automatic control along with computer Data Acquisition & Analysis Software, Chromatographic separation systems, Rotary vacuum evaporator, Chilling plant, Soxhlet apparatus.",
             date: "2021-12-01",
             author: "Dept Of BioTechnology Engineering",
-            img: "https://source.unsplash.com/mstHiGp2U6A/800x600"
+            img: "images/department/bioTech/lab/bioprocess-lab.jpg"
         }, {
             title: "CELL CULTURE LABORATORY",
             excerpt: "Phase contrast microscope, Fluorescence microscope, Inverted Microscope, CO2 Incubator, Ultra Low Freezers (-80 Degree Celsius), Laminar air hood.",
             date: "2021-12-01",
             author: "Dept Of BioTechnology Engineering",
-            img: "https://source.unsplash.com/3NI9aJGOl-4/800x600"
+            img: "images/department/bioTech/lab/cell-bio-lab.jpg"
         },
         {
             title: "BIOREACTION ENGINEERING LABORATORY",
             excerpt: "Plug flow reactor, Mixed flow reactor, Venturimeter, Polarimeter.",
             date: "2021-12-01",
             author: "Dept Of BioTechnology Engineering",
-            img: "https://source.unsplash.com/3NI9aJGOl-4/800x600"
+            img: "images/department/bioTech/lab/bioreaction-engg-lab.jpg"
         }
     ]
 
@@ -182,7 +182,7 @@ const BiotechnologyEngineeringLaboratories = () => {
                                     <div v-for="card in cards" className="flex sm:flex-col flex-row overflow-hidden bg-white rounded-lg shadow-xl  mt-4 w-100 mx-2">
 
                                         <div className="h-64 sm:w-auto w-1/2">
-                                            <img className="inset-0 h-full w-full object-cover object-center" alt="" src="/images/About/FounderTrustees/KITBG.jpeg" />
+                                            <img className="inset-0 h-full w-full object-cover object-center" alt="" src={card.img} />
                                         </div>
                                         <div className="w-full py-4 px-6 text-gray-800 flex flex-col justify-between">
                                             <h3 className="font-semibold text-lg leading-tight truncate">{card.title}</h3>

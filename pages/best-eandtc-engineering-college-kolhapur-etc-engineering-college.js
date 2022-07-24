@@ -7,10 +7,10 @@ import AboutUs from "../sections/about-us/AboutUs"
 import MissionCards from "../sections/departments/eandtc/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
-import Career from "../sections/departments/eandtc/career"
+import Career from "../sections/departments/eandtc/career/index"
 import Hod from "../sections/departments/eandtc/hod"
 import TnP from "./tnp"
-const About = () => {
+const EntcEngineering = () => {
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -81,7 +81,7 @@ const About = () => {
   )
 }
 
-export default About
+export default EntcEngineering
 
 {
   /* <div className="mt-10 ">

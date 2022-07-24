@@ -26,13 +26,13 @@ const Career = () => {
           <div className="flex justify-between items-center w-full p-4 mt-6 bg-[#F8F7FC] sm:text-sm sm:leading-normal sm:p-2">
             <div> Specialized Courses</div>
             <div className="flex items-center justify-center w-6 h-6 mr-2 rounded-full bg-slate-100 ">
-              <img className="h-4 " src="/images/Department/plus.png" alt="" />
+              <img className="h-4 " src="/images/plus.png" alt="" />
             </div>
           </div>
           <div className="flex items-center justify-between w-full p-4 mt-6 bg-[#F8F7FC] sm:leading-normal sm:text-sm sm:p-2">
             <div>Application Areas</div>
             <div className="flex items-center justify-center w-6 h-6 mr-2 rounded-full bg-slate-100">
-              <img className="h-4 " src="/images/Department/plus.png" alt="" />
+              <img className="h-4 " src="/images/plus.png" alt="" />
             </div>
           </div>
         </div>

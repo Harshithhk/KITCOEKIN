@@ -9,7 +9,7 @@ import Footer from "../sections/home-page/Footer"
 import Career from "../sections/departments/biotech/career"
 import Hod from "../sections/departments/biotech/hod"
 import ImageGrid from "../sections/departments/biotech/imageGrid"
-const About = () => {
+const BiotechnologyEngineering = () => {
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -81,7 +81,7 @@ const About = () => {
   )
 }
 
-export default About
+export default BiotechnologyEngineering
 
 {
   /* <div className="mt-10 ">

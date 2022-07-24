@@ -7,13 +7,12 @@ import CampusPlacement from "../sections/departments/campusplacement"
 import TnPEsteemedRecruiters from "../sections/tnp/TnPEsteemedRecruters"
 import Gallery from "../sections/lifeAtKit/cultural/gallery"
 import Team from "../sections/team"
+import { Tab } from "@headlessui/react"
 
 const KitGallery = () => {
 
-    const [subLink, setSubLink] = React.useState(false)
-    const [subLink2, setSubLink2] = React.useState(false)
-    const [subLinkHover1, setSubLinkHover1] = React.useState(false)
-    const [subLinkHover2, setSubLinkHover2] = React.useState(false)
+    const [departmentMenu, setDepartmentMenu] = React.useState(false)
+    const [menuSelected, setMenuSelected] = React.useState(false)
 
   return (
     <DefaultLayout>
@@ -47,33 +46,47 @@ const KitGallery = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
+            KITCoEK Gallery
           </h1>
-          <h1
+          <br></br>
+          <br></br>
+          <h6
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
+            className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
-          </h1>
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> KIToEK Gallery
+          </h6>
         </section>
         {/*---------------------------------------------------------------------pb-20  px-14 sm:px-4 sm:pb-10----------------- CONTENT -------------------------------------------------------------------------------------- */}
-        <section className="relative  z-30 w-[100%] pb-20 -mb-10 mx-auto h-fit bg-secondary "> 
+        <section className="relative  z-30 w-[100%] pb-20 pt-10 sm:pt-20 -mb-10 mx-auto h-fit bg-secondary "> 
           {/* <img
             className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
             src="/images/TnP/indicator.png"
             alt=""
           /> */}
-          <div className=" flex flex-row  justify-center items-center absolute -top-11 w-[100%] h-20 bg-transparent ">
-            <div className="flex flex-row text-slate-400 items-center justify-evenly rounded-xl shadow-2xl h-20 w-3/4 bg-white">
-              <div className="flex hover:cursor-pointer hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2">All</div>
-              <div className="flex hover:cursor-pointer hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2">About-KIT</div>
-              <div className="flex hover:cursor-pointer hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2">
-                Departments
+          <Tab.Group>
+         
+
+            
+          <div className=" flex flex-row sm:flex-col justify-center items-center absolute -top-11 w-[100%] h-20 sm:h-fit bg-transparent ">
+            <Tab.List className="text-slate-400 flex  flex-row sm:grid-cols-2 sm:grid sm:justify-items-center sm:p-5 sm:gap-3  items-center justify-evenly rounded-xl shadow-2xl h-20 sm:h-fit w-3/4 bg-white">
+              <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                  {({selected})=>{selected ? setMenuSelected(false):null; return("All") }}
+                  </Tab>
+              <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                  {({selected})=>{selected ? setMenuSelected(false):null; return("About-KIT") }}
+                  </Tab>
+              <div className="flex  "> 
+                <p onClick={()=>setDepartmentMenu(!departmentMenu)} className={menuSelected ?  "text-[#24346D] font-semibold underline underline-offset-2 flex hover:cursor-pointer hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" : " flex hover:cursor-pointer hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2"}>
+                  Departments
+                
                 <svg
                     className={
-                       false
-                        ? "transform rotate-180 ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500 transition ease-out duration-200"
+                      departmentMenu
+                        ? "transform rotate-180 ml-2 h-5 mt-1 w-5 text-gray-400 group-hover:text-gray-500 transition ease-out duration-200"
                         : "transform rotate-0 transition mt-1 ease-out duration-200 ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500"
                     }
                     xmlns="http://www.w3.org/2000/svg"
@@ -87,14 +100,81 @@ const KitGallery = () => {
                       clipRule="evenodd"
                     />
                 </svg> 
+                </p>
+                <div  onClick={()=>{setDepartmentMenu(!departmentMenu)}} className={ departmentMenu ? "grid grid-rows-11 divide-y  justify-items-start gap-2 p-4 absolute top-16 sm:top-24 sm:left-6 h-fit w-fit bg-white border-slate-50 border-2 rounded-xl shadow-2xl":"hidden"}>
+                  <Tab  className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(selected):null; return(" Biotechnology Engineering") }}
+                    </Tab>
+                  <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(true):null; return("Civil Engineering ") }}
+                    </Tab>
+                  <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(true):null; return("Civil & Environmental Engineering ") }}
+                    </Tab>
+                  <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(true):null; return("Computer Science Engineering ") }}
+                    </Tab>
+                  <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(true):null; return("Computer Science Engineering - DS ") }}
+                    </Tab>
+                  <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(true):null; return("Computer Science Engineering - AI/ML ") }}
+                    </Tab>
+                  <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(true):null; return("Electrical Engineering ") }}
+                    </Tab>
+                  <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(true):null; return("Electronics Engineering ") }}
+                    </Tab>
+                  <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(true):null; return("Electronics & Telecomm Engineering ") }}
+                    </Tab>
+                  <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(true):null; return("Mechanical Engineering ") }}
+                    </Tab>
+                  <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(true):null; return("Basic Sciences & Humanities ") }}
+                    </Tab>
+                </div>
               </div>
-              <div className="flex hover:cursor-pointer hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2">Cultural</div>
-              <div className="flex hover:cursor-pointer hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2">Library</div>
-              <div className="flex hover:cursor-pointer hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2">Hostel</div>
-            </div>
+              <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                  {({selected})=>{selected ? setMenuSelected(false):null; return("Cultural") }}  
+                  </Tab>
+              <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(false):null; return("Library") }}    
+                  </Tab>
+              <Tab className={({ selected }) =>
+                  selected ? " focus:outline-none flex hover:cursor-pointer text-[#24346D] font-semibold underline underline-offset-2 hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2" :"focus:outline-none  hover:text-[#24346D] hover:font-semibold hover:underline hover:underline-offset-2 "}>
+                    {({selected})=>{selected ? setMenuSelected(false):null; return("Hostel") }}    
+                  </Tab>
+            </Tab.List>
           </div>
+
+          <Tab.Panels>
+            <Tab.Panel>
+              <Gallery /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              
+            </Tab.Panel>
+          </Tab.Panels>
         
-        <Gallery /> 
+          </Tab.Group>
+        
+       
    
         </section>
         

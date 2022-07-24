@@ -10,7 +10,7 @@ import Footer from "../sections/home-page/Footer"
 import Career from "../sections/departments/elec/career"
 import Hod from "../sections/departments/elec/hod"
 import TnP from "./tnp"
-const About = () => {
+const ElectEntineering = () => {
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -81,7 +81,7 @@ const About = () => {
   )
 }
 
-export default About
+export default ElectEntineering
 
 {
   /* <div className="mt-10 ">

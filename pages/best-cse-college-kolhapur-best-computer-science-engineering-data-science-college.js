@@ -7,7 +7,7 @@ import AboutUs from "../sections/about-us/AboutUs"
 import MissionCards from "../sections/departments/cseDS/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
-import Career from "../sections/departments/cseDS/career"
+import Career from "../sections/departments/cseDS/career/index"
 import Hod from "../sections/departments/cseDS/hod"
 import TnP from "./tnp"
 import Gallaryslider from "../components/Gallary-slider"
@@ -19,7 +19,7 @@ let images = [
   "/images/Gallary-2.png",
 ]
 
-const About = () => {
+const CsDsEngineering = () => {
   const [gallary, setGallary] = useState(false)
 
   return (
@@ -97,7 +97,7 @@ const About = () => {
   )
 }
 
-export default About
+export default CsDsEngineering
 
 {
   /* <div className="mt-10 ">

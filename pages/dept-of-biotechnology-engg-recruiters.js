@@ -144,7 +144,7 @@ const BiotechnologyEngineeringRecruiters = () => {
                                 List Of Recruiters
                             </div>
                             {/* -------------- */}
-                            <div className="sm:hidden grid grid-cols-2 items-center text-slate-500 justify-items-center mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
+                            <div className="sm:hidden grid grid-cols-2 items-center text-slate-500 justify-items-start mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
                                 <div className=" sm:hidden ml-20">Sr.No.</div>
                                 <div className=" ">Recruiter</div>
                                
@@ -153,7 +153,7 @@ const BiotechnologyEngineeringRecruiters = () => {
                             {Recruiters.map((item, index) => {
                                 return (
                                     <>
-                                        <div className="sm:hidden grid grid-cols-2 items-center justify-items-center gap-x-5 sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                                        <div className="sm:hidden grid grid-cols-2 items-center justify-items-start gap-x-5 sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
                                             <div className=" sm:hidden ml-20">{item.SrNo}</div>
                                             <div className="">{item.Recruiters}</div>
                                         </div>

@@ -4,13 +4,14 @@ import DefaultLayout from "../components/DefaultLayout"
 import Awsome from "../sections/about-us/Awsome"
 import OurVision from "../sections/departments/cseAIML/OurVision"
 import AboutUs from "../sections/about-us/AboutUs"
+import ImageGrid from  "../sections/departments/cseAIML/imageGrid"
 import MissionCards from "../sections/departments/cseAIML/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
-import Career from "../sections/departments/cseAIML/career"
+import Career from "../sections/departments/cseAIML/career/index"
 import Hod from "../sections/departments/cseAIML/hod"
 import TnP from "./tnp"
-const About = () => {
+const CsAiMlEngineering = () => {
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -57,7 +58,7 @@ const About = () => {
           </h6>
 
           <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">
-            <img
+            {/* <img
               src="/images/Department/DepartmentGalary.png"
               className="w-full h-full sm:hidden 2xl:block"
               alt=""
@@ -66,7 +67,8 @@ const About = () => {
               src="/images/AboutUs/Gallary-mobile.png"
               className="w-full h-full sm:block 2xl:hidden"
               alt=""
-            />
+            /> */}
+            <ImageGrid />
           </div>
         </section>
         <section className="mt-16 mx-auto  w-[1407px] sm:w-[90%] sm:mt-8"></section>
@@ -82,7 +84,7 @@ const About = () => {
   )
 }
 
-export default About
+export default CsAiMlEngineering
 
 {
   /* <div className="mt-10 ">

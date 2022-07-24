@@ -10,7 +10,7 @@ import Footer from "../sections/home-page/Footer"
 // import Career from "../sections/departments/career"
 // import Hod from "../sections/departments/hod"
 import TnP from "./tnp"
-const About = () => {
+const ElectronicsEngineering = () => {
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -81,7 +81,7 @@ const About = () => {
   )
 }
 
-export default About
+export default ElectronicsEngineering
 
 {
   /* <div className="mt-10 ">
