@@ -1,10 +1,8 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
-import { Tab } from '@headlessui/react'
-import SyllabusTabs from "../sections/academics/onlineSyllabus/SyllabusTabs"
+// import { Tab } from '@headlessui/react'
+// import SyllabusTabs from "../sections/academics/onlineSyllabus/SyllabusTabs"
 import ResultsTabs from "../sections/examCell/results/ResultsTabs"
-
-
 
 const Results = () => {
   return (
@@ -57,12 +55,11 @@ const Results = () => {
             alt=""
           />
           {/* - */}
-          <div className="flex flex-row sm:flex-col"> 
+          <div className="flex flex-row sm:flex-col">
             <ResultsTabs />
           </div>
-        
         </section>
-        
+
         <Footer />
       </div>
     </DefaultLayout>
