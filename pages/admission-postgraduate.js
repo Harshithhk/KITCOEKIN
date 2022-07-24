@@ -2,97 +2,92 @@ import DefaultLayout from "../components/DefaultLayout"
 import Admission2122 from "../sections/admissions/postgraduate/Admission2122"
 import Footer from "../sections/home-page/Footer"
 
-
 const AdmissionUndergraduate = () => {
   let InstituteCode = [
-    
     {
-      "CourseName":{
-        "p1":"M.Tech (Embedded System & Computing)",
-        "p2":""  
+      CourseName: {
+        p1: "M.Tech (Embedded System & Computing)",
+        p2: "",
       },
-      "GeneralChoiceCode":{
-        "Intake":"6",
-        "Code":"626737210"
+      GeneralChoiceCode: {
+        Intake: "6",
+        Code: "626737210",
       },
-      "TFWSChoiceCode":{
-        "Intake":"",
-        "Code":""
-      }
+      TFWSChoiceCode: {
+        Intake: "",
+        Code: "",
+      },
     },
     {
-      "CourseName":{
-        "p1":"M.Tech (Mechanical Engineering Design)",
-        "p2":""  
+      CourseName: {
+        p1: "M.Tech (Mechanical Engineering Design)",
+        p2: "",
       },
-      "GeneralChoiceCode":{
-        "Intake":"6",
-        "Code":"626760410"
+      GeneralChoiceCode: {
+        Intake: "6",
+        Code: "626760410",
       },
-      "TFWSChoiceCode":{
-        "Intake":"",
-        "Code":""
-      }
+      TFWSChoiceCode: {
+        Intake: "",
+        Code: "",
+      },
     },
     {
-      "CourseName":{
-        "p1":"M.Tech (Biochemical Engineering & Biotechnology)",
-        "p2":""  
+      CourseName: {
+        p1: "M.Tech (Biochemical Engineering & Biotechnology)",
+        p2: "",
       },
-      "GeneralChoiceCode":{
-        "Intake":"6",
-        "Code":"626708110"
+      GeneralChoiceCode: {
+        Intake: "6",
+        Code: "626708110",
       },
-      "TFWSChoiceCode":{
-        "Intake":"",
-        "Code":""
-      }
+      TFWSChoiceCode: {
+        Intake: "",
+        Code: "",
+      },
     },
     {
-      "CourseName":{
-        "p1":"M.Tech (Environmental Engineering)",
-        "p2":""  
+      CourseName: {
+        p1: "M.Tech (Environmental Engineering)",
+        p2: "",
       },
-      "GeneralChoiceCode":{
-        "Intake":"6",
-        "Code":"626720110"
+      GeneralChoiceCode: {
+        Intake: "6",
+        Code: "626720110",
       },
-      "TFWSChoiceCode":{
-        "Intake":"",
-        "Code":""
-      }
+      TFWSChoiceCode: {
+        Intake: "",
+        Code: "",
+      },
     },
     {
-      "CourseName":{
-        "p1":"M. Tech (Civil & Structural Engineering)",
-        "p2":""  
+      CourseName: {
+        p1: "M. Tech (Civil & Structural Engineering)",
+        p2: "",
       },
-      "GeneralChoiceCode":{
-        "Intake":"6",
-        "Code":"626794810"
+      GeneralChoiceCode: {
+        Intake: "6",
+        Code: "626794810",
       },
-      "TFWSChoiceCode":{
-        "Intake":"",
-        "Code":""
-      }
+      TFWSChoiceCode: {
+        Intake: "",
+        Code: "",
+      },
     },
     {
-      "CourseName":{
-        "p1":"M.Tech (Computer Science & Engineering (Data Science) )",
-        "p2":""  
+      CourseName: {
+        p1: "M.Tech (Computer Science & Engineering (Data Science) )",
+        p2: "",
       },
-      "GeneralChoiceCode":{
-        "Intake":"6",
-        "Code":"626724210"
+      GeneralChoiceCode: {
+        Intake: "6",
+        Code: "626724210",
       },
-      "TFWSChoiceCode":{
-        "Intake":"",
-        "Code":""
-      }
+      TFWSChoiceCode: {
+        Intake: "",
+        Code: "",
+      },
     },
-  
- 
-    
   ]
   return (
     <DefaultLayout>
@@ -135,7 +130,11 @@ const AdmissionUndergraduate = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Undergraduate Admissions
+            <span className="hover:text-primary hover:cursor-pointer">
+              {" "}
+              Home
+            </span>{" "}
+            <span className="">|</span> Undergraduate Admissions
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
@@ -146,7 +145,7 @@ const AdmissionUndergraduate = () => {
             alt=""
           />
           {/* - */}
-      
+
           <Admission2122 />
         </section>
         <section className="pt-16 mt-16 mb-[-60px] overflow-hidden bg-[#F8F7FC] max-w-screen">
@@ -157,65 +156,68 @@ const AdmissionUndergraduate = () => {
             </div>
           </div>
           <section className="relative z-30 w-[1500px] mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
-          <div className="sm:hidden grid grid-cols-2  items-center  px-4 text-slate-500  mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
-         
-              <div className="  text-center">Course Name</div>
-              <div className=" ">
+            <div className="grid items-center w-full h-16 grid-cols-2 p-2 px-4 mt-6 mb-6 shadow-lg sm:hidden text-slate-500 sm:h-16 rounded-2xl">
+              <div className="text-center ">Course Name</div>
+              <div className="">
                 <div className="grid grid-cols-1 ">
-                  <div className="grid grid-rows-2 items-center ">
+                  <div className="grid items-center grid-rows-2 ">
                     <div className="text-center">General Choice Code</div>
                     <div className="grid grid-cols-2 ">
                       <div className="text-center">Intake</div>
                       <div className="text-center">Code</div>
                     </div>
                   </div>
-                  
                 </div>
               </div>
-            
-          </div> 
+            </div>
 
             {InstituteCode.map((item, index) => {
-               return (
+              return (
                 <>
-                 <div className="sm:hidden grid grid-cols-2 bg-white px-4 items-center text-slate-500  mt-2  w-full h-16 sm:h-16 p-2 shadow-lg rounded-2xl">
-         
-                      <div className="  text-center  "><p className="text-slate-900">{item.CourseName.p1}</p><p>{item.CourseName.p2}</p></div>
-                      <div className="  text-slate-900">
-                        <div className="grid grid-cols-1  ">
-                            <div className="grid grid-cols-2 items-center text-center ">
-                              <div className="text-center"> {item.GeneralChoiceCode.Intake}</div>
-                              <div className="text-center">{item.GeneralChoiceCode.Code}</div>
-                            </div>                       
-                            
+                  <div className="grid items-center w-full h-16 grid-cols-2 p-2 px-4 mt-2 bg-white shadow-lg sm:hidden text-slate-500 sm:h-16 rounded-2xl">
+                    <div className="text-center ">
+                      <p className="text-slate-900">{item.CourseName.p1}</p>
+                      <p>{item.CourseName.p2}</p>
+                    </div>
+                    <div className=" text-slate-900">
+                      <div className="grid grid-cols-1 ">
+                        <div className="grid items-center grid-cols-2 text-center ">
+                          <div className="text-center">
+                            {" "}
+                            {item.GeneralChoiceCode.Intake}
+                          </div>
+                          <div className="text-center">
+                            {item.GeneralChoiceCode.Code}
+                          </div>
                         </div>
                       </div>
-                    
-                  </div> 
-                <div className=" sm:grid 2xl:hidden divide-y grid-rows-7 items-center text-left  w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
-                 
-                  <div className="grid grid-cols-2">
-                    <div className="text-slate-400">Course Name</div>   
-                    <div className="divide-y"><p className="text-slate-900">{item.CourseName.p1}</p><p className="text-slate-500">{item.CourseName.p2}</p></div>      
+                    </div>
                   </div>
-                  <div className="grid grid-cols-1 text-center">
-                    <div className=" text-slate-400">General Choice Code</div>
+                  <div className="items-center w-full p-2 mt-2 overflow-x-auto text-left bg-white divide-y shadow-lg  sm:grid 2xl:hidden grid-rows-7 h-fit sm:h-fit rounded-2xl">
+                    <div className="grid grid-cols-2">
+                      <div className="text-slate-400">Course Name</div>
+                      <div className="divide-y">
+                        <p className="text-slate-900">{item.CourseName.p1}</p>
+                        <p className="text-slate-500">{item.CourseName.p2}</p>
+                      </div>
+                    </div>
+                    <div className="grid grid-cols-1 text-center">
+                      <div className=" text-slate-400">General Choice Code</div>
+                    </div>
+                    <div className="grid grid-cols-2">
+                      <div className=" text-slate-400">Intake</div>
+                      <div className="">{item.GeneralChoiceCode.Intake}</div>
+                    </div>
+                    <div className="grid grid-cols-2">
+                      <div className=" text-slate-400">Code</div>
+                      <div className="">{item.GeneralChoiceCode.Code}</div>
+                    </div>
                   </div>
-                  <div className="grid grid-cols-2">
-                    <div className=" text-slate-400">Intake</div>  
-                    <div className="">{item.GeneralChoiceCode.Intake}</div>      
-                  </div>
-                  <div className="grid grid-cols-2">
-                  <div className=" text-slate-400">Code</div> 
-                    <div className="">{item.GeneralChoiceCode.Code}</div>      
-                  </div>
-                 
-                </div>
                 </>
               )
             })}
           </section>
-        </section>    
+        </section>
 
         <Footer />
       </div>
