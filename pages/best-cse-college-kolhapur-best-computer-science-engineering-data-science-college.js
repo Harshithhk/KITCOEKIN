@@ -1,16 +1,17 @@
 import React, { useState } from "react"
 import ReactPlayer from "react-player"
 import DefaultLayout from "../components/DefaultLayout"
-import Awsome from "../sections/about-us/Awsome"
-import OurVision from "../sections/departments/cseDS/OurVision"
-import AboutUs from "../sections/about-us/AboutUs"
-import MissionCards from "../sections/departments/cseDS/MissionCards"
+import Awsome from "../sections/departments/cseDs/Awsome"
+import OurVision from "../sections/departments/cseDs/OurVision"
+
+import MissionCards from "../sections/departments/cseDs/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
-import Career from "../sections/departments/cseDS/career/index"
-import Hod from "../sections/departments/cseDS/hod"
-import TnP from "./tnp"
+import Career from "../sections/departments/cseDs/career/index"
+import Hod from "../sections/departments/cseDs/hod"
+
 import Gallaryslider from "../components/Gallary-slider"
+import ImageGrid from "../sections/departments/cseDs/imageGrid"
 
 let images = [
   "/images/Gallary-1png.png",
@@ -70,9 +71,9 @@ const CsDsEngineering = () => {
 
           <div
             className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8"
-            onClick={() => setGallary(true)}
+            // onClick={() => setGallary(true)}
           >
-            <img
+            {/* <img
               src="/images/Department/DepartmentGalary.png"
               className="w-full h-full sm:hidden 2xl:block"
               alt=""
@@ -81,12 +82,13 @@ const CsDsEngineering = () => {
               src="/images/AboutUs/Gallary-mobile.png"
               className="w-full h-full sm:block 2xl:hidden"
               alt=""
-            />
+            /> */}
+            <ImageGrid />
           </div>
         </section>
         <section className="mt-16 mx-auto  w-[1407px] sm:w-[90%] sm:mt-8"></section>
-        <Hod />
         <Career />
+        <Hod />
         <Awsome />
         <OurVision />
         <MissionCards />

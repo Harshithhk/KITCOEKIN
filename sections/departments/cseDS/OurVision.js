@@ -25,12 +25,11 @@ const OurVision = () => {
           />
         </div>
         <div className="text-xl text-justify pr-12 sm:pr-0  sm:mt-4  mt-8 text-[#24346D] font-semibold sm:font-normal sm:text-base">
-        TO BE PREFERRED CHOICE OF STAKEHOLDERS BY BUILDING CORE THEORETICAL AND PRACTICAL SKILLS IN THE
-         STUDENTS AND ABREAST THEM TO BE GLOBALLY COMPETENT WITH THE LATEST TECHNOLOGIES,
-          SKILLS AND DEVELOPMENTS EMERGING IN THE FIELD OF COMPUTER SCIENCE AND ENGINEERING.
 
-        </div>
+        To Be Preferred Choice Of Stakeholders By Building Core Theoretical And Practical Skills In The Students And Abreast Them To Be Globally Competent With The Latest Technologies, Skills And Developments Emerging In The Field Of Computer Science And Engineering.        </div>
       </div>
+
+      
     </section>
   )
 }

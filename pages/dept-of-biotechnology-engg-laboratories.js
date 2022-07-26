@@ -140,7 +140,7 @@ const BiotechnologyEngineeringLaboratories = () => {
                             {Laboratories.map((item, index) => {
                                 return (
                                     <>
-                                        <div className="sm:hidden grid grid-cols-3 items-center justify-items-start gap-x-5 sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                                        <div key = {index} className="sm:hidden grid grid-cols-3 items-center justify-items-start gap-x-5 sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
                                             <div className=" sm:hidden ml-20">{item.SrNo}</div>
                                             <div className="">{item.NameOfTheLaboratory}</div>
                                             <div className="">{item.Area}</div>

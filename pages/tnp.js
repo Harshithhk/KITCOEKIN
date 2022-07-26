@@ -1,7 +1,7 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 import BranchPlacement from "../sections/departments/branchPlacement"
-import Career from "../sections/departments/career"
+import Career from "../sections/tnp/career/index"
 import CampusPlacement from "../sections/departments/campusplacement"
 import TnPEsteemedRecruiters from "../sections/tnp/TnPEsteemedRecruters"
 
@@ -49,7 +49,7 @@ const TnP = () => {
           </h1>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
-        <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-white px-14 sm:px-4 sm:pb-10">
+        <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-secondary px-14 sm:px-4 sm:pb-10">
           <img
             className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
             src="/images/TnP/indicator.png"
@@ -62,7 +62,7 @@ const TnP = () => {
                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                 TPO&apos;S MESSAGE
               </div>
-              <div className="mt-10 sm:mt-4 w-[800px] text-xl text-accent sm:w-full sm:text-base">
+              <div className="mt-10 text-justify sm:mt-4 w-[800px] text-xl text-accent sm:w-full sm:text-base">
                 This era of globalization has opened enormous opportunities for
                 young and talented budding engineers in all the walks of life.
                 As a result, the expectations from the young engineers are that
@@ -74,20 +74,27 @@ const TnP = () => {
                 students from academics to corporate life.
               </div>
             </div>
-            <div className="w-[300px] sm:h-[320px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl sm:text-lg items-center flex flex-col sm:mt-8 sm:w-[250px] sm:mx-auto">
-              <div className="overflow-hidden bg-white rounded-xl">
-                <img src="/images/TnP/amitsarkar.png" alt="amitsarkar.png" />
+            <div className="md:mx-auto w-[300px] h-[370px] bg-transparent   mt-28 mr-6 rounded-xl text-white text-2xl md:text-xl  items-center justify-between flex flex-col md:mt-14">
+              <div className="absolute bg-[#24346D]  w-[300px] sm:w-[305px] h-36 mt-36"></div>
+              <div className="overflow-hidden relative bg-transparent sm:-mx-1 sm:-mt-1 ">
+                <img src="/images/tnp/amit-sarkar.png " className=" " alt="mamtakalas.png" />
               </div>
-              <div className="mt-2">DR. Amit Sarkar</div>
+              <div className="mt-2 mb-2 flex flex-col py-2 items-center  text-[#24346D]">
+                  <div className="bg-primary w-16 h-[3px]   rounded-xl"></div>
+                  Dr Amit R Sarkar
+
+              </div> 
             </div>
           </div>
+   
         </section>
+        <section className="relative rounded-3xl -mt-10 pt-10 z-30 w-[95%] mx-auto pb-20 h-fit bg-secondary px-14 sm:px-4 sm:pb-10">
+          <Career />
+          </section>
         <CampusPlacement />
         <TnPEsteemedRecruiters />
         <BranchPlacement />
-        <section className="w-full py-8 bg-white">
-          <Career />
-        </section>
+        
         <Footer />
       </div>
     </DefaultLayout>

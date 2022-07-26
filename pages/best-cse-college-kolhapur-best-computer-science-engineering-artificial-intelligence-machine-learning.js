@@ -1,21 +1,34 @@
-import React from "react"
+import React, { useState } from "react"
 import ReactPlayer from "react-player"
 import DefaultLayout from "../components/DefaultLayout"
-import Awsome from "../sections/about-us/Awsome"
-import OurVision from "../sections/departments/cseAIML/OurVision"
-import AboutUs from "../sections/about-us/AboutUs"
-import ImageGrid from  "../sections/departments/cseAIML/imageGrid"
-import MissionCards from "../sections/departments/cseAIML/MissionCards"
+import Awsome from "../sections/departments/cseAiMl/Awsome"
+import OurVision from "../sections/departments/cseAiMl/OurVision"
+
+import MissionCards from "../sections/departments/cseAiMl/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
-import Career from "../sections/departments/cseAIML/career/index"
-import Hod from "../sections/departments/cseAIML/hod"
-import TnP from "./tnp"
+import Career from "../sections/departments/cseAiMl/career/index"
+import Hod from "../sections/departments/cseAiMl/hod"
+
+import Gallaryslider from "../components/Gallary-slider"
+import ImageGrid from "../sections/departments/cseAiMl/imageGrid"
+
+let images = [
+  "/images/Gallary-1png.png",
+  "/images/Gallary-2.png",
+  "/images/Gallary-3.png",
+  "/images/Gallary-2.png",
+]
+
 const CsAiMlEngineering = () => {
+  const [gallary, setGallary] = useState(false)
+
   return (
     <DefaultLayout>
-      <div className="w-full">
-        <section className="relative flex flex-col items-center w-full">
+      <div className="w-full relative">
+        {gallary && <Gallaryslider images={images} setGallary={setGallary} />}
+
+        <section className="cursor-pointer relative flex flex-col items-center w-full">
           <img
             src="/images/AboutUs/bgcircle.png"
             className="w-24 h-24 absolute top-0 left-[25%] z-10 sm:w-16 sm:h-16 sm:top-[5%]"
@@ -45,7 +58,7 @@ const CsAiMlEngineering = () => {
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
             Department of Computer Science and Engineering
-            (Artificial Intelligence And Machine Learning)
+(Artificial Intelligence And Machine Learning)
           </h1>
           <br></br>
           <br></br>
@@ -54,10 +67,14 @@ const CsAiMlEngineering = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-xl font-bold text-center text-slate-300 z-20"
           >
-             Home | Computer Science and Engineering (Artificial Intelligence And Machine Learning)
+            Home | Computer Science and Engineering (Artificial Intelligence And Machine Learning)
+
           </h6>
 
-          <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">
+          <div
+            className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8"
+            // onClick={() => setGallary(true)}
+          >
             {/* <img
               src="/images/Department/DepartmentGalary.png"
               className="w-full h-full sm:hidden 2xl:block"

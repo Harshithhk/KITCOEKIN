@@ -58,14 +58,14 @@ const StaffList = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Ph.D. Center
+            <a href="/"><span className="hover:text-primary hover:cursor-pointer"> Home</span></a> <span className=" ">|</span> Ph.D. Center
 
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         
-        <section className="overflow-auto max-w-fit mx-auto md:mx-0  bg-secondary">
-          <section className="relative z-30 w-[1500px] mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
+        <section className="w-full mx-auto md:mx-0  bg-secondary">
+          <section className="relative z-30 w-full mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
           <div className="sm:hidden grid grid-cols-2 items-center text-slate-500 justify-items-center mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
               <div className=" sm:hidden">Sr.No.</div>
               <div className=" ">Name Of Guides</div>

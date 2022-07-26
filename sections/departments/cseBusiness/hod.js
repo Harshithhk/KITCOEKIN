@@ -1,40 +1,29 @@
 import React from "react"
 import Modal from "../../../components/Modal"
 
-const body = ["Kolhapur Institute of Technology is one of the pioneering institutes in Maharashtra started by a team of industrialists on self-financed basis in 1983. Recognizing the need of contemporary metallurgy industry then, KIT started the courses in Production Engineering, with other branches like Electronics Engineering, Civil Engineering , Environmental Engineering."
-,
-"The dynamic and proactive management of KIT’s College of Engineering Kolhapur took an early note of the significant role that was to be played by Biotechnology Engineers in future industrial development of biotechnology related processes and products by establishing department of Biotechnology Engineering in 2002 with approval from DTE and AICTE, India. It has a unique place in the development of Biotechnology engineering discipline in Maharashtra."
-,
-"We currently offer B. Tech. (Biotechnology) programme at undergraduate and M.Tech (Biochemical Engineering and Biotechnology) programme at post graduate level."
-,
-"When we think of an engineering career, we think only of conventional branches. The convention that students with PCM opt for engineering and students with PCB opt for medicine. But in 21st Century, there is an intervention of biology in every aspect of life. We talk about organic farming , we observe tremendous developments in biomedical diagnosis, we see artificial intelligence mimicking biology entering into our life. Currently the COVID-19 pandemic showed us the importance biotech research where every pharma company is behind the vaccine and drug research on COVID-19."
-,
-"Biotechnology field in engineering and technological aspect encompasses many areas including biopharmaceuticals developments, industrial biotechnology, food biotechnology, environmental biotech, biomedical engineering, bioengineering, etc. Considering biotechnology as a fundamental research, it includes different genetic technologies in animal and plant biotechnology, cell and tissue engineering etc."
-,
-"In B Tech Biotech 4 years UG programme that we offer, we focus more on studies of fermentative productions of various products like insulin like biopharmaceuticals, antibiotics, fine chemicals, enzymes etc. The current Indian scenario shows that more than 65% of industry is in biopharma sector and hence we have designed our syllabus by aiming at the future scope of job opportunities and higher studies. We have included inputs from different industry persons and academicians from reputed institutes for a tailor-made syllabus."
-,
-"As this is the pioneering programme started since 2002, 14 batches with more than 700 students have completed their bachelors from our department till 2019. More than 100 students went abroad for higher studies like MS or PhD in the World top 100 Universities like University of Pennsylvania, MIT, Northeastern University, Northwestern University, University of Illinois and few are working there in reputed indusries such as Amgen, Conagen, Adimab, Pall etc."
-,
-"We do provide the coaching for competitive exams like GATE for pursuing higher studies. Every year, our students qualify GATE with good national ranks. In the year 2019, 6 of our students qualified GATE with All India Ranking in first 500 and 3 of them were in first 100. Many of our students pursued M Tech in India from reputed institutes like IITs, NITs, ICT, as well as some private organizations."
-,
-"We have very strong alumni network with maximum number of students connected across all batches. Many of our alumni are working in well-established biopharma and related companies like Biocon, Syngene, Serum, Reliance, Intas, Wockhardt, Dr. Reddy’s, DEE, Embio etc. It helps current students to fetch placements, internships and career counseling. We promote alumni mentors to connect to current students for technical , career and entrepreneurial guidance."
-,
-"We have strong industry linkages where we interact with industry persons of different hierarchy for syllabus revisions, industry visit and training for students, long term internships and placements. Every year we have more than 90 % placements either directly in jobs or in higher education. Currently industry recognizes KIT as an institute providing good human resource in Biotech sector due to wide spread alumni among major Biotech players. We have few tie ups with the industries and institutes we do promote the collaborative research. We have MoUs with Embio Mahad, Mahalaxmi E-recyclers etc."
-,
-"We have well established laboratories infrastructure which can give hands on experience to our students."
-,
-"We do promote additional best practices such as -"
-,
-"Career Counseling :"
-,
-"We have designed a protocol to have individual career counseling where we guide each students from 2nd year to final year. Under this activity, we help them for industrial exposure, mini projects in the department, alumni mentoring etc. for profile building."
-,
-"Online Certifications :"
-,
-"We promote NPTEL like certifications which are online technical certificate courses run by IITs. Few of our students have been in toppers in these exams and got internship offers from IITs.We have departmental students’ association ‘ enGENEers’ under which many events are organized and conducted. In the recent year we conducted our national level model and paper presentation competition, Corona virus awareness programme, visit and help to few NGOs."
-,
-"Currently looking at the COVID-19 pandemic, we can understand the global need of prevention and cure for this pandemic. It can only be done through the research in vaccine development and drug development which is a part of Biotechnology. It can show us what scope Biotechnology can have in our everyday lives. So, if you are ready for a future with unlimited opportunities, if you want to work in an unconventional field, if you want to contribute to the well-being of humankind, biotechnology engineering can be the perfect career to pursue."]
-
+const body = 'Currently, technical education is at a crossroads. Graduates of computer science are expected to possess not only the fundamental knowledge of computer science but also a natural aptitude for the liberal arts, creative attitude, core values, and understanding of sustainability issues. To assist students to prepare for the future, emerging areas like cyber security, machine learning, cloud computing, IoT, analytics, etc. need to be incorporated into the curriculum. The generation needs "business engineers," a type of engineering talent geared toward Business 4.0. These graduates today need to comprehend the fundamental principles of business management and have the mindset of innovation in addition to understanding future technology.\n'+
+'\n'+
+'To meet this increasing demand for technical expertise with knowledge of digital technology, KIT’s College of Engineering(Autonomous), Kolhapur in collaboration with India’s leading Company Tata Consultancy Services (TCS) is offering a four-year specialized B. Tech programme titled “Computer Science and Business Systems”.\n'+
+'\n'+
+'Computer Science and Business Systems is a blend of Computer Science and Management and covers many emerging topics in the field of computing. The course structure is built with the aim to impart certain knowledge and skill sets to the students and develop certain attitudes and behaviors among the students to make them successful in the era of Business 4.0. After completion of the programme students will be more industry ready and employable engineers who can drive innovation and add value to the organization they work for as well as to the nation in the era of Business 4.0.\n'+
+'\n'+
+'The excellent infrastructure and facilities offered by our department enable teachers and students to excel in the classroom and be adaptable enough to tackle any research challenge. Our teachers make major contributions to the field of CSBS both theoretically and practically, and as the head of the department, I feel myself fortunate to be leading a fantastic team of committed employees and inspiring lecturers.\n'+
+'\n'+
+'KIT’s College of Engineering(Autonomous),Kolhapur in collaboration with India’s leading Company Tata Consultancy Services (TCS) is offering a four-year specialized B. Tech programme titled “Computer Science and Business Systems” to cater to the rising need of engineering talent with skills in technology. This state-of-art course aims to impart knowledge of cutting-edge technologies and business skills with hands-on exposure to make students industry-ready.\n'+
+'\n'+
+'This curriculum aims to ensure that the students graduating from the program not only gain the knowledge about core topics of Computer Science but also develop an equal appreciation of humanities, management sciences and human values. The students will be also exposed to the emerging topics such as Analytics, Machine Learning, Cloud Computing, Internet of Things to make them industry ready at the end of their four years of study.\n'+
+'\n'+
+'Key Objectives\n'+
+'Learning Common Business Principles\n'+
+'Exploring Business Discipline and Service Orientation\n'+
+'Innovative Ability, and\n'+
+'Strong Human Ethics and Values\n'+
+'Salient Features of the CSBS Programme:\n'+
+'Industry-Relevant Curriculum designed by TCS - As an outcome of MoU signed between TCS and AICTE.\n'+
+'Industrial Training & live projects supported by TCS\n'+
+'Dedicated faculty members trained by TCS to deliver the program\n'+
+'High standard of teaching, learning and evaluation processes monitored by TCS\n'+
+'Active mentoring by TCS Expert';
 
 
 const hod = () => (
@@ -46,19 +35,21 @@ const hod = () => (
           HOD'S MESSAGE
         </div>
         <div className="mt-10 md:mt-4 md:w-full md:text-base  w-[800px] text-xl text-accent text-justify">
-<p>        The Computer Science and Engineering Department was started in the year 1999 with 
-  intake capacity of 60 seats. From 2018, the Department has an additional intake of 60 students
-  , so total intake is 180 students. CSE is identified as one of the most challenging and as an 
-  essential source of tools and techniques for advancement in every multidisciplinary areas
-  . Department has been accredited by NAAC with CGPA 3.12 in 2016. It has been accredited by
-   NBA in 2008 and recently in 2018.
+<p>        Currently, technical education is at a crossroads. Graduates of computer science are expected 
+  to possess not only the fundamental knowledge of computer science but also a natural aptitude for the 
+  liberal arts, creative attitude, core values, and understanding of sustainability issues. To assist
+   students to prepare for the future, emerging areas like cyber security, machine learning, cloud 
+   computing, IoT, analytics, etc. need to be incorporated into the curriculum. The generation needs
+    "business engineers," a type of engineering talent geared toward Business 4.0. These graduates today 
+    need to comprehend the fundamental principles of business management and have the mindset of innovation
+     in addition to understanding future technology.
+
+
 </p><br/>
-<p>          We have highly committed and competitive team of faculty fraternity, who experiments
-   and adapts new innovative pedagogy methods for making all the technical concepts clear as well
-    to keep our students abreast with the latest technologies, skills and developments emerging in
-     this field. We have one Doctorate Faculty member and 8 Faculty members are perusing Ph.D from 
-     various universities. This practice has proved our students very challenging and successful in
-      various domains of competitions at university, state and national level.
+<p>         To meet this increasing demand for technical expertise with knowledge of digital technology, 
+  KIT’s College of Engineering(Autonomous), Kolhapur in collaboration with India’s leading Company 
+  Tata Consultancy Services (TCS) is offering a four-year specialized B. Tech programme titled “Computer
+   Science and Business Systems”.
 </p>
 
     
@@ -81,7 +72,7 @@ const hod = () => (
       <div className="md:mx-auto w-[300px] h-[370px] bg-transparent   mt-28 mr-6 rounded-xl text-white text-2xl md:text-xl  items-center justify-between flex flex-col md:mt-14">
         <div className="absolute bg-[#24346D] w-[300px] sm:w-[305px] h-40 mt-36"></div>
         <div className="overflow-hidden relative bg-transparent sm:-mx-1 sm:-mt-1 ">
-          <img src="images/Department/cse/mamta-kalas_preview_rev_1.png " className=" " alt="mamtakalas.png" />
+          <img src="images/Department/cseBusiness/grantej-otari.png " className=" " alt="mamtakalas.png" />
         </div>
           <div className="mt-2 flex flex-col py-2 items-center text-[#24346D]">
             <div className="bg-primary w-16 h-[3px]   rounded-xl"></div>

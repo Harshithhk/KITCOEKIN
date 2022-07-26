@@ -17,7 +17,8 @@ const Awsome = () => {
             DEPT.HEAD
           </h1>
           <div className="text-xl text-justify text-[#35457E] mt-2 sm:text-sm">
-            Dr.Mamta S. Kalas
+          Mr. Ajit S. Patil
+
           </div>
         </div>
 
@@ -32,11 +33,11 @@ const Awsome = () => {
             B.TECH
           </h1>
           <div className="text-xl text-justify text-[#35457E] mt-2 sm:text-sm">
-            Intake : 180
+            Intake : 60
           </div>
         </div>
         {/* BOX */}
-        <div className=" w-[290px] h-fit shadow-xl  bg-white  rounded-3xl p-4 sm:w-[165px] sm:mt-[10px] sm:p-2">
+        {/* <div className=" w-[290px] h-fit shadow-xl  bg-white  rounded-3xl p-4 sm:w-[165px] sm:mt-[10px] sm:p-2">
           <img
             src="/images/AboutUs/awesome.svg"
             className="w-16 h-16 sm:w-8 sm:h-8 -translate-x-3 sm:-translate-x-1"
@@ -48,7 +49,7 @@ const Awsome = () => {
           <div className="text-xl text-justify text-[#35457E] mt-2 sm:text-sm">
             Intake : 06
           </div>
-        </div>
+        </div> */}
         {/* BOX */}
       </section>
     </section>

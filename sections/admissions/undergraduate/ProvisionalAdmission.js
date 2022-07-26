@@ -4,7 +4,7 @@ const ProvisionalAdmission = () => {
   let ProvisionalAdmission2223 = [
     {
       "DocName":"APPLICATION FORM :- F.Y. B.TECH. FOUNDATION PROGRAM",
-      "DocLink":"",
+      "DocLink":"documents/admission/2022_23/KIT Provisional Admissions for FY Foundation Course 2022-2023.pdf",
       "Year":"First-Year-B.Tech"
     },
     {

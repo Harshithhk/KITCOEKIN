@@ -10,7 +10,7 @@ import Footer from "../sections/home-page/Footer"
 import Career from "../sections/departments/cseBusiness/career/"
 import Hod from "../sections/departments/cseBusiness/hod"
 
-const CsEngineering = () => {
+const CsBusinessEngineering = () => {
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -43,7 +43,7 @@ const CsEngineering = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            Department of Computer Science Engineering
+            Department of Computer Science & Business Systems
           </h1>
           <br></br>
           <br></br>
@@ -52,7 +52,8 @@ const CsEngineering = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-xl font-bold text-center text-slate-300 z-20"
           >
-            Home | Computer Science Engineering Department
+            Home | Computer Science & Business Systems Department
+
           </h6>
 
           <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">
@@ -82,7 +83,7 @@ const CsEngineering = () => {
   )
 }
 
-export default CsEngineering
+export default CsBusinessEngineering
 
 {
   /* <div className="mt-10 ">

@@ -17,9 +17,17 @@ const QuickLinksCard = () => {
 
           <QuickLinks>
 
-            <QuickLinks.Plates href="dept-of-biotechnology-engg-activities">Activities</QuickLinks.Plates>
-            <QuickLinks.Plates href="dept-of-biotechnology-engg-faculty">Staff</QuickLinks.Plates>
-            <QuickLinks.Plates href="dept-of-biotechnology-engg-laboratories">Laboratories</QuickLinks.Plates>
+            <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink3}  subLink = {subLink3}>
+              Activities
+              <QuickLinks.SubQuickLinks setSubLink = {setSubLink3}  subLink = {subLink3} >
+                <QuickLinks.SubPlates logo="document" >Activity Report 2021-22</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" >Activity Report 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" >Activity Report 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" >Activity Report 2018-19</QuickLinks.SubPlates>
+              </QuickLinks.SubQuickLinks>
+            </QuickLinks.Plates>
+            <QuickLinks.Plates href="dept-of-computer-science-artificial-intelligence-machine-learning-faculty">Staff</QuickLinks.Plates>
+            <QuickLinks.Plates href="dept-of-computer-science-engg-laboratories">Laboratories</QuickLinks.Plates>
 
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink1} subLink = {subLink1}>
               Placement
@@ -39,12 +47,12 @@ const QuickLinksCard = () => {
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
 
-            <QuickLinks.Plates href="dept-of-biotechnology-engg-recruiters">Recruiters</QuickLinks.Plates>
-            <QuickLinks.Plates href="dept-of-biotechnology-engg-mous">MOU'S</QuickLinks.Plates>
-            <QuickLinks.Plates href="dept-of-biotechnology-po-peo">PO's & PEO'S</QuickLinks.Plates>
+            <QuickLinks.Plates href="dept-of-computer-science-engg-recruiters">Recruiters</QuickLinks.Plates>
+            <QuickLinks.Plates href="dept-of-computer-science-engg-mous">MOU'S</QuickLinks.Plates>
+            <QuickLinks.Plates href="dept-of-computer-science-engg-po-peo">PO's & PEO'S</QuickLinks.Plates>
             <QuickLinks.Plates logo="document">Student Achievements</QuickLinks.Plates>
             <QuickLinks.Plates>Department Gallery</QuickLinks.Plates>
-            
+            <QuickLinks.Plates href="dept-of-computer-science-engg-press-release">Press Release</QuickLinks.Plates>
 
            
 

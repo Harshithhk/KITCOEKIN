@@ -4,6 +4,7 @@ import { useRouter } from "next/router"
 import BiotechnologyEngineering from "./biotechnologyEngineering"
 import CivilEngineering from "./civilEngineering"
 import ComputerScienceEngineering from "./computerScienceEngineering"
+import ComputerScienceEngineeringBusiness from "./computerScienceEngineeringBusiness"
 import CivilEnvironmentalEngineering from "./civilEnvironmentalEngineering"
 import ComputerScienceEngineeringDataScience from "./computerScienceEngineeringDataScience"
 import ComputerScienceEngineeringAIML from "./computerScienceEngineeringAIML"
@@ -65,6 +66,7 @@ const Admissions = () => {
                     <CivilEngineering/>
                     <CivilEnvironmentalEngineering/>
                     <ComputerScienceEngineering/>
+                    <ComputerScienceEngineeringBusiness />
                     <ComputerScienceEngineeringDataScience />
                     <ComputerScienceEngineeringAIML />
                     <ElectricalEngineering />

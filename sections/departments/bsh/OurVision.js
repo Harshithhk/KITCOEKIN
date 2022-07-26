@@ -25,11 +25,10 @@ const OurVision = () => {
           />
         </div>
         <div className="text-xl text-justify pr-12 sm:pr-0  sm:mt-4  mt-8 text-[#24346D] font-semibold sm:font-normal sm:text-base">
-        TO PROVIDE COMPREHENSIVE REQUISITE KNOWLEDGE
-         OF APPLIED SCIENCES TO ENGINEERING STUDENTS AND STRENGTHEN THEIR ENGLISH COMMUNICATION SKILLS.
-
-        </div>
+        To Provide Comprehensive Requisite Knowledge Of Applied Sciences To Engineering Students And Strengthen Their English Communication Skills.            </div>
       </div>
+
+      
     </section>
   )
 }

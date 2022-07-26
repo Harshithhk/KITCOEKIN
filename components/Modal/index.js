@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Modal({children,title,body,pCondition = 'hi'}) {
+export default function Modal({children,title,body}) {
   const [showModal, setShowModal] = React.useState(false);
   const widthLarge = "max-w-6xl"
-  const pConditionParam = pCondition
+
   return (
     <>
       <div onClick={() => setShowModal(true)} >
@@ -32,21 +32,12 @@ export default function Modal({children,title,body,pCondition = 'hi'}) {
                   </button>
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto overflow-y-scroll">
-                    {pConditionParam == "array" ? 
-                    body.map((item,index)=>{
-                        return(<>
-                            
-                            <p className="my-4 text-slate-500 text-justify text-lg leading-relaxed">
-                            {item}
-                            </p>
-                        </>)
-                    })
-                    :
+                <div className=" whitespace-pre-wrap relative p-6 flex-auto overflow-y-scroll">
+               
                     <p className="my-4 text-slate-500 text-justify text-lg leading-relaxed">
                     {body}
                     </p>
-                    }
+                 
                   
                 </div>
                 {/*footer*/}

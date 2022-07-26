@@ -12,8 +12,8 @@ const Career = () => {
   const [accordion3, setAccordion3] = React.useState(false)
   const [accordion4, setAccordion4] = React.useState(false)
 
-  let title1 = "Common Courses"
-  let discription1 = "Data Structures,Computer Algorithms,Computer Network, Database Engineering, Operating Systems, MICROPROCESSOR" 
+  let title1 = "----Title----"
+  let discription1 = "----Body-----" 
   
   return (
     <section className=" px-2   w-full pb-10 sm:w-full  sm:mt-8 flex  md:flex-col items-center">

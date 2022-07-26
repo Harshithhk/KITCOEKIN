@@ -376,7 +376,7 @@ let AdmissionContacts = [
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Undergraduate Admissions
+           <a href="/"><span className="hover:text-primary hover:cursor-pointer"> Home</span></a> <span className=" ">|</span> Undergraduate Admissions
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
@@ -391,14 +391,14 @@ let AdmissionContacts = [
           <Admission2223 />
           <Admission2122 />
         </section>
-        <section className="pt-16 mt-16 mb-[-60px] overflow-hidden bg-[#F8F7FC] max-w-screen">
+        <section className="pt-16 mt-16 mb-[-60px] overflow-clip bg-[#F8F7FC] max-w-screen">
           <div className="flex items-center w-full ml-16 sm:ml-4">
             <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
             <div className="ml-3 md:ml-2 w-fit  text-center   text-[#24346D] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">
               INSTITUTE CODE : 6267
             </div>
           </div>
-          <section className="relative z-30 w-[1500px] mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
+          <section className="relative z-30 w-full  mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
           <div className="sm:hidden grid grid-cols-3  items-center  px-4 text-slate-500  mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
          
               <div className=" col-start-1 col-end-3 text-center">Course Name</div>
@@ -443,7 +443,7 @@ let AdmissionContacts = [
                       </div>
                     
                   </div> 
-                <div className=" sm:grid 2xl:hidden divide-y grid-rows-7 items-center text-left  w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                <div className=" sm:grid 2xl:hidden divide-y grid-rows-7 items-center text-left  w-full h-fit  sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
                  
                   <div className="grid grid-cols-2">
                     <div className="text-slate-400">Course Name</div>   
@@ -478,14 +478,14 @@ let AdmissionContacts = [
           </section>
         </section>
         
-        <div className=" w-screen bg-[#F8F7FC] mt-10">
+        <div className=" w-full bg-[#F8F7FC] mt-10 ">
         <div className="flex items-center pt-10  mb-10 ml-16 sm:ml-4">
            <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
            <div className="ml-3 md:ml-2 w-fit  text-center   text-[#24346D] sm:text-xl text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">
            For Admission Process & Details
            </div>
          </div>
-        <section className=" z-30  w-fit mx-auto pb-20 -mb-10 h-fit bg-[#F8F7FC]  sm:px-4 sm:pb-10">
+        <section className=" z-30  w-fit  mx-auto  pb-20 -mb-10 h-fit bg-[#F8F7FC]  sm:px-4 sm:pb-10">
        
        
        <div className="flex flex-col items-center sm:flex-col">
