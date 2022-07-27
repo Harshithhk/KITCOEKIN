@@ -32,25 +32,25 @@ const QuickLinksCard = () => {
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink1} subLink = {subLink1}>
               Placement
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink1}  subLink = {subLink1} >
-                <QuickLinks.SubPlates logo="document" >Placement 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement 2019-20</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement 2018-19</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/cse/placements/cse-placements-2020-21.pdf">Placement 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/cse/placements/cse-placement-details.pdf">Placement 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/cse/placements/cse-placements-2018-19.pdf">Placement 2018-19</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
 
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink2} subLink = {subLink2}>
               Internship
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink2}  subLink = {subLink2} >
-                <QuickLinks.SubPlates logo="document">Internship 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Internship 2019-20</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Internship 2018-19</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/cse/internship/cse-department-internship-info.pdf">Internship 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/cse/internship/cse-internship-details-2019-20.pdf">Internship 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/cse/internship/cse-internship-details-2018-19.pdf">Internship 2018-19</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
 
             <QuickLinks.Plates href="dept-of-computer-science-engg-recruiters">Recruiters</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-computer-science-engg-mous">MOU'S</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-computer-science-engg-po-peo">PO's & PEO'S</QuickLinks.Plates>
-            <QuickLinks.Plates logo="document">Student Achievements</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="documents/departments/cse/activities/cse-student-achievement-details.pdf">Student Achievements</QuickLinks.Plates>
             <QuickLinks.Plates>Department Gallery</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-computer-science-engg-press-release">Press Release</QuickLinks.Plates>
 

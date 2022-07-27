@@ -5,17 +5,17 @@ const Admission2122 = () => {
   let Admission2122 = [
     {
       "DocName":"List of documents During Online Registration F.Y.B.TECH 2021-22",
-      "DocLink":"",
+      "DocLink":"documents/admission/list-of-document-during-online-registration-direct-fybtech-2021.pdf",
       "Year":"First-Year-B.Tech"
     },
     {
       "DocName":"Cut off list for previous year (Female)",
-      "DocLink":"",
+      "DocLink":"documents/admission/first-year-female-cutoff-list.pdf",
       "Year":"First-Year-B.Tech"
     },
     {
       "DocName":"Cut off list for previous year (Male)",
-      "DocLink":"",
+      "DocLink":"documents/admission/first-year-male-cutoff-list.pdf",
       "Year":"First-Year-B.Tech"
     },
     {
@@ -30,32 +30,32 @@ const Admission2122 = () => {
     },
     {
       "DocName":"F. Y B. Tech Fee Structure for Academic Year 2021-22",
-      "DocLink":"",
+      "DocLink":"documents/admission/fy-btech-fee-sructure-2020-21.pdf",
       "Year":"First-Year-B.Tech"
     },
     {
       "DocName":"List of Documents During Online Registration S.Y.B.TECH 2021-22",
-      "DocLink":"",
+      "DocLink":"documents/admission/list-of-document-during-online-registration-direct-sybtech-2021.pdf",
       "Year":"Direct-Second-Year"
     },
     {
       "DocName":"Cut off list for previous year(Female)",
-      "DocLink":"",
+      "DocLink":"documents/admission/direct-second-year-female-cutoff-list.pdf",
       "Year":"Direct-Second-Year"
     },
     {
       "DocName":"Cut off list for previous year (Male)",
-      "DocLink":"",
+      "DocLink":"documents/admission/direct-second-year-male-cutoff-list.pdf",
       "Year":"Direct-Second-Year"
     },
     {
       "DocName":"Scholarships Schemes Offered by State Govt. / Central Govt.",
-      "DocLink":"",
+      "DocLink":"documents",
       "Year":"Direct-Second-Year"
     },
     {
       "DocName":"Direct Second Year Fee Structure for Academic Year 2021-22",
-      "DocLink":"",
+      "DocLink":"documents/admission/dse-fee-structure-2020-21.pdf",
       "Year":"Direct-Second-Year"
     }
   ]
