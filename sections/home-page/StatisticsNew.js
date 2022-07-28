@@ -1,8 +1,11 @@
 import Image from "next/image"
+import { useRouter } from "next/router"
 
 const StatisticsNew = () => {
+
+  const router = useRouter()
   return (
-    <div className=" md:p-[16px] relative mt-72  bg-secondary  pb-32 sm:pb-24 sm:-mb-20  -mb-10">
+    <div className={` md:p-[16px] relative mt-72  ${router.route == "/" ? "bg-secondary" : "bg-white" }  pb-32 sm:pb-24 sm:-mb-20  -mb-10`}>
       {/* <div className="flex items-center">
         <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
         <div className="ml-3 md:ml-2 w-fit  font-[800] text-center   text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
