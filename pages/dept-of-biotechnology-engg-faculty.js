@@ -284,7 +284,7 @@ const BiotechnologyEngineeringFaculty = ({ staffs }) => {
                           Email : sanandammonica@gmail.com
                         </p>
                         <p className="mb-0 font-semibold text-primary">
-                          Mobile : 9850271679{" "}
+                          Mobile : 9850271679
                         </p>
                         <br />
                         <button
