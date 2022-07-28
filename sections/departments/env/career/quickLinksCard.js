@@ -31,19 +31,19 @@ const QuickLinksCard = () => {
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink1} subLink = {subLink1}>
               Placement
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink1}  subLink = {subLink1} >
-                <QuickLinks.SubPlates logo="document" >Placement 2021-22</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement 2019-20</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement 2018-19</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/environmental/placements/env-placement-record-2021-22.pdf">Placement 2021-22</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents">Placement 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/environmental/placements/env-placement-record-2019-20.pdf">Placement 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/environmental/placements/env-placement-record-2018-19.pdf">Placement 2018-19</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
 
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink2} subLink = {subLink2}>
               Internship
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink2}  subLink = {subLink2} >
-                <QuickLinks.SubPlates logo="document">Internship 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Internship 2019-20</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Internships</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/environmental/internship/civil-and-env-engg-department-internship-info.pdf">Internship 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" >Internship 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" >Internships</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
 
@@ -54,13 +54,13 @@ const QuickLinksCard = () => {
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink4}  subLink = {subLink4}>
               Student Achievement
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink4}  subLink = {subLink4} >
-                <QuickLinks.SubPlates logo="document">Students Achievements in 2019-20</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Students Achievements</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/environmental/activity/env-student-achievement-2019-20.pdf">Students Achievements in 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/environmental/activity/env-student-achievement-last-three-years.pdf">Students Achievements</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
             <QuickLinks.Plates>Department Gallery</QuickLinks.Plates>
 
-            <QuickLinks.Plates  logo="document">
+            <QuickLinks.Plates  logo="document" href="documents/departments/environmental/internship/env-vocational-training-last-three-year.pdf">
               Vocational Courses
               
             </QuickLinks.Plates>

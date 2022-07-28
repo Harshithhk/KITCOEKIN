@@ -17,31 +17,31 @@ const QuickLinksCard = () => {
 
           <QuickLinks>
 
-            <QuickLinks.Plates href="" logo="document" >Activities</QuickLinks.Plates>
+            <QuickLinks.Plates href="documents/departments/civil/activities/ActivityReport_Department%20of%20Civil%20Engineering.pdf" logo="document" >Activities</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-civil-engg-faculty">Staff</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-civil-engg-laboratories">Laboratories</QuickLinks.Plates>
 
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink1} subLink = {subLink1}>
               Placement
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink1}  subLink = {subLink1} >
-                <QuickLinks.SubPlates logo="document" >Placement 2019-20</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement 2018-19</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/civil/placements/civil-placement-record-2019-20.pdf" >Placement 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/civil/placements/civil-placement-2018-19.pdf" >Placement 2018-19</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
 
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink2} subLink = {subLink2}>
               Internship
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink2}  subLink = {subLink2} >
-                <QuickLinks.SubPlates logo="document">Internship 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Internship 2019-20</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Internships</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/civil/internship/civil-department-internship-info.pdf" >Internship 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/civil/internship/civil-internship-data-2019-20.pdf" >Internship 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/civil/internship/civil-internship-data.pdf" >Internships</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
 
             <QuickLinks.Plates href="dept-of-civil-engg-recruiters">Recruiters</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-civil-engg-mous">MOU'S</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-civil-engg-program-outcomes">PO's & PEO'S</QuickLinks.Plates>
-            <QuickLinks.Plates logo="document">Student Achievements</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="documents/departments/civil/downloads/civil-students-achievements-2019-20.pdf" >Student Achievements</QuickLinks.Plates>
             <QuickLinks.Plates>Department Gallery</QuickLinks.Plates>
 
             <QuickLinks.Plates href="dept-of-civil-engg-vocational-courses" >

@@ -21,26 +21,26 @@ const QuickLinksCard = () => {
               Activities
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink3}  subLink = {subLink3} >
                 <QuickLinks.SubPlates logo="document" >Activity Report 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Electro-talk Newsletter</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/electrical/Electro-talk%20Newsletter.pdf">Electro-talk Newsletter</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-electrical-engg-faculties">Staff</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-electrical-engg-laboratories">Laboratories</QuickLinks.Plates>
 
-            <QuickLinks.Plates logo="document" >
+            <QuickLinks.Plates logo="document" href="documents/departments/electrical/placement/Ele_Placement%20Data_2021_22.pdf">
               Placement
              
             </QuickLinks.Plates>
 
-            <QuickLinks.Plates logo="document" >
+            <QuickLinks.Plates logo="document" href="documents/departments/electrical/Internship/Ele_Internship%20Details_2021_22.pdf">
               Internship
             
             </QuickLinks.Plates>
 
             <QuickLinks.Plates href="#">Recruiters</QuickLinks.Plates>
-            <QuickLinks.Plates logo="document">MOU'S</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="documents/departments/electrical/mou/MOU-Electrical%20Engineering.pdf">MOU'S</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-electrical-engg-po-peo">PO's & PEO'S</QuickLinks.Plates>
-            <QuickLinks.Plates logo="document">Student Achievements</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="documents/departments/electrical/activity/electrical-student-achievements.pdf">Student Achievements</QuickLinks.Plates>
             <QuickLinks.Plates>Department Gallery</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-electrical-engg-press-release">Press Release</QuickLinks.Plates>
 
