@@ -4,6 +4,10 @@ import BranchPlacement from "../sections/departments/branchPlacement"
 import Career from "../sections/tnp/career/index"
 import CampusPlacement from "../sections/departments/campusplacement"
 import TnPEsteemedRecruiters from "../sections/tnp/TnPEsteemedRecruters"
+import CoolSlider from "../components/CoolSlider"
+import TextSlider from "../components/TextSlider"
+import PlacementTeam from "../sections/tnp/PlacementTeam"
+import DepartmentMou from "../sections/tnp/DepartmentMou"
 
 const TnP = () => {
   return (
@@ -74,7 +78,7 @@ const TnP = () => {
                 students from academics to corporate life.
               </div>
             </div>
-            <div className="md:mx-auto w-[300px] h-[370px] bg-transparent   mt-28 mr-6 rounded-xl text-white text-2xl md:text-xl  items-center justify-between flex flex-col md:mt-14">
+            <div className="md:mx-auto w-[300px] h-[370px] bg-transparent   mt-16 mr-6 rounded-xl text-white text-2xl md:text-xl  items-center justify-between flex flex-col md:mt-14">
               <div className="absolute bg-[#24346D]  w-[300px] sm:w-[305px] h-36 mt-36"></div>
               <div className="overflow-hidden relative bg-transparent sm:-mx-1 sm:-mt-1 ">
                 <img src="/images/tnp/amit-sarkar.png " className=" " alt="mamtakalas.png" />
@@ -90,11 +94,17 @@ const TnP = () => {
         </section>
         <section className="relative rounded-3xl -mt-10 pt-10 z-30 w-[95%] mx-auto pb-20 h-fit bg-secondary px-14 sm:px-4 sm:pb-10">
           <Career />
-          </section>
-        <CampusPlacement />
+        </section>
+
+        <section className="mt-16 pt-10 z-30 w-[100%] mx-auto pb-20 h-fit bg-secondary px-14 sm:px-4 sm:pb-10">
+          <TextSlider />
+        </section>
+      
+        {/* <CampusPlacement /> */}
         <TnPEsteemedRecruiters />
         <BranchPlacement />
-        
+        <PlacementTeam />
+        <DepartmentMou />
         <Footer />
       </div>
     </DefaultLayout>

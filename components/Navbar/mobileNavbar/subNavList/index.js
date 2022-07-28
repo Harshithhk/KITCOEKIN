@@ -3,6 +3,7 @@ import Link from "next/link";
 import AboutKit from "./about";
 import Admissions from "./admissions";
 import Departments from "./departments";
+import OthersNavbar from "./others";
 
 const SubNavList = (props) => {
  
@@ -17,6 +18,10 @@ const SubNavList = (props) => {
   }else if(props.nav3=== true){
     return(
       <Departments  nav3 = {props.nav3} />
+    );
+  }else if(props.nav5=== true){
+    return(
+      <OthersNavbar  nav5 = {props.nav5} />
     );
   }else{
     return(

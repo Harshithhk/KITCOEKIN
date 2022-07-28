@@ -18,14 +18,14 @@ const QuickLinksCard = () => {
 
           <QuickLinks>
 
-            <QuickLinks.Plates logo="document">Placement Data for Year 2021-22</QuickLinks.Plates>
-            <QuickLinks.Plates logo="document">Placement Data for Year 2020-21</QuickLinks.Plates>
-            <QuickLinks.Plates logo="document">Placement Data for Year 2019-20</QuickLinks.Plates>
-            <QuickLinks.Plates logo="document">Placement Data for Year 2018-19</QuickLinks.Plates>
-            <QuickLinks.Plates logo="document">Placement Data for Year 2017-18</QuickLinks.Plates>
-            <QuickLinks.Plates logo="document">Placement Data for Year 2016-17</QuickLinks.Plates>
-            <QuickLinks.Plates logo="document">Placement Data for Year 2015-16</QuickLinks.Plates>
-            <QuickLinks.Plates logo="document">Placement Data for Year 2014-15</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="#">Placement Data for Year 2021-22</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="/documents/placements/placement-summaryay-29-oct-2021.pdf">Placement Data for Year 2020-21</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="/documents/placements/placement-data-2019-20.pdf">Placement Data for Year 2019-20</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="/documents/placements/placement-data-2018-19.pdf">Placement Data for Year 2018-19</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="/documents/placements/placement-data-2017-18.pdf">Placement Data for Year 2017-18</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="/documents/placements/placement-data-2016-17.pdf">Placement Data for Year 2016-17</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="/documents/placements/placement-data-2015-16.pdf">Placement Data for Year 2015-16</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="/documents/placements/placement-data-2014-15.pdf">Placement Data for Year 2014-15</QuickLinks.Plates>
 
 
           </QuickLinks>

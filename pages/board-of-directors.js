@@ -152,7 +152,7 @@ const BoardOfDirectors = () => {
 
           <div className="flex flex-wrap  justify-center w-full mt-16 gap-x-16 gap-y-16 sm:mt-14 sm:gap-x-7 sm:gap-y-7">
             {founders.map((image,index) => (
-              <div  key={index} className="z-30 w-[190px] h-fit sm:w-[120px] rounded-lg overflow-hidden ">
+              <div  key={index} className="z-30 w-[190px] h-fit sm:w-[120px] flex flex-col items-center justify-center rounded-lg overflow-hidden ">
                 <img
                
                   src={image.img}
@@ -162,7 +162,7 @@ const BoardOfDirectors = () => {
                 <div className="mx-auto text-lg font-semibold text-center py-2  sm:text-xs text-accent">
                   {image.name}
                 </div>
-                <div className="bg-primary w-10 h-[2px] sm:ml-10 ml-20 rounded-xl"></div>
+                <div className="bg-primary w-10 h-[2px] rounded-xl"></div>
                 <h2 className="mx-auto text-base text-center py-2 w-fit text-accent-light sm:text-[11px]">
                   {image.designation}
                 </h2>
