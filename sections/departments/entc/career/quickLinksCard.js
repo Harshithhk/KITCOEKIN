@@ -23,7 +23,7 @@ const QuickLinksCard = () => {
               Activities
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink3}  subLink = {subLink3} >
                 <QuickLinks.SubPlates logo="document" >Activity report 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Activity report Clips 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/electronics-telecommunication/activities/activity-report-2019-20.pdf">Activity report Clips 2019-20</QuickLinks.SubPlates>
                 <QuickLinks.SubPlates logo="document" >Activity report 2019-20</QuickLinks.SubPlates>
                 <QuickLinks.SubPlates logo="document" >Activity report 2018-19</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
@@ -32,11 +32,11 @@ const QuickLinksCard = () => {
               Staff
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink4}  subLink = {subLink4} >
                 <QuickLinks.SubPlates href="dept-of-electronics-telecommunication-engg-faculty" >Staff</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Research And Consultancy</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >FDP</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Publications</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Book</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Patents</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/entc/activities/Consultancy%20and%20Technology%20development%20work.pdf">Research And Consultancy</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/entc/activities/fdp.pdf">FDP</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/entc/activities/publications.pdf">Publications</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/entc/activities/book.pdf">Book</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/entc/activities/patents.pdf">Patents</QuickLinks.SubPlates>
 
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
@@ -44,18 +44,18 @@ const QuickLinksCard = () => {
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink1} subLink = {subLink1}>
               Placement
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink1}  subLink = {subLink1} >
-                <QuickLinks.SubPlates logo="document" >Placement 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement 2019-20</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement 2018-19</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/electronics-telecommunication/placements/etc-placement-2020-21.pdf">Placement 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/electronics-telecommunication/placements/etc-placement-record-2019-20.pdf">Placement 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/electronics-telecommunication/placements/etc-placement-record.pdf">Placement 2018-19</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
 
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink2} subLink = {subLink2}>
               Internship
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink2}  subLink = {subLink2} >
-                <QuickLinks.SubPlates logo="document">Internship 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Internship 2019-20</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Internship </QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/electronics-telecommunication/internship/etc-department-internship-info.pdf">Internship 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/electronics-telecommunication/internship/etc-internship-2019-20.pdf">Internship 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/electronics-telecommunication/internship/entc-intership-details.pdf">Internship </QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-electronics-telecommunication-engg-recruiters">Recruiters</QuickLinks.Plates>
@@ -65,8 +65,8 @@ const QuickLinksCard = () => {
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink5} subLink = {subLink5}>
               Student Achievements
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink5}  subLink = {subLink5} >
-                <QuickLinks.SubPlates logo="document">Student Achievements 2021-22</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Student Achievements 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/electronics-telecommunication/activities/student-achievements-21-22.pdf">Student Achievements 2021-22</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/electronics-telecommunication/activities/student-achievements-20-21.pdf">Student Achievements 2020-21</QuickLinks.SubPlates>
                 
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>

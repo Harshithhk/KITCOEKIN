@@ -24,30 +24,30 @@ const QuickLinksCard = () => {
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink1} subLink = {subLink1}>
               Placement
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink1}  subLink = {subLink1} >
-                <QuickLinks.SubPlates logo="document" >Jobs</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement for Higher Education</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/biotechnology/placements/jobs-tab-2019-21.pdf" >Jobs</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/biotechnology/placements/higher-edu-2019-21-list.pdf" >Placement for Higher Education</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
 
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink2} subLink = {subLink2}>
               Internship
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink2}  subLink = {subLink2} >
-                <QuickLinks.SubPlates logo="document">Internship 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Internship 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/biotechnology/internship/biotech-department-internship-info.pdf">Internship 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/biotechnology/internship/internship-students-training-details-ay-2019-20.pdf">Internship 2019-20</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
 
             <QuickLinks.Plates href="dept-of-biotechnology-engg-recruiters">Recruiters</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-biotechnology-engg-mous">MOU'S</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-biotechnology-po-peo">PO's & PEO'S</QuickLinks.Plates>
-            <QuickLinks.Plates logo="document">Student Achievements</QuickLinks.Plates>
+            <QuickLinks.Plates logo="document" href="documents/departments/biotechnology/activities/student-acheivement.pdf">Student Achievements</QuickLinks.Plates>
             <QuickLinks.Plates>Department Gallery</QuickLinks.Plates>
 
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink3} subLink = {subLink3}>
               Alumni
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink3}  subLink = {subLink3} >
-                <QuickLinks.SubPlates logo="document">Alumni Activities</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Alumni Success Stories</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/biotechnology/alumni/alumni-activities-to-added-biotech-depat-ay-2019-21.pdf">Alumni Activities</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/biotechnology/alumni/biotech-8-alumni-success-stories.pdf">Alumni Success Stories</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
 

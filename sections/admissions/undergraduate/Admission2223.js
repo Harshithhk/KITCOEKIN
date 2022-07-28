@@ -5,32 +5,32 @@ const Admission2223 = () => {
   let Admission2223 = [
     {
       "DocName":"Last Year Cutoff [Male] AY:2021-22",
-      "DocLink":"",
+      "DocLink":"documents/admission/2022_23/Cutoff_%20F.Y.%20B.TECH%20(MALE)_AY_2021-22.pdf",
       "Year":"First-Year-B.Tech"
     },
     {
       "DocName":"Last Year Cutoff [Female] AY:2021-22",
-      "DocLink":"",
+      "DocLink":"documents/admission/2022_23/Cutoff_%20F.Y.%20B.TECH%20(FEMALE)_AY_2021-22.pdf",
       "Year":"First-Year-B.Tech"
     },
     {
       "DocName":"Fee Structure",
-      "DocLink":"",
+      "DocLink":"documents/admission/2022_23/Fees%20Structure%202021-22%20-%20FY%20BTech.pdf",
       "Year":"First-Year-B.Tech"
     },
     {
       "DocName":"Last Year Cutoff [Male] AY:2021-22",
-      "DocLink":"",
+      "DocLink":"documents/admission/2022_23/Cutoff_DIR.%20S.Y.%20B.TECH%20(MALE)_AY_2021-22.pdf",
       "Year":"Direct-Second-Year"
     },
     {
       "DocName":"Last Year Cutoff [Female] AY:2021-22",
-      "DocLink":"",
+      "DocLink":"documents/admission/2022_23/Cutoff_DIR.%20S.Y.%20B.TECH%20(FEMALE)_AY_2021-22.pdf",
       "Year":"Direct-Second-Year"
     },
     {
       "DocName":"Fee Structure",
-      "DocLink":"",
+      "DocLink":"documents/admission/2022_23/Fees%20Structure%202021-22%20-%20DSE%20BTech.pdf",
       "Year":"Direct-Second-Year"
     },
   ]

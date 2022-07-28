@@ -36,19 +36,19 @@ const QuickLinksCard = () => {
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink1} subLink = {subLink1}>
               Placement
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink1}  subLink = {subLink1} >
-                <QuickLinks.SubPlates logo="document" >Placement 2021-22</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement 2019-20</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement 2018-19</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document" >Placement 2017-18</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/mechanical/placements/Mech%202021-2022-Updated-108%20Student%20Placement%20format%20for%20admission-Mech%202022.pdf">Placement 2021-22</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/mechanical/placements/Mech%202020-21%20Mechanical%20%20Engineering%20Placement%20Details.pdf">Placement 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/mechanical/placements/student-placement-record-2019-20.pdf">Placement 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/mechanical/placements/student-placement-record-2018-19.pdf">Placement 2018-19</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/mechanical/placements/student-placement-record-2017-18.pdf">Placement 2017-18</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
 
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink2} subLink = {subLink2}>
               Internship
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink2}  subLink = {subLink2} >
-                <QuickLinks.SubPlates logo="document">Internship 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Internship 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/mechanical/internship/mechanical-department-internship-info.pdf">Internship 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document"href="documents/departments/mechanical/internship/mech-student-internship-details.pdf">Internship 2019-20</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-mechanical-engg-recruiters">Recruiters</QuickLinks.Plates>
@@ -58,9 +58,9 @@ const QuickLinksCard = () => {
             <QuickLinks.Plates logo="dropDown" setSubLink = {setSubLink5} subLink = {subLink5}>
               Student Achievements
               <QuickLinks.SubQuickLinks setSubLink = {setSubLink5}  subLink = {subLink5} >
-                <QuickLinks.SubPlates logo="document">Student Achievements 2021-22</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Student Achievements 2020-21</QuickLinks.SubPlates>
-                <QuickLinks.SubPlates logo="document">Student Achievements 2019-20</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/mechanical/activities/mech-dept-student-achievements-2021-22.pdf">Student Achievements 2021-22</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/mechanical/activities/mech-dept-student-achievements-2020-21.pdf">Student Achievements 2020-21</QuickLinks.SubPlates>
+                <QuickLinks.SubPlates logo="document" href="documents/departments/mechanical/activities/mech-dept-student-achievements.pdf">Student Achievements 2019-20</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
             <QuickLinks.Plates>Department Gallery</QuickLinks.Plates>
