@@ -1,17 +1,17 @@
 import React, { useState } from "react"
 import ReactPlayer from "react-player"
 import DefaultLayout from "../components/DefaultLayout"
-import Awsome from "../sections/departments/cseDs/Awsome"
-import OurVision from "../sections/departments/cseDs/OurVision"
+import Awsome from "../sections/departments/cseDS/Awsome"
+import OurVision from "../sections/departments/cseDS/OurVision"
 
-import MissionCards from "../sections/departments/cseDs/MissionCards"
+import MissionCards from "../sections/departments/cseDS/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
-import Career from "../sections/departments/cseDs/career/index"
-import Hod from "../sections/departments/cseDs/hod"
+import Career from "../sections/departments/cseDS/career/index"
+import Hod from "../sections/departments/cseDS/hod"
 
 import Gallaryslider from "../components/Gallary-slider"
-import ImageGrid from "../sections/departments/cseDs/imageGrid"
+import ImageGrid from "../sections/departments/cseDS/imageGrid"
 
 let images = [
   "/images/Gallary-1png.png",
@@ -25,10 +25,10 @@ const CsDsEngineering = () => {
 
   return (
     <DefaultLayout>
-      <div className="w-full relative">
+      <div className="relative w-full">
         {gallary && <Gallaryslider images={images} setGallary={setGallary} />}
 
-        <section className="cursor-pointer relative flex flex-col items-center w-full">
+        <section className="relative flex flex-col items-center w-full cursor-pointer">
           <img
             src="/images/AboutUs/bgcircle.png"
             className="w-24 h-24 absolute top-0 left-[25%] z-10 sm:w-16 sm:h-16 sm:top-[5%]"
