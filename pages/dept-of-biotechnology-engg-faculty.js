@@ -23,7 +23,7 @@ import Footer from "../sections/home-page/Footer"
 //   }
 // }
 
-const BiotechnologyEngineeringFaculty = ({ staffs = [] }) => {
+const BiotechnologyEngineeringFaculty = () => {
 
 
   // useEffect(() => {
@@ -92,57 +92,57 @@ const BiotechnologyEngineeringFaculty = ({ staffs = [] }) => {
               </div>
               {/* -------------- */}
 
-              {staffs &&
-                staffs.map((staff) => (
-                  <div className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 ">
-                    <div className="max-w-3xl">
-                      <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
-                        <div className="flex flex-row sm:flex-col gap-x-2">
-                          <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">
-                            <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
-                              <img
-                                src="mamta-kalas_preview_rev_1.png "
-                                className="rounded-lg "
-                                alt="mamtakalas.png"
-                              />
-                            </div>
-                          </div>
-                          <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">
-                            <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">
-                              {staff.name}
-                            </p>
-                            <p className="mb-6 font-semibold text-gray-500 ">
-                              {staff.designation}
-                            </p>
-                            <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">
-                              {staff.qualifications}
-                            </p>
-                          </div>
-                          <div className="h-auto w-[2px] bg-primary"></div>
-                          <div className="min-w-[270px]">
-                            <p className="font-semibold text-[#24346D] mb-0">
-                              EXPERIENCE: {staff.experience}
-                            </p>
-                            <br />
-                            <p className="mb-0 font-semibold text-primary">
-                              Email : {staff.email}
-                            </p>
-                            <p className="mb-0 font-semibold text-primary">
-                              Mobile : {staff.mobile}
-                            </p>
-                            <br />
-                            <button
-                              type="button"
-                              className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
-                            >
-                              View Profile
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
+              {/*{staffs &&*/}
+              {/*  staffs.map((staff) => (*/}
+              {/*    <div className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 ">*/}
+              {/*      <div className="max-w-3xl">*/}
+              {/*        <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">*/}
+              {/*          <div className="flex flex-row sm:flex-col gap-x-2">*/}
+              {/*            <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">*/}
+              {/*              <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">*/}
+              {/*                <img*/}
+              {/*                  src="mamta-kalas_preview_rev_1.png "*/}
+              {/*                  className="rounded-lg "*/}
+              {/*                  alt="mamtakalas.png"*/}
+              {/*                />*/}
+              {/*              </div>*/}
+              {/*            </div>*/}
+              {/*            <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">*/}
+              {/*              <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">*/}
+              {/*                {staff.name}*/}
+              {/*              </p>*/}
+              {/*              <p className="mb-6 font-semibold text-gray-500 ">*/}
+              {/*                {staff.designation}*/}
+              {/*              </p>*/}
+              {/*              <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">*/}
+              {/*                {staff.qualifications}*/}
+              {/*              </p>*/}
+              {/*            </div>*/}
+              {/*            <div className="h-auto w-[2px] bg-primary"></div>*/}
+              {/*            <div className="min-w-[270px]">*/}
+              {/*              <p className="font-semibold text-[#24346D] mb-0">*/}
+              {/*                EXPERIENCE: {staff.experience}*/}
+              {/*              </p>*/}
+              {/*              <br />*/}
+              {/*              <p className="mb-0 font-semibold text-primary">*/}
+              {/*                Email : {staff.email}*/}
+              {/*              </p>*/}
+              {/*              <p className="mb-0 font-semibold text-primary">*/}
+              {/*                Mobile : {staff.mobile}*/}
+              {/*              </p>*/}
+              {/*              <br />*/}
+              {/*              <button*/}
+              {/*                type="button"*/}
+              {/*                className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"*/}
+              {/*              >*/}
+              {/*                View Profile*/}
+              {/*              </button>*/}
+              {/*            </div>*/}
+              {/*          </div>*/}
+              {/*        </div>*/}
+              {/*      </div>*/}
+              {/*    </div>*/}
+              {/*  ))}*/}
               <div className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 ">
                 <div className="max-w-3xl">
                   <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
