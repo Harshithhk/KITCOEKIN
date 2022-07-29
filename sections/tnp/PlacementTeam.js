@@ -84,7 +84,7 @@ const PlacementTeam = () => {
                 <div className="mx-auto text-lg font-semibold text-center py-2  sm:text-xs text-accent">
                   {image.name}
                 </div>
-                <div className="bg-primary w-10 h-[2px] sm:ml-10  rounded-xl"></div>
+                <div className="bg-primary w-10 h-[2px]   rounded-xl"></div>
                 <h2 className="mx-auto text-base text-center py-2 w-fit text-accent-light sm:text-[11px]">
                   {image.designation}
                 </h2>
@@ -104,7 +104,7 @@ const PlacementTeam = () => {
                 <div className="mx-auto text-lg font-semibold text-center py-2  sm:text-xs text-accent">
                   {image.name}
                 </div>
-                <div className="bg-primary w-10 h-[2px] sm:ml-10  rounded-xl"></div>
+                <div className="bg-primary w-10 h-[2px]   rounded-xl"></div>
                 <h2 className="mx-auto text-base text-center py-2 w-fit text-accent-light sm:text-[11px]">
                   {image.designation}
                 </h2>

@@ -3,7 +3,7 @@ import React from "react"
 const ModalitiesForAbsorptionOfStudentsFrom = (props) => {
     return (
      
-      <a href="#" className={props.subNav6 === false ? "transform transition duration-300 translate-y-20 opacity-0 ease-out  relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center" : "transform transition duration-300 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
+      <a href="documents/academics/importantDocuments/modalities.pdf" className={props.subNav6 === false ? "transform transition duration-300 translate-y-20 opacity-0 ease-out  relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center" : "transform transition duration-300 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
       Modalities for Absorption of Students from <br/> (shivaji University) Pattern to Autonomous
 
     <svg xmlns="http://www.w3.org/2000/svg" className="h-9 w-9 mt-7 text-primary" viewBox="0 0 20 20" fill="currentColor">

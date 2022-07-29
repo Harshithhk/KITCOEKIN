@@ -1,8 +1,5 @@
 import { useEffect } from "react"
 import DefaultLayout from "../components/DefaultLayout"
-import BiotechnologyEngineering from "../components/Navbar/departments/biotechnologyEngineering"
-import QuickLinks from "../components/QuickLinks"
-import Career from "../sections/departments/biotech/career"
 import QuickLinksCard from "../sections/departments/biotech/career/quickLinksCard"
 import Footer from "../sections/home-page/Footer"
 

@@ -1,11 +1,11 @@
 import React from "react"
 
-const ComputerScienceEngineering =(props) => {
+const ComputerScienceEngineeringAIML =(props) => {
   
   return (
     
-    <a href="best-cse-college-kolhapur-best-computer-science-engineering-college" className={props.nav3 === false ? "transform transition duration-300 translate-y-20 opacity-0 ease-out  relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center" : "transform transition duration-300 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
-    Computer Science Engineering
+    <a href="best-cse-college-kolhapur-best-computer-science-engineering-artificial-intelligence-machine-learning" className={props.nav3 === false ? "transform transition duration-300 translate-y-20 opacity-0 ease-out  relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center" : "transform transition duration-300 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
+    Computer Science Engineering - AI/ML
     {/* <svg
       className={
         props.nav2 === true
@@ -28,4 +28,4 @@ const ComputerScienceEngineering =(props) => {
  
       );
 };
-export default ComputerScienceEngineering
+export default ComputerScienceEngineeringAIML

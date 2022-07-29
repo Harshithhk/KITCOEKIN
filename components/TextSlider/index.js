@@ -201,7 +201,7 @@ const TextSlider = () => {
 
         <div className="flex my-4 justify-center items-center">
           {/* <button  className="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline inline-block rounded-full mx-2"  >JD</button> */}
-          <img src="/images/recruiters/adani.jpg" className=" " />
+          <img src="/images/recruiters/adani.jpg" className=" " alt=""/>
           {/* <button  className="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline h-12 w-12 inline-block bg-indigo-100 rounded-full mx-2" >JW</button> */}
         </div>
 

@@ -19,7 +19,7 @@ const Notice = (props) => {
     //   }, []);
     // console.log(props)
     return (
-        <h1  className={props.nav1 === true ? "transform transition-all duration-300 opacity-0 ease-out  relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center " : "transform transition duration-500 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
+        <a href='notice'  className={props.nav1 === true ? "transform transition-all duration-300 opacity-0 ease-out  relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center " : "transform transition duration-500 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
         Notice
         {/* <svg
           className={
@@ -38,7 +38,7 @@ const Notice = (props) => {
             clipRule="evenodd"
           />
         </svg>  */}
-      </h1>
+      </a>
    
         );
 };

@@ -1,44 +1,17 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 
-let news = [
-  {
-    title: " Exam Coordinator Remuneration Form",
-    fileName: "Fy-FinalYear.pdf",
-    date: "09/07/2022",
-  },
-  {
-    title:
-      " FORM No E-35 (Remuneration bill form of Assistant & helper_OE Exam)",
-    fileName: "Mtech-FY.pdf",
-    date: "19/03/2022",
-  },
-  {
-    title: "FORM No. E-07 (Remuneration bill _Paper setter , Assessment & POE)",
-    fileName: "Fy-FinalYear.pdf",
-    date: "09/07/2022",
-  },
-  {
-    title:
-      " Local Conveyance Allowance Bill FORM ( Paper Setter , Examiner, Moderator , Sr. Supervisor)",
-    fileName: "Mtech-FY.pdf",
-    date: "19/03/2022",
-  },
-  ,
-  {
-    title: "POE.OE.SCHEDULE Format",
-    fileName: "Fy-FinalYear.pdf",
-    date: "09/07/2022",
-  },
-  {
-    title:
-      "T.A & H.A Bill Form( Paper setter , Examiner, Moderator ,Sr.Supervisor , Internal & External Examiner )",
-    fileName: "Mtech-FY.pdf",
-    date: "19/03/2022",
-  },
-]
 
-const FounderTrustees = () => {
+
+const RemunerationFormat = () => {
+  const link = {
+    "RF1": "documents/examCell/remunerationFormat/exam-coordinator-remuneration-form.pdf",
+    "RF2": "documents/examCell/remunerationFormat/form-no-e-35-remuneration-bill-form-of-assistant-helper-oe-exam-a4.pdf",
+    "RF3": "documents/examCell/remunerationFormat/form-no-e-07-remuneration-bill-paper-setter-assessment-poe.pdf",
+    "RF4": "documents/examCell/remunerationFormat/local-convenyance-allowance-bill-form.pdf",
+    "RF5": "documents/examCell/remunerationFormat/poe-oe-schedule-form.xls",
+    "RF6": "documents/examCell/remunerationFormat/ta-ha-bill-form.pdf",
+}
   return (
     <DefaultLayout>
       <div className="w-full bg-[#24346D] pb-10">
@@ -82,14 +55,14 @@ const FounderTrustees = () => {
           >
             <span className="hover:text-primary hover:cursor-pointer">
               {" "}
-              Exam Cell
+              Home
             </span>{" "}
-            <span className="">|</span> Paper Setting Documents
+            <span className="">|</span> Remuneration Format
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-[#F8F7FC] px-14 sm:px-4 sm:pb-10">
-          {/* <div className="z-10  absolute w-full top-0 left-0 h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/About/FounderTrustees/KITBG.jpeg')]  opacity-10"></div> */}
+          {/* <div className="z-10  absolute w-full top-0 left-0 h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/About/RemunerationFormat/KITBG.jpeg')]  opacity-10"></div> */}
           {/* <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
             <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
             Exam Time Table
@@ -102,63 +75,72 @@ const FounderTrustees = () => {
             sed tempora quaerat eum? */}
           </div>
 
-          <div class="flex flex-col  w-[1000px] mx-auto">
-            <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
-              <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
-                <div class="overflow-hidden">
-                  <table class="min-w-full">
-                    <thead class="bg-white border-b">
-                      <tr>
-                        <th
-                          scope="col"
-                          class="text-sm w-[150px] font-medium text-gray-900 px-6 py-4 text-center"
-                        >
-                          #
-                        </th>
-                        <th
-                          scope="col"
-                          class="text-sm max-w-[600px]  text-left font-medium text-gray-900 px-6 py-4"
-                        >
-                          Form
-                        </th>
+              <div className="pt-8">
+              <div className="flex items-center w-full sm:ml-2">
+                    <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
+                    <div className="ml-3 md:ml-2 w-fit  text-center sm:text-xl   text-[#24346D] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">
+                        DEPARTMENT MOU'S
+                    </div>
+                </div>
+                <div className="grid  grid-cols-2 sm:grid-cols-1 sm:mt-6 gap-x-6 p-2 mt-16">
+                    
+                    <div className="grid grid-cols-1 divide-y ">
+                        
+                        <a href={link.RF1}>
+                          <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                          Exam Coordinator Remuneration Form
+                              <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+                          </div>
+                        </a>
 
-                        <th
-                          scope="col"
-                          class="text-sm font-medium  text-left   text-gray-900 px-8 py-4 "
-                        >
-                          Action
-                        </th>
-                      </tr>
-                    </thead>
-                    {news.length > 0 &&
-                      news.map((element, index) => (
-                        <tr
-                          key={element._id}
-                          class={`hover:bg-slate-200 ${
-                            index % 2 == 0 ? "bg-gray-100" : ""
-                          } border-b`}
-                        >
-                          <td class="px-6 text-center py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                            {index}
-                          </td>
-                          <td class="text-sm  max-w-[600px] text-gray-900 font-light px-6 py-4">
-                            {element.title}
-                          </td>
-                          <td class="text-sm   text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                            <button
-                              onClick={() => actionDelete(element._id)}
-                              className="px-3 py-2 text-white bg-slate-600"
-                            >
-                              Download
-                            </button>
-                          </td>
-                        </tr>
-                      ))}
-                  </table>
+                        <a href={link.RF2}>
+                          <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                          FORM No E-35 (Remuneration bill form of Assistant & helper_OE Exam)
+                              <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+                          </div>
+                        </a>
+                        <a href={link.RF3}>
+                          <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                          FORM No. E-07 (Remuneration bill _Paper setter , Assessment & POE)
+                              <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+                          </div>
+                        </a>
+                        <a href={link.RF4}>
+                          <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                          Local Conveyance Allowance Bill FORM ( Paper Setter , Examiner, Moderator , Sr. Supervisor)
+                              <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+                          </div>
+                        </a>
+                        <a href={link.RF5}>
+                          <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                          POE.OE.SCHEDULE Format
+                              <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+                          </div>
+                        </a>
+                        <a href={link.RF6}>
+                          <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                          T.A & H.A Bill Form( Paper setter , Examiner, Moderator ,Sr.Supervisor , Internal & External Examiner )
+                              <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+                          </div>
+                        </a>
+                    </div>
+                   
+                    
+                    
                 </div>
               </div>
-            </div>
-          </div>
         </section>
       </div>
       <Footer />
@@ -166,4 +148,4 @@ const FounderTrustees = () => {
   )
 }
 
-export default FounderTrustees
+export default RemunerationFormat

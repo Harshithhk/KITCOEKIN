@@ -109,29 +109,29 @@ const FounderTrustees = () => {
             sed tempora quaerat eum? */}
           </div>
 
-          <div class="flex flex-col  w-[1000px] mx-auto">
-            <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
-              <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
-                <div class="overflow-hidden">
-                  <table class="min-w-full">
-                    <thead class="bg-white border-b">
+          <div className="flex flex-col  w-[1000px] mx-auto">
+            <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
+              <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+                <div className="overflow-hidden">
+                  <table className="min-w-full">
+                    <thead className="bg-white border-b">
                       <tr>
                         <th
                           scope="col"
-                          class="text-sm w-[150px] font-medium text-gray-900 px-6 py-4 text-center"
+                          className="text-sm w-[150px] font-medium text-gray-900 px-6 py-4 text-center"
                         >
                           #
                         </th>
                         <th
                           scope="col"
-                          class="text-sm max-w-[600px]  text-left font-medium text-gray-900 px-6 py-4"
+                          className="text-sm max-w-[600px]  text-left font-medium text-gray-900 px-6 py-4"
                         >
                           Paper
                         </th>
 
                         <th
                           scope="col"
-                          class="text-sm font-medium  text-left   text-gray-900 px-8 py-4 "
+                          className="text-sm font-medium  text-left   text-gray-900 px-8 py-4 "
                         >
                           Action
                         </th>
@@ -141,17 +141,17 @@ const FounderTrustees = () => {
                       news.map((element, index) => (
                         <tr
                           key={element._id}
-                          class={`hover:bg-slate-200 ${
+                          className={`hover:bg-slate-200 ${
                             index % 2 == 0 ? "bg-gray-100" : ""
                           } border-b`}
                         >
-                          <td class="px-6 text-center py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                          <td className="px-6 text-center py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                             {index}
                           </td>
-                          <td class="text-sm  max-w-[600px] text-gray-900 font-light px-6 py-4">
+                          <td className="text-sm  max-w-[600px] text-gray-900 font-light px-6 py-4">
                             {element.title}
                           </td>
-                          <td class="text-sm   text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                          <td className="text-sm   text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                             <button
                               onClick={() => actionDelete(element._id)}
                               className="px-3 py-2 text-white bg-slate-600"

@@ -1,46 +1,47 @@
 import DefaultLayout from "../components/DefaultLayout"
+import ExamCellGrid from "../sections/examCell/administrativeStaff/ExamCellGrid"
 import Footer from "../sections/home-page/Footer"
 
 let founders = [
   {
     name: "Mr. Ajay M. Pol",
     designation: "Deputy Registar - On Exam",
-    img: "/images/About/AdministrativeStaff/a-m-pol.jpg",
+    img: "/images/ExamCell/AdministrativeStaff/a-m-pol.jpg",
   },
   {
     name: "Mr. Balkrishna B.Patil",
     designation: "Computer Operator",
-    img: "/images/About/AdministrativeStaff/balkrishna-patil.jpg",
+    img: "/images/ExamCell/AdministrativeStaff/balkrishna-patil.jpg",
   },
   {
     name: "Mr.Digvijay S.Patil",
     designation: "Sr. Clerk",
-    img: "/images/About/AdministrativeStaff/digvijay-patil.jpg",
+    img: "/images/ExamCell/AdministrativeStaff/digvijay-patil.jpg",
   },
   {
     name: "Mr.S.G.Dige",
     designation: "Deputy Registar - Post Exam",
-    img: "/images/About/AdministrativeStaff/s-g-dige.jpg",
+    img: "/images/ExamCell/AdministrativeStaff/s-g-dige.jpg",
   },
   {
     name: "Mr.S.S.Kadam",
     designation: "Deputy Registrar - Pre Exam",
-    img: "/images/About/AdministrativeStaff/s-s-kadam.jpg",
+    img: "/images/ExamCell/AdministrativeStaff/s-s-kadam.jpg",
   },
   {
     name: "Mr.T.B.Patil",
     designation: "Dean ICT",
-    img: "/images/About/AdministrativeStaff/t-n-patil.jpg",
+    img: "/images/ExamCell/AdministrativeStaff/t-n-patil.jpg",
   },
   {
     name: "Mr.Bamane Dhananji S",
     designation: "Sr. Clerk",
-    img: "/images/About/AdministrativeStaff/user.jpg",
+    img: "/images/ExamCell/AdministrativeStaff/user.jpg",
   },
   {
     name: "Dr.Y.M.Patil",
     designation: "Dean - Examination & Evaluation",
-    img: "/images/About/AdministrativeStaff/y-m-patil.jpg",
+    img: "/images/ExamCell/AdministrativeStaff/y-m-patil.jpg",
   },
 ]
 
@@ -98,7 +99,8 @@ const FounderTrustees = () => {
           <div className="z-10  absolute w-full top-0 left-0 h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/About/FounderTrustees/KITBG.jpeg')]  opacity-10"></div>
           <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
             <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-            FOUNDER TRUSTEES
+            Administrative Staff
+
           </div>
 
           <div className="mt-8 w-[80%] text-[#24346D] sm:mt-4 mx-auto text-center text-xl sm:text-sm ">
@@ -131,6 +133,7 @@ const FounderTrustees = () => {
           </div>
         </section>
       </div>
+      <ExamCellGrid />
       <Footer />
     </DefaultLayout>
   )
