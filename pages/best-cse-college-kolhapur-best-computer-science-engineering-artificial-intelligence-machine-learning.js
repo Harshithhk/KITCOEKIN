@@ -1,17 +1,17 @@
 import React, { useState } from "react"
 import ReactPlayer from "react-player"
 import DefaultLayout from "../components/DefaultLayout"
-import Awsome from "../sections/departments/cseAiMl/Awsome"
-import OurVision from "../sections/departments/cseAiMl/OurVision"
+import Awsome from "../sections/departments/cseAIML/Awsome"
+import OurVision from "../sections/departments/cseAIML/OurVision"
 
-import MissionCards from "../sections/departments/cseAiMl/MissionCards"
+import MissionCards from "../sections/departments/cseAIML/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
-import Career from "../sections/departments/cseAiMl/career/index"
-import Hod from "../sections/departments/cseAiMl/hod"
+import Career from "../sections/departments/cseAIML/career/index"
+import Hod from "../sections/departments/cseAIML/hod"
 
 import Gallaryslider from "../components/Gallary-slider"
-import ImageGrid from "../sections/departments/cseAiMl/imageGrid"
+import ImageGrid from "../sections/departments/cseAIML/imageGrid"
 
 let images = [
   "/images/Gallary-1png.png",
@@ -25,10 +25,10 @@ const CsAiMlEngineering = () => {
 
   return (
     <DefaultLayout>
-      <div className="w-full relative">
+      <div className="relative w-full">
         {gallary && <Gallaryslider images={images} setGallary={setGallary} />}
 
-        <section className="cursor-pointer relative flex flex-col items-center w-full">
+        <section className="relative flex flex-col items-center w-full cursor-pointer">
           <img
             src="/images/AboutUs/bgcircle.png"
             className="w-24 h-24 absolute top-0 left-[25%] z-10 sm:w-16 sm:h-16 sm:top-[5%]"
@@ -57,8 +57,8 @@ const CsAiMlEngineering = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            Department of Computer Science and Engineering
-(Artificial Intelligence And Machine Learning)
+            Department of Computer Science and Engineering (Artificial
+            Intelligence And Machine Learning)
           </h1>
           <br></br>
           <br></br>
@@ -67,8 +67,8 @@ const CsAiMlEngineering = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-xl font-bold text-center text-slate-300 z-20"
           >
-            Home | Computer Science and Engineering (Artificial Intelligence And Machine Learning)
-
+            Home | Computer Science and Engineering (Artificial Intelligence And
+            Machine Learning)
           </h6>
 
           <div
