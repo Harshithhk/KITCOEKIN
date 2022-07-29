@@ -3,139 +3,36 @@ import DefaultLayout from "../components/DefaultLayout"
 import QuickLinksCard from "../sections/departments/biotech/career/quickLinksCard"
 import Footer from "../sections/home-page/Footer"
 
-export async function getStaticProps() {
-  // let news = []
-  // let notices = []
-  // let news = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/news')
-  let staffs = await fetch(
-    "http://localhost:5000/api/teachingstaff?department=Computer Science"
-  )
-  staffs = await staffs.json()
+// export async function getStaticProps() {
+//   // let news = []
+//   // let notices = []
+//   // let news = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/news')
+//   let staffs = await fetch(
+//     "http://localhost:5000/api/teachingstaff?department=Computer Science"
+//   )
+//   staffs = await staffs.json()
+//
+//   // // let notices = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/notices')
+//   // let notices = await fetch("http://localhost:5000/api/newsandnotices/notices")
+//   // notices = await notices.json()
+//
+//   return {
+//     props: {
+//       staffs: staffs,
+//     },
+//   }
+// }
 
-  // // let notices = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/notices')
-  // let notices = await fetch("http://localhost:5000/api/newsandnotices/notices")
-  // notices = await notices.json()
+const BiotechnologyEngineeringFaculty = ({ staffs = [] }) => {
 
-  return {
-    props: {
-      staffs: staffs,
-    },
-  }
-}
 
-const BiotechnologyEngineeringFaculty = ({ staffs }) => {
   useEffect(() => {
     console.log(staffs)
 
     return () => {}
   }, [])
 
-  let Activities = [
-    {
-      SrNo: 1,
-      Name: "Mr. Giridhar Revankar",
-      Designation: "BE (Biotech), MS (Env.) EHS Officer in Australia",
-      Topic: "Career opportunities in Env. Biotech. In Australia",
-      Date: "21-08-2019",
-    },
-    {
-      SrNo: 2,
-      Name: "Mr. Swanand Gulwani",
-      Designation:
-        "BE (Biotech)Job at Wockhardt Aurangabad and STGenetics Pune",
-      Topic: "Insulin ( Biopharma drug) Purification",
-      Date: "04-09-2019",
-    },
-    {
-      SrNo: 3,
-      Name: "Mr. Samarthgirish Pawaskar",
-      Designation:
-        "BE (Biotech) , LLB (IPR) IITKh Patent agent and consultant at BASF Mumbai",
-      Topic: "IPR and Opportunities in IPR field",
-      Date: "06-09-2019",
-    },
-    {
-      SrNo: 4,
-      Name: "Ms. Gauri Wali",
-      Designation: "Recent Alumnus",
-      Topic: "Higher Education in Germany",
-      Date: "17-07-2019",
-    },
-    {
-      SrNo: 5,
-      Name: "Nisha Barge",
-      Designation: "Recent Alumnus",
-      Topic: "GATE Exam preparations",
-      Date: "10-07-2019",
-    },
-    {
-      SrNo: 6,
-      Name: "Revati More",
-      Designation: "Recent Alumnus",
-      Topic: "GATE Exam preparations",
-      Date: "10-07-2019",
-    },
-    {
-      SrNo: 7,
-      Name: "Saurabh Desai",
-      Designation: "Recent Alumnus",
-      Topic: "GATE Exam preparations",
-      Date: "10-07-2019",
-    },
-    {
-      SrNo: 8,
-      Name: "Ms. Viraj Sangoi",
-      Designation: "BE (Biotech), M Tech (Biotech)",
-      Topic:
-        "Career opportunities in Pharmacovigilence and Clinical Data Mgmt.",
-      Date: "11-01-2020",
-    },
-    {
-      SrNo: 9,
-      Name: "Ms.Vaishnavi Chavan",
-      Designation:
-        "BE (Biotech), pursuing MS in Regulatory Affairs In Northeastern University USA",
-      Topic: "Career in Regulatory Domain",
-      Date: "11-01-2020",
-    },
-    {
-      SrNo: 10,
-      Name: "Dr. Kushal Satpute",
-      Designation: "Principal Scientist, BIOCON",
-      Topic: "Advances in Enzyme Technology",
-      Date: "08-02-2020",
-    },
-    {
-      SrNo: 11,
-      Name: "Shashikant Kamble",
-      Designation: "BE (Biotech)/ Entreprenuership in Agri. Biotechnology",
-      Topic: "Entrepreneurship in Biofertilizer & Biopesticides Business",
-      Date: "10-04-2020",
-    },
-    {
-      SrNo: 12,
-      Name: "Anikhindi Vishvesh",
-      Designation:
-        "BE (Biotech) ME (Biotechnology) from BITS Pilani Goa campus",
-      Topic: "Clone Development Process",
-      Date: "10-06-2020",
-    },
-    {
-      SrNo: 13,
-      Name: "Sneha Deshpande",
-      Designation: "BE (Biotech) Mtech (Food Biotech) from ICT Mumbai",
-      Topic: "Importance of Higher Education : How to Approach GATE",
-      Date: "10-10-2020",
-    },
-    {
-      SrNo: 14,
-      Name: "Dr. Rahul Patil",
-      Designation:
-        "BE (Biotech), CEO and Director My Lab Discovery Solutions Pvt. Ltd. Pune",
-      Topic: "Entrepreneurial Journey of Establishing Diagnostics Industry",
-      Date: "23-08-2021",
-    },
-  ]
+
   return (
     <DefaultLayout>
       <div className="w-full ">
