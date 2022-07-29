@@ -9,22 +9,27 @@ const hod = () => (
           HOD'S MESSAGE
         </div>
         <div className="mt-10 md:mt-4 md:w-full md:text-base md:text-left w-[800px] text-xl text-accent text-justify">
-          This era of globalization has opened enormous opportunities for young
-          and talented budding engineers in all the walks of life. As a result,
-          the expectations from the young engineers are that they should mould
-          themselves seamlessly in to the global corporate culture. The T&P
-          department provides ample opportunities for placements and
-          entrepreneurship by organizing seminars, workshops and training
+        The dynamic and proactive management of KIT’s College of Engineering Kolhapur
+         took an early note of the significant role that was to be played by Biotechnology 
+         Engineers in future industrial development of biotechnology related processes
+          and products by establishing department of Biotechnology Engineering in 2002
+           with approval from DTE and AICTE, India. It has a unique place in the development
+            of Biotechnology engineering discipline in Maharashtra.
           <br />
           <br />
-          programs for enhancing the personality traits and facilitates the
-          transition of our students from academics to corporate life. Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Ullam aspernatur
-          culpa, a praesentium totam hic. Atque omnis qui neque hic, repellat
-          vero perferendis nam inventore. Unde veritatis qui rem maiores. Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Vel saepe dicta
-          blanditiis modi! Aliquam minima perferendis dolore sequi facere
-          blanditiis?
+          When we think of an engineering career, we think only of conventional branches.
+           The convention that students with PCM opt for engineering and students with PCB
+            opt for medicine. But in 21st Century, there is an intervention of biology in 
+            every aspect of life. We talk about organic farming , we observe tremendous
+            developments in biomedical diagnosis, we see artificial intelligence mimicking
+            biology entering into our life. Currently the COVID-19 pandemic showed us the
+            importance biotech research where every pharma company is behind 
+            the vaccine and drug research on COVID-19.
+
+Biotechnology field in engineering and technological aspect encompasses many areas including
+ biopharmaceuticals developments, industrial biotechnology, food biotechnology, environmental
+  biotech, biomedical engineering, bioengineering, etc. Considering biotechnology as a fundamental research
+  ,it includes different genetic technologies in animal and plant biotechnology, cell and tissue engineering etc
         </div>
       </div>
       <div className="md:mx-auto w-[300px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl md:text-xl  items-center flex flex-col md:mt-14">

@@ -1,130 +1,56 @@
 import React from "react"
 
 const EsteemedRecruiters = () => {
-  let recruiters = [
-    "bg-[url('/images/HomePage/Recruiters/Vector-0.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-1.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-2.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-3.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-4.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-5.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-6.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-7.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-8.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-9.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-10.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-11.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-12.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-13.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-14.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-15.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-16.png')]",
-    "bg-[url('/images/HomePage/Recruiters/Vector-17.png')]",
+  let recruiters =  [
+
+    "bg-[url('/images/recruiters/recruiters-01.png')]",
+    "bg-[url('/images/recruiters/recruiters-02.png')]",
+    "bg-[url('/images/recruiters/recruiters-03.png')]",
+    "bg-[url('/images/recruiters/recruiters-04.png')]",
+    "bg-[url('/images/recruiters/recruiters-05.png')]",
+    "bg-[url('/images/recruiters/recruiters-06.png')]",
+    "bg-[url('/images/recruiters/recruiters-07.png')]",
+    "bg-[url('/images/recruiters/recruiters-08.png')]",
+    "bg-[url('/images/recruiters/recruiters-09.png')]",
+    "bg-[url('/images/recruiters/recruiters-10.png')]",
+    "bg-[url('/images/recruiters/recruiters-11.png')]",
+    "bg-[url('/images/recruiters/recruiters-12.png')]",
+    "bg-[url('/images/recruiters/recruiters-13.png')]",
+    "bg-[url('/images/recruiters/recruiters-14.png')]",
+    "bg-[url('/images/recruiters/recruiters-15.png')]",
+    "bg-[url('/images/recruiters/recruiters-16.png')]",
+    "bg-[url('/images/recruiters/recruiters-17.png')]",
+    "bg-[url('/images/recruiters/recruiters-18.png')]",
   ]
 
+
   return (
-    <section className="p-[50px]    bg-slate-100 relative md:p-[16px] bg-[url('/images/HomePage/Recruiters/Recruiters-bg-2.jpg')] backdrop-blur-lg bg-cover bg-center bg-no-repeat  ">
-      {/* <div className="absolute z-0 w-full h-full bg-white/50 top-0 left-0"></div> */}
-      <div className="flex z-10 items-center">
-        <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
-        <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center   text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
+    <section className="mt-16 bg-secondary py-4 -mb-20 ">
+   
+      <div className="ml-20 -mb-20  sm:ml-6 sm:mb-4  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+          <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
           ESTEEMED RECRUITERS
-        </div>
       </div>
-      <div className="mt-14 p-11  w-full md:p-[16px] md:mt-0">
-        <div className=" grid grid-cols-6 gap-5 h-full md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-[20px]">
-          <div
+      
+      <section className="p-[50px] py-[160px]   bg-secondary md:p-[16px] bg-[url('/images/tnp/csm_worldmap_5832344b9b.png')]  bg-center bg-no-repeat  ">
+
+      <div className=" p-11  w-full md:p-[16px] md:mt-0">
+      <div className=" grid grid-cols-6 gap-5 divide-x-2 divide-y-2 backdrop-blur-[.5px] sm:backdrop-blur-0  h-full md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-[20px]">
+        {recruiters.map((element,index) => (
+          <div 
+            key={index}
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center  bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-0.png')] shadow-sm md:w-[145px] md:h-[105px]"
+            className={`cursor-pointer place-self-center  hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center  bg-no-repeat bg-cover ${element} shadow-sm md:w-[145px] md:h-[105px]`}
           ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="20"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-1.png')]  shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="40"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-2.png')]  shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="60"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-3.png')]  shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="80"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-4.png')]  shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="100"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-5.png')]  shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="20"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-6.png')]  shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="20"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-7.png')]  shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="100"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-8.png')]  shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="20"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-9.png')]  shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="20"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-10.png')] shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="100"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-11.png')] shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="20"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-12.png')] shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="20"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-13.png')] shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="100"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-14.png')] shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="20"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-15.png')] shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="20"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-16.png')] shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="100"
-            className="cursor-pointer place-self-center hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center bg-no-repeat bg-cover bg-[url('/images/HomePage/Recruiters/Vector-17.png')] shadow-sm md:w-[145px] md:h-[105px]"
-          ></div>
-        </div>
-        <div className="w-fit  underline text-[#3D3859] text-lg font-bold italic mt-10 mx-auto">
+        ))}
+      </div>
+
+
+      </div>
+      </section>
+      {/* --------- */}
+      {/* <div className="w-fit  underline text-[#3D3859] text-lg font-bold italic -mt-24 mx-auto">
           See More {">"}
           {">"}
         </div>
@@ -148,8 +74,8 @@ const EsteemedRecruiters = () => {
               DTE CODE 6267
             </h2>
           </div>
-        </section>
-      </div>
+        </section> */}
+      {/* --------- */}
     </section>
   )
 }

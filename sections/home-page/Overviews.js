@@ -2,7 +2,7 @@ import React from "react"
 
 const Overviews = () => {
   return (
-    <section className="p-[50px] pt-[60px] flex justify-between pr-[5%] md:block  md:p-[0px] ">
+    <section className="bg-[#f2f2f0] p-[50px] pt-[60px] flex justify-between pr-[5%] md:block  md:p-[0px] ">
       <section className="md:p-[16px]">
         <div className="flex items-center w-fit">
           <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
@@ -10,7 +10,7 @@ const Overviews = () => {
             KIT’S OVERVIEW
           </div>
         </div>
-        <div className=" text-[#B94700] mt-8 md:mt-4  w-[516.36px] md:w-[95%] text-[20.9842px] leading-[31.48px] tracking-[0.005em] font-normal md:will-change-contents md:mx-auto md:text-base">
+        <div className=" text-[#B94700] mt-8 text-justify md:mt-4  w-[516.36px] md:w-[95%] text-[20.9842px] leading-[31.48px] tracking-[0.005em] font-normal md:will-change-contents md:mx-auto md:text-base">
           An institute established in May 1983, KIT(Autonomous) reflects the
           vision of leading industrialists and educationalists. The vast
           exposure and experience of it’s founders has helped KIT(Autonomous) to

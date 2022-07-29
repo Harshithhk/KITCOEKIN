@@ -12,6 +12,7 @@ import IQAC from "./iqac";
 import StaffList from "./staff-list";
 import NIRF from "./NIRF";
 import ManditoryDisclosure from "./manditory-disclosure";
+import SubSubNavList from "./subSubNavList";
 
 const About = (props) => {
 
@@ -51,13 +52,13 @@ const About = (props) => {
       <li onClick={() => (setSubNav1(!subNav1))} >
         <NIRF nav1 = {props.nav1} subNav1 = {subNav1}/>
       </li>
-      <li className={subNav1 ?"hidden":""}>
+      {/* <li className={subNav1 ?"hidden":""}>
         <Accreditation nav1 = {props.nav1}/>
-      </li>
+      </li> */}
       <li className={subNav1 ?"hidden":""}>
         <ManditoryDisclosure nav1 = {props.nav1}/>
       </li>
-    
+      <SubSubNavList nav1={subNav1} />
     </>
    
         );

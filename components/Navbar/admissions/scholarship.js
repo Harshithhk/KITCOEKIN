@@ -3,7 +3,7 @@ import React from "react"
 const Scholarship = () => (
  
     <a
-                        href="/about"
+                        href="/scholarships"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                       >
                        

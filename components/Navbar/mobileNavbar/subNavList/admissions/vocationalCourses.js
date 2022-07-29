@@ -4,7 +4,7 @@ const VocationalCourses = (props) => {
   
   return (
     
-    <a href="#" className={props.nav2 === false ? "transform transition duration-300 translate-y-20 opacity-0 ease-out  relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center" : "transform transition duration-300 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
+    <a href="vocational-courses-at-kit-college-kolhapur" className={props.nav2 === false ? "transform transition duration-300 translate-y-20 opacity-0 ease-out  relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center" : "transform transition duration-300 translate-y-0 opacity-1 ease-in relative z-20 w-full text-4xl font-bold text-center mt-14 sm:text-xl text-accent flex flex-row justify-center"}>
     Vocational Courses
     {/* <svg
       className={

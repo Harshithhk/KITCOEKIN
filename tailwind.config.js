@@ -21,6 +21,10 @@ module.exports = {
           DEFAULT: "#24346D",
           light: "#5C5487",
         },
+        secondary: {
+          DEFAULT: "#F8F7FC",
+          light: "",
+        },
       },
       keyframes:{
         'fade-out-down': {

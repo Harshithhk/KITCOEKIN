@@ -1,16 +1,18 @@
 import React from "react"
 import ReactPlayer from "react-player"
 import DefaultLayout from "../components/DefaultLayout"
-import Awsome from "../sections/about-us/Awsome"
-import OurVision from "../sections/about-us/OurVision"
+import Awsome from "../sections/departments/entc/Awsome"
+import OurVision from "../sections/departments/entc/OurVision"
 import AboutUs from "../sections/about-us/AboutUs"
-import MissionCards from "../sections/about-us/MissionCards"
-import Testimonials from "../sections/about-us/Testimonials"
+import MissionCards from "../sections/departments/entc/MissionCards"
+import Testimonials from "../sections/departments/entc/Testimonials"
 import Footer from "../sections/home-page/Footer"
-import Career from "../sections/departments/career"
-import Hod from "../sections/departments/hod"
+import Career from "../sections/departments/entc/career"
+import Hod from "../sections/departments/entc/hod"
+import ImageGrid from "../sections/departments/entc/imageGrid"
+
 import TnP from "./tnp"
-const about = () => {
+const EntcEngineering = () => {
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -43,7 +45,7 @@ const about = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            Department of Computer Science Engineering
+            Electronics & Telecommunication Engineering
           </h1>
           <br></br>
           <br></br>
@@ -52,11 +54,11 @@ const about = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-xl font-bold text-center text-slate-300 z-20"
           >
-             Home | Computer Science Engineering Department
+             Home | Electronics & Telecommunication
           </h6>
 
           <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">
-            <img
+            {/* <img
               src="/images/Department/DepartmentGalary.png"
               className="w-full h-full sm:hidden 2xl:block"
               alt=""
@@ -65,7 +67,8 @@ const about = () => {
               src="/images/AboutUs/Gallary-mobile.png"
               className="w-full h-full sm:block 2xl:hidden"
               alt=""
-            />
+            /> */}
+            <ImageGrid />
           </div>
         </section>
         <section className="mt-16 mx-auto  w-[1407px] sm:w-[90%] sm:mt-8"></section>
@@ -81,7 +84,7 @@ const about = () => {
   )
 }
 
-export default about
+export default EntcEngineering
 
 {
   /* <div className="mt-10 ">

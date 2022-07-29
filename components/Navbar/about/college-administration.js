@@ -5,9 +5,9 @@ const CollegeAdministration = () => {
   const [subNav10, setSubNav10] = React.useState(false);
   return (
                 <a
-                    href="#"
+                    href="college-administration"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                    onMouseEnter ={() => (setSubNav10(!subNav10))} onMouseLeave ={() => (setSubNav10(!subNav10))}
+                    // onMouseEnter ={() => (setSubNav10(!subNav10))} onMouseLeave ={() => (setSubNav10(!subNav10))}
                 >
                 
                 <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-6 w-6 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -22,7 +22,7 @@ const CollegeAdministration = () => {
                         
                     </p>
                     </div>
-                    <svg
+                    {/* <svg
                             className={
                                 subNav10 === true
                                 ? "transform -rotate-90 ml-[150px] h-5 w-5 text-gray-400 group-hover:text-gray-500 transition ease-out duration-200"
@@ -38,7 +38,7 @@ const CollegeAdministration = () => {
                                 d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                                 clipRule="evenodd"
                             />
-                    </svg>
+                    </svg> */}
                     <div
                         className={
                             subNav10

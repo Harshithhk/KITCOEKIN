@@ -34,28 +34,30 @@ const Milestones = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
+            Milestones
           </h1>
-          <h1
+          <br></br>
+          <br></br>
+
+          <h6
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
+            className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
-          </h1>
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Milestones
+          </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative z-30 w-full pb-20 h-fit px-14 sm:px-4 sm:pb-10 ">
           <div className="z-10  absolute w-full top-0 left-0 h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/FounderTrustees/KITBG.jpeg')]  opacity-5"></div>
-
-          <h1 className="text-5xl w-fit mx-auto pt-16 sm:pt-8 text-[#24346D] font-bold sm:text-2xl">
+          <div className="flex items-center w-full sm:ml-2 mt-16  sm:mt-10">
+            <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
+            <div className="ml-3 md:ml-2 w-fit  text-center sm:text-2xl   text-[#24346D] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">
             MILESTONES
-          </h1>
-          <div className="mt-8 w-[80%] text-[#24346D] sm:mt-4 mx-auto text-center text-xl sm:text-sm ">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
-            laudantium perspiciatis at dolore earum provident fugit aperiam
-            repellat dolorem, recusandae esse, ratione expedita illum autem iste
-            sed tempora quaerat eum?
+            </div>
+          </div>
+          <div className="mt-8 w-[97%] text-[#24346D] sm:mt-4 mx-auto text-left sm:text-center text-xl sm:text-sm ">
+            35 Years of Journey Towards Academic Excellence
           </div>
 
           <div className="mx-auto mt-16 sm:mt-8 w-[875px] sm:w-full">
