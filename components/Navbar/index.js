@@ -20,7 +20,8 @@ const Navbar = () => {
 
   const router = useRouter()
   return (
-    <nav
+    <nav 
+    id="Navbar"
       className={`h-[75px] sticky top-0 z-50  md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
         router.route != "/" ? "bg-[#24346D]" : "bg-slate-50"
       }`}
