@@ -1,7 +1,10 @@
 import React from "react";
+import PreLoader from "../../../../styles/PreLoader.module.css";
+import { Markup } from 'interweave';
 
 const Msg = (props) =>{
-    
+
+
 
     switch(props.MsgAction){
         case "input":
@@ -13,27 +16,31 @@ const Msg = (props) =>{
                 )
             }else if(props.User == "BotServer"){
                 return(
-                    <div className=" w-fit max-w-[70%] min-h-10 rounded-r-3xl rounded-tl-3xl bg-white shadow-lg p-2 px-3">
-                        {props.MsgValue} 
+                    <div className=" flex flex-wrap w-fit max-w-[70%] min-h-10 rounded-r-3xl rounded-tl-3xl bg-white shadow-lg p-2 px-3">
+                         <Markup content={props.MsgValue} />
                     </div>
                 )
             }else{
                 return(<></>)
             }
             break;
-        case "preLoader": 
-        let circleCommonClasses = 'h-2.5 w-2.5  bg-slate-200 shadow-2xl rounded-full';
+        case "preLoader":
 
-        return (
-       <div class="col-3">
-        <div class="snippet" data-title=".dot-pulse">
-          <div class="stage">
-            <div class="dot-pulse"></div>
-          </div>
-        </div>
-      </div>
-        );
-        case "items": break;
+            return (
+                <div>
+                    <div className={`${PreLoader.dotPulse} ml-4`}></div>
+                </div>
+            );
+        case "items":
+            return(  <div className="flex flex-wrap justify-end">
+            {props.MsgItems.map((item,index)=>{
+                console.log("====",props)
+                return (
+                    <div key={index}  onClick={()=>{props.setSelectItem(item)}} className="ring-2 ring-[#3e395a] w-fit h-[30px] text-[#3e395a] rounded-2xl p-[3px] px-2 m-1 hover:bg-[#3e395a] hover:text-white cursor-pointer focus:bg-[#3e395a] focus:text-white">{item}</div>
+                );
+            })}
+            </div>)
+            
         default : return(<></>);
 
     }
