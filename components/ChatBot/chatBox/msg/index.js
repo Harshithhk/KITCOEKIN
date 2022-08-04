@@ -34,7 +34,6 @@ const Msg = (props) =>{
         case "items":
             return(  <div className="flex flex-wrap justify-end">
             {props.MsgItems.map((item,index)=>{
-                console.log("====",props)
                 return (
                     <div key={index}  onClick={()=>{props.setSelectItem(item)}} className="ring-2 ring-[#3e395a] w-fit h-[30px] text-[#3e395a] rounded-2xl p-[3px] px-2 m-1 hover:bg-[#3e395a] hover:text-white cursor-pointer focus:bg-[#3e395a] focus:text-white">{item}</div>
                 );
