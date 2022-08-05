@@ -84,7 +84,7 @@ const ChatBox = (props) => {
                     <div className="w-1/4">
                         <img src="images/Chatbot/chatButton.png" className={`${BasicStyles.hugeShadow} animate-bounce2 absolute h-22 w-24 -top-2`} alt="" />
                     </div>
-                    <div className="w-3/4 flex flex-col p-2 pl-5">
+                    <div className="w-3/4 flex flex-col p-2 pl-5 relative">
                         <div className="font-bold text-3xl text-[#3e395a]">
                             Mista
                         </div>
@@ -94,6 +94,11 @@ const ChatBox = (props) => {
                         </div>
                         <div className="flex flex-row justify-end items-center text-slate-400 text-xs gap-2 pr-8">
                             <p className="tracking-wider">Your KIT Assistant</p><div className="w-2 h-2 rounded-sm bg-green-300"></div>
+                        </div>
+                        <div onClick={()=>{props.setAction(!props.action)}} className="2xl:hidden sm:block absolute right-0 px-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                            </svg>
                         </div>
                     </div>
                 </div>

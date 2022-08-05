@@ -27,7 +27,7 @@ const ChatButton = () => {
                     </svg>
                 }
             </div>
-            <ChatBox action = {action} />
+            <ChatBox action = {action} setAction = {setAction} />
         </div>
     </>)
 };
