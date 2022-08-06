@@ -2,7 +2,6 @@ import React from "react"
 
 const TnPEsteemedRecruiters = () => {
   let recruiters = [
-
     "bg-[url('/images/recruiters/recruiters-01.png')]",
     "bg-[url('/images/recruiters/recruiters-02.png')]",
     "bg-[url('/images/recruiters/recruiters-03.png')]",
@@ -49,34 +48,34 @@ const TnPEsteemedRecruiters = () => {
   ]
 
   return (
-  <section className="-mt-10 bg-secondary py-4 -mb-20 ">
-   
-            <div className="ml-20 -mb-20  sm:ml-6 sm:mb-4  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
-                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                ESTEEMED RECRUITERS
+    <section className="py-4 -mt-10 -mb-20 bg-secondary ">
+      <div className="ml-20 -mb-20  sm:ml-6 sm:mb-4  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+        <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
+        ESTEEMED RECRUITERS
+      </div>
+      <section className="p-[50px] py-[160px]   bg-secondary md:p-[16px] bg-[url('/images/tnp/csm_worldmap_5832344b9b.png')]  bg-center bg-no-repeat  ">
+        <div className=" p-11  w-full md:p-[16px] md:mt-0">
+          <div className=" grid grid-cols-6 gap-5 divide-x-2 divide-y-2 backdrop-blur-[.5px] sm:backdrop-blur-0  h-full md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-[20px]">
+            {recruiters.map((element, index) => (
+              <div
+                key={index}
+                data-aos="zoom-in"
+                data-aos-delay="0"
+                className={`cursor-pointer place-self-center  hover:shadow-2xl hover:w-[190px] relative md:hover:w-[145px] rounded-[22px] overflow-hidden h-[130px] w-[185px] bg-center  bg-no-repeat bg-cover ${element} shadow-sm md:w-[145px] md:h-[105px]`}
+              >
+                <div className="absolute w-full h-full bg-black/5 "></div>
               </div>
-    <section className="p-[50px] py-[160px]   bg-secondary md:p-[16px] bg-[url('/images/tnp/csm_worldmap_5832344b9b.png')]  bg-center bg-no-repeat  ">
-     
-      <div className=" p-11  w-full md:p-[16px] md:mt-0">
-        <div className=" grid grid-cols-6 gap-5 divide-x-2 divide-y-2 backdrop-blur-[.5px] sm:backdrop-blur-0  h-full md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-[20px]">
-          {recruiters.map((element,index) => (
-            <div 
-              key={index}
-              data-aos="zoom-in"
-              data-aos-delay="0"
-              className={`cursor-pointer place-self-center  hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center  bg-no-repeat bg-cover ${element} shadow-sm md:w-[145px] md:h-[105px]`}
-            ></div>
-          ))}
-        </div>
+            ))}
+          </div>
 
-        {/* <section className="p-4 md:p-2 md:bg-[#24346D] md:rounded-xl md:w-[95%] rounded-t-[100px] md:grid-cols-2 lg:grid-cols-3 grid grid-cols-5 gap-5  max-w-[1200px] bg-white mx-auto  mt-24 ">
+          {/* <section className="p-4 md:p-2 md:bg-[#24346D] md:rounded-xl md:w-[95%] rounded-t-[100px] md:grid-cols-2 lg:grid-cols-3 grid grid-cols-5 gap-5  max-w-[1200px] bg-white mx-auto  mt-24 ">
           {avatars.map((element) => {
             return (
-              <div className=" h-fit flex flex-col items-center">
-                <div className=" md:h-28 md:w-28 h-40 w-40 overflow-hidden rounded-full ">
+              <div className="flex flex-col items-center h-fit">
+                <div className="w-40 h-40 overflow-hidden rounded-full md:h-28 md:w-28">
                   <img
                     src={element}
-                    className="h-full w-full object-cover"
+                    className="object-cover w-full h-full"
                     alt=""
                     srcSet=""
                   />
@@ -88,8 +87,8 @@ const TnPEsteemedRecruiters = () => {
             )
           })}
         </section> */}
-      </div>
-    </section>
+        </div>
+      </section>
     </section>
   )
 }

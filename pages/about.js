@@ -30,7 +30,7 @@ const About = () => {
 
   return (
     <DefaultLayout>
-      <div className="w-full relative">
+      <div className="relative w-full">
         {gallary && <Gallaryslider images={images} setGallary={setGallary} />}
         <section className="relative flex flex-col items-center w-full">
           <img
@@ -70,15 +70,18 @@ const About = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> About KIT
+            <span className="hover:text-primary hover:cursor-pointer">
+              {" "}
+              Home
+            </span>{" "}
+            <span className="">|</span> About KIT
           </h6>
 
           <div
             className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8 cursor-pointer"
             onClick={() => setGallary(true)}
           >
-            
-            <ImageGrid />   
+            <ImageGrid />
             {/* <img
               src="/images/AboutUs/IMAGE-GALLARY-1.png"
               className="w-full h-full sm:hidden 2xl:block"
