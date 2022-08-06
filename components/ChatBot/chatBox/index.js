@@ -39,6 +39,7 @@ const ChatBox = (props) => {
             let switchAction = data.switchAction
             let question = data.question
 
+          if(switchAction != 500){
             if(switchAction == 0){
                 setMsgList(msgList.concat(<Msg MsgAction="items" MsgItems={intent.entities}  key={msgList.length} selectItem = {selectItem} setSelectItem = {setSelectItem} />));  
             }else if(switchAction == 2){
@@ -55,6 +56,9 @@ const ChatBox = (props) => {
                 });
             },3000) 
             }
+          }else{
+            setMsgList(msgList.concat(<Msg MsgAction="serverDown" User="BotServer" MsgValue={"botResponse"}  key={msgList.length} />));  
+          }
            
         }
     },[data]);
@@ -97,7 +101,7 @@ const ChatBox = (props) => {
                         </div>
                         <div onClick={()=>{props.setAction(!props.action)}} className="2xl:hidden sm:block absolute right-0 px-2">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-slate-400" viewBox="0 0 20 20" fill="currentColor">
-                                <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                                <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
                             </svg>
                         </div>
                     </div>

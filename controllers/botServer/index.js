@@ -2,6 +2,15 @@ import React from "react";
 
 const  BotServer =  async (switchApi,input) => {
 
+    function IsJsonString(str) {
+        try {
+            JSON.parse(str);
+        } catch (e) {
+            return false;
+        }
+        return true;
+    }
+
     const intent = {}
 
     const chatbotApis = {
@@ -37,7 +46,9 @@ const  BotServer =  async (switchApi,input) => {
                 }).then(function (data) {
                     return data
             }).catch(function (error) {
-                console.log('error.message: ', error.message);
+                
+                console.log('error.message: server down maybe : =>', error.message);
+    
             });
             break;
         case "storeChat":
@@ -72,35 +83,41 @@ const  BotServer =  async (switchApi,input) => {
             break;
     }
 
-    let result = JSON.parse(JSON.stringify(intent));
+    let result = IsJsonString(intent) ? JSON.parse(JSON.stringify(intent)) : null;
     let question = input;
     let switchAction
 
-            if(result.probability > 0.8){
-                if(result.entities.length > 0){
-                    switchAction = 0;
-                    // show entity, then respond and up_suggestion if any
-                }else if(result.actions.includes('get') || result.actions.includes('post')){
-                    switchAction = 1;
-                    // call FP api show response and up_suggestion if any
-                }else if(result.actions.includes('show')){
-                    switchAction = 2;
-                    // show response and up_suggestion if any
-                }
-            }else if(result.probability > 0.7){
-                if(result.down_suggestions.length > 0){
-                    switchAction = 3;
-                    // show down_suggestion and lead to tag
-                }else{
-                    switchAction = 4;
-                    // show response
-                }
-            }else if(result.probability < 0.7 && result.probability > 0.6){
-                switchAction = 5;
-                // show top 4 tags
-            }else{
-                switchAction = 'default'
+    
+    if(result){
+        if(result.probability > 0.8){
+            if(result.entities.length > 0){
+                switchAction = 0;
+                // show entity, then respond and up_suggestion if any
+            }else if(result.actions.includes('get') || result.actions.includes('post')){
+                switchAction = 1;
+                // call FP api show response and up_suggestion if any
+            }else if(result.actions.includes('show')){
+                switchAction = 2;
+                // show response and up_suggestion if any
             }
+        }else if(result.probability > 0.7){
+            if(result.down_suggestions.length > 0){
+                switchAction = 3;
+                // show down_suggestion and lead to tag
+            }else{
+                switchAction = 4;
+                // show response
+            }
+        }else if(result.probability < 0.7 && result.probability > 0.6){
+            switchAction = 5;
+            // show top 4 tags
+        }else{
+            switchAction = 'default'
+        }
+    }else{
+        switchAction = 500
+        intent = null
+    }
 
            
 
