@@ -119,7 +119,7 @@ const  BotServer =  async (switchApi,input) => {
         intent = null
     }
 
-           
+     intent = result      
 
      return ({intent,switchAction,question})
 }

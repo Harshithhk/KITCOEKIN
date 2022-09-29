@@ -9,6 +9,7 @@ import Admissions from "./admissions/index.js"
 import Departments from "./departments/index.js"
 import MobileNavbar from "./mobileNavbar/index.js"
 import OthersNavbar from "./others/index.js"
+import OthersMegaNavbar from "./othersMega"
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -100,7 +101,8 @@ const Navbar = () => {
         </li>
       </ul>
       {othersNavOpen && (
-        <OthersNavbar setOthersNavOpen = {setOthersNavOpen}/>
+        // <OthersNavbar setOthersNavOpen = {setOthersNavOpen}/>
+        <OthersMegaNavbar setOthersNavOpen = {setOthersNavOpen} />
       )}
       <div
         className="ml-auto space-y-2 HAMBURGER-ICON sm:block 2xl:hidden"
