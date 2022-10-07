@@ -50,7 +50,7 @@ const NewVision = (props) => {
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
-        <section className="relative z-30 w-full pb-20 bg-accent -mt-2  h-fit px-14 sm:px-4 sm:pb-10 ">
+        <section className="relative z-30 w-full pb-20 bg-accent pointer-events-none -mt-2  h-fit px-14 sm:px-4 sm:pb-10 ">
    
             <Scroll/>
 

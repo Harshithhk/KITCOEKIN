@@ -82,8 +82,8 @@ const  BotServer =  async (switchApi,input) => {
             console.log("request failed in BotServer function")
             break;
     }
-
-    let result = IsJsonString(intent) ? JSON.parse(JSON.stringify(intent)) : null;
+console.log("=============",intent)
+    let result = IsJsonString(JSON.stringify(intent)) ? JSON.parse(JSON.stringify(intent)) : null;
     let question = input;
     let switchAction
 

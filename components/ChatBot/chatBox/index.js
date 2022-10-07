@@ -45,7 +45,11 @@ const ChatBox = (props) => {
             }else if(switchAction == 2){
                  let botResponse = intent.responses[Math.floor(Math.random()*intent.responses.length)]
                  setMsgList(msgList.concat(<Msg MsgAction="input" User="BotServer" MsgValue={botResponse}  key={msgList.length} />));  
+            }else if(switchAction == "default"){
+                let botResponse = intent.responses[Math.floor(Math.random()*intent.responses.length)]
+                setMsgList(msgList.concat(<Msg MsgAction="input" User="BotServer" MsgValue={botResponse}  key={msgList.length} />));  
             }
+            
             if(intent.up_suggestions.length > 0){
                 setMsgList((prevState,index) => {
                     return [...prevState, ...(prevState = [<Msg MsgAction="preLoader"  key={prevState.length} />])];
