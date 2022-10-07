@@ -33,7 +33,11 @@ const NewVision = () => {
   return (
     <section className="flex h-[450px] justify-between overflow-hidden md:hidden mt-24">
       <div className="pl-[74.94px]  italic font-[800] font-poppins ">
-        <h2 className=" text-[59.9549px] h-[89.93px] w-[500px] tracking-[0.005em] leading-[90px] text-[#3D3859] mt-4">
+        <h2
+          data-aos="zoom-in"
+          data-aos-delay="0"
+          className=" text-[59.9549px] h-[89.93px] w-[500px] tracking-[0.005em] leading-[90px] text-[#3D3859] mt-4"
+        >
           SEE NEW VISION
         </h2>
         <p className=" leading-[22px] tracking-[0.005em]  w-[403.2px] text-[#5C5487] ">

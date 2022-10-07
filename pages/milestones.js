@@ -44,27 +44,36 @@ const Milestones = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Milestones
+            <span className="hover:text-primary hover:cursor-pointer">
+              {" "}
+              Home
+            </span>{" "}
+            <span className="">|</span> Milestones
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative z-30 w-full pb-20 h-fit px-14 sm:px-4 sm:pb-10 ">
           <div className="z-10  absolute w-full top-0 left-0 h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/FounderTrustees/KITBG.jpeg')]  opacity-5"></div>
-          <div className="flex items-center w-full sm:ml-2 mt-16  sm:mt-10">
+          {/* <div className="flex items-center w-full mt-16 sm:ml-2 sm:mt-10">
             <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
             <div className="ml-3 md:ml-2 w-fit  text-center sm:text-2xl   text-[#24346D] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">
             MILESTONES
             </div>
-          </div>
-          <div className="mt-8 w-[97%] text-[#24346D] sm:mt-4 mx-auto text-left sm:text-center text-xl sm:text-sm ">
-            35 Years of Journey Towards Academic Excellence
+          </div> */}
+          <div className="mt-8 w-fit text-[#24346D] sm:mt-4 mx-auto text-left sm:text-center text-xl sm:text-sm ">
+            ( 35 Years of Journey Towards Academic Excellence )
           </div>
 
-          <div className="mx-auto mt-16 sm:mt-8 w-[875px] sm:w-full">
+          <div className="mx-auto mt-8 sm:mt-8 w-[875px] sm:w-full">
             <h1 className="mx-auto text-5xl font-bold w-fit text-primary sm:text-2xl">
               WE STARTED AT
             </h1>
-            <div className="relative mt-4 w-fit">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              className="relative mt-4 w-fit"
+            >
               <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 1983
               </h1>
@@ -77,12 +86,20 @@ const Milestones = () => {
                 alt=""
               /> */}
               <img
+                data-aos="zoom-in"
+                data-aos-delay="0"
+                data-aos-duration="1000"
                 src="/images/Milestones/arrow-down-right.svg"
                 className="absolute top-full left-14"
                 alt=""
               />
             </div>
-            <div className="relative mt-4 ml-40 w-fit">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              className="relative mt-4 ml-40 w-fit"
+            >
               <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2005
               </h1>
@@ -95,7 +112,12 @@ const Milestones = () => {
                 alt=""
               />
             </div>
-            <div className="relative ml-0 mt-14 w-fit">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              className="relative ml-0 mt-14 w-fit"
+            >
               <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2008
               </h1>
@@ -108,7 +130,12 @@ const Milestones = () => {
                 alt=""
               />
             </div>
-            <div className="relative ml-40 mt-14 w-fit">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              className="relative ml-40 mt-14 w-fit"
+            >
               <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2009
               </h1>
@@ -121,7 +148,12 @@ const Milestones = () => {
                 alt=""
               />
             </div>
-            <div className="relative ml-0 mt-14 w-fit">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              className="relative ml-0 mt-14 w-fit"
+            >
               <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2008
               </h1>
@@ -134,7 +166,12 @@ const Milestones = () => {
                 alt=""
               />
             </div>
-            <div className="relative ml-40 mt-14 w-fit">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              className="relative ml-40 mt-14 w-fit"
+            >
               <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2009
               </h1>
@@ -147,7 +184,12 @@ const Milestones = () => {
                 alt=""
               />
             </div>
-            <div className="relative ml-0 mt-14 w-fit">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              className="relative ml-0 mt-14 w-fit"
+            >
               <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2015
               </h1>
@@ -160,7 +202,12 @@ const Milestones = () => {
                 alt=""
               />
             </div>
-            <div className="relative ml-40 mt-14 w-fit">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              className="relative ml-40 mt-14 w-fit"
+            >
               <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2016
               </h1>
@@ -173,7 +220,12 @@ const Milestones = () => {
                 alt=""
               />
             </div>
-            <div className="relative ml-0 mt-14 w-fit">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              className="relative ml-0 mt-14 w-fit"
+            >
               <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2017
               </h1>
@@ -186,7 +238,12 @@ const Milestones = () => {
                 alt=""
               />
             </div>
-            <div className="relative ml-40 mt-14 w-fit">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              className="relative ml-40 mt-14 w-fit"
+            >
               <h1 className="text-7xl md:text-5xl text-[#24346D] opacity-25 font-bold">
                 2018
               </h1>
@@ -199,7 +256,12 @@ const Milestones = () => {
               className="mx-auto mt-3"
               alt=""
             />
-            <h1 className="mx-auto mt-4 text-5xl font-bold w-fit text-primary sm:text-2xl">
+            <h1
+              data-aos="zoom-in"
+              data-aos-delay="0"
+              data-aos-duration="1500"
+              className="mx-auto mt-4 text-5xl font-bold w-fit text-primary sm:text-2xl"
+            >
               AND WE GO BEYOND
             </h1>
           </div>

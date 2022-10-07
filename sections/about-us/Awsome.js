@@ -7,10 +7,14 @@ const Awsome = () => {
       <section className="h-[290px] sm:h-fit z-10  w-[1407px] flex-wrap sm:w-[340px] mx-auto flex justify-center gap-20 md:gap-4">
         {/* BOX */}
 
-        <div className=" w-[290px] shadow-xl h-fit bg-white  rounded-3xl border-[#f3f3f3] border-4 p-4 sm:w-[165px] sm:p-2">
+        <div
+          data-aos="fade-right"
+          data-aos-delay="0"
+          className=" w-[290px] shadow-xl h-fit bg-white  rounded-3xl border-[#f3f3f3] border-4 p-4 sm:w-[165px] sm:p-2"
+        >
           <img
             src="/images/AboutUs/awesome.svg"
-            className="w-16 h-16 sm:w-8 sm:h-8 -translate-x-3 sm:-translate-x-1"
+            className="w-16 h-16 -translate-x-3 sm:w-8 sm:h-8 sm:-translate-x-1"
             alt=""
           />
           <h1 className="text-[#24346D] sm:text-xl text-[26px] font-bold mt-1 sm:mt-0">
@@ -22,10 +26,14 @@ const Awsome = () => {
         </div>
 
         {/* BOX */}
-        <div className=" w-[290px] h-fit shadow-xl bg-white  rounded-3xl border-[#f3f3f3] border-4 p-4 sm:w-[165px]  sm:p-2">
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="0"
+          className=" w-[290px] h-fit shadow-xl bg-white  rounded-3xl border-[#f3f3f3] border-4 p-4 sm:w-[165px]  sm:p-2"
+        >
           <img
             src="/images/AboutUs/awesome.svg"
-            className="w-16 h-16 sm:w-8 sm:h-8 -translate-x-3 sm:-translate-x-1"
+            className="w-16 h-16 -translate-x-3 sm:w-8 sm:h-8 sm:-translate-x-1"
             alt=""
           />
           <h1 className="text-[#24346D] sm:text-xl text-[26px] font-bold mt-1 sm:mt-0">
@@ -36,10 +44,14 @@ const Awsome = () => {
           </div>
         </div>
         {/* BOX */}
-        <div className=" w-[290px] h-fit shadow-xl  bg-white  rounded-3xl border-[#f3f3f3] border-4 p-4 sm:w-[165px] sm:mt-[10px] sm:p-2">
+        <div
+          data-aos="fade-left"
+          data-aos-delay="0"
+          className=" w-[290px] h-fit shadow-xl  bg-white  rounded-3xl border-[#f3f3f3] border-4 p-4 sm:w-[165px] sm:mt-[10px] sm:p-2"
+        >
           <img
             src="/images/AboutUs/awesome.svg"
-            className="w-16 h-16 sm:w-8 sm:h-8 -translate-x-3 sm:-translate-x-1"
+            className="w-16 h-16 -translate-x-3 sm:w-8 sm:h-8 sm:-translate-x-1"
             alt=""
           />
           <h1 className="text-[#24346D] sm:text-xl text-[26px] font-bold mt-1 sm:mt-0">

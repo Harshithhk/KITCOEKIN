@@ -1,13 +1,12 @@
 import Reat from "react"
 
 const ImageGrid = () => {
-    return (
-  <section className="overflow-hidden text-gray-700 ">
-    {/*  */}
-  <div className="container  px-2 sm:hidden 2xl:block">
-    {/*  */}
-    <div className="flex flex-wrap sm:flex-col -m-1 ">
+  return (
+    <section className="overflow-hidden text-gray-700 ">
+      {/*  */}
+      <div className="container px-2 sm:hidden 2xl:block">
         {/*  */}
+
       <div className="flex flex-wrap w-full   sm:w-fit">
         <div className="w-3/5 sm:w-full sm:p-0 h-[401px]   p-3 ">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-3xl shadow-lg"
@@ -50,13 +49,10 @@ const ImageGrid = () => {
 
             {/* ------------------------------------------------------------ */}
 
-    </div>
-  </div>
 
-  <div className="container   sm:block 2xl:hidden">
-    {/*  */}
-    <div className="flex flex-wrap   -m-1 ">
+      <div className="container sm:block 2xl:hidden">
         {/*  */}
+
       <div className="flex flex-wrap p-1 w-full   ">
         <div className=" ">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-3xl shadow-lg"
@@ -99,5 +95,6 @@ const ImageGrid = () => {
 </section>
     );
 };
+
 
 export default ImageGrid

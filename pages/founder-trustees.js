@@ -97,17 +97,21 @@ const FounderTrustees = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Founder Trustees
+            <span className="hover:text-primary hover:cursor-pointer">
+              {" "}
+              Home
+            </span>{" "}
+            <span className="">|</span> Founder Trustees
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-[#F8F7FC] px-14 sm:px-4 sm:pb-10">
           <div className="z-10  absolute w-full top-0 left-0 h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/About/FounderTrustees/KITBG.jpeg')]  opacity-10"></div>
-          <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
-                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                FOUNDER TRUSTEES
-              </div>
-          
+          <div className="pt-16 sm:pt-16 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+            <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
+            FOUNDER TRUSTEES
+          </div>
+
           <div className="mt-8 w-[80%] text-[#24346D] sm:mt-4 mx-auto text-center text-xl sm:text-sm ">
             {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
             laudantium perspiciatis at dolore earum provident fugit aperiam
@@ -115,16 +119,18 @@ const FounderTrustees = () => {
             sed tempora quaerat eum? */}
           </div>
 
-          <div className="flex flex-wrap  justify-center w-full mt-16 gap-x-16 gap-y-16 sm:mt-14 sm:gap-x-7 sm:gap-y-7">
-            {founders.map((image,index) => (
-              <div  key={index} className="z-30 w-[170px] h-fit sm:w-[120px] rounded-lg overflow-hidden ">
+          <div className="flex flex-wrap justify-center w-full mt-16 gap-x-16 gap-y-16 sm:mt-14 sm:gap-x-7 sm:gap-y-7">
+            {founders.map((image, index) => (
+              <div
+                key={index}
+                className="z-30 w-[170px] h-fit sm:w-[120px] rounded-lg overflow-hidden "
+              >
                 <img
-               
                   src={image.img}
                   className="w-full h-fit sm:h-fit"
                   alt={image.img}
                 />
-                <div className="mx-auto text-lg font-semibold text-center py-2 sm:text-xs text-accent">
+                <div className="py-2 mx-auto text-lg font-semibold text-center sm:text-xs text-accent">
                   {image.name}
                 </div>
                 <div className="bg-primary w-10 h-[2px] sm:ml-10 ml-16 rounded-xl"></div>
