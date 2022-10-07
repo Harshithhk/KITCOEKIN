@@ -23,10 +23,12 @@ const OthersNavbar = (props) => {
         "subMenu1":[
           {
             "title":"",
-            "subMenu2":["Online Syllabus"]
+            "links":["/online-syllabus"],
+            "subMenu2":["Online Syllabus"],
           },
           {
             "title":"Other Online Platforms",
+            "links":[""],
             "subMenu2":[
               "Moodle Link",
               "Contineo Link",
@@ -35,6 +37,7 @@ const OthersNavbar = (props) => {
           },
           {
             "title":"Rules & Regulations",
+            "links":[""],
             "subMenu2":[
               "Undergraduate",
               "Postgraduate",
@@ -43,6 +46,7 @@ const OthersNavbar = (props) => {
           },
           {
             "title":"Internship Policy",
+            "links":[""],
             "subMenu2":[
               "Guideline & Procedure",
               "Guidelines for Internship  ",
@@ -51,6 +55,7 @@ const OthersNavbar = (props) => {
           },
           {
             "title":"Academic Documents",
+            "links":[""],
             "subMenu2":[
               "Academic Calendar",
               "Academic Council Meeting Proceedings  ",
@@ -64,26 +69,32 @@ const OthersNavbar = (props) => {
         "subMenu1":[
           {
             "title":"",
+            "links":["administration-staff"],
             "subMenu2":["Administrative Staff"]
           },
           {
             "title":"",
+            "links":["semister-exam-timetable"],
             "subMenu2":["Exam Timetable"]
           },
           {
             "title":"",
+            "links":["results"],
             "subMenu2":["Results"]
           },
           {
             "title":"",
+            "links":[""],
             "subMenu2":["Exam Calendar UG & PG"]
           },
           {
             "title":"",
+            "links":["paper-setting-documents"],
             "subMenu2":["Paper Setting Documents"]
           },
           {
             "title":"",
+            "links":["remuneration-format"],
             "subMenu2":["Faculty Remuneration Format"]
           },
         
@@ -94,14 +105,17 @@ const OthersNavbar = (props) => {
         "subMenu1":[
           {
             "title":"",
+            "links":["college-council"],
             "subMenu2":["Governance Committee"]
           },
           {
             "title":"",
+            "links":["statutory-committee"],
             "subMenu2":["Statutory Committee"]
           },
           {
             "title":"",
+            "links":["women-development"],
             "subMenu2":["Women Development Cell"]
           },
         
@@ -113,22 +127,27 @@ const OthersNavbar = (props) => {
           
           {
             "title":"",
+            "links":["kit-student-club-activities"],
             "subMenu2":["Cultural"]
           },
           {
             "title":"",
+            "links":["kit-nss-activities"],
             "subMenu2":["National Service Scheme (NSS)"]
           },
           {
             "title":"",
+            "links":["kit-ncc-activities"],
             "subMenu2":["NCC"]
           },
           {
             "title":"",
+            "links":[""],
             "subMenu2":["360 Degree Feedback 2020-2021"]
           },
           {
             "title":"Facilities",
+            "links":["central-library","hostel-kit-college-of-engineering","gymkhana-kit-college-of-engineering-kolhapur","canteen"],
             "subMenu2":["Library","Hostel","Gymkhana","Canteen"]
           },
           
@@ -141,22 +160,27 @@ const OthersNavbar = (props) => {
           
           {
             "title":"",
+            "links":["innovation-and-entrepreneurship-iic-kitcoek"],
             "subMenu2":["IIC-KITCOEK"]
           },
           {
             "title":"",
+            "links":["https://sites.google.com/kitcoek.in/kite/home"],
             "subMenu2":["KITE"]
           },
           {
             "title":"",
+            "links":["https://www.ecellkitcoek.com/"],
             "subMenu2":["E-Cell"]
           },
           {
             "title":"",
+            "links":["innovation-and-entrepreneurship"],
             "subMenu2":["ARIIA"]
           },
           {
             "title":"AICTE Idea Lab",
+            "links":["aicte-idea-lab-kitcoek,IdeaLab-ADVISORY-COMMITTEE,idealab-industry-connect,idealab-student-ambasadoors, "],
             "subMenu2":["Idea Lab","Advisory Committee","Mentor Committee","Industry Connect","Student Ambasadoors"]
           },
           

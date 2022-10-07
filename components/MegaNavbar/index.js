@@ -32,7 +32,7 @@ const MegaNavbar = (props) => {
                                                                     return(<>
                                                                        
                                                                         <div className=" sm:mt-0 sm:ml-4 text-[#24346D] text-lg sm:text-2xl font-normal flex h-fit hover:bg-slate-50 hover:cursor-pointer ">
-                                                                            {subMenu2Item}
+                                                                            <a href={subMenu1Item.links[subMenu2Index]}>{subMenu2Item}</a>
                                                                         </div> 
                                                                     </>)
                                                                 })
