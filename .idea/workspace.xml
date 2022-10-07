@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7543acd9-6a7d-4f7e-9f74-90e92c6d45b3" name="Default Changelist" comment="trying have a successful build on versel, its a successful build on local machine" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop_sj_3d" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2BhvUYkgscsFtSjuhMdWdjFCNlW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7543acd9-6a7d-4f7e-9f74-90e92c6d45b3" name="Default Changelist" comment="" />
+      <created>1657371150110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657371150110</updated>
+      <workItem from="1657371162563" duration="1704000" />
+      <workItem from="1657479368059" duration="1360000" />
+      <workItem from="1659074520110" duration="3366000" />
+      <workItem from="1659210951179" duration="276000" />
+      <workItem from="1659211277181" duration="64000" />
+      <workItem from="1659252026725" duration="64000" />
+      <workItem from="1665166085077" duration="172000" />
+      <workItem from="1665166258767" duration="110000" />
+      <workItem from="1665166370805" duration="188000" />
+    </task>
+    <task id="LOCAL-00001" summary="deleted deleteMe.js">
+      <created>1659074844271</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659074844271</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commented function for successful build">
+      <created>1659075615290</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659075615290</updated>
+    </task>
+    <task id="LOCAL-00003" summary="trying have a successful build on versel, its a successful build on local machine">
+      <created>1659076194256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659076194256</updated>
+    </task>
+    <task id="LOCAL-00004" summary="trying have a successful build on versel, its a successful build on local machine">
+      <created>1659077327003</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659077327003</updated>
+    </task>
+    <task id="LOCAL-00005" summary="trying have a successful build on versel, its a successful build on local machine">
+      <created>1659077443295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659077443295</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deleted deleteMe.js" />
+    <MESSAGE value="commented function for successful build" />
+    <MESSAGE value="trying have a successful build on versel, its a successful build on local machine" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying have a successful build on versel, its a successful build on local machine" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="654" y="275" key="#Notifications" timestamp="1665166328966">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1665166328966" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1665166368281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1665166368281" />
+    <state x="306" y="280" width="572" height="263" key="MultipleFileMergeDialog" timestamp="1657479508534">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="306" y="280" width="572" height="263" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1657479508534" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1659077444547">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1659077444547" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1657479891171" />
+    <state x="665" y="491" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1659211188351">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="665" y="491" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1659211188351" />
+    <state x="665" y="491" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1657479580972" />
+  </component>
+</project>
