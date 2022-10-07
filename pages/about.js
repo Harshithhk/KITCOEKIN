@@ -79,7 +79,7 @@ const About = () => {
 
           <div
             className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8 cursor-pointer"
-            onClick={() => setGallary(true)}
+            // onClick={() => setGallary(true)}
           >
             <ImageGrid />
             {/* <img

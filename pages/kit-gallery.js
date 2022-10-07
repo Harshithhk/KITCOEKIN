@@ -5,14 +5,16 @@ import BranchPlacement from "../sections/departments/branchPlacement"
 import Career from "../sections/departments/career"
 import CampusPlacement from "../sections/departments/campusplacement"
 import TnPEsteemedRecruiters from "../sections/tnp/TnPEsteemedRecruters"
-import Gallery from "../sections/lifeAtKit/cultural/gallery"
+import Gallery from "../sections/kitGallery"
 import Team from "../sections/team"
 import { Tab } from "@headlessui/react"
+import { useRouter } from "next/router"
 
-const KitGallery = () => {
+const KitGallery = (props) => {
 
     const [departmentMenu, setDepartmentMenu] = React.useState(false)
     const [menuSelected, setMenuSelected] = React.useState(false)
+    let {query} = useRouter(); 
 
   return (
     <DefaultLayout>
@@ -65,7 +67,7 @@ const KitGallery = () => {
             src="/images/TnP/indicator.png"
             alt=""
           /> */}
-          <Tab.Group>
+          <Tab.Group selectedIndex={query.Tab}>
          
 
             
@@ -162,16 +164,64 @@ const KitGallery = () => {
                   </Tab>
             </Tab.List>
           </div>
-
+{/*  */}
           <Tab.Panels>
+{/*  */}
+
             <Tab.Panel>
-              <Gallery /> 
+              <Gallery Tab = "0" /> 
             </Tab.Panel>
             <Tab.Panel>
-              
+              <Gallery Tab = "1" /> 
             </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "2" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "3" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "4" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "5" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "6" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "7" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "8" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "9" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "10" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "11" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "12" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "13" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "14" /> 
+            </Tab.Panel>
+            <Tab.Panel>
+              <Gallery Tab = "15" /> 
+            </Tab.Panel>
+
+       
+
+{/*  */}
           </Tab.Panels>
-        
+{/*  */}
           </Tab.Group>
         
        
