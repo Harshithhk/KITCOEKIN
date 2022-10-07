@@ -46,9 +46,9 @@ const NewVision = () => {
           data-aos="zoom-in"
           data-aos-delay="0"
           className=" h-[80.94px] w-[325.26px] text-white text-[37.47px]  mt-9 bg-[#3D3859] hover:bg-[#272242] italic rounded-[7.4943px]"
-          href="#about"
+          
         >
-          EXPLORE
+          <a href="new-vision">EXPLORE</a>
         </button>
       </div>
       <div
