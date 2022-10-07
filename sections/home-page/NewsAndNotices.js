@@ -94,7 +94,7 @@ function NewsAndNotices(props) {
   }, [])
 
   return (
-    <section className="flex mt-16 md:mt-8 md:flex-col">
+    <section className="flex mt-16 mb-16 md:mb-8 md:mt-8 md:flex-col">
       <section className="w-1/2 md:w-full pl-[50px] pr-[2.5%] md:p-[16px]">
         {/* TITLE */}
         <div className="flex items-center">
