@@ -271,6 +271,7 @@ export async function getStaticProps() {
     props: {
       staff: staff,
     },
+    revalidate: 10,
   }
 }
 

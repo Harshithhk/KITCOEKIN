@@ -33,6 +33,7 @@ export async function getStaticProps() {
       news: news,
       notices: notices,
     },
+    revalidate: 10,
   }
 }
 
