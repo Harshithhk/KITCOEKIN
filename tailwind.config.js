@@ -36,12 +36,28 @@ module.exports = {
               opacity: '0',
               transform: 'translateY(10px)',
           },
+      },
+      wiggle: {
+        '0%, 100%': { transform: 'rotate(-3deg)' },
+        '50%': { transform: 'rotate(3deg)' },
+      },
+      bounce2: {
+        '0%, 100%': {
+          transform: 'translateY(-5%)',
+          'animation-timing-function': 'cubic-bezier(0.8, 0, 1, 1)'
+        },
+        '50%': {
+          transform: 'translateY(15%)',
+          'animation-timing-function': 'cubic-bezier(0, 0, 0.2, 1)'
+        }
       }
       
       },
       animation: {
         'fade-out-down': 'fade-out-down 0.5s ease-out ',
         // transform transition duration-300 translate-y-20 opacity-0 ease-out
+        wiggle: 'wiggle 1s ease-in-out infinite',
+        bounce2: 'bounce2 3s infinite'
       }
 
 

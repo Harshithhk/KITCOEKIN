@@ -9,6 +9,7 @@ import Admissions from "./admissions/index.js"
 import Departments from "./departments/index.js"
 import MobileNavbar from "./mobileNavbar/index.js"
 import OthersNavbar from "./others/index.js"
+import OthersMegaNavbar from "./othersMega"
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -20,9 +21,13 @@ const Navbar = () => {
 
   const router = useRouter()
   return (
-    <nav
-      className={`h-[75px] sticky top-0 z-50  md:h-[88px] sm:h-12  shadow-md  flex items-center px-12 sm:px-6 ${
-        router.route != "/" ? "bg-[#24346D]" : "bg-slate-50 "
+
+    <nav 
+    id="Navbar"
+      className={`h-[75px] sticky top-0 z-50  md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
+        router.route != "/" ? "bg-[#24346D]" : "bg-slate-50"
+
+  
       }`}
     >
       <Link href="/" passHref>
@@ -91,7 +96,13 @@ const Navbar = () => {
           </div>
         </li>
       </ul>
-      {othersNavOpen && <OthersNavbar setOthersNavOpen={setOthersNavOpen} />}
+
+      {othersNavOpen && (
+        // <OthersNavbar setOthersNavOpen = {setOthersNavOpen}/>
+        <OthersMegaNavbar setOthersNavOpen = {setOthersNavOpen} />
+      )}
+
+
       <div
         className="ml-auto space-y-2 HAMBURGER-ICON sm:block 2xl:hidden"
         onClick={() => setIsNavOpen((prev) => !prev)}
