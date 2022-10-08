@@ -10,7 +10,9 @@ import PlacementTeam from "../sections/tnp/PlacementTeam"
 import DepartmentMou from "../sections/tnp/DepartmentMou"
 
 const TnP = () => {
+  //comment
   return (
+
     <DefaultLayout>
       <div className="w-full bg-[#24346D]">
         <section className="flex flex-col h-[250px] items-center w-full relative">
