@@ -10,7 +10,7 @@ import PlacementTeam from "../sections/tnp/PlacementTeam"
 import DepartmentMou from "../sections/tnp/DepartmentMou"
 
 const TnP = () => {
-  //comment
+
   return (
 
     <DefaultLayout>
