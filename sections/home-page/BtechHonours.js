@@ -3,12 +3,16 @@ const BtechHonours = () => {
   return (
     <section
       id="btech"
-      className=" bg-[#f2f2f0] p-[50px] pt-[60px] pr-[5%]   flex md:block  md:p-[16px] "
+      className=" bg-[#f2f2f0] scroll-snap-stop p-[50px] pt-[60px] pr-[5%]   flex md:block  md:p-[16px] "
     >
       <div className="w-fit">
         <div className="flex items-center w-fit">
           <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
-          <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center   text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="0"
+            className="ml-3  md:ml-2 w-fit italic font-[800] text-center   text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]"
+          >
             NEW B.TECH HONOURS
           </div>
         </div>
@@ -63,7 +67,7 @@ const BtechHonours = () => {
             <div className="text-5xl leading-none -translate-y-2 w-fit md:text-4xl">
               3.84
             </div>
-            <div className="text-lg font-semibold text-center -translate-y-2  md:text-xs">
+            <div className="text-lg font-semibold text-center -translate-y-2 md:text-xs">
               Average GPA for admitted fall first years
             </div>
           </div>

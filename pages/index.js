@@ -21,19 +21,19 @@ import Testimonials from "../sections/about-us/Testimonials"
 export async function getStaticProps() {
   let news = []
   let notices = []
-  //let news = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/news')
-  // let news = await fetch("http://localhost:5000/api/newsandnotices/news")
-  // news = await news.json()
-
-  // // let notices = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/notices')
-  // let notices = await fetch("http://localhost:5000/api/newsandnotices/notices")
-  // notices = await notices.json()
+  news = await fetch("https://kitcoek.herokuapp.com/api/newsandnotices/news")
+  news = await news.json()
+  notices = await fetch(
+    "https://kitcoek.herokuapp.com/api/newsandnotices/notices"
+  )
+  notices = await notices.json()
 
   return {
     props: {
       news: news,
       notices: notices,
     },
+    revalidate: 10,
   }
 }
 
