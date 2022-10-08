@@ -74,7 +74,7 @@ const OthersNavbar = (props) => {
           },
           {
             "title":"",
-            "links":["semister-exam-timetable"],
+            "links":["examtimetable"],
             "subMenu2":["Exam Timetable"]
           },
           {
