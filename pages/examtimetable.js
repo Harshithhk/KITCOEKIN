@@ -1,51 +1,52 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 
-let news = [
-  {
-    title: "Fy to Final-Year Btech 2021-2020 May",
-    fileName: "Fy-FinalYear.pdf",
-    date: "09/07/2022",
-  },
-  {
-    title: "Mtech FY Schedule",
-    fileName: "Mtech-FY.pdf",
-    date: "19/03/2022",
-  },
-  {
-    title: "Fy to Final-Year Btech 2021-2020 May",
-    fileName: "Fy-FinalYear.pdf",
-    date: "09/07/2022",
-  },
-  {
-    title: "Mtech FY Schedule",
-    fileName: "Mtech-FY.pdf",
-    date: "19/03/2022",
-  },
-  ,
-  {
-    title: "Fy to Final-Year Btech 2021-2020 May",
-    fileName: "Fy-FinalYear.pdf",
-    date: "09/07/2022",
-  },
-  {
-    title: "Mtech FY Schedule",
-    fileName: "Mtech-FY.pdf",
-    date: "19/03/2022",
-  },
-  {
-    title: "Fy to Final-Year Btech 2021-2020 May",
-    fileName: "Fy-FinalYear.pdf",
-    date: "09/07/2022",
-  },
-  {
-    title: "Mtech FY Schedule",
-    fileName: "Mtech-FY.pdf",
-    date: "19/03/2022",
-  },
-]
+// let news = [
+//   {
+//     title: "Fy to Final-Year Btech 2021-2020 May",
+//     fileName: "Fy-FinalYear.pdf",
+//     date: "09/07/2022",
+//   },
+//   {
+//     title: "Mtech FY Schedule",
+//     fileName: "Mtech-FY.pdf",
+//     date: "19/03/2022",
+//   },
+//   {
+//     title: "Fy to Final-Year Btech 2021-2020 May",
+//     fileName: "Fy-FinalYear.pdf",
+//     date: "09/07/2022",
+//   },
+//   {
+//     title: "Mtech FY Schedule",
+//     fileName: "Mtech-FY.pdf",
+//     date: "19/03/2022",
+//   },
+//   ,
+//   {
+//     title: "Fy to Final-Year Btech 2021-2020 May",
+//     fileName: "Fy-FinalYear.pdf",
+//     date: "09/07/2022",
+//   },
+//   {
+//     title: "Mtech FY Schedule",
+//     fileName: "Mtech-FY.pdf",
+//     date: "19/03/2022",
+//   },
+//   {
+//     title: "Fy to Final-Year Btech 2021-2020 May",
+//     fileName: "Fy-FinalYear.pdf",
+//     date: "09/07/2022",
+//   },
+//   {
+//     title: "Mtech FY Schedule",
+//     fileName: "Mtech-FY.pdf",
+//     date: "19/03/2022",
+//   },
+// ]
 
-const FounderTrustees = () => {
+const FounderTrustees = ({ news }) => {
+  console.log(news)
   return (
     <DefaultLayout>
       <div className="w-full bg-[#24346D] pb-10">
@@ -111,7 +112,7 @@ const FounderTrustees = () => {
 
           <div className="flex flex-col ">
             <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
-              <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+              <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
                 <div className="overflow-hidden">
                   <table className="min-w-full">
                     <thead className="bg-white border-b">
@@ -130,19 +131,19 @@ const FounderTrustees = () => {
                         </th>
                         <th
                           scope="col"
-                          className="text-sm font-medium  text-left  text-gray-900 px-6 py-4"
+                          className="px-6 py-4 text-sm font-medium text-left text-gray-900"
                         >
                           File Name
                         </th>
                         <th
                           scope="col"
-                          className="text-sm font-medium  text-left  text-gray-900 px-6 py-4 "
+                          className="px-6 py-4 text-sm font-medium text-left text-gray-900 "
                         >
                           Date
                         </th>
                         <th
                           scope="col"
-                          className="text-sm font-medium  text-left   text-gray-900 px-8 py-4 "
+                          className="px-8 py-4 text-sm font-medium text-left text-gray-900 "
                         >
                           Action
                         </th>
@@ -156,25 +157,24 @@ const FounderTrustees = () => {
                             index % 2 == 0 ? "bg-gray-100" : ""
                           } border-b`}
                         >
-                          <td className="px-6 text-center py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                          <td className="px-6 py-4 text-sm font-medium text-center text-gray-900 whitespace-nowrap">
                             {index}
                           </td>
                           <td className="text-sm  max-w-[600px] text-gray-900 font-light px-6 py-4">
                             {element.title}
                           </td>
-                          <td className="text-sm    text-orange-500 font-light px-6 py-4 whitespace-nowrap">
-                            {element.fileName}
+                          <td className="px-6 py-4 text-sm font-light text-orange-500 whitespace-nowrap">
+                            <a href={element.fileUrl}>{element.fileName}</a>
                           </td>
-                          <td className="text-sm  text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                          <td className="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">
                             {element.date}
                           </td>
-                          <td className="text-sm   text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                            <button
-                              onClick={() => actionDelete(element._id)}
-                              className="px-3 py-2 text-white bg-slate-600"
-                            >
-                              Download
-                            </button>
+                          <td className="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">
+                            <a href={element.fileUrl}>
+                              <button className="px-3 py-2 text-white bg-slate-600">
+                                Download
+                              </button>
+                            </a>
                           </td>
                         </tr>
                       ))}
@@ -188,6 +188,19 @@ const FounderTrustees = () => {
       <Footer />
     </DefaultLayout>
   )
+}
+
+export async function getStaticProps() {
+  let news = []
+  news = await fetch("https://kitcoek.herokuapp.com/api/timetable/")
+  news = await news.json()
+
+  return {
+    props: {
+      news: news,
+    },
+    revalidate: 10,
+  }
 }
 
 export default FounderTrustees
