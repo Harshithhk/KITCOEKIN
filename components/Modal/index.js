@@ -19,7 +19,7 @@ export default function Modal({children,title,body}) {
               <div className="border-0 rounded-lg  max-h-[600px] sm:max-h-screen mt-16 shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                  <h3 className="text-3xl sm:text-xl text-[#3D3859] font-semibold">
+                  <h3 className="text-3xl text-[#3D3859] font-semibold">
                   {title}
                   </h3>
                   <button
@@ -32,9 +32,9 @@ export default function Modal({children,title,body}) {
                   </button>
                 </div>
                 {/*body*/}
-                <div className=" whitespace-pre-wrap relative p-6 sm:p-1 flex-auto overflow-y-scroll">
+                <div className=" whitespace-pre-wrap relative p-6 flex-auto overflow-y-scroll">
                
-                    <p className="my-4 text-slate-500 text-justify sm:my-0 text-lg leading-relaxed">
+                    <p className="my-4 text-slate-500 text-justify text-lg leading-relaxed">
                     {body}
                     </p>
                  

@@ -40,12 +40,11 @@ const NewVision = () => {
         >
           SEE NEW VISION
         </h2>
-        <p className=" leading-[22px] tracking-[0.005em] text-justify w-[403.2px] text-[#5C5487] ">
-        Experience the latest AR-VR equipment in an open session
-      Learn about the technology with a dedicated team of experts
-      Understand how to apply the tech to your specific field and build deeper learning
-      Build Applications, Games and prototypes
-      Explore career in AR-VR technology
+        <p className=" leading-[22px] tracking-[0.005em]  w-[403.2px] text-[#5C5487] ">
+          Donec convallis fusce tellus pellentesque rutrum convallis duis. Amet
+          sed vestibulum, velit, nam aliquet. Odio sit amet, leo morbi eget
+          purus. Aenean eget sollicitudin nullam sodales quis mattis facilisis
+          integer leo. Pharetra in in molestie egestas.
         </p>
         <button
           data-aos="zoom-in"

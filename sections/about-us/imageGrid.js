@@ -10,22 +10,22 @@ const ImageGrid = () => {
       <div className="flex flex-wrap w-full   sm:w-fit">
         <div className="w-3/5 sm:w-full sm:p-0 h-[401px]   p-3 ">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-3xl shadow-lg"
-            src="images/AboutUs/about3.jpg" />
+            src="images/aboutUs/about3.jpg" />
         </div>
         <div className="w-2/5 p-3  ">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-3xl shadow-lg"
-            src="images/AboutUs/about2.jpg" />
+            src="images/aboutUs/about2.jpg" />
         </div>
       </div>
             {/* ------------------------------------------------------------ */}
       <div className="flex flex-wrap w-5/6 sm:w-fit">
         <div className="w-1/2 sm:w-full h-[294px] sm:p-0  p-3 ">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-3xl shadow-lg "
-            src="images/AboutUs/about4.jpg" />
+            src="images/aboutUs/about4.jpg" />
         </div>
         <div className="w-1/2 sm:w-full h-[294px] sm:p-0  p-3 ">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-3xl shadow-lg"
-            src="images/AboutUs/about1.jpg" />
+            src="images/aboutUs/about1.jpg" />
         </div>
       </div>
             {/* ------------------------------------------------------------ */}
@@ -56,7 +56,7 @@ const ImageGrid = () => {
       <div className="flex flex-wrap p-1 w-full   ">
         <div className=" ">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-3xl shadow-lg"
-            src="images/AboutUs/about2.jpg" />
+            src="images/aboutUs/about2.jpg" />
         </div>
     
       </div>
@@ -64,7 +64,7 @@ const ImageGrid = () => {
       <div className="flex flex-wrap ">
         <div className=" p-1  w-4/6  ">
           <img alt="gallery" className="block object-cover object-center w-full  rounded-3xl shadow-lg "
-            src="images/AboutUs/about4.jpg" />
+            src="images/aboutUs/about4.jpg" />
         </div>
         {/* <div className=" p-1   w-2/6 ">
             <div className="  bg-[#3D3859] rounded-3xl h-full flex items-center shadow-lg  ">

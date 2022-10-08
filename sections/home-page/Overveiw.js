@@ -6,14 +6,12 @@ const Overveiw = () => {
       <div className="flex flex-col justify-between w-[590px] font-poppins ">
         <div className="flex items-center w-fit">
           <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
-
           <div
             data-aos="zoom-in"
             data-aos-delay="0"
             className="ml-3 md:ml-2 w-fit italic font-[800]   text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]"
           >
             KIT’S OVERVIEW
-
           </div>
         </div>
 
@@ -45,7 +43,7 @@ const Overveiw = () => {
       </div>
       <div className="w-[719.46px] md:w-[350px] md:h-[269px] md:mt-[32px]">
         <div className="flex justify-between mb-[14px]">
-          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/aboutUs/about2.jpg)] bg-cover bg-center"></div>
+          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/HomePage/bird1.jpeg)] bg-cover bg-center"></div>
           <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/HomePage/bird2.jpeg)] bg-center"></div>
           <div className="flex items-center leading-[45px] tracking-[0.005em] italic underline w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[#3E395A] text-[#FFFFFF] font-[700] text-center text-[29.9774px] md:text-xl">
             <div
