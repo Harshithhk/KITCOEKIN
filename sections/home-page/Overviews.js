@@ -38,8 +38,8 @@ const Overviews = () => {
       {/* __________IMAGES__________ */}
       <div className="w-[719.46px] md:w-[100%] md:h-[269px] md:mt-4 md:p-[4px] md:mx-auto">
         <div className="flex justify-between mb-[14px]">
-          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/aboutUs/about2.jpg)] bg-cover bg-center"></div>
-          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/aboutUs/about5.jpg)] bg-center bg-cover"></div>
+          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/AboutUs/about2.jpg)] bg-cover bg-center"></div>
+          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/AboutUs/about5.jpg)] bg-center bg-cover"></div>
           <a href="kit-gallery?Tab=1">
           <div className="flex items-center leading-[45px] tracking-[0.005em] italic hover:cursor-pointer hover:underline w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[#3E395A] text-[#FFFFFF] font-[700] text-center text-[29.9774px] md:text-xl">
             <div
@@ -54,8 +54,8 @@ const Overviews = () => {
           </a>
         </div>
         <div className="flex justify-between ">
-          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/aboutUs/about7.jpg)] bg-center bg-cover"></div>
-          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/aboutUs/about1.jpg)] bg-center bg-cover"></div>
+          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/AboutUs/about7.jpg)] bg-center bg-cover"></div>
+          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/AboutUs/about1.jpg)] bg-center bg-cover"></div>
           <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/HomePage/Polygon.png)] bg-center bg-cover"></div>
         </div>
       </div>
