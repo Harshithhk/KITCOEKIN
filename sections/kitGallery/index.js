@@ -67,6 +67,12 @@ const Gallery = (props) => {
             case 4:
                 break;
             case 5:
+              SrcList = [
+                {
+                  "src":"images/LifeAtKit/1.jpg"
+                },
+                
+              ]
                 break;
             case 6:
                 break;
