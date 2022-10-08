@@ -1,5 +1,5 @@
 import React from "react";
-import PreLoader from "../../../../styles/PreLoader.module.css";
+import PreLoader from "../../../../styles/preLoader.module.css";
 import { Markup } from 'interweave';
 
 const Msg = (props) =>{
