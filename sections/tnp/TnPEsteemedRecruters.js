@@ -36,16 +36,16 @@ const TnPEsteemedRecruiters = () => {
   //   "/images/recruiters/recruiters-01.png
   // ]
   let avatars = [
-    "/images/tnp/vp.jpg",
-    "/images/tnp/gc.jpg",
-    "/images/tnp/pg.jpg",
-    "/images/tnp/vp.jpg",
-    "/images/tnp/pg.jpg",
-    "/images/tnp/gc.jpg",
-    "/images/tnp/vp.jpg",
-    "/images/tnp/pg.jpg",
-    "/images/tnp/gc.jpg",
-    "/images/tnp/vp.jpg",
+    "/images/TnP/vp.jpg",
+    "/images/TnP/gc.jpg",
+    "/images/TnP/pg.jpg",
+    "/images/TnP/vp.jpg",
+    "/images/TnP/pg.jpg",
+    "/images/TnP/gc.jpg",
+    "/images/TnP/vp.jpg",
+    "/images/TnP/pg.jpg",
+    "/images/TnP/gc.jpg",
+    "/images/TnP/vp.jpg",
   ]
 
   return (
@@ -55,7 +55,7 @@ const TnPEsteemedRecruiters = () => {
                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                 ESTEEMED RECRUITERS
               </div>
-    <section className="p-[50px] py-[160px]   bg-secondary md:p-[16px] bg-[url('/images/tnp/csm_worldmap_5832344b9b.png')]  bg-center bg-no-repeat  ">
+    <section className="p-[50px] py-[160px]   bg-secondary md:p-[16px] bg-[url('/images/TnP/csm_worldmap_5832344b9b.png')]  bg-center bg-no-repeat  ">
      
       <div className=" p-11  w-full md:p-[16px] md:mt-0">
         <div className=" grid grid-cols-6 gap-5 divide-x-2 divide-y-2 backdrop-blur-[.5px] sm:backdrop-blur-0  h-full md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-[20px]">

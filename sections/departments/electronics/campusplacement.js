@@ -87,7 +87,7 @@ const CampusPlacement = () => {
             <div className="cursor-pointer flex items-center w-full h-16 p-2  text-center shadow-sm rounded-2xl bg-blue-50">
               <div className=" w-[34%] md:w-[50%] text-left pl-2 flex items-center">
                 <div className="h-10 w-10 mr-2">
-                  <img src="/images/tnp/Gallery-icon.png" alt="" />
+                  <img src="/images/TnP/Gallery-icon.png" alt="" />
                 </div>
                 Screeshot.png
               </div>
@@ -99,7 +99,7 @@ const CampusPlacement = () => {
             <div className="cursor-pointer flex items-center w-full h-16 p-2 mt-6 text-center shadow-sm rounded-2xl bg-blue-50">
               <div className=" w-[34%] md:w-[50%] text-left pl-2 flex items-center">
                 <div className="h-10 w-10 mr-2">
-                  <img src="/images/tnp/Gallery-icon.png" alt="" />
+                  <img src="/images/TnP/Gallery-icon.png" alt="" />
                 </div>
                 Screenshot.png
               </div>
@@ -111,7 +111,7 @@ const CampusPlacement = () => {
             <div className="cursor-pointer flex items-center w-full h-16 p-2 mt-6 text-center shadow-sm rounded-2xl bg-blue-50">
               <div className=" w-[34%] md:w-[50%] text-left pl-2 flex items-center">
                 <div className="h-10 w-10 mr-2">
-                  <img src="/images/tnp/Gallery-icon.png" alt="" />
+                  <img src="/images/TnP/Gallery-icon.png" alt="" />
                 </div>
                 Screeshot.png
               </div>
@@ -123,7 +123,7 @@ const CampusPlacement = () => {
             <div className="cursor-pointer flex items-center w-full h-16 p-2 mt-6 text-center shadow-sm rounded-2xl bg-blue-50">
               <div className=" w-[34%] md:w-[50%] text-left pl-2 flex items-center">
                 <div className="h-10 w-10 mr-2">
-                  <img src="/images/tnp/Gallery-icon.png" alt="" />
+                  <img src="/images/TnP/Gallery-icon.png" alt="" />
                 </div>
                 Screeshot.png
               </div>

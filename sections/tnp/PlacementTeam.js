@@ -5,48 +5,48 @@ const PlacementTeam = () => {
         {
           name: "Mr. Rutuparna P. Karkare",
           designation: "Biotechnology Engineering",
-          img: "/images/Tnp/placementTeam/r-p-karkare.jpg",
+          img: "/images/TnP/placementTeam/r-p-karkare.jpg",
         },
         {
           name: "Mr. Guruprasad A. Chavan",
           designation: "Civil Engineering",
-          img: "/images/Tnp/placementTeam/guruprasad-chavan.jpg ",
+          img: "/images/TnP/placementTeam/guruprasad-chavan.jpg ",
         },
         {
           name: "Mr Chaitanya B. Pednekar ",
           designation: "Computer Science Engineering",
-          img: "/images/Tnp/placementTeam/chaitnya-b-pednekar.jpg",
+          img: "/images/TnP/placementTeam/chaitnya-b-pednekar.jpg",
         },
         {
           name: "Mr. Vivek K. Desai",
           designation: "Electronics Engineering",
-          img: "/images/Tnp/placementTeam/vivek-desai.jpg",
+          img: "/images/TnP/placementTeam/vivek-desai.jpg",
         },
       
         {
           name: "Mr. E. C. Patil",
           designation: "Electronics & Telecommunication Engineering",
-          img: "/images/Tnp/placementTeam/e-c-patil.jpg",
+          img: "/images/TnP/placementTeam/e-c-patil.jpg",
         },
         {
           name: "Mr. Vinay S. Prabhavalkar",
           designation: "Computer Science Engineering",
-          img: "/images/Tnp/placementTeam/vijay-s-prabhavlkar.jpg",
+          img: "/images/TnP/placementTeam/vijay-s-prabhavlkar.jpg",
         },
         {
           name: "Mr. Pravin S.Gosavi",
           designation: "Mechanical Engineering",
-          img: "/images/Tnp/placementTeam/pravin-gosavi.jpg",
+          img: "/images/TnP/placementTeam/pravin-gosavi.jpg",
         },
         {
           name: "Mr. Ashish T. Patil ",
           designation: "Mechanical Engineering",
-          img: "/images/Tnp/placementTeam/ashish-patil.jpg",
+          img: "/images/TnP/placementTeam/ashish-patil.jpg",
         },
         {
             name: "Mr. Bharat C. Ingavale ",
             designation: "Environment Engineering  ",
-            img: "/images/Tnp/placementTeam/bharat-ingavale.jpg",
+            img: "/images/TnP/placementTeam/bharat-ingavale.jpg",
           }
       ]
 
@@ -54,12 +54,12 @@ const PlacementTeam = () => {
         {
             name: "Mr.Arun S. Aswale",
             designation: "Laboratory Assistant",
-            img: "/images/Tnp/placementTeam/arun-aswale.jpg",
+            img: "/images/TnP/placementTeam/arun-aswale.jpg",
         },
         {
             name: "Mr. Tanaji Patil",
             designation: "Peon",
-            img: "/images/Tnp/placementTeam/tanaji-patil.jpg",
+            img: "/images/TnP/placementTeam/tanaji-patil.jpg",
         },
     ]
     return(
