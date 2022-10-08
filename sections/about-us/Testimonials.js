@@ -4,7 +4,7 @@ import Testimonials2 from "../home-page/Testimonials"
 
 const Testimonials = () => {
   return (
-    <section className="h-[564px] sm:h-fit sm:py-16 bg-[#24346D] mt-20 sm:mt-8  flex justify-center items-center relative overflow-hidden">
+    <section className="h-[564px] sm:h-fit sm:py-16 bg-[#24346D] mt-20 sm:mt-20  flex justify-center items-center relative overflow-hidden">
       <img
         src="/images/AboutUs/bgcircle.png"
         className="w-24 h-24 absolute top-[17.5%] left-[35%] z-10 sm:w-16 sm:h-16 sm:top-[10%] sm:left-[70%]"

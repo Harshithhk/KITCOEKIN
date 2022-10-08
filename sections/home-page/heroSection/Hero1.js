@@ -7,14 +7,14 @@ function Hero1(props) {
         src="/images/HomePage/herobg1.png"
         data-aos="zoom-in"
         data-aos-delay="20"
-        className="h-[621px]   object-cover float-right"
+        className="h-[621px]   object-cover  float-right"
         alt="Hero-Background.png"
         srcSet=""
       />
-      <div className="absolute md:block w-[580px] h-full md:h-[500px] md:w-screen left-[50px] md:left-0 top-0 md:top-auto md:bottom-0  bg-opacity-60 flex  mt-10">
+      <div className="absolute md:block  w-[580px] h-full md:h-[500px] md:w-screen left-[50px] md:left-0 top-0 md:top-auto md:bottom-0  bg-opacity-60 flex  mt-10">
         <div className="mt-8 md:translate-x-0 relative">
           {/* TITLE */}
-          <div className="flex flex-col italic font-extrabold md:flex md:justify-center md:items-center">
+          <div className="sm:hidden flex flex-col italic font-extrabold md:flex md:justify-center md:items-center">
             <div
               data-aos="zoom-in"
               data-aos-delay="20"
@@ -32,7 +32,7 @@ function Hero1(props) {
             </div>
           </div>
 
-          <div className=" text-lg text-accent ml-8 w-auto mt-7 md:text-sm md:w-[280px] md:translate-x-0  md:p-1 md:text-center md:text-white">
+          <div className="sm:hidden text-lg text-accent ml-8 w-auto mt-7 md:text-sm md:w-[280px] md:translate-x-0  md:p-1 md:text-center md:text-white">
           A degree will give you the opportunity to develop transferable 
           skills such as communication and problem-solving skills,
            while enhancing their ability to work as part of a team.
@@ -41,7 +41,7 @@ function Hero1(props) {
        
           
         <a href="#btech">
-            <button className="text-2xl cursor-pointer italic font-bold text-white flex items-center rounded-md bg-[#F07C00] px-5 py-2 ml-8 mt-7 relative hover:bg-[#b3620c] md:translate-x-8">
+            <button className="text-2xl sm:absolute sm:-bottom-96 cursor-pointer italic font-bold text-white flex items-center rounded-md bg-[#F07C00] px-5 py-2 ml-8 mt-7 relative hover:bg-[#b3620c] md:translate-x-8">
               LET'S BEGIN
               <span className="ml-2 text-xl font-extrabold"> &gt;&gt;</span>
               
@@ -50,7 +50,7 @@ function Hero1(props) {
             
           
                   
-        <div className="w-40  flex justify-between h-fit md:left-1/4 items-center absolute bottom-[80px] left-[250px]  ">
+        <div className="w-40  flex justify-between h-fit md:left-1/4 items-center absolute bottom-[80px] sm:-bottom-20 sm:hidden left-[250px]  ">
                 <div className="flex justify-center items-center h-4 hover:cursor-pointer">
                   <div className=" bg-slate-400  w-8 h-[3px]"></div>
                 </div>

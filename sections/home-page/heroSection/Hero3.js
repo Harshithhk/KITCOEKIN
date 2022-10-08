@@ -35,40 +35,40 @@ function Hero3(props) {
 
           <div className="flex flex-col gap-y-2 text-xl text-accent ml-8 w-auto mt-7 md:text-sm md:w-[280px] md:translate-x-0  md:p-1 md:text-center md:text-white">
             <div className='flex'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path strokeLinecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Visionary Industrialist's College
             </div>
             <div className='flex'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path strokeLinecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Great Placement Record and Support
 
             </div>
             <div className='flex'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path strokeLinecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Faculty with Rich Experience
 
             </div>
             <div className='flex'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path strokeLinecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Industry Integrated Up-to-Date Curriculum
             </div>
             <div className='flex'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path strokeLinecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Vibrant Campus Life
             </div>
             <div className='flex'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path strokeLinecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               State-of-the-art infrastructure
             </div>
@@ -83,7 +83,7 @@ function Hero3(props) {
               
             </button>     
           </a> */}
-          <div className="w-40  flex justify-between h-fit md:left-1/4 items-center absolute bottom-[80px] left-[250px] ">
+          <div className="w-40  flex justify-between h-fit md:left-1/4 items-center absolute bottom-[80px] sm:-bottom-20 left-[250px] ">
                 <div className="flex justify-center items-center h-4 hover:cursor-pointer" onClick={()=>{props.setCount(0)}}>
                   <div className=" bg-slate-300  w-8 h-[2.5px] opacity-50"></div>
                 </div>

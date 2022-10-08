@@ -6,7 +6,7 @@ import Hero4 from "./heroSection/Hero4"
 import React from "react"
 
 const HeroSectionUpdated = () => {
-  const [count, setCount] = React.useState(3)
+  const [count, setCount] = React.useState(0)
 
   // React.useEffect(() => {
   //   setTimeout(()=>{
@@ -21,12 +21,11 @@ const HeroSectionUpdated = () => {
   // React.useEffect(() => {
   //  console.log(count)
   // }, [count])
+  
 
   return (
     <section className=" h-[621px] md:h-[calc(100vh-88px)] w-full overflow-hidden  relative mb-4  md:mb-0 md:overflow-hidden">
     {count == 0 ? <Hero1 setCount = {setCount} /> : count == 1 ? <Hero2 setCount = {setCount} /> : count == 2 ? <Hero3 setCount = {setCount} /> : count == 3 ? <Hero4 setCount = {setCount} /> : null}
-    
-    
     
     </section>
   )
