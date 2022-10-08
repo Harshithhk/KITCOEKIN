@@ -55,8 +55,6 @@ const TnP = () => {
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-secondary px-14 sm:px-4 sm:pb-10">
           <img
-            data-aos="zoom-in"
-            data-aos-delay="0"
             className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
             src="/images/TnP/indicator.png"
             alt=""
@@ -65,11 +63,7 @@ const TnP = () => {
           <div className="flex justify-between sm:flex-col">
             <div>
               <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
-                <div
-                  data-aos="zoom-in"
-                  data-aos-delay="0"
-                  className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "
-                ></div>
+                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                 TPO&apos;S MESSAGE
               </div>
               <div className="mt-10 text-justify sm:mt-4 w-[800px] text-xl text-accent sm:w-full sm:text-base">
@@ -86,21 +80,17 @@ const TnP = () => {
             </div>
             <div className="md:mx-auto w-[300px] h-[370px] bg-transparent   mt-16 mr-6 rounded-xl text-white text-2xl md:text-xl  items-center justify-between flex flex-col md:mt-14">
               <div className="absolute bg-[#24346D]  w-[300px] sm:w-[305px] h-36 mt-36"></div>
-              <div className="relative overflow-hidden bg-transparent sm:-mx-1 sm:-mt-1 ">
-                <img
-                  data-aos="zoom-in"
-                  data-aos-delay="0"
-                  src="/images/tnp/amit-sarkar.png "
-                  className=""
-                  alt="mamtakalas.png"
-                />
+              <div className="overflow-hidden relative bg-transparent sm:-mx-1 sm:-mt-1 ">
+                <img src="/images/TnP/amit-sarkar.png " className=" " alt="mamtakalas.png" />
               </div>
-              <div className="mt-2 mb-2 flex flex-col py-2 items-center font-medium text-[#24346D]">
-                <div className="bg-primary w-16 h-[3px]   rounded-xl"></div>
-                Dr Amit R Sarkar
-              </div>
+              <div className="mt-2 mb-2 flex flex-col py-2 items-center  text-[#24346D]">
+                  <div className="bg-primary w-16 h-[3px]   rounded-xl"></div>
+                  Dr Amit R Sarkar
+
+              </div> 
             </div>
           </div>
+   
         </section>
         <section className="relative rounded-3xl -mt-10 pt-10 z-30 w-[95%] mx-auto pb-20 h-fit bg-secondary px-14 sm:px-4 sm:pb-10">
           <Career />
@@ -109,7 +99,7 @@ const TnP = () => {
         <section className="mt-16 pt-10 z-30 w-[100%] mx-auto pb-20 h-fit bg-secondary px-14 sm:px-4 sm:pb-10">
           <TextSlider />
         </section>
-
+      
         {/* <CampusPlacement /> */}
         <TnPEsteemedRecruiters />
         <BranchPlacement />

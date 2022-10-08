@@ -23,11 +23,7 @@ const CampusPlacement = () => {
         <img src="/images/TnP/stats.png" className="md:hidden w-[65%]" alt="" />
 
         <div className="md:mt-8 md:w-full md:-translate-x-0 -translate-x-10 w-[550px] float-right bg-white rounded-2xl overflow-hidden ">
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className="h-16 bg-white flex items-center text-[#24346D] px-7 border-b border-[#24346D] font-bold text-xl"
-          >
+          <div className="h-16 bg-white flex items-center text-[#24346D] px-7 border-b border-[#24346D] font-bold text-xl">
             CAMPUS PLACEMENT IN LAST 3 YEARS
           </div>
           <div className="flex h-16 mx-10 border-b-2 ">
@@ -82,16 +78,16 @@ const CampusPlacement = () => {
           </div>
         </div>
       </section>
-      <section className="flex w-full pb-10 mt-10 bg-white md:flex-col">
+      <section className="w-full mt-10 pb-10 bg-white flex md:flex-col">
         <section className="md:overflow-x-scroll max-w-screen w-[50%] md:w-full">
-          <section className="relative z-30 w-full pt-10 pb-20 mx-auto h-fit px-14 sm:px-4 sm:pb-10 ">
-            <h1 className="mb-4 ml-2 text-2xl font-bold md:ml-0">
+          <section className="relative pt-10  z-30 w-full pb-20 mx-auto h-fit px-14 sm:px-4 sm:pb-10  ">
+            <h1 className="text-2xl font-bold md:ml-0 ml-2 mb-4">
               Recent Files
             </h1>
-            <div className="flex items-center w-full h-16 p-2 text-center shadow-sm cursor-pointer rounded-2xl bg-blue-50">
+            <div className="cursor-pointer flex items-center w-full h-16 p-2  text-center shadow-sm rounded-2xl bg-blue-50">
               <div className=" w-[34%] md:w-[50%] text-left pl-2 flex items-center">
-                <div className="w-10 h-10 mr-2">
-                  <img src="/images/tnp/Gallery-icon.png" alt="" />
+                <div className="h-10 w-10 mr-2">
+                  <img src="/images/TnP/Gallery-icon.png" alt="" />
                 </div>
                 Screeshot.png
               </div>
@@ -100,10 +96,10 @@ const CampusPlacement = () => {
               </div>
               <div className=" w-[33%] md:w-[15%] text-left pl-2">4.5 Mb</div>
             </div>
-            <div className="flex items-center w-full h-16 p-2 mt-6 text-center shadow-sm cursor-pointer rounded-2xl bg-blue-50">
+            <div className="cursor-pointer flex items-center w-full h-16 p-2 mt-6 text-center shadow-sm rounded-2xl bg-blue-50">
               <div className=" w-[34%] md:w-[50%] text-left pl-2 flex items-center">
-                <div className="w-10 h-10 mr-2">
-                  <img src="/images/tnp/Gallery-icon.png" alt="" />
+                <div className="h-10 w-10 mr-2">
+                  <img src="/images/TnP/Gallery-icon.png" alt="" />
                 </div>
                 Screenshot.png
               </div>
@@ -112,10 +108,10 @@ const CampusPlacement = () => {
               </div>
               <div className=" w-[33%] md:w-[15%] text-left pl-2">4.5 Mb</div>
             </div>
-            <div className="flex items-center w-full h-16 p-2 mt-6 text-center shadow-sm cursor-pointer rounded-2xl bg-blue-50">
+            <div className="cursor-pointer flex items-center w-full h-16 p-2 mt-6 text-center shadow-sm rounded-2xl bg-blue-50">
               <div className=" w-[34%] md:w-[50%] text-left pl-2 flex items-center">
-                <div className="w-10 h-10 mr-2">
-                  <img src="/images/tnp/Gallery-icon.png" alt="" />
+                <div className="h-10 w-10 mr-2">
+                  <img src="/images/TnP/Gallery-icon.png" alt="" />
                 </div>
                 Screeshot.png
               </div>
@@ -124,10 +120,10 @@ const CampusPlacement = () => {
               </div>
               <div className=" w-[33%] md:w-[15%] text-left pl-2">4.5 Mb</div>
             </div>
-            <div className="flex items-center w-full h-16 p-2 mt-6 text-center shadow-sm cursor-pointer rounded-2xl bg-blue-50">
+            <div className="cursor-pointer flex items-center w-full h-16 p-2 mt-6 text-center shadow-sm rounded-2xl bg-blue-50">
               <div className=" w-[34%] md:w-[50%] text-left pl-2 flex items-center">
-                <div className="w-10 h-10 mr-2">
-                  <img src="/images/tnp/Gallery-icon.png" alt="" />
+                <div className="h-10 w-10 mr-2">
+                  <img src="/images/TnP/Gallery-icon.png" alt="" />
                 </div>
                 Screeshot.png
               </div>
