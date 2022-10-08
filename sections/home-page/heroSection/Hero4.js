@@ -53,7 +53,7 @@ function Hero4(props) {
               
             </button>     
           </a>
-          <div className="w-40  flex justify-between h-fit md:left-1/4 items-center absolute bottom-[80px] left-[250px] ">
+          <div className="w-40  flex justify-between h-fit md:left-1/4 items-center absolute bottom-[80px] sm:-bottom-20 left-[250px] ">
                 <div className="flex justify-center items-center h-4 hover:cursor-pointer" onClick={()=>{props.setCount(0)}}>
                   <div className=" bg-slate-300  w-8 h-[2.5px] opacity-50"></div>
                 </div>
