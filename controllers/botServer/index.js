@@ -14,7 +14,8 @@ const  BotServer =  async (switchApi,input) => {
     const intent = {}
 
     const chatbotApis = {
-        "getChatApi":"http://127.0.0.1:8050/getChat",
+        // "getChatApi":"http://127.0.0.1:5000/getChat",
+        "getChatApi":"http://ec2-13-235-33-19.ap-south-1.compute.amazonaws.com:5000/getChat",
         "getIntentsApi":"http://127.0.0.1:8050/getIntents",
         "storeChatApi":"http://127.0.0.1:8050/storeChat",
         "storeIntentApi":"http://127.0.0.1:8050/storeIntent",
