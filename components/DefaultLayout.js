@@ -5,7 +5,7 @@ function DefaultLayout(props) {
   return (
     <div className="bg-white scroll-smooth max-w-[1536px] mx-auto">
       <Navbar />
-      {/* <ChatBot /> */}
+      <ChatBot />
       <div>{props.children}</div>
     </div>
   )
