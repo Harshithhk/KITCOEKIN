@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex justify-end flex-1 ">
-          <div className="mr-8 text-2xl font-semibold text-right text-white -translate-y-20 cursor-pointer md:mr-2 md:-translate-y-2">
+          <div className="mr-8 text-2xl font-semibold text-right text-white -translate-y-10 cursor-pointer md:mr-2 md:-translate-y-2">
             <div className="sm:text-2xl text-3xl font-bold text-[#F07C00] mt-3">
               Resources
             </div>

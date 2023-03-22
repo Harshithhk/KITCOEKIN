@@ -19,7 +19,7 @@ const HeroSection = () => {
               className="bg-slate-50 h-24 md:h-16 w-fit px-14 py-4 md:py-4  md:px-4  text-7xl md:text-5xl flex justify-center items-center  text-[#5C5487] mx-auto  whitespace-nowrap"
             >
               What Will
-              <span className="text-[#F07C00] ml-[13px] italic"> KIT</span>
+              <span className="text-[#F07C00] ml-[13px] italic"> KITCOEK</span>
             </div>
             <div
               data-aos="zoom-in"

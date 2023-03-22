@@ -1,5 +1,8 @@
 import Image from "next/image"
+import { useEffect, useState } from "react"
 const BtechHonours = () => {
+  const [active, setActive] = useState(0)
+
   return (
     <section
       id="btech"
@@ -16,25 +19,71 @@ const BtechHonours = () => {
             NEW B.TECH HONOURS
           </div>
         </div>
-        <div
-          data-aos="zoom-in"
-          data-aos-delay="0"
-          className="flex-1 h-full md:hidden"
-        >
-          <img
-            className="h-[90%] w-[90%] mt-8"
-            src="/images/HomePage/Btech-Honours/Btech Honours.svg"
-          ></img>
-        </div>
+        {active == 0 && (
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="0"
+            className="flex-1 h-full md:hidden"
+          >
+            <img
+              className="h-[90%] w-[90%] mt-8"
+              src="/images/HomePage/Btech-Honours/Btech Honours.svg"
+            ></img>
+          </div>
+        )}
+        {active == 1 && (
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="0"
+            className="flex-1 h-full md:hidden"
+          >
+            <img
+              className="h-[90%] w-[90%] mt-8"
+              src="/images/HomePage/Btech-Honours/Btech Honours.svg"
+            ></img>
+          </div>
+        )}
+        {active == 2 && (
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="0"
+            className="flex-1 h-full md:hidden"
+          >
+            <img
+              className="h-[90%] w-[90%] mt-8"
+              src="/images/HomePage/Btech-Honours/Btech Honours.svg"
+            ></img>
+          </div>
+        )}
+        {active == 3 && (
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="0"
+            className="flex-1 h-full md:hidden"
+          >
+            <img
+              className="h-[90%] w-[90%] mt-8"
+              src="/images/HomePage/Btech-Honours/Btech Honours.svg"
+            ></img>
+          </div>
+        )}
       </div>
       <div className="w-[608px] ml-auto md:mx-auto md:w-full">
         {/* ------------------BLOCK ----------------- */}
         <div
-          data-aos="fade-in"
-          data-aos-delay="0"
-          className="relative flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-[#3D3859] rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
+          onClick={() => setActive(0)}
+          style={{ background: active == 0 ? "#3D3859" : "" }}
+          className="relative cursor-pointer flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE]  rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
         >
+          <div
+            className={`absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7 ${
+              active == 0 && "opacity-0"
+            }`}
+          >
+            1790
+          </div>
           <Image
+            className={`${active !== 0 && "opacity-0"}`}
             src="/images/HomePage/Btech-Honours/Bulb.svg"
             width={95}
             height={80}
@@ -51,15 +100,20 @@ const BtechHonours = () => {
         {/* ------------------BLOCK ----------------- */}
 
         <div
-          data-aos="fade-in"
-          data-aos-delay="10"
-          className="relative flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
+          onClick={() => setActive(1)}
+          style={{ background: active == 1 ? "#3D3859" : "" }}
+          className="relative cursor-pointer flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
         >
-          <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
+          <div
+            className={`absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7 ${
+              active == 1 && "opacity-0"
+            }`}
+          >
             3.84
           </div>
           <Image
-            src="/images/HomePage/Btech-Honours/Bub.svg"
+            className={`${active != 1 && "opacity-0"}`}
+            src="/images/HomePage/Btech-Honours/Bulb.svg"
             width={95}
             height={80}
           ></Image>
@@ -75,15 +129,20 @@ const BtechHonours = () => {
         {/* ------------------BLOCK ----------------- */}
 
         <div
-          data-aos="fade-in"
-          data-aos-delay="20"
-          className="relative flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
+          onClick={() => setActive(2)}
+          style={{ background: active == 2 ? "#3D3859" : "" }}
+          className="relative cursor-pointer flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
         >
-          <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
+          <div
+            className={`absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7 ${
+              active == 2 && "opacity-0"
+            }`}
+          >
             86
           </div>
           <Image
-            src="/images/HomePage/Btech-Honours/Bub.svg"
+            className={`${active != 2 && "opacity-0"}`}
+            src="/images/HomePage/Btech-Honours/Bulb.svg"
             width={95}
             height={80}
           ></Image>
@@ -99,15 +158,20 @@ const BtechHonours = () => {
         {/* ------------------BLOCK ----------------- */}
 
         <div
-          data-aos="fade-in"
-          data-aos-delay="30"
-          className=" relative flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
+          onClick={() => setActive(3)}
+          style={{ background: active == 3 ? "#3D3859" : "" }}
+          className=" relative cursor-pointer flex w-[420px] md:w-[97.5%] md:h-[95px] h-[130px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE] rounded-xl ml-auto md:mr-auto p-4 mt-3"
         >
-          <div className="absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7">
+          <div
+            className={`${
+              active == 3 && "opacity-0"
+            } absolute top-0 left-0 w-full h-full text text-[115px] text-white font-bold opacity-5 flex  items-center p-7`}
+          >
             400
           </div>
           <Image
-            src="/images/HomePage/Btech-Honours/Blb.svg"
+            className={`${active != 3 && "opacity-0"}`}
+            src="/images/HomePage/Btech-Honours/Bulb.svg"
             width={95}
             height={80}
           ></Image>
