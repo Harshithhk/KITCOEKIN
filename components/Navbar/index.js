@@ -21,15 +21,13 @@ const Navbar = () => {
 
   const router = useRouter()
   return (
-
-    <nav 
-    id="Navbar"
+    <nav
+      id="Navbar"
       className={`h-[75px] sticky top-0 z-50  md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
         router.route != "/" ? "bg-[#24346D]" : "bg-slate-50"
-
-  
       }`}
     >
+      {/* <div className="bg-white/50  h-full p-5 flex justify-center items-center rounded-b-xl "> */}
       <Link href="/" passHref>
         <img
           src={`${
@@ -42,6 +40,7 @@ const Navbar = () => {
           srcSet=""
         />
       </Link>
+      {/* </div> */}
       <ul
         className={`sm:hidden flex justify-between w-3/4 ml-auto text-lg ${
           router.route != "/" ? "text-white" : "text-[#666666]"
@@ -99,9 +98,8 @@ const Navbar = () => {
 
       {othersNavOpen && (
         // <OthersNavbar setOthersNavOpen = {setOthersNavOpen}/>
-        <OthersMegaNavbar setOthersNavOpen = {setOthersNavOpen} />
+        <OthersMegaNavbar setOthersNavOpen={setOthersNavOpen} />
       )}
-
 
       <div
         className="ml-auto space-y-2 HAMBURGER-ICON sm:block 2xl:hidden"
