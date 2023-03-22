@@ -129,7 +129,9 @@ const AdmissionUndergraduate = () => {
   //   ]
 
   const getEvents = async () => {
-    let res = await axios.get("https://kitcoek.herokuapp.com/api/timetable/")
+    let res = await axios.get(
+      "http://ec2-13-235-33-19.ap-south-1.compute.amazonaws.com:8080/api/timetable/"
+    )
     console.log(res)
     setNews(res.data)
   }

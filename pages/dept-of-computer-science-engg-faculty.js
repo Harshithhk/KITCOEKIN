@@ -78,8 +78,11 @@ const CseEngineeringFaculty = ({ staff }) => {
                 TEACHING STAFF (P.G)
               </div>
               {/* -------------- */}
-              {PGstaff.map((element) => (
-                <div className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 ">
+              {PGstaff.map((element, index) => (
+                <div
+                  key={index}
+                  className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 "
+                >
                   <div className="max-w-3xl">
                     <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
                       <div className="flex flex-row sm:flex-col gap-x-2">
@@ -136,8 +139,11 @@ const CseEngineeringFaculty = ({ staff }) => {
                 TEACHING STAFF (U.G)
               </div>
               {/* -------------- */}
-              {UGstaff.map((element) => (
-                <div className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 ">
+              {UGstaff.map((element, index) => (
+                <div
+                  key={index}
+                  className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 "
+                >
                   <div className="max-w-3xl">
                     <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
                       <div className="flex flex-row sm:flex-col gap-x-2">
@@ -263,7 +269,7 @@ const CseEngineeringFaculty = ({ staff }) => {
 export async function getStaticProps() {
   let staff = []
   staff = await fetch(
-    "https://kitcoek.herokuapp.com/api/teachingstaff?department=Computer%20Science"
+    "http://ec2-13-235-33-19.ap-south-1.compute.amazonaws.com:8080/api/teachingstaff?department=Computer%20Science"
   )
   staff = await staff.json()
 
