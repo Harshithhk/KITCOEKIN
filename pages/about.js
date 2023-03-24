@@ -30,7 +30,7 @@ const About = () => {
 
   return (
     <DefaultLayout>
-      <div className="relative w-full">
+      <div className="relative w-full overflow-hidden">
         {gallary && <Gallaryslider images={images} setGallary={setGallary} />}
         <section className="relative flex flex-col items-center w-full">
           <img
@@ -84,14 +84,14 @@ const About = () => {
             <ImageGrid />
             {/* <img
               src="/images/AboutUs/IMAGE-GALLARY-1.png"
-              className="w-full h-full sm:hidden 2xl:block"
-              alt=""
-            />
-            <img
-              src="/images/AboutUs/Gallary-mobile-1.png"
-              className="w-full h-full sm:block 2xl:hidden"
+              className="w-full h-full sm:block xxl:hidden"
               alt=""
             /> */}
+            <img
+              src="/images/AboutUs/Gallary-mobile-1.png"
+              className="w-full h-full sm:block xxl:hidden"
+              alt=""
+            />
           </div>
         </section>
         <AboutUs />

@@ -66,7 +66,7 @@ const CsEngineering = () => {
               className="w-full h-full sm:block 2xl:hidden"
               alt=""
             /> */}
-            <ImageGrid/>
+            <ImageGrid />
           </div>
         </section>
         <section className="mt-16 mx-auto  w-[1407px] sm:w-[90%] sm:mt-8"></section>

@@ -63,7 +63,7 @@ const QuickLinksCard = () => {
                 <QuickLinks.SubPlates logo="document">Student Achievements 2019-20</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
-            <QuickLinks.Plates>Department Gallery</QuickLinks.Plates>
+            <QuickLinks.Plates href="kit-gallery?Tab=1">Department Gallery</QuickLinks.Plates>
             <QuickLinks.Plates href="dept-of-mechanical-engg-news">Newsletter</QuickLinks.Plates>
            
 

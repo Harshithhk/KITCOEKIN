@@ -2,7 +2,7 @@ import React from "react"
 
 const OurVision = () => {
   return (
-    <section className=" mx-auto flex sm:flex-col w-[1407px] sm:w-[90%] sm:mt-16 mb-36 sm:mb-16">
+    <section className=" mx-auto flex sm:flex-col max-w-[1407px] sm:w-[90%] sm:mt-16 mb-36 sm:mb-16">
       <div className="w-1/2 sm:w-[90%] sm:hidden">
         <img
           src="/images/AboutUs/Vision.svg"
@@ -25,11 +25,12 @@ const OurVision = () => {
           />
         </div>
         <div className="text-xl text-justify pr-12 sm:pr-0  sm:mt-4  mt-8 text-[#24346D] font-semibold sm:font-normal sm:text-base">
-        To Be Preferred Choice Of Stakeholders By Building Core Theoretical And Practical Skills In The Students And Abreast Them To Be Globally Competent With The Latest Technologies, Skills And Developments Emerging In The Field Of Computer Science And Engineering
+          To Be Preferred Choice Of Stakeholders By Building Core Theoretical
+          And Practical Skills In The Students And Abreast Them To Be Globally
+          Competent With The Latest Technologies, Skills And Developments
+          Emerging In The Field Of Computer Science And Engineering
         </div>
       </div>
-
-      
     </section>
   )
 }

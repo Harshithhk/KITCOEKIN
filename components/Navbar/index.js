@@ -23,23 +23,28 @@ const Navbar = () => {
   return (
     <nav
       id="Navbar"
-      className={`h-[75px] sticky top-0 z-50  md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
+      className={`h-[75px]  sticky top-0 z-50  md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
         router.route != "/" ? "bg-[#24346D]" : "bg-slate-50"
       }`}
     >
       {/* <div className="bg-white/50  h-full p-5 flex justify-center items-center rounded-b-xl "> */}
-      <Link href="/" passHref>
-        <img
-          src={`${
-            router.route != "/"
-              ? "/images/Navbar/Logo.svg"
-              : "/images/Navbar/Logo.svg"
-          }`}
-          className="h-16 py-1 cursor-pointer sm:h-full"
-          alt=""
-          srcSet=""
-        />
-      </Link>
+      <div
+        className={`absolute h-[65px] w-[200px] sm:h-12 rounded-br-3xl  bg-white/70 top-0 left-0`}
+      >
+        <Link href="/" passHref>
+          <img
+            src={`${
+              router.route != "/"
+                ? "/images/Navbar/Logo.svg"
+                : "/images/Navbar/Logo.svg"
+            }`}
+            className="h-16 py-1 ml-10 cursor-pointer sm:h-full"
+            alt=""
+            srcSet=""
+          />
+        </Link>
+      </div>
+
       {/* </div> */}
       <ul
         className={`sm:hidden flex justify-between w-3/4 ml-auto text-lg ${
