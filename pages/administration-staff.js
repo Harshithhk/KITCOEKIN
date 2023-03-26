@@ -87,10 +87,12 @@ const FounderTrustees = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <span className="hover:text-primary hover:cursor-pointer">
-              {" "}
-              About
-            </span>{" "}
+            <a href="/">
+              <span className="hover:text-primary hover:cursor-pointer">
+                {" "}
+                About
+              </span>{" "}
+            </a>
             <span className="">|</span> Administrative Staff
           </h6>
         </section>
@@ -100,7 +102,6 @@ const FounderTrustees = () => {
           <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
             <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
             Administrative Staff
-
           </div>
 
           <div className="mt-8 w-[80%] text-[#24346D] sm:mt-4 mx-auto text-center text-xl sm:text-sm ">

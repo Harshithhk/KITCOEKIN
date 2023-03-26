@@ -183,10 +183,12 @@ const AdmissionUndergraduate = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <span className="hover:text-primary hover:cursor-pointer">
-              {" "}
-              Home
-            </span>{" "}
+            <a href="/">
+              <span className="hover:text-primary hover:cursor-pointer">
+                {" "}
+                Home
+              </span>{" "}
+            </a>
             <span className="">|</span> Notices
           </h6>
         </section>

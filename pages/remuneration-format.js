@@ -1,17 +1,15 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 
-
-
 const RemunerationFormat = () => {
   const link = {
-    "RF1": "documents/examCell/remunerationFormat/exam-coordinator-remuneration-form.pdf",
-    "RF2": "documents/examCell/remunerationFormat/form-no-e-35-remuneration-bill-form-of-assistant-helper-oe-exam-a4.pdf",
-    "RF3": "documents/examCell/remunerationFormat/form-no-e-07-remuneration-bill-paper-setter-assessment-poe.pdf",
-    "RF4": "documents/examCell/remunerationFormat/local-convenyance-allowance-bill-form.pdf",
-    "RF5": "documents/examCell/remunerationFormat/poe-oe-schedule-form.xls",
-    "RF6": "documents/examCell/remunerationFormat/ta-ha-bill-form.pdf",
-}
+    RF1: "documents/examCell/remunerationFormat/exam-coordinator-remuneration-form.pdf",
+    RF2: "documents/examCell/remunerationFormat/form-no-e-35-remuneration-bill-form-of-assistant-helper-oe-exam-a4.pdf",
+    RF3: "documents/examCell/remunerationFormat/form-no-e-07-remuneration-bill-paper-setter-assessment-poe.pdf",
+    RF4: "documents/examCell/remunerationFormat/local-convenyance-allowance-bill-form.pdf",
+    RF5: "documents/examCell/remunerationFormat/poe-oe-schedule-form.xls",
+    RF6: "documents/examCell/remunerationFormat/ta-ha-bill-form.pdf",
+  }
   return (
     <DefaultLayout>
       <div className="w-full bg-[#24346D] pb-10">
@@ -53,10 +51,12 @@ const RemunerationFormat = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <span className="hover:text-primary hover:cursor-pointer">
-              {" "}
-              Home
-            </span>{" "}
+            <a href="/">
+              <span className="hover:text-primary hover:cursor-pointer">
+                {" "}
+                Home
+              </span>{" "}
+            </a>
             <span className="">|</span> Remuneration Format
           </h6>
         </section>
@@ -75,72 +75,137 @@ const RemunerationFormat = () => {
             sed tempora quaerat eum? */}
           </div>
 
-              <div className="pt-8">
-              <div className="flex items-center w-full sm:ml-2">
-                    <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
-                    <div className="ml-3 md:ml-2 w-fit  text-center sm:text-xl   text-[#24346D] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">
-                        DEPARTMENT MOU'S
-                    </div>
-                </div>
-                <div className="grid  grid-cols-2 sm:grid-cols-1 sm:mt-6 gap-x-6 p-2 mt-16">
-                    
-                    <div className="grid grid-cols-1 divide-y ">
-                        
-                        <a href={link.RF1}>
-                          <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
-                          Exam Coordinator Remuneration Form
-                              <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-                          </div>
-                        </a>
-
-                        <a href={link.RF2}>
-                          <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
-                          FORM No E-35 (Remuneration bill form of Assistant & helper_OE Exam)
-                              <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-                          </div>
-                        </a>
-                        <a href={link.RF3}>
-                          <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
-                          FORM No. E-07 (Remuneration bill _Paper setter , Assessment & POE)
-                              <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-                          </div>
-                        </a>
-                        <a href={link.RF4}>
-                          <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
-                          Local Conveyance Allowance Bill FORM ( Paper Setter , Examiner, Moderator , Sr. Supervisor)
-                              <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-                          </div>
-                        </a>
-                        <a href={link.RF5}>
-                          <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
-                          POE.OE.SCHEDULE Format
-                              <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-                          </div>
-                        </a>
-                        <a href={link.RF6}>
-                          <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
-                          T.A & H.A Bill Form( Paper setter , Examiner, Moderator ,Sr.Supervisor , Internal & External Examiner )
-                              <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-                          </div>
-                        </a>
-                    </div>
-                   
-                    
-                    
-                </div>
+          <div className="pt-8">
+            <div className="flex items-center w-full sm:ml-2">
+              <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
+              <div className="ml-3 md:ml-2 w-fit  text-center sm:text-xl   text-[#24346D] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">
+                DEPARTMENT MOU'S
               </div>
+            </div>
+            <div className="grid  grid-cols-2 sm:grid-cols-1 sm:mt-6 gap-x-6 p-2 mt-16">
+              <div className="grid grid-cols-1 divide-y ">
+                <a href={link.RF1}>
+                  <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                    Exam Coordinator Remuneration Form
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="flex-shrink-0 h-7 w-7 text-[#F07C00]"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                  </div>
+                </a>
+
+                <a href={link.RF2}>
+                  <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                    FORM No E-35 (Remuneration bill form of Assistant &
+                    helper_OE Exam)
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="flex-shrink-0 h-7 w-7 text-[#F07C00]"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                  </div>
+                </a>
+                <a href={link.RF3}>
+                  <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                    FORM No. E-07 (Remuneration bill _Paper setter , Assessment
+                    & POE)
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="flex-shrink-0 h-7 w-7 text-[#F07C00]"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                  </div>
+                </a>
+                <a href={link.RF4}>
+                  <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                    Local Conveyance Allowance Bill FORM ( Paper Setter ,
+                    Examiner, Moderator , Sr. Supervisor)
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="flex-shrink-0 h-7 w-7 text-[#F07C00]"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                  </div>
+                </a>
+                <a href={link.RF5}>
+                  <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                    POE.OE.SCHEDULE Format
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="flex-shrink-0 h-7 w-7 text-[#F07C00]"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                  </div>
+                </a>
+                <a href={link.RF6}>
+                  <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                    T.A & H.A Bill Form( Paper setter , Examiner, Moderator
+                    ,Sr.Supervisor , Internal & External Examiner )
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="flex-shrink-0 h-7 w-7 text-[#F07C00]"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
       <Footer />
