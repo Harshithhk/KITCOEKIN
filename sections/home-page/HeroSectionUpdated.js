@@ -1,8 +1,9 @@
-import Image from "next/image"
 import Hero1 from "./heroSection/Hero1"
 import Hero2 from "./heroSection/Hero2"
 import Hero3 from "./heroSection/Hero3"
 import Hero4 from "./heroSection/Hero4"
+import Hero1A from "./heroSection/Hero1A"
+
 import React from "react"
 
 const HeroSectionUpdated = () => {
@@ -21,12 +22,25 @@ const HeroSectionUpdated = () => {
   // React.useEffect(() => {
   //  console.log(count)
   // }, [count])
-  
 
   return (
     <section className=" h-[621px] md:h-[calc(100vh-88px)] w-full overflow-hidden  relative mb-4  md:mb-0 md:overflow-hidden">
-    {count == 0 ? <Hero1 setCount = {setCount} /> : count == 1 ? <Hero2 setCount = {setCount} /> : count == 2 ? <Hero3 setCount = {setCount} /> : count == 3 ? <Hero4 setCount = {setCount} /> : null}
-    
+      {count == 0 ? (
+        <>
+          <div className="sm:hidden xxl:block">
+            <Hero1A setCount={setCount} />
+          </div>
+          <div className="sm:block xxl:hidden">
+            <Hero1 />
+          </div>
+        </>
+      ) : count == 1 ? (
+        <Hero2 setCount={setCount} />
+      ) : count == 2 ? (
+        <Hero3 setCount={setCount} />
+      ) : count == 3 ? (
+        <Hero4 setCount={setCount} />
+      ) : null}
     </section>
   )
 }
