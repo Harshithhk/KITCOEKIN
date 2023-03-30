@@ -61,12 +61,22 @@ const Footer = () => {
             <div className="sm:text-2xl text-3xl font-bold text-[#F07C00] mt-3">
               Resources
             </div>
-            <div className="mt-3 sm:text-lg">A-Z index</div>
-            <div className="mt-3 sm:text-lg">Campus Map</div>
-            <div className="mt-3 sm:text-lg">CU Safety</div>
-            <div className="mt-3 sm:text-lg">Directory</div>
-            <div className="mt-3 sm:text-lg">Webcams</div>
-            <div className="mt-3 font-extrabold sm:text-xl">Apply to KIT</div>
+
+            <a href="https://www.ecellkitcoek.com/">
+              <div className="mt-3 sm:text-lg">E-Cell</div>
+            </a>
+            <a href="/kit-student-club-activities">
+              <div className="mt-3 sm:text-lg">Cultural</div>
+            </a>
+            <a href="/kit-student-club-activities">
+              <div className="mt-3 sm:text-lg">Life @ KIT</div>
+            </a>
+            <a href="/online-syllabus">
+              <div className="mt-3 sm:text-lg">Syllabus</div>
+            </a>
+            <a href="/apply-admission">
+              <div className="mt-3 font-extrabold sm:text-xl">Apply to KIT</div>
+            </a>
           </div>
         </div>
       </section>
