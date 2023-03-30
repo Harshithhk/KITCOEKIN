@@ -57,6 +57,7 @@ const branchPlacement = () => {
       Y2122: "-",
     },
   ]
+
   return (
     <section className="max-w-full mt-8 sm:pt-16 bg-secondary">
       <div className="flex items-center w-full ml-16 sm:ml-4">
