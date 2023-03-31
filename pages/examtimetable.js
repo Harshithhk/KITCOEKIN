@@ -194,10 +194,10 @@ const FounderTrustees = ({ news }) => {
 
 export async function getStaticProps() {
   let news = []
-  news = await fetch(
-    "http://ec2-13-235-33-19.ap-south-1.compute.amazonaws.com:8080/api/timetable/"
-  )
-  news = await news.json()
+  // news = await fetch(
+  //   "http://ec2-13-235-33-19.ap-south-1.compute.amazonaws.com:8080/api/timetable/"
+  // )
+  // news = await news.json()
 
   return {
     props: {
