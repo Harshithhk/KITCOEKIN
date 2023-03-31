@@ -270,9 +270,8 @@ const CseEngineeringFaculty = ({ staff }) => {
 
 export async function getStaticProps() {
   let staff = []
-  staff = await fetch(
-    "http://ec2-13-235-33-19.ap-south-1.compute.amazonaws.com:8080/api/teachingstaff?department=Computer%20Science"
-  )
+  staff = await fetch("http://localhost:5000/api/teachingstaff")
+  console.log(staff)
   staff = await staff.json()
 
   return {

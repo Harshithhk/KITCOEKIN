@@ -1,6 +1,3 @@
-import Link from "next/link"
-import React from "react"
-
 const Overviews = () => {
   return (
     <section className="bg-[#f2f2f0] p-[50px] pt-[60px] flex justify-between pr-[5%] xl:block  md:p-[0px] ">
