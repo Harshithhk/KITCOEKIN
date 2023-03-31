@@ -328,7 +328,7 @@ let LabList2 = [{
                             <div className="mt-16">
                             {cards.map((card) => {
                                 return (<>
-                                    <div v-for="card in cards" className="flex sm:flex-col  flex-row overflow-hidden bg-white rounded-lg shadow-xl  mt-4 w-100 mx-2">
+                                    <div className="flex sm:flex-col  flex-row overflow-hidden bg-white rounded-lg shadow-xl  mt-4 w-100 mx-2">
 
                                         <div className="h-64 sm:w-auto w-1/2">
                                             <img className="inset-0 h-full w-full object-cover object-center" alt="" src={card.img} />

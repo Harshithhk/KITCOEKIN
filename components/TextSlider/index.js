@@ -31,8 +31,7 @@ const TextSlider = () => {
     <section className="antialiased text-gray-600 bg-gray-200 sans-serif">
       <div
         className="container flex mx-auto overflow-hidden shadow-sm sm:my-10 2xl:my-24 sm:flex-col 2xl:flex-row"
-        x-data="{ testimonialActive: 2 }"
-        x-cloak
+       
       >
         <div className="relative flex flex-col justify-center w-full sm:py-8 2xl:py-24 bg-primary 2xl:w-1/2 sm:w-full item-center">
           <div className="absolute top-0 z-10 grid w-16 h-16 left-8 grid-rows-10 2xl:w-40 2xl:h-40 2xl:ml-20 2xl:mt-24 divide-dotted">
@@ -202,7 +201,7 @@ const TextSlider = () => {
             {active == 2 && <Placed placedData={placedData[2]} />}
 
             <div className="flex justify-center px-6 pt-2 pb-6 2xl:py-6">
-              <div className="text-center" x-show="testimonialActive == 2">
+              <div className="text-center">
                 <h2 className="text-sm font-bold leading-tight text-gray-700 2xl:text-base">
                   6267
                 </h2>
