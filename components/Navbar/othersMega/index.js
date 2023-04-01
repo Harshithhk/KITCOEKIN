@@ -1,4 +1,5 @@
 import React from "react"
+import { useState } from "react";
 import Link from "next/link";
 import MegaNavbar from "../../MegaNavbar";
 // import Academics from "./academics";
@@ -28,7 +29,7 @@ const OthersNavbar = (props) => {
           },
           {
             "title":"Other Online Platforms",
-            "links":[""],
+            "links":["http://210.212.172.190/links/index.html","https://210.212.172.178/sims/",""],
             "subMenu2":[
               "Moodle Link",
               "Contineo Link",
@@ -37,7 +38,7 @@ const OthersNavbar = (props) => {
           },
           {
             "title":"Rules & Regulations",
-            "links":[""],
+            "links":["https://www.kitcoek.in/agnis_upload/about-kit/ug.pdf","https://www.kitcoek.in/agnis_upload/about-kit/pg.pdf","https://www.kitcoek.in/agnis_upload/academics/modalities.pdf"],
             "subMenu2":[
               "Undergraduate",
               "Postgraduate",
@@ -46,11 +47,10 @@ const OthersNavbar = (props) => {
           },
           {
             "title":"Internship Policy",
-            "links":[""],
+            "links":["https://www.kitcoek.in/agnis_upload/academics/kit-internship-policy-2020.pdf","https://www.kitcoek.in/agnis_upload/academics/guidelines-for-internship-and-project-accounted-throgh-kite.pdf"],
             "subMenu2":[
               "Guideline & Procedure",
               "Guidelines for Internship  ",
-              
             ]
           },
           {
@@ -59,7 +59,6 @@ const OthersNavbar = (props) => {
             "subMenu2":[
               "Academic Calendar",
               "Academic Council Meeting Proceedings  ",
-              
             ]
           },
                   ]
@@ -142,7 +141,7 @@ const OthersNavbar = (props) => {
           },
           {
             "title":"",
-            "links":[""],
+            "links":["https://www.kitcoek.in/agnis_upload/life@kit/vilaskarjinni-360-degree-feedback.pdf"],
             "subMenu2":["360 Degree Feedback 2020-2021"]
           },
           {
@@ -184,7 +183,7 @@ const OthersNavbar = (props) => {
             "subMenu2":["Idea Lab","Advisory Committee","Mentor Committee","Industry Connect","Student Ambasadoors"]
           },
           
-        
+
                   ]
       },
       

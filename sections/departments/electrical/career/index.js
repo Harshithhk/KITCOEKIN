@@ -13,20 +13,20 @@ const Career = () => {
   const [accordion4, setAccordion4] = React.useState(false)
   const [accordion5, setAccordion5] = React.useState(false)
 
-  let title1 = "Title"
-  let discription1 = "body"
+  let title1 = "ABET Accreditation"
+  let discription1 = "ABET (Accreditation Board for Engineering and Technology) is a US-based non-profit organization that accredits programs in applied and natural science, computing, engineering, and engineering technology. Electrical engineering programs that are ABET-accredited meet the highest standards of education and have been rigorously evaluated for their curricula, faculty, facilities, and student outcomes."
  
-  let title2 = "Title"
-  let discription2 = "body"
+  let title2 = "IEEE Accreditation"
+  let discription2 = "The Institute of Electrical and Electronics Engineers (IEEE) is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE accreditation ensures that electrical engineering programs meet global standards for quality and relevance, and that graduates are well-prepared to succeed in their careers."
 
-  let title3 = "Title"
-  let discription3 = "body"
+  let title3 = "ECUK Accreditation"
+  let discription3 = "The Engineering Council UK (ECUK) is the regulatory body for the engineering profession in the United Kingdom. ECUK accreditation ensures that electrical engineering programs meet the highest standards of education and that graduates are well-prepared for professional engineering practice."
 
-  let title4 = "Title"
-  let discription4 = "body"
+  let title4 = "JABEE Accreditation"
+  let discription4 = "The Japan Accreditation Board for Engineering Education (JABEE) is an independent organization that accredits engineering programs in Japan. JABEE accreditation ensures that electrical engineering programs meet the highest standards of education and that graduates are well-prepared for professional engineering practice in Japan."
 
-  let title5= "Title"
-  let discription5 = "body"
+  let title5= "Engineers Australia Accreditation"
+  let discription5 = "Engineers Australia is the national forum for the advancement of engineering in Australia. Accreditation by Engineers Australia ensures that electrical engineering programs meet the highest standards of education and that graduates are well-prepared for professional engineering practice in Australia."
 
   return (
     <section className=" px-2   w-full pb-10 sm:w-full  sm:mt-8 flex  md:flex-col items-center">

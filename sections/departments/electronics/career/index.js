@@ -13,20 +13,20 @@ const Career = () => {
   const [accordion4, setAccordion4] = React.useState(false)
   const [accordion5, setAccordion5] = React.useState(false)
 
-  let title1 = "Title"
-  let discription1 = "body"
+  let title1 = "Accreditation Board for Engineering and Technology (ABET)"
+  let discription1 = "ABET is a non-profit organization that accredits engineering programs worldwide. Their accreditation process is based on a set of criteria that evaluates programs on their curriculum, faculty, facilities, and student outcomes."
  
-  let title2 = "Title"
-  let discription2 = "body"
+  let title2 = "Institute of Electrical and Electronics Engineers (IEEE)"
+  let discription2 = "IEEE is a professional association for engineers that also accredits electronics engineering programs. Their accreditation process evaluates programs on their curriculum, faculty, facilities, and student outcomes, as well as their alignment with industry standards."
 
-  let title3 = "Title"
-  let discription3 = "body"
+  let title3 = "Accreditation Commission for Electronics Engineering Technology (ACET)"
+  let discription3 = "ACET is a specialized accrediting agency that focuses on electronics engineering technology programs. Their accreditation process evaluates programs on their curriculum, faculty, facilities, and student outcomes, as well as their alignment with industry standards."
 
-  let title4 = "Title"
-  let discription4 = "body"
+  let title4 = "Engineering Accreditation Commission (EAC)"
+  let discription4 = "EAC is a division of ABET that specifically accredits engineering programs. Their accreditation process evaluates programs on their curriculum, faculty, facilities, and student outcomes, as well as their alignment with industry standards."
 
-  let title5= "Title"
-  let discription5 = "body"
+  let title5= "National Association of Radio and Telecommunications Engineers (NARTE)"
+  let discription5 = "NARTE is a professional association for engineers that offers certification programs in electronics engineering. Their certification process evaluates individuals' knowledge and skills in electronics engineering and verifies their competency in the field."
 
   return (
     <section className=" px-2   w-full pb-10 sm:w-full  sm:mt-8 flex  md:flex-col items-center">
