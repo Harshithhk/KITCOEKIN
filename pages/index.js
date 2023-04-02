@@ -22,11 +22,11 @@ export async function getStaticProps() {
   let news = []
   let events = []
   news = await fetch(
-    "http://localhost:5000/api/newsandevents/news"
+    "http://localhost:5000/api/newsandevents/news/"
   )
   news = await news.json()
   events = await fetch(
-    "http://localhost:5000/api/newsandevents/events"
+    "http://localhost:5000/api/newsandevents/events/"
   )
   events = await events.json()
 
