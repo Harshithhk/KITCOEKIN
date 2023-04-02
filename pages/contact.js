@@ -8,8 +8,9 @@ import TnPEsteemedRecruiters from "../sections/tnp/TnPEsteemedRecruters"
 import Gallery from "../sections/lifeAtKit/cultural/gallery"
 import Team from "../sections/team"
 import AdmissionForm from "../sections/apply/admissionForm"
+import ContactUsForm from "../sections/apply/contactUsForm"
 
-const StudentClubActivities = () => {
+const ContactUs = () => {
 
     const [subLink, setSubLink] = React.useState(false)
     const [subLink2, setSubLink2] = React.useState(false)
@@ -262,7 +263,7 @@ const cardsData = [
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            ADMISSION ENQUIRY
+            CONTACT US
           </h1>
           <br></br>
           <br></br>
@@ -271,7 +272,7 @@ const cardsData = [
             data-aos-delay="0"
             className="w-[75%] sm:text-xl font-bold text-center text-slate-300 z-20"
           >
-             Home | Admission Enquiry
+             Home | Contact Us
           </h6>
         </section>
         {/*---------------------------------------------------------------------pb-20  px-14 sm:px-4 sm:pb-10----------------- CONTENT -------------------------------------------------------------------------------------- */}
@@ -282,8 +283,8 @@ const cardsData = [
             alt=""
           />
         
-        <AdmissionForm />
-   
+     
+        <ContactUsForm />
         </section>
         
         <div className=" w-full bg-[#F8F7FC] mt-10 ">
@@ -291,7 +292,7 @@ const cardsData = [
           {/* -- */}
 
 
-          <div className="flex flex-wrap justify-center gap-6 p-6 text-[#24346D]">
+          <div className="flex flex-wrap 2xl:hidden sm:flex justify-center gap-6 p-6 text-[#24346D]">
       {cardsData.map((card, index) => (
        <div key={index} className="bg-white shadow-md rounded-md p-6 w-80">
        <h2 className="text-xl font-bold mb-2 text-[#F07C00]">{card.name}</h2>
@@ -373,4 +374,4 @@ const cardsData = [
   )
 }
 
-export default StudentClubActivities
+export default ContactUs
