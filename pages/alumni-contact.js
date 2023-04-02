@@ -5,39 +5,23 @@ import Footer from "../sections/home-page/Footer"
 const CseEngineeringMous = () => {
     let Mous = [{
         "SrNo": 1,
-        "Industry": "Laurel Technologies, Kolhapur",
-        "PurposeOfMoU": "Training, Placement, Internships, Research work for PG students"
+        "Industry": "Text Text Text Text",
+        "PurposeOfMoU": "Text Text Text Text"
       },{
         "SrNo": 2,
-        "Industry": "Regional Agriculture Extension Management Training Institute (RAMETI),Kolhapur",
-        "PurposeOfMoU": "Conduction of training sessions from faculty members of CSE, Live projects assigned for UG Students, Internship, Research work for PG students"
-      },{
-        "SrNo": 3,
-        "Industry": "Eduskills Foundation",
-        "PurposeOfMoU": "Training, Placement ,Internship and AWS, Blueprism, PaloAlto, RedHat Certification to Students"
-      },{
-        "SrNo": 4,
-        "Industry": "Pupilfirst organization to conduct AICTE LITE Programme",
-        "PurposeOfMoU": "Execution of Minor Course-Web Development"
-      },{
-        "SrNo": 5,
-        "Industry": "Veloce Techinsights Pvt Ltd.",
-        "PurposeOfMoU": "Training, Placement, Internships, Research work for PG students, Live projects assigned for UG Students"
-      },{
-        "SrNo": 6,
-        "Industry": "Smart Musk Pvt Ltd",
-        "PurposeOfMoU": "Training, Placement, Internships, Research work for PG students, Live projects assigned for UG Students"
+        "Industry": "Text Text Text Text ",
+        "PurposeOfMoU": "Text Text, Text Text"
       }
       ]
 
     let Mous2021 = [{
         "SrNo": 1,
-        "Industry": "PARI, Pune",
-        "PurposeOfMoU": "Internship, Problem statement ,Industry Ready Engineers, Curriculum Design and Placement"
+        "Industry": "Text Text",
+        "PurposeOfMoU": "Text Text"
       },{
         "SrNo": 2,
-        "Industry": "Electronica , Pune",
-        "PurposeOfMoU": "Problem statement ,Offer for 3D modeling of products using ARVR facility"
+        "Industry": "Text Text",
+        "PurposeOfMoU": "Text Text"
       }
       ]
     
@@ -74,7 +58,7 @@ const CseEngineeringMous = () => {
                         data-aos-delay="0"
                         className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
                     >
-                        Alumni Contact US
+                        Alumni Achivements
                     </h1>
                     <br></br>
                     <br></br>
@@ -83,12 +67,12 @@ const CseEngineeringMous = () => {
                         data-aos-delay="0"
                         className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
                     >
-                     <a href="alumni">
+                      <a href="alumni">
             <span className="hover:text-primary hover:cursor-pointer">
               {" "}
               
               Alumni Home
-            </span>{" "}</a> <span className=" ">|</span> Alumni Contact Us
+            </span>{" "}</a> <span className=" ">|</span> Contact Us
 
                     </h6>
                 </section>
@@ -103,13 +87,13 @@ const CseEngineeringMous = () => {
                 <section className="col-start-1  col-end-3 sm:mr-0 sm:ml-0 sm:mt-6 sm:px-4 sm:pb-10  pb-20 mx-10  h-fit   ">
                             <div className="mt-6 sm:mt-0 sm:ml-4 mb-9 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                                LIST OF INDUSTRIES HAVING SIGNED MOU’S
+                                CONTACT US
                             </div>
                             {/* -------------- */}
                             <div className="sm:hidden grid grid-cols-3 items-start gap-x-2 text-slate-500 justify-items-start mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
                                 <div className=" sm:hidden ml-10">Sr.No.</div>
-                                <div className=" ">Industry Name</div>
-                                <div className=" ">Purpose Of MoU</div>
+                                <div className=" ">Text Text</div>
+                                <div className=" ">Text Text</div>
                              
                                
                             </div>
@@ -130,11 +114,11 @@ const CseEngineeringMous = () => {
                                                 <div className="">{item.SrNo}</div>
                                             </div>
                                             <div className="grid grid-cols-2">
-                                                <div className=" text-slate-400">Industry</div>
+                                                <div className=" text-slate-400">Text Text</div>
                                                 <div className="">{item.Industry}</div>
                                             </div>
                                             <div className="grid grid-cols-2">
-                                                <div className=" text-slate-400">Purpose Of MoU</div>
+                                                <div className=" text-slate-400">Text Text</div>
                                                 <div className="">{item.PurposeOfMoU}</div>
                                             </div>
                                            
@@ -142,47 +126,7 @@ const CseEngineeringMous = () => {
                                     </>
                                 )
                             })}
-                            <div className="mt-16 sm:ml-4 mb-16 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
-                                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                                MOU IN ACADEMIC YEAR 2020-2021
-                            </div>
-                            {/* -------------- */}
-                            <div className="sm:hidden grid grid-cols-3 items-start gap-x-2 text-slate-500 justify-items-start mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
-                                <div className=" sm:hidden ml-10">Sr.No.</div>
-                                <div className=" ">Industry Name</div>
-                                <div className=" ">Purpose Of MoU</div>
-                             
-                               
-                            </div>
-                           
-                            {Mous2021.map((item, index) => {
-                                return (
-                                    <>
-                                        <div className="sm:hidden grid grid-cols-3 items-center justify-items-start gap-x-2 sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
-                                            <div className=" sm:hidden ml-10">{item.SrNo}</div>
-                                            <div className="">{item.Industry}</div>
-                                            <div className="">{item.PurposeOfMoU}</div>
-                                        </div>
-                                       
-                                        <div className=" sm:grid 2xl:hidden divide-y grid-rows-3 space-x-[1px] items-center text-left  w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
-
-                                            <div className="grid grid-cols-2">
-                                                <div className="text-slate-400">Sr.No.</div>
-                                                <div className="">{item.SrNo}</div>
-                                            </div>
-                                            <div className="grid grid-cols-2">
-                                                <div className=" text-slate-400">Industry</div>
-                                                <div className="">{item.Industry}</div>
-                                            </div>
-                                            <div className="grid grid-cols-2">
-                                                <div className=" text-slate-400">Purpose Of MoU</div>
-                                                <div className="">{item.PurposeOfMoU}</div>
-                                            </div>
-                                           
-                                        </div>
-                                    </>
-                                )
-                            })}
+                         
                         </section>
 
 
