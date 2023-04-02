@@ -69,8 +69,8 @@ const ScrollModelAnimation = () => {
       mesh4.position.y = -objectDistance * 3
       mesh5.position.y = -objectDistance * 4
 
-      scene.add(mesh1, mesh2, mesh3, mesh4, mesh5)
-      const sectionMeshes = [mesh1, mesh2, mesh3, mesh4, mesh5]
+      scene.add(mesh1, mesh2, )
+      const sectionMeshes = [mesh1, mesh2, ]
       mesh1.visible = false
 
       // Lights
@@ -201,7 +201,7 @@ const ScrollModelAnimation = () => {
           currentSection = newSection
 
           gsap.to(
-            sectionMeshes[currentSection < 5 ? currentSection : 4].rotation,
+            sectionMeshes[currentSection < 2 ? currentSection : 1].rotation,
             {
               duration: 1.5,
               ease: "power2.inOut",

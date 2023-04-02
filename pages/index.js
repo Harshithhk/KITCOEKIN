@@ -4,7 +4,7 @@ import HeroSection from "../sections/home-page/HeroSection"
 import NewVision from "../sections/home-page/NewVision"
 import Footer from "../sections/home-page/Footer"
 import Accredations from "../sections/home-page/Accredations"
-import NewsAndNotices from "../sections/home-page/NewsAndNotices"
+import NewsAndEvents from "../sections/home-page/NewsAndEvents"
 import EsteemedRecruiters from "../sections/home-page/EsteemedRecruiters"
 import BtechHonours from "../sections/home-page/BtechHonours"
 import Statistics from "../sections/home-page/Statistics"
@@ -20,20 +20,20 @@ import StatisticsNew from "../sections/home-page/StatisticsNew"
 import Testimonials from "../sections/about-us/Testimonials"
 export async function getStaticProps() {
   let news = []
-  let notices = []
-  // news = await fetch(
-  //   "http://ec2-13-235-33-19.ap-south-1.compute.amazonaws.com:8080/api/newsandnotices/news"
-  // )
-  // news = await news.json()
-  // notices = await fetch(
-  //   "http://ec2-13-235-33-19.ap-south-1.compute.amazonaws.com:8080/api/newsandnotices/notices"
-  // )
-  // notices = await notices.json()
+  let events = []
+  news = await fetch(
+    "http://localhost:5000/api/newsandevents/news"
+  )
+  news = await news.json()
+  events = await fetch(
+    "http://localhost:5000/api/newsandevents/events"
+  )
+  events = await events.json()
 
   return {
     props: {
       news: news,
-      notices: notices,
+      events: events,
     },
     revalidate: 10,
   }
@@ -55,7 +55,7 @@ const Home = (props) => {
       <BtechHonours />
       <NewVision />
       <Accredations />
-      <NewsAndNotices news={props.news} notices={props.notices} />
+      <NewsAndEvents news={props.news} events={props.events} />
       <Overviews />
       <div className="container my-24 sm:my-16 px-6  mx-auto">
         <section className="mb-32 sm:pb-0 pb-20 text-primary text-center 2xl:text-left sm:text-center">

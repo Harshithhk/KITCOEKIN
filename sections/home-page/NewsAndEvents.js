@@ -24,7 +24,7 @@ let news = [
   },
 ]
 
-let notices = [
+let events = [
   {
     id: 5,
     date: "13 Feb, 2022",
@@ -63,9 +63,9 @@ const month = [
   "December",
 ]
 
-function NewsAndNotices(props) {
+function NewsAndEvents(props) {
   const [news, setNews] = useState(() => props.news)
-  const [notices, setNotices] = useState(() => props.notices)
+  const [events, setEvents] = useState(() => props.events)
 
   useEffect(async () => {
     let updatedNews = news.map((element) => {
@@ -77,7 +77,7 @@ function NewsAndNotices(props) {
       return element
     })
 
-    let updatedNotices = notices.map((element) => {
+    let updatedEvents = events.map((element) => {
       let date = new Date(element.date)
       let day = date.getDate()
       let year = date.getFullYear()
@@ -88,9 +88,9 @@ function NewsAndNotices(props) {
     })
 
     setNews(updatedNews)
-    setNotices(updatedNotices)
+    setEvents(updatedEvents)
 
-    console.log({ news, notices })
+    console.log({ news, events })
   }, [])
 
   return (
@@ -143,14 +143,14 @@ function NewsAndNotices(props) {
         <div className="flex items-center">
           <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
           <div className="ml-3 md:ml-2 w-fit font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
-            NOTICES
+            EVENTS
           </div>
         </div>
         <div className="mt-8">
-          {notices &&
-            notices.map((notice, index) => (
+          {events &&
+            events.map((event, index) => (
               <div
-                key={notice._id}
+                key={event._id}
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-delay={`${index * 20}`}
@@ -158,15 +158,15 @@ function NewsAndNotices(props) {
               >
                 <div className="border-4 border-r-2 rounded-l-2xl h-full  w-40 text-[#F07C00]  flex flex-col justify-center items-center">
                   <div className="text-5xl md:text-3xl">
-                    {notice.date.split(` `)[0]}
+                    {event.date.split(` `)[0]}
                   </div>
                   <div className="text-lg md:text-xs">
                     {" "}
-                    {notice.date.split(` `)[1]} {notice.date.split(` `)[2]}
+                    {event.date.split(` `)[1]} {event.date.split(` `)[2]}
                   </div>
                 </div>
                 <div className="flex flex-col justify-center w-full pl-4 text-black border-4 border-l-2 md:pl-2 rounded-r-2xl">
-                  <div className="text-lg md:text-sm">{notice.title}</div>
+                  <div className="text-lg md:text-sm">{event.title}</div>
                   <div className="text-[13.5px] md:-translate-x-[2px] text-[#717171] md:mt-1 md:text-[10px] mt-3 flex">
                     <div className="object-contain mr-2">
                       <img
@@ -175,7 +175,7 @@ function NewsAndNotices(props) {
                         alt=""
                       />{" "}
                     </div>
-                    {notice.duration[0]} - {notice.duration[1]}
+                    {event.duration[0]} - {event.duration[1]}
                   </div>
                 </div>
               </div>
@@ -186,4 +186,4 @@ function NewsAndNotices(props) {
   )
 }
 
-export default NewsAndNotices
+export default NewsAndEvents

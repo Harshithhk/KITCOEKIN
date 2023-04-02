@@ -10,21 +10,14 @@ export const DivContainer = forwardRef( ({children} , ref) => (
     <div ref={ref} className= "fixed top-0 left-0 outline-none " > </div>
 
     <section className= "flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%] pt-[100px] font-neue text-[#ffeded] ">
-        {/* <Hero /> */}
+        <Hero />
     </section>
 
-    <section className= "flex items-center h-[100vh] relative text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end ">
-        {/* <About /> */}
+    <section className= "flex items-center h-[100vh] sm:mt-20 sm:mb-20 relative text-lg uppercase sm:pl-0 sm:pr-0 pl-[10%] pr-[10%] text-[#ffeded] justify-end ">
+       <Skills/>
+       <About/>
     </section>
-    <section className= "flex items-center h-[100vh] relative text-1g uppercase pl-[10%] pr-[10%] pt-[100px] font-neue text-[#ffeded] ">
-        {/* <Skills /> */}
-    </section>
-    <section className= "Flex items-center h-[100vh] relativa text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] justify-end">
-        Section4
-    </section>
-    <section className= "Flex items-center h-[100vh] relativa text-lg uppercase pl-[10%] pr-[10%] text-[#ffeded] ">
-        Section5
-    </section>
+
     </>
 ));
 

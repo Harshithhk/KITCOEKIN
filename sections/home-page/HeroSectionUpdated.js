@@ -27,11 +27,11 @@ const HeroSectionUpdated = () => {
     <section className=" h-[621px] md:h-[calc(100vh-88px)] w-full overflow-hidden  relative mb-4  md:mb-0 md:overflow-hidden">
       {count == 0 ? (
         <>
-          <div className="sm:hidden xxl:block">
+          {/* <div className="sm:hidden xxl:block">
             <Hero1A setCount={setCount} />
-          </div>
-          <div className="sm:block xxl:hidden">
-            <Hero1 />
+          </div> */}
+          <div className="sm:block xxl:block">
+            <Hero1 setCount={setCount} />
           </div>
         </>
       ) : count == 1 ? (

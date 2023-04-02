@@ -2,7 +2,7 @@ import React from 'react';
 import Scroll from '../components/MeshModal3D/Scroll';
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
-
+import HeroSection from "../components/MeshModal3D/heroSection"
 const NewVision = (props) => {
     return (
         <DefaultLayout>
