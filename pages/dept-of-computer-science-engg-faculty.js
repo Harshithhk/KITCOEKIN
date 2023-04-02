@@ -270,9 +270,9 @@ const CseEngineeringFaculty = ({ staff }) => {
 
 export async function getStaticProps() {
   let staff = []
-  staff = await fetch("http://localhost:5000/api/teachingstaff")
-  console.log(staff)
-  staff = await staff.json()
+  // staff = await fetch("http://localhost:5000/api/teachingstaff")
+  // console.log(staff)
+  // staff = await staff.json()
 
   return {
     props: {
