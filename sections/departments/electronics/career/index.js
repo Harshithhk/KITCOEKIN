@@ -1,32 +1,31 @@
 import React from "react"
 import Accordion from "../../../../components/Accordion"
 import QuickLinksCard from "./quickLinksCard"
-
-
 const Career = () => {
-
  
-
   const [accordion1, setAccordion1] = React.useState(true)
   const [accordion2, setAccordion2] = React.useState(false)
   const [accordion3, setAccordion3] = React.useState(false)
   const [accordion4, setAccordion4] = React.useState(false)
   const [accordion5, setAccordion5] = React.useState(false)
 
-  let title1 = "Title"
-  let discription1 = "body"
- 
-  let title2 = "Title"
-  let discription2 = "body"
+  
+  let title1 = "Accreditation Board for Engineering and Technology "
+  let discription1 = "ABET is a non-profit organization that accredits engineering programs worldwide. Their accreditation process is based on a set of criteria that evaluates programs on their curriculum, faculty, facilities, and student outcomes."
 
-  let title3 = "Title"
-  let discription3 = "body"
 
-  let title4 = "Title"
-  let discription4 = "body"
+  let title2 = "Institute of Electrical and Electronics Engineers"
+  let discription2 = "IEEE is a professional association for engineers that also accredits electronics engineering programs. Their accreditation process evaluates programs on their curriculum, faculty, facilities, and student outcomes, as well as their alignment with industry standards."
 
-  let title5= "Title"
-  let discription5 = "body"
+
+  let title3 = "Accreditation Commission for Electronics Engineering Technology "
+  let discription3 = "ACET is a specialized accrediting agency that focuses on electronics engineering technology programs. Their accreditation process evaluates programs on their curriculum, faculty, facilities, and student outcomes, as well as their alignment with industry standards."
+
+  let title4 = "Engineering Accreditation Commission "
+  let discription4 = "EAC is a division of ABET that specifically accredits engineering programs. Their accreditation process evaluates programs on their curriculum, faculty, facilities, and student outcomes, as well as their alignment with industry standards."
+
+  let title5= "National Association of Radio and Telecommunications Engineers "
+  let discription5 = "NARTE is a professional association for engineers that offers certification programs in electronics engineering. Their certification process evaluates individuals' knowledge and skills in electronics engineering and verifies their competency in the field."
 
   return (
     <section className=" px-2   w-full pb-10 sm:w-full  sm:mt-8 flex  md:flex-col items-center">
@@ -46,19 +45,14 @@ const Career = () => {
             <Accordion title = {title3} discription ={discription3} setAccordion = {setAccordion3} accordion = {accordion3} setRestAccordion = {[setAccordion2,setAccordion1,setAccordion4,setAccordion5]}/>
             <Accordion title = {title4} discription ={discription4} setAccordion = {setAccordion4} accordion = {accordion4} setRestAccordion = {[setAccordion2,setAccordion3,setAccordion1,setAccordion5]}/>
             <Accordion title = {title5} discription ={discription5} setAccordion = {setAccordion5} accordion = {accordion5} setRestAccordion = {[setAccordion2,setAccordion3,setAccordion1,setAccordion4]}/>
-
           </div>
         </div>
-
-
 {/* ---------------------------- */}
       <div className=" w-2/4 sm:w-full flex flex-col justify-center"> <QuickLinksCard /></div>
        
-
       </div>
       
     </section>
   )
 }
-
 export default Career

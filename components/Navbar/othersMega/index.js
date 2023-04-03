@@ -17,6 +17,7 @@ const OthersNavbar = (props) => {
     const [nav5, setNav5] = React.useState(false);
 
 
+   
     const MenuList = [
       {
         "title":"Academics",
@@ -29,6 +30,7 @@ const OthersNavbar = (props) => {
           {
             "title":"Other Online Platforms",
             "links":[""],
+            "links":["http://210.212.172.190/links/index.html","https://210.212.172.178/sims/","http://210.212.172.182/index.html"],
             "subMenu2":[
               "Moodle Link",
               "Contineo Link",
@@ -38,6 +40,7 @@ const OthersNavbar = (props) => {
           {
             "title":"Rules & Regulations",
             "links":[""],
+            "links":["documents/home/ug.pdf","documents/home/pg.pdf","documents/home/modalities.pdf"],
             "subMenu2":[
               "Undergraduate",
               "Postgraduate",
@@ -47,10 +50,11 @@ const OthersNavbar = (props) => {
           {
             "title":"Internship Policy",
             "links":[""],
+            "links":["documents/home/kit-internship-policy-2020.pdf","documents/home/guidelines-for-internship-and-project-accounted-throgh-kite.pdf"],
             "subMenu2":[
               "Guideline & Procedure",
               "Guidelines for Internship  ",
-              
+
             ]
           },
           {
@@ -59,7 +63,7 @@ const OthersNavbar = (props) => {
             "subMenu2":[
               "Academic Calendar",
               "Academic Council Meeting Proceedings  ",
-              
+
             ]
           },
                   ]
@@ -115,7 +119,7 @@ const OthersNavbar = (props) => {
           },
           {
             "title":"",
-            "links":["women-development"],
+            "links":["women-development-cell"],
             "subMenu2":["Women Development Cell"]
           },
         
@@ -143,6 +147,7 @@ const OthersNavbar = (props) => {
           {
             "title":"",
             "links":[""],
+            "links":["documents/home/vilaskarjinni-360-degree-feedback.pdf"],
             "subMenu2":["360 Degree Feedback 2020-2021"]
           },
           {
@@ -175,19 +180,20 @@ const OthersNavbar = (props) => {
           },
           {
             "title":"",
-            "links":["innovation-and-entrepreneurship"],
+            "links":["innovation-and-entrepreneurship-ariia"],
             "subMenu2":["ARIIA"]
           },
           {
             "title":"AICTE Idea Lab",
-            "links":["aicte-idea-lab-kitcoek,IdeaLab-ADVISORY-COMMITTEE,idealab-industry-connect,idealab-student-ambasadoors, "],
-            "subMenu2":["Idea Lab","Advisory Committee","Mentor Committee","Industry Connect","Student Ambasadoors"]
+            "links":["aicte-idea-lab-kitcoek","IdeaLab-ADVISORY-COMMITTEE","idealab-industry-connect","idealab-student-ambasadoors","documents/home/Idea_Lab_kit tender notice.pdf"],
+            "subMenu2":["Idea Lab","Advisory Committee","Industry Connect","Student Ambasadoors","Tender Notice"]
           },
-          
+
         
+
                   ]
       },
-      
+
     ]
 
 

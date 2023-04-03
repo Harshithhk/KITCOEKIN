@@ -66,11 +66,19 @@ const Navbar = () => {
             T&P CELL
           </li>
         </Link>
+        <Link href="/contact" passHref>
+
+        <li href="#" className="flex items-center cursor-pointer">
+          NOTICE
+        </li>
+        </Link>
+        <Link href="/contact" passHref>
 
         <li href="#" className="flex items-center cursor-pointer">
           <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
           CONTACT
         </li>
+        </Link>
         <Link href="/apply-admission" passHref>
           <li className="flex items-center cursor-pointer">
             <img src="/images/Navbar/Mention.svg" className="mr-2" alt="" />

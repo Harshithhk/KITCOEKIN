@@ -18,6 +18,7 @@ import { useEffect } from "react"
 import HeroSectionUpdated from "../sections/home-page/HeroSectionUpdated"
 import StatisticsNew from "../sections/home-page/StatisticsNew"
 import Testimonials from "../sections/about-us/Testimonials"
+import Testimonial from "../components/Testimonial"
 export async function getStaticProps() {
   let news = []
   let events = []
@@ -116,7 +117,7 @@ const Home = (props) => {
                   </span>
                 </div>
               </a>
-              <a href="https://www.kitcoek.in/agnis_upload/about-kit/KIT%20College%20-Brochure-Aug-2022.pdf">
+              <a href="documents/home/KIT College -Brochure-Aug-2022.pdf">
                 <div className="hover:cursor-pointer flex gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -163,7 +164,14 @@ const Home = (props) => {
       </div>
       <StatisticsNew />
       <EsteemedRecruiters />
-      <Testimonials />
+     
+      <Testimonial>
+        <Testimonial.DataCard name="Name" position="software developer" year="2018"  department="CSE"  videoIframe={<iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/6L2T1G_QDWQ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)|MURLIDHAR PARULEKAR" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>} />
+        <Testimonial.DataCard name="Name" position="software developer" year="2018"  department="CSE"  videoIframe={<iframe className="w-[600px] h-[350px] sm:w-fit " src="https://www.youtube.com/embed/5Wpp0eDMfSg" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)|SUDEEP NAKHE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>} />
+
+        <Testimonial.DataCard name="Name" position="software developer" year="2018"  department="CSE"  videoIframe={<iframe className="w-[600px] h-[350px] sm:w-fit " src="https://www.youtube.com/embed/eSwZ6UGS3tc" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)|ABHISHEK VERNEKAR" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>} />
+
+      </Testimonial>
       <Footer />
     </DefaultLayout>
   )

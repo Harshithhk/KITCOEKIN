@@ -80,7 +80,7 @@ const About = () => {
                     <div className="px-5 py-5 bg-gray-50 flex">
                       
                         <a
-                          href="#"
+                          href="https://youtu.be/KE526LqR8Oo"
                           className="-m-3 p-3 w-[50%] flex items-center rounded-md text-base font-medium text-[#24346D]  hover:bg-gray-100"
                         >
                        
@@ -110,7 +110,7 @@ const About = () => {
                     
                      
                         <a
-                          href="#"
+                          href="contact"
                           className="-m-3 p-3 ml-4 w-[50%] flex items-center rounded-md text-base font-medium text-[#24346D]  hover:bg-gray-100"
                         >
                          
