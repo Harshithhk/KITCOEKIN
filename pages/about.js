@@ -90,11 +90,11 @@ const About = () => {
               className="w-full h-full sm:block xxl:hidden"
               alt=""
             /> */}
-            <img
+            {/* <img
               src="/images/AboutUs/Gallary-mobile-1.png"
               className="w-full h-full sm:block xxl:hidden"
               alt=""
-            />
+            /> */}
           </div>
         </section>
         <AboutUs />
