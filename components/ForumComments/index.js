@@ -6,7 +6,7 @@ const ForumCard = (props) =>{
     let ForumData = props.ForumData;
     return(
         <>
-                <div className="container grid grid-cols-12 mx-auto dark:bg-gray-900">
+                <div className="container grid grid-cols-12 mx-auto ">
                     <div className="flex flex-col p-6 col-span-full row-span-full ">
                         <div className="flex justify-start">
                             {/* <span className="px-2 py-1 text-xs rounded-full text-white bg-primary">Label</span> */}
