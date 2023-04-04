@@ -2,33 +2,42 @@ import DefaultLayout from "../components/DefaultLayout"
 import QuickLinksCard from "../sections/alumni/career/quickLinksCard"
 import Forum from "../sections/alumni/forum"
 import Footer from "../sections/home-page/Footer"
-
+import React from "react"
 const CseEngineeringMous = () => {
-    let Mous = [{
-        "SrNo": 1,
-        "Industry": "Text Text Text Text",
-        "PurposeOfMoU": "Text Text Text Text"
+    const [modalToggle, setModalToggle] = React.useState("");
+
+    let ForumList = [{
+        "title": "Lorem ipsum dolor sit.",
+        "body": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.",
+        "name":"Leroy Jenkins",
+        "time": "3 min read"
       },{
-        "SrNo": 2,
-        "Industry": "Text Text Text Text ",
-        "PurposeOfMoU": "Text Text, Text Text"
-      }
+        "title": "Lorem ipsum dolor sit.",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.",
+        "name":"Leroy Jenkins",
+        "time": "3 min read"
+      },{
+        "title": "Lorem ipsum dolor sit.",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.",
+        "name":"Leroy Jenkins",
+        "time": "3 min read"
+      },{
+        "title": "Lorem ipsum dolor sit.",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.",
+        "name":"Leroy Jenkins",
+        "time": "3 min read"
+      },{
+        "title": "Lorem ipsum dolor sit.",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.",
+        "name":"Leroy Jenkins",
+        "time": "3 min read"
+      },
       ]
 
-    let Mous2021 = [{
-        "SrNo": 1,
-        "Industry": "Text Text",
-        "PurposeOfMoU": "Text Text"
-      },{
-        "SrNo": 2,
-        "Industry": "Text Text",
-        "PurposeOfMoU": "Text Text"
-      }
-      ]
     
 
     return (
-        <DefaultLayout>
+        <DefaultLayout modalToggle = {modalToggle} setModalToggle = {setModalToggle} >
             <div className="w-full ">
                 <section className="flex flex-col h-[250px] items-center w-full relative">
                     <img
@@ -92,13 +101,13 @@ const CseEngineeringMous = () => {
                             </div>
                             {/* -------------- */}
                        
-                           <Forum />
+                           <Forum ForumList = {ForumList} />
                          
                         </section>
 
 
                         {/* -------------col2--------------- */}
-                        <div className="flex flex-col justify-start sm:mx-1"><QuickLinksCard/>  </div>
+                        <div className="flex flex-col justify-start sm:mx-1"><QuickLinksCard setModalToggle = {setModalToggle} />  </div>
 
 
                     </div>

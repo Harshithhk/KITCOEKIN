@@ -9,12 +9,12 @@ const QuickLinks = ({ children }) => {
 }
 
 
-const Plates = ({ children,logo,setSubLink=(item)=>{!item},subLink,href}) => {
-
+const Plates = ({ children,logo,setSubLink=(item)=>{!item},subLink,href,setModalToggle,modalPath}) => {
+  
     // onClick={() => setSubLink(!subLink)} 
     return(
            <a href={href}>
-           <div onClick={() => setSubLink(!subLink)}  className="quickLink-plates hover:bg-slate-50 hover:cursor-pointer text-slate-400 flex flex-row  justify-between px-4 py-2">
+           <div onClick={() => {setSubLink(!subLink); modalPath != undefined ? setModalToggle(modalPath):null}}  className="quickLink-plates hover:bg-slate-50 hover:cursor-pointer text-slate-400 flex flex-row  justify-between px-4 py-2">
               {typeof(children)=== "object"?children[0]:children}
                 {logo ==="dropDown" ?
                 <>
@@ -104,8 +104,12 @@ const SubPlates = ({children,href,logo}) => {
     )
 }
 
+
+
+
 QuickLinks.Plates = Plates;
 QuickLinks.SubPlates = SubPlates;
 QuickLinks.SubQuickLinks = SubQuickLinks;
+
 
 export default QuickLinks

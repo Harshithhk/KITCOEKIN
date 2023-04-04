@@ -1,11 +1,17 @@
 import React from "react";
 import QuickLinks from "../../../components/QuickLinks"
+import Modal from "../../../components/Modal2";
 
-const QuickLinksCard = () => {
+const QuickLinksCard = (props) => {
 
     const [subLink1, setSubLink1] = React.useState(false)
     const [subLink2, setSubLink2] = React.useState(false)
     const [subLink3, setSubLink3] = React.useState(false)
+
+    const [authText, setAuthText] = React.useState(false)
+
+
+    
 
     return(
         <div className={`w-auto  rounded-xl p-6 sm:p-2 mt-2 flex flex-col items-start  sm:items-start`}>
@@ -19,7 +25,17 @@ const QuickLinksCard = () => {
 
            
             <QuickLinks.Plates href="alumni-about">About Association</QuickLinks.Plates>
-            <QuickLinks.Plates href="alumni-registration">Registration / Login</QuickLinks.Plates>
+            <div onClick={()=>{setAuthText(!authText)}}>
+              {
+                authText == 0 ? 
+                  <QuickLinks.Plates setModalToggle = {props.setModalToggle} modalPath = "alumniAuth"> SignIn / SignUp  </QuickLinks.Plates>
+                :
+                  <QuickLinks.Plates setModalToggle = {props.setModalToggle} modalPath = "alumniAuth"> SignOut  </QuickLinks.Plates>
+              }
+            </div>
+              <div className={`${authText == 0 ? "hidden":"" }`}>
+              <QuickLinks.Plates href="alumni-profile">Profile Page</QuickLinks.Plates>
+            </div>
             <QuickLinks.Plates href="alumni-activities">Activeties</QuickLinks.Plates>
             <QuickLinks.Plates href="alumni-list">Alumni List</QuickLinks.Plates>
             <QuickLinks.Plates href="alumni-achivements">Achivements</QuickLinks.Plates>

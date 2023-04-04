@@ -12,6 +12,7 @@ import Hod from "../sections/departments/entc/hod"
 import ImageGrid from "../sections/departments/entc/imageGrid"
 
 import TnP from "./tnp"
+import Testimonial from "../components/Testimonial"
 const EntcEngineering = () => {
   return (
     <DefaultLayout>
@@ -77,7 +78,18 @@ const EntcEngineering = () => {
         <Awsome />
         <OurVision />
         <MissionCards />
-        <Testimonials />
+            <Testimonial>
+
+            <Testimonial.DataCard name="Shivani" position="software developer (KPIT)" year="2016"  department="Electronics and Telecomm Engneering"  videoIframe={<iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/Eof29x_3uqk?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)| Miss. Shivani Chougule" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>} />
+
+
+
+
+<Testimonial.DataCard name="Omkar" position="senoir analist(capgemini)" year="2021"  department="Electronics and Telecomm Engneering"  videoIframe={<iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/-ZwvS2x4dMk?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;s College of Engineering (Autonomous) | Omkar Bamne" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>} />
+
+
+<Testimonial.DataCard name="Abhishek" position="Seagate" year="2018"  department="Electronics and Telecomm Engneering"  videoIframe={<iframe className="w-[600px] h-[350px] sm:w-fit " src="https://www.youtube.com/embed/eSwZ6UGS3tc?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)|ABHISHEK VERNEKAR" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>} />
+            </Testimonial>
         <Footer />
       </div>
     </DefaultLayout>

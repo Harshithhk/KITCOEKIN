@@ -1,27 +1,35 @@
 import DefaultLayout from "../components/DefaultLayout"
 import QuickLinksCard from "../sections/alumni/career/quickLinksCard"
 import Footer from "../sections/home-page/Footer"
-import {useState, useEffect} from "react";
-
+import React from "react"
 const CseEngineeringMous = () => {
-    const [data, setData] = useState([]);
+    const [modalToggle, setModalToggle] = React.useState("");
 
+    let Mous = [{
+        "SrNo": 1,
+        "Industry": "Text Text Text Text",
+        "PurposeOfMoU": "Text Text Text Text"
+      },{
+        "SrNo": 2,
+        "Industry": "Text Text Text Text ",
+        "PurposeOfMoU": "Text Text, Text Text"
+      }
+      ]
 
-    useEffect(() => {
-        const getAlumni = async () => {
-            const apiRoute = `${process.env.NEXT_PUBLIC_API_ROOT}/alumni/`;
-            const alumniResponse = await fetch(apiRoute);
-            const alumniJson  = await alumniResponse.json();
-            setData(alumniJson)
-        }
-        getAlumni();
-    }, [])
-
-
-
+    let Mous2021 = [{
+        "SrNo": 1,
+        "Industry": "Text Text",
+        "PurposeOfMoU": "Text Text"
+      },{
+        "SrNo": 2,
+        "Industry": "Text Text",
+        "PurposeOfMoU": "Text Text"
+      }
+      ]
+    
 
     return (
-        <DefaultLayout>
+        <DefaultLayout modalToggle = {modalToggle} setModalToggle = {setModalToggle}>
             <div className="w-full ">
                 <section className="flex flex-col h-[250px] items-center w-full relative">
                     <img
@@ -52,7 +60,7 @@ const CseEngineeringMous = () => {
                         data-aos-delay="0"
                         className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
                     >
-                        Alumni List
+                         Alumni List
                     </h1>
                     <br></br>
                     <br></br>
@@ -71,87 +79,68 @@ const CseEngineeringMous = () => {
                     </h6>
                 </section>
                 {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
-                <div className="flex flex-col ">
-            <div className="overflow-x-auto">
-              <div className="inline-block min-w-full py-2 ">
-                <div className="overflow-hidden">
-                  <table className="min-w-full">
-                    <thead className="bg-white border-b">
-                      <tr>
-                        <th
-                          scope="col"
-                          className="text-sm w-[50px] font-medium text-gray-900 px-6 py-4 text-center"
-                        >
-                          #
-                        </th>
-                        <th
-                          scope="col"
-                          className="text-sm w-[50px] font-medium text-gray-900 px-6 py-4 text-center"
-                        />
-                        <th
-                          scope="col"
-                          className="text-sm max-w-[600px]  text-left font-medium text-gray-900 px-6 py-4"
-                        >
-                          PRN Number
-                        </th>
-                        <th
-                          scope="col"
-                          className="px-6 py-4 text-sm font-medium text-left text-gray-900"
-                        >
-                          Alumni Name
-                        </th>
-                        <th
-                          scope="col"
-                          className="px-6 py-4 text-sm font-medium text-left text-gray-900 "
-                        >
-                          Department
-                        </th>
-                        <th
-                          scope="col"
-                          className="px-8 py-4 text-sm font-medium text-left text-gray-900 "
-                        >
-                          City
-                        </th>
-                      </tr>
-                    </thead>
-                    {data.length > 0 &&
-                      data.map((element, index) => (
-                        <tr
-                          key={element._id}
-                          className={`hover:bg-slate-200 ${
-                            index % 2 == 0 ? "bg-gray-100" : ""
-                          } border-b`}
-                        >
-                          <td className="px-6 py-4 text-sm font-medium text-center text-gray-900 whitespace-nowrap">
-                            {index+ 1}
-                          </td>
-                          <td className="text-sm h-[100px] min-w-[100px] font-medium text-center text-gray-900">
-                           {element.image ? <img src={element.image} alt={element.firstName} className="h-[80px] w-[80px] object-cover rounded-full"/> : null}
-                          </td>
-                          <td className="px-6 py-4 text-sm font-light text-orange-500 whitespace-nowrap">
-                            {element.prn}
-                          </td>
-                          <td className="text-sm  max-w-[600px] text-gray-900 font-light px-6 py-4">
-                            {element.firstName}{element.lastName ? ` ${element.lastName}` : ""}
-                          </td>
-                          <td className="px-6 py-4 text-sm font-light text-orange-500 whitespace-nowrap">
-                            {element.department || "NA"}
-                          </td>
-                          <td className="px-6 py-4 text-sm font-light text-gray-900 whitespace-nowrap">
-                            {element.city}
-                          </td>
+
+                <section className="overflow-hidden max-w-auto mx-auto md:mx-0  bg-secondary">
+
+
+
+                <div className="grid grid-cols-3  sm:px-0 px-2 sm:flex sm:flex-col pb-20 mt-6">
+
+                <section className="col-start-1  col-end-3 sm:mr-0 sm:ml-0 sm:mt-6 sm:px-4 sm:pb-10  pb-20 mx-10  h-fit   ">
+                            <div className="mt-6 sm:mt-0 sm:ml-4 mb-9 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+                                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
+                                LIST OF ALUMNI ACHIVEMENTS
+                            </div>
+                            {/* -------------- */}
+                            <div className="sm:hidden grid grid-cols-3 items-start gap-x-2 text-slate-500 justify-items-start mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
+                                <div className=" sm:hidden ml-10">Sr.No.</div>
+                                <div className=" ">Text Text</div>
+                                <div className=" ">Text Text</div>
+                             
+                               
+                            </div>
+                           
+                            {Mous.map((item, index) => {
+                                return (
+                                    <>
+                                        <div className="sm:hidden grid grid-cols-3 items-center justify-items-start gap-x-2 sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                                            <div className=" sm:hidden ml-10">{item.SrNo}</div>
+                                            <div className="">{item.Industry}</div>
+                                            <div className="">{item.PurposeOfMoU}</div>
+                                        </div>
+                                       
+                                        <div className=" sm:grid 2xl:hidden divide-y grid-rows-3 space-x-[1px] items-center text-left  w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+
+                                            <div className="grid grid-cols-2">
+                                                <div className="text-slate-400">Sr.No.</div>
+                                                <div className="">{item.SrNo}</div>
+                                            </div>
+                                            <div className="grid grid-cols-2">
+                                                <div className=" text-slate-400">Text Text</div>
+                                                <div className="">{item.Industry}</div>
+                                            </div>
+                                            <div className="grid grid-cols-2">
+                                                <div className=" text-slate-400">Text Text</div>
+                                                <div className="">{item.PurposeOfMoU}</div>
+                                            </div>
+                                           
+                                        </div>
+                                    </>
+                                )
+                            })}
                          
-                        </tr>
-                      ))}
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
+                        </section>
+
+
+                        {/* -------------col2--------------- */}
+                        <div className="flex flex-col justify-start sm:mx-1"><QuickLinksCard setModalToggle = {setModalToggle}/>  </div>
+
+
+                    </div>
+                </section>
                 <Footer />
             </div>
         </DefaultLayout>
     )
 }
-
 export default CseEngineeringMous

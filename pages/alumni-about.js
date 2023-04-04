@@ -23,6 +23,8 @@ let images = [
 
 const AlumniAbout = () => {
   const [gallary, setGallary] = useState(false)
+  const [modalToggle, setModalToggle] = React.useState("");
+
 
   useEffect(() => {
     console.log(gallary)
@@ -72,7 +74,7 @@ const AlumniAbout = () => {
     },
   ]
   return (
-    <DefaultLayout>
+    <DefaultLayout modalToggle = {modalToggle} setModalToggle = {setModalToggle}>
       <div className="relative w-full">
         {gallary && <Gallaryslider images={images} setGallary={setGallary} />}
         <section className="relative flex flex-col items-center w-full">
@@ -130,7 +132,7 @@ const AlumniAbout = () => {
 
           <div className="flex justify-between sm:flex-col ">
           <AboutUs />    
-          <div className=" w-2/4 sm:w-full mt-8 flex flex-col justify-center"> <QuickLinksCard /></div>
+          <div className=" w-2/4 sm:w-full mt-8 flex flex-col justify-center"> <QuickLinksCard setModalToggle = {setModalToggle}/></div>
        
 
          

@@ -1,12 +1,22 @@
 import React from "react";
 
 const ForumComments = () =>{
-    return( <section class="bg-white dark:bg-gray-900 py-8 lg:py-16">
+    return( <section class=" py-8 lg:py-16">
     <div class="max-w-2xl mx-auto px-4">
         <div class="flex justify-between items-center mb-6">
           <h2 class="text-lg lg:text-2xl font-bold text-gray-900 dark:text-white">Discussion (20)</h2>
       </div>
       <form class="mb-6">
+      <div className="grid grid-cols-2 ">
+      <div className="m-2">
+            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
+            <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required />
+        </div>
+        <div className="m-2">
+        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
+        <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required />
+        </div>
+      </div>
           <div class="py-2 px-4 mb-4 bg-white rounded-lg rounded-t-lg border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
               <label for="comment" class="sr-only">Your comment</label>
               <textarea id="comment" rows="6"
@@ -14,22 +24,24 @@ const ForumComments = () =>{
                   placeholder="Write a comment..." required></textarea>
           </div>
           <button type="submit"
-              class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
+              class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-primary bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
               Post comment
           </button>
       </form>
-      <article class="p-6 mb-6 text-base bg-white rounded-lg dark:bg-gray-900">
+      <article class="p-6 mb-6 text-base  rounded-lg dark:bg-gray-900">
           <footer class="flex justify-between items-center mb-2">
               <div class="flex items-center">
-                  <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white"><img
-                          class="mr-2 w-6 h-6 rounded-full"
-                          src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
-                          alt="Michael Gough" />Michael Gough</p>
+                  <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-2 w-6 h-6 rounded-full">
+                                <path fillRule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clipRule="evenodd" />
+                            </svg>
+
+                          Michael Gough</p>
                   <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate datetime="2022-02-08"
                           title="February 8th, 2022">Feb. 8, 2022</time></p>
               </div>
               <button id="dropdownComment1Button" data-dropdown-toggle="dropdownComment1"
-                  class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-400 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                  class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-400  rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                   type="button">
                   <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg">
@@ -41,7 +53,7 @@ const ForumComments = () =>{
               </button>
              
               <div id="dropdownComment1"
-                  class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                  class="hidden z-10 w-36  rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
                   <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
                       aria-labelledby="dropdownMenuIconHorizontalButton">
                       <li>
@@ -70,18 +82,17 @@ const ForumComments = () =>{
               </button>
           </div>
       </article>
-      <article class="p-6 mb-6 ml-6 lg:ml-12 text-base bg-white rounded-lg dark:bg-gray-900">
+      <article class="p-6 mb-6 ml-6 lg:ml-12 text-base  rounded-lg dark:bg-gray-900">
           <footer class="flex justify-between items-center mb-2">
               <div class="flex items-center">
-                  <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white"><img
-                          class="mr-2 w-6 h-6 rounded-full"
-                          src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
-                          alt="Jese Leos" />Jese Leos</p>
+                  <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-2 w-6 h-6 rounded-full">
+                                <path fillRule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clipRule="evenodd" />
+                            </svg>Jese Leos</p>
                   <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate datetime="2022-02-12"
                           title="February 12th, 2022">Feb. 12, 2022</time></p>
               </div>
               <button id="dropdownComment2Button" data-dropdown-toggle="dropdownComment2"
-                  class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-400 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                  class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-400  rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                   type="button">
                   <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg">
@@ -93,7 +104,7 @@ const ForumComments = () =>{
               </button>
              
               <div id="dropdownComment2"
-                  class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                  class="hidden z-10 w-36  rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
                   <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
                       aria-labelledby="dropdownMenuIconHorizontalButton">
                       <li>
@@ -120,18 +131,17 @@ const ForumComments = () =>{
               </button>
           </div>
       </article>
-      <article class="p-6 mb-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+      <article class="p-6 mb-6 text-base  border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
           <footer class="flex justify-between items-center mb-2">
               <div class="flex items-center">
-                  <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white"><img
-                          class="mr-2 w-6 h-6 rounded-full"
-                          src="https://flowbite.com/docs/images/people/profile-picture-3.jpg"
-                          alt="Bonnie Green" />Bonnie Green</p>
+                  <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-2 w-6 h-6 rounded-full">
+                                <path fillRule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clipRule="evenodd" />
+                            </svg>Bonnie Green</p>
                   <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate datetime="2022-03-12"
                           title="March 12th, 2022">Mar. 12, 2022</time></p>
               </div>
               <button id="dropdownComment3Button" data-dropdown-toggle="dropdownComment3"
-                  class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-400 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                  class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-400  rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                   type="button">
                   <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg">
@@ -143,7 +153,7 @@ const ForumComments = () =>{
               </button>
              
               <div id="dropdownComment3"
-                  class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                  class="hidden z-10 w-36  rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
                   <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
                       aria-labelledby="dropdownMenuIconHorizontalButton">
                       <li>
@@ -170,18 +180,17 @@ const ForumComments = () =>{
               </button>
           </div>
       </article>
-      <article class="p-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+      <article class="p-6 text-base  border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
           <footer class="flex justify-between items-center mb-2">
               <div class="flex items-center">
-                  <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white"><img
-                          class="mr-2 w-6 h-6 rounded-full"
-                          src="https://flowbite.com/docs/images/people/profile-picture-4.jpg"
-                          alt="Helene Engels" />Helene Engels</p>
+                  <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-2 w-6 h-6 rounded-full">
+                                <path fillRule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clipRule="evenodd" />
+                            </svg>Helene Engels</p>
                   <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate datetime="2022-06-23"
                           title="June 23rd, 2022">Jun. 23, 2022</time></p>
               </div>
               <button id="dropdownComment4Button" data-dropdown-toggle="dropdownComment4"
-                  class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-400 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                  class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-400  rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                   type="button">
                   <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg">
@@ -192,7 +201,7 @@ const ForumComments = () =>{
               </button>
              
               <div id="dropdownComment4"
-                  class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                  class="hidden z-10 w-36  rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
                   <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
                       aria-labelledby="dropdownMenuIconHorizontalButton">
                       <li>

@@ -10,6 +10,7 @@ import Footer from "../sections/home-page/Footer"
 import Career from "../sections/departments/bsh/career/index"
 import Hod from "../sections/departments/bsh/hod"
 import TnP from "./tnp"
+import Testimonial from "../components/Testimonial"
 const BshEngineering = () => {
   return (
     <DefaultLayout>
@@ -75,7 +76,15 @@ const BshEngineering = () => {
       
         <OurVision />
         <MissionCards />
-        <Testimonials />
+            <Testimonial>
+
+            <Testimonial.DataCard name="------------- " position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
+          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
+
+          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
+
+
+            </Testimonial>
         <Footer />
       </div>
     </DefaultLayout>

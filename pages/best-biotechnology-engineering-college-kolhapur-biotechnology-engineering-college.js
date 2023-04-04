@@ -4,11 +4,11 @@ import DefaultLayout from "../components/DefaultLayout"
 import Awsome from "../sections/departments/biotech/Awsome"
 import OurVision from "../sections/departments/biotech/OurVision"
 import MissionCards from "../sections/departments/biotech/MissionCards"
-import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
 import Career from "../sections/departments/biotech/career"
 import Hod from "../sections/departments/biotech/hod"
 import ImageGrid from "../sections/departments/biotech/imageGrid"
+import Testimonial from "../components/Testimonial"
 const BiotechnologyEngineering = () => {
   return (
     <DefaultLayout>
@@ -74,7 +74,13 @@ const BiotechnologyEngineering = () => {
         <Awsome />
         <OurVision />
         <MissionCards />
-        <Testimonials />
+        <Testimonial>
+          <Testimonial.DataCard name="------------- " position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
+          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
+
+          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
+
+        </Testimonial>
         <Footer />
       </div>
     </DefaultLayout>

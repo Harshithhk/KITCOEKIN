@@ -1,7 +1,7 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 import Career from "../sections/alumni/career"
-
+import React from "react"
 import dynamic from 'next/dynamic'
 import NewsAndNotices from "../sections/alumni/NewsAndNotices"
 import Overviews from "../sections/alumni/Overviews"
@@ -29,10 +29,12 @@ export async function getStaticProps() {
   }
 }
 const Alumni = (props) => {
+  const [modalToggle, setModalToggle] = React.useState("");
+
   let news = []
   let notices = []
   return (
-    <DefaultLayout>
+    <DefaultLayout modalToggle = {modalToggle} setModalToggle = {setModalToggle} >
       <div className="w-full bg-[#24346D]">
         <section className="flex flex-col h-[250px] items-center w-full relative">
           <img
@@ -91,7 +93,7 @@ const Alumni = (props) => {
 
      
         <section className="pt-16 sm:pt-1 mt-16 mb-[-60px] overflow-clip bg-[#F8F7FC] max-w-screen">
-          <Career />
+          <Career setModalToggle = {setModalToggle} />
           <NewsAndNotices  news={news} notices={notices} />
           <Overviews />
         </section>

@@ -46,7 +46,7 @@ const hod = () => (
 
         </div>
        
-        <Modal title="Hod's Message" body={body} pCondition ="array">
+        <Modal title="Hod's Message" body={body} >
         <div className="flex gap-[10px] mt-4 md:mt-2 justify-center hover:cursor-pointer text-[#3D3859] md:ml-0">
           <div className="italic  font-[#3D3859] font-bold hover:underline text-[17.9865px] md:text-base  tracking-[0.005em]">
             Read more

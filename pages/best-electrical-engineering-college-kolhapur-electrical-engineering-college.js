@@ -10,6 +10,7 @@ import Career from "../sections/departments/electrical/career"
 import Hod from "../sections/departments/electrical/hod"
 import ImageGrid from "../sections/departments/electrical/imageGrid"
 import TnP from "./tnp"
+import Testimonial from "../components/Testimonial"
 const ElectEntineering = () => {
   return (
     <DefaultLayout>
@@ -75,7 +76,13 @@ const ElectEntineering = () => {
         <Awsome />
         <OurVision />
         <MissionCards />
-        <Testimonials />
+            <Testimonial>
+            <Testimonial.DataCard name="------------- " position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
+          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
+
+          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
+
+            </Testimonial>
         <Footer />
       </div>
     </DefaultLayout>

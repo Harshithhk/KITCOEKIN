@@ -1,7 +1,13 @@
 import React from "react"
 import Modal from "../Modal"
 
+
+
 const Testimonial = ({children}) => {
+
+ 
+
+
   return (
   
 
@@ -41,6 +47,17 @@ const Testimonial = ({children}) => {
 }
 
 const DataCard = ({name,position,year,department,videoIframe})=>{
+
+   
+  let stringLimit = 200
+  let bodyString = department
+
+  if(bodyString.length < stringLimit){
+ 
+      bodyString =   bodyString + "\xa0\xa0\xa0\xa0\xa0                             \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0"  
+  }
+
+
     return(
         <div className="h-full mr-11 sm:mr-2 sm:ml-2 w-[420px] sm:w-64 bg-white p-4 sm:p-3 rounded-[30px] ">
         <div className="h-16 sm:h-8 flex w-full justify-between ">
@@ -68,9 +85,9 @@ const DataCard = ({name,position,year,department,videoIframe})=>{
 
         </div>
        
-        <div className="mt-2 sm:mt-4 relative text-justify sm:text-sm text-xl text-accent">
+        <div className="mt-2 sm:mt-4 relative  sm:text-sm text-xl text-accent">
           Academic Year : {year}<br></br>
-          Department: {department}
+          Department: {bodyString}
           <br></br>
           <Modal title={`${name}'s Testimonial `} body={        videoIframe          } >
           <button className="absolute sm:relative sm:py-1= sm:my-2 right-0  rounded-full inline-flex px-3 py-2 m-1  shadow-lg bg-orange-500 text-white">

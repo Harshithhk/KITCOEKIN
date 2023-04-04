@@ -12,6 +12,7 @@ import Footer from "../sections/home-page/Footer"
 // import Career from "../sections/departments/career"
 // import Hod from "../sections/departments/hod"
 import TnP from "./tnp"
+import Testimonial from "../components/Testimonial"
 const ElectronicsEngineering = () => {
   return (
     <DefaultLayout>
@@ -77,7 +78,13 @@ const ElectronicsEngineering = () => {
         <Awsome />
         <OurVision />
         <MissionCards />
-        <Testimonials />
+        <Testimonial>
+        <Testimonial.DataCard name="------------- " position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
+          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
+
+          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
+
+        </Testimonial>
         <Footer />
       </div>
     </DefaultLayout>

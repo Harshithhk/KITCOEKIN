@@ -2,8 +2,10 @@ import DefaultLayout from "../components/DefaultLayout"
 import QuickLinksCard from "../sections/alumni/career/quickLinksCard"
 import ContactUsForm from "../sections/alumni/contactUsForm"
 import Footer from "../sections/home-page/Footer"
-
+import React from "react"
 const CseEngineeringMous = () => {
+    const [modalToggle, setModalToggle] = React.useState("");
+
     let Mous = [{
         "SrNo": 1,
         "Industry": "Text Text Text Text",
@@ -28,7 +30,7 @@ const CseEngineeringMous = () => {
     
 
     return (
-        <DefaultLayout>
+        <DefaultLayout modalToggle = {modalToggle} setModalToggle = {setModalToggle} >
             <div className="w-full ">
                 <section className="flex flex-col h-[250px] items-center w-full relative">
                     <img
@@ -97,7 +99,7 @@ const CseEngineeringMous = () => {
 
 
                         {/* -------------col2--------------- */}
-                        <div className="flex flex-col justify-start sm:mx-1"><QuickLinksCard/>  </div>
+                        <div className="flex flex-col justify-start sm:mx-1"><QuickLinksCard setModalToggle = {setModalToggle}  />  </div>
 
 
                     </div>

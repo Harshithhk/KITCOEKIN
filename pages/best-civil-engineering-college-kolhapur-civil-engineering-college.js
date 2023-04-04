@@ -10,6 +10,7 @@ import Career from "../sections/departments/civil/career/index"
 import Hod from "../sections/departments/civil/hod"
 
 import ImageGrid from "../sections/departments/civil/imageGrid"
+import Testimonial from "../components/Testimonial"
 const CivilEngineering = () => {
   return (
     <DefaultLayout>
@@ -75,7 +76,17 @@ const CivilEngineering = () => {
         <Awsome />
         <OurVision />
         <MissionCards />
-        <Testimonials />
+        <Testimonial>
+            <Testimonial.DataCard name="Amol" position="DURE TECHNOLOGY" year="2016"  department="CIVIL"  videoIframe={
+            <iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/LvtgHCvP5G4?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)| Amol Walvekar" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            } />
+            <Testimonial.DataCard name="Amol" position="DURE TECHNOLOGY" year="2016"  department="CIVIL"  videoIframe={
+            <iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/LvtgHCvP5G4?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)| Amol Walvekar" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            } />
+            <Testimonial.DataCard name="Amol" position="DURE TECHNOLOGY" year="2016"  department="CIVIL"  videoIframe={
+            <iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/LvtgHCvP5G4?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)| Amol Walvekar" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            } />
+        </Testimonial>
         <Footer />
       </div>
     </DefaultLayout>

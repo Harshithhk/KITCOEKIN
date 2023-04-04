@@ -9,6 +9,7 @@ import Footer from "../sections/home-page/Footer"
 import Career from "../sections/departments/env/career"
 import Hod from "../sections/departments/env/hod"
 import ImageGrid from "../sections/departments/env/imageGrid"
+import Testimonial from "../components/Testimonial"
 const EnvoEngineering = () => {
   return (
     <DefaultLayout>
@@ -74,7 +75,25 @@ const EnvoEngineering = () => {
         <Awsome />
         <OurVision />
         <MissionCards />
-        <Testimonials />
+            <Testimonial>
+
+            <Testimonial.DataCard name="Swarada" position="Netcracker" year="2021"  department="Environmental engineering"  videoIframe={<iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/30atsL5ITTI?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="Our Studet Our Pride: Swarada Phadnis" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+} />
+
+
+
+      <Testimonial.DataCard name="Abhay" position="Tata power" year="2022"  department="Environmental engineering"  videoIframe={<iframe className="w-[600px] h-[350px] sm:w-fit " src="https://www.youtube.com/embed/h9oCSMH4b7I?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;s College of Engineering (Autonomous) | Abhay Singh" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+} />
+
+
+
+
+
+   <Testimonial.DataCard name="Harshad" position="POSTDOC" year="2009"  department="Environmental engineering"  videoIframe={
+<iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/LGhbzYCTQwc?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)| HARSHAD KULKARNI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+} />
+            </Testimonial>
         <Footer />
       </div>
     </DefaultLayout>

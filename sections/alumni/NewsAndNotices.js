@@ -114,7 +114,7 @@ let notices2 = [
           {news &&
             news.map((element, index) => (
               <div
-                key={element._id}
+                key={index}
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-delay={`${index * 10}`}
@@ -156,7 +156,7 @@ let notices2 = [
           {notices &&
             notices.map((notice, index) => (
               <div
-                key={notice._id}
+                key={index}
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-delay={`${index * 20}`}
