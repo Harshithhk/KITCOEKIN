@@ -14,7 +14,7 @@ const BotServer = async (switchApi, input) => {
 
   const chatbotApis = {
     // "getChatApi":"http://127.0.0.1:5000/getChat",
-    "getChatApi": process.env.NEXT_PUBLIC_API_CHATBOT,
+    "getChatApi": process.env.CHATBOT_API,
     getIntentsApi: "http://127.0.0.1:8050/getIntents",
     storeChatApi: "http://127.0.0.1:8050/storeChat",
     storeIntentApi: "http://127.0.0.1:8050/storeIntent",
