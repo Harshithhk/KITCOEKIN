@@ -13,11 +13,9 @@ const BotServer = async (switchApi, input) => {
   const intent = {}
 
   const chatbotApis = {
-    // "getChatApi":"http://127.0.0.1:5000/getChat",
-    "getChatApi": process.env.CHATBOT_API,
-    getIntentsApi: "http://127.0.0.1:8050/getIntents",
-    storeChatApi: "http://127.0.0.1:8050/storeChat",
-    storeIntentApi: "http://127.0.0.1:8050/storeIntent",
+ 
+    "getChatApi": process.env.CHATBOT_API,  
+
   }
   switch (switchApi) {
     case "getChat":
@@ -32,9 +30,7 @@ const BotServer = async (switchApi, input) => {
         mode: "cors",
       }
 
-      // intent = await fetch(getChatUrl, getChat_other_params);
-      // intent = await intent.json()
-      // return intent
+    
       intent = await fetch(getChatUrl, getChat_other_params)
         .then(function (response) {
           if (response.ok) {
