@@ -14,7 +14,7 @@ const BotServer = async (switchApi, input) => {
 
   const chatbotApis = {
  
-    "getChatApi": 'http://13.235.218.16:5000/getChat',  
+    "getChatApi": process.env.CHATBOT_API,  
 
   }
   switch (switchApi) {
