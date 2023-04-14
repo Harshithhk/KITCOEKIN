@@ -1,6 +1,15 @@
 import React from "react"
+import axios from "axios";
 
 const BotServer = async (switchApi, input) => {
+  
+  let res = await axios.get(
+    "http://13.235.218.16:5000"
+  )
+  console.log("axios-----------------",res)
+
+
+  
   function IsJsonString(str) {
     try {
       JSON.parse(str)
