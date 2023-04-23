@@ -17,6 +17,13 @@ const NIRF_IPR = () => {
 		"Title": "AN INTELLIGENT STENOhover:text-primaryGRAPHER DESIGNSD FOR ]UDICIARY SYSTEM",
 		"Application": "documents/about/nirf/IPR/KhotPradeep17.06.2020App.pdf",
     "Publication": "documents/about/nirf/IPR/PradeepKhot-PublicationDate21.08.2020.pdf"
+	},
+  {
+		"SrNo": 3,
+		"NameOfFaculty": "MALKAR RADHIKA SADASHIV",
+		"Title": "CATALYST FOR CO2 METHANATION REACTION HAVING HIGH ACTIVITY AND LONGTERM STABILITY AND PROCESS",
+		"Application": "documents/about/nirf/IPR/RadhikaMalkarPatent.pdf",
+    "Publication": "documents/about/nirf/IPR/RadhikaMalkarPatent.pdf"
 	}
 ]
 

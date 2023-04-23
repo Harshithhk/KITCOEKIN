@@ -4,6 +4,11 @@ const Admission2223 = () => {
 
   let Admission2223 = [
     {
+      "DocName":"Admission 2022-23 Schedule",
+      "DocLink":"documents/admission/2022_23/BE_ActivitySchedule2022-23.pdf",
+      "Year":"First-Year-B.Tech"
+    },
+    {
       "DocName":"Last Year Cutoff [Male] AY:2021-22",
       "DocLink":"documents/admission/2022_23/Cutoff_%20F.Y.%20B.TECH%20(MALE)_AY_2021-22.pdf",
       "Year":"First-Year-B.Tech"
@@ -19,6 +24,21 @@ const Admission2223 = () => {
       "Year":"First-Year-B.Tech"
     },
     {
+      "DocName":"List of Documents During Online Registration F.Y.B.TECH 2022-23",
+      "DocLink":"documents/admission/2022_23/list-of-document-during-online-registration-direct-fybtech-2021.pdf",
+      "Year":"First-Year-B.Tech"
+    },
+    {
+      "DocName":"KIT Seat Matrix",
+      "DocLink":"documents/admission/2023_24/KIT Seat matrix.pdf",
+      "Year":"First-Year-B.Tech"
+    },
+    {
+      "DocName":"Admission 2022-23 Schedule",
+      "DocLink":"documents/admission/2022_23/DSY_29_Oct_2022.pdf",
+      "Year":"Direct-Second-Year"
+    },
+    {
       "DocName":"Last Year Cutoff [Male] AY:2021-22",
       "DocLink":"documents/admission/2022_23/Cutoff_DIR.%20S.Y.%20B.TECH%20(MALE)_AY_2021-22.pdf",
       "Year":"Direct-Second-Year"
@@ -31,6 +51,11 @@ const Admission2223 = () => {
     {
       "DocName":"Fee Structure",
       "DocLink":"documents/admission/2022_23/Fees%20Structure%202021-22%20-%20DSE%20BTech.pdf",
+      "Year":"Direct-Second-Year"
+    },
+    {
+      "DocName":"List of Documents During Online Registration S.Y.B.TECH 2022-23",
+      "DocLink":"documents/admission/2022_23/DSY_List Of Documents For Admission A.Y. 2023-24_2.pdf",
       "Year":"Direct-Second-Year"
     },
   ]

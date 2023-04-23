@@ -5,13 +5,13 @@ const GoverningCouncil = () => {
    let governingCouncilList = [
     {
       "SrNo": "1",
-      "Name": "Mr.Bharat D.Patil",
+      "Name": "Mr.Sunil Kulkarni",
       "Designation": "Chairman, Kolhapur Institute of Technology, Kolhapur",
       "PositionInGoverningCouncil": "Chairman, Nominee, KIT Trust"
     },
     {
       "SrNo": "2",
-      "Name": "Mr.Sunil Kulkarni",
+      "Name": " Mr.Sajid Hudli",
       "Designation": "Vice Chairman, Kolhapur Institute of Technology, Kolhapur",
       "PositionInGoverningCouncil": "Member, Nominee, KIT Trust"
     },
@@ -23,7 +23,7 @@ const GoverningCouncil = () => {
     },
     {
       "SrNo": "4",
-      "Name": "Mr.Sajid Hudli",
+      "Name": " Mr.Bharat D.Patil",
       "Designation": "Trustee, Kolhapur Institute of Technology, Kolhapur",
       "PositionInGoverningCouncil": "Member, Nominee, KIT Trust"
     },

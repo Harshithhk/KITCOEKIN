@@ -50,11 +50,11 @@ const Gymkhana = () => {
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-white px-14 sm:px-4 sm:pb-10">
-          <img
+          {/* <img
             className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
             src="/images/TnP/indicator.png"
             alt=""
-          />
+          /> */}
 
           <div className="flex justify-between sm:flex-col">
             <div>

@@ -1,5 +1,6 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Admission2122 from "../sections/admissions/postgraduate/Admission2122"
+import Admission2223 from "../sections/admissions/postgraduate/Admission2223"
 import Footer from "../sections/home-page/Footer"
 
 const AdmissionUndergraduate = () => {
@@ -121,7 +122,7 @@ const AdmissionUndergraduate = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            Undergraduate Admissions
+            Postgraduate Admissions
           </h1>
           <br></br>
           <br></br>
@@ -136,19 +137,19 @@ const AdmissionUndergraduate = () => {
                 Home
               </span>{" "}
             </a>
-            <span className="">|</span> Undergraduate Admissions
+            <span className="">|</span> Postgraduate Admissions
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-[#F8F7FC] px-14 sm:px-4 sm:pb-10">
-          <img
+          {/* <img
             className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
             src="/images/TnP/indicator.png"
             alt=""
-          />
+          /> */}
           {/* - */}
-
-          <Admission2122 />
+          <Admission2223 />
+          {/* <Admission2122 /> */}
         </section>
         <section className="pt-16 mt-16 mb-[-60px] overflow-hidden bg-[#F8F7FC] max-w-screen">
           <div className="flex items-center w-full ml-16 sm:ml-4">

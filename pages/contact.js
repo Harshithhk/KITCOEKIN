@@ -277,11 +277,11 @@ const cardsData = [
         </section>
         {/*---------------------------------------------------------------------pb-20  px-14 sm:px-4 sm:pb-10----------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto h-fit bg-[#f8f7fc] pb-20  px-14 sm:px-4 sm:pb-10"> 
-          <img
+          {/* <img
             className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
             src="/images/TnP/indicator.png"
             alt=""
-          />
+          /> */}
         
      
         <ContactUsForm />

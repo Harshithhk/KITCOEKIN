@@ -57,7 +57,7 @@ const Accreditation = () => {
                 </svg>
                     <div className="ml-4">
                     <p className="text-base font-medium text-[#24346D]  ">
-                    AICTE Approval EoA 21-22
+                    AICTE Approval
                     </p>
                     <p className="mt-1 text-sm text-gray-500">
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
@@ -65,9 +65,9 @@ const Accreditation = () => {
                     </div>
                 </a>
                 <a
-                    href="#"
+                    href="documents/About/accreditation/NAAC-and-NBA.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                    onMouseEnter ={() => (setSubNav31(!subNav31))} onMouseLeave ={() => (setSubNav31(!subNav31))}
+                    // onMouseEnter ={() => (setSubNav31(!subNav31))} onMouseLeave ={() => (setSubNav31(!subNav31))}
                 >
                     
                 
@@ -76,13 +76,13 @@ const Accreditation = () => {
                 </svg>
                     <div className="ml-4">
                     <p className="text-base font-medium text-[#24346D] ">
-                    NBA Certificate  
+                    NBA & NAAC  
                     </p>
                     <p className="mt-1 text-sm text-gray-500">
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                     </p>
                     </div>
-                    <svg
+                    {/* <svg
                     className={
                         subNav31 === true
                         ? "transform -rotate-90 ml-[73px] h-5 w-5 text-gray-400 group-hover:text-gray-500 transition ease-out duration-200"
@@ -98,7 +98,7 @@ const Accreditation = () => {
                         d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                         clipRule="evenodd"
                     />
-                </svg>
+                </svg> */}
                 <div
                 className={
                     subNav31

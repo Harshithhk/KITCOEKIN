@@ -12,14 +12,19 @@ const CollegeAdministration = () => {
       img: "/images/About/CollegeAdministration/v-v-karjinni.jpg",
     },
     {
+      name: "Prof.Dr. MOHAN. B. VANAROTTI",
+      designation: "Director",
+      img: "/images/About/CollegeAdministration/Prof.Dr. MOHAN B. VANAROTTI-1.jpg",
+    },
+    {
       name: "Dr. M. M. Mujumdar",
-      designation: "I/C Director and Registar",
+      designation: "Registar",
       img: "/images/About/CollegeAdministration/m-m-mujumdar.jpg ",
     },
     {
       name: "Mr. Ajit S. Patil",
       designation: "Dean - Academics",
-      img: "/images/About/CollegeAdministration/m-m-mujumdar.jpg",
+      img: "/images/About/CollegeAdministration/ajit-s-patil.jpg",
     },
     {
       name: "Dr. Prashant P. Powar",
@@ -117,11 +122,11 @@ const CollegeAdministration = () => {
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-white px-14 sm:px-4 sm:pb-10">
-          <img
+          {/* <img
             className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
             src="/images/TnP/indicator.png"
             alt=""
-          />
+          /> */}
 
           <div className="flex justify-between sm:flex-col">
             <div>

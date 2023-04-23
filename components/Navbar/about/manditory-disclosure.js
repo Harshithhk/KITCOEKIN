@@ -5,9 +5,9 @@ const ManditoryDisclosure = () => {
   const [subNav40, setSubNav40] = React.useState(false);
   return (
         <a
-            href="manditory-disclosure-20-21"
+            href="#"
             className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-            // onMouseEnter ={() => (setSubNav40(!subNav40))} onMouseLeave ={() => (setSubNav40(!subNav40))}
+            onMouseEnter ={() => (setSubNav40(!subNav40))} onMouseLeave ={() => (setSubNav40(!subNav40))}
         >
         
         
@@ -22,7 +22,7 @@ const ManditoryDisclosure = () => {
             
             </p>
             </div>
-            {/* <svg
+            <svg
                     className={
                         subNav40 === true
                         ? "transform -rotate-90 ml-[162px] h-5 w-5 text-gray-400 group-hover:text-gray-500 transition ease-out duration-200"
@@ -38,7 +38,7 @@ const ManditoryDisclosure = () => {
                         d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                         clipRule="evenodd"
                     />
-                </svg> */}
+                </svg>
                 <div
                 className={
                     subNav40
@@ -49,7 +49,7 @@ const ManditoryDisclosure = () => {
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                 <a
-                    href="manditory-disclosure-20-21"
+                    href="documents/About/manditory-disclosure/Fee proposal 2023-24 submitted to Fees Regulating Authority.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-6 w-6 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -58,7 +58,7 @@ const ManditoryDisclosure = () => {
                 
                     <div className="ml-4">
                     <p className="text-base font-medium text-[#24346D]  ">
-                    Mandatory Disclosures AY:2020-21
+                    Fee Proposal AY:2023-24
                     </p>
                     <p className="mt-1 text-sm text-gray-500">
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
@@ -66,7 +66,24 @@ const ManditoryDisclosure = () => {
                     </div>
                 </a>
                 <a
-                    href="#"
+                    href="manditory-disclosure"
+                    className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-6 w-6 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+                </svg>
+                
+                    <div className="ml-4">
+                    <p className="text-base font-medium text-[#24346D]  ">
+                    Mandatory Disclosures
+                    </p>
+                    <p className="mt-1 text-sm text-gray-500">
+                        {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
+                    </p>
+                    </div>
+                </a>
+                <a
+                    href="documents/About/manditory-disclosure/KIT e Governance Policy 2022.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                     
@@ -76,7 +93,7 @@ const ManditoryDisclosure = () => {
                 </svg>
                     <div className="ml-4">
                     <p className="text-base font-medium text-[#24346D] ">
-                    Mandatory Disclosures AY:2019-20 
+                    E Governance Policy 
                     </p>
                     <p className="mt-1 text-sm text-gray-500">
                         {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}

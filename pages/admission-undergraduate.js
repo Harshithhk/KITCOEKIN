@@ -6,6 +6,7 @@ import { Tab } from '@headlessui/react'
 import ProvisionalAdmission from "../sections/admissions/undergraduate/ProvisionalAdmission"
 import Admission2223 from "../sections/admissions/undergraduate/Admission2223"
 import Admission2122 from "../sections/admissions/undergraduate/Admission2122"
+import Admission2224 from "../sections/admissions/undergraduate/Admission2024"
 
 
 
@@ -378,18 +379,24 @@ let AdmissionContacts = [
           >
            <a href="/"><span className="hover:text-primary hover:cursor-pointer"> Home</span></a> <span className=" ">|</span> Undergraduate Admissions
           </h6>
+          
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-[#F8F7FC] px-14 sm:px-4 sm:pb-10">
-          <img
+          {/* <img
             className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
             src="/images/TnP/indicator.png"
             alt=""
-          />
+          /> */}
           {/* - */}
-          <ProvisionalAdmission />
+          <div className="pt-8 text-sm text-[#24346D] font-bold">
+            <h3>Save WhatsApp Number: 7030861199 as KIT Admission :<a href="https://api.whatsapp.com/send?phone=+917030861199" className="hover:cursor-pointer text-[#F07C00]"> Click here to chat with us for Admission </a></h3>
+          </div>
+          {/* <ProvisionalAdmission /> */}
+          <Admission2224 />
           <Admission2223 />
-          <Admission2122 />
+          
+          {/* <Admission2122 /> */}
         </section>
         <section className="pt-16 mt-16 mb-[-60px] overflow-clip bg-[#F8F7FC] max-w-screen">
           <div className="flex items-center w-full ml-16 sm:ml-4">

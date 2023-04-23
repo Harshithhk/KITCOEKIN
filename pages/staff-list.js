@@ -3,15 +3,26 @@ import Footer from "../sections/home-page/Footer"
 
 const StaffList = () => {
   let staff = [{
-		"SrNo": 1,
+		"SrNo": 0,
 		"NameOfTheFaculty": "DR KARJINNI VILAS VIJAYA",
-		"Course": "DIRECTOR",
-		"Designation": "DIRECTOR",
+		"Course": "Executive DIRECTOR",
+		"Designation": "Executive DIRECTOR",
 		"DateOfJoining": "02/02/2014",
 		"Qualification": "B.E. (CIVIL ENGINEERING) , M.TECH.(TRANSPORTATION SYSTEM ENGINEERING) Ph.D",
 		"NatureOfAppointment": "REGULAR",
 		"Experience": 34
-	},{
+	},
+	{
+		"SrNo": 1,
+		"NameOfTheFaculty": "Prof.Dr. M. B. VANAROTTI",
+		"Course": "DIRECTOR",
+		"Designation": "DIRECTOR",
+		"DateOfJoining": "",
+		"Qualification": "",
+		"NatureOfAppointment": "REGULAR",
+		"Experience": 25
+	},
+	{
 		"SrNo": 2,
 		"NameOfTheFaculty": "DR DIXIT MANASI RENUKAPRASAD",
 		"Course": "ELECTRONICS ENGINEERING",

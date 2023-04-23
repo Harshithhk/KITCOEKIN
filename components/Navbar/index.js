@@ -10,6 +10,7 @@ import Departments from "./departments/index.js"
 import MobileNavbar from "./mobileNavbar/index.js"
 import OthersNavbar from "./others/index.js"
 import OthersMegaNavbar from "./othersMega"
+import Academics from "./academics/index.js"
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -61,15 +62,15 @@ const Navbar = () => {
         <Link href="/#" passHref>
           <Departments />
         </Link>
-        <Link href="/tnp" passHref>
-          <li href="#" className="flex items-center cursor-pointer">
-            T&P CELL
-          </li>
+        <Link href="/#" passHref>
+          
+          <Academics />
+       
         </Link>
-        <Link href="/contact" passHref>
+        <Link href="/#" passHref>
 
-        <li href="#" className="flex items-center cursor-pointer">
-          NOTICE
+        <li href="#" className="flex items-end cursor-pointer">
+          EXAM CELL
         </li>
         </Link>
         <Link href="/contact" passHref>

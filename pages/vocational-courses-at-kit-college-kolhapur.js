@@ -5,6 +5,8 @@ import BranchPlacement from "../sections/departments/branchPlacement"
 import Career from "../sections/departments/career"
 import CampusPlacement from "../sections/departments/campusplacement"
 import TnPEsteemedRecruiters from "../sections/tnp/TnPEsteemedRecruters"
+import { Section1 } from "../sections/admissions/vocationalCurses/section1"
+import { Section2 } from "../sections/admissions/vocationalCurses/section2"
 
 const VocationalCourses = () => {
 
@@ -59,120 +61,15 @@ const VocationalCourses = () => {
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-white px-14 sm:px-4 sm:pb-10">
-          <img
+          {/* <img
             className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
             src="/images/TnP/indicator.png"
             alt=""
-          />
-
-          <div className="flex justify-between sm:flex-col">
-            <div>
-              <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
-                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                Courses under UGC-NSQF
-
-
-              </div>
-              <div className="mt-10 sm:mt-4 w-[700px] text-xl text-accent text-justify sm:w-full sm:text-base">
-                        <div className="flex mt-2 mb-2">
-                            <div className=" w-[5%] text-left  pl-2 text-slate-400 sm:w-[20%]" >
-                                <svg xmlns="http://www.w3.org/2000/svg"  className="h-6 w-6 text-[#24346D]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-                                </svg>
-                            </div>
-                            <div className=" w-[80%] text-left  pl-2 text-primary">
-                            Diploma in BIM Technology
-                            </div>
-                            
-                        </div>
-                        <div className="flex mt-2 mb-2">
-                            <div className=" w-[5%] text-left  pl-2 text-slate-400 sm:w-[20%]" >
-                                <svg xmlns="http://www.w3.org/2000/svg"  className="h-6 w-6 text-[#24346D]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-                                </svg>
-                            </div>
-                            <div className=" w-[80%] text-left  pl-2 text-primary">
-                            Certificate Course in BIM Fundamentals
-                            </div>
-                            
-                        </div>
-                        <div className="flex mt-2 mb-2">
-                            <div className=" w-[5%] text-left  pl-2 text-slate-400 sm:w-[20%]" >
-                                <svg xmlns="http://www.w3.org/2000/svg"  className="h-6 w-6 text-[#24346D]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-                                </svg>
-                            </div>
-                            <div className=" w-[80%] text-left  pl-2 text-primary">
-                            Certificate Course in BIM Advanced
-                            </div>
-                        </div>
-                        <br/>
-                        Department of Civil Engineering Kolhapur, KIT’s College of Engineering (Autonomous) has recently surveyed potential employability requirements of Service industry during COVID 19 scenario, It was noticed that remote handling of Construction and Engineering project and work from home (WFH) will be a preferred choice of most of the service industries serving public and private domain of design, construction and operation phases of the project.
-
-Similar organizations were contacted and consulted for their opinion for launching a Skill development program that suits this scenario.
-<br/><br/>
-BIM Technologies, Australia is one of organization accepted KIT’s proposal to start educational programs to cater industry need in domain of BIM technology. For the last three years, the Department of Civil Engineering began to introduce departmental students with modeling phases of BIM with short term courses.
-
-Now with Association of BIM Technologies, Australia, Department of Civil Engineering is introducing the first time in the Western part of India
-
-<br/><br/>
-A Diploma Program in BIM technology for a period of one year. This course is divided into two certificate programs.
-<br/><br/>
-<span className="font-semibold">Eligibility :</span> Diploma OR Degree in Civil Engineering and Mechanical Engineering, Last year students of Engineering also can apply.
-<br/><br/>
-<span className="font-semibold">Seats :</span> Single batch is of 30 students.
-<br/><br/>
-<span className="font-semibold">Course Schedule :</span> Sunday and Monday of each week for course duration (3-4 Hours of a day)
-           
-              </div>
-            </div>
-            <div className=" mt-44 ml-12 p-2 sm:ml-0 sm:p-0 sm:mt-12 ">        
-                <img src="/images/Admission/skill-dev-program.jpg" className="rounded-xl shadow-md" alt="" />
-                
-                <dev className="grid grid-cols-1 gap-y-2 mt-6">
-                    <div className="pl-2 pr-2 bg-white rounded-lg shadow-lg min-h-[50px] grid grid-cols-12 items-center ">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="col-start-1 h-10 w-10 text-primary" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
-                    </svg>
-                    <div className="col-start-2 col-end-12 sm:col-start-3">Document For Syllabus</div>
-                    <svg xmlns="http://www.w3.org/2000/svg" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                    </svg>
-                    </div>  
-                </dev> 
-                <dev className="grid grid-cols-1 gap-y-2 mt-6">
-                    <div className="pl-2 pr-2 bg-white rounded-lg shadow-lg min-h-[50px] grid grid-cols-12 items-center ">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="col-start-1 h-10 w-10 text-primary" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
-                    </svg>
-                    <div className="col-start-2 col-end-12 sm:col-start-3">Document For Syllabus</div>
-                    <svg xmlns="http://www.w3.org/2000/svg" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                    </svg>
-                    </div>  
-                </dev>
-                <dev className="grid grid-cols-1 gap-y-2 mt-6 ">
-                    <div className="pl-2 pr-2 hover:bg-slate-100 hover:cursor-pointer bg-white rounded-lg shadow-lg min-h-[50px] flex justify-between items-center ">
-                        <div className=" "><span className="font-semibold">INQUIRY</span> https://forms.gle/UEpiTnFJcK6iziCe7</div>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 text-primary"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                        >
-                            <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                            />
-                        </svg>
-                    </div>  
-                </dev>
-                <div></div>
-            </div>
-          </div>
+          /> */}
+        
+        <Section2 />
+        <Section1 />
+         
               
         </section>
         <div className="w-full mt-16 pb-16 bg-white h-fit ">
@@ -247,7 +144,7 @@ A Diploma Program in BIM technology for a period of one year. This course is div
                     </div>
                 </div>
         </div>
-        <div className="w-full -mt-24 pb-16 bg-white h-fit ">
+        <div className="w-full -mt-24 pb-16 -mb-10 bg-white h-fit ">
             <div className="m-4 ">
                     <div className="pt-20 sm:pt-20 px-6 sm:px-0  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                         <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
@@ -299,126 +196,7 @@ India having a multi-billion dollar AECO industry and is the second-largest grow
                         
         </div>
 
-        <section className="h-[564px] sm:h-fit sm:py-16 bg-[#24346D] mt-20 sm:mt-8  flex justify-center items-center relative overflow-hidden">
-      <img
-        src="/images/AboutUs/bgcircle.png"
-        className="w-24 h-24 absolute top-[17.5%] left-[35%] z-10 sm:w-16 sm:h-16 sm:top-[10%] sm:left-[70%]"
-        alt=""
-      />
-
-      <img
-        src="/images/AboutUs/bgcircle.png"
-        className="w-32 h-32 absolute top-[15%] left-[5%] z-10 sm:w-20 sm:h-20"
-        alt=""
-      />
-
-      <img
-        src="/images/AboutUs/bgcircle.png"
-        className="w-40 h-40 absolute top-[50%] left-[50%] z-10 sm:w-28 sm:h-28"
-        alt=""
-      />
-      <img
-        src="/images/AboutUs/bgcircle.png"
-        className="w-28 h-28 absolute top-[12.5%] left-[85%] z-10 sm:hidden"
-        alt=""
-      />
-
-      <section className="h-[250px] flex  z-20 sm:h-fit">
-        {/* Card */}
-        <div className="h-full mr-11 sm:mr-2 sm:ml-2 w-[420px] sm:w-64 bg-white p-4 sm:p-3 rounded-[30px] sm:opacity-50">
-          <div className="h-16 sm:h-8 flex w-full justify-between ">
-            <div className="flex">
-              <img
-                src="/images/AboutUs/Avatar.png"
-                className="w-16 sm:h-[36px] sm:w-[36px] h-full"
-                alt="Avatar.png"
-              />
-              <div className="ml-2 sm:ml-1 ">
-                <h1 className="text-3xl text-accent font-bold sm:text-base">
-                  Swapnil Jadhav
-                </h1>
-                <div className="text-base text-[#6A6A6A] sm:text-xs sm:-translate-y-1">
-                  Software Engineer
-                </div>
-              </div>
-            </div>
-            <img
-              src="/images/AboutUs/Quotes.svg"
-              className="h-16 w-16 sm:h-8 sm:w-8 -translate-y-1"
-              alt=""
-            />
-          </div>
-
-          <div className="mt-2 text-justify sm:text-sm text-xl text-accent">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
-            minus reiciendis quae aspernatur soluta saepe incidunt culpa
-            molestias, nesciunt maxime esse.
-          </div>
-        </div>
-        {/* Card */}
-        <div className="h-full mr-11 sm:mr-2 sm:ml-2 w-[420px] sm:w-64 bg-white p-4 sm:p-3 rounded-[30px] ">
-          <div className="h-16 sm:h-8 flex w-full justify-between ">
-            <div className="flex">
-              <img
-                src="/images/AboutUs/Avatar.png"
-                className="w-16 sm:h-[36px] sm:w-[36px] h-full"
-                alt="Avatar.png"
-              />
-              <div className="ml-2 sm:ml-1 ">
-                <h1 className="text-3xl text-accent font-bold sm:text-base">
-                  Harshith Kelkar
-                </h1>
-                <div className="text-base text-[#6A6A6A] sm:text-xs sm:-translate-y-1">
-                  Software Engineer
-                </div>
-              </div>
-            </div>
-            <img
-              src="/images/AboutUs/Quotes.svg"
-              className="h-16 w-16 sm:h-8 sm:w-8 -translate-y-1"
-              alt=""
-            />
-          </div>
-
-          <div className="mt-2 text-justify sm:text-sm text-xl text-accent">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
-            minus reiciendis quae aspernatur soluta saepe incidunt culpa
-            molestias, nesciunt maxime esse.
-          </div>
-        </div>
-        {/* Card */}
-        <div className="h-full mr-11 sm:mr-2 sm:ml-2 w-[420px] sm:w-64 bg-white p-4 sm:p-3 rounded-[30px] sm:opacity-50">
-          <div className="h-16 sm:h-8 flex w-full justify-between ">
-            <div className="flex">
-              <img
-                src="/images/AboutUs/Avatar.png"
-                className="w-16 sm:h-[36px] sm:w-[36px] h-full"
-                alt="Avatar.png"
-              />
-              <div className="ml-2 sm:ml-1 ">
-                <h1 className="text-3xl text-accent font-bold sm:text-base">
-                  Rushikesh Patil
-                </h1>
-                <div className="text-base text-[#6A6A6A] sm:text-xs sm:-translate-y-1">
-                  Software Engineer
-                </div>
-              </div>
-            </div>
-            <img
-              src="/images/AboutUs/Quotes.svg"
-              className="h-16 w-16 sm:h-8 sm:w-8 -translate-y-1"
-              alt=""
-            />
-          </div>
-
-          <div className="mt-2 text-justify sm:text-sm text-xl text-accent">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
-            minus reiciendis quae aspernatur soluta saepe incidunt culpa
-            molestias, nesciunt maxime esse.
-          </div>
-        </div>
-      </section>
-    </section>
+      
      
         <Footer />
       </div>

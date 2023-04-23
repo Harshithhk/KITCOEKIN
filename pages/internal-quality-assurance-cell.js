@@ -51,11 +51,11 @@ const InternalQualityAssuranceCell = () => {
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-white px-14 sm:px-4 sm:pb-10">
-          <img
+          {/* <img
             className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
             src="/images/TnP/indicator.png"
             alt=""
-          />
+          /> */}
 
           <div className="flex justify-between sm:flex-col">
             <div>
@@ -113,7 +113,7 @@ const InternalQualityAssuranceCell = () => {
                 academic and administrative performance of the institution.
                 <br></br>
                 <br></br>
-                <a href="documents/About/IQAC/nacc-record/iqac-committe-2021-22.pdf" target="_blank" rel="noreferrer">
+                <a href="documents/About/IQAC/IQAC_Committee/IQAC_22-23.pdf" target="_blank" rel="noreferrer">
                 <p className="flex hover:cursor-pointer hover:text-primary"> Internal Quality Assurance Cell (IQAC) Committee
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 hover:cursor-pointer text-primary" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clipRule="evenodd" />
@@ -149,7 +149,7 @@ const InternalQualityAssuranceCell = () => {
                 <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   < div className=" w-[90%] text-left pl-2 text-slate-400">
                     {" "}
-                    IQAR Records
+                    AQAR Records
                   </div>
                   <div className=" w-[20%] text-left pl-2 text-slate-400">
                     {" "}
@@ -162,7 +162,7 @@ const InternalQualityAssuranceCell = () => {
                 </a>
                 <hr></hr>
 
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100 invisible">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
                     {" "}
                     Infrastructure and Learning Resources
@@ -214,6 +214,21 @@ const InternalQualityAssuranceCell = () => {
                   </div>
                 </div>
               </a>  
+              <hr></hr>
+              <a href="documents/about/iqac/nacc-record/KITCOEK Undertaking IIQA 2022.pdf" target="_blank" rel="noreferrer">  
+                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                  <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
+                    {" "}
+                    NAAC IIQA Undertaking 2022
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-slate-400">
+                    {" "}
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:cursor-pointer text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                  </div>
+                </div>
+              </a>
                 <hr></hr>
               <a href="documents/About/IQAC/nacc-record/nacc-peer-report.pdf" target="_blank" rel="noreferrer">  
                 <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
@@ -274,6 +289,37 @@ const InternalQualityAssuranceCell = () => {
                   </div>
                 </div>
               </a>
+              <hr></hr>
+              <a href="documents/about/iqac/nacc-record/SSS_21-22.pdf" target="_blank" rel="noreferrer">  
+                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                  <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
+                    {" "}
+                    Student Satisfaction Survey 2021-22
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-slate-400">
+                    {" "}
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:cursor-pointer text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                  </div>
+                </div>
+              </a>
+              <hr></hr>
+              <a href="documents/about/iqac/nacc-record/Feedback analysis and action taken report.pdf" target="_blank" rel="noreferrer">  
+                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                  <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
+                    {" "}
+                    Feedback analysis and action taken report
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-slate-400">
+                    {" "}
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:cursor-pointer text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                  </div>
+                </div>
+              </a>
+              
               </div>
             </div>
           </div>

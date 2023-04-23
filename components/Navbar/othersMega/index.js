@@ -19,89 +19,26 @@ const OthersNavbar = (props) => {
 
    
     const MenuList = [
+      
       {
-        "title":"Academics",
+        "title":"T&P",
         "subMenu1":[
           {
             "title":"",
+            "links":[""],
+            "subMenu2":["Training and Placement"]
+          },
+          {
+            "title":"Student Resources",
             "links":["/online-syllabus"],
-            "subMenu2":["Online Syllabus"],
-          },
-          {
-            "title":"Other Online Platforms",
-            "links":[""],
-            "links":["http://210.212.172.190/links/index.html","https://210.212.172.178/sims/","http://210.212.172.182/index.html"],
             "subMenu2":[
-              "Moodle Link",
-              "Contineo Link",
-              "KITCOEK Virtual Lab"
-            ]
+            
+              "Notice",
+              "Alumni Association",
+             
+            ],
           },
-          {
-            "title":"Rules & Regulations",
-            "links":[""],
-            "links":["documents/home/ug.pdf","documents/home/pg.pdf","documents/home/modalities.pdf"],
-            "subMenu2":[
-              "Undergraduate",
-              "Postgraduate",
-              "Modalities For Shivaji University Students"
-            ]
-          },
-          {
-            "title":"Internship Policy",
-            "links":[""],
-            "links":["documents/home/kit-internship-policy-2020.pdf","documents/home/guidelines-for-internship-and-project-accounted-throgh-kite.pdf"],
-            "subMenu2":[
-              "Guideline & Procedure",
-              "Guidelines for Internship  ",
-
-            ]
-          },
-          {
-            "title":"Academic Documents",
-            "links":[""],
-            "subMenu2":[
-              "Academic Calendar",
-              "Academic Council Meeting Proceedings  ",
-
-            ]
-          },
-                  ]
-      },
-      {
-        "title":"Exam Cell",
-        "subMenu1":[
-          {
-            "title":"",
-            "links":["administration-staff"],
-            "subMenu2":["Administrative Staff"]
-          },
-          {
-            "title":"",
-            "links":["examtimetable"],
-            "subMenu2":["Exam Timetable"]
-          },
-          {
-            "title":"",
-            "links":["results"],
-            "subMenu2":["Results"]
-          },
-          {
-            "title":"",
-            "links":[""],
-            "subMenu2":["Exam Calendar UG & PG"]
-          },
-          {
-            "title":"",
-            "links":["paper-setting-documents"],
-            "subMenu2":["Paper Setting Documents"]
-          },
-          {
-            "title":"",
-            "links":["remuneration-format"],
-            "subMenu2":["Faculty Remuneration Format"]
-          },
-        
+          
                   ]
       },
       {
