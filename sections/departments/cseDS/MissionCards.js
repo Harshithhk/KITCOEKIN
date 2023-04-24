@@ -10,8 +10,9 @@ const MissionCards = () => {
           Our Mission
         </h1>
         <div className="text-xl  mt-5 sm:text-xs sm:mt-1">
-        Through essential technical comprehension and skills.
-        </div>
+        To prepare Computer Science and Engineering in Data Science graduates to be industry ready, lifelong learners with competence in basic sciences & engineering and professional core, multidisciplinary areas, so that they can succeed in industry as an individual and as a team or to pursue higher studies.
+
+</div>
       </div>
 
       <div className="w-[500px] h-auto bg-[#FEF6ED] px-9 py-10 rounded-[36px] relative sm:w-[160px]  sm:p-3 sm:rounded-xl ">
@@ -23,7 +24,8 @@ const MissionCards = () => {
           Our Mission
         </h1>
         <div className="text-xl  mt-5 sm:text-xs sm:mt-1">
-        The awareness of societal and ethical needs in the field of computer science and Engineering
+        To enable the graduates to use modern tools, to design and develop data science enabled products and also communicate effectively with professional ethics.
+
 
         </div>
       </div>
@@ -34,7 +36,8 @@ const MissionCards = () => {
           Our Mission
         </h1>
         <div className="text-xl  mt-5 sm:text-xs sm:mt-1">
-        Building competency with existing tools and technologies
+        To collaborate with the data science industry through projects-based learning, internships enabling the students to explore, apply various directions of learning.
+
 
       </div>
       </div>

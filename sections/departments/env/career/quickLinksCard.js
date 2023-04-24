@@ -6,7 +6,7 @@ const QuickLinksCard = () => {
   const [subLink2, setSubLink2] = React.useState(false)
   const [subLink3, setSubLink3] = React.useState(false)
   const [subLink4, setSubLink4] = React.useState(false)
-
+  const [subLink5, setSubLink5] = React.useState(false)
   return (
     <div
       className={`w-auto  rounded-xl p-6 sm:p-2 mt-2 flex flex-col items-start  sm:items-start`}
@@ -25,16 +25,22 @@ const QuickLinksCard = () => {
           Activities
           <QuickLinks.SubQuickLinks setSubLink={setSubLink3} subLink={subLink3}>
             <QuickLinks.SubPlates
-              href="/documents/departments/environmental/activity/important-workshops-and-seminars-06-february-2020-to-25-february-2021.pdf"
+              href="/documents/departments/environmental/activity/Departmental Activities for AY 2021-22.pdf"
               logo="document"
             >
-              Important Workshops 2020-21
+              AY:2021-22
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
-              href="/documents/departments/environmental/activity/env-sci-dept-activities-organized-during-last-three-years.pdf"
+              href="/documents/departments/environmental/activity/Departmental Activities for AY 2020-21.pdf"
               logo="document"
             >
-              Activities organized Last 3 Years
+              AY:2020-21
+            </QuickLinks.SubPlates>
+            <QuickLinks.SubPlates
+              href="/documents/departments/environmental/activity/Departmental Activities for AY 2019-20.pdf"
+              logo="document"
+            >
+              AY:2019-20
             </QuickLinks.SubPlates>
           </QuickLinks.SubQuickLinks>
         </QuickLinks.Plates>
@@ -58,9 +64,7 @@ const QuickLinksCard = () => {
             >
               Placement 2021-22
             </QuickLinks.SubPlates>
-            <QuickLinks.SubPlates logo="document" href="documents">
-              Placement 2020-21
-            </QuickLinks.SubPlates>
+         
             <QuickLinks.SubPlates
               logo="document"
               href="documents/departments/environmental/placements/env-placement-record-2019-20.pdf"
@@ -85,23 +89,24 @@ const QuickLinksCard = () => {
           <QuickLinks.SubQuickLinks setSubLink={setSubLink2} subLink={subLink2}>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/environmental/internship/civil-and-env-engg-department-internship-info.pdf"
+              href="documents/departments/environmental/internship/Internship Data 2020-21.pdf"
+            >
+              Internship 2021-22
+            </QuickLinks.SubPlates>
+            <QuickLinks.SubPlates 
+              logo="document"
+              href="documents/departments/environmental/internship/Internship Data 2021-22.pdf"
             >
               Internship 2020-21
             </QuickLinks.SubPlates>
-            <QuickLinks.SubPlates logo="document">
-              Internship 2019-20
-            </QuickLinks.SubPlates>
-            <QuickLinks.SubPlates logo="document">
-              Internships
-            </QuickLinks.SubPlates>
+      
           </QuickLinks.SubQuickLinks>
         </QuickLinks.Plates>
 
         <QuickLinks.Plates href="dept-of-environmental-engg-recruiters">
           Recruiters
         </QuickLinks.Plates>
-        <QuickLinks.Plates href="dept-of-environmental-engg-mous">
+        <QuickLinks.Plates logo="document" href="documents/departments/environmental/mou/MoUs - Civil and Environmental Engineering.pdf">
           MOU'S
         </QuickLinks.Plates>
         <QuickLinks.Plates href="dept-of-environmental-engg-po-peos">
@@ -117,15 +122,21 @@ const QuickLinksCard = () => {
           <QuickLinks.SubQuickLinks setSubLink={setSubLink4} subLink={subLink4}>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/environmental/activity/env-student-achievement-2019-20.pdf"
+              href="documents/departments/environmental/achivement/Students Achievement 2019-2020.pdf"
             >
               Students Achievements in 2019-20
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/environmental/activity/env-student-achievement-last-three-years.pdf"
+              href="documents/departments/environmental/achivement/Students Achievement 2020-2021.pdf"
             >
-              Students Achievements
+              Students Achievements 2020-21
+            </QuickLinks.SubPlates>
+            <QuickLinks.SubPlates
+              logo="document"
+              href="documents/departments/environmental/achivement/Students Achievement 2021-22.pdf"
+            >
+              Students Achievements 2021-22
             </QuickLinks.SubPlates>
           </QuickLinks.SubQuickLinks>
         </QuickLinks.Plates>
@@ -134,10 +145,26 @@ const QuickLinksCard = () => {
         </QuickLinks.Plates>
 
         <QuickLinks.Plates
-          logo="document"
-          href="documents/departments/environmental/internship/env-vocational-training-last-three-year.pdf"
+          logo="dropDown"
+          setSubLink={setSubLink5}
+          subLink={subLink5}
         >
-          Vocational Courses
+          Consultancy Services
+          <QuickLinks.SubQuickLinks setSubLink={setSubLink5} subLink={subLink5}>
+            <QuickLinks.SubPlates
+              logo="document"
+              href="documents/departments/environmental/consultancy/Consultancy services 2021-22.pdf"
+            >
+              Consultancy Services
+            </QuickLinks.SubPlates>
+            <QuickLinks.SubPlates
+              logo="document"
+              href="documents/departments/environmental/consultancy/Departmental Consultancy Activities.pdf"
+            >
+              Consultancy Activities
+            </QuickLinks.SubPlates>
+         
+          </QuickLinks.SubQuickLinks>
         </QuickLinks.Plates>
       </QuickLinks>
     </div>

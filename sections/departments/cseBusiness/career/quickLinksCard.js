@@ -81,7 +81,12 @@ const QuickLinksCard = () => {
             </QuickLinks.SubPlates>
           </QuickLinks.SubQuickLinks>
         </QuickLinks.Plates>
-
+        <QuickLinks.Plates
+          logo="document"
+          href="documents//departments/cseBusiness/syllabus/CSBS Syllabus.pdf"
+        >
+          Syllabus
+        </QuickLinks.Plates>
         <QuickLinks.Plates
           logo="dropDown"
           setSubLink={setSubLink2}

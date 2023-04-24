@@ -2,7 +2,7 @@ import React from "react"
 
 const DepartmentMou = () => {
   return (
-    <section className="relative  z-30 w-full mx-auto pt-16 sm:pt-14 sm:-mt-2 pb-20 h-fit bg-[#F8F7FC] px-14 sm:px-4 sm:pb-10">
+    <section className="relative  z-30 w-full mx-auto pt-16 sm:pt-14 sm:-mt-2 pb-20 -mb-10 h-fit bg-[#F8F7FC] px-14 sm:px-4 sm:pb-10">
       <div className="flex items-center w-full sm:ml-2">
         <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
         <div className="ml-3 md:ml-2 w-fit  text-center sm:text-xl   text-[#24346D] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">

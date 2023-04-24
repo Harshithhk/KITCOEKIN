@@ -2,22 +2,23 @@ import React from "react"
 import Modal from "../../../components/Modal"
 
 const body =
-  "Computer science has become one of the fastest-growing engineering streams due to the tremendous rise of computer systems and their integration into all aspects of life. Whether it's a basic cell phone or a complex space shuttle, computers are present and play an important role in almost every aspect of life.\n" +
+"Welcome to the department of Computer science and engineering (Data Science ).\n" +
+"\n" +
+"Data Science is an interdisciplinary course combining various domains of Statistics, Analytics, Knowledge Extraction and Data Visualization. In today’s technical world, the exponential growth of data, requires a science ensuring that the huge volumes of data is handled accurately, analysed efficiently, knowledge is extracted appropriately and visualized perfectly. Data Science is a complete integration of all these requirements.\n" +
+"\n" +
+"This course helps students to build mathematical and engineering skills required to advance their career as a Data Scientist or Data Analyst or Data Engineer and many more. The department aims to train students in rapidly growing areas of data science and encourage them for global certifications. Department places emphasis on all the important aspects of computers engineering such as Programming, Algorithm Design, Operating Systems, Computer Networks, Mobile Communication, Artificial Intelligence, Machine Learning and many more.\n" +
+"\n" +
+  "Special focus is given to courses like Fundamentals of Data Science, Data Pre-processing, Data Wrangling, Data Analytics, Data Visualization, Big Data etc. These will help the students in acquiring the required knowledge and expertise to start their career as a Data Analyst, Data Engineer, Data Scientist and many other opportunities in the current industry. Many seminars, conferences, certifications and training sessions will be conducted by the department to make the students develop themselves globally.\n" +
   "\n" +
-  "Data Science is an interdisciplinary area that extracts knowledge and insights from a variety of structured and unstructured data using scientific methods, procedures, algorithms, and systems. Data science is all about using data to solve problems. All components of technology required for obtaining, storing, analysing, and comprehending data are brought together in data science.\n" +
-  "\n" +
-  "The goal of this course is to generate graduates who have the theoretical understanding and skill set to deal with all areas of data creation, management, processing, and conversion to knowledge. Students who complete the proposed programme will have a far greater depth and breadth of knowledge in the broad field of data science.\n" +
-  "\n" +
-  "The curriculum is designed in close collaboration with industry which includes in-demand tools and technologies. The Department of CSE in Data Science is comprised of a group of highly trained and experienced educators who not only convey wisdom and knowledge, but also help students develop as data thinkers.\n" +
-  "\n" +
-  "Our department provides great infrastructure and facilities to enable faculty and students to thrive in teaching and be dynamic enough to take on any research challenge.\n" +
-  "\n" +
-  "As the Department's Head, I consider myself fortunate to be managing a remarkable team of dedicated employees and inspiring professors, Our professors make significant contributions to the field of data science both theoretically and practically. Our department has significant relationships to industry, research institutions, and the general public.\n" +
-  "\n" +
+"  Being Head of the Department, I consider myself fortunate enough that we are giving strength, motivation, ethical values to our young aspiring engineers besides technical and professional skill sets under the guidance of visionary management. We always encourage our students to be socially aware, responsible, committed, and to become smart citizens of today’s era. Our department has established significant relationship with the several companies, industrial people and research institutions which will make it easy for the students to get placements in a smoother way.\n" +
+"\n" +
+"  In line with our vision, we are constantly striving hard to improve in quality and remain committed to focus on excellence at par with global standards.\n" +
+"\n" +
+"  I welcome you to join our endeavors to deliver and bring out the best for students at KIT’s college of Engineering as a competitive edge. Thank you for visiting us!!!\n" +
+"\n" +
   "All the very best.\n" +
   "\n" +
   ""
-
 const hod = () => (
   <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-10 h-fit bg-white px-14 sm:px-4 sm:pb-0 sm:mb-24">
     <div className="flex justify-between md:flex-col">
@@ -29,21 +30,14 @@ const hod = () => (
         <div className="mt-10 md:mt-4 md:w-full md:text-base  w-[800px] text-xl text-accent text-justify">
           <p>
             {" "}
-            Computer science has become one of the fastest-growing engineering
-            streams due to the tremendous rise of computer systems and their
-            integration into all aspects of life. Whether it's a basic cell
-            phone or a complex space shuttle, computers are present and play an
-            important role in almost every aspect of life.
+            Welcome to the department of Computer science and engineering (Data Science ).
+
+Data Science is an interdisciplinary course combining various domains of Statistics, Analytics, Knowledge Extraction and Data Visualization. In today’s technical world, the exponential growth of data, requires a science ensuring that the huge volumes of data is handled accurately, analysed efficiently, knowledge is extracted appropriately and visualized perfectly. Data Science is a complete integration of all these requirements.
           </p>
           <br />
           <p>
             {" "}
-            Data Science is an interdisciplinary area that extracts knowledge
-            and insights from a variety of structured and unstructured data
-            using scientific methods, procedures, algorithms, and systems. Data
-            science is all about using data to solve problems. All components of
-            technology required for obtaining, storing, analysing, and
-            comprehending data are brought together in data science.
+            This course helps students to build mathematical and engineering skills required to advance their career as a Data Scientist or Data Analyst or Data Engineer and many more. The department aims to train students in rapidly growing areas of data science and encourage them for global certifications. Department places emphasis on all the important aspects of computers engineering such as Programming, Algorithm Design, Operating Systems, Computer Networks, Mobile Communication, Artificial Intelligence, Machine Learning and many more.
           </p>
         </div>
 
@@ -64,14 +58,14 @@ const hod = () => (
         <div className="absolute bg-[#24346D] w-[300px] sm:w-[305px] h-40 mt-36"></div>
         <div className="relative overflow-hidden bg-transparent sm:-mx-1 sm:-mt-1 ">
           <img
-            src="images/Department/cseDS/ajit-s-patil.png "
+            src="images/Department/cseDS/UPG_1.png "
             className=""
-            alt="mamtakalas.png"
+            alt=""
           />
         </div>
         <div className="mt-2 flex flex-col py-2 items-center text-[#24346D]">
           <div className="bg-primary w-16 h-[3px]   rounded-xl"></div>
-          Mr. Ajit S. Patil
+          Dr. Uma P. Gurav
         </div>
       </div>
     </div>

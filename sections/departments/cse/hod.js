@@ -62,11 +62,11 @@ const hod = () => (
       <div className="md:mx-auto w-[300px] h-[370px] bg-transparent   mt-28 mr-6 rounded-xl text-white text-2xl md:text-xl  items-center justify-between flex flex-col md:mt-14">
         <div className="absolute bg-[#24346D] w-[300px] sm:w-[305px] h-40 mt-36"></div>
         <div className="overflow-hidden relative bg-transparent sm:-mx-1 sm:-mt-1 ">
-          <img src="images/Department/cse/mamta-kalas_preview_rev_1.png " className=" " alt="mamtakalas.png" />
+          <img src="images/Department/cse/ajit-s-patil.png " className=" " alt=" " />
         </div>
           <div className="mt-2 flex flex-col py-2 items-center text-[#24346D]">
             <div className="bg-primary w-16 h-[3px]   rounded-xl"></div>
-            DR.Mamata S.Kalash
+            Dr. Ajit S. Patil
           </div> 
       </div>
     </div>

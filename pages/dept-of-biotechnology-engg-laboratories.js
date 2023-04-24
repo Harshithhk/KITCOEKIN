@@ -42,32 +42,32 @@ const BiotechnologyEngineeringLaboratories = () => {
         {
             title: "MICROBIOLOGY & BIOCHEMISTRY LABORATORY",
             excerpt: "UV double beam spectrophotometer, shaker incubator, compound microscope, centrifuge, digital pH meter, colorimeter, water distillation plant,water bath",
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of BioTechnology Engineering",
             img: "images/department/bioTech/lab/micro-lab.jpg"
         }, {
             title: "MOLECULAR BIOLOGY LABORATORY",
             excerpt: "Thermocycler (PCR), Electrophoretic Separation Systems for DNA and Proteins, Gel Documentation System, Ice matic, Cooling Centrifuge. ",
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of BioTechnology Engineering",
             img: "images/department/bioTech/lab/mol-bio-lab.jpg"
         }, {
             title: "BIOPROCESSES LABORATORY",
             excerpt: "B plus Biostat fermentor (7 liter capacity) fully equipped with automatic control along with computer Data Acquisition & Analysis Software, Chromatographic separation systems, Rotary vacuum evaporator, Chilling plant, Soxhlet apparatus.",
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of BioTechnology Engineering",
             img: "images/department/bioTech/lab/bioprocess-lab.jpg"
         }, {
             title: "CELL CULTURE LABORATORY",
             excerpt: "Phase contrast microscope, Fluorescence microscope, Inverted Microscope, CO2 Incubator, Ultra Low Freezers (-80 Degree Celsius), Laminar air hood.",
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of BioTechnology Engineering",
             img: "images/department/bioTech/lab/cell-bio-lab.jpg"
         },
         {
             title: "BIOREACTION ENGINEERING LABORATORY",
             excerpt: "Plug flow reactor, Mixed flow reactor, Venturimeter, Polarimeter.",
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of BioTechnology Engineering",
             img: "images/department/bioTech/lab/bioreaction-engg-lab.jpg"
         }
@@ -105,7 +105,7 @@ const BiotechnologyEngineeringLaboratories = () => {
                         data-aos-delay="0"
                         className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
                     >
-                        Faculty List
+                        Biotechnology Engineering Laboratory
                     </h1>
                     <br></br>
                     <br></br>

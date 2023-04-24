@@ -6,7 +6,7 @@ const Results = () => {
   return(
     <>
       <a
-                        href="#"
+                        href="results"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         // onMouseEnter ={() => (setSubNav(!subNav))} onMouseLeave ={() => (setSubNav(!subNav))}
 

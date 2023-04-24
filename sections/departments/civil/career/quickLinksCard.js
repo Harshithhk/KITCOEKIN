@@ -36,6 +36,12 @@ const QuickLinksCard = () => {
         >
           Placement
           <QuickLinks.SubQuickLinks setSubLink={setSubLink1} subLink={subLink1}>
+          <QuickLinks.SubPlates
+              logo="document"
+              href="documents/departments/civil/placements/Student Placement 2021-22 batch -civil Engineering.pdf"
+            >
+              Placement 2021-22
+            </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
               href="documents/departments/civil/placements/civil-placement-record-2019-20.pdf"
@@ -58,6 +64,12 @@ const QuickLinksCard = () => {
         >
           Internship
           <QuickLinks.SubQuickLinks setSubLink={setSubLink2} subLink={subLink2}>
+          <QuickLinks.SubPlates
+              logo="document"
+              href="documents/departments/civil/internship/civil-department-internship-info 2021-22.pdf"
+            >
+              Internship 2021-22
+            </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
               href="documents/departments/civil/internship/civil-department-internship-info.pdf"
@@ -98,7 +110,7 @@ const QuickLinksCard = () => {
           Department Gallery
         </QuickLinks.Plates>
 
-        <QuickLinks.Plates href="dept-of-civil-engg-vocational-courses">
+        <QuickLinks.Plates href="vocational-courses-at-kit-college-kolhapur">
           Vocational Courses
         </QuickLinks.Plates>
       </QuickLinks>

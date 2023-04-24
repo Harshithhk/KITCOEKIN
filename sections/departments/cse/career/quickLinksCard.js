@@ -5,6 +5,7 @@ const QuickLinksCard = () => {
   const [subLink1, setSubLink1] = React.useState(false)
   const [subLink2, setSubLink2] = React.useState(false)
   const [subLink3, setSubLink3] = React.useState(false)
+  const [subLink4, setSubLink4] = React.useState(false)
 
   return (
     <div
@@ -41,9 +42,35 @@ const QuickLinksCard = () => {
             >
               Activity Report 2019-20
             </QuickLinks.SubPlates>
-            <QuickLinks.SubPlates logo="document">
-              Activity Report 2018-19
+        
+          </QuickLinks.SubQuickLinks>
+        </QuickLinks.Plates>
+        <QuickLinks.Plates
+          logo="dropDown"
+          setSubLink={setSubLink4}
+          subLink={subLink4}
+        >
+          News Letter
+          <QuickLinks.SubQuickLinks setSubLink={setSubLink4} subLink={subLink4}>
+            <QuickLinks.SubPlates
+              logo="document"
+              href="documents/departments/cse/newsLetter/Women's-day-Technosites.pdf"
+            >
+              Techno Teachers
             </QuickLinks.SubPlates>
+            <QuickLinks.SubPlates
+              logo="document"
+              href="documents/departments/cse/newsLetter/2_newsletter2final_11.pdf"
+            >
+              News Letter-2
+            </QuickLinks.SubPlates>
+            <QuickLinks.SubPlates
+              logo="document"
+              href="documents/departments/cse/newsLetter/1_newsletter1final_11.pdf"
+            >
+              News Letter-1
+            </QuickLinks.SubPlates>
+          
           </QuickLinks.SubQuickLinks>
         </QuickLinks.Plates>
         <QuickLinks.Plates href="dept-of-computer-science-engg-faculty">
@@ -60,6 +87,12 @@ const QuickLinksCard = () => {
         >
           Placement
           <QuickLinks.SubQuickLinks setSubLink={setSubLink1} subLink={subLink1}>
+          <QuickLinks.SubPlates
+              logo="document"
+              href="documents/departments/cse/placements/CSE Placement 2021-22.pdf"
+            >
+              Placement 2021-22
+            </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
               href="documents/departments/cse/placements/cse-placement-data-master-ay-2020-21.pdf"
@@ -88,6 +121,12 @@ const QuickLinksCard = () => {
         >
           Internship
           <QuickLinks.SubQuickLinks setSubLink={setSubLink2} subLink={subLink2}>
+          <QuickLinks.SubPlates
+              logo="document"
+              href="documents/departments/cse/internship/CSE_Department_Internship_Info_2021_22.pdf"
+            >
+              Internship 2021-22
+            </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
               href="documents/departments/cse/internship/cse-department-internship-info.pdf"

@@ -6,7 +6,7 @@ const FacultyRemuneration = () => {
   return(
     <>
       <a
-                        href="#"
+                        href="remuneration-format"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         // onMouseEnter ={() => (setSubNav(!subNav))} onMouseLeave ={() => (setSubNav(!subNav))}
 

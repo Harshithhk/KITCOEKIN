@@ -6,7 +6,7 @@ const PaperSetting = () => {
   return(
     <>
       <a
-                        href="#"
+                        href="paper-setting-documents"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         // onMouseEnter ={() => (setSubNav(!subNav))} onMouseLeave ={() => (setSubNav(!subNav))}
 

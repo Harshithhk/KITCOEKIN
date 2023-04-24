@@ -6,7 +6,7 @@ const RevisedRules  = () => {
   return(
     <>
       <a
-                        href="#"
+                        href="documents/examCell/Revised Rules from2021-22.pdf"
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                         // onMouseEnter ={() => (setSubNav(!subNav))} onMouseLeave ={() => (setSubNav(!subNav))}
 

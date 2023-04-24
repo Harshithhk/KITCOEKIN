@@ -16,7 +16,7 @@ const QuickLinksCard = () => {
       </div>
 
       <QuickLinks>
-        <QuickLinks.Plates href="dept-of-biotechnology-engg-activities">
+        <QuickLinks.Plates logo="document" href="documents/departments/biotechnology/activities/Activities-Bio-2021-22.pdf">
           Activities
         </QuickLinks.Plates>
         <QuickLinks.Plates href="dept-of-biotechnology-engg-faculty">
@@ -35,13 +35,13 @@ const QuickLinksCard = () => {
           <QuickLinks.SubQuickLinks setSubLink={setSubLink1} subLink={subLink1}>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/biotechnology/placements/jobs-tab-2019-21.pdf"
+              href="documents/departments/biotechnology/placements/Placements Jobs_2021-22.pdf"
             >
               Jobs
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/biotechnology/placements/higher-edu-2019-21-list.pdf"
+              href="documents/departments/biotechnology/placements/Higher education placement_2021-22.pdf"
             >
               Placement for Higher Education
             </QuickLinks.SubPlates>
@@ -55,9 +55,15 @@ const QuickLinksCard = () => {
         >
           Internship
           <QuickLinks.SubQuickLinks setSubLink={setSubLink2} subLink={subLink2}>
+          <QuickLinks.SubPlates
+              logo="document"
+              href="documents/departments/biotechnology/internship/Internship 21-22.pdf"
+            >
+              Internship 2021-22
+            </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/biotechnology/internship/biotech-department-internship-info.pdf"
+              href="documents/departments/biotechnology/internship/Internship 20-21.pdf"
             >
               Internship 2020-21
             </QuickLinks.SubPlates>
@@ -73,7 +79,7 @@ const QuickLinksCard = () => {
         <QuickLinks.Plates href="dept-of-biotechnology-engg-recruiters">
           Recruiters
         </QuickLinks.Plates>
-        <QuickLinks.Plates href="dept-of-biotechnology-engg-mous">
+        <QuickLinks.Plates logo="document" href="documents/departments/biotechnology/mou/MOU.pdf">
           MOU'S
         </QuickLinks.Plates>
         <QuickLinks.Plates href="dept-of-biotechnology-po-peo">
@@ -81,7 +87,7 @@ const QuickLinksCard = () => {
         </QuickLinks.Plates>
         <QuickLinks.Plates
           logo="document"
-          href="documents/departments/biotechnology/activities/student-acheivement.pdf"
+          href="documents/departments/biotechnology/achivements/Student Acheivement.pdf"
         >
           Student Achievements
         </QuickLinks.Plates>
@@ -98,7 +104,7 @@ const QuickLinksCard = () => {
           <QuickLinks.SubQuickLinks setSubLink={setSubLink3} subLink={subLink3}>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/biotechnology/alumni/alumni-activities-to-added-biotech-depat-ay-2019-21.pdf"
+              href="documents/departments/biotechnology/alumni/Alumni activities 2021-22.pdf"
             >
               Alumni Activities
             </QuickLinks.SubPlates>

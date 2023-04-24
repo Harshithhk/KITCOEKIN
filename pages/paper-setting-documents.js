@@ -1,49 +1,13 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 
-let news = [
-  {
-    title: "Mid Semester Examination",
-    fileName: "Mid-Evaluation.pdf.pdf",
-    date: "09/07/2022",
-  },
-  {
-    title: "End Semester Examination",
-    fileName: "midterm-exam-docs.doc",
-    date: "19/03/2022",
-  },
-  {
-    title: "Makeup Examination",
-    fileName: "makeup-docs.pdf",
-    date: "09/07/2022",
-  },
-  {
-    title: "Summer Term",
-    fileName: "Summer-Term-doc.doc",
-    date: "19/03/2022",
-  },
-  ,
-  {
-    title: "Fy to Final-Year Btech 2021-2020 May",
-    fileName: "Fy-FinalYear.pdf",
-    date: "09/07/2022",
-  },
-  {
-    title: "Mtech FY Schedule",
-    fileName: "Mtech-FY.pdf",
-    date: "19/03/2022",
-  },
-  {
-    title: "Fy to Final-Year Btech 2021-2020 May",
-    fileName: "Fy-FinalYear.pdf",
-    date: "09/07/2022",
-  },
-  {
-    title: "Mtech FY Schedule",
-    fileName: "Mtech-FY.pdf",
-    date: "19/03/2022",
-  },
-]
+const link = {
+  RF1: "documents/examCell/paper-setting/paper-setting-documents-2021.zip",
+  RF2: "documents/examCell/paper-setting/ese1221-paper-setting-doc.zip",
+  RF3: "documents/examCell/paper-setting/kit-web-makeup-examination.zip",
+  RF4: "documents/examCell/paper-setting/summer-term-document.zip",
+
+}
 
 const FounderTrustees = () => {
   return (
@@ -111,60 +75,96 @@ const FounderTrustees = () => {
             sed tempora quaerat eum? */}
           </div>
 
-          <div className="flex flex-col  w-[1000px] mx-auto">
-            <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
-              <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
-                <div className="overflow-hidden">
-                  <table className="min-w-full">
-                    <thead className="bg-white border-b">
-                      <tr>
-                        <th
-                          scope="col"
-                          className="text-sm w-[150px] font-medium text-gray-900 px-6 py-4 text-center"
-                        >
-                          #
-                        </th>
-                        <th
-                          scope="col"
-                          className="text-sm max-w-[600px]  text-left font-medium text-gray-900 px-6 py-4"
-                        >
-                          Paper
-                        </th>
+          <div className="pt-8">
+            <div className="flex items-center w-full sm:ml-2">
+              <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
+              <div className="ml-3 md:ml-2 w-fit  text-center sm:text-xl   text-[#24346D] text-4xl font-bold leading-[54px] text-[35.97px]  md:text-[22px] ">
+                DOCUMENTS
+              </div>
+            </div>
+            <div className="grid  grid-cols-2 sm:grid-cols-1 sm:mt-6 gap-x-6 p-2 mt-16">
+              <div className="grid grid-cols-1 divide-y ">
+                <a href={link.RF1}>
+                  <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                  Mid Semester Examination
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="flex-shrink-0 h-7 w-7 text-[#F07C00]"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                  </div>
+                </a>
 
-                        <th
-                          scope="col"
-                          className="text-sm font-medium  text-left   text-gray-900 px-8 py-4 "
-                        >
-                          Action
-                        </th>
-                      </tr>
-                    </thead>
-                    {news.length > 0 &&
-                      news.map((element, index) => (
-                        <tr
-                          key={element._id}
-                          className={`hover:bg-slate-200 ${
-                            index % 2 == 0 ? "bg-gray-100" : ""
-                          } border-b`}
-                        >
-                          <td className="px-6 text-center py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                            {index}
-                          </td>
-                          <td className="text-sm  max-w-[600px] text-gray-900 font-light px-6 py-4">
-                            {element.title}
-                          </td>
-                          <td className="text-sm   text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                            <button
-                              onClick={() => actionDelete(element._id)}
-                              className="px-3 py-2 text-white bg-slate-600"
-                            >
-                              Download
-                            </button>
-                          </td>
-                        </tr>
-                      ))}
-                  </table>
-                </div>
+                <a href={link.RF2}>
+                  <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                  End Semester Examination
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="flex-shrink-0 h-7 w-7 text-[#F07C00]"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                  </div>
+                </a>
+                <a href={link.RF3}>
+                  <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                  Makeup Examination
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="flex-shrink-0 h-7 w-7 text-[#F07C00]"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                  </div>
+                </a>
+                <a href={link.RF4}>
+                  <div className="p-2 flex justify-between hover:bg-slate-50 hover:cursor-pointer">
+                  Summer Term
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="flex-shrink-0 h-7 w-7 text-[#F07C00]"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                  </div>
+                </a>
+
+
+
+
               </div>
             </div>
           </div>

@@ -62,6 +62,18 @@ let Po = [{
     "Body": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of biotechnology engineering and technological change"
 }
 ]
+
+let Pso =[{
+    "Title": "PSO1: Research aptitude",
+    "Body": "Inculcate the applicative knowledge of engineering & applied science to demonstrate research aptitude/skills in Emerging fields of biotechnology."
+},{
+    "Title": "PSO2: Process & Product Development",
+    "Body": "Display skills of Bioprocess Technology towards development of processes and products in global context   "
+},{
+    "Title": "PSO3: Good Lab Practices (GLP) & Good manufacturing practices (GMP)",
+    "Body": "Exhibit adequate proficiency of GLP and GMP in terms of accuracy & precision, safety, ethics and reproducibility and able to follow standard operating procedures (SOP)   "
+}
+]
     
 
     return (
@@ -152,6 +164,33 @@ let Po = [{
                             </div>
 
                             {Po.map((item, index) => {
+                                return (
+                                    <>
+                                        
+                                       
+                                        <div className=" grid  divide-y  items-center text-left  w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+
+                                            <div className=" my-3">
+                                                {/* <div className="text-slate-400">Title</div> */}
+                                                <div className="">{item.Title}</div>
+                                            </div>
+                                            <div className=" ">
+                                                {/* <div className=" text-slate-400">Recruiter</div> */}
+                                                <div className="text-justify">{item.Body}</div>
+                                            </div>
+                                        
+
+                                        </div>
+                                    </>
+                                )
+                            })}
+
+<div className="mt-16 sm:ml-4 mb-9 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+                                <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
+                                PROGRAMME SPECIFIC OUTCOMES
+                            </div>
+
+                            {Pso.map((item, index) => {
                                 return (
                                     <>
                                         

@@ -40,7 +40,7 @@ const CseEngineeringMous = () => {
                         data-aos-delay="0"
                         className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
                     >
-                        Faculty List
+                        Computer Science Engineering Press Release
                     </h1>
                     <br></br>
                     <br></br>
@@ -49,7 +49,7 @@ const CseEngineeringMous = () => {
                         data-aos-delay="0"
                         className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
                     >
-                        <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> MOU'S
+                        <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Press Release
 
                     </h6>
                 </section>

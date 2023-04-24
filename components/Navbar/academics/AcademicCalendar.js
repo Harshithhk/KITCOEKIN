@@ -51,7 +51,7 @@ const AcademicCalendar = () =>{
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                 <a
-                    href="documents/admission/phdProgram/kit-phd-admission-form.pdf"
+                    href="#"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                     onMouseEnter ={() => (setSubNav1(!subNav1))} onMouseLeave ={() => (setSubNav1(!subNav1))}
 
