@@ -1,34 +1,24 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import DefaultLayout from "../components/DefaultLayout"
 import QuickLinksCard from "../sections/departments/biotech/career/quickLinksCard"
 import Footer from "../sections/home-page/Footer"
 
-// export async function getStaticProps() {
-//   // let news = []
-//   // let notices = []
-//   // let news = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/news')
-//   let staffs = await fetch(
-//     "http://localhost:5000/api/teachingstaff?department=Computer Science"
-//   )
-//   staffs = await staffs.json()
-//
-//   // // let notices = await fetch('https://kitcoek-server.herokuapp.com/api/newsandnotices/notices')
-//   // let notices = await fetch("http://localhost:5000/api/newsandnotices/notices")
-//   // notices = await notices.json()
-//
-//   return {
-//     props: {
-//       staffs: staffs,
-//     },
-//   }
-// }
+const CseEngineeringFaculty = ({ staff }) => {
+  const [UGstaff, setUGStaff] = useState([])
+  const [PGstaff, setPGStaff] = useState([])
+  const [NTstaff, setNTStaff] = useState([])
+  useEffect(() => {
+    let ugStaff = staff.filter((el) => el.type === "UG")
+    setUGStaff(ugStaff)
 
-const BiotechnologyEngineeringFaculty = () => {
-  // useEffect(() => {
-  //   console.log(staffs)
-  //
-  //   return () => {}
-  // }, [])
+    let pgStaff = staff.filter((el) => el.type === "PG")
+    setPGStaff(pgStaff)
+
+    let ntStaff = staff.filter((el) => el.type === "non_teaching")
+    setNTStaff(ntStaff)
+
+    return () => {}
+  }, [])
 
   return (
     <DefaultLayout>
@@ -90,416 +80,180 @@ const BiotechnologyEngineeringFaculty = () => {
                 TEACHING STAFF (P.G)
               </div>
               {/* -------------- */}
-
-              {/*{staffs &&*/}
-              {/*  staffs.map((staff) => (*/}
-              {/*    <div className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 ">*/}
-              {/*      <div className="max-w-3xl">*/}
-              {/*        <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">*/}
-              {/*          <div className="flex flex-row sm:flex-col gap-x-2">*/}
-              {/*            <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">*/}
-              {/*              <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">*/}
-              {/*                <img*/}
-              {/*                  src="mamta-kalas_preview_rev_1.png "*/}
-              {/*                  className="rounded-lg "*/}
-              {/*                  alt="mamtakalas.png"*/}
-              {/*                />*/}
-              {/*              </div>*/}
-              {/*            </div>*/}
-              {/*            <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">*/}
-              {/*              <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">*/}
-              {/*                {staff.name}*/}
-              {/*              </p>*/}
-              {/*              <p className="mb-6 font-semibold text-gray-500 ">*/}
-              {/*                {staff.designation}*/}
-              {/*              </p>*/}
-              {/*              <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">*/}
-              {/*                {staff.qualifications}*/}
-              {/*              </p>*/}
-              {/*            </div>*/}
-              {/*            <div className="h-auto w-[2px] bg-primary"></div>*/}
-              {/*            <div className="min-w-[270px]">*/}
-              {/*              <p className="font-semibold text-[#24346D] mb-0">*/}
-              {/*                EXPERIENCE: {staff.experience}*/}
-              {/*              </p>*/}
-              {/*              <br />*/}
-              {/*              <p className="mb-0 font-semibold text-primary">*/}
-              {/*                Email : {staff.email}*/}
-              {/*              </p>*/}
-              {/*              <p className="mb-0 font-semibold text-primary">*/}
-              {/*                Mobile : {staff.mobile}*/}
-              {/*              </p>*/}
-              {/*              <br />*/}
-              {/*              <button*/}
-              {/*                type="button"*/}
-              {/*                className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"*/}
-              {/*              >*/}
-              {/*                View Profile*/}
-              {/*              </button>*/}
-              {/*            </div>*/}
-              {/*          </div>*/}
-              {/*        </div>*/}
-              {/*      </div>*/}
-              {/*    </div>*/}
-              {/*  ))}*/}
-              <div className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 ">
-                <div className="max-w-3xl">
-                  <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
-                    <div className="flex flex-row sm:flex-col gap-x-2">
-                      <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">
-                        <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
-                          <img
-                            src="mamta-kalas_preview_rev_1.png "
-                            className="rounded-lg "
-                            alt="mamtakalas.png"
-                          />
+              {PGstaff.map((element, index) => (
+                <div
+                  key={index}
+                  className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 "
+                >
+                  <div className="max-w-3xl">
+                    <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
+                      <div className="flex flex-row sm:flex-col gap-x-2">
+                        <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">
+                          <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
+                            <img
+                              src={element.imgUrl}
+                              className="object-cover  h-[170px] w-[160px] object-center rounded-lg"
+                              alt={element.name}
+                            />
+                          </div>
                         </div>
-                      </div>
-                      <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">
-                        <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">
-                          Mr. Rutuparna P. Karkare
-                        </p>
-                        <p className="mb-6 font-semibold text-gray-500 ">
-                          Associate Professor
-                        </p>
-                        <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">
-                          B.E. (Chemical Engineering), ME (Chemical
-                          Engineering),Ph.D. (Chemical Engineering)
-                        </p>
-                      </div>
-                      <div className="h-auto w-[2px] bg-primary"></div>
-                      <div className="min-w-[270px]">
-                        <p className="font-semibold text-[#24346D] mb-0">
-                          EXPERIENCE: 20
-                        </p>
-                        <br />
-                        <p className="mb-0 font-semibold text-primary">
-                          Email : sanandammonica@gmail.com
-                        </p>
-                        <p className="mb-0 font-semibold text-primary">
-                          Mobile : 9850271679
-                        </p>
-                        <br />
-                        <button
-                          type="button"
-                          className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
-                        >
-                          View Profile
-                        </button>
+                        <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">
+                          <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">
+                            {element.name}
+                          </p>
+                          <p className="mb-6 font-semibold text-gray-500 ">
+                            {element.designation}
+                          </p>
+                          <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">
+                            {element.qualifications}
+                          </p>
+                        </div>
+                        <div className="h-auto w-[2px] bg-primary"></div>
+                        <div className="min-w-[270px]">
+                          <p className="font-semibold text-[#24346D] mb-0">
+                            EXPERIENCE: {element.experience}
+                          </p>
+                          <br />
+                          <p className="mb-0 font-semibold text-primary">
+                            Email : {element.email}
+                          </p>
+                          <p className="mb-0 font-semibold text-primary">
+                            Mobile : {element.mobile}
+                          </p>
+                          <br />
+                          <a href={element.imgUrl}>
+                            <button
+                              type="button"
+                              className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
+                            >
+                              View Profile
+                            </button>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              {/* -------------- */}
-              <div className="flex justify-center -mt-5 ml-14 sm:ml-0 sm:mt-24 ">
-                <div className="max-w-3xl">
-                  <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
-                    <div className="flex flex-row sm:flex-col gap-x-2">
-                      <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">
-                        <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
-                          <img
-                            src="mamta-kalas_preview_rev_1.png "
-                            className="rounded-lg "
-                            alt="mamtakalas.png"
-                          />
-                        </div>
-                      </div>
-                      <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">
-                        <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">
-                          Mr. Ratnadeep Shinde
-                        </p>
-                        <p className="mb-6 font-semibold text-gray-500 ">
-                          Peon
-                        </p>
-                        <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">
-                          12 th
-                        </p>
-                      </div>
-                      <div className="h-auto w-[2px] bg-primary"></div>
-                      <div className="min-w-[270px]">
-                        <p className="font-semibold text-[#24346D] mb-0">
-                          EXPERIENCE: -----------------
-                        </p>
-                        <br />
-                        <p className="mb-0 font-semibold text-primary">
-                          Email : ------------------
-                        </p>
-                        <p className="mb-0 font-semibold text-primary">
-                          Mobile : 9850271679{" "}
-                        </p>
-                        <br />
-                        <button
-                          type="button"
-                          className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
-                        >
-                          View Profile
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* -------------- */}
-              <div className="flex justify-center -mt-5 ml-14 sm:ml-0 sm:mt-24 ">
-                <div className="max-w-3xl">
-                  <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
-                    <div className="flex flex-row sm:flex-col gap-x-2">
-                      <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">
-                        <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
-                          <img
-                            src="mamta-kalas_preview_rev_1.png "
-                            className="rounded-lg "
-                            alt="mamtakalas.png"
-                          />
-                        </div>
-                      </div>
-                      <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">
-                        <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">
-                          Mr. Rutuparna P. Karkare
-                        </p>
-                        <p className="mb-6 font-semibold text-gray-500 ">
-                          Head and Associate Professor
-                        </p>
-                        <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">
-                          B.E. (Chemical Engineering), ME (Chemical
-                          Engineering),Ph.D. (Chemical Engineering)
-                        </p>
-                      </div>
-                      <div className="h-auto w-[2px] bg-primary"></div>
-                      <div className="min-w-[270px]">
-                        <p className="font-semibold text-[#24346D] mb-0">
-                          EXPERIENCE: 20
-                        </p>
-                        <br />
-                        <p className="mb-0 font-semibold text-primary">
-                          Email : sanandammonica@gmail.com
-                        </p>
-                        <p className="mb-0 font-semibold text-primary">
-                          Mobile : 9850271679{" "}
-                        </p>
-                        <br />
-                        <button
-                          type="button"
-                          className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
-                        >
-                          View Profile
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              ))}
 
               <div className="mt-10 sm:ml-4  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                 TEACHING STAFF (U.G)
               </div>
               {/* -------------- */}
-              <div className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 ">
-                <div className="max-w-3xl">
-                  <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
-                    <div className="flex flex-row sm:flex-col gap-x-2">
-                      <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">
-                        <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
-                          <img
-                            src="mamta-kalas_preview_rev_1.png "
-                            className="rounded-lg "
-                            alt="mamtakalas.png"
-                          />
+              {UGstaff.map((element, index) => (
+                <div
+                  key={index}
+                  className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 "
+                >
+                  <div className="max-w-3xl">
+                    <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
+                      <div className="flex flex-row sm:flex-col gap-x-2">
+                        <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">
+                          <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
+                            <img
+                              src={element.imgUrl}
+                              className="object-cover  h-[170px] w-[160px] object-center rounded-lg"
+                              alt={element.name}
+                            />
+                          </div>
                         </div>
-                      </div>
-                      <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">
-                        <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">
-                          Mr. Rutuparna P. Karkare
-                        </p>
-                        <p className="mb-6 font-semibold text-gray-500 ">
-                          Associate Professor
-                        </p>
-                        <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">
-                          B.E. (Chemical Engineering), ME (Chemical
-                          Engineering),Ph.D. (Chemical Engineering)
-                        </p>
-                      </div>
-                      <div className="h-auto w-[2px] bg-primary"></div>
-                      <div className="min-w-[270px]">
-                        <p className="font-semibold text-[#24346D] mb-0">
-                          EXPERIENCE: 20
-                        </p>
-                        <br />
-                        <p className="mb-0 font-semibold text-primary">
-                          Email : sanandammonica@gmail.com
-                        </p>
-                        <p className="mb-0 font-semibold text-primary">
-                          Mobile : 9850271679{" "}
-                        </p>
-                        <br />
-                        <button
-                          type="button"
-                          className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
-                        >
-                          View Profile
-                        </button>
+                        <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">
+                          <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">
+                            {element.name}
+                          </p>
+                          <p className="mb-6 font-semibold text-gray-500 ">
+                            {element.designation}
+                          </p>
+                          <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">
+                            {element.qualifications}
+                          </p>
+                        </div>
+                        <div className="h-auto w-[2px] bg-primary"></div>
+                        <div className="min-w-[270px]">
+                          <p className="font-semibold text-[#24346D] mb-0">
+                            EXPERIENCE: {element.experience}
+                          </p>
+                          <br />
+                          <p className="mb-0 font-semibold text-primary">
+                            Email : {element.email}
+                          </p>
+                          <p className="mb-0 font-semibold text-primary">
+                            Mobile : {element.mobile}
+                          </p>
+                          <br />
+                          <a href={element.imgUrl}>
+                            <button
+                              type="button"
+                              className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
+                            >
+                              View Profile
+                            </button>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              {/*---------------- */}
-              <div className="flex justify-center -mt-5 ml-14 sm:ml-0 sm:mt-24 ">
-                <div className="max-w-3xl">
-                  <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
-                    <div className="flex flex-row sm:flex-col gap-x-2">
-                      <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">
-                        <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
-                          <img
-                            src="mamta-kalas_preview_rev_1.png "
-                            className="rounded-lg "
-                            alt="mamtakalas.png"
-                          />
-                        </div>
-                      </div>
-                      <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">
-                        <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">
-                          Mr. Rutuparna P. Karkare
-                        </p>
-                        <p className="mb-6 font-semibold text-gray-500 ">
-                          Associate Professor
-                        </p>
-                        <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">
-                          B.E. (Chemical Engineering), ME (Chemical
-                          Engineering),Ph.D. (Chemical Engineering)
-                        </p>
-                      </div>
-                      <div className="h-auto w-[2px] bg-primary"></div>
-                      <div className="min-w-[270px]">
-                        <p className="font-semibold text-[#24346D] mb-0">
-                          EXPERIENCE: 20
-                        </p>
-                        <br />
-                        <p className="mb-0 font-semibold text-primary">
-                          Email : sanandammonica@gmail.com
-                        </p>
-                        <p className="mb-0 font-semibold text-primary">
-                          Mobile : 9850271679{" "}
-                        </p>
-                        <br />
-                        <button
-                          type="button"
-                          className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
-                        >
-                          View Profile
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              ))}
 
               <div className="mt-10 sm:ml-4  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                 NON TEACHING STAFF
               </div>
               {/* -------------- */}
-              <div className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 ">
-                <div className="max-w-3xl">
-                  <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
-                    <div className="flex flex-row sm:flex-col gap-x-2">
-                      <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">
-                        <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
-                          <img
-                            src="mamta-kalas_preview_rev_1.png "
-                            className="rounded-lg "
-                            alt="mamtakalas.png"
-                          />
+              {NTstaff.map((element) => (
+                <div className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 ">
+                  <div className="max-w-3xl">
+                    <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
+                      <div className="flex flex-row sm:flex-col gap-x-2">
+                        <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">
+                          <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
+                            <img
+                              src={element.imgUrl}
+                              className="object-cover  h-[170px] w-[160px] object-center rounded-lg"
+                              alt={element.name}
+                            />
+                          </div>
                         </div>
-                      </div>
-                      <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">
-                        <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">
-                          Mr. Rutuparna P. Karkare
-                        </p>
-                        <p className="mb-6 font-semibold text-gray-500 ">
-                          Associate Professor
-                        </p>
-                        <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">
-                          B.E. (Chemical Engineering), ME (Chemical
-                          Engineering),Ph.D. (Chemical Engineering)
-                        </p>
-                      </div>
-                      <div className="h-auto w-[2px] bg-primary"></div>
-                      <div className="min-w-[270px]">
-                        <p className="font-semibold text-[#24346D] mb-0">
-                          EXPERIENCE: 20
-                        </p>
-                        <br />
-                        <p className="mb-0 font-semibold text-primary">
-                          Email : sanandammonica@gmail.com
-                        </p>
-                        <p className="mb-0 font-semibold text-primary">
-                          Mobile : 9850271679{" "}
-                        </p>
-                        <br />
-                        <button
-                          type="button"
-                          className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
-                        >
-                          View Profile
-                        </button>
+                        <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">
+                          <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">
+                            {element.name}
+                          </p>
+                          <p className="mb-6 font-semibold text-gray-500 ">
+                            {element.designation}
+                          </p>
+                          <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">
+                            {element.qualifications}
+                          </p>
+                        </div>
+                        <div className="h-auto w-[2px] bg-primary"></div>
+                        <div className="min-w-[270px]">
+                          <p className="font-semibold text-[#24346D] mb-0">
+                            EXPERIENCE: {element.experience}
+                          </p>
+                          <br />
+                          <p className="mb-0 font-semibold text-primary">
+                            Email : {element.email}
+                          </p>
+                          <p className="mb-0 font-semibold text-primary">
+                            Mobile : {element.mobile}
+                          </p>
+                          <br />
+                          <a href={element.imgUrl}>
+                            <button
+                              type="button"
+                              className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
+                            >
+                              View Profile
+                            </button>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              {/*---------------- */}
-              <div className="flex justify-center -mt-5 ml-14 sm:ml-0 sm:mt-24 ">
-                <div className="max-w-3xl">
-                  <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
-                    <div className="flex flex-row sm:flex-col gap-x-2">
-                      <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">
-                        <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
-                          <img
-                            src="mamta-kalas_preview_rev_1.png "
-                            className="rounded-lg "
-                            alt="mamtakalas.png"
-                          />
-                        </div>
-                      </div>
-                      <div className="flex flex-col items-start justify-center ml-6 sm:ml-0">
-                        <p className="font-semibold text-xl mb-2 mt-6 text-[#24346D]">
-                          Mr. Rutuparna P. Karkare
-                        </p>
-                        <p className="mb-6 font-semibold text-gray-500 ">
-                          Associate Professor
-                        </p>
-                        <p className="font-light text-gray-500 sm:mb-6 w-60 sm:w-auto">
-                          B.E. (Chemical Engineering), ME (Chemical
-                          Engineering),Ph.D. (Chemical Engineering)
-                        </p>
-                      </div>
-                      <div className="h-auto w-[2px] bg-primary"></div>
-                      <div className="min-w-[270px]">
-                        <p className="font-semibold text-[#24346D] mb-0">
-                          EXPERIENCE: 20
-                        </p>
-                        <br />
-                        <p className="mb-0 font-semibold text-primary">
-                          Email : sanandammonica@gmail.com
-                        </p>
-                        <p className="mb-0 font-semibold text-primary">
-                          Mobile : 9850271679{" "}
-                        </p>
-                        <br />
-                        <button
-                          type="button"
-                          className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
-                        >
-                          View Profile
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              ))}
             </section>
 
             {/* -------------col2--------------- */}
@@ -514,4 +268,19 @@ const BiotechnologyEngineeringFaculty = () => {
   )
 }
 
-export default BiotechnologyEngineeringFaculty
+export async function getStaticProps() {
+  let staff = []
+  staff = await fetch("http://localhost:5000/api/teachingstaff")
+  staff = await staff.json()
+  console.log(staff)
+  staff = staff.filter((el) => el.department == "Biotechnology Engineering")
+
+  return {
+    props: {
+      staff: staff,
+    },
+    revalidate: 10,
+  }
+}
+
+export default CseEngineeringFaculty
