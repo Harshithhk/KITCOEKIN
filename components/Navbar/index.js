@@ -11,6 +11,7 @@ import MobileNavbar from "./mobileNavbar/index.js"
 import OthersNavbar from "./others/index.js"
 import OthersMegaNavbar from "./othersMega"
 import Academics from "./academics/index.js"
+import ExamCell from "./examCell/index.js"
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -69,9 +70,8 @@ const Navbar = () => {
         </Link>
         <Link href="/#" passHref>
 
-        <li href="#" className="flex items-end cursor-pointer">
-          EXAM CELL
-        </li>
+        <ExamCell />
+        
         </Link>
         <Link href="/contact" passHref>
 

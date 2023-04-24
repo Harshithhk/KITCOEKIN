@@ -1,7 +1,7 @@
 import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 import { Tab } from '@headlessui/react'
-import SyllabusTabs from "../sections/academics/onlineSyllabus/SyllabusTabs"
+import SyllabusTabs2017 from "../sections/academics/onlineSyllabus/SyllabusTabs2017"
 
 
 
@@ -38,7 +38,7 @@ const OnlineSyllabus = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            ONLINE SYLLABUS 2023 SCHEME
+            ONLINE SYLLABUS 2017 SCHEME
           </h1>
           <br/>
           <br/>
@@ -64,7 +64,7 @@ const OnlineSyllabus = () => {
             alt=""
           /> */}
           {/* - */}
-          <SyllabusTabs />
+          <SyllabusTabs2017 />
         </section>
         
         <Footer />

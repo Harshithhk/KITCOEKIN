@@ -52,7 +52,7 @@ const InternshipPolicy = () => {
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                 <a
-                    href="documents/admission/phdProgram/kit-phd-admission-form.pdf"
+                    href="documents/academics/internship-policy/kit-internship-policy-2020.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 
@@ -70,7 +70,7 @@ const InternshipPolicy = () => {
                     </div>
                 </a>
                 <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="documents/academics/internship-policy/guidelines-for-internship-and-project-accounted-throgh-kite.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 

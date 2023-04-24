@@ -50,7 +50,7 @@ const AcademicCouncilMeeting = () => {
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                 <a
-                    href="documents/admission/phdProgram/kit-phd-admission-form.pdf"
+                    href="documents/academics/academic-council/AC Proceedings Nov 27, 2021.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 
@@ -68,7 +68,7 @@ const AcademicCouncilMeeting = () => {
                     </div>
                 </a>
                 <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="documents/academics/academic-council/academic-council-meet-5-9-july-2020.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 
@@ -85,7 +85,7 @@ const AcademicCouncilMeeting = () => {
                     </div>
                 </a>
                 <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="documents/academics/academic-council/academic-council-meet-1-21-July-2017.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 
@@ -103,7 +103,7 @@ const AcademicCouncilMeeting = () => {
                     </div>
                 </a>
                 <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="documents/academics/academic-council/academic-council-meet-2-6-July-2018.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 
@@ -120,7 +120,7 @@ const AcademicCouncilMeeting = () => {
                     </div>
                 </a>
                 <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="documents/academics/academic-council/academic-council-meet-3-2-march-2019.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 
@@ -137,7 +137,7 @@ const AcademicCouncilMeeting = () => {
                     </div>
                 </a>
                 <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="documents/academics/academic-council/academic-council-meet-4-5-oct-2019.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 

@@ -55,7 +55,7 @@ const OnlineSyllabus = () => {
                 <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                
                 <a
-                    href="documents/admission/phdProgram/kit-phd-admission-form.pdf"
+                    href="online-syllabus"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 
@@ -74,7 +74,7 @@ const OnlineSyllabus = () => {
                     </div>
                 </a>
                 <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="old_2017_online-syllabus"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 

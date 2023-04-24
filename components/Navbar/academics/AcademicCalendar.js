@@ -97,7 +97,7 @@ const AcademicCalendar = () =>{
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                         <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="documents/academics/academic-calender/Academic22_23/13-01-2023 Updated Academic Calender 2022-23 Sem-II (TY B.Tech, B. Tech.).pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 
@@ -114,7 +114,7 @@ const AcademicCalendar = () =>{
                     </div>
                 </a>
                 <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="documents/academics/academic-calender/Academic22_23/Academic Calender 2022-23 Sem-II (FY B.Tech,FY M.Tech).pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 
@@ -131,7 +131,7 @@ const AcademicCalendar = () =>{
                     </div>
                 </a>
                 <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="documents/academics/academic-calender/Academic22_23/13.01.2023 Updated Academic Calender 2022-23 Sem-II (SY B.Tech, DSE).pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 
@@ -148,7 +148,7 @@ const AcademicCalendar = () =>{
                     </div>
                 </a>
                 <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="documents/academics/academic-calender/Academic22_23/Academic%20Calender%202022-23%20Sem-I%20(FY%20B.Tech,%20%20FY%20MTech).pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 
@@ -165,7 +165,7 @@ const AcademicCalendar = () =>{
                     </div>
                 </a>
                 <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="documents/academics/academic-calender/Academic22_23/Academic Calender AY_2022-23 Sem-I (SY B.Tech, DSE).pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 
@@ -182,7 +182,7 @@ const AcademicCalendar = () =>{
                     </div>
                 </a>
                 <a
-                    href="documents/admission/phdProgram/phd-student-guidlines.pdf"
+                    href="documents/academics/academic-calender/Academic22_23/12-08-2022 Final Academic Calender 2022-23 Sem-I (TY B.Tech, B. Tech.).pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                 >
                 

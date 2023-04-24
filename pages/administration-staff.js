@@ -4,19 +4,14 @@ import Footer from "../sections/home-page/Footer"
 
 let founders = [
   {
-    name: "Mr. Ajay M. Pol",
-    designation: "Deputy Registar - On Exam",
-    img: "/images/ExamCell/AdministrativeStaff/a-m-pol.jpg",
+    name: "Dr.Y.M.Patil",
+    designation: "Dean - Examination & Evaluation",
+    img: "/images/ExamCell/AdministrativeStaff/y-m-patil.jpg",
   },
   {
-    name: "Mr. Balkrishna B.Patil",
-    designation: "Computer Operator",
-    img: "/images/ExamCell/AdministrativeStaff/balkrishna-patil.jpg",
-  },
-  {
-    name: "Mr.Digvijay S.Patil",
-    designation: "Sr. Clerk",
-    img: "/images/ExamCell/AdministrativeStaff/digvijay-patil.jpg",
+    name: "Mr.T.B.Patil",
+    designation: "Dean ICT",
+    img: "/images/ExamCell/AdministrativeStaff/t-n-patil.jpg",
   },
   {
     name: "Mr.S.G.Dige",
@@ -29,20 +24,32 @@ let founders = [
     img: "/images/ExamCell/AdministrativeStaff/s-s-kadam.jpg",
   },
   {
-    name: "Mr.T.B.Patil",
-    designation: "Dean ICT",
-    img: "/images/ExamCell/AdministrativeStaff/t-n-patil.jpg",
+    name: "Mr. Ajay M. Pol",
+    designation: "Deputy Registar - On Exam",
+    img: "/images/ExamCell/AdministrativeStaff/a-m-pol.jpg",
   },
+  {
+    name: "Mr. Balkrishna B.Patil",
+    designation: "Computer Operator",
+    img: "/images/ExamCell/AdministrativeStaff/balkrishna-patil.jpg",
+  },
+  {
+    name: "Mr.Bamane Dhanaji S",
+    designation: "Sr. Clerk",
+    img: "/images/ExamCell/AdministrativeStaff/Bamane Sir1.jpeg",
+  },
+  {
+    name: "Mr.Digvijay S.Patil",
+    designation: "Sr. Clerk",
+    img: "/images/ExamCell/AdministrativeStaff/digvijay-patil.jpg",
+  },
+  
   {
     name: "Mr.Bamane Dhananji S",
     designation: "Sr. Clerk",
     img: "/images/ExamCell/AdministrativeStaff/user.jpg",
   },
-  {
-    name: "Dr.Y.M.Patil",
-    designation: "Dean - Examination & Evaluation",
-    img: "/images/ExamCell/AdministrativeStaff/y-m-patil.jpg",
-  },
+ 
 ]
 
 const FounderTrustees = () => {
