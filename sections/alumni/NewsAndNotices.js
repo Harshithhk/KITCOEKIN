@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 
-
 const month = [
   "January",
   "February",
@@ -17,61 +16,62 @@ const month = [
 ]
 
 function NewsAndNotices(props) {
-  
-let news1 = [
-  {
-    id: 1,
-    date: "13 Feb, 2022",
-    title: "Dummy text of the printing & typesetting industry",
-    startTime: "8:00 AM",
-    endTime: "01:00 PM",
-    duration:[]
-  },
-  {
-    id: 2,
-    date: "13 Feb, 2022",
-    title: "Dummy text of the printing & typesetting industry",
-    startTime: "8:00 AM",
-    endTime: "01:00 PM",
-    duration:[]
-  },
-  {
-    id: 3,
-    date: "13 Feb, 2022",
-    title: "Dummy text of the printing & typesetting industry",
-    startTime: "8:00 AM",
-    endTime: "01:00 PM",
-    duration:[]
-  },
-]
+  let news1 = [
+    {
+      id: 1,
 
-let notices2 = [
-  {
-    id: 5,
-    date: "13 Feb, 2022",
-    title: "General Notices",
-    startTime: "8:00 AM",
-    endTime: "01:00 PM",
-    duration:[]
-  },
-  {
-    id: 6,
-    date: "13 Feb, 2022",
-    title: "General Notices",
-    startTime: "8:00 AM",
-    endTime: "01:00 PM",duration:[]
-  },
-  {
-    id: 7,
-    date: "13 Feb, 2022",
-    title: "General Notices",
-    startTime: "8:00 AM",
-    endTime: "01:00 PM",
-    duration:[]
-  },
-]
-  const [news, setNews] = useState( news1)
-  const [notices, setNotices] = useState( notices2)
+      date: "13 Feb, 2022",
+      title: "Dummy text of the printing & typesetting industry",
+      startTime: "8:00 AM",
+      endTime: "01:00 PM",
+      duration: [],
+    },
+    {
+      id: 2,
+      date: "13 Feb, 2022",
+      title: "Dummy text of the printing & typesetting industry",
+      startTime: "8:00 AM",
+      endTime: "01:00 PM",
+      duration: [],
+    },
+    {
+      id: 3,
+      date: "13 Feb, 2022",
+      title: "Dummy text of the printing & typesetting industry",
+      startTime: "8:00 AM",
+      endTime: "01:00 PM",
+      duration: [],
+    },
+  ]
+
+  let notices2 = [
+    {
+      id: 5,
+      date: "13 Feb, 2022",
+      title: "General Notices",
+      startTime: "8:00 AM",
+      endTime: "01:00 PM",
+      duration: [],
+    },
+    {
+      id: 6,
+      date: "13 Feb, 2022",
+      title: "General Notices",
+      startTime: "8:00 AM",
+      endTime: "01:00 PM",
+      duration: [],
+    },
+    {
+      id: 7,
+      date: "13 Feb, 2022",
+      title: "General Notices",
+      startTime: "8:00 AM",
+      endTime: "01:00 PM",
+      duration: [],
+    },
+  ]
+  const [news, setNews] = useState(news1)
+  const [notices, setNotices] = useState(notices2)
 
   useEffect(async () => {
     let updatedNews = news.map((element) => {
