@@ -92,8 +92,8 @@ export default function Modal(props) {
             <input type="number" id="pass_out_year" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="2019" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
         </div>   
         <div >
-                <label for="branch" className="text-base font-medium text-gray-900"> Branch </label>
-                <select id="branch" required name="branch" autocomplete="branch-name" className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                <label htmlFor="branch" className="text-base font-medium text-gray-900"> Branch </label>
+                <select id="branch" required name="branch" autoComplete="branch-name" className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                   <option>Biotechnology Engineering</option>
                   <option>Civil Engineering</option>
                   <option>Computer Sci. & Engineering</option>
@@ -142,7 +142,7 @@ export default function Modal(props) {
     </div> 
     <div className="mb-2">
         <label htmlFor="current_address" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Current address</label>
-        <input type="text" id="current_address" readonly="readonly" onClick={()=>{setShowMap(1)}} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select Location On Map" value={locationName} required/>
+        <input type="text" id="current_address" readOnly="readonly" onClick={()=>{setShowMap(1)}} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select Location On Map" value={locationName} required/>
     </div> 
   
                     </div>

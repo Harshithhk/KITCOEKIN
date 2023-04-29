@@ -73,7 +73,7 @@ fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${latitude}
   return(
     <div className='relative'>
 <div className='absolute bottom-0 right-0 z-50 flex '>
-      <button type="button" onClick={()=>{getLocation()}} class=" m-1  text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Save Location</button>
+      <button type="button" onClick={()=>{getLocation()}} className=" m-1  text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Save Location</button>
 
   </div>
       <div className='z-0 relative'>
