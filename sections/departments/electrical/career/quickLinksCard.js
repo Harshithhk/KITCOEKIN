@@ -21,14 +21,14 @@ const QuickLinksCard = () => {
           setSubLink={setSubLink3}
           subLink={subLink3}
         >
-          Activities
+          Activities 
           <QuickLinks.SubQuickLinks setSubLink={setSubLink3} subLink={subLink3}>
-            <QuickLinks.SubPlates logo="document">
-              Activity Report 2020-21
+            <QuickLinks.SubPlates href="dept-of-electrical-engineering-activities" >
+              Activity Report
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/electrical/Electro-talk%20Newsletter.pdf"
+              href="documents/departments/electrical/activity/Electrotalk-merged.pdf"
             >
               Electro-talk Newsletter
             </QuickLinks.SubPlates>
@@ -43,19 +43,19 @@ const QuickLinksCard = () => {
 
         <QuickLinks.Plates
           logo="document"
-          href="documents/departments/electrical/placement/Ele_Placement%20Data_2021_22.pdf"
+          href="documents/departments/electrical/placement/EED_Placement details-Upto-7-8-22.pdf"
         >
           Placement
         </QuickLinks.Plates>
 
         <QuickLinks.Plates
           logo="document"
-          href="documents/departments/electrical/Internship/Ele_Internship%20Details_2021_22.pdf"
+          href="documents/departments/electrical/Internship/Internship Details-Upto-7-8-22.pdf"
         >
           Internship
         </QuickLinks.Plates>
 
-        <QuickLinks.Plates href="#">Recruiters</QuickLinks.Plates>
+        <QuickLinks.Plates logo="document"  href="documents/departments/electrical/OUR RECRUITRERS (1).pdf">Recruiters</QuickLinks.Plates>
         <QuickLinks.Plates
           logo="document"
           href="documents/departments/electrical/mou/MOU-Electrical%20Engineering.pdf"
@@ -74,7 +74,7 @@ const QuickLinksCard = () => {
         <QuickLinks.Plates href="kit-gallery?Tab=1">
           Department Gallery
         </QuickLinks.Plates>
-        <QuickLinks.Plates href="dept-of-electrical-engg-press-release">
+        <QuickLinks.Plates logo="document" href="documents/departments/electrical/Press_10_Aug-22.pdf">
           Press Release
         </QuickLinks.Plates>
       </QuickLinks>

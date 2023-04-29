@@ -120,7 +120,7 @@ const EntcEngineeringNewsletter = () => {
                         data-aos-delay="0"
                         className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
                     >
-                        Faculty List
+                        Electronics & Telecommunication Newsletter
                     </h1>
                     <br></br>
                     <br></br>
@@ -129,7 +129,7 @@ const EntcEngineeringNewsletter = () => {
                         data-aos-delay="0"
                         className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
                     >
-                        <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> MOU'S
+                        <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Newsletter
 
                     </h6>
                 </section>
@@ -155,7 +155,7 @@ const EntcEngineeringNewsletter = () => {
                                         <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                         </svg>
                                         <div className="col-start-2 col-end-12 sm:col-start-3">ETC final Newsletter 2021-22 Sem I</div>
-                                        <a href="" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
+                                        <a href="documents/departments/entc/newsletter/newsletter-2021-22-sem-I.pdf" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
                                             <svg xmlns="http://www.w3.org/2000/svg" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                             </svg>
@@ -169,7 +169,7 @@ const EntcEngineeringNewsletter = () => {
                                         <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                         </svg>
                                         <div className="col-start-2 col-end-12 sm:col-start-3">ETC final Newsletter 2021-22 Sem II</div>
-                                        <a href="" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
+                                        <a href="documents/departments/entc/newsletter/newsletter-2021-22-sem-II.pdf" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
                                             <svg xmlns="http://www.w3.org/2000/svg" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                             </svg>
@@ -183,7 +183,7 @@ const EntcEngineeringNewsletter = () => {
                                         <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                         </svg>
                                         <div className="col-start-2 col-end-12 sm:col-start-3">ETC final Newsletter 2020-21</div>
-                                        <a href="" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
+                                        <a href="documents/departments/entc/newsletter/etc-final-newsletter-2020-21.pdf" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
                                             <svg xmlns="http://www.w3.org/2000/svg" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                             </svg>
@@ -197,7 +197,7 @@ const EntcEngineeringNewsletter = () => {
                                         <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                         </svg>
                                         <div className="col-start-2 col-end-12 sm:col-start-3">ETC final Newsletter 2019-20</div>
-                                        <a href="" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
+                                        <a href="documents/departments/entc/newsletter/etc-final-newsletter-2019-20.pdf" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
                                             <svg xmlns="http://www.w3.org/2000/svg" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                             </svg>
@@ -211,7 +211,7 @@ const EntcEngineeringNewsletter = () => {
                                         <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                         </svg>
                                         <div className="col-start-2 col-end-12 sm:col-start-3">ETC final Newsletter 2018-19</div>
-                                        <a href="" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
+                                        <a href="documents/departments/entc/newsletter/etc-final-newsletter-2018-19.pdf" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
                                             <svg xmlns="http://www.w3.org/2000/svg" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                             </svg>
@@ -225,7 +225,7 @@ const EntcEngineeringNewsletter = () => {
                                         <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                         </svg>
                                         <div className="col-start-2 col-end-12 sm:col-start-3">ETC final Newsletter 2017-18</div>
-                                        <a href="" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
+                                        <a href="documents/departments/entc/newsletter/etc-final-newsletter-2017-18.pdf" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
                                             <svg xmlns="http://www.w3.org/2000/svg" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                             </svg>
@@ -239,7 +239,7 @@ const EntcEngineeringNewsletter = () => {
                                         <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                         </svg>
                                         <div className="col-start-2 col-end-12 sm:col-start-3">ETC final Newsletter 2016-17 Sem I</div>
-                                        <a href="" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
+                                        <a href="documents/departments/entc/newsletter/etc-final-newsletter-2016-17-sem-1.pdf" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
                                             <svg xmlns="http://www.w3.org/2000/svg" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                             </svg>
@@ -253,7 +253,7 @@ const EntcEngineeringNewsletter = () => {
                                         <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                         </svg>
                                         <div className="col-start-2 col-end-12 sm:col-start-3">ETC final Newsletter 2016-17 Sem II</div>
-                                        <a href="" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
+                                        <a href="documents/departments/entc/newsletter/etc-final-newsletter-2016-17-sem-2.pdf" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer " target="_blank" rel="noreferrer">    
                                             <svg xmlns="http://www.w3.org/2000/svg" className=" col-start-13  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                             </svg>

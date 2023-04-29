@@ -65,13 +65,13 @@ let LabList2 = [{
             'Lab. Area: 80 Sq.m\n'+
             'Faculty In-Charge: Prof. S. A Madiwal\n'+
             'Instructor in charge: Mr. A. D. Nimbalkar', 
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/project-lab-01.jpg"
         }, {
             title: "MAJOR EXPERIMENTS & EQUIPMENTS",
             excerpt: "100Mhz Digital Storage Oscilloscope, Power Supply, Signal generator, Cathode Ray Oscilloscope, Computer Internet & Wi-fi Facility ",
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/project-lab-02.jpg"
         }, {
@@ -80,13 +80,13 @@ let LabList2 = [{
             'Lab. Area-88.92 Sq.m\n'+
             'Faculty In-Charge: Prof. P. L. Chavan\n'+
             'Instructor in charge: Mr. K. L. Rukadikar',
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/power-&-switchgear-lab-01.jpg"
         }, {
             title: "MAJOR EXPERIMENTS & EQUIPMENTS",
             excerpt:"Power Semiconductor Devices trainer kit, 1-Phase & 3 Phase Rectifier, Inverter, Chopper & AC Voltage Controller trainer kit, Electromechanical, Solid State and Microprocessor Type, Over/Under Voltage and Current Relay Trainer, Single phase dual converter transmitter kit",
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/power-&-switchgear-lab-02.jpg"
         },
@@ -96,13 +96,13 @@ let LabList2 = [{
             'Lab. Area-88 Sq.m\n'+
             'Faculty In-Charge: Prof. S. A. Phalake\n'+
             'Instructor in charge: Mr. A. D. Nimbalkar',
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/measurement-&-control-system-lab-01.jpg"
         }, {
             title: "MAJOR EXPERIMENTS & EQUIPMENTS",
             excerpt: "Modeling of DC Motor: Armature and filed controlled, T.F. of AC Servomotor & Speed-Torque characteristics, Study of Synchro Transmitter-Receiver as a control device, Measurement of frequency and phase using Lissajous patterns, Insulation resistance and earth resistance measurement is using Megger, Measurement of active and reactive power in 3 phases circuit",
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/measurement-&-control-system-lab-02.jpg"
         },
@@ -112,13 +112,13 @@ let LabList2 = [{
             'Lab. Area-90 Sq. m\n'+
             'Faculty In-Charge: Prof. Sushmita A. Sarkar\n'+
             'Instructor in charge: Mr. A. D. Nimbalkar',
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/electronics-lab-01.jpg"
         }, {
             title: "MAJOR EXPERIMENTS & EQUIPMENTS",
             excerpt: "8085 Microprocessor kits, 8051 Microcontroller kits, Single Phase Rectifier with Capacitive filter, Inductive filter, Frequency response of single stage RC coupled amplifier, Wien Bridge and RC phase shift oscillator, Inverting & Non Inverting Amplifier", 
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/electronics-lab-02.jpg"
         },
@@ -128,13 +128,13 @@ let LabList2 = [{
             'Lab. Area-94.38 Sq. Meter\n'+
             'Faculty In-Charge: Prof. M. S. Shikalgar\n'+
             'Instructor in charge: Mr. A. D. Nimbalkar',
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/computer-lab-01.jpg"
         }, {
             title: "MAJOR EXPERIMENTS & EQUIPMENTS",
             excerpt: "DELL Optiplex 330, Pentium N series Intel Pentium G640 ( 2.8 GHZ 3MB) SATA Hard Drive, 4GB RAM ,16X DVD +/- R/W, Dell Optical Keyboard & USB Mouse, 18.5’ Widescreen LED Monitor , High Definition Audio Codec, 1 Ethernet , 1 VGA out 1 Microphone, 1 Speakers /line out BTX Convertible chassis +280 SMPS , Computer –Internet & Wi-fi Facility, Licensed MATLAB SOFTWARE", 
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/computer-lab-02.jpg"
         },
@@ -144,13 +144,13 @@ let LabList2 = [{
             'Lab. Area-108 Sq. m\n'+
             'Faculty In-Charge: Prof. N. J. Kumbhar\n'+
             'Instructor in charge: Mr. K. L. Rukadikar',
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/electrical-machine-01.jpg"
         }, {
             title: "MAJOR EXPERIMENTS & EQUIPMENTS",
             excerpt: "Speed Control of DC shunt motor, Swinburne’s test & Hopkinson’s test, Brake test on shunt motor, Field test on series motor, Parallel operation of single phase transformer, DY1 and DY11 parallel connection to demonstrate load sharing",
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/electrical-machine-02.jpg"
         },
@@ -160,13 +160,13 @@ let LabList2 = [{
             'Lab. Area-: 84 Sq. Meters\n'+
             'Faculty In-Charge: Prof. Priyanka P. Kulkarni\n'+
             'Instructor in charge: Mr. K. L. Rukadikar',
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/electrical-vehicle-01.jpg"
         }, {
             title: "MAJOR EXPERIMENTS & EQUIPMENTS",
             excerpt: "Electric vehicle power system integration, Smartgrid, interoperability and power measurement studies, Electric vehicle enabling technology, Logging equipment in vehicles, Testing towards contemporary EV standards.", 
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/electrical-vehicle-02.jpg"
         },
@@ -176,13 +176,13 @@ let LabList2 = [{
             'Lab . Area- 135 Sq.m\n'+
             'Faculty In-Charge: Prof. Priyanka N. Mane\n'+
             'Instructor in charge: Mr. K. L. Rukadikar',
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/electrical-01.jpg"
         }, {
             title: "MAJOR EXPERIMENTS & EQUIPMENTS",
             excerpt: "25KW 3 PHASE D Y 440/230V50 CYCLES AIRCOOLED (Main Transformer Installation), Efficiency and Regulation of single phase transformer by direct loading, Torque Speed characteristics of AC Servo Motor, Verification of Maximum Power Transfer Theorem, Voltage regulation of alternator using synchronous impedance method.", 
-            date: "2021-12-01",
+            date: "",
             author: "Dept Of Electrical Engineering",
             img: "images/department/electrical/lab/electrical-02.jpg"
         }
@@ -220,7 +220,7 @@ let LabList2 = [{
                         data-aos-delay="0"
                         className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
                     >
-                        Faculty List
+                        Electrical Engineering Laboratories
                     </h1>
                     <br></br>
                     <br></br>

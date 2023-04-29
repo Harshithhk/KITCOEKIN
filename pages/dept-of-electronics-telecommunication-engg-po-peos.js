@@ -103,7 +103,7 @@ const EntcEngineeringPeo = () => {
                         data-aos-delay="0"
                         className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
                     >
-                        Faculty List
+                        Electronics & Telecommunication PO & PEO'S
                     </h1>
                     <br></br>
                     <br></br>

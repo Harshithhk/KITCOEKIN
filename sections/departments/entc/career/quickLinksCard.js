@@ -25,19 +25,23 @@ const QuickLinksCard = () => {
         >
           Activities
           <QuickLinks.SubQuickLinks setSubLink={setSubLink3} subLink={subLink3}>
-            <QuickLinks.SubPlates logo="document">
+            <QuickLinks.SubPlates logo="document" 
+            href="documents/departments/entc/activities/activity-report-2020-21.pdf"
+            >
               Activity report 2020-21
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/electronics-telecommunication/activities/activity-report-2019-20.pdf"
+              href="documents/departments/entc/activities/activity-report-clips-2019-20.pdf"
             >
               Activity report Clips 2019-20
             </QuickLinks.SubPlates>
-            <QuickLinks.SubPlates logo="document">
+            <QuickLinks.SubPlates logo="document"  href="documents/departments/entc/activities/activity-report-2019-20.pdf">
               Activity report 2019-20
             </QuickLinks.SubPlates>
-            <QuickLinks.SubPlates logo="document">
+            <QuickLinks.SubPlates logo="document"
+                          href="documents/departments/entc/activities/activity-report-2018-19.pdf"
+                          >
               Activity report 2018-19
             </QuickLinks.SubPlates>
           </QuickLinks.SubQuickLinks>
@@ -94,21 +98,27 @@ const QuickLinksCard = () => {
         >
           Placement
           <QuickLinks.SubQuickLinks setSubLink={setSubLink1} subLink={subLink1}>
+          <QuickLinks.SubPlates
+              logo="document"
+              href="documents/departments/entc/placements/ETC Placement 2021-22.pdf"
+            >
+              Placement 2021-22
+            </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/electronics-telecommunication/placements/etc-placement-2020-21.pdf"
+              href="documents/departments/entc/placements/ETC-Website Placement Data 2020-21.pdf"
             >
               Placement 2020-21
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/electronics-telecommunication/placements/etc-placement-record-2019-20.pdf"
+              href="documents/departments/entc/placements/ETC-Website Placement Data 2019-20.pdf"
             >
               Placement 2019-20
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/electronics-telecommunication/placements/etc-placement-record.pdf"
+              href="documents/departments/entc/placements/etc-placement-record.pdf"
             >
               Placement 2018-19
             </QuickLinks.SubPlates>
@@ -124,19 +134,19 @@ const QuickLinksCard = () => {
           <QuickLinks.SubQuickLinks setSubLink={setSubLink2} subLink={subLink2}>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/electronics-telecommunication/internship/etc-department-internship-info.pdf"
+              href="documents/departments/entc/internship/etc-department-internship-info.pdf"
             >
               Internship 2020-21
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/electronics-telecommunication/internship/etc-internship-2019-20.pdf"
+              href="documents/departments/entc/internship/etc-internship-2019-20.pdf"
             >
               Internship 2019-20
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/electronics-telecommunication/internship/entc-intership-details.pdf"
+              href="documents/departments/entc/internship/entc-intership-details.pdf"
             >
               Internship{" "}
             </QuickLinks.SubPlates>
@@ -161,13 +171,13 @@ const QuickLinksCard = () => {
           <QuickLinks.SubQuickLinks setSubLink={setSubLink5} subLink={subLink5}>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/electronics-telecommunication/activities/student-achievements-21-22.pdf"
+              href="documents/departments/entc/activities/student-achievements-21-22.pdf"
             >
               Student Achievements 2021-22
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/electronics-telecommunication/activities/student-achievements-20-21.pdf"
+              href="documents/departments/entc/activities/student-achievements-20-21.pdf"
             >
               Student Achievements 2020-21
             </QuickLinks.SubPlates>

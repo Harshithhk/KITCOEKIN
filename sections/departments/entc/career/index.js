@@ -13,23 +13,23 @@ const Career = () => {
 
 
 
-  let title1 = "ABET Accreditation"
-  let discription1 = "ABET accreditation is recognized as the highest standard of achievement for post-secondary education programs in applied science, computing, engineering, and engineering technology. ABET accreditation ensures that the curriculum, faculty, facilities, and institutional support are of the highest quality, and that graduates are well-prepared to enter the workforce as competent and ethical professionals."
+  let title1 = "  Electronics and Telecommunications Engineering Program"
+  let discription1 = "Our department offers a comprehensive program that covers a wide range of topics, including communication systems, embedded systems, digital signal processing, and more. This program prepares students for careers in the rapidly evolving field of electronics and telecommunications.  "
 
   
-  let title2 = "IEEE Accreditation"
-  let discription2 = "The Institute of Electrical and Electronics Engineers (IEEE) is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE accreditation ensures that an engineering program meets the highest standards of excellence in education, research, and innovation in the field of electronics and telecommunications."
+  let title2 = "Innovative Curriculum"
+  let discription2 = "We offer a dynamic and innovative curriculum that keeps pace with the latest trends in the industry. Our courses are designed to provide students with a strong foundation in theoretical concepts, as well as practical skills that can be applied to real-world problems.  "
 
 
-  let title3 = "NATE Accreditation"
-  let discription3 = "The National Association of Tower Erectors (NATE) is a non-profit organization dedicated to promoting safety and quality in the tower and antenna industry. NATE accreditation ensures that a telecommunications engineering program provides students with the knowledge and skills to work safely and effectively in the field."
+  let title3 = "State-of-the-Art Laboratories"
+  let discription3 = "Our department has well-equipped laboratories for hands-on learning, including communication systems, microprocessor and microcontroller, and digital signal processing. Students can apply theoretical knowledge to real-world applications and gain practical experience.  "
 
-  let title4 = "ACEJ Accreditation"
-  let discription4 = "The Accreditation Commission for Education in Engineering and Technology (ACEJ) is a non-profit organization that evaluates engineering and engineering technology programs to ensure that they meet the highest standards of academic quality. ACEJ accreditation is recognized as a mark of excellence in the electronics and telecommunications engineering industry."
+  let title4 = "Industry Collaboration"
+  let discription4 = "We have strong partnerships with electronics and telecommunications companies in Maharashtra, providing opportunities for internships, industrial visits, and collaborative research projects. This helps students to bridge the gap between academic theory and industry practices.  "
 
 
-  let title5= "ECHE Accreditation"
-  let discription5 = "The European Network for Accreditation of Engineering Education (ENAEE) is a non-profit organization that promotes and supports the accreditation of engineering education programs throughout Europe. The European Council for Accreditation of Engineering Programs (ECHE) is a part of ENAEE that specifically accredits programs in the fields of electronics and telecommunications engineering. ECHE accreditation ensures that a program meets the highest standards of quality in education and research, and that graduates are well-prepared to enter the global engineering workforce."
+  let title5= "Faculty Expertise"
+  let discription5 = "Our faculty members are experienced professionals in the electronics and telecommunications field with strong academic backgrounds. They bring real-world knowledge and expertise into the classroom, enriching the learning experience for students. Additionally, they engage in research activities that contribute to the development of the field."
 
   return (
     <section className=" px-2   w-full pb-10 sm:w-full  sm:mt-8 flex  md:flex-col items-center">

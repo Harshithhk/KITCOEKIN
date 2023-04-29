@@ -33,7 +33,7 @@ const Awsome = () => {
             B.TECH
           </h1>
           <div className="text-xl text-justify text-[#35457E] mt-2 sm:text-sm">
-            Intake : 60
+            Intake : 120
           </div>
         </div>
         {/* BOX */}

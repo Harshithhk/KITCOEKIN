@@ -10,23 +10,23 @@ const Career = () => {
   const [accordion5, setAccordion5] = React.useState(false)
 
 
-  let title1 = "ABET Accreditation"
-  let discription1 = "ABET (Accreditation Board for Engineering and Technology) is a US-based non-profit organization that accredits programs in applied and natural science, computing, engineering, and engineering technology. Electrical engineering programs that are ABET-accredited meet the highest standards of education and have been rigorously evaluated for their curricula, faculty, facilities, and student outcomes."
+  let title1 = "Electrical Engineering Program"
+  let discription1 = "This program offers students the opportunity to gain in-depth knowledge of electrical engineering principles and practical skills. The curriculum includes courses on power systems, electronics, control systems, and more"
 
 
-  let title2 = "IEEE Accreditation"
-  let discription2 = "The Institute of Electrical and Electronics Engineers (IEEE) is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE accreditation ensures that electrical engineering programs meet global standards for quality and relevance, and that graduates are well-prepared to succeed in their careers."
+  let title2 = "State-of-the-Art Laboratories"
+  let discription2 = "Our department has well-equipped laboratories for hands-on learning, including electrical machines, power electronics, and control systems. Students can apply theoretical knowledge to real-world applications and gain practical experience"
 
 
-  let title3 = "ECUK Accreditation"
-  let discription3 = "The Engineering Council UK (ECUK) is the regulatory body for the engineering profession in the United Kingdom. ECUK accreditation ensures that electrical engineering programs meet the highest standards of education and that graduates are well-prepared for professional engineering practice."
+  let title3 = "Industry Collaboration"
+  let discription3 = "We have strong partnerships with electrical engineering companies in Maharashtra, providing opportunities for internships, industrial visits, and collaborative research projects. This helps students to bridge the gap between academic theory and industry practices"
 
 
-  let title4 = "JABEE Accreditation"
-  let discription4 = "The Japan Accreditation Board for Engineering Education (JABEE) is an independent organization that accredits engineering programs in Japan. JABEE accreditation ensures that electrical engineering programs meet the highest standards of education and that graduates are well-prepared for professional engineering practice in Japan."
+  let title4 = "Faculty Expertise"
+  let discription4 = "Our faculty members are experienced professionals in the electrical engineering field with strong academic backgrounds. They bring real-world knowledge and expertise into the classroom, enriching the learning experience for students.  ."
 
-  let title5= "Engineers Australia Accreditation"
-  let discription5 = "Engineers Australia is the national forum for the advancement of engineering in Australia. Accreditation by Engineers Australia ensures that electrical engineering programs meet the highest standards of education and that graduates are well-prepared for professional engineering practice in Australia."
+  let title5= "Research Opportunities"
+  let discription5 = "Our department provides opportunities for research in various areas of electrical engineering, including renewable energy, power systems, control systems, and more. Students have access to state-of-the-art facilities and equipment to conduct research and contribute to scientific knowledge"
 
   return (
     <section className=" px-2   w-full pb-10 sm:w-full  sm:mt-8 flex  md:flex-col items-center">

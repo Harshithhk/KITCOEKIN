@@ -75,18 +75,18 @@ const Navbar = () => {
         </Link>
         <Link href="/contact" passHref>
 
-        <li href="#" className="flex items-center cursor-pointer">
+        <li href="#" className="flex items-end cursor-pointer">
           <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
           CONTACT
         </li>
         </Link>
         <Link href="/apply-admission" passHref>
-          <li className="flex items-center cursor-pointer">
+          <li className="flex items-end cursor-pointer">
             <img src="/images/Navbar/Mention.svg" className="mr-2" alt="" />
             APPLY
           </li>
         </Link>
-        <li href="#" className="flex items-center cursor-pointer">
+        <li href="#" className="flex items-center mt-[5px] cursor-pointer">
           <div
             className="ml-auto space-y-2 HAMBURGER-ICON "
             onClick={() => setOthersNavOpen((prev) => !prev)}

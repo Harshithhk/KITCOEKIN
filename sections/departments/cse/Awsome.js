@@ -17,7 +17,7 @@ const Awsome = () => {
             DEPT.HEAD
           </h1>
           <div className="text-xl text-justify text-[#35457E] mt-2 sm:text-sm">
-            Dr.Mamta S. Kalas
+          Dr. Ajit S. Patil
           </div>
         </div>
 

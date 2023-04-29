@@ -70,7 +70,7 @@ const Admissions = () => {
                     <ComputerScienceEngineeringDataScience />
                     <ComputerScienceEngineeringAIML />
                     <ElectricalEngineering />
-                    <ElectronicsEngineering />
+                    {/* <ElectronicsEngineering /> */}
                     <ElectronicsTelecommEngineering />
                     <MechanicalEngineering />
                     <BasicSciencesHumanities />

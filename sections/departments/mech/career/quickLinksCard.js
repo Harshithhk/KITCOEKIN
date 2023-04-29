@@ -25,19 +25,29 @@ const QuickLinksCard = () => {
         >
           Activities
           <QuickLinks.SubQuickLinks setSubLink={setSubLink3} subLink={subLink3}>
-            <QuickLinks.SubPlates logo="document">
+            <QuickLinks.SubPlates logo="document"
+              href="documents/departments/mech/activities/activity-report-2020-21.pdf"
+            >
               Activity report 2020-21
             </QuickLinks.SubPlates>
-            <QuickLinks.SubPlates logo="document">
+            <QuickLinks.SubPlates logo="document"
+              href="documents/departments/mech/activities/activity-report-2019-20.pdf"
+            >
               Activity report 2019-20
             </QuickLinks.SubPlates>
-            <QuickLinks.SubPlates logo="document">
+            <QuickLinks.SubPlates logo="document"
+              href="documents/departments/mech/activities/guest-lectures-2019-20.pdf"
+            >
               Guest Lectures 2019-20
             </QuickLinks.SubPlates>
-            <QuickLinks.SubPlates logo="document">
+            <QuickLinks.SubPlates logo="document"
+              href="documents/departments/mech/activities/activity-report-2018-19.pdf"
+            >
               Activity report 2018-19
             </QuickLinks.SubPlates>
-            <QuickLinks.SubPlates logo="document">
+            <QuickLinks.SubPlates logo="document"
+              href="documents/departments/mech/activities/activity-report-2017-18.pdf"
+            >
               Activity report 2017-18
             </QuickLinks.SubPlates>
           </QuickLinks.SubQuickLinks>
@@ -57,31 +67,31 @@ const QuickLinksCard = () => {
           <QuickLinks.SubQuickLinks setSubLink={setSubLink1} subLink={subLink1}>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/mechanical/placements/Mech%202021-2022-Updated-108%20Student%20Placement%20format%20for%20admission-Mech%202022.pdf"
+              href="documents/departments/mech/placements/Mech 2021-2022-Updated-108 Student Placement format for admission-Mech 2022.pdf"
             >
               Placement 2021-22
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/mechanical/placements/Mech%202020-21%20Mechanical%20%20Engineering%20Placement%20Details.pdf"
+              href="documents/departments/mech/placements/student-placement-record-2020-21.pdf"
             >
               Placement 2020-21
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/mechanical/placements/student-placement-record-2019-20.pdf"
+              href="documents/departments/mech/placements/student-placement-record-2019-20.pdf"
             >
               Placement 2019-20
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/mechanical/placements/student-placement-record-2018-19.pdf"
+              href="documents/departments/mech/placements/student-placement-record-2018-19.pdf"
             >
               Placement 2018-19
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/mechanical/placements/student-placement-record-2017-18.pdf"
+              href="documents/departments/mech/placements/student-placement-record-2017-18.pdf"
             >
               Placement 2017-18
             </QuickLinks.SubPlates>
@@ -97,13 +107,13 @@ const QuickLinksCard = () => {
           <QuickLinks.SubQuickLinks setSubLink={setSubLink2} subLink={subLink2}>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/mechanical/internship/mechanical-department-internship-info.pdf"
+              href="documents/departments/mech/internship/mechanical-department-internship-info.pdf"
             >
               Internship 2020-21
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/mechanical/internship/mech-student-internship-details.pdf"
+              href="documents/departments/mech/internship/mech-student-internship-details.pdf"
             >
               Internship 2019-20
             </QuickLinks.SubPlates>
@@ -128,19 +138,19 @@ const QuickLinksCard = () => {
           <QuickLinks.SubQuickLinks setSubLink={setSubLink5} subLink={subLink5}>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/mechanical/activities/mech-dept-student-achievements-2021-22.pdf"
+              href="documents/departments/mech/activities/mech-dept-student-achievements-2021-22.pdf"
             >
               Student Achievements 2021-22
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/mechanical/activities/mech-dept-student-achievements-2020-21.pdf"
+              href="documents/departments/mech/activities/mech-dept-student-achievements-2020-21.pdf"
             >
               Student Achievements 2020-21
             </QuickLinks.SubPlates>
             <QuickLinks.SubPlates
               logo="document"
-              href="documents/departments/mechanical/activities/mech-dept-student-achievements.pdf"
+              href="documents/departments/mech/activities/mech-dept-student-achievements.pdf"
             >
               Student Achievements 2019-20
             </QuickLinks.SubPlates>

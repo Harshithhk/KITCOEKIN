@@ -10,21 +10,14 @@ const Career = () => {
   const [accordion4, setAccordion4] = React.useState(false)
   const [accordion5, setAccordion5] = React.useState(false)
 
-  let title1 = "ABET (Accreditation Board for Engineering and Technology)"
-  let discription1 = ' ABET accreditation is a widely recognized program that accredits engineering, computing, and technology programs at the undergraduate and graduate level. ABET accreditation ensures that programs meet high-quality standards of education in these fields.';
+  let title1 = "Foundation Courses"
+  let discription1 = ' The Basic Sciences & Humanities department offers foundational courses in subjects such as mathematics, physics, chemistry, and English. These courses provide students with a strong foundation for further studies in their chosen fields.  ';
 
-  let title2 = "AACSB (Association to Advance Collegiate Schools of Business)"
-  let discription2 = 'AACSB accreditation is a program that accredits business programs at the undergraduate and graduate level. AACSB accreditation ensures that business programs meet high-quality standards of education, research, and professional practice.';
+  let title2 = "Communication Skills"
+  let discription2 = 'Our department also focuses on developing students communication skills through courses in technical writing, presentation skills, and interpersonal communication. These skills are essential for success in any field';
 
-  let title3 = "ACS (American Chemical Society)"
-  let discription3 = 'The American Chemical Society is an organization that accredits chemistry programs at the undergraduate and graduate level. ACS accreditation ensures that chemistry programs meet high-quality standards of education, research, and professional practice.';
-
-  let title4 = "NASPAA "
-  let discription4 = 'NASPAA accreditation is a program that accredits public administration and policy programs at the undergraduate and graduate level. NASPAA accreditation ensures that public policy and administration programs meet high-quality standards of education, research, and professional practice.';
-
-
-  let title5 = "ACEJMC "
-  let discription5 = 'ACEJMC accreditation is a program that accredits journalism and mass communication programs at the undergraduate and graduate level. ACEJMC accreditation ensures that journalism and mass communication programs meet high-quality standards of education, research, and professional practice.';
+  let title3 = "Faculty Expertise"
+  let discription3 = 'Our faculty members are experienced professionals in their respective fields with strong academic backgrounds. They bring real-world knowledge and expertise into the classroom, enriching the learning experience for students.';
 
   return (
     <section className=" px-2   w-full pb-10 sm:w-full  sm:mt-8 flex  md:flex-col items-center">
@@ -43,9 +36,7 @@ const Career = () => {
           <Accordion title = {title1} discription ={discription1} setAccordion = {setAccordion1} accordion = {accordion1} setRestAccordion = {[setAccordion2,setAccordion3,setAccordion4,setAccordion5]}/>
           <Accordion title = {title2} discription ={discription2} setAccordion = {setAccordion2} accordion = {accordion2} setRestAccordion = {[setAccordion1,setAccordion3,setAccordion4,setAccordion5]}/>
           <Accordion title = {title3} discription ={discription3} setAccordion = {setAccordion3} accordion = {accordion3} setRestAccordion = {[setAccordion2,setAccordion1,setAccordion4,setAccordion5]}/>
-          <Accordion title = {title4} discription ={discription4} setAccordion = {setAccordion4} accordion = {accordion4} setRestAccordion = {[setAccordion2,setAccordion3,setAccordion1,setAccordion5]}/>
-          <Accordion title = {title5} discription ={discription5} setAccordion = {setAccordion5} accordion = {accordion5} setRestAccordion = {[setAccordion2,setAccordion3,setAccordion1,setAccordion4]}/>
-
+       
           </div>
         </div>
 
