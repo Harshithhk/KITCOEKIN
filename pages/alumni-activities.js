@@ -1,7 +1,10 @@
 import DefaultLayout from "../components/DefaultLayout"
+// import SelectLocation from "../components/Map/selectLoation"
 import QuickLinksCard from "../sections/alumni/career/quickLinksCard"
 import Footer from "../sections/home-page/Footer"
 import React from "react"
+
+
 const CseEngineeringMous = () => {
     const [modalToggle, setModalToggle] = React.useState("");
 
@@ -128,7 +131,6 @@ const CseEngineeringMous = () => {
                                     </>
                                 )
                             })}
-                         
                         </section>
 
 

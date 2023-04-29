@@ -101,50 +101,7 @@ let notices2 = [
 
   return (
     <section className="flex mt-16 mb-16 md:mb-4 md:mt-4 md:flex-col">
-      <section className="w-1/2 md:w-full pl-[50px] pr-[2.5%] md:p-[16px]">
-        {/* TITLE */}
-        <div className="flex items-center">
-          <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
-          <div className="ml-3 md:ml-2 w-fit font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
-            NEWS
-          </div>
-        </div>
-        {/* CONTENT */}
-        <div className="mt-8">
-          {news &&
-            news.map((element, index) => (
-              <div
-                key={index}
-                data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-delay={`${index * 10}`}
-                className="cursor-pointer hover:shadow-lg transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl  overflow-hidden"
-              >
-                <div className="h-full w-40 bg-[#495AB6] flex flex-col justify-center items-center">
-                  <div className="text-5xl text-white md:text-3xl">
-                    {element.date.split(` `)[0]}
-                  </div>
-                  <div className="text-lg text-white md:text-xs">
-                    {element.date.split(` `)[1]} {element.date.split(` `)[2]}
-                  </div>
-                </div>
-                <div className="flex flex-col justify-center w-full pl-4 text-black border-4 md:pl-2 rounded-r-2xl">
-                  <div className="text-lg md:text-sm">{element.title}</div>
-                  <div className="text-[13.5px] md:-translate-x-[2px] md:text-[10px] text-[#717171] mt-3 md:mt-1 flex items-center">
-                    <div className="object-contain mr-2">
-                      <img
-                        src="/images/HomePage/Clock.svg"
-                        className="object-contain h-full"
-                        alt=""
-                      />{" "}
-                    </div>
-                    {element.duration[0]} - {element.duration[1]}
-                  </div>
-                </div>
-              </div>
-            ))}
-        </div>
-      </section>
+  
       <section className="w-1/2 md:w-full pl-[50px] pr-[2.5%] md:p-[16px]">
         <div className="flex items-center">
           <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
@@ -188,6 +145,24 @@ let notices2 = [
             ))}
         </div>
       </section>
+
+      <section className="w-1/2 md:w-full pl-[50px] pr-[2.5%] md:p-[16px]">
+        {/* TITLE */}
+        <div className="flex items-center invisible">
+          <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
+          <div className="ml-3 md:ml-2 w-fit font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
+            NEWS
+          </div>
+        </div>
+        {/* CONTENT */}
+        <div className="mt-8">
+          <div  className="bg-center  bg-no-repeat bg-cover bg-[url('/images/recruiters/recruiters-09.png')] cursor-pointer  hover:shadow-lg transition-all  flex  h-96 md:h-[400px] mt-6 rounded-2xl  overflow-hidden"
+          >
+            
+          </div>
+        </div>
+      </section>
+
     </section>
   )
 }
