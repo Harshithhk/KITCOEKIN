@@ -4,7 +4,7 @@ function Hero4(props) {
     return (
         <>
               <img
-        src="/images/HomePage/Hero/hero42.png"
+        src="/images/HomePage/Hero/hero42.jpg"
         data-aos="zoom-in"
         data-aos-delay="20"
         className="h-[621px]   object-cover float-right"

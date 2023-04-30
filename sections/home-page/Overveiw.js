@@ -61,7 +61,7 @@ const Overveiw = () => {
         <div className="flex justify-between ">
           <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/HomePage/bird3.jpeg)] bg-center bg-cover"></div>
           <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/HomePage/bird4.jpg)] bg-center bg-cover"></div>
-          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/HomePage/Polygon.png)] bg-center bg-cover"></div>
+          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/HomePage/Polygon.jpg)] bg-center bg-cover"></div>
         </div>
       </div>
     </div>

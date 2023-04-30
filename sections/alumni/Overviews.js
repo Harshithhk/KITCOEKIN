@@ -49,7 +49,7 @@ const Overviews = () => {
         <div className="flex justify-between ">
           <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/AboutUs/about7.jpg)] bg-center bg-cover"></div>
           <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/AboutUs/about1.jpg)] bg-center bg-cover"></div>
-          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/HomePage/Polygon.png)] bg-center bg-cover"></div>
+          <div className="w-[227px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/HomePage/Polygon.jpg)] bg-center bg-cover"></div>
         </div>
       </div>
     </section>

@@ -62,7 +62,7 @@ const NewVision = () => {
         className="min-w-[869.13px] h-[651.37px] overflow-visible "
       >
         <img
-          src="/images/HomePage/NewVision.png"
+          src="/images/HomePage/NewVision.jpg"
           className="h-full translate-y-[-30%] "
           alt=""
         />

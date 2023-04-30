@@ -3,7 +3,7 @@ import Image from "next/image"
 const Footer = () => {
   return (
     <footer className="z-50 bg-white">
-      <section className="relative  h-[299.77px] sm:h-44 sm:bg-contain bg-bottom bg-no-repeat bg-cover bg-[url('/images/HomePage/FooterBG.png')] mt-10 ">
+      <section className="relative  h-[299.77px] sm:h-44 sm:bg-contain bg-bottom bg-no-repeat bg-cover bg-[url('/images/HomePage/FooterBG.jpg')] mt-10 ">
         <div className="absolute w-64 h-32 -translate-x-1/2 sm:h-20 sm:w-fit left-1/2 top-6">
           <img
             data-aos="fade-up"
@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="flex-1 mt-auto mb-6 ml-2 cursor-pointer">
           <div className="flex items-center ml-8 md:ml-0 h-11">
             <img
-              src="/images/HomePage/Gmail.png"
+              src="/images/HomePage/Gmail.jpg"
               className="h-full"
               alt="email"
             />
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center mt-4 ml-8 md:ml-0 h-11">
             <img
-              src="/images/HomePage/phoneNo.png"
+              src="/images/HomePage/phoneNo.jpg"
               className="h-[39px]"
               alt="email"
             />
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center mt-4 ml-8 md:ml-0 h-11">
             <img
-              src="/images/HomePage/location.png"
+              src="/images/HomePage/location.jpg"
               className="h-[50px]"
               alt="email"
             />
@@ -50,7 +50,7 @@ const Footer = () => {
         <div className="justify-center flex-1 mt-auto mb-4 cursor-pointer md:hidden">
           <div className="flex justify-center  h-[79px]">
             <img
-              src="/images/HomePage/socialMedia.png"
+              src="/images/HomePage/socialMedia.jpg"
               className="h-full "
               alt=""
             />

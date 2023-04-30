@@ -14,7 +14,7 @@ const Statistics = () => {
           <div
             data-aos="zoom-in"
             data-aos-delay="40"
-            className="left-[210.67px]  bg-[url(/images/HomePage/statistics1.png)] absolute  w-[349.75px] h-[350.3px] bg-cover bg-center "
+            className="left-[210.67px]  bg-[url(/images/HomePage/statistics1.jpg)] absolute  w-[349.75px] h-[350.3px] bg-cover bg-center "
           ></div>
           <div className="flex items-center justify-center left-[211.17px] translate-x-[51px] translate-y-[51px] absolute  w-[247.31px]  h-[247.31px] rotate-[46.54deg]">
             <div className="font-Poppine text-[#F5F6F8] italic text-center font-bold  text-[50.96px] rotate-[-46.54deg] leading-[76px] traking-[0.005em]">
@@ -26,7 +26,7 @@ const Statistics = () => {
           <div
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="left-[624.26px] bg-[url(/images/HomePage/statistics2.png)] bg-center bg-cover absolute  w-[349.75px] h-[350.3px] "
+            className="left-[624.26px] bg-[url(/images/HomePage/statistics2.jpg)] bg-center bg-cover absolute  w-[349.75px] h-[350.3px] "
           ></div>
           <div className="flex items-center justify-center left-[625.06px] translate-x-[51px] translate-y-[51px] absolute  w-[247.31px] h-[247.31px] rotate-[46.54deg]">
             <div className="font-Poppine text-[#F5F6F8] italic text-center font-bold  text-[50.96px] rotate-[-46.54deg] leading-[76px] traking-[0.005em]">
@@ -39,7 +39,7 @@ const Statistics = () => {
           <div
             data-aos="zoom-in"
             data-aos-delay="20"
-            className="bg-[url(/images/HomePage/statistics2.png)] bg-center bg-cover absolute  w-[349.75px] h-[350.3px] bottom-0 "
+            className="bg-[url(/images/HomePage/statistics2.jpg)] bg-center bg-cover absolute  w-[349.75px] h-[350.3px] bottom-0 "
           ></div>
           <div className="flex flex-col items-center justify-center left-0 bottom-0 translate-x-[51px] translate-y-[-51px] absolute  w-[247.31px]  h-[247.31px] rotate-[46.54deg]">
             <div className="font-Poppine text-[#F5F6F8] italic text-center font-bold  text-[50.96px] rotate-[-46.54deg] leading-[76px] traking-[0.005em]">
@@ -51,7 +51,7 @@ const Statistics = () => {
           <div
             data-aos="zoom-in"
             data-aos-delay="30"
-            className="left-[422.5px] bg-[url(/images/HomePage/statistics2.png)] bg-center bg-cover absolute  w-[349.75px] h-[350.3px] bottom-0 "
+            className="left-[422.5px] bg-[url(/images/HomePage/statistics2.jpg)] bg-center bg-cover absolute  w-[349.75px] h-[350.3px] bottom-0 "
           ></div>
           <div className="flex items-center justify-center left-[424px] bottom-0 translate-x-[51px] translate-y-[-51px] absolute  w-[247.31px]  h-[247.31px] rotate-[46.54deg]">
             <div className="font-Poppine text-[#F5F6F8] italic text-center font-bold  text-[50.96px] rotate-[-46.54deg] leading-[76px] traking-[0.005em]">
