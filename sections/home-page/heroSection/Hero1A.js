@@ -69,7 +69,7 @@ function Hero5(props) {
         </div>
       </div>
       <img
-        src="/images/HomePage/herobg1.png"
+        src="/images/HomePage/herobg1.jpg"
         data-aos="zoom-in"
         data-aos-delay="20"
         className="h-[621px] w-full   object-cover  float-right"
