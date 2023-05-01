@@ -60,11 +60,11 @@ Electronics and Telecommunication Engineering emphasizes on the study of basic e
       <div className="md:mx-auto w-[300px] h-[370px] bg-transparent   mt-28 mr-6 rounded-xl text-white text-2xl md:text-xl  items-center justify-between flex flex-col sm:mt-16 md:mt-14">
         <div className="absolute bg-[#24346D] w-[288px] sm:w-[295.1px] h-40 mt-36"></div>
         <div className="overflow-hidden relative bg-transparent sm:-mx-1 sm:-mt-1 ">
-          <img src="images/Department/entc/n-b-sambre.png " className=" " alt="mamtakalas.png" />
+          <img src="images/Department/electronics/a-r-nigavekar.png " className=" " alt="mamtakalas.png" />
         </div>
           <div className="mt-2 flex flex-col py-2 items-center text-[#24346D]">
             <div className="bg-primary w-16 h-[3px]   rounded-xl"></div>
-            Dr. Nitin B. Sambre
+            Mr. Atul R. Nigavekar
 
           </div> 
       </div>

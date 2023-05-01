@@ -38,15 +38,17 @@ const StatutoryCommittee = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
+            Statutory Committee
           </h1>
-          <h1
+          <br></br>
+          <br></br>
+          <h6
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
+            className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
-          </h1>
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Statutory Committee 
+          </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         
@@ -67,11 +69,11 @@ const StatutoryCommittee = () => {
               <div className=" grid grid-cols-2 sm:grid-cols-1 sm:divide-y-2 sm:gap-0  gap-50 w-auto h-fit p-2 mt-6 font-semibold  rounded-lg  ">
                 
               <div className="grid grid-cols-1 divide-y-2 items-center justify-center w-fit h-fit p-2 mt-6 sm:mt-0  font-semibold text-center  ">
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                <a href="governing-council" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 text-[#24346D]">
                     {" "}
                     
-Board of Governing Council
+                  Board of Governing Council
                   </div>
                   <div className=" w-[20%] text-left pl-2 text-[#24346D]">
                     {" "}
@@ -79,8 +81,8 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a href="committee-college-development" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 text-[#24346D]">
                     {" "}
                     College Development Committee
@@ -91,8 +93,8 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a href="committee-academic-council" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-[#24346D]">
                     {" "}
                     Academic Council
@@ -103,8 +105,8 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a href="committee-internal-quality-assurance" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-[#24346D]">
                     {" "}
                     Internal Quality Assurance Committee
@@ -115,8 +117,8 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a href="committee-internal-complaint"  className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-[#24346D]">
                     {" "}
                     Internal Complaints Committee / Special Cell
@@ -127,8 +129,8 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a href="committee-grievance-redressal"  className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-[#24346D]">
                     {" "}
                     Grievance Redressal Committee
@@ -139,8 +141,8 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a  href="committee-student-development-cell" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-[#24346D]">
                     {" "}
                     Student Development Cell
@@ -151,8 +153,8 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a href="committee-anti-ragging"  className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-[#24346D]">
                     {" "}
                     Anti Ragging Committee
@@ -163,10 +165,10 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
+                </a>
               </div>  
               <div className="grid grid-cols-1 divide-y-2 items-center w-fit h-fit p-2 mt-6 sm:mt-0 font-semibold text-center  ">
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                <a  href="committee-standing-committee" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 text-[#24346D]">
                     {" "}
                     Standing Committee
@@ -177,8 +179,8 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a  href="committee-cast-discrimination-complaints" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 text-[#24346D]">
                     {" "}
                     जाति आधारित भेदभाव संबंधित तक्रारी(Cast Discrimination Complaints)
@@ -189,8 +191,20 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a  href="committee-Committee-for-Prevention-of-Caste-Based-Discrimination" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                  <div className=" w-[90%] text-left pl-2 pr-2 text-[#24346D]">
+                    {" "}
+                    Committee for Prevention of Caste Based Discrimination
+                  </div>
+                  <div className=" w-[20%] text-left pl-2 text-[#24346D]">
+                    {" "}
+                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                  </div>
+                </a>
+                <a  href="committee-equal-opportunity-cell" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-[#24346D]">
                     {" "}
                     Equal opportunity Cell
@@ -201,8 +215,8 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a  href="committee-internal-committee-for-the-students-with-disabilities" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-[#24346D]">
                     {" "}
                     Internal Committee for Student with Disabilities
@@ -213,8 +227,8 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a  href="committee-research-and-development" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-[#24346D]">
                     {" "}
                     Research Committee
@@ -225,8 +239,8 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a  href="committee-disaster-management-committee" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-[#24346D]">
                     {" "}
                     Disaster Management Committee
@@ -237,8 +251,8 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
-                <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
+                </a>
+                <a  href="committee-central-library" className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-[#24346D]">
                     {" "}
                     Central Library Committee
@@ -249,7 +263,7 @@ Board of Governing Council
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                   </div>
-                </div>
+                </a>
               </div>
 
              

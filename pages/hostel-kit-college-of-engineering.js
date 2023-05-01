@@ -11,6 +11,7 @@ import Accreditation from "../sections/home-page/Accredations"
 import Statistics from "../sections/home-page/Statistics"
 import StatisticsNew from "../sections/home-page/StatisticsNew"
 import Gallaryslider from "../components/Gallary-slider"
+import ImageGrid from "../sections/facilities/imageGridHostel"
 
 let images = [
   "/images/Gallary-1png.png",
@@ -30,24 +31,20 @@ const CollegeHostel = () => {
   let founders = [
     {
       name: "Late.Shri Shivajirao Desai",
-      designation: "Founder Chairman",
-      img: "/images/FounderTrustees/shivajirao-desai.jpg",
+      designation: "Rector, Boy's Hostel",
+      img: "/images/About/hostel/a-m-quereshi.jpg",
     },
     {
-      name: "Late.Shri.M.M.Hudli",
-      designation: "Founder Vice Chairman",
-      img: "/images/FounderTrustees/m-m-hadli.jpg",
+      name: "Mrs. Vinita. S. Mane",
+      designation: "Rector, Girls Hostel",
+      img: "/images/About/hostel/vinita-s-mane.jpg",
     },
     {
-      name: "Late.Shri.B.S.Kulkarni",
-      designation: "Founder Secretary",
-      img: "/images/FounderTrustees/b-s-kulkarni.jpg",
-    },
-    {
-      name: "Late.Shri.Ram Menon",
-      designation: "Trustee",
-      img: "/images/FounderTrustees/ram-menon.jpg",
-    },
+      name: "Mr.Ranjan B. Patil",
+      designation: "Wardan, Boy's Hostel",
+      img: "/images/About/hostel/rajan-patil.jpg",
+    }
+    
   
   ]
 
@@ -80,48 +77,48 @@ const CollegeHostel = () => {
           />
           <div className="absolute w-full h-[500px] top-0 left-0 bg-[#24346D] z-0"></div>
           <h1
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
-          >
-            KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
-          </h1>
-          <h1
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
-          >
-            COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
-          </h1>
+                        data-aos="zoom-in"
+                        data-aos-delay="0"
+                        className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
+                    >
+                        Hostel
+                    </h1>
+                    <br></br>
+                    <br></br>
+                    <h6
+                        data-aos="zoom-in"
+                        data-aos-delay="0"
+                        className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
+                    >
+                        <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Hostel
+                    </h6>
 
-          <div
-            className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8 cursor-pointer"
-            onClick={() => setGallary(true)}
-          >
-            <img
-              src="/images/AboutUs/IMAGE-GALLARY-1.png"
+          <div className="z-10  mt-14 w-[1407px] sm:w-[95%] sm:mt-8">
+            {/* <img
+              src="/images/Department/DepartmentGalary.png"
               className="w-full h-full sm:hidden 2xl:block"
               alt=""
             />
             <img
-              src="/images/AboutUs/Gallary-mobile-1.png"
+              src="/images/AboutUs/Gallary-mobile.png"
               className="w-full h-full sm:block 2xl:hidden"
               alt=""
-            />
+            /> */}
+            <ImageGrid />
           </div>
         </section>
         <section className="mt-16 mx-auto  w-[1407px] sm:w-[90%] sm:mt-8">
       {/* HEADING */}
       <div className="flex items-center w-full">
         <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
-        <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
+        <div className="ml-3 md:ml-2 w-fit  font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
         Hostel
         </div>
       </div>
 
       {/* CONTENT */}
       <div className="flex text-justify">
-        <p className="w-full sm:w-full text-justify mt-8 sm:mt-4 h-fit text-xl sm:text-base text-[#24346D] font-semibold">
+        <p className="w-full sm:w-full text-justify mt-8 sm:mt-4 h-fit text-xl sm:text-base text-[#24346D] ">
         KIT is a residential college with hostel facility for boys and girls separately. KIT boys hostel is a multistorey apartment with the capacity of occupying 300 boys. The admissions are given on first cum first served basis. The hostel is provided with connected mess facility, computer facility, Wi-Fi, gym, etc. Prof. A.M. Quereshi is the rector, and Mr. Rajan Patil is the warden of the hostel.Ladies hostel too is a multistorey apartment with the capacity of occupying 120 girls and all the facilities mentioned above. Mrs. Vinita. S. Mane is working as the rector of the hostel.
 
 
@@ -171,7 +168,7 @@ const CollegeHostel = () => {
                {/* HEADING */}
       <div className="flex items-center w-full">
         <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
-        <div className="ml-3 md:ml-2 w-fit italic font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
+        <div className="ml-3 md:ml-2 w-fit  font-[800] text-center  text-[#3D3859] leading-[54px] text-[35.97px]  md:text-[22px]">
         HOSTEL STAFF
         </div>
       </div>

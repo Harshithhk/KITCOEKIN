@@ -38,15 +38,19 @@ const CollegeCouncil = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
+            Governance Committee
+
           </h1>
-          <h1
+          <br></br>
+          <br></br>
+          <h6
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
+            className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
-          </h1>
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Governance Committee
+ 
+          </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         
@@ -60,7 +64,7 @@ const CollegeCouncil = () => {
           <div className="flex justify-between sm:flex-col">
             <div>
               
-              <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl sm:text-lg font-bold flex h-fit items-center align-middle">
+              <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl  sm:text-lg font-bold flex h-fit items-center align-middle">
                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                 GOVERNANCE COMMITTEE
               </div>
@@ -68,9 +72,9 @@ const CollegeCouncil = () => {
                 
               <div className="flex mt-2 mb-2 hover:bg-slate-100 hover:cursor-pointer">
                    
-                    <div className=" text-left text-2xl sm:text-lg w-[80%] pl-2 text-[#24346D]">
+                    <a href="board-of-directors" className=" text-left text-2xl sm:text-lg w-[80%] pl-2 text-[#24346D]">
                     Board of Trustees
-                    </div>
+                    </a>
                     <div className=" w-[5%]  text-left  pl-2 text-slate-400 sm:w-[20%]" >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -80,9 +84,9 @@ const CollegeCouncil = () => {
                 <hr></hr>
                 <div className="flex mt-2 mb-2 hover:bg-slate-100 hover:cursor-pointer">
                     
-                    <div className=" w-[80%] text-left text-2xl sm:text-lg  pl-2 text-[#24346D]">
+                    <a href="committee-equipment-committee" className=" w-[80%] text-left text-2xl sm:text-lg  pl-2 text-[#24346D]">
                     Equipment Committee                   
-                     </div>
+                     </a>
                      <div className=" w-[5%] text-left  pl-2 text-slate-400 sm:w-[20%]" >
                         
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -93,9 +97,9 @@ const CollegeCouncil = () => {
                 <hr></hr>
                 <div className="flex mt-2 mb-2 hover:bg-slate-100 hover:cursor-pointer">
                 
-                    <div className=" w-[80%] text-left text-2xl sm:text-lg  pl-2 text-[#24346D]">
+                    <a href="committee-staff-commitee"  className=" w-[80%] text-left text-2xl sm:text-lg  pl-2 text-[#24346D]">
                     Staff Committee
-                                        </div>
+                                        </a>
                                         <div className=" w-[5%] text-left  pl-2 text-slate-400 sm:w-[20%]" >
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -105,16 +109,28 @@ const CollegeCouncil = () => {
                 <hr></hr>
                 <div className="flex mt-2 mb-2 hover:bg-slate-100 hover:cursor-pointer">
                     
-                    <div className=" w-[80%] text-left text-2xl sm:text-lg   pl-2 text-[#24346D]">
+                    <a href="committee-building-works-committee" className=" w-[80%] text-left text-2xl sm:text-lg   pl-2 text-[#24346D]">
                     Building & Works Committee
-                                        </div>
+                                        </a>
                                         <div className=" w-[5%] text-left  pl-2 text-slate-400 sm:w-[20%]" >
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                     </div>
                 </div>
-              
+                <hr></hr>
+                <div className="flex mt-2 mb-2 hover:bg-slate-100 hover:cursor-pointer">
+                    
+                    <a href="committee-finance-committee" className=" w-[80%] text-left text-2xl sm:text-lg   pl-2 text-[#24346D]">
+                    Finance Committee
+                                        </a>
+                                        <div className=" w-[5%] text-left  pl-2 text-slate-400 sm:w-[20%]" >
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                    </div>
+                </div>
+
               </div>
             </div>
          

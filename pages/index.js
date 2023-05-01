@@ -47,10 +47,6 @@ const Home = (props) => {
 
   return (
     <DefaultLayout>
-      <Head>
-        <title>KITCOEK</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <HeroSectionUpdated />
       {/* <HeroSection /> */}
       <BtechHonours />

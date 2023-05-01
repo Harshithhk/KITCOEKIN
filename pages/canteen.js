@@ -34,19 +34,21 @@ const Canteen = () => {
           />
           <div className="absolute w-full h-[250px] top-0 left-0 bg-[#24346D] z-0"></div>
           <h1
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
-          >
-            KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
-          </h1>
-          <h1
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
-          >
-            COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
-          </h1>
+                        data-aos="zoom-in"
+                        data-aos-delay="0"
+                        className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
+                    >
+                        Canteen
+                    </h1>
+                    <br></br>
+                    <br></br>
+                    <h6
+                        data-aos="zoom-in"
+                        data-aos-delay="0"
+                        className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
+                    >
+                        <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Canteen
+                    </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-white px-14 sm:px-4 sm:pb-10">
@@ -63,17 +65,17 @@ const Canteen = () => {
                 ABOUT CANTEEN
 
               </div>
-              <div className="mt-10 sm:mt-4 w-[800px] text-xl text-accent sm:w-full sm:text-base">
+              <div className="mt-10 sm:mt-4 text-justify  text-xl text-accent sm:w-full sm:text-base">
               The college canteen provides fresh and healthy food to the employees and students of the college. Proper hygeine and cleanliness is maintained in the canteen. The service of the canteen is available during the working hours of the college. Variety of food is provided by the canteen at reasonable rates.
 
               </div>
             </div>
-            <div className="w-[300px] sm:h-[320px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl sm:text-lg items-center flex flex-col sm:mt-8 sm:w-[250px] sm:mx-auto">
+            {/* <div className="w-[300px] sm:h-[320px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl sm:text-lg items-center flex flex-col sm:mt-8 sm:w-[250px] sm:mx-auto">
               <div className="overflow-hidden bg-white rounded-xl">
                 <img src="/images/TnP/amitsarkar.png" alt="amitsarkar.png" />
               </div>
               <div className="mt-2">DR. Amit Sarkar</div>
-            </div>
+            </div> */}
           </div>
         </section>
      

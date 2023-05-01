@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="flex-1 mt-auto mb-6 ml-2 cursor-pointer">
           <div className="flex items-center ml-8 md:ml-0 h-11">
             <img
-              src="/images/HomePage/Gmail.jpg"
+              src="/images/HomePage/Gmail.png"
               className="h-full"
               alt="email"
             />
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center mt-4 ml-8 md:ml-0 h-11">
             <img
-              src="/images/HomePage/phoneNo.jpg"
+              src="/images/HomePage/phoneNo.png"
               className="h-[39px]"
               alt="email"
             />
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center mt-4 ml-8 md:ml-0 h-11">
             <img
-              src="/images/HomePage/location.jpg"
+              src="/images/HomePage/location.png"
               className="h-[50px]"
               alt="email"
             />
@@ -50,7 +50,7 @@ const Footer = () => {
         <div className="justify-center flex-1 mt-auto mb-4 cursor-pointer md:hidden">
           <div className="flex justify-center  h-[79px]">
             <img
-              src="/images/HomePage/socialMedia.jpg"
+              src="/images/HomePage/socialMedia.png"
               className="h-full "
               alt=""
             />

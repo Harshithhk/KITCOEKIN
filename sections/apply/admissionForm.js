@@ -136,13 +136,15 @@ const AdmissionForm = () => {
               <p className="mt-2 text-sm text-gray-500">Brief description for your requirement. URLs are hyperlinked.</p>
             </div>
           </div>
-          <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
-            <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Send Your Message</button>
-          </div>
+        
         </div>
     
     </div>
+   
   </div>
+  <div className="px-4 mt-8 py-3 bg-gray-50 text-right sm:px-6">
+  <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-[#24346D] hover:bg-[#24346D] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#24346D]">Send Your Message</button>
+          </div>
 </div>
 </form>
 

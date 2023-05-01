@@ -4,108 +4,114 @@ import Footer from "../sections/home-page/Footer"
 const GoverningCouncil = () => {
    let governingCouncilList = [
     {
-      "SrNo": "1",
+      "Sr.No": 1,
       "Name": "Mr.Sunil Kulkarni",
       "Designation": "Chairman, Kolhapur Institute of Technology, Kolhapur",
-      "PositionInGoverningCouncil": "Chairman, Nominee, KIT Trust"
+      "Position in Governing Council": "Chairman, Nominee, KIT Trust"
     },
     {
-      "SrNo": "2",
-      "Name": " Mr.Sajid Hudli",
+      "Sr.No": 2,
+      "Name": "Mr.Sajid Hudli",
       "Designation": "Vice Chairman, Kolhapur Institute of Technology, Kolhapur",
-      "PositionInGoverningCouncil": "Member, Nominee, KIT Trust"
+      "Position in Governing Council": "Member, Nominee, KIT Trust"
     },
     {
-      "SrNo": "3",
+      "Sr.No": 3,
       "Name": "Mr.Dipak Chougule",
       "Designation": "Secretary, Kolhapur Institute of Technology, Kolhapur",
-      "PositionInGoverningCouncil": "Member, Nominee, KIT Trust"
+      "Position in Governing Council": "Member, Nominee, KIT Trust"
     },
     {
-      "SrNo": "4",
-      "Name": " Mr.Bharat D.Patil",
+      "Sr.No": 4,
+      "Name": "Mr.Bharat D.Patil",
       "Designation": "Trustee, Kolhapur Institute of Technology, Kolhapur",
-      "PositionInGoverningCouncil": "Member, Nominee, KIT Trust"
+      "Position in Governing Council": "Member, Nominee, KIT Trust"
     },
     {
-      "SrNo": "5",
+      "Sr.No": 5,
       "Name": "Mr.Sachin Menon",
       "Designation": "Trustee, Kolhapur Institute of Technology, Kolhapur",
-      "PositionInGoverningCouncil": "Member, Nominee, KIT Trust"
+      "Position in Governing Council": "Member, Nominee, KIT Trust"
     },
     {
-      "SrNo": "6",
+      "Sr.No": 6,
       "Name": "Col.Pratapsinh Raorane (Rtd.)",
       "Designation": "Trustee, Kolhapur Institute of Technology, Kolhapur",
-      "PositionInGoverningCouncil": "Member Invitee, Trustee, KIT"
+      "Position in Governing Council": "Member Invitee, Trustee, KIT"
     },
     {
-      "SrNo": "7",
-      "Name": "Mr.Rajendra R.Deshpande",
-      "Designation": "Managing Director, Kirloskar Oil Engines Limited, Pune",
-      "PositionInGoverningCouncil": "Member Represntative, Industry"
+      "Sr.No": 7,
+      "Name": "Mr. Sanjay Kotha",
+      "Designation": "Joint President & Chief Digital & Business Transformation Officer Adani Airports,\nAdani Ports & Logistics",
+      "Position in Governing Council": "Member, Representative, Industry"
     },
     {
-      "SrNo": "8",
-      "Name": "Mr.Raghavan Murlidharan",
-      "Designation": "Chief Technology Officer, Strategic Electronic Division(SED), Tata Power Company Ltd, MUMBAI",
-      "PositionInGoverningCouncil": "Member Representative, Industry"
+      "Sr.No": 8,
+      "Name": "Prof. (Dr) Ganapati D. Yadav",
+      "Designation": "National Science Chair (SERB/DST/GOI) & Emeritus Professor of Eminence,\nFormer Vice-Chancellor and R.T. Mody Distinguished Professor,\nformer TATA Chemicals Darbari Seth Distinguished Professor of leadership and Innovation,\nPadmashri Awardee by the President of India (2016)",
+      "Position in Governing Council": "Member, Representative, Industry"
     },
     {
-      "SrNo": "9",
-      "Name": "Dr.Jyaant C.Padate",
-      "Designation": "Director, FIE Reaserch Institute, Ichalkaranji",
-      "PositionInGoverningCouncil": "Member, Nominee, State Govt."
+      "Sr.No": 9,
+      "Name": "Mr.Nikhil J. Padate",
+      "Designation": "Founder, JANGS TECHNOLOGIES, Ichalkaranji",
+      "Position in Governing Council": "Member, Representative Industry"
     },
     {
-      "SrNo": "10",
-      "Name": "Dr.Anand Mohan",
-      "Designation": "Professor, Dept. Electronics Engg,Indian Institute of Technology, Banaras Hindu University, Varanasi",
-      "PositionInGoverningCouncil": "Member UGC, Nominee"
+      "Sr.No": 10,
+      "Name": "Dr. Anand Mohan",
+      "Designation": "Professor, Dept. Electronics Engg., Indian Institute of Technology, Banaras Hindu University, Varanasi",
+      "Position in Governing Council": "Member, UGC, Nominee"
     },
     {
-      "SrNo": "11",
-      "Name": "Dr. C.S. Verma",
-      "Designation": "Regional Officer & Assistant Director (WRC) AICTE, Churchgate, Mumbai.",
-      "PositionInGoverningCouncil": "Member, AICTE, Nominee"
+      "Sr.No": 11,
+      "Name": "Member- Ex-officio",
+      "Designation": "Regional Officer & Assistant Director (WRO) AICTE, NITIE Campus, Vihar Lake, Mumbai.",
+      "Position in Governing Council": "Member, AICTE, Nominee"
     },
     {
-      "SrNo": "12",
-      "Name": "Dr.D.R.Nandanwar",
+      "Sr.No": 12,
+      "Name": "Member- Ex-officio",
       "Designation": "Joint Director, Technical Education, Regional Office, Pune",
-      "PositionInGoverningCouncil": "Member, DTE, Nominee"
+      "Position in Governing Council": "Member, DTE, Nominee"
     },
     {
-      "SrNo": "13",
-      "Name": "Dr.P. D.Raut",
-      "Designation": "Dean, IDS Branch/Course Shivaji University, Kolhapur",
-      "PositionInGoverningCouncil": "Member, Shivaji University, Nominee"
+      "Sr.No": 13,
+      "Name": "Dr. Mrs.S.S. Kulkarni",
+      "Designation": "Director, Rajarambapu Institute of Technology’s College of Engineering, Islampur",
+      "Position in Governing Council": "Member, Shivaji University, Nominee"
     },
     {
-      "SrNo": "14",
-      "Name": "Dr.Mahesh S.Chavan",
-      "Designation": "Professor, Dept. of Electronics Engineering Kolhapur Institute of Technology's College of Engg. (Autonomous), Kolhapur",
-      "PositionInGoverningCouncil": "Member, Faculty, Professor"
+      "Sr.No": 14,
+      "Name": "Dr.Mohan B.Vanarotti",
+      "Designation": "Director, Kolhapur Institute of Technology’s College of Engg. (Autonomous), Kolhapur",
+      "Position in Governing Council": "Member - Secretary"
     },
     {
-      "SrNo": "15",
-      "Name": "Mr.Tanaji B.Patil",
-      "Designation": "Associate Professor, Dept. of Information Technology Kolhapur Institute of Technology's College of Engg. (Autonomous), Kolhapur",
-      "PositionInGoverningCouncil": "Member, Faculty, Asso.Professor"
+      "Sr.No": 15,
+      "Name": "Dr.Y.M.Patil",
+      "Designation": "Professor & Dean, Examination & Evaluation,\nKolhapur Institute of Technology’s College of Engg. (Autonomous), Kolhapur",
+      "Position in Governing Council": "Member - Faculty"
     },
     {
-      "SrNo": "16",
-      "Name": "Dr. M. M. Mujumdar",
-      "Designation": "Registrar, Kolhapur Institute of Technology's College of Engg. (Autonomous), Kolhapur",
-      "PositionInGoverningCouncil": "Member - Invitee"
+      "Sr.No": 16,
+      "Name": "Dr.Ajit S. Patil",
+      "Designation": "Associate Professor & Dean Academics,\nKolhapur Institute of Technology’s College of Engg. (Autonomous), Kolhapur",
+      "Position in Governing Council": "Member - Faculty"
     },
     {
-      "SrNo": "17",
+      "Sr.No": 17,
       "Name": "Dr. Vilas. V. Karjinni",
-      "Designation": "Director, Kolhapur Institute of Technology's College of Engg. (Autonomous), Kolhapur",
-      "PositionInGoverningCouncil": "Member-Secretary"
+      "Designation": "Executive Director, ,\nKolhapur Institute of Technology’s College of Engg. (Autonomous), Kolhapur",
+      "Position in Governing Council": "Member - Invitee"
+    },
+    {
+      "Sr.No": 18,
+      "Name": "Dr. M. M. Mujumdar",
+      "Designation": "Registrar, Kolhapur Institute of Technology’s College of Engg. (Autonomous), Kolhapur",
+      "Position in Governing Council": "Member - Invitee"
     }
-  ]
+   ]
   return (
     <DefaultLayout>
       <div className="w-full ">
@@ -142,51 +148,61 @@ const GoverningCouncil = () => {
           </h1>
           <br></br>
           <br></br>
-
           <h6
             data-aos="zoom-in"
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Governing Council
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> Governing Council 
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
-        <section className=" overflow-auto max-w-screen bg-secondary">
-          <section className="relative z-30 w-[1500px] sm:w-fit pb-20 mx-auto h-fit px-14 sm:px-4 sm:pb-10   ">
-          
-            <div className="grid grid-cols-4 sm:grid-cols-3 items-center text-slate-500 justify-items-center mt-6  w-full h-16 sm:h-fit p-2 mb-6 shadow-lg rounded-2xl">
-              <div className="sm:hidden ">Sr.No.</div>
-              <div className="">Name</div>
+        
+        <section className=" max-w-fit mx-auto md:mx-0  bg-secondary">
+          <section className="relative z-30  mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
+          <div className="sm:hidden grid grid-cols-4 sm:grid-cols-7 items-center text-slate-500 justify-items-center mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
+              <div className=" sm:hidden">Sr.No.</div>
+              <div className=" ">Name</div>
               <div className=" ">Designation</div>
-              <div className=" ">Position in Governing Council</div>
-            </div>
+              <div className=" ">Position</div>
+          
+          </div> 
 
-            {governingCouncilList.map((item,index)=>{
-                        
-                            return(
-                                <div key={index} className="grid grid-cols-4 sm:grid-cols-3 items-center justify-items-center  w-full h-16 sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
-                                    <div className=" sm:hidden ">{item.SrNo}</div>
-                                    <div className="">{item.Name}</div>
-                                    <div className=" ">{item.Designation}</div>
-                                    <div className=" ">{item.PositionInGoverningCouncil}</div>
-                                </div>
-                            );
-                        
-                       
+            {governingCouncilList.map((item, index) => {
+               return (
+                <>
+                <div className="sm:hidden grid grid-cols-4 sm:grid-cols-7 items-center justify-items-center sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                    <div className=" sm:hidden ">{item["Sr.No"]}</div>
+                    <div className="">{item["Name"]}</div>
+                    <div className="">{item["Designation"]}</div>
+                    <div className="">{item["Position in Governing Council"]}</div>
+                    
+                </div>
+                <div className=" sm:grid 2xl:hidden gap-y-2 divide-y grid-rows-1 items-center text-left  w-full h-fit overflow-x-hidden sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                 
+                  <div className="grid grid-cols-1 gap-y-2">
+                    <div className="text-slate-400">Sr.No.</div>   
+                    <div className="">{item["Sr.No"]}</div>      
+                  </div>
+                  <div className="grid grid-cols-1 gap-y-2">
+                  <div className=" text-slate-400">Name</div>
+                    <div className="">{item["Name"]}</div>      
+                  </div>
+                  <div className="grid grid-cols-1 gap-y-2">
+                  <div className=" text-slate-400">Designation</div>  
+                    <div className="">{item["Designation"]}</div>      
+                  </div>
+                  <div className="grid grid-cols-1 gap-y-2">
+                  <div className=" text-slate-400">Position</div> 
+                    <div className="">{item["Position in Governing Council"]}</div>      
+                  </div>
+                
+                </div>
+                </>
+              )
             })}
-
-{/* <div className="flex items-center w-full h-16 p-2 mt-2 text-center shadow-lg rounded-2xl bg-slate-100">
-                                    <div className=" w-[5%] text-left pl-2">{item.SrNo}</div>
-                                    <div className=" w-[20%] text-left pl-2">{item.Name}</div>
-                                    <div className=" w-[55%] text-left pl-2">{item.Designation}</div>
-                                    <div className=" w-[25%] text-left pl-2">{item.PositionInGoverningCouncil}</div>
-                                </div> */}
-    
-            
           </section>
         </section>
-
         <Footer />
       </div>
     </DefaultLayout>
