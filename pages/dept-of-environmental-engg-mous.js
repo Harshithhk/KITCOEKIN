@@ -116,7 +116,7 @@ const EnviromentalEngineeringMous = () => {
                                             <div className="">{item.DateOfMOU}</div>
                                         </div>
                                        
-                                        <div className=" sm:grid 2xl:hidden divide-y grid-rows-3 space-x-[1px] items-center text-left  w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                                        <div className=" sm:grid 3xl:hidden 2xl:hidden divide-y grid-rows-3 space-x-[1px] items-center text-left  w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
 
                                             <div className="grid grid-cols-2">
                                                 <div className="text-slate-400">Sr.No.</div>

@@ -28,7 +28,7 @@ const Admission2223 = () => {
       </div>
       {/* -- */}
   
-      <div className="flex flex-col items-start sm:block 2xl:hidden">
+      <div className="flex flex-col items-start sm:block 3xl:hidden 2xl:hidden">
           <Tab.Group>
  
              <Tab.List className="  grid grid-cols-2  text-slate-500  w-full h-fit p-2 mt-6 -mb-4   text-left rounded-lg sm:w-full justify-between sm:p-2 min-h-[55px] ">

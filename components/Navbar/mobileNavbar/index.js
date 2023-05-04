@@ -23,7 +23,7 @@ const MobileNavbar = (props) => {
           >
             <div className="z-20 absolute right-3 top-5 mr-2 text-[30px] font-bold text-primary">
             <div
-              className="ml-auto space-y-2 HAMBURGER-ICON sm:block 2xl:hidden"
+              className="ml-auto space-y-2 HAMBURGER-ICON sm:block 3xl:hidden 2xl:hidden"
               onClick={() => props.setIsNavOpen((prev) => !prev)}
             >
               <span className="block h-0.5 w-8 animate-pulse bg-primary"></span>

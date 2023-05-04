@@ -292,7 +292,7 @@ const cardsData = [
           {/* -- */}
 
 
-          <div className="flex flex-wrap 2xl:hidden sm:flex justify-center gap-6 p-6 text-[#24346D]">
+          <div className="flex flex-wrap 3xl:hidden 2xl:hidden sm:flex justify-center gap-6 p-6 text-[#24346D]">
       {cardsData.map((card, index) => (
        <div key={index} className="bg-white shadow-md rounded-md p-6 w-80">
        <h2 className="text-xl font-bold mb-2 text-[#F07C00]">{card.name}</h2>

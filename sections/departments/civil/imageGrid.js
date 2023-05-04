@@ -58,7 +58,7 @@ const ImageGrid = () => {
         </div>
       </div>
 
-      <div className="container   sm:block 2xl:hidden">
+      <div className="container   sm:block 3xl:hidden 2xl:hidden">
         {/*  */}
         <div className="flex flex-wrap   -m-1 ">
           {/*  */}

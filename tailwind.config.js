@@ -41,7 +41,21 @@ module.exports = {
           "0%, 100%": { transform: "rotate(-3deg)" },
           "50%": { transform: "rotate(3deg)" },
         },
+        wiggle2: {
+          "0%, 100%": { transform: "rotate(-1deg)" },
+          "50%": { transform: "rotate(1deg)" },
+        },
         bounce2: {
+          "0%, 100%": {
+            transform: "translateY(-5%)",
+            "animation-timing-function": "cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "50%": {
+            transform: "translateY(15%)",
+            "animation-timing-function": "cubic-bezier(0, 0, 0.2, 1)",
+          },
+        },
+        bounce3: {
           "0%, 100%": {
             transform: "translateY(-5%)",
             "animation-timing-function": "cubic-bezier(0.8, 0, 1, 1)",
@@ -57,11 +71,15 @@ module.exports = {
         // transform transition duration-300 translate-y-20 opacity-0 ease-out
         wiggle: "wiggle 1s ease-in-out infinite",
         bounce2: "bounce2 3s infinite",
+        bounce3: "bounce2 5s infinite",
+        wiggle2: "wiggle2 7s ease-in-out infinite",
+
       },
     },
     screens: {
       xxl: { max: "3000px" },
       "2xl": { max: "1540px" },
+      "3xl": { min: "1540px" },
       // => @media (max-width: 1535px) { ... }
 
       "1xl": { max: "1200px" },

@@ -83,7 +83,7 @@ const branchPlacement = () => {
                 <div className="">{item.Y2021}</div>
                 <div className="">{item.Y2122}</div>
               </div>
-              <div className="items-center w-full grid-rows-4 p-2 mt-2 overflow-x-auto text-left bg-white divide-y shadow-lg  sm:grid 2xl:hidden h-fit sm:h-fit rounded-2xl">
+              <div className="items-center w-full grid-rows-4 p-2 mt-2 overflow-x-auto text-left bg-white divide-y shadow-lg  sm:grid 3xl:hidden 2xl:hidden h-fit sm:h-fit rounded-2xl">
                 <div className="grid grid-cols-2">
                   <div className="text-slate-400">Branch</div>
                   <div className="">{item.SrNo}</div>

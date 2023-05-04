@@ -101,7 +101,7 @@ const StaffCommittee = () => {
                     <div className="">{item["Affiliation"]}</div>
                     
                 </div>
-                <div className=" sm:grid 2xl:hidden gap-y-2 divide-y grid-rows-1 items-center text-left  w-full h-fit overflow-x-hidden sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                <div className=" sm:grid 3xl:hidden 2xl:hidden gap-y-2 divide-y grid-rows-1 items-center text-left  w-full h-fit overflow-x-hidden sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
                  
                   <div className="grid grid-cols-1 gap-y-2">
                     <div className="text-slate-400">Sr.No.</div>   

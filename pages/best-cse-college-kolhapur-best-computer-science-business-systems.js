@@ -65,7 +65,7 @@ const CsBusinessEngineering = () => {
             />
             <img
               src="/images/AboutUs/Gallary-mobile.png"
-              className="w-full h-full sm:block 2xl:hidden"
+              className="w-full h-full sm:block 3xl:hidden 2xl:hidden"
               alt=""
             /> */}
             <ImageGrid/>

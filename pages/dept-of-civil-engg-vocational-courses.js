@@ -190,7 +190,7 @@ A Diploma Program in BIM technology for a period of one year. This course is div
                         <div className="shadow-lg  grid grid-cols-2  w-[1100px] h-fit p-2 mt-6 bg-white font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2 m-2 min-h-[55px] ">  
                                 {/* row end */}
                                 <div className="">Civil Engineering</div>
-                                <div className="text-4xl sm:block 2xl:hidden">&#8595;</div>
+                                <div className="text-4xl sm:block 3xl:hidden 2xl:hidden">&#8595;</div>
                                 <div className="text-justify sm:hidden">Feedback from various recruiters is received by the department
                                     from time to time. The majority of industry stakeholders stress the demand that students are not able
                                     to visualize engineering situations efficiently and professionally.
@@ -199,7 +199,7 @@ A Diploma Program in BIM technology for a period of one year. This course is div
                                 </div>
                                 {/* row end */}
                         </div>
-                        <div className="shadow-lg sm:block 2xl:hidden  grid grid-cols-1  w-[1100px] h-fit p-2  bg-white font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2  min-h-[55px] ">  
+                        <div className="shadow-lg sm:block 3xl:hidden 2xl:hidden  grid grid-cols-1  w-[1100px] h-fit p-2  bg-white font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2  min-h-[55px] ">  
                                 {/* row end */}
                                 <div className="text-justify">Feedback from various recruiters is received by the department
                                     from time to time. The majority of industry stakeholders stress the demand that students are not able
@@ -212,7 +212,7 @@ A Diploma Program in BIM technology for a period of one year. This course is div
                         <div className="shadow-lg  grid grid-cols-2  w-[1100px] h-fit p-2 mt-6 bg-white font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2 m-2 min-h-[55px] ">  
                                 {/* row end */}
                                 <div className="">Construction Industry</div>
-                                <div className="text-4xl sm:block 2xl:hidden">&#8595;</div>
+                                <div className="text-4xl sm:block 3xl:hidden 2xl:hidden">&#8595;</div>
                                 <div className="text-justify sm:hidden">In a situation like COVID 19 remote working is possible through adopting
                                     BIM technology instead of physical availability on site.
                                     <br/><br/>
@@ -226,7 +226,7 @@ A Diploma Program in BIM technology for a period of one year. This course is div
                                 </div>
                                 {/* row end */}
                         </div>
-                        <div className="shadow-lg sm:block 2xl:hidden  grid grid-cols-1  w-[1100px] h-fit p-2  bg-white font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2  min-h-[55px] ">  
+                        <div className="shadow-lg sm:block 3xl:hidden 2xl:hidden  grid grid-cols-1  w-[1100px] h-fit p-2  bg-white font-semibold text-center rounded-lg sm:w-full justify-between sm:p-2  min-h-[55px] ">  
                                 {/* row end */}
                                 <div className="text-justify">In a situation like COVID 19 remote working is possible through adopting
                                     BIM technology instead of physical availability on site.

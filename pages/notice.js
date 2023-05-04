@@ -240,7 +240,7 @@ const AdmissionUndergraduate = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="items-center w-full p-2 mt-2 overflow-x-auto text-left bg-white divide-y shadow-lg sm:grid 2xl:hidden grid-rows-7 h-fit sm:h-fit rounded-2xl">
+                  <div className="items-center w-full p-2 mt-2 overflow-x-auto text-left bg-white divide-y shadow-lg sm:grid 3xl:hidden 2xl:hidden grid-rows-7 h-fit sm:h-fit rounded-2xl">
                     <div className="grid grid-cols-2">
                       <div className="text-slate-400">Course Name</div>
                       <div className="divide-y">

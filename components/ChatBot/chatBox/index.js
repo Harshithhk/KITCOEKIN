@@ -196,7 +196,7 @@ const ChatBox = (props) => {
                 onClick={() => {
                   props.setAction(!props.action)
                 }}
-                className="2xl:hidden sm:block absolute right-0 px-2"
+                className="3xl:hidden 2xl:hidden sm:block absolute right-0 px-2"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -116,7 +116,7 @@ const Navbar = () => {
       )}
 
       <div
-        className="ml-auto space-y-2 HAMBURGER-ICON sm:block 2xl:hidden"
+        className="ml-auto space-y-2 HAMBURGER-ICON sm:block 3xl:hidden 2xl:hidden"
         onClick={() => setIsNavOpen((prev) => !prev)}
       >
         <span

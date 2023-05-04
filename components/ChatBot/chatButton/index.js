@@ -4,7 +4,7 @@ import ChatBox from "../chatBox";
 const ChatButton = () => {
     const [action, setAction] = React.useState(false)
     return (<>
-        <div className=" sm:p-5 fixed sm:right-0 sm:bottom-0 2xl:bottom-10 2xl:right-10 z-50">
+        <div className=" sm:p-5 fixed sm:right-0 sm:bottom-0 3xl:bottom-10 2xl:bottom-10 3xl:right-10 2xl:right-10 z-50">
             <div className={!action?"absolute right-12":"hidden"}>
                 <div className="relative w-fit h-fit">
                     <span className="flex h-3 w-3">

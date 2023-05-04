@@ -20,7 +20,7 @@ const OurVision = () => {
         <div className="w-1/2 sm:w-[100%]">
           <img
             src="/images/AboutUs/Vision.svg"
-            className="w-[80%]  m-auto sm:block 2xl:hidden"
+            className="w-[80%]  m-auto sm:block 3xl:hidden 2xl:hidden"
             alt=""
           />
         </div>

@@ -3,11 +3,12 @@ import Hero2 from "./heroSection/Hero2"
 import Hero3 from "./heroSection/Hero3"
 import Hero4 from "./heroSection/Hero4"
 import Hero1A from "./heroSection/Hero1A"
+import Hero5 from "./heroSection/Hero5"
 
 import React from "react"
 
 const HeroSectionUpdated = () => {
-  const [count, setCount] = React.useState(0)
+  const [count, setCount] = React.useState(4)
 
   // React.useEffect(() => {
   //   setTimeout(()=>{
@@ -40,6 +41,8 @@ const HeroSectionUpdated = () => {
         <Hero3 setCount={setCount} />
       ) : count == 3 ? (
         <Hero4 setCount={setCount} />
+      ) : count == 4 ? (
+        <Hero5 setCount={setCount} />
       ) : null}
     </section>
   )

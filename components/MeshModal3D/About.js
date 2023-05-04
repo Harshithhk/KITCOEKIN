@@ -10,7 +10,7 @@ import { BsPersonLinesFill } from "react-icons/bs";
 
 const About = () => {
     return(
-        <div className="flex flex-col items-center justify-center 2xl:hidden sm:block  text-center bg-[#1e293b] p-4 ">
+        <div className="flex flex-col items-center justify-center 3xl:hidden 2xl:hidden sm:block  text-center bg-[#1e293b] p-4 ">
             <div className="pb-2 text-start font-inter">
                 <h2 className='text-3xl font-bold'>AR/VR Technology: Blurring the Lines Between Reality and Imagination</h2>
             </div>
