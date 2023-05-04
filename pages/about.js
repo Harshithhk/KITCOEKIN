@@ -98,7 +98,7 @@ const About = () => {
           </div>
         </section>
         <AboutUs />
-        <Awsome />
+        {/* <Awsome /> */}
         <Accreditation />
         <div className="mt-4">
           <OurVision />

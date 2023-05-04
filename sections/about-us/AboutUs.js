@@ -2,7 +2,7 @@ import React from "react"
 
 const AboutUs = () => {
   return (
-    <section className="mt-16 mx-auto  w-[1407px] sm:w-[90%] sm:mt-8">
+    <section className="mt-16 mx-auto mb-16  w-[1407px] sm:w-[90%] sm:mt-8">
       {/* HEADING */}
       <div className="flex items-center w-full">
         <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
