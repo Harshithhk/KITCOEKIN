@@ -6,6 +6,7 @@ import Career from "../sections/departments/career"
 import CampusPlacement from "../sections/departments/campusplacement"
 import TnPEsteemedRecruiters from "../sections/tnp/TnPEsteemedRecruters"
 import Gallery from "../sections/lifeAtKit/cultural/gallery"
+import ImageGrid from "../components/imageGrid"
 
 const NccActivities = () => {
 
@@ -13,6 +14,31 @@ const NccActivities = () => {
     const [subLink2, setSubLink2] = React.useState(false)
     const [subLinkHover1, setSubLinkHover1] = React.useState(false)
     const [subLinkHover2, setSubLinkHover2] = React.useState(false)
+
+    let SrcList =[
+      {
+        "src":"images/LifeAtKit/ncc/1.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/ncc/2.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/ncc/3.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/ncc/4.jpg"
+      },
+      
+    ]
+
+    let SrcList2 =[
+
+      {
+        "src":"images/LifeAtKit/ncc/5.jpg"
+      },
+
+    ]
+
 
   return (
     <DefaultLayout>
@@ -42,29 +68,44 @@ const NccActivities = () => {
           />
           <div className="absolute w-full h-[250px] top-0 left-0 bg-[#24346D] z-0"></div>
           <h1
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
-          >
-            KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
-          </h1>
-          <h1
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
-          >
-            COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
-          </h1>
+                        data-aos="zoom-in"
+                        data-aos-delay="0"
+                        className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
+                    >
+                        NCC Activities
+                    </h1>
+                    <br></br>
+                    <br></br>
+                    <h6
+                        data-aos="zoom-in"
+                        data-aos-delay="0"
+                        className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
+                    >
+                        <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> NCC Activities
+                    </h6>
         </section>
         {/*---------------------------------------------------------------------pb-20  px-14 sm:px-4 sm:pb-10----------------- CONTENT -------------------------------------------------------------------------------------- */}
-        <section className="relative rounded-3xl z-30 w-[95%] mx-auto h-fit bg-white "> 
+        <section className="relative rounded-3xl px-2 z-30 w-[95%] mx-auto h-fit bg-white "> 
           {/* <img
             className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
             src="/images/TnP/indicator.png"
             alt=""
           /> */}
         
-        <Gallery /> 
+                        <div className="pt-20 sm:pt-20 px-6 sm:px-0 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+                          <div className="w-2 h-10 mr-4 rounded-md sm:h-6 mt-4 bg-primary sm:mr-2 sm:w-[4px] "></div>
+                          Elimination of Single Use Plastic Drive
+                        </div>
+                        <div className="text-left font-semibold p-4 text-slate-600">Elimination of Single Use Plastic Drive" by NCC Unit, KITCOE, Kolhapur 3rd April, 2021</div>
+<ImageGrid SrcList = {SrcList} />
+{/* ---------- */}
+                        <div className="pt-20 sm:pt-20 px-6 sm:px-0 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+                          <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
+                          NCC Uniform Distribution
+                        </div>
+                        <div className="text-left font-semibold p-4 mt-4 text-slate-600">NCC uniform distribution by the hands of Director Sir, Registar Sir, Dean Student activity and NCC officer. Uniforms are sponsored by KITs college of Engineering</div>
+                        <ImageGrid SrcList = {SrcList2} />
+
         </section>
         
 

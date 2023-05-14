@@ -69,8 +69,8 @@ const ScrollModelAnimation = () => {
       mesh4.position.y = -objectDistance * 3
       mesh5.position.y = -objectDistance * 4
 
-      scene.add(mesh1, mesh2, )
-      const sectionMeshes = [mesh1, mesh2, ]
+      scene.add(mesh1,  )
+      const sectionMeshes = [mesh1,  ]
       mesh1.visible = false
 
       // Lights
@@ -197,20 +197,20 @@ const ScrollModelAnimation = () => {
         )
         const newSection = Math.round(scrollY / sizes.height)
 
-        if (newSection !== currentSection) {
-          currentSection = newSection
+        // if (newSection !== currentSection) {
+        //   currentSection = newSection
 
-          gsap.to(
-            sectionMeshes[currentSection < 2 ? currentSection : 1].rotation,
-            {
-              duration: 1.5,
-              ease: "power2.inOut",
-              X: "+=6",
-              y: "+=3",
-              z: "+=1.5",
-            }
-          )
-        }
+        //   gsap.to(
+        //     sectionMeshes[currentSection < 2 ? currentSection : 1].rotation,
+        //     {
+        //       duration: 1.5,
+        //       ease: "power2.inOut",
+        //       X: "+=6",
+        //       y: "+=3",
+        //       z: "+=1.5",
+        //     }
+        //   )
+        // }
       })
 
       // Cursor

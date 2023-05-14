@@ -2,96 +2,123 @@ import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 
 const IdeaLabMentorCommittee = () => {
-  let Comittee = [{
-    "SrNo": 1,
-    "Name": "Mr. Aravind Deshpande",
-    "Designation": "Director, AG Steering"
-},{
-    "SrNo": 2,
-    "Name": "Mr. Bipin Jirge",
-    "Designation": "MD, IFM Electronics"
-},{
-    "SrNo": 3,
-    "Name": "Mr. Ravi Dolli",
-    "Designation": "Matura Steels"
-},{
-    "SrNo": 4,
-    "Name": "Mr. Anand Deshpande",
-    "Designation": "Sound Castings"
-},{
-    "SrNo": 5,
-    "Name": "Mr. Gaurav S. Patil",
-    "Designation": "Marvelous Machinist"
-},{
-    "SrNo": 6,
-    "Name": "Mr. Milind Naniwadekar",
-    "Designation": "Awani Engg. Pvt. Ltd."
-},{
-    "SrNo": 7,
-    "Name": "Ms. Poonam Sawant",
-    "Designation": "Accountant, KIT"
-},{
-    "SrNo": 8,
-    "Name": "Mr. Suryakant Dodmise",
-    "Designation": "SIBIC, Kolhapur"
-},{
-    "SrNo": 9,
-    "Name": "Mr. J.B. Yadav",
-    "Designation": "Shivaji University, Kolhapur"
-},{
-    "SrNo": 10,
-    "Name": "Mr. Rajwardhan Jagdale",
-    "Designation": "Pushparaj Industries"
-},{
-    "SrNo": 11,
-    "Name": "Mr. Subodh Naik",
-    "Designation": "Digitech MIDC Gokul Shirgaon"
-},{
-    "SrNo": 12,
-    "Name": "Mr. Yatiraj Marda",
-    "Designation": "CA, Kolhapur"
-},{
-    "SrNo": 13,
-    "Name": "Dr. Rohan Nalawade",
-    "Designation": "Green Buildings"
-},{
-    "SrNo": 14,
-    "Name": "Mr. Atul Nigavekar",
-    "Designation": "Electronics System Design"
-},{
-    "SrNo": 15,
-    "Name": "Mr. Mihir Kulkarni",
-    "Designation": "Industrial Automation"
-},{
-    "SrNo": 16,
-    "Name": "Dr. Sunil Karidkar",
-    "Designation": "Industrial safety"
-},{
-    "SrNo": 17,
-    "Name": "Mr. Atul Nigavekar",
-    "Designation": "Electronics System Design"
-},{
-    "SrNo": 18,
-    "Name": "Mr. Mihir Kulkarni",
-    "Designation": "Industrial Automation"
-},{
-    "SrNo": 19,
-    "Name": "Dr. Akshay Thorwat",
-    "Designation": "Environmental Engineering"
-},{
-    "SrNo": 20,
-    "Name": "Mr. Rutuparn Karkare",
-    "Designation": "Biotechnology Engineering"
-},{
-    "SrNo": 21,
-    "Name": "Dr. Vilas Bugade",
-    "Designation": "Electrical Engineering"
-},{
-    "SrNo": 22,
-    "Name": "Mamta Kalas",
-    "Designation": "Computer Engineering"
-}
-]
+  let Committee =[
+    {
+      "Sr.No": 1,
+      "Name": "Mr. Aravind Deshpande",
+      "Designation": "Director, AG Steering"
+    },
+    {
+      "Sr.No": 2,
+      "Name": "Mr. Bipin Jirge",
+      "Designation": "MD, IFM Electronics"
+    },
+    {
+      "Sr.No": 3,
+      "Name": "Mr. Ravi Dolli",
+      "Designation": "Matura Steels"
+    },
+    {
+      "Sr.No": 4,
+      "Name": "Mr. Anand Deshpande",
+      "Designation": "Sound Castings"
+    },
+    {
+      "Sr.No": 5,
+      "Name": "Mr. Gaurav S. Patil",
+      "Designation": "Marvelous Machinist"
+    },
+    {
+      "Sr.No": 6,
+      "Name": "Mr. Milind Naniwadekar",
+      "Designation": "Awani Engg. Pvt. Ltd."
+    },
+    {
+      "Sr.No": 7,
+      "Name": "Ms. Poonam Sawant",
+      "Designation": "Accountant, KIT"
+    },
+    {
+      "Sr.No": 8,
+      "Name": "Mr. Suryakant Dodmise",
+      "Designation": "SIBIC, Kolhapur"
+    },
+    {
+      "Sr.No": 9,
+      "Name": "Mr. J.B. Yadav",
+      "Designation": "Shivaji University, Kolhapur"
+    },
+    {
+      "Sr.No": 10,
+      "Name": "Mr. Rajwardhan Jagdale",
+      "Designation": "Pushparaj Industries"
+    },
+    {
+      "Sr.No": 11,
+      "Name": "Mr. Subodh Naik",
+      "Designation": "Digitech MIDC Gokul Shirgaon"
+    },
+    {
+      "Sr.No": 12,
+      "Name": "Mr. Yatiraj Marda",
+      "Designation": "CA, Kolhapur"
+    },
+    {
+      "Sr.No": 13,
+      "Name": "Dr. Rohan Nalawade",
+      "Designation": "Green Buildings"
+    },
+    {
+      "Sr.No": 14,
+      "Name": "Mr. Atul Nigavekar",
+      "Designation": "Electronics System Design"
+    },
+    {
+      "Sr.No": 15,
+      "Name": "Mr. Mihir Kulkarni",
+      "Designation": "Industrial Automation"
+    },
+    {
+      "Sr.No": 16,
+      "Name": "Dr. Sunil Karidkar",
+      "Designation": "Industrial safety"
+    },
+    {
+      "Sr.No": 17,
+      "Name": "Mr. Atul Nigavekar",
+      "Designation": "Electronics System Design"
+    },
+    {
+      "Sr.No": 18,
+      "Name": "Mr. Mihir Kulkarni",
+      "Designation": "Industrial Automation"
+    },
+    {
+      "Sr.No": 19,
+      "Name": "Dr. Akshay Thorwat",
+      "Designation": "Environmental Engineering"
+    },
+    {
+      "Sr.No": 20,
+      "Name": "Mr. Rutuparn Karkare",
+      "Designation": "Biotechnology Engineering"
+    },
+    {
+      "Sr.No": 21,
+      "Name": "Dr. Vilas Bugade",
+      "Designation": "Electrical Engineering"
+    },
+    {
+      "Sr.No": 22,
+      "Name": "Dr. Mamta Kalas",
+      "Designation": "Computer Engineering"
+    },
+    {
+      "Sr.No": 22,
+      "Name": "Mr. PATIL SANGRAM VIKAS",
+      "Designation": "Work shop Superintendant\nIDEA Lab"
+    }
+   ]
   return (
     <DefaultLayout>
       <div className="w-full ">
@@ -124,8 +151,7 @@ const IdeaLabMentorCommittee = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            Electronic Engineering - Ph.D. Center
-
+            MAYURA AICTE IDEA LAB MENTOR COMMITTEE
           </h1>
           <br></br>
           <br></br>
@@ -134,45 +160,47 @@ const IdeaLabMentorCommittee = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <a href="/"><span className="hover:text-primary hover:cursor-pointer"> Home</span></a> <span className=" ">|</span> Ph.D. Center
-
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> MENTOR COMMITTEE 
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         
-        <section className="w-full mx-auto md:mx-0  bg-secondary">
-          <section className="relative z-30 w-full mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
-          <div className="sm:hidden grid grid-cols-3 items-center text-slate-500 justify-items-center mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
+        <section className="  mx-auto md:mx-0  bg-secondary">
+          <section className="relative z-30  mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
+          <div className="sm:hidden grid grid-cols-3 sm:grid-cols-7 items-center text-slate-500 justify-items-center mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
               <div className=" sm:hidden">Sr.No.</div>
-              <div className=" ">Name </div>
-              <div className=" ">Designation </div>
-              
+              <div className=" ">Name</div>
+              <div className=" ">Designation</div>
+        
+          
           </div> 
 
-            {Comittee.map((item, index) => {
+            {Committee.map((item, index) => {
                return (
                 <>
-                <div className="sm:hidden grid grid-cols-3 items-center justify-items-center sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
-                    <div className=" sm:hidden ">{item.SrNo}</div>
-                    <div className=" ">{item.Name} </div>
-                    <div className="">{item.Designation}</div>
-                       
+                <div className="sm:hidden grid grid-cols-3 sm:grid-cols-7 items-center justify-items-center sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                    <div className=" sm:hidden ">{item["Sr.No"]}</div>
+                    <div className="">{item["Name"]}</div>
+                    <div className="">{item["Designation"]}</div>
+                
+                    
                 </div>
-                <div className=" sm:grid 3xl:hidden 2xl:hidden divide-y grid-rows-3 items-center text-left  w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                <div className=" sm:grid 3xl:hidden 2xl:hidden gap-y-2 divide-y grid-rows-1 items-center text-left  w-full h-fit overflow-x-hidden sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
                  
-                  <div className="grid grid-cols-2">
+                  <div className="grid grid-cols-1 gap-y-2">
                     <div className="text-slate-400">Sr.No.</div>   
-                    <div className="">{item.SrNo}</div>      
+                    <div className="">{item["Sr.No"]}</div>      
                   </div>
-                  <div className="grid grid-cols-2">
-                    <div className=" text-slate-400">Name</div>
-                    <div className="">{item.Name}</div>      
+                  <div className="grid grid-cols-1 gap-y-2">
+                  <div className=" text-slate-400">Name</div>
+                    <div className="">{item["Name & Address"]}</div>      
                   </div>
-                  <div className="grid grid-cols-2">
-                    <div className=" text-slate-400">Designation</div>
-                    <div className="">{item.Designation}</div>      
+                  <div className="grid grid-cols-1 gap-y-2">
+                  <div className=" text-slate-400">Designation</div>  
+                    <div className="">{item["Designation"]}</div>      
                   </div>
                  
+                
                 </div>
                 </>
               )

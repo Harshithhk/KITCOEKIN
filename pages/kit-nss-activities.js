@@ -5,7 +5,7 @@ import BranchPlacement from "../sections/departments/branchPlacement"
 import Career from "../sections/departments/career"
 import CampusPlacement from "../sections/departments/campusplacement"
 import TnPEsteemedRecruiters from "../sections/tnp/TnPEsteemedRecruters"
-import Gallery from "../sections/lifeAtKit/cultural/gallery"
+import Gallery from "../sections/lifeAtKit/nss/gallery"
 
 const NssActivities = () => {
 
@@ -42,19 +42,21 @@ const NssActivities = () => {
           />
           <div className="absolute w-full h-[250px] top-0 left-0 bg-[#24346D] z-0"></div>
           <h1
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
-          >
-            KOLHAPUR INSTITURE OF TECHNOLOGY&apos;S
-          </h1>
-          <h1
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className="w-[75%] text-4xl sm:text-xl font-bold text-center text-white z-20"
-          >
-            COLLEGE OF ENGINEERING (AUTONOMOUS), KOLHAPUR
-          </h1>
+                        data-aos="zoom-in"
+                        data-aos-delay="0"
+                        className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
+                    >
+                        NSS Activities
+                    </h1>
+                    <br></br>
+                    <br></br>
+                    <h6
+                        data-aos="zoom-in"
+                        data-aos-delay="0"
+                        className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
+                    >
+                        <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> NSS Activities
+                    </h6>
         </section>
         {/*---------------------------------------------------------------------pb-20  px-14 sm:px-4 sm:pb-10----------------- CONTENT -------------------------------------------------------------------------------------- */}
         <section className="relative rounded-3xl z-30 w-[95%] mx-auto h-fit bg-white "> 

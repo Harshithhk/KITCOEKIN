@@ -1,41 +1,159 @@
 import Reat from "react"
+import ImageGrid from "../../../components/imageGrid";
 
 const Gallery = () => {
+
+    let SrcList = [
+      {
+        "src":"images/LifeAtKit/cultural/1.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/2.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/3.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/4.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/5.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/6.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-01.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-03.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-05.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-07.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-10.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-12.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-13.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-14.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-15.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-16.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-17.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-18.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-19.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-20.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-21.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-22.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-23.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-24.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-25.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-26.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-27.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-28.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-29.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-31.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-32.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-33.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-34.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-35.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-36.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-37.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-38.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-39.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-40.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-41.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-42.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-43.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-44.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-47.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-49.jpg"
+      },
+      {
+        "src":"images/LifeAtKit/cultural/student-club-activity-50.jpg"
+      },
+    ]
+
     return (
-        <section className="overflow-hidden text-gray-700">
-  <div className="container  py-2 mx-auto pt-20 pb-10 px-10 sm:px-4 sm:pb-5">
-    <div className="flex flex-wrap sm:flex-col -m-1 md:-m-2">
-      <div className="flex flex-wrap w-1/2 sm:w-fit">
-        <div className="w-1/2 p-1 md:p-2">
-          <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src="images/LifeAtKit/1.jpg" />
-        </div>
-        <div className="w-1/2 p-1 md:p-2">
-          <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src="images/LifeAtKit/4.jpg" />
-        </div>
-        <div className="w-full p-1 md:p-2">
-          <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src="images/LifeAtKit/3.jpg" />
-        </div>
-      </div>
-      <div className="flex flex-wrap w-1/2 sm:w-fit">
-        <div className="w-full p-1 md:p-2">
-          <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src="images/LifeAtKit/2.jpg" /> 
-        </div>
-        <div className="w-1/2 p-1 md:p-2">
-          <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src="images/LifeAtKit/5.jpg" />
-        </div>
-        <div className="w-1/2 p-1 md:p-2">
-          <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src="images/LifeAtKit/6.jpg" />
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+        <>
+          <div>
+          <ImageGrid SrcList = {SrcList} />
+          <a href="documents/lifeAtKit/kit-student-activities-2018-20.pdf"  className=" hover:cursor-pointer mt-8 mb-8 text-xl  text-primary bg-grey-light hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
+            <svg className="fill-current w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+            <span>View All Activities</span>
+          </a>
+          </div>
+        </>
     );
 };
 

@@ -180,7 +180,7 @@ const IdeaLabIndustryConnect = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            Electronic Engineering - Ph.D. Center
+            MAYURA AICTE IDEA LAB - INDUSTRY CONNECT
 
           </h1>
           <br></br>
@@ -190,7 +190,8 @@ const IdeaLabIndustryConnect = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <a href="/"><span className="hover:text-primary hover:cursor-pointer"> Home</span></a> <span className=" ">|</span> Ph.D. Center
+            <a href="/"><span className="hover:text-primary hover:cursor-pointer"> Home</span></a> <span className=" ">|</span> IdeaLab Industry Connect
+
 
           </h6>
         </section>

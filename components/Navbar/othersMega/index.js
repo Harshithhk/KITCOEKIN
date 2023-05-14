@@ -84,6 +84,12 @@ const OthersNavbar = (props) => {
           {
             "title":"",
             "links":[""],
+            "links":["documents/home/Technique 2022.pdf"],
+            "subMenu2":["Technique-2022"]
+          },
+          {
+            "title":"",
+            "links":[""],
             "links":["documents/home/vilaskarjinni-360-degree-feedback.pdf"],
             "subMenu2":["360 Degree Feedback 2020-2021"]
           },
@@ -121,9 +127,9 @@ const OthersNavbar = (props) => {
             "subMenu2":["ARIIA"]
           },
           {
-            "title":"AICTE Idea Lab",
-            "links":["aicte-idea-lab-kitcoek","IdeaLab-ADVISORY-COMMITTEE","idealab-industry-connect","idealab-student-ambasadoors","documents/home/Idea_Lab_kit tender notice.pdf"],
-            "subMenu2":["Idea Lab","Advisory Committee","Industry Connect","Student Ambasadoors","Tender Notice"]
+            "title":"MAYURA AICTE Idea Lab",
+            "links":["IdeaLab-ACTIVITIES","IdeaLab-LAYOUT","IdeaLab-ADVISORY-COMMITTEE","IdeaLab-MENTOR-COMMITTEE","IdeaLab-Lab-TEAM","idealab-industry-connect","idealab-student-ambasadoors","documents/home/Idea_Lab_kit tender notice.pdf"],
+            "subMenu2":["Activities","Layout","Advisory Committee","Mentor Committee","Lab Team","Industry Connect","Student Ambasadoors","Tender Notice"]
           },
 
         

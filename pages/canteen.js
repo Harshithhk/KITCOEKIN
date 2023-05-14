@@ -70,12 +70,8 @@ const Canteen = () => {
 
               </div>
             </div>
-            {/* <div className="w-[300px] sm:h-[320px] h-[360px] bg-[#24346D] mt-28 mr-6 rounded-xl p-3 text-white text-2xl sm:text-lg items-center flex flex-col sm:mt-8 sm:w-[250px] sm:mx-auto">
-              <div className="overflow-hidden bg-white rounded-xl">
-                <img src="/images/TnP/amitsarkar.png" alt="amitsarkar.png" />
-              </div>
-              <div className="mt-2">DR. Amit Sarkar</div>
-            </div> */}
+            <img src="/images/HomePage/canteen.jpg" className="p-4 sm:mt-10 sm:p-0 mt-20 rounded-3xl" alt="amitsarkar.png" />
+
           </div>
         </section>
      

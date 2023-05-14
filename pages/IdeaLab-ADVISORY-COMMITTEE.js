@@ -2,64 +2,78 @@ import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 
 const IdeaLabAdvisoryCommittee = () => {
-  let Comittee = [{
-    "SrNo": 1,
-    "Name": "Mr. Sunil Kulkarni",
-    "Designation": "Chairman, Kolhapur Institute of Technology, Kolhapur"
-},{
-    "SrNo": 2,
-    "Name": "Mr. Sajid Hudli",
-    "Designation": "Vice Chairman, Kolhapur Institute of Technology, Kolhapur"
-},{
-    "SrNo": 3,
-    "Name": "Mr.Dipak Chougule",
-    "Designation": "Secretary, Kolhapur Institute of Technology, Kolhapur"
-},{
-    "SrNo": 4,
-    "Name": "Mr. Chandrashekhar Dolli",
-    "Designation": "Chairman, Mayura Steels"
-},{
-    "SrNo": 5,
-    "Name": "Mr. C.G. Ranade",
-    "Designation": "VP, KOEL,"
-},{
-    "SrNo": 6,
-    "Name": "Mr. Milind Khare",
-    "Designation": "Plant Manager, WILO"
-},{
-    "SrNo": 7,
-    "Name": "Mr. Sangram Patil",
-    "Designation": "MD, Marvelous Engineering"
-},{
-    "SrNo": 8,
-    "Name": "Mr. Mangesh Patil",
-    "Designation": "MD, Maurya Industries Pvt. Ltd."
-},{
-    "SrNo": 9,
-    "Name": "Mr. Sanjeev Tungatkar",
-    "Designation": "Director, Ceraflux India Pvt. Ltd"
-},{
-    "SrNo": 10,
-    "Name": "Mr. Niraj Zanvar",
-    "Designation": "MD, Zanvar Group"
-},{
-    "SrNo": 11,
-    "Name": "Mr. Deepak Dhadooti",
-    "Designation": "MD, Servo Control Aerospace"
-},{
-    "SrNo": 12,
-    "Name": "Mr. Sachin Shirgaonkar",
-    "Designation": "MD, S.B. Reshellars"
-},{
-    "SrNo": 13,
-    "Name": "Mr. Nikhil Padate",
-    "Designation": "JANGS Technologies,Ichalkaranji,"
-},{
-    "SrNo": 14,
-    "Name": "Mr. R. B. Suryawanshi",
-    "Designation": "Sr. Chief Executive, B. G. Shirke Group Pune"
-}
-]
+  let Committee = [
+    {
+      "Sr.No": 1,
+      "Name": "Mr. Sunil Kulkarni",
+      "Designation": "Chairman, Kolhapur Institute of Technology, Kolhapur"
+    },
+    {
+      "Sr.No": 2,
+      "Name": "Mr. Sajid Hudli",
+      "Designation": "Vice Chairman, Kolhapur Institute of Technology, Kolhapur"
+    },
+    {
+      "Sr.No": 3,
+      "Name": "Mr.Dipak Chougule",
+      "Designation": "Secretary, Kolhapur Institute of Technology, Kolhapur"
+    },
+    {
+      "Sr.No": 4,
+      "Name": "Mr. Chandrashekhar Dolli",
+      "Designation": "Chairman, Mayura Steels"
+    },
+    {
+      "Sr.No": 5,
+      "Name": "Mr. C.G. Ranade",
+      "Designation": "VP, KOEL,"
+    },
+    {
+      "Sr.No": 6,
+      "Name": "Mr. Milind Khare",
+      "Designation": "Plant Manager, WILO"
+    },
+    {
+      "Sr.No": 7,
+      "Name": "Mr. Sangram Patil",
+      "Designation": "MD, Marvelous Engineering"
+    },
+    {
+      "Sr.No": 8,
+      "Name": "Mr. Mangesh Patil",
+      "Designation": "MD, Maurya Industries Pvt. Ltd."
+    },
+    {
+      "Sr.No": 9,
+      "Name": "Mr. Sanjeev Tungatkar",
+      "Designation": "Director, Ceraflux India Pvt. Ltd"
+    },
+    {
+      "Sr.No": 10,
+      "Name": "Mr. Niraj Zanvar",
+      "Designation": "MD, Zanvar Group"
+    },
+    {
+      "Sr.No": 11,
+      "Name": "Mr. Deepak Dhadooti",
+      "Designation": "MD, Servo Control Aerospace"
+    },
+    {
+      "Sr.No": 12,
+      "Name": "Mr. Sachin Shirgaonkar",
+      "Designation": "MD, S.B. Reshellars"
+    },
+    {
+      "Sr.No": 13,
+      "Name": "Mr. Nikhil Padate",
+      "Designation": "JANGS Technologies,Ichalkaranji,"
+    },
+    {
+      "Sr.No": 14,
+      "Name": "Mr. R. B. Suryawanshi",
+      "Designation": "Sr. Chief Executive, B. G. Shirke Group Pune"
+    }
+   ]
   return (
     <DefaultLayout>
       <div className="w-full ">
@@ -92,8 +106,7 @@ const IdeaLabAdvisoryCommittee = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            Electronic Engineering - Ph.D. Center
-
+            MAYURA AICTE IDEA LAB ADVISORY COMMITTEE
           </h1>
           <br></br>
           <br></br>
@@ -102,45 +115,47 @@ const IdeaLabAdvisoryCommittee = () => {
             data-aos-delay="0"
             className="w-[75%] sm:text-sm font-bold text-center text-white z-20"
           >
-            <a href="/"><span className="hover:text-primary hover:cursor-pointer"> Home</span></a> <span className=" ">|</span> Ph.D. Center
-
+            <span className="hover:text-primary hover:cursor-pointer"> Home</span> <span className=" ">|</span> ADVISORY COMMITTEE 
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         
-        <section className="w-full mx-auto md:mx-0  bg-secondary">
-          <section className="relative z-30 w-full mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
-          <div className="sm:hidden grid grid-cols-3 items-center text-slate-500 justify-items-center mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
+        <section className=" mx-auto md:mx-0  bg-secondary">
+          <section className="relative z-30  mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
+          <div className="sm:hidden grid grid-cols-3 sm:grid-cols-7 items-center text-slate-500 justify-items-center mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
               <div className=" sm:hidden">Sr.No.</div>
-              <div className=" ">Name </div>
-              <div className=" ">Designation </div>
-              
+              <div className=" ">Name</div>
+              <div className=" ">Designation</div>
+
+          
           </div> 
 
-            {Comittee.map((item, index) => {
+            {Committee.map((item, index) => {
                return (
                 <>
-                <div className="sm:hidden grid grid-cols-3 items-center justify-items-center sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
-                    <div className=" sm:hidden ">{item.SrNo}</div>
-                    <div className=" ">{item.Name} </div>
-                    <div className="">{item.Designation}</div>
-                       
+                <div className="sm:hidden grid grid-cols-3 sm:grid-cols-7 items-center justify-items-center sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                    <div className=" sm:hidden ">{item["Sr.No"]}</div>
+                    <div className="">{item["Name"]}</div>
+                    <div className="">{item["Designation"]}</div>
+              
+                    
                 </div>
-                <div className=" sm:grid 3xl:hidden 2xl:hidden divide-y grid-rows-3 items-center text-left  w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                <div className=" sm:grid 3xl:hidden 2xl:hidden gap-y-2 divide-y grid-rows-1 items-center text-left  w-full h-fit overflow-x-hidden sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
                  
-                  <div className="grid grid-cols-2">
+                  <div className="grid grid-cols-1 gap-y-2">
                     <div className="text-slate-400">Sr.No.</div>   
-                    <div className="">{item.SrNo}</div>      
+                    <div className="">{item["Sr.No"]}</div>      
                   </div>
-                  <div className="grid grid-cols-2">
-                    <div className=" text-slate-400">Name</div>
-                    <div className="">{item.Name}</div>      
+                  <div className="grid grid-cols-1 gap-y-2">
+                  <div className=" text-slate-400">Name</div>
+                    <div className="">{item["Name & Address"]}</div>      
                   </div>
-                  <div className="grid grid-cols-2">
-                    <div className=" text-slate-400">Designation</div>
-                    <div className="">{item.Designation}</div>      
+                  <div className="grid grid-cols-1 gap-y-2">
+                  <div className=" text-slate-400">Designation</div>  
+                    <div className="">{item["Designation"]}</div>      
                   </div>
-                 
+                
+                
                 </div>
                 </>
               )
