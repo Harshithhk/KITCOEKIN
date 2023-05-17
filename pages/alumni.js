@@ -10,20 +10,19 @@ import AboutUs from "../sections/alumni/AboutUs"
 const OpenStreetMap = dynamic(() => import('../components/Map/OpenStreetMap'), {
   ssr: false,
 })
+
 export async function getStaticProps() {
-  let news = []
-  let notices = []
-  // news = await fetch("https://kitcoek.herokuapp.com/api/newsandnotices/news")
-  // news = await news.json()
-  // notices = await fetch(
-  //   "https://kitcoek.herokuapp.com/api/newsandnotices/notices"
-  // )
-  // notices = await notices.json()
+  let AlumniList = []
+  AlumniList = await fetch(
+      `${process.env.SERVER_API}/api/alumni/`
+  )
+  
+  AlumniList = await AlumniList.json()
 
   return {
     props: {
-      news: news,
-      notices: notices,
+      AlumniList: AlumniList,
+      
     },
     revalidate: 10,
   }
@@ -84,7 +83,7 @@ const Alumni = (props) => {
          
             <div className='w-full z-0  h-full'>
      
-              <OpenStreetMap />
+              <OpenStreetMap AlumniList = {props.AlumniList} />
             </div>
           
            

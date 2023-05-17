@@ -21,23 +21,23 @@ function NewsAndNotices(props) {
 let news1 = [
   {
     id: 1,
-    date: "13 Feb, 2022",
-    title: "Dummy text of the printing & typesetting industry",
+    date: "23 Aug, 2020",
+    title: "Glimpses of FEA & Corporate world.",
     startTime: "8:00 AM",
     endTime: "01:00 PM",
     duration:[]
   },
   {
     id: 2,
-    date: "13 Feb, 2022",
-    title: "Dummy text of the printing & typesetting industry",
+    date: "10 Oct 2022   ",
+    title: "Digital Manufacturing",
     startTime: "8:00 AM",
     endTime: "01:00 PM",
     duration:[]
   },
   {
     id: 3,
-    date: "13 Feb, 2022",
+    date: "31 Oct 2022    ",
     title: "Dummy text of the printing & typesetting industry",
     startTime: "8:00 AM",
     endTime: "01:00 PM",
@@ -71,33 +71,58 @@ let notices2 = [
   },
 ]
   const [news, setNews] = useState( news1)
-  const [notices, setNotices] = useState( notices2)
+  const [notices, setNotices] = useState(  [
+    {
+      id: 1,
+      date: "23 Aug, 2020",
+      title: "Glimpses of FEA & Corporate world.",
+      startTime: "8:00 AM",
+      endTime: "01:00 PM",
+      duration:[]
+    },
+    {
+      id: 2,
+      date: "10 Oct 2022   ",
+      title: "Digital Manufacturing",
+      startTime: "8:00 AM",
+      endTime: "01:00 PM",
+      duration:[]
+    },
+    {
+      id: 3,
+      date: "31 Oct 2022    ",
+      title: "Dummy text of the printing & typesetting industry",
+      startTime: "8:00 AM",
+      endTime: "01:00 PM",
+      duration:[]
+    },
+  ])
 
-  useEffect(async () => {
-    let updatedNews = news.map((element) => {
-      let date = new Date(element.date)
-      let day = date.getDate()
-      let year = date.getFullYear()
-      let monthName = month[date.getMonth()]
-      element.date = `${day} ${monthName} ${year}`
-      return element
-    })
+  // useEffect(async () => {
+  //   let updatedNews = news.map((element) => {
+  //     let date = new Date(element.date)
+  //     let day = date.getDate()
+  //     let year = date.getFullYear()
+  //     let monthName = month[date.getMonth()]
+  //     element.date = `${day} ${monthName} ${year}`
+  //     return element
+  //   })
 
-    let updatedNotices = notices.map((element) => {
-      let date = new Date(element.date)
-      let day = date.getDate()
-      let year = date.getFullYear()
-      let monthName = month[date.getMonth()]
-      element.date = `${day} ${monthName} ${year}`
+  //   let updatedNotices = notices.map((element) => {
+  //     let date = new Date(element.date)
+  //     let day = date.getDate()
+  //     let year = date.getFullYear()
+  //     let monthName = month[date.getMonth()]
+  //     element.date = `${day} ${monthName} ${year}`
 
-      return element
-    })
+  //     return element
+  //   })
 
-    setNews(updatedNews)
-    setNotices(updatedNotices)
+  //   setNews(updatedNews)
+  //   setNotices(updatedNotices)
 
-    console.log({ news, notices })
-  }, [])
+  //   console.log({ news, notices })
+  // }, [])
 
   return (
     <section className="flex mt-16 mb-16 md:mb-4 md:mt-4 md:flex-col">
@@ -138,7 +163,7 @@ let notices2 = [
                         alt=""
                       />{" "}
                     </div>
-                    {notice.duration[0]} - {notice.duration[1]}
+                    {notice.startTime[0]}am - {notice.endTime[1]}pm
                   </div>
                 </div>
               </div>

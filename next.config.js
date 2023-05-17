@@ -16,6 +16,7 @@ module.exports = {
   reactStrictMode: true,
   env: {
     CHATBOT_API: 'https://hashinclude.cloud/mista/getChat',
+    SERVER_API:'https://hashinclude.cloud'
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === "production"

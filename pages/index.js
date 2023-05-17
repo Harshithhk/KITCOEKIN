@@ -22,14 +22,14 @@ import Testimonial from "../components/Testimonial"
 export async function getStaticProps() {
   let news = []
   let events = []
-  // news = await fetch(
-  //   "http://ec2-13-235-33-19.ap-south-1.compute.amazonaws.com:5000/api/newsandevents/news"
-  // )
-  // news = await news.json()
-  // events = await fetch(
-  //   "http://ec2-13-235-33-19.ap-south-1.compute.amazonaws.com:5000/api/newsandevents/events"
-  // )
-  // events = await events.json()
+  news = await fetch(
+    process.env.SERVER_API+"/api/newsandevents/news"
+  )
+  news = await news.json()
+  events = await fetch(
+    process.env.SERVER_API+"/api/newsandevents/events"
+  )
+  events = await events.json()
 
   return {
     props: {
