@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <nav
       id="Navbar"
-      className={`h-[75px]  sticky top-0 z-50  md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
+      className={`h-[75px]  sticky top-0 z-40  md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
         router.route != "/" ? "bg-[#24346D]" : "bg-slate-50"
       }`}
     >
@@ -52,62 +52,47 @@ const Navbar = () => {
         className={`sm:hidden flex justify-between w-3/4 ml-auto text-lg ${
           router.route != "/" ? "text-white" : "text-[#666666]"
         } `}
-      >
-        <Link href="#" passHref>
-          <About />
-        </Link>
-
-        <Link href="#" passHref>
-          <Admissions />
-        </Link>
-        <Link href="/#" passHref>
-          <Departments />
-        </Link>
-        <Link href="/#" passHref>
-          
+      >       
+          <About />    
+          <Admissions />   
+          <Departments />       
           <Academics />
-       
-        </Link>
-        <Link href="/#" passHref>
+          <ExamCell />
+          <Link href="/contact" passHref>
 
-        <ExamCell />
-        
-        </Link>
-        <Link href="/contact" passHref>
-
-        <li href="#" className="flex items-end cursor-pointer">
-          <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
-          CONTACT
-        </li>
-        </Link>
-        <Link href="/apply-admission" passHref>
-          <li className="flex items-end cursor-pointer">
-            <img src="/images/Navbar/Mention.svg" className="mr-2" alt="" />
-            APPLY
+            <li href="#" className="flex items-end cursor-pointer">
+              <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
+              CONTACT
+            </li>
+          </Link>
+          <Link href="/apply-admission" passHref>
+            <li className="flex items-end cursor-pointer">
+              <img src="/images/Navbar/Mention.svg" className="mr-2" alt="" />
+              APPLY
+            </li>
+          </Link>
+          <li href="#" className="flex items-center mt-[5px] cursor-pointer">
+            <div
+              className="ml-auto space-y-2 HAMBURGER-ICON "
+              onClick={() => setOthersNavOpen((prev) => !prev)}
+            >
+              <span
+                className={`block h-0.5 w-8 animate-pulse  ${
+                  router.route != "/" ? "bg-white" : "bg-primary"
+                }`}
+              ></span>
+              <span
+                className={`block h-0.5 w-8 animate-pulse  ${
+                  router.route != "/" ? "bg-white" : "bg-primary"
+                }`}
+              ></span>
+              <span
+                className={`block h-0.5 w-8 animate-pulse  ${
+                  router.route != "/" ? "bg-white" : "bg-primary"
+                }`}
+              ></span>
+            </div>
           </li>
-        </Link>
-        <li href="#" className="flex items-center mt-[5px] cursor-pointer">
-          <div
-            className="ml-auto space-y-2 HAMBURGER-ICON "
-            onClick={() => setOthersNavOpen((prev) => !prev)}
-          >
-            <span
-              className={`block h-0.5 w-8 animate-pulse  ${
-                router.route != "/" ? "bg-white" : "bg-primary"
-              }`}
-            ></span>
-            <span
-              className={`block h-0.5 w-8 animate-pulse  ${
-                router.route != "/" ? "bg-white" : "bg-primary"
-              }`}
-            ></span>
-            <span
-              className={`block h-0.5 w-8 animate-pulse  ${
-                router.route != "/" ? "bg-white" : "bg-primary"
-              }`}
-            ></span>
-          </div>
-        </li>
       </ul>
 
       {othersNavOpen && (

@@ -17,6 +17,8 @@ module.exports = {
   env: {
     CHATBOT_API: 'https://hashinclude.cloud/mista/getChat',
     SERVER_API:'https://hashinclude.cloud'
+    // SERVER_API:'http://localhost:5000'
+
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === "production"

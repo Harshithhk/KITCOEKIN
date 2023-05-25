@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import QuickLinks from "../../../components/QuickLinks"
 import Modal from "../../../components/Modal2";
-
+import { isUserSignedIn } from "../../../utils/auth";
 const QuickLinksCard = (props) => {
 
     const [subLink1, setSubLink1] = React.useState(false)
     const [subLink2, setSubLink2] = React.useState(false)
     const [subLink3, setSubLink3] = React.useState(false)
 
-    const [authText, setAuthText] = React.useState(false)
+    const [authText, setAuthText] = React.useState(null)
 
+    useEffect(()=>{
+      setAuthText(isUserSignedIn())
+    },[])
 
     
 
@@ -25,14 +28,14 @@ const QuickLinksCard = (props) => {
 
            
             <QuickLinks.Plates href="alumni-about">About Association</QuickLinks.Plates>
-            <div onClick={()=>{setAuthText(!authText)}}>
+          
               {
                 authText == 0 ? 
-                  <QuickLinks.Plates setModalToggle = {props.setModalToggle} modalPath = "alumniAuth"> SignIn / SignUp  </QuickLinks.Plates>
+                  <QuickLinks.Plates setAuthText={setAuthText} authText = {authText}  setModalToggle = {props.setModalToggle} modalPath = "alumniAuth"> SignIn / SignUp  </QuickLinks.Plates>
                 :
-                  <QuickLinks.Plates setModalToggle = {props.setModalToggle} modalPath = "alumniAuth"> SignOut  </QuickLinks.Plates>
+                  <QuickLinks.Plates setAuthText={setAuthText}  authText = {authText}> SignOut  </QuickLinks.Plates>
               }
-            </div>
+           
               <div className={`${authText == 0 ? "hidden":"" }`}>
               <QuickLinks.Plates href="alumni-profile">Profile Page</QuickLinks.Plates>
             </div>

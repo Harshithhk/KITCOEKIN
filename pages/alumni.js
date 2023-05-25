@@ -6,6 +6,7 @@ import dynamic from 'next/dynamic'
 import NewsAndNotices from "../sections/alumni/NewsAndNotices"
 import Overviews from "../sections/alumni/Overviews"
 import AboutUs from "../sections/alumni/AboutUs"
+import {checkTokenExpiration,isUserSignedIn} from "../utils/auth"
 // import OpenStreetMap from '../component/OpenStreetMap'
 const OpenStreetMap = dynamic(() => import('../components/Map/OpenStreetMap'), {
   ssr: false,
@@ -32,6 +33,10 @@ const Alumni = (props) => {
 
   let news = []
   let notices = []
+
+
+  const [test, setTest] = React.useState(0);
+
   return (
     <DefaultLayout modalToggle = {modalToggle} setModalToggle = {setModalToggle} >
       <div className="w-full bg-[#24346D]">
@@ -62,6 +67,7 @@ const Alumni = (props) => {
           <h1
             data-aos="zoom-in"
             data-aos-delay="0"
+            onClick={()=>{setTest(!test)}}
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
             Alumni Association

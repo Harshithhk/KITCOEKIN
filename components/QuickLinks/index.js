@@ -1,4 +1,6 @@
 import React from "react";
+import { isUserSignedIn } from "../../utils/auth";
+import { useRouter } from "next/router"
 
 const QuickLinks = ({ children }) => {
     return(
@@ -9,12 +11,44 @@ const QuickLinks = ({ children }) => {
 }
 
 
-const Plates = ({ children,logo,setSubLink=(item)=>{!item},subLink,href,setModalToggle,modalPath}) => {
+const Plates = ({ children,logo,setSubLink=(item)=>{!item},subLink,href,setModalToggle,modalPath,setAuthText,authText}) => {
   
+    const router = useRouter()
+
     // onClick={() => setSubLink(!subLink)} 
+    
+    async function getSignInStatus(propAuth) {
+      let result = false;
+      
+      if(!propAuth){
+        while (!result) {
+          // Make an API call or perform some asynchronous operation to get the result
+          result =  isUserSignedIn(); 
+          
+          // Alternatively, you can use a condition to check for a specific result
+          // For example: if (result === desiredResult) { break; }
+          
+          // Optional: Add a delay between each iteration to avoid excessive CPU usage
+          await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+      }else{
+        localStorage.removeItem('token');
+        router.route != "/alumni" ? router.push("/alumni") : null
+        result = false
+      }
+      
+      // Do something with the final result
+      return result
+    }
+     
     return(
            <a href={href}>
-           <div onClick={() => {setSubLink(!subLink); modalPath != undefined ? setModalToggle(modalPath):null}}  className="quickLink-plates hover:bg-slate-50 hover:cursor-pointer text-slate-400 flex flex-row  justify-between px-4 py-2">
+           <div onClick={() => {
+            setSubLink(!subLink); 
+            modalPath != undefined ? setModalToggle(modalPath):null;
+            authText != undefined && authText == false  ?    getSignInStatus(authText).then((result)=>{setAuthText(result)}).catch((err)=>{console.log("failed",err)}):null;
+            authText != undefined && authText == true ?    getSignInStatus(authText).then((result)=>{setAuthText(result)}).catch((err)=>{console.log("failed",err)}):null
+            }}  className={` ${authText != undefined && authText == true ? " text-red-500 ": "text-slate-400"} quickLink-plates hover:bg-slate-50 hover:cursor-pointer  flex flex-row  justify-between px-4 py-2`}>
               {typeof(children)=== "object"?children[0]:children}
                 {logo ==="dropDown" ?
                 <>
@@ -39,7 +73,8 @@ const Plates = ({ children,logo,setSubLink=(item)=>{!item},subLink,href,setModal
                 : logo ==="document"?
                 <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 h-7 w-7 text-[#F07C00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>:<svg
+            </svg>:
+            <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 text-primary "
                 fill="none"

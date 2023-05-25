@@ -29,7 +29,7 @@ const About = () => {
     return (
     <div className="mt-2 ">
           <li
-            href="/about"
+        
             className={`flex items-center   cursor-pointer  ${
               router.route != "/" ? "text-white" : "text-black"
             }`}
