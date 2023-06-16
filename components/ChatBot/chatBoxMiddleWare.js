@@ -35,13 +35,13 @@
 //     });
 
 //     function addCode(value){
-//         let botMsgHtml = "<div class=\"message botChat\">"+value+"</div>"
-//         let yourMsgHtml = "<div class=\"message yourChat\">"+value+"</div>"
-//         let msgPreLoader = "<div class=\"message botChat preLoad\" id='perLoader'><div class=\"typing typing-1\"></div><div class=\"typing typing-2\"></div><div class=\"typing typing-3\"></div></div>"
+//         let botMsgHtml = "<div className=\"message botChat\">"+value+"</div>"
+//         let yourMsgHtml = "<div className=\"message yourChat\">"+value+"</div>"
+//         let msgPreLoader = "<div className=\"message botChat preLoad\" id='perLoader'><div className=\"typing typing-1\"></div><div className=\"typing typing-2\"></div><div className=\"typing typing-3\"></div></div>"
 //         let msgItems = (items)=>{
-//             let str ="<div class=\"chat_msg_item\" id='tagItems'><ul class=\"tags\">"
+//             let str ="<div className=\"chat_msg_item\" id='tagItems'><ul className=\"tags\">"
 //             items.forEach(function(item) {
-//                 str += "<li class='tag-button' id='tag"+ item + "'>"+ item + "</li>";
+//                 str += "<li className='tag-button' id='tag"+ item + "'>"+ item + "</li>";
 //             });
 //             str += "</ul></div>";
 //             return str

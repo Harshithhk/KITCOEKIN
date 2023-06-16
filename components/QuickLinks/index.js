@@ -46,7 +46,7 @@ const Plates = ({ children,logo,setSubLink=(item)=>{!item},subLink,href,setModal
            <div onClick={() => {
             setSubLink(!subLink); 
             modalPath != undefined ? setModalToggle(modalPath):null;
-            authText != undefined && authText == false  ?    getSignInStatus(authText).then((result)=>{setAuthText(result)}).catch((err)=>{console.log("failed",err)}):null;
+            authText != undefined && authText == false  ?    getSignInStatus(authText).then((result)=>{setAuthText(result);router.reload(window.location.pathname)}).catch((err)=>{console.log("failed",err)}):null;
             authText != undefined && authText == true ?    getSignInStatus(authText).then((result)=>{setAuthText(result)}).catch((err)=>{console.log("failed",err)}):null
             }}  className={` ${authText != undefined && authText == true ? " text-red-500 ": "text-slate-400"} quickLink-plates hover:bg-slate-50 hover:cursor-pointer  flex flex-row  justify-between px-4 py-2`}>
               {typeof(children)=== "object"?children[0]:children}

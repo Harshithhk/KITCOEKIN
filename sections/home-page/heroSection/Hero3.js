@@ -48,26 +48,26 @@ function Hero3(props) {
 
             </div>
             <div className='flex'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" >
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Faculty with Rich Experience
 
             </div>
             <div className='flex'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" >
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Industry Integrated Up-to-Date Curriculum
             </div>
             <div className='flex'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" >
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Vibrant Campus Life
             </div>
             <div className='flex'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className='mx-2 text-[#F07C00] h-7 w-7' viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" >
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               State-of-the-art infrastructure

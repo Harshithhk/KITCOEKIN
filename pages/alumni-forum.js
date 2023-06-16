@@ -5,35 +5,21 @@ import Footer from "../sections/home-page/Footer"
 import React from "react"
 const CseEngineeringMous = () => {
     const [modalToggle, setModalToggle] = React.useState("");
+    const [readMore, setReadMore] = React.useState("");
+    const [ForumList, setForumList] = React.useState([]);
+    const [forumTopic, setForumTopic] = React.useState([]);
 
-    let ForumList = [{
-        "title": "Lorem ipsum dolor sit.",
-        "body": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.",
-        "name":"Leroy Jenkins",
-        "time": "3 min read"
-      },{
-        "title": "Lorem ipsum dolor sit.",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.",
-        "name":"Leroy Jenkins",
-        "time": "3 min read"
-      },{
-        "title": "Lorem ipsum dolor sit.",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.",
-        "name":"Leroy Jenkins",
-        "time": "3 min read"
-      },{
-        "title": "Lorem ipsum dolor sit.",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.",
-        "name":"Leroy Jenkins",
-        "time": "3 min read"
-      },{
-        "title": "Lorem ipsum dolor sit.",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.",
-        "name":"Leroy Jenkins",
-        "time": "3 min read"
-      },
-      ]
+    
 
+    React.useEffect(() => {
+        fetch( `${process.env.SERVER_API}/api/alumni/forum`)
+        .then(result => result.json())
+        .then(forumData => {
+          console.log(forumData)
+         setForumList(forumData)
+         setForumTopic(forumData)
+         })
+      }, []);
     
 
     return (
@@ -95,13 +81,21 @@ const CseEngineeringMous = () => {
                 <div className="grid grid-cols-3  sm:px-0 px-2 sm:flex sm:flex-col pb-20 mt-6">
 
                 <section className="col-start-1  col-end-3 sm:mr-0 sm:ml-0 sm:mt-6 sm:px-4 sm:pb-10  pb-20 mx-10  h-fit   ">
-                            <div className="mt-6 sm:mt-0 sm:ml-4 mb-9 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+                            <div className=" justify-between mt-6 sm:mt-0 sm:ml-4 mb-9 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+                                <div className="flex items-center">
                                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                               FORUM TOPICS
+                                </div>
+                              <svg onClick={()=>{setReadMore("")}} className={` ${readMore?"visible":"invisible"} w-6 h-6 hover:cursor-pointer hover:text-primary`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
+                                <path fillRule="evenodd" d="M9.53 2.47a.75.75 0 010 1.06L4.81 8.25H15a6.75 6.75 0 010 13.5h-3a.75.75 0 010-1.5h3a5.25 5.25 0 100-10.5H4.81l4.72 4.72a.75.75 0 11-1.06 1.06l-6-6a.75.75 0 010-1.06l6-6a.75.75 0 011.06 0z" clipRule="evenodd" />
+                              </svg>
+
                             </div>
                             {/* -------------- */}
+
+                            
                        
-                           <Forum ForumList = {ForumList} />
+                           <Forum ForumList = {ForumList}  readMore = {readMore} setReadMore ={setReadMore} setForumList ={setForumList} forumTopic ={forumTopic}/>
                          
                         </section>
 

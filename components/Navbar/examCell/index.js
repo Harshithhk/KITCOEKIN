@@ -25,7 +25,7 @@ const ExamCell = () => {
   const router = useRouter()
 
     return (
-    <div className="mt-2 ">
+    <div className="mt-2">
           <li
             href="/about"
             className={`flex items-center   cursor-pointer  ${
@@ -33,7 +33,7 @@ const ExamCell = () => {
             }`}
             onClick={() => (setFlyer(!flyer), setFlyerTwo(false))}
           >
-            EXAM CELL
+            EXAM&nbsp;CELL
             <svg
                     className={
                       flyer === true

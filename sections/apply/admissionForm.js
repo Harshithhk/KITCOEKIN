@@ -21,48 +21,48 @@ const AdmissionForm = () => {
             <div className="grid grid-cols-6 gap-6">
               <div className="col-span-6 sm:col-span-3">
                 <label for="first-name"  className="block text-sm font-medium text-gray-700">First name</label>
-                <input type="text" required name="first-name" id="first-name" autocomplete="given-name" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="text" required name="first-name" id="first-name" autocomplete="given-name" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
 
               <div className="col-span-6 sm:col-span-3">
                 <label for="last-name" className="block text-sm font-medium text-gray-700">Last name</label>
-                <input type="text" name="last-name" id="last-name" autocomplete="family-name" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="text" name="last-name" id="last-name" autocomplete="family-name" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
 
-              <div className="col-span-6 sm:col-span-4">
+              <div className="col-span-6 ">
                 <label for="email-address" className="block text-sm font-medium text-gray-700">Email address</label>
-                <input type="text" required name="email-address" id="email-address" autocomplete="email" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="text" required name="email-address" id="email-address" autocomplete="email" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
 
               <div className="col-span-6">
                 <label  className="block text-sm font-medium text-gray-700">Mobile Number</label>
-                <input type="number" name="mobileNumber" required id="mobileNumber" autocomplete="mobileNumber" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="number" name="mobileNumber" required id="mobileNumber" autocomplete="mobileNumber" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
 
          
               <div className="col-span-6">
                 <label for="taluka" className="block text-sm font-medium text-gray-700">Taluka</label>
-                <input type="text" name="taluka" required id="taluka" autocomplete="taluka" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="text" name="taluka" required id="taluka" autocomplete="taluka" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
 
               <div className="col-span-6">
                 <label for="disctrict"  className="block text-sm font-medium text-gray-700">District</label>
-                <input type="text" required name="disctrict" id="disctrict" autocomplete="disctrict" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="text" required name="disctrict" id="disctrict" autocomplete="disctrict" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
 
               <div className="col-span-6 sm:col-span-6 lg:col-span-2">
                 <label for="city" className="block text-sm font-medium text-gray-700">City</label>
-                <input type="text" required name="city" id="city" autocomplete="address-level2" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="text" required name="city" id="city" autocomplete="address-level2" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
 
               <div className="col-span-6 sm:col-span-3 lg:col-span-2">
                 <label for="region" className="block text-sm font-medium text-gray-700">State / Province</label>
-                <input type="text" required name="region" id="region" autocomplete="address-level1" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md " />
+                <input type="text" required name="region" id="region" autocomplete="address-level1" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md " />
               </div>
 
               <div className="col-span-6 sm:col-span-3 lg:col-span-2">
                 <label for="postal-code"  className="block text-sm font-medium text-gray-700">ZIP / Postal code</label>
-                <input type="text" required name="postal-code" id="postal-code" autocomplete="postal-code" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="text" required name="postal-code" id="postal-code" autocomplete="postal-code" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
             </div>
           </div>

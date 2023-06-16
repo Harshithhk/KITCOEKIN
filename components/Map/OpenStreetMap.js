@@ -1,6 +1,8 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import { MapContainer, TileLayer, Marker ,Popup } from 'react-leaflet'
 // import 'leaflet/dist/leaflet.css'
+import 'leaflet-fullscreen/dist/Leaflet.fullscreen.js';
+import 'leaflet-fullscreen/dist/leaflet.fullscreen.css';
 
 
 
@@ -12,6 +14,11 @@ const Map2 = (props) => {
   const position = [51.505, -0.09]
   let AlumniList = props.AlumniList
 
+  useEffect (() => {
+    const { current = {} } = mapRef;
+    const { leafletElement: map } = current;
+    }, []);
+
   return (
     
     <>
@@ -19,7 +26,7 @@ const Map2 = (props) => {
         <div className='container'>
           
           
-          <MapContainer center={center} zoom={ZOOM_LEVEL} ref={mapRef} style={{ height: "400px" ,borderRadius:"20px"}}>
+          <MapContainer center={center} scrollWheelZoom={true}  fullscreenControl={true} zoom={ZOOM_LEVEL} ref={mapRef} style={{ height: "400px" ,borderRadius:"20px"}}>
                 <TileLayer
                   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                   url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'

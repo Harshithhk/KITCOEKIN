@@ -181,8 +181,8 @@ const OfficeAdministration = () => {
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
-        <section className="overflow-auto max-w-fit mx-auto md:mx-0  bg-secondary">
-          <section className="relative z-30 w-[1500px] md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
+        <section className="overflow-auto  mx-auto md:mx-0  bg-secondary">
+          <section className="relative z-30 w-full md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
           <div className="grid grid-cols-4 sm:grid-cols-3 items-center text-slate-500 justify-items-center mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
               <div className="sm:hidden">Sr.No.</div>
               <div className="">Name</div>

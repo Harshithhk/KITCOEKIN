@@ -1564,32 +1564,80 @@ const StaffList = () => {
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         
-        <section className="overflow-auto max-w-fit mx-auto md:mx-0  bg-secondary">
-          <section className="relative z-30 w-[1500px] mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
-          <div className="sm:hidden grid grid-cols-8 sm:grid-cols-7 items-center text-slate-500 justify-items-center mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
-              <div className=" sm:hidden">Sr.No.</div>
-              <div className=" ">Name Of The Faculty</div>
-              <div className=" ">Course</div>
-              <div className=" ">Designation</div>
-              <div className=" ">Date Of Joining</div>
-              <div className=" ">Qualification</div>
-              <div className=" ">Nature of Apointment</div>
-              <div className=" ">Experience</div>
-          </div> 
-
+        <section className="overflow-auto  mx-auto md:mx-0  bg-secondary">
+          <section className="relative z-30 w-full mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
+          
+		  <table className=" sm:hidden mt-6   w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 ">
+                    <tr>
+                        <th scope="col" className="px-6 py-3">
+                        Sr.No
+                        </th>
+                        <th scope="col" className="px-6 py-3">
+                        Name Of The Faculty
+                        </th>
+                        <th scope="col" className="px-6 py-3">
+                        Course
+                        </th>
+                        <th scope="col" className="px-6 py-3">
+                        Designation
+                        </th>
+						<th scope="col" className="px-6 py-3">
+                        Date Of Joining
+                        </th>
+						<th scope="col" className="px-6 py-3">
+                        Qualification
+                        </th>
+						<th scope="col" className="px-6 py-3">
+                        Nature of Apointment
+                        </th>
+						<th scope="col" className="px-6 py-3">
+                        Experience
+                        </th>
+                    </tr>
+                </thead>
+                {staff.map((item, index) => {
+                  return (
+                    <>
+        
+            <tbody>
+                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 ">
+                    <td scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    {item.SrNo}
+                    </td>
+                    <td className="px-6 py-4">
+                    {item.NameOfTheFaculty}
+                    </td>
+                    <td className="px-6 py-4">
+                    {item.Course}
+                    </td>
+                    <td className="px-6 py-4">
+                        ${item.Designation}
+                    </td>
+					<td className="px-6 py-4">
+                        ${item.DateOfJoining}
+                    </td>
+					<td className="px-6 py-4">
+                        ${item.Qualification}
+                    </td>
+					<td className="px-6 py-4">
+                        ${item.NatureOfAppointment}
+                    </td>
+					<td className="px-6 py-4">
+                        ${item.Experience}
+                    </td>
+                </tr>
+            
+            </tbody>
+          
+                    </>
+                  )
+                })}
+              </table>
             {staff.map((item, index) => {
                return (
                 <>
-                <div className="sm:hidden grid grid-cols-8 sm:grid-cols-7 items-center justify-items-center sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
-                    <div className=" sm:hidden ">{item.SrNo}</div>
-                    <div className="">{item.NameOfTheFaculty}</div>
-                    <div className="">{item.Course}</div>
-                    <div className="">{item.Designation}</div>
-                    <div className="">{item.DateOfJoining}</div>
-                    <div className="">{item.Qualification}</div>
-                    <div className="">{item.NatureOfAppointment}</div>
-                    <div className="">{item.Experience}</div>      
-                </div>
+               
                 <div className=" sm:grid 3xl:hidden 2xl:hidden divide-y grid-rows-7 items-center text-left  w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
                  
                   <div className="grid grid-cols-2">

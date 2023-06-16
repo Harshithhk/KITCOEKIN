@@ -52,7 +52,7 @@ const ImageGrid = (props) => {
         </div>
       </div>
       {/* 2 */}
-    </div>
+          </div>
       </>)
     })}
     {/* 3 */}

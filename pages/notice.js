@@ -1,146 +1,118 @@
-import { useEffect } from "react"
 import DefaultLayout from "../components/DefaultLayout"
 import Admission2122 from "../sections/admissions/postgraduate/Admission2122"
 import Footer from "../sections/home-page/Footer"
+// ----
+import React,{useState,useEffect,useMemo,useCallback,useRef} from "react"
+import { AgGridReact } from 'ag-grid-react';
+import 'ag-grid-community/styles/ag-grid.css';
+import 'ag-grid-community/styles/ag-theme-alpine.css';
+import { useRouter } from "next/router"
+import axios from "axios";
+
+const MyCompButton = (params) => {
+  const ActionAlumniData = async (data)=>{
+          await axios.delete(process.env.SERVER_API+"api/notices", {data})
+          .then((rowData) => {
+            params.setReloadChild(Math.random())
+          })
+    
+  }
+      return (<>
+                  <div   className="flex items-center justify-center text-transparent">.
+                    
+
+                      <a title="Download" href={params.data.fileUrl} className="flex items-center justify-center gap-2 hover:cursor-pointer text-primary font-semibold" >
+                        <svg className="w-6 h-6 text-primary hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                        </svg> Download
+                      </a>
+                      
+
+                      {/* <div title="Delete" onClick={()=>ActionAlumniData({_id:params.data._id,accountStatus:"DELETE"})}  className={`flex items-center justify-center gap-2 hover:cursor-pointer text-red-700 font-semibold`}>
+                          <svg className="w-6 h-6 text-red-700 hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" >
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                          </svg>Delete
+
+                      </div> */}
+
+
+                  </div>
+
+      
+
+      </>
+      );
+      };
 
 const AdmissionUndergraduate = () => {
-  let notices = [
-    {
-      title: "Draft Time Table of Makeup Exam., July 2022",
-      fileName: "TimeTable-2020.pdf",
-      date: "2022-07-20",
-    },
-    {
-      title: "Draft Time Table of Makeup Exam., July 2022",
-      fileName: "TimeTable-2020.pdf",
-      date: "2022-07-20",
-    },
-    {
-      title: "Draft Time Table of Makeup Exam., July 2022",
-      fileName: "TimeTable-2020.pdf",
-      date: "2022-07-20",
-    },
-    {
-      title: "Draft Time Table of Makeup Exam., July 2022",
-      fileName: "TimeTable-2020.pdf",
-      date: "2022-07-20",
-    },
-    {
-      title: "Draft Time Table of Makeup Exam., July 2022",
-      fileName: "TimeTable-2020.pdf",
-      date: "2022-07-20",
-    },
-    {
-      title: "Draft Time Table of Makeup Exam., July 2022",
-      fileName: "TimeTable-2020.pdf",
-      date: "2022-07-20",
-    },
-    {
-      title: "Draft Time Table of Makeup Exam., July 2022",
-      fileName: "TimeTable-2020.pdf",
-      date: "2022-07-20",
-    },
-  ]
+ 
 
-  //   let InstituteCode = [
-  //     {
-  //       CourseName: {
-  //         p1: "M.Tech (Embedded System & Computing)",
-  //       },
-  //       GeneralChoiceCode: {
-  //         Intake: "6",
-  //         Code: "626737210",
-  //       },
-  //       TFWSChoiceCode: {
-  //         Intake: "",
-  //         Code: "",
-  //       },
-  //     },
-  //     {
-  //       CourseName: {
-  //         p1: "M.Tech (Mechanical Engineering Design)",
-  //         p2: "",
-  //       },
-  //       GeneralChoiceCode: {
-  //         Intake: "6",
-  //         Code: "626760410",
-  //       },
-  //       TFWSChoiceCode: {
-  //         Intake: "",
-  //         Code: "",
-  //       },
-  //     },
-  //     {
-  //       CourseName: {
-  //         p1: "M.Tech (Biochemical Engineering & Biotechnology)",
-  //         p2: "",
-  //       },
-  //       GeneralChoiceCode: {
-  //         Intake: "6",
-  //         Code: "626708110",
-  //       },
-  //       TFWSChoiceCode: {
-  //         Intake: "",
-  //         Code: "",
-  //       },
-  //     },
-  //     {
-  //       CourseName: {
-  //         p1: "M.Tech (Environmental Engineering)",
-  //         p2: "",
-  //       },
-  //       GeneralChoiceCode: {
-  //         Intake: "6",
-  //         Code: "626720110",
-  //       },
-  //       TFWSChoiceCode: {
-  //         Intake: "",
-  //         Code: "",
-  //       },
-  //     },
-  //     {
-  //       CourseName: {
-  //         p1: "M. Tech (Civil & Structural Engineering)",
-  //         p2: "",
-  //       },
-  //       GeneralChoiceCode: {
-  //         Intake: "6",
-  //         Code: "626794810",
-  //       },
-  //       TFWSChoiceCode: {
-  //         Intake: "",
-  //         Code: "",
-  //       },
-  //     },
-  //     {
-  //       CourseName: {
-  //         p1: "M.Tech (Computer Science & Engineering (Data Science) )",
-  //         p2: "",
-  //       },
-  //       GeneralChoiceCode: {
-  //         Intake: "6",
-  //         Code: "626724210",
-  //       },
-  //       TFWSChoiceCode: {
-  //         Intake: "",
-  //         Code: "",
-  //       },
-  //     },
-  //   ]
+  const router = useRouter()
 
-  const getEvents = async () => {
-    let res = await axios.get(
-      "http://ec2-13-235-33-19.ap-south-1.compute.amazonaws.com:8080/api/timetable/"
-    )
-    console.log(res)
-    setNews(res.data)
-  }
+    
+  const gridRef = useRef();
+  const [rowData, setRowData] = useState(); // Set rowData to Array of Objects, one Object per Row
 
-  //   useEffect(() => {
-  //     getEvents()
+   // Each Column Definition results in one Column.
+  const [columnDefs, setColumnDefs] = useState([
+      {headerName:'File Name',field: 'fileName', filter: true},
+      {headerName:'Title',field: 'title', filter: true},
+      {headerName:'Description',field: 'description', filter: true},
+      {headerName:'Date',field: 'date', filter: true},
+      {headerName:'Action',field: 'accountStatus', filter: false, cellRenderer: MyCompButton}, 
+  ]);
+  
+  const defaultColDef = useMemo(() => {
+      return {
+        // editable: true,
+        enableRowGroup: true,
+        enablePivot: true,
+        enableValue: true,
+        sortable: true,
+        resizable: true,
+        filter: true,
+        flex: 1,
+        minWidth: 100,
+        filter: 'agTextColumnFilter',
+        floatingFilter: true,
+      };
+    }, []);
 
-  //     return () => {}
-  //   }, [])
+
+     // Example load data from server
+       
+     useEffect(async () => {
+          await axios.get(`${process.env.SERVER_API}/api/notices`)
+          .then((rowData) => {
+          setRowData(rowData.data)
+          })
+      }, []);
+
+  const getRowStyle = params => {
+      return {
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        padding: '1rem',
+        margin: '0.5rem 0',
+        backgroundColor: 'rgba(249, 250, 254, 0.7)',
+        
+        boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+        borderRadius: '0.5rem',
+      //   cursor: 'pointer'
+      };
+    };
+
+    const containerStyle = useMemo(() => ({
+      width: 'auto',
+      height: '550px', // Fixed height in pixels
+    }), []);
+    
+    const gridStyle = useMemo(() => ({
+      height: '70vh', // Responsive height based on viewport height
+      width: 'auto',
+    }), []);
+
 
   return (
     <DefaultLayout>
@@ -200,69 +172,97 @@ const AdmissionUndergraduate = () => {
               INSTITUTE CODE : 6267
             </div>
           </div> */}
-          <section className="relative z-30 w-[1500px] mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
-            <div className="grid items-center w-full h-16 grid-cols-2 p-2 px-4 mt-6 mb-6 shadow-lg sm:hidden text-slate-500 sm:h-16 rounded-2xl">
-              <div className="text-center ">Notice</div>
-              <div className="">
-                <div className="grid grid-cols-1 ">
-                  <div className="grid items-center grid-rows-2 ">
-                    {/* <div className="text-center">File Name</div> */}
-                    <div className="grid grid-cols-2 ">
-                      <div className="text-center">File Name</div>
-                      <div className="text-center">Date</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <section className="relative z-30 w-full mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
+          <style >{`
+                                .ag-theme-alpine {
+                                    // --ag-header-height: 10px;
+                                    --ag-header-foreground-color: black;
+                                    --ag-header-background-color: rgba(240, 124, 0,0);
+                                    // --ag-header-background-color: rgb(248, 247, 252);
+                                    // --ag-header-cell-hover-background-color: rgb(248, 247, 252);
+                                    // --ag-header-cell-moving-background-color: rgb(248, 247, 252);
+                                  }
+                                  
+                                  
+                                  .ag-theme-alpine {
+                                        /* disable all borders */
 
-            {notices.map((item, index) => {
-              return (
-                <>
-                  <div
-                    className={`hover:shadow-xl hover:bg-slate-200 cursor-pointer grid items-center w-full h-16 grid-cols-2 p-2 px-4 mt-2 ${
-                      index % 2 !== 0 ? "bg-white" : "bg-orange-50"
-                    } shadow-lg sm:hidden text-slate-500 sm:h-16 rounded-2xl`}
-                  >
-                    <div className="text-center ">
-                      {/* <p className="font-bold text-slate-900">{item.title}</p> */}
-                      <p className="font-bold">{item.title}</p>
-                    </div>
-                    <div className=" text-slate-900">
-                      <div className="grid grid-cols-1 ">
-                        <div className="grid items-center grid-cols-2 text-center ">
-                          <div className="font-bold text-center text-blue-500">
-                            {" "}
-                            {item.fileName}
-                          </div>
-                          <div className="text-center">{item.date}</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="items-center w-full p-2 mt-2 overflow-x-auto text-left bg-white divide-y shadow-lg sm:grid 3xl:hidden 2xl:hidden grid-rows-7 h-fit sm:h-fit rounded-2xl">
-                    <div className="grid grid-cols-2">
-                      <div className="text-slate-400">Course Name</div>
-                      <div className="divide-y">
-                        <p className="text-slate-900">{item.title}</p>
-                        <p className="text-slate-500">{item.title}</p>
-                      </div>
-                    </div>
-                    <div className="grid grid-cols-1 text-center">
-                      <div className=" text-slate-400">General Choice Code</div>
-                    </div>
-                    <div className="grid grid-cols-2">
-                      <div className="text-blue-600 ">Intake</div>
-                      <div className="">{item.fileName}</div>
-                    </div>
-                    <div className="grid grid-cols-2">
-                      <div className=" text-slate-400">Code</div>
-                      <div className="">{item.date}</div>
-                    </div>
-                  </div>
-                </>
-              )
-            })}
+                                        --ag-borders: none;
+
+                                        /* then add back a border between rows */
+
+                                        --ag-row-border-style: solid;
+                                        --ag-row-border-width: 2px;
+                                        --ag-row-border-color: rgba(240, 124, 0);
+                                    }
+                                    .ag-theme-alpine {
+                                        // --ag-foreground-color: rgb(126, 46, 132);
+                                        --ag-background-color: rgba(248, 247, 252, 0.5);
+                                        // --ag-header-foreground-color: rgb(204, 245, 172);
+                                        // --ag-header-background-color: rgb(209, 64, 129);
+                                        // --ag-odd-row-background-color:  rgba(248, 247, 252, 0.5);
+                                        // --ag-header-column-resize-handle-color: rgb(126, 46, 132);
+                                      
+                                        // --ag-font-size: 17px;
+                                        // --ag-font-family: monospace;
+                                      }
+
+                                      .ag-theme-alpine {
+                                        --ag-borders-input: solid 2px;
+                                        --ag-input-border-color: rgba(240, 124, 0);
+                                    }
+                                  
+                                  `}
+                             </style>
+                             
+                              <div   className="my-8 sm:hidden ">
+                                    <div  className="ag-theme-alpine h-[900px] md:h-[70vh]  ">
+                                        
+                                        <AgGridReact
+                                            className="w-full h-full "
+                                            ref={gridRef}
+
+                                            getRowStyle={getRowStyle}
+
+                                            defaultColDef={defaultColDef}
+                                            rowData={rowData}
+                                            columnDefs={columnDefs}
+                                            pagination={true}
+                                            // rowSelection={'single'}
+                                            // onSelectionChanged={onSelectionChanged}
+
+                                            >
+                                              
+                                              
+                                        </AgGridReact>
+                                    </div>
+                              </div>
+<div>
+     {rowData?rowData.map((item,index)=>{
+        return(<>
+            <div className="bg-white text-[#24346D] shadow-lg divide-y mt-1 hidden sm:grid rounded-lg p-2  grid-rows-3">
+              <div className="flex font-semibold items-center justify-between text-sm">
+                <div className="text-primary flex gap-1">
+                  <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+                  </svg>
+                  {item.date}
+                </div> 
+                <a title="Download" href={item.fileUrl} className="flex items-center justify-center gap-1 hover:cursor-pointer text-primary font-semibold" >
+                        <svg className="w-5 h-5 text-primary hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                        </svg> Download
+                </a>
+              </div>
+              <div className="text-sm font-semibold">{item.title} </div>
+              <div className="text-xs p-1  ">{item.description}  </div>
+              <div className="text-xs  font-semibold">File: {item.fileName}</div>
+            </div>
+           
+        </>)
+     }):null}                               
+</div>
+           
           </section>
         </section>
 
@@ -274,75 +274,4 @@ const AdmissionUndergraduate = () => {
 
 export default AdmissionUndergraduate
 
-// ;<div class="flex flex-col">
-//   <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
-//     <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
-//       <div class="overflow-hidden">
-//         <table class="min-w-full">
-//           <thead class="bg-white border-b">
-//             <tr>
-//               <th
-//                 scope="col"
-//                 class="text-sm font-medium text-gray-900 px-6 py-4 text-center"
-//               >
-//                 #
-//               </th>
-//               <th
-//                 scope="col"
-//                 class="text-sm max-w-[600px] font-medium text-gray-900 px-6 py-4 text-center"
-//               >
-//                 News
-//               </th>
-//               <th
-//                 scope="col"
-//                 class="text-sm font-medium text-gray-900 px-6 py-4 text-center"
-//               >
-//                 File Name
-//               </th>
-//               <th
-//                 scope="col"
-//                 class="text-sm font-medium text-gray-900 px-6 py-4 text-center"
-//               >
-//                 Date
-//               </th>
-//               <th
-//                 scope="col"
-//                 class="text-sm font-medium text-gray-900 px-6 py-4 text-center"
-//               >
-//                 Action
-//               </th>
-//             </tr>
-//           </thead>
-//           {news.length > 0 &&
-//             news.map((element, index) => (
-//               <tr
-//                 key={element._id}
-//                 class={`${index % 2 == 0 ? "bg-gray-100" : ""} border-b`}
-//               >
-//                 <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-//                   {index}
-//                 </td>
-//                 <td class="text-sm max-w-[600px] text-gray-900 font-light px-6 py-4">
-//                   {element.title}
-//                 </td>
-//                 <td class="text-sm text-orange-500 font-light px-6 py-4 whitespace-nowrap">
-//                   {element.fileName}
-//                 </td>
-//                 <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-//                   {element.date}
-//                 </td>
-//                 <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-//                   <button
-//                     onClick={() => actionDelete(element._id)}
-//                     className="px-3 py-2 text-white bg-slate-600"
-//                   >
-//                     Delete
-//                   </button>
-//                 </td>
-//               </tr>
-//             ))}
-//         </table>
-//       </div>
-//     </div>
-//   </div>
-// </div>
+

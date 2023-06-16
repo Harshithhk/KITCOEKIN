@@ -65,6 +65,40 @@ module.exports = {
             "animation-timing-function": "cubic-bezier(0, 0, 0.2, 1)",
           },
         },
+        'before-animation': {
+          '0%': {
+            width: 'var(--tw-thickness)',
+            boxShadow: 'var(--tw-lat) (-var(--tw-offset)) var(--tw-color-1), (-var(--tw-lat)) var(--tw-offset) var(--tw-color-3)',
+          },
+          '35%': {
+            width: 'var(--tw-size)',
+            boxShadow: '0 (-var(--tw-offset)) var(--tw-color-1), 0 var(--tw-offset) var(--tw-color-3)',
+          },
+          '70%': {
+            width: 'var(--tw-thickness)',
+            boxShadow: '(-var(--tw-lat)) (-var(--tw-offset)) var(--tw-color-1), var(--tw-lat) var(--tw-offset) var(--tw-color-3)',
+          },
+          '100%': {
+            boxShadow: 'var(--tw-lat) (-var(--tw-offset)) var(--tw-color-1), (-var(--tw-lat)) var(--tw-offset) var(--tw-color-3)',
+          },
+        },
+        'after-animation': {
+          '0%': {
+            height: 'var(--tw-thickness)',
+            boxShadow: 'var(--tw-offset) var(--tw-lat) var(--tw-color-2), (-var(--tw-offset)) (-var(--tw-lat)) var(--tw-color-4)',
+          },
+          '35%': {
+            height: 'var(--tw-size)',
+            boxShadow: 'var(--tw-offset) 0 var(--tw-color-2), (-var(--tw-offset)) 0 var(--tw-color-4)',
+          },
+          '70%': {
+            height: 'var(--tw-thickness)',
+            boxShadow: 'var(--tw-offset) (-var(--tw-lat)) var(--tw-color-2), (-var(--tw-offset)) var(--tw-lat) var(--tw-color-4)',
+          },
+          '100%': {
+            boxShadow: 'var(--tw-offset) var(--tw-lat) var(--tw-color-2), (-var(--tw-offset)) (-var(--tw-lat)) var(--tw-color-4)',
+          },
+        }
       },
       animation: {
         "fade-out-down": "fade-out-down 0.5s ease-out ",
@@ -73,6 +107,8 @@ module.exports = {
         bounce2: "bounce2 3s infinite",
         bounce3: "bounce2 5s infinite",
         wiggle2: "wiggle2 7s ease-in-out infinite",
+        'before-animation': 'before-animation 2s infinite',
+        'after-animation': 'after-animation 2s infinite',
 
       },
     },

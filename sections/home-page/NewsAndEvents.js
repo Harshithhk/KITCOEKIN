@@ -1,52 +1,6 @@
 import { useEffect, useState } from "react"
 
-let news = [
-  {
-    id: 1,
-    date: "13 Feb, 2022",
-    title: "Dummy text of the printing & typesetting industry",
-    startTime: "8:00 AM",
-    endTime: "01:00 PM",
-  },
-  {
-    id: 2,
-    date: "13 Feb, 2022",
-    title: "Dummy text of the printing & typesetting industry",
-    startTime: "8:00 AM",
-    endTime: "01:00 PM",
-  },
-  {
-    id: 3,
-    date: "13 Feb, 2022",
-    title: "Dummy text of the printing & typesetting industry",
-    startTime: "8:00 AM",
-    endTime: "01:00 PM",
-  },
-]
-
-let events = [
-  {
-    id: 5,
-    date: "13 Feb, 2022",
-    title: "General Notices",
-    startTime: "8:00 AM",
-    endTime: "01:00 PM",
-  },
-  {
-    id: 6,
-    date: "13 Feb, 2022",
-    title: "General Notices",
-    startTime: "8:00 AM",
-    endTime: "01:00 PM",
-  },
-  {
-    id: 7,
-    date: "13 Feb, 2022",
-    title: "General Notices",
-    startTime: "8:00 AM",
-    endTime: "01:00 PM",
-  },
-]
+import NewsAndEventsModal from "../../components/nwesAndEventsModal"
 
 const month = [
   "January",
@@ -66,6 +20,18 @@ const month = [
 function NewsAndEvents(props) {
   const [news, setNews] = useState(() => props.news)
   const [events, setEvents] = useState(() => props.events)
+  const [showModal, setShowModal] = useState(false);
+  const [modalDetails, setModalDetails] = useState({
+    title:"",
+    shortDescription:"",
+    fullDescription:"",
+    date:"",
+    fromTime:"",
+    toTime:"",
+    link:"",
+    fileUrl:""
+  });
+
 
   useEffect(async () => {
     let updatedNews = news.map((element) => {
@@ -92,10 +58,12 @@ function NewsAndEvents(props) {
 
     console.log({ news, events })
   }, [])
-
+let bodySt = "asdkj ashfkjsd fhksdfk jhsdkaf aksdjh sdkfhj kjsdf kjdsf jsjdfhj sdfh jsdf f ksdh lf lsXCV XCKVLX CVLKXC VLXCV XKCVJLX CV XLCKVJ XLKCJK dfasdjhf sdfh skldhf k skdfh ksldhf hkdsf K KDI FJH"
+ 
   return (
     <section className="flex mt-16 mb-16 md:mb-8 md:mt-8 md:flex-col">
       <section className="w-1/2 md:w-full pl-[50px] pr-[2.5%] md:p-[16px]">
+      <NewsAndEventsModal showModal = {showModal} setShowModal = {setShowModal} modalDetails={modalDetails} />
         {/* TITLE */}
         <div className="flex items-center">
           <div className=" h-[46px] w-[6.75px] bg-[#F07C00] md:h-7 md:w-1 rounded-lg"></div>
@@ -112,8 +80,11 @@ function NewsAndEvents(props) {
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-delay={`${index * 10}`}
-                className="cursor-pointer hover:shadow-lg transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl  overflow-hidden"
+                className="cursor-pointer relative group hover:shadow-lg  transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl overflow-hidden"
               >
+                
+                <p onClick={()=>{setShowModal(1);setModalDetails({title:element.title,shortDescription:element.shortDescription,fullDescription:element.fullDescription,date:element.date,fromTime:element.fromTime,toTime:element.toTime,link:element.link,fileUrl:element.fileUrl})}} className="bg-white w-full h-full bg-opacity-0 opacity-0 absolute group-hover:bg-opacity-[0.8] group-hover:opacity-100 bg-bla transition-opacity duration-300 text-center items-center flex justify-center font-semibold text-2xl text-primary">Read More ...</p>
+                
                 <div className="h-full w-40 bg-[#495AB6] flex flex-col justify-center items-center">
                   <div className="text-5xl text-white md:text-3xl">
                     {element.date.split(` `)[0]}
@@ -122,17 +93,35 @@ function NewsAndEvents(props) {
                     {element.date.split(` `)[1]} {element.date.split(` `)[2]}
                   </div>
                 </div>
-                <div className="flex flex-col justify-center w-full pl-4 text-black border-4 md:pl-2 rounded-r-2xl">
-                  <div className="text-lg md:text-sm">{element.title}</div>
-                  <div className="text-[13.5px] md:-translate-x-[2px] md:text-[10px] text-[#717171] mt-3 md:mt-1 flex items-center">
-                    <div className="object-contain mr-2">
-                      <img
-                        src="/images/HomePage/Clock.svg"
-                        className="object-contain h-full"
-                        alt=""
-                      />{" "}
+                {/* event body */}
+                <div className="flex flex-col justify-center w-full pl-4 text-black border-4 border-l-2 md:pl-2 rounded-r-2xl">
+                  <div className="flex justify-between h-1/2 items-center">
+                    <div title={element.title} className="w-5/6 sm:w-full text-lg sm:pb-2 font-semibold  md:text-sm">
+                    {element.title.substring(0, 30)} ...
                     </div>
-                    {element.duration[0]} - {element.duration[1]}
+                  <div className="sm:hidden w-2/6 text-[13.5px] md:-translate-x-[2px] text-[#717171] items-center  md:text-[10px]  flex">
+                    <div className="object-contain mr-2 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 sm:w-4 sm:h-4">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    {" "}
+                    </div>
+                    {element.fromTime} - {element.toTime}
+                  </div>
+                  </div>
+                  <div className="sm:hidden  flex text-sm text-slate-600 pr-2 font-normal  md:text-sm h-1/2 -mt-2">
+                  {element.shortDescription.substring(0, 130)} ...  
+                  </div>
+                  
+                    <div className="text-xs absolute right-8 bottom-3 sm:right-6 sm:bottom-[18px] group-hover:opacity-[0.1] text-primary">Read more...</div>
+                  <div className="hidden sm:flex  text-[13.5px] md:-translate-x-[2px] text-[#717171] items-center  md:text-[11px]  ">
+                    <div className="object-contain mr-2 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 sm:w-4 sm:h-4">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    {" "}
+                    </div>
+                    {element.fromTime} - {element.toTime}
                   </div>
                 </div>
               </div>
@@ -154,8 +143,11 @@ function NewsAndEvents(props) {
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-delay={`${index * 20}`}
-                className="cursor-pointer hover:shadow-lg transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl overflow-hidden"
+                className="cursor-pointer relative group hover:shadow-lg  transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl overflow-hidden"
               >
+                
+                <p onClick={()=>{setShowModal(1);setModalDetails({title:event.title,shortDescription:event.shortDescription,fullDescription:event.fullDescription,date:event.date,fromTime:event.fromTime,toTime:event.toTime,link:event.link,fileUrl:event.fileUrl})}} className="bg-white w-full h-full bg-opacity-0 opacity-0 absolute group-hover:bg-opacity-[0.8] group-hover:opacity-100 bg-bla transition-opacity duration-300 text-center items-center flex justify-center font-semibold text-2xl text-primary">Read More ...</p>
+                
                 <div className="border-4 border-r-2 rounded-l-2xl h-full  w-40 text-[#F07C00]  flex flex-col justify-center items-center">
                   <div className="text-5xl md:text-3xl">
                     {event.date.split(` `)[0]}
@@ -165,22 +157,41 @@ function NewsAndEvents(props) {
                     {event.date.split(` `)[1]} {event.date.split(` `)[2]}
                   </div>
                 </div>
+                {/* event body */}
                 <div className="flex flex-col justify-center w-full pl-4 text-black border-4 border-l-2 md:pl-2 rounded-r-2xl">
-                  <div className="text-lg md:text-sm">{event.title}</div>
-                  <div className="text-[13.5px] md:-translate-x-[2px] text-[#717171] md:mt-1 md:text-[10px] mt-3 flex">
-                    <div className="object-contain mr-2">
-                      <img
-                        src="/images/HomePage/Clock.svg"
-                        className="object-contain h-full"
-                        alt=""
-                      />{" "}
+                  <div className="flex justify-between h-1/2 items-center">
+                    <div title={event.title} className="w-5/6 sm:w-full text-lg sm:pb-2 font-semibold  md:text-sm">
+                    {event.title.substring(0, 30)} ...
                     </div>
-                    {event.duration[0]} - {event.duration[1]}
+                  <div className="sm:hidden w-2/6 text-[13.5px] md:-translate-x-[2px] text-[#717171] items-center  md:text-[10px]  flex">
+                    <div className="object-contain mr-2 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 sm:w-4 sm:h-4">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    {" "}
+                    </div>
+                    {event.fromTime} - {event.toTime}
+                  </div>
+                  </div>
+                  <div className="sm:hidden  flex text-sm text-slate-600 pr-2 font-normal  md:text-sm h-1/2 -mt-2">
+                  {event.shortDescription.substring(0, 130)} ...  
+                  </div>
+                  
+                    <div className="text-xs absolute right-8 bottom-3 sm:right-6 sm:bottom-[18px] group-hover:opacity-[0.1] text-primary">Read more...</div>
+                  <div className="hidden sm:flex  text-[13.5px] md:-translate-x-[2px] text-[#717171] items-center  md:text-[11px]  ">
+                    <div className="object-contain mr-2 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 sm:w-4 sm:h-4">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    {" "}
+                    </div>
+                    {event.fromTime} - {event.toTime}
                   </div>
                 </div>
               </div>
             ))}
         </div>
+        
       </section>
     </section>
   )

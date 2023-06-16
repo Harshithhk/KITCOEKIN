@@ -64,34 +64,34 @@ const ContactUsForm = () => {
             <div className="grid grid-cols-6 gap-6 py-4">
               <div className="col-span-6 sm:col-span-3">
                 <label for="first-name"  className="block text-sm font-medium text-gray-700">First name</label>
-                <input type="text" required name="first-name" id="first-name" autocomplete="given-name" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="text" required name="first-name" id="first-name" autocomplete="given-name" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
 
               <div className="col-span-6 sm:col-span-3">
                 <label for="last-name" className="block text-sm font-medium text-gray-700">Last name</label>
-                <input type="text" name="last-name" id="last-name" autocomplete="family-name" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="text" name="last-name" id="last-name" autocomplete="family-name" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
 
-              <div className="col-span-6 sm:col-span-4">
+              <div className="col-span-6 ">
                 <label for="email-address" className="block text-sm font-medium text-gray-700">Email address</label>
-                <input type="text" required name="email-address" id="email-address" autocomplete="email" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="text" required name="email-address" id="email-address" autocomplete="email" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
 
               <div className="col-span-6">
                 <label  className="block text-sm font-medium text-gray-700">Mobile Number</label>
-                <input type="number" name="mobileNumber" required id="mobileNumber" autocomplete="mobileNumber" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="number" name="mobileNumber" required id="mobileNumber" autocomplete="mobileNumber" className=" border p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
 
               <div className="col-span-6 sm:col-span-6 lg:col-span-2">
                 <label for="city" className="block text-sm font-medium text-gray-700">City</label>
-                <input type="text" required name="city" id="city" autocomplete="address-level2" className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                <input type="text" required name="city" id="city" autocomplete="address-level2" className="border  p-1 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
               </div>
               
             </div>
             <div>
               <label for="about" className="contents text-base font-medium text-gray-900 pt-2"> Message [Queries if any] </label>
               <div className="mt-1">
-                <textarea id="about" name="about" rows="3" className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="you@example.com"></textarea>
+                <textarea id="about" name="about" rows="3" className=" border p-1 shadow-sm focus:ring-indigo-500  focus:border-indigo-500 mt-1 block w-full sm:text-sm  border-gray-300 rounded-md" placeholder="you@example.com"></textarea>
               </div>
               <p className="mt-2 text-sm text-gray-500">Brief description for your requirement. URLs are hyperlinked.</p>
             </div>

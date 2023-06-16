@@ -30,11 +30,11 @@ const OthersNavbar = (props) => {
           },
           {
             "title":"Student Resources",
-            "links":["notice","alumni"],
+            "links":["notice"],
             "subMenu2":[
             
               "Notice",
-              "Alumni Association",
+              
              
             ],
           },

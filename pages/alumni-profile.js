@@ -236,13 +236,21 @@ const CseEngineeringMous = (props) => {
                                 PROFILE DETAILS
                                </div>
                                
-                               {
-                                editProfile?
-                                <div onClick={()=>{setEditProfile(false),handleSaveClick()}} className="border-2 p-1 sm:p-2 sm:border-[1px] rounded-lg border-primary hover:border-orange-300 text-xl sm:text-xs text-primary hover:cursor-pointer hover:text-orange-300">Save Changes</div>
-                                :
-                                <div onClick={()=>{setEditProfile(true)}} className="border-2 p-1 sm:p-2 sm:border-[1px] rounded-lg border-primary hover:border-orange-300 text-xl sm:text-xs text-primary hover:cursor-pointer hover:text-orange-300">Edit Profile</div>
+                               
+                               <button onClick={()=>{setEditProfile(1)}} type="button" className="flex  items-center justify-center px-4 sm:px-2 py-2 text-sm sm:text-xs font-medium text-white rounded-lg bg-orange-400 hover:bg-primary    ">
+										
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={`h-5 w-5 mr-2 sm:h-3 sm:w-3 sm:mr-1 `}>
+                                            <path d="M21.731 2.269a2.625 2.625 0 00-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 000-3.712zM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 00-1.32 2.214l-.8 2.685a.75.75 0 00.933.933l2.685-.8a5.25 5.25 0 002.214-1.32l8.4-8.4z" />
+                                            <path d="M5.25 5.25a3 3 0 00-3 3v10.5a3 3 0 003 3h10.5a3 3 0 003-3V13.5a.75.75 0 00-1.5 0v5.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5V8.25a1.5 1.5 0 011.5-1.5h5.25a.75.75 0 000-1.5H5.25z" />
+                                        </svg>
 
-                               }
+
+                                        Edit Profile
+                                      </button>
+                               
+                                {/* <div onClick={()=>{setEditProfile(true)}} className="border-2 p-1 sm:p-2 sm:border-[1px] rounded-lg border-primary hover:border-orange-300 text-xl sm:text-xs text-primary hover:cursor-pointer hover:text-orange-300">Edit Profile</div> */}
+
+                             
                             </div>
                             <p className="text-xs mb-9 text-[#24346D] ml-7 sm:ml-4">Update your photo and personal details here</p>
                             {/* -------------- */}
@@ -276,7 +284,7 @@ const CseEngineeringMous = (props) => {
                                                 </div>
                                 <div className="my-2">
                                     <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your bytes</label>
-                                    <textarea id="message" rows="4" name="bytes" onChange={handleChange} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
+                                    <textarea id="message" rows="4" name="bytes" onChange={handleChange} value={tempProfileData.bytes} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
                                 </div>
                                 <div className="grid gap-2 mb-2 2xl:grid-cols-4 md:grid-cols-2">
                                     <div>
@@ -355,7 +363,10 @@ const CseEngineeringMous = (props) => {
                                     <input type="text" id="current_address"  onClick={()=>{setShowMap(1)}} name="current_address"  value={tempProfileData.current_address.display_name}  className="bg-gray-50 border  border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select Location On Map"  required/>
                                 </div> 
                                 {editProfile?showMap?<SelectLocation position={position}  setPosition={setPosition} setShowMap={setShowMap} setLocation={setLocation} />:null:null}
-
+                               <div className="flex flex-row mt-10 gap-4">
+                               <div onClick={()=>{setEditProfile(false)}} className="border-2  w-fit p-1 sm:p-2 sm:border-[1px] rounded-lg border-red-500 hover:border-red-300 text-xl sm:text-base font-semibold text-red-500 hover:cursor-pointer hover:text-red-300">Cancel</div>
+                                <div onClick={()=>{setEditProfile(false),handleSaveClick()}} className="border-2 w-fit p-1 sm:p-2 sm:border-[1px] rounded-lg border-primary hover:border-orange-300 text-xl sm:text-base text-primary hover:cursor-pointer hover:text-orange-300">Update</div>
+                               </div>
                               </div>  
                                 :
                                 <div className="grid grid-cols-1">   

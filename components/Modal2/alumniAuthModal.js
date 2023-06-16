@@ -14,7 +14,6 @@ export default function Modal(props) {
 
   const [authToggle, setAuthToggle] = React.useState(0);
   const [showMap, setShowMap] = React.useState(0);
-  const [locationName, setLocationName] = React.useState(null);
   const [location, setLocation] = React.useState({
     display_name:"",
     address:"",
@@ -26,35 +25,7 @@ export default function Modal(props) {
     lng: -0.09,
   }
   const [position, setPosition] = React.useState(center)
-  const [profileData,setProfileData] = useState({
-    photoUrl:"",
-    name:{
-    first_name: "first_name",
-    middle_name: "middle_name",
-    last_name: "last_name",
-    },
-    date_of_birth: "date_of_birth",
-    phone:"phone",
-    pass_out_year: "pass_out_year",
-    branch: "branch",
-    company: "company",
-    designation: "designation",
-    email: "email",
-    password: "password",
-    permanent_address:{
-    permanent_street : "permanent_street",
-    permanent_district: "permanent_district",
-    permanent_state: "permanent_state",
-    permanent_country: "permanent_country",
-    },
-    current_address : {
-        display_name:"display_name",
-        address:"",
-        lat:0,
-        lon:0,
-    },
-    accountStatus:"PENDING"
-});
+ 
   const [tempProfileData,setTempProfileData] = useState({
     photoUrl:"",
     name:{
@@ -117,19 +88,15 @@ const handleChangeSignup = (e) => {
 
       const file = e.target.files?e.target.files[0]:null; // Get the first selected file
 
-if (file) {
-const fileLocation = URL.createObjectURL(file);
-console.log('File location:', fileLocation);
+      if (file) {
+      const fileLocation = URL.createObjectURL(file);
+      console.log('File location:', fileLocation);
 
-setTempProfileData((prevState) => ({
-  ...prevState,
-  photoUrl: fileLocation,
-}));
-setProfileData((prevState) => ({
-    ...prevState,
-    photoUrl: fileLocation,
-  }));
-}
+      setTempProfileData((prevState) => ({
+        ...prevState,
+        photoUrl: fileLocation,
+      }));
+      }
   };
   
  

@@ -58,15 +58,21 @@ const Navbar = () => {
           <Departments />       
           <Academics />
           <ExamCell />
+          <Link href="/alumni" passHref>
+
+            <li href="#" className={`flex items-end ${router.route != "/" ? "text-white" : "text-black"} lg:hidden cursor-pointer`}>
+              ALUMNI
+            </li>
+          </Link>
           <Link href="/contact" passHref>
 
-            <li href="#" className="flex items-end cursor-pointer">
+            <li href="#" className="flex items-end lg:hidden cursor-pointer">
               <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
               CONTACT
             </li>
           </Link>
           <Link href="/apply-admission" passHref>
-            <li className="flex items-end cursor-pointer">
+            <li className="flex items-end lg:hidden cursor-pointer">
               <img src="/images/Navbar/Mention.svg" className="mr-2" alt="" />
               APPLY
             </li>

@@ -10,23 +10,6 @@ import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
 import Filters from "../sections/alumni/filters";
 
-export async function getStaticProps() {
-    let AlumniList = []
-    AlumniList = await fetch(
-        `${process.env.SERVER_API}/api/alumni/`
-    )
-    
-    AlumniList = await AlumniList.json()
-
-  
-    return {
-      props: {
-        AlumniList: AlumniList,
-        
-      },
-      revalidate: 10,
-    }
-  }
 
 
   const MyComp = params => {
@@ -50,7 +33,6 @@ const CseEngineeringMous = (props) => {
 
  
 
-    let AlumniList = props.AlumniList
     
     const gridRef = useRef();
     const [rowData, setRowData] = useState(); // Set rowData to Array of Objects, one Object per Row
@@ -62,9 +44,6 @@ const CseEngineeringMous = (props) => {
    {field: 'branch', filter: true,enableRowGroup: true},
    {headerName:'Batch Year',field: 'pass_out_year', filter: true},
    {headerName:'Location',field: 'current_address.display_name', filter: true}
-
-
-
  ]);
 
  const onCellValueChanged = (params) => {
@@ -158,6 +137,31 @@ const CseEngineeringMous = (props) => {
       query: queryParams,
     });
   }, []);
+
+  const handleClick =  (selectedRows) => {
+    
+    const tempData = selectedRows;
+    const data = {
+      "fullName" : tempData.name.first_name +" "+  tempData.name.middle_name +" "+ tempData.name.last_name,
+      "current_address": tempData.current_address.display_name,
+      "date_of_birth":tempData.date_of_birth,
+      "photoUrl":tempData.photoUrl,
+      "pass_out_year":tempData.pass_out_year,
+      "branch":tempData.branch,
+      "company":tempData.company,
+      "designation":tempData.designation,
+      "email":tempData.email,
+      "bytes":tempData.bytes,
+      "id":tempData._id
+
+    } // The data you want to pass to the next page
+    const queryParams = new URLSearchParams(data).toString(); // Convert data to query parameters
+    
+    router.push({
+      pathname: '/alumni-list-profile',
+      query: queryParams,
+    });
+  };
 
     return (
         <DefaultLayout modalToggle = {modalToggle} setModalToggle = {setModalToggle}>
@@ -265,7 +269,7 @@ const CseEngineeringMous = (props) => {
                                                           <span className="font-bold"> Location: </span>{item.current_address.display_name} 
                                                           </div>
                                                           
-                                                          <div onClick={()=>{setShowMore(index)}} className="text-primary float-right text-right  right-0 hover:text-orange-800 hover:cursor-pointer px-4 py-4 sm:py-[0.6px]  max-w-[250px]">
+                                                          <div onClick={()=>{handleClick(item)}} className="text-primary float-right text-right  right-0 hover:text-orange-800 hover:cursor-pointer px-4 py-4 sm:py-[0.6px]  max-w-[250px]">
                                                               Show More
                                                           </div>
                                                         
@@ -316,8 +320,8 @@ const CseEngineeringMous = (props) => {
                                   
                                   `}
                              </style>
-                              <div style={containerStyle} className="my-8 sm:hidden ">
-                                    <div style={gridStyle} className="ag-theme-alpine  ">
+                              <div   className="my-8 sm:hidden ">
+                                    <div style={gridStyle} className="ag-theme-alpine h-[900px] -mb-20 ">
                                         <AgGridReact
                                             className="w-full h-full hover:cursor-pointer"
                                             ref={gridRef}

@@ -78,16 +78,16 @@ const MechEngineering = () => {
         <MissionCards />
         <Testimonial>
         <Testimonial.DataCard name="Sudeep" position="UX Specialist" year="2007"  department="Mechanical"  videoIframe={
-<iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/5Wpp0eDMfSg?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)|SUDEEP NAKHE" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/5Wpp0eDMfSg?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)|SUDEEP NAKHE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 } />
 
 
-        <Testimonial.DataCard name="Chetan" position="Marine Engineers" year="2008"  department="Mechanical"  videoIframe={<iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/6GpqIypfb78?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;s College of Engineering (Autonomous) | Chetan Mirajkar" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>} />
+        <Testimonial.DataCard name="Chetan" position="Marine Engineers" year="2008"  department="Mechanical"  videoIframe={<iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/6GpqIypfb78?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;s College of Engineering (Autonomous) | Chetan Mirajkar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>} />
 
 
 
   <Testimonial.DataCard name="Pushkar" position="-----" year="2021"  department="Mechanical"  videoIframe={
-<iframe className="w-[600px] h-[350px] sm:w-fit "   src="https://www.youtube.com/embed/gRPERcb4wUw?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;s College of Engineering (Autonomous) | Pushkar Shinde" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe className="w-[600px] h-[350px] sm:w-fit "   src="https://www.youtube.com/embed/gRPERcb4wUw?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;s College of Engineering (Autonomous) | Pushkar Shinde" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 } />
 
         </Testimonial>

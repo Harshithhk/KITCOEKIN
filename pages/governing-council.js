@@ -114,7 +114,7 @@ const GoverningCouncil = () => {
    ]
   return (
     <DefaultLayout>
-      <div className="w-full ">
+      <div className="w-full bg-secondary">
         <section className="flex flex-col h-[250px] items-center w-full relative">
           <img
             src="/images/AboutUs/bgcircle.png"
@@ -158,49 +158,84 @@ const GoverningCouncil = () => {
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
         
-        <section className=" max-w-fit mx-auto md:mx-0  bg-secondary">
+        <section className="  mx-auto md:mx-0  bg-secondary">
           <section className="relative z-30  mt-2 sm:mt-6 md:w-full pb-20 mx-auto md:mx-0 h-fit px-14 sm:px-4 sm:pb-10  ">
-          <div className="sm:hidden grid grid-cols-4 sm:grid-cols-7 items-center text-slate-500 justify-items-center mt-6  w-full h-16 sm:h-16 p-2 mb-6 shadow-lg rounded-2xl">
-              <div className=" sm:hidden">Sr.No.</div>
-              <div className=" ">Name</div>
-              <div className=" ">Designation</div>
-              <div className=" ">Position</div>
           
-          </div> 
-
-            {governingCouncilList.map((item, index) => {
+              <table className=" sm:hidden mt-6   w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 ">
+                    <tr>
+                        <th scope="col" className="px-6 py-3">
+                        Sr.No
+                        </th>
+                        <th scope="col" className="px-6 py-3">
+                        Name
+                        </th>
+                        <th scope="col" className="px-6 py-3">
+                        Designation
+                        </th>
+                        <th scope="col" className="px-6 py-3">
+                        Position
+                        </th>
+                    </tr>
+                </thead>
+                {governingCouncilList.map((item, index) => {
+                  return (
+                    <>
+                    {/* <div className="sm:hidden grid grid-cols-3 sm:grid-cols-7 items-center justify-items-center sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                        <div className=" sm:hidden ">{item["Sr.No"]}</div>
+                        <div className="">{item["Name"]}</div>
+                        <div className="">{item["Designation"]}</div>
+                        <div className="">{item["Position in Governing Council"]}</div>
+                        
+                    </div> */}
+        
+            <tbody>
+                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 ">
+                    <td scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    {item["Sr.No"]}
+                    </td>
+                    <td className="px-6 py-4">
+                    {item["Name"]}
+                    </td>
+                    <td className="px-6 py-4">
+                    {item["Designation"]}
+                    </td>
+                    <td className="px-6 py-4">
+                        ${item["Position in Governing Council"]}
+                    </td>
+                </tr>
+            
+            </tbody>
+          
+                    </>
+                  )
+                })}
+              </table>
+             {governingCouncilList.map((item, index) => {
                return (
                 <>
-                <div className="sm:hidden grid grid-cols-4 sm:grid-cols-7 items-center justify-items-center sm:gap-x-2 w-full h-fit overflow-x-auto sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
-                    <div className=" sm:hidden ">{item["Sr.No"]}</div>
-                    <div className="">{item["Name"]}</div>
-                    <div className="">{item["Designation"]}</div>
-                    <div className="">{item["Position in Governing Council"]}</div>
-                    
-                </div>
-                <div className=" sm:grid 3xl:hidden 2xl:hidden gap-y-2 divide-y grid-rows-1 items-center text-left  w-full h-fit overflow-x-hidden sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
+                {/* mobile responsive */}
+             <div className=" sm:grid 3xl:hidden 2xl:hidden gap-y-2 divide-y grid-rows-1 items-center text-left  w-full h-fit overflow-x-hidden sm:h-fit p-2 mt-2 shadow-lg rounded-2xl bg-white">
                  
-                  <div className="grid grid-cols-1 gap-y-2">
-                    <div className="text-slate-400">Sr.No.</div>   
-                    <div className="">{item["Sr.No"]}</div>      
-                  </div>
-                  <div className="grid grid-cols-1 gap-y-2">
-                  <div className=" text-slate-400">Name</div>
-                    <div className="">{item["Name"]}</div>      
-                  </div>
-                  <div className="grid grid-cols-1 gap-y-2">
-                  <div className=" text-slate-400">Designation</div>  
-                    <div className="">{item["Designation"]}</div>      
-                  </div>
-                  <div className="grid grid-cols-1 gap-y-2">
-                  <div className=" text-slate-400">Position</div> 
-                    <div className="">{item["Position in Governing Council"]}</div>      
-                  </div>
-                
-                </div>
-                </>
-              )
-            })}
+                 <div className="grid grid-cols-1 gap-y-2">
+                   <div className="text-slate-400">Sr.No.</div>   
+                   <div className="">{item["Sr.No"]}</div>      
+                 </div>
+                 <div className="grid grid-cols-1 gap-y-2">
+                 <div className=" text-slate-400">Name</div>
+                   <div className="">{item["Name"]}</div>      
+                 </div>
+                 <div className="grid grid-cols-1 gap-y-2">
+                 <div className=" text-slate-400">Designation</div>  
+                   <div className="">{item["Designation"]}</div>      
+                 </div>
+                 <div className="grid grid-cols-1 gap-y-2">
+                 <div className=" text-slate-400">Position</div> 
+                   <div className="">{item["Position in Governing Council"]}</div>      
+                 </div>
+               
+               </div>
+                </>)})}
           </section>
         </section>
         <Footer />
