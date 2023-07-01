@@ -16,11 +16,14 @@ module.exports = {
   reactStrictMode: true,
   env: {
     CHATBOT_API: 'https://hashinclude.cloud/mista/getChat',
-    SERVER_API:'https://hashinclude.cloud'
-    // SERVER_API:'http://localhost:5000'
-
+    SERVER_API: 'https://hashinclude.cloud',
+    // SERVER_API: 'http://localhost:5000'
   },
-  compiler: {
-    removeConsole: process.env.NODE_ENV === "production"
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      // Remove console.log statements in production
+      config.optimization.minimizer[0].options.terserOptions.compress.drop_console = true;
+    }
+    return config;
   },
-}
+};
