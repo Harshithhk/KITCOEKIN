@@ -16,16 +16,16 @@ module.exports = {
   reactStrictMode: true,
   env: {
     CHATBOT_API: 'https://hashinclude.cloud/mista/getChat',
-    SERVER_API: 'https://hashinclude.cloud',
-    // SERVER_API: 'http://localhost:5000'
-  },
-  // webpack: (config, { isServer }) => {
-  //   if (!isServer) {
-  //     // Remove console.log statements in production
-  //     config.optimization.minimizer[0].options.terserOptions.compress.drop_console = true;
-  //   }
-  //   return config;
-  // },
-  "presets": ["next/babel"]
+    SERVER_API:'https://hashinclude.cloud'
+    // SERVER_API:'http://localhost:5000'
 
-};
+  },
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      // Specify the path to the SWC binary
+      config.resolve.alias["@next/swc-linux-x64-gnu"] = require.resolve("@next/swc-linux-x64-gnu/path/to/binary");
+    }
+    return config;
+  },
+
+}
