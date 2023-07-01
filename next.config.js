@@ -20,12 +20,7 @@ module.exports = {
     // SERVER_API:'http://localhost:5000'
 
   },
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      // Specify the path to the SWC binary
-      config.resolve.alias["@next/swc-linux-x64-gnu"] = require.resolve("@next/swc-linux-x64-gnu/path/to/binary");
-    }
-    return config;
+  compiler: {
+    removeConsole: process.env.NODE_ENV === "production"
   },
-
 }
