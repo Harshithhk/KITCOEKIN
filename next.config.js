@@ -19,11 +19,13 @@ module.exports = {
     SERVER_API: 'https://hashinclude.cloud',
     // SERVER_API: 'http://localhost:5000'
   },
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      // Remove console.log statements in production
-      config.optimization.minimizer[0].options.terserOptions.compress.drop_console = true;
-    }
-    return config;
-  },
+  // webpack: (config, { isServer }) => {
+  //   if (!isServer) {
+  //     // Remove console.log statements in production
+  //     config.optimization.minimizer[0].options.terserOptions.compress.drop_console = true;
+  //   }
+  //   return config;
+  // },
+  "presets": ["next/babel"]
+
 };
