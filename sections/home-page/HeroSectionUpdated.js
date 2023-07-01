@@ -8,7 +8,7 @@ import Hero5 from "./heroSection/Hero5"
 import React from "react"
 
 const HeroSectionUpdated = () => {
-  const [count, setCount] = React.useState(4)
+  const [count, setCount] = React.useState(0)
 
   // React.useEffect(() => {
   //   setTimeout(()=>{

@@ -10,8 +10,32 @@ import Footer from "../sections/home-page/Footer"
 import Career from "../sections/departments/bsh/career/index"
 import Hod from "../sections/departments/bsh/hod"
 import TnP from "./tnp"
-import Testimonial from "../components/Testimonial"
+import TestimonialSlider from "../components/TestimonialsSlider"
 const BshEngineering = () => {
+  const testimonials = [
+    {
+      name: "-------------",
+      position: "-------------",
+      year: "-------------",
+      department: "------------- -------------",
+      videoIframe: <></>
+    },
+    {
+      name: "-------------",
+      position: "-------------",
+      year: "-------------",
+      department: "------------- -------------",
+      videoIframe: <></>
+    },
+    {
+      name: "-------------",
+      position: "-------------",
+      year: "-------------",
+      department: "------------- -------------",
+      videoIframe: <></>
+    }
+  ];
+  
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -76,15 +100,7 @@ const BshEngineering = () => {
       
         <OurVision />
         <MissionCards />
-            <Testimonial>
-
-            <Testimonial.DataCard name="------------- " position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
-          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
-
-          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
-
-
-            </Testimonial>
+        <TestimonialSlider testimonials = { testimonials} />
         <Footer />
       </div>
     </DefaultLayout>

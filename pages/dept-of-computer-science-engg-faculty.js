@@ -2,6 +2,18 @@ import { useEffect, useState } from "react"
 import DefaultLayout from "../components/DefaultLayout"
 import QuickLinksCard from "../sections/departments/cse/career/quickLinksCard"
 import Footer from "../sections/home-page/Footer"
+export async function getStaticProps() {
+  let staff = []
+  staff = await fetch(process.env.SERVER_API+"/api/teachingstaff?department=Biotechnology Engineering")
+  staff = await staff.json()
+
+  return {
+    props: {
+      staff: staff,
+    },
+    revalidate: 10,
+  }
+}
 
 const CseEngineeringFaculty = ({ staff }) => {
   const [UGstaff, setUGStaff] = useState([])
@@ -92,7 +104,7 @@ const CseEngineeringFaculty = ({ staff }) => {
                           <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
                             <img
                               src={element.imgUrl}
-                              className="object-cover  h-[170px] w-[160px] object-center rounded-lg"
+                              className=" object-fill  h-[170px] w-[160px] object-center rounded-lg"
                               alt={element.name}
                             />
                           </div>
@@ -121,7 +133,7 @@ const CseEngineeringFaculty = ({ staff }) => {
                             Mobile : {element.mobile}
                           </p>
                           <br />
-                          <a href={element.imgUrl}>
+                          <a href={element.fileUrl}>
                             <button
                               type="button"
                               className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
@@ -153,7 +165,7 @@ const CseEngineeringFaculty = ({ staff }) => {
                           <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
                             <img
                               src={element.imgUrl}
-                              className="object-cover  h-[170px] w-[160px] object-center rounded-lg"
+                              className="object-fill  h-[170px] w-[160px] object-center rounded-lg"
                               alt={element.name}
                             />
                           </div>
@@ -182,7 +194,7 @@ const CseEngineeringFaculty = ({ staff }) => {
                             Mobile : {element.mobile}
                           </p>
                           <br />
-                          <a href={element.imgUrl}>
+                          <a href={element.fileUrl}>
                             <button
                               type="button"
                               className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
@@ -211,7 +223,7 @@ const CseEngineeringFaculty = ({ staff }) => {
                           <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px]">
                             <img
                               src={element.imgUrl}
-                              className="object-cover  h-[170px] w-[160px] object-center rounded-lg"
+                              className="object-fill  h-[170px] w-[160px] object-center rounded-lg"
                               alt={element.name}
                             />
                           </div>
@@ -240,7 +252,7 @@ const CseEngineeringFaculty = ({ staff }) => {
                             Mobile : {element.mobile}
                           </p>
                           <br />
-                          <a href={element.imgUrl}>
+                          <a href={element.fileUrl}>
                             <button
                               type="button"
                               className="inline-block px-6 py-2.5 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange-500 hover:shadow-lg focus:bg-orange-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-500 active:shadow-lg transition duration-150 ease-in-out"
@@ -268,18 +280,6 @@ const CseEngineeringFaculty = ({ staff }) => {
   )
 }
 
-export async function getStaticProps() {
-  let staff = []
-  // staff = await fetch("http://localhost:5000/api/teachingstaff")
-  // console.log(staff)
-  // staff = await staff.json()
 
-  return {
-    props: {
-      staff: staff,
-    },
-    revalidate: 10,
-  }
-}
 
 export default CseEngineeringFaculty

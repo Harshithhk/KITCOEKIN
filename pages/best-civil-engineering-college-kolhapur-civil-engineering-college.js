@@ -10,8 +10,33 @@ import Career from "../sections/departments/civil/career/index"
 import Hod from "../sections/departments/civil/hod"
 
 import ImageGrid from "../sections/departments/civil/imageGrid"
-import Testimonial from "../components/Testimonial"
+import TestimonialSlider from "../components/TestimonialsSlider"
 const CivilEngineering = () => {
+
+  const testimonials = [
+    {
+      name: "Amol",
+      position: "DURE TECHNOLOGY",
+      year: "2016",
+      department: "CIVIL",
+      videoIframe: <iframe className="w-[600px] h-[350px] sm:w-fit" src="https://www.youtube.com/embed/LvtgHCvP5G4?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT'S College of Engineering (Autonomous)| Amol Walvekar" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+    },
+    {
+      name: "Amol",
+      position: "DURE TECHNOLOGY",
+      year: "2016",
+      department: "CIVIL",
+      videoIframe: <iframe className="w-[600px] h-[350px] sm:w-fit" src="https://www.youtube.com/embed/LvtgHCvP5G4?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT'S College of Engineering (Autonomous)| Amol Walvekar" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+    },
+    {
+      name: "Amol",
+      position: "DURE TECHNOLOGY",
+      year: "2016",
+      department: "CIVIL",
+      videoIframe: <iframe className="w-[600px] h-[350px] sm:w-fit" src="https://www.youtube.com/embed/LvtgHCvP5G4?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT'S College of Engineering (Autonomous)| Amol Walvekar" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+    }
+  ];
+  
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -76,17 +101,7 @@ const CivilEngineering = () => {
         <Awsome />
         <OurVision />
         <MissionCards />
-        <Testimonial>
-            <Testimonial.DataCard name="Amol" position="DURE TECHNOLOGY" year="2016"  department="CIVIL"  videoIframe={
-            <iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/LvtgHCvP5G4?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)| Amol Walvekar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-            } />
-            <Testimonial.DataCard name="Amol" position="DURE TECHNOLOGY" year="2016"  department="CIVIL"  videoIframe={
-            <iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/LvtgHCvP5G4?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)| Amol Walvekar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-            } />
-            <Testimonial.DataCard name="Amol" position="DURE TECHNOLOGY" year="2016"  department="CIVIL"  videoIframe={
-            <iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/LvtgHCvP5G4?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)| Amol Walvekar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-            } />
-        </Testimonial>
+        <TestimonialSlider testimonials = { testimonials} />
         <Footer />
       </div>
     </DefaultLayout>

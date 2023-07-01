@@ -9,9 +9,33 @@ import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
 import Career from "../sections/departments/cseBusiness/career/"
 import Hod from "../sections/departments/cseBusiness/hod"
-import Testimonial from "../components/Testimonial"
+import TestimonialSlider from "../components/TestimonialsSlider"
 
 const CsBusinessEngineering = () => {
+  const testimonials = [
+    {
+      name: "Ruturaj",
+      position: "Tetra pack",
+      year: "----",
+      department: "Computer Science and Engineering",
+      videoIframe: <iframe className="w-[600px] h-[350px] sm:w-fit" src="https://www.youtube.com/embed/j76u9yH7I8o?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT's College of Engineering (Autonomous) | Ruturaj Patil" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+    },
+    {
+      name: "Siddhi",
+      position: "Emposys",
+      year: "2018",
+      department: "Computer Science and Engineering",
+      videoIframe: <iframe className="w-[600px] h-[350px] sm:w-fit" src="https://www.youtube.com/embed/q6UMMn0wzak?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT's College of Engineering (Autonomous) | Siddhi Jadhav" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+    },
+    {
+      name: "Sagar",
+      position: "------",
+      year: "2011",
+      department: "Computer Science and Engineering",
+      videoIframe: <iframe className="w-[600px] h-[350px] sm:w-fit" src="https://www.youtube.com/embed/Y0Ynv54-hyw?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT's College of Engineering (Autonomous) | Sagar Patil" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+    }
+  ];
+  
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -77,22 +101,7 @@ const CsBusinessEngineering = () => {
         <Awsome />
         <OurVision />
         <MissionCards />
-        <Testimonial>
-        <Testimonial.DataCard name="Ruturaj" position="Tetra pack" year="----"  department="Computer Science and Engineering"  videoIframe={
-<iframe className="w-[600px] h-[350px] sm:w-fit " src="https://www.youtube.com/embed/j76u9yH7I8o?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;s College of Engineering (Autonomous) | Ruturaj Patil" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-} />
-
-
-<Testimonial.DataCard name="Siddhi" position="Emposys" year="2018"  department="Computer Science and Engineering"  videoIframe={
-<iframe className="w-[600px] h-[350px] sm:w-fit " src="https://www.youtube.com/embed/q6UMMn0wzak?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;s College of Engineering (Autonomous) | Siddhi Jadhav" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-} />
-
-
-<Testimonial.DataCard name="Sagar" position="------" year="2011"  department="Computer Science and Engineering"  videoIframe={
-<iframe className="w-[600px] h-[350px] sm:w-fit " src="https://www.youtube.com/embed/Y0Ynv54-hyw?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;s College of Engineering (Autonomous) | Sagar Patil" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-} />
-
-        </Testimonial>
+        <TestimonialSlider testimonials = { testimonials} />
         <Footer />
       </div>
     </DefaultLayout>

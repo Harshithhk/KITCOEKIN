@@ -106,14 +106,14 @@ const SocialMedia = () => {
                 `}</style>
                 <div className='grid grid-cols-1 gap-2 '>  
                     <div className='bg-secondary shadow-xl p-2 sm:p-1 h-[350px] sm:h-[410px] rounded-xl grayscale hover:grayscale-0'>
-                    <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/VQgO5glYXZ4" title="Kolhapur Institute of Technology’s College of Engineering (Autonomous) Kolhapur" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/VQgO5glYXZ4" title="Kolhapur Institute of Technology’s College of Engineering (Autonomous) Kolhapur" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                     <div className='grid grid-cols-2 sm:grid-cols-1 gap-2 h-[300px] sm:h-[100px]'>
                         <div className='bg-secondary  shadow-xl p-2 sm:p-1  rounded-xl grayscale hover:grayscale-0'>
-                        <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/NygCbGFRE3M" title="Kolhapur | ना IIT, ना &#39;मोठी&#39; डीग्री, कोल्हापूरच्या अमृताला तब्बल 41 लाखांचं पॅकेज!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/NygCbGFRE3M" title="Kolhapur | ना IIT, ना &#39;मोठी&#39; डीग्री, कोल्हापूरच्या अमृताला तब्बल 41 लाखांचं पॅकेज!" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                         <div className='bg-secondary  shadow-xl p-2 sm:p-1  rounded-xl grayscale hover:grayscale-0'>
-                            <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/33jCUX_oiIk" title="Smart India Hackathon 2022 #KIT_Kolhapur" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                            <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/33jCUX_oiIk" title="Smart India Hackathon 2022 #KIT_Kolhapur" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>

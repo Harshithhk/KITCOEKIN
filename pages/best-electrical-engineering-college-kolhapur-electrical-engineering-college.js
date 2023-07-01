@@ -10,8 +10,32 @@ import Career from "../sections/departments/electrical/career"
 import Hod from "../sections/departments/electrical/hod"
 import ImageGrid from "../sections/departments/electrical/imageGrid"
 import TnP from "./tnp"
-import Testimonial from "../components/Testimonial"
+import TestimonialSlider from "../components/TestimonialsSlider"
 const ElectEntineering = () => {
+  const testimonials = [
+    {
+      name: "-------------",
+      position: "-------------",
+      year: "-------------",
+      department: "------------- -------------",
+      videoIframe: <></>
+    },
+    {
+      name: "-------------",
+      position: "-------------",
+      year: "-------------",
+      department: "------------- -------------",
+      videoIframe: <></>
+    },
+    {
+      name: "-------------",
+      position: "-------------",
+      year: "-------------",
+      department: "------------- -------------",
+      videoIframe: <></>
+    }
+  ];
+  
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -76,13 +100,7 @@ const ElectEntineering = () => {
         <Awsome />
         <OurVision />
         <MissionCards />
-            <Testimonial>
-            <Testimonial.DataCard name="------------- " position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
-          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
-
-          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
-
-            </Testimonial>
+        <TestimonialSlider testimonials = { testimonials} />
         <Footer />
       </div>
     </DefaultLayout>

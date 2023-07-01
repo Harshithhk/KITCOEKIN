@@ -12,8 +12,32 @@ import Footer from "../sections/home-page/Footer"
 // import Career from "../sections/departments/career"
 // import Hod from "../sections/departments/hod"
 import TnP from "./tnp"
-import Testimonial from "../components/Testimonial"
+import TestimonialSlider from "../components/TestimonialsSlider"
 const ElectronicsEngineering = () => {
+  const testimonials = [
+    {
+      name: "-------------",
+      position: "-------------",
+      year: "-------------",
+      department: "------------- -------------",
+      videoIframe: <></>
+    },
+    {
+      name: "-------------",
+      position: "-------------",
+      year: "-------------",
+      department: "------------- -------------",
+      videoIframe: <></>
+    },
+    {
+      name: "-------------",
+      position: "-------------",
+      year: "-------------",
+      department: "------------- -------------",
+      videoIframe: <></>
+    }
+  ];
+  
   return (
     <DefaultLayout>
       <div className="w-full">
@@ -78,13 +102,7 @@ const ElectronicsEngineering = () => {
         <Awsome />
         <OurVision />
         <MissionCards />
-        <Testimonial>
-        <Testimonial.DataCard name="------------- " position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
-          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
-
-          <Testimonial.DataCard name="-------------" position="-------------" year="-------------"  department="------------- -------------"  videoIframe={<></>} />
-
-        </Testimonial>
+        <TestimonialSlider testimonials = { testimonials} />
         <Footer />
       </div>
     </DefaultLayout>

@@ -51,7 +51,7 @@ const Career = (props) => {
             CONSTRUCTING A <span className="text-primary "> BENIFIT</span> For ALL ALUMNI!
           </div>
           <div className="mt-12  sm:w-full bg-transparent leading-[50px]  sm:mt-4">
-          <iframe className="w-[700px] h-[320px] sm:w-auto rounded-lg" src="https://www.youtube.com/embed/6L2T1G_QDWQ?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)|MURLIDHAR PARULEKAR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <iframe className="w-[700px] h-[320px] sm:w-auto rounded-lg" src="https://www.youtube.com/embed/6L2T1G_QDWQ?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)|MURLIDHAR PARULEKAR" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           
           </div>
         </div>
