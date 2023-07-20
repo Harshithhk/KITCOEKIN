@@ -1,5 +1,5 @@
 module.exports = {
-  swcMinify: false,
+  "presets": ["next/babel"],
   async headers() {
     return [
       {
