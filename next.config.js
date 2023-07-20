@@ -1,5 +1,4 @@
 module.exports = {
-  "presets": ["next/babel"],
   async headers() {
     return [
       {
