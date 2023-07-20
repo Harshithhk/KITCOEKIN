@@ -3,9 +3,40 @@ import ForumComments from "./forumComments";
 import AchievementsCard from "../../../components/AchievementsCard";
 
 const Achievement = (props) =>{
-	let AchievementList = props.AchievementList
 	const [readMore, setReadMore] = React.useState("");
 	const [readMoreIndex, setReadMoreIndex] = React.useState("");
+
+	const [AchievementList, setAchievementList] = React.useState([]);
+
+
+	React.useEffect(async () => {
+		const month = [
+			"January",
+			"February",
+			"March",
+			"April",
+			"May",
+			"June",
+			"July",
+			"August",
+			"September",
+			"October",
+			"November",
+			"December",
+		  ]
+		  const updatedAchievement = props.AchievementList.map((element) => {
+			const date = new Date(element.date);
+			const day = date.getDate();
+			const year = date.getFullYear();
+			const monthName = month[date.getMonth()];
+			const dayName = date.toLocaleString("en-US", { weekday: "long" }); // Get the day name
+	  
+			element.date = `${dayName}, ${day} ${monthName} ${year}`;
+			return element;
+		  });
+		  setAchievementList(updatedAchievement)
+	  }, [])
+
 
     return(
     <>

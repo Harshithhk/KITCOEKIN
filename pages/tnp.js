@@ -70,28 +70,28 @@ const TnP = () => {
             alt=""
           /> */}
 
-          <div className="flex justify-between sm:flex-col">
+          <div className="flex justify-between sm:flex-col items-center">
             <div>
               <div className="pt-28 sm:pt-20 text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                 TPO&apos;S MESSAGE
               </div>
               <div className="mt-10 text-justify sm:mt-4 w-[800px] text-xl text-accent sm:w-full sm:text-base">
-                This era of globalization has opened enormous opportunities for
-                young and talented budding engineers in all the walks of life.
-                As a result, the expectations from the young engineers are that
-                they should mould themselves seamlessly in to the global
-                corporate culture. The T&P department provides ample
-                opportunities for placements and entrepreneurship by organizing
-                seminars, workshops and training programs for enhancing the
-                personality traits and facilitates the transition of our
-                students from academics to corporate life.
+              Kolhapur Institute of Technology, (Autonomous), Kolhapur has always been a step ahead when it comes to placements. Our students are prepared for the opportunities that await them in the professional arena. The Placement Cell operates round the year to facilitate contacts between companies and graduates. The Placement details of our students are an indicative factor that the college is having very fruitful and meaningful relations with the industries. We have been successful in maintaining our high placement statistics over the years and the fact that our students have achieved record breaking placements itself is a testimony to our quality.
+              <br/>
+              <br/>
+              Aptitude testing has become an inherent part of all recruitment processes and hence aptitude skills are imperative for the career and so are soft skills. Soft skills are different from other skills in terms of it being the only set of skills which can never truly be crammed into anybody. No one can teach you how to behave, but a basic knowledge of social etiquette and professional Nothing beats the feeling of leaving your campus with one or more offer letter(s) in hand and we at placement cell make sure each of our student gets to experience that happiness.
+              <br/>
+              <br/><hr></hr> 
+            <span className=" font-bold"> Education Details Verification of Passout Students:<br/><br/>Contact Details :</span><br/><br/>
+Mr. Vishwas Patil<br/>
+Contact No. 7588065014<br/>
+emailID- kitcoek.registrar@gmail.com
               </div>
             </div>
-            <div className="md:mx-auto w-[300px] h-[370px] bg-transparent   mt-16 mr-6 rounded-xl text-white text-2xl md:text-xl  items-center justify-between flex flex-col md:mt-14">
-              <div className="absolute bg-[#24346D]  w-[300px] sm:w-[305px] h-36 mt-36"></div>
-              <div className="overflow-hidden relative bg-transparent sm:-mx-1 sm:-mt-1 ">
-                <img src="/images/TnP/amit-sarkar.png " className=" " alt="mamtakalas.png" />
+            <div className="md:mx-auto w-[300px]  h-[370px] bg-transparent  mr-6 rounded-xl text-white text-2xl md:text-xl   flex flex-col md:mt-14">
+              <div className="overflow-hidden relative xl:w-[250px] bg-transparent sm:-mx-1 sm:-mt-1 ">
+                <img src="/images/TnP/amit-sarkar-training-placement-head.jpg " className=" " alt="mamtakalas.png" />
               </div>
               <div className="mt-2 mb-2 flex flex-col py-2 items-center  text-[#24346D]">
                   <div className="bg-primary w-16 h-[3px]   rounded-xl"></div>

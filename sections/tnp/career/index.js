@@ -31,12 +31,12 @@ const Career = () => {
            <div className="grid grid-cols-1 bg-white rounded-xl items-center  shadow-lg justify-center p-4 divide-y">
 
             <div className="grid grid-cols-3 text-center text-slate-400 p-2">
-              <div  onClick={()=>{setTab1(tab1 = true,setTab2(tab2=false),setTab3(tab3=false))}} className={tab1?"transition-all cursor-pointer sm:text-sm text-[#24346D] font-semibold  underline underline-offset-[16px] sm:underline-offset-8 ":"transition-all cursor-pointer sm:text-sm hover:text-[#24346D] hover:font-semibold  hover:underline hover:underline-offset-[16px] "}>2019-2020</div>
-              <div  onClick={()=>{setTab2(tab2 = true,setTab1(tab1=false),setTab3(tab3=false))}}  className={tab2?"transition-all cursor-pointer sm:text-sm text-[#24346D] font-semibold  underline underline-offset-[16px] sm:underline-offset-8  ":"transition-all cursor-pointer sm:text-sm hover:text-[#24346D] hover:font-semibold  hover:underline hover:underline-offset-[16px] "}>2020-2021</div>
-              <div  onClick={()=>{setTab3(tab3 = true,setTab2(tab2=false),setTab1(tab1=false))}}  className={tab3?"transition-all cursor-pointer sm:text-sm text-[#24346D] font-semibold  underline underline-offset-[16px] sm:underline-offset-8  ":"transition-all cursor-pointer sm:text-sm hover:text-[#24346D] hover:font-semibold  hover:underline hover:underline-offset-[16px] "}>2021-2022</div>
+              <div  onClick={()=>{setTab1(tab1 = true,setTab2(tab2=false),setTab3(tab3=false))}} className={tab1?"transition-all cursor-pointer sm:text-sm text-[#24346D] font-semibold  underline underline-offset-[16px] sm:underline-offset-8 ":"transition-all cursor-pointer sm:text-sm hover:text-[#24346D] hover:font-semibold  hover:underline hover:underline-offset-[16px] "}>2020-2021</div>
+              <div  onClick={()=>{setTab2(tab2 = true,setTab1(tab1=false),setTab3(tab3=false))}}  className={tab2?"transition-all cursor-pointer sm:text-sm text-[#24346D] font-semibold  underline underline-offset-[16px] sm:underline-offset-8  ":"transition-all cursor-pointer sm:text-sm hover:text-[#24346D] hover:font-semibold  hover:underline hover:underline-offset-[16px] "}>2021-2022</div>
+              <div  onClick={()=>{setTab3(tab3 = true,setTab2(tab2=false),setTab1(tab1=false))}}  className={tab3?"transition-all cursor-pointer sm:text-sm text-[#24346D] font-semibold  underline underline-offset-[16px] sm:underline-offset-8  ":"transition-all cursor-pointer sm:text-sm hover:text-[#24346D] hover:font-semibold  hover:underline hover:underline-offset-[16px] "}>2022-2023</div>
             </div>
 
-            <div className={tab1?"grid grid-rows-3 divide-y":"hidden"}>
+            {/* <div className={tab1?"grid grid-rows-3 divide-y":"hidden"}>
               <div className="py-2 px-16 sm:px-0">
                 <p className="mb-1 text-4xl font-bold text-primary">253</p>
                 <p className="text-base font-normal text-accent">Total Job Offers Received</p>
@@ -53,8 +53,8 @@ const Career = () => {
                 <p className="mb-1 text-4xl font-bold text-primary">7.5 LPA</p>
                 <p className="text-base font-normal text-accent">Highest Pay Package (Rs.)</p>
               </div>
-            </div>
-            <div className={tab2?"grid grid-rows-3 divide-y":"hidden"}>
+            </div> */}
+            <div className={tab1?"grid grid-rows-3 divide-y":"hidden"}>
               <div className="py-2 px-16 sm:px-0">
                 <p className="mb-1 text-4xl font-bold text-primary">413</p>
                 <p className="text-base font-normal text-accent">Total Job Offers Received</p>
@@ -72,17 +72,35 @@ const Career = () => {
                 <p className="text-base font-normal text-accent">Highest Pay Package (Rs.)</p>
               </div>
             </div>
-            <div className={tab3?"grid grid-rows-3 divide-y":"hidden"}>
+            <div className={tab2?"grid grid-rows-3 divide-y":"hidden"}>
               <div className="py-2 px-16 sm:px-0">
-                <p className="mb-1 text-4xl font-bold text-primary">576</p>
+                <p className="mb-1 text-4xl font-bold text-primary">626</p>
                 <p className="text-base font-normal text-accent">Total Job Offers Received</p>
               </div>
               <div className="py-2 px-16 sm:px-0">
-                <p className="mb-1 text-4xl font-bold text-primary">55</p>
+                <p className="mb-1 text-4xl font-bold text-primary">73</p>
                 <p className="text-base font-normal text-accent">No of Companies</p>
               </div>
               <div className="py-2 px-16 sm:px-0">
-                <p className="mb-1 text-4xl font-bold text-primary">5.85 LPA</p>
+                <p className="mb-1 text-4xl font-bold text-primary">5.20 LPA</p>
+                <p className="text-base font-normal text-accent">Average Pay Package (Rs.)</p>
+              </div>
+              <div className="py-2 px-16 sm:px-0">
+                <p className="mb-1 text-4xl font-bold text-primary">41.00 LPA</p>
+                <p className="text-base font-normal text-accent">Highest Pay Package (Rs.)</p>
+              </div>
+            </div>
+            <div className={tab3?"grid grid-rows-3 divide-y":"hidden"}>
+              <div className="py-2 px-16 sm:px-0">
+                <p className="mb-1 text-4xl font-bold text-primary">802</p>
+                <p className="text-base font-normal text-accent">Total Job Offers Received</p>
+              </div>
+              <div className="py-2 px-16 sm:px-0">
+                <p className="mb-1 text-4xl font-bold text-primary">81</p>
+                <p className="text-base font-normal text-accent">No of Companies</p>
+              </div>
+              <div className="py-2 px-16 sm:px-0">
+                <p className="mb-1 text-4xl font-bold text-primary">6.00 LPA</p>
                 <p className="text-base font-normal text-accent">Average Pay Package (Rs.)</p>
               </div>
               <div className="py-2 px-16 sm:px-0">

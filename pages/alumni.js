@@ -3,7 +3,7 @@ import Footer from "../sections/home-page/Footer"
 import Career from "../sections/alumni/career"
 import React from "react"
 import dynamic from 'next/dynamic'
-import NewsAndNotices from "../sections/alumni/NewsAndNotices"
+import Activity from "../sections/alumni/NewsAndNotices"
 import Overviews from "../sections/alumni/Overviews"
 import AboutUs from "../sections/alumni/AboutUs"
 import {checkTokenExpiration,isUserSignedIn} from "../utils/auth"
@@ -17,22 +17,25 @@ export async function getStaticProps() {
   AlumniList = await fetch(
       `${process.env.SERVER_API}/api/alumni/`
   )
-  
+  let activities = []
+  activities = await fetch(
+    process.env.SERVER_API+"/api/alumni/activity"
+  )
+  activities = await activities.json()
   AlumniList = await AlumniList.json()
 
   return {
     props: {
       AlumniList: AlumniList,
-      
+      activities: activities,
     },
     revalidate: 10,
   }
 }
+
 const Alumni = (props) => {
   const [modalToggle, setModalToggle] = React.useState("");
 
-  let news = []
-  let notices = []
 
 
   const [test, setTest] = React.useState(0);
@@ -99,8 +102,9 @@ const Alumni = (props) => {
      
         <section className="pt-16 sm:pt-1 mt-16 mb-[-60px] overflow-clip bg-[#F8F7FC] max-w-screen">
           <Career setModalToggle = {setModalToggle} />
-          <NewsAndNotices  news={news} notices={notices} />
+          <Activity  activities={props.activities} />
           <Overviews />
+         
         </section>
         <Footer />
       </div>

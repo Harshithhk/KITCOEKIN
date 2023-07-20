@@ -3,9 +3,38 @@ import ForumComments from "./forumComments";
 import ActivitiesCard from "../../../components/ActivitiesCard";
 
 const Activity = (props) =>{
-	let ActivityList = props.ActivityList
 	const [readMore, setReadMore] = React.useState("");
 	const [readMoreIndex, setReadMoreIndex] = React.useState("");
+	const [ActivityList, setActivityList] = React.useState([]);
+
+
+	React.useEffect(async () => {
+		const month = [
+			"January",
+			"February",
+			"March",
+			"April",
+			"May",
+			"June",
+			"July",
+			"August",
+			"September",
+			"October",
+			"November",
+			"December",
+		  ]
+		  const updatedActivity = props.ActivityList.map((element) => {
+			const date = new Date(element.date);
+			const day = date.getDate();
+			const year = date.getFullYear();
+			const monthName = month[date.getMonth()];
+			const dayName = date.toLocaleString("en-US", { weekday: "long" }); // Get the day name
+	  
+			element.date = `${dayName}, ${day} ${monthName} ${year}`;
+			return element;
+		  });
+		setActivityList(updatedActivity)
+	  }, [])
 
     return(
     <>

@@ -4,7 +4,25 @@ import QuickLinksCard from "../sections/alumni/career/quickLinksCard"
 import Forum from "../sections/alumni/forum"
 import Footer from "../sections/home-page/Footer"
 import React from "react"
-const CseEngineeringMous = () => {
+
+export async function getStaticProps() {
+  
+  let achievements = []
+  achievements = await fetch(
+    process.env.SERVER_API+"/api/alumni/achievement"
+  )
+  achievements = await achievements.json()
+
+  return {
+    props: {
+      achievements: achievements,
+    },
+    revalidate: 10,
+  }
+}
+
+
+const CseEngineeringMous = (props) => {
     const [modalToggle, setModalToggle] = React.useState("");
 
     let AchievementList = [{
@@ -112,7 +130,7 @@ const CseEngineeringMous = () => {
                             </div>
                             {/* -------------- */}
                        
-                           <Achievement AchievementList = {AchievementList} />
+                           <Achievement AchievementList = {props.achievements} />
                          
                         </section>
 

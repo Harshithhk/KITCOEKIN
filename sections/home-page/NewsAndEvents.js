@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState, useRef } from "react"
 
 import NewsAndEventsModal from "../../components/nwesAndEventsModal"
 
@@ -58,10 +58,93 @@ function NewsAndEvents(props) {
 
     console.log({ news, events })
   }, [])
-let bodySt = "asdkj ashfkjsd fhksdfk jhsdkaf aksdjh sdkfhj kjsdf kjdsf jsjdfhj sdfh jsdf f ksdh lf lsXCV XCKVLX CVLKXC VLXCV XKCVJLX CV XLCKVJ XLKCJK dfasdjhf sdfh skldhf k skdfh ksldhf hkdsf K KDI FJH"
  
+  const scrollableElement1 = useRef(null);
+  const scrollableElement2 = useRef(null);
+
+  const maxHeight1 = useRef(0);
+  const maxHeight2 = useRef(0);
+
+  const scrollStep = 1;
+  const scrollInterval = 50; // Adjust this value to control the scrolling speed
+ 
+  useEffect(() => {
+    const element = scrollableElement1.current;
+    maxHeight1.current = element.scrollHeight - element.clientHeight +20;
+    let currentScroll = element.scrollTop;
+    let isScrolling = false;
+  
+    const intervalId = setInterval(() => {
+      if (!isScrolling) {
+        currentScroll += scrollStep;
+  
+        if (currentScroll >= maxHeight1.current) {
+          currentScroll = 0; // Reset scroll position to the top
+        }
+  
+        element.scrollTop = currentScroll;
+      }
+    }, scrollInterval);
+  
+    const handleScroll = () => {
+      isScrolling = true;
+      clearTimeout(timeoutId);
+  
+      const timeoutId = setTimeout(() => {
+        isScrolling = false;
+      }, 10); // Adjust this value to set the timeout delay after manual scrolling stops
+  
+      currentScroll = element.scrollTop;
+    };
+  
+    element.addEventListener('scroll', handleScroll);
+  
+    return () => {
+      clearInterval(intervalId);
+      element.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  
+  useEffect(() => {
+    const element = scrollableElement2.current;
+    maxHeight2.current = element.scrollHeight - element.clientHeight +20;
+    let currentScroll = element.scrollTop;
+    let isScrolling = false;
+  
+    const intervalId = setInterval(() => {
+      if (!isScrolling) {
+        currentScroll += scrollStep;
+  
+        if (currentScroll >= maxHeight2.current) {
+          currentScroll = 0; // Reset scroll position to the top
+        }
+  
+        element.scrollTop = currentScroll;
+      }
+    }, scrollInterval);
+  
+    const handleScroll = () => {
+      isScrolling = true;
+      clearTimeout(timeoutId);
+  
+      const timeoutId = setTimeout(() => {
+        isScrolling = false;
+      }, 10); // Adjust this value to set the timeout delay after manual scrolling stops
+  
+      currentScroll = element.scrollTop;
+    };
+  
+    element.addEventListener('scroll', handleScroll);
+  
+    return () => {
+      clearInterval(intervalId);
+      element.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <section className="flex mt-16 mb-16 md:mb-8 md:mt-8 md:flex-col">
+      
       <section className="w-1/2 md:w-full pl-[50px] pr-[2.5%] md:p-[16px]">
       <NewsAndEventsModal showModal = {showModal} setShowModal = {setShowModal} modalDetails={modalDetails} />
         {/* TITLE */}
@@ -72,14 +155,14 @@ let bodySt = "asdkj ashfkjsd fhksdfk jhsdkaf aksdjh sdkfhj kjsdf kjdsf jsjdfhj s
           </div>
         </div>
         {/* CONTENT */}
-        <div className="mt-8">
+        <div ref={scrollableElement1} className="mt-8 overflow-y-scroll h-[450px]">
           {news &&
             news.map((element, index) => (
               <div
                 key={element._id}
-                data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-delay={`${index * 10}`}
+                // data-aos="fade-up"
+                // data-aos-anchor-placement="top-bottom"
+                // data-aos-delay={`${index * 10}`}
                 className="cursor-pointer relative group hover:shadow-lg  transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl overflow-hidden"
               >
                 
@@ -135,15 +218,16 @@ let bodySt = "asdkj ashfkjsd fhksdfk jhsdkaf aksdjh sdkfhj kjsdf kjdsf jsjdfhj s
             EVENTS
           </div>
         </div>
-        <div className="mt-8">
+        <div ref={scrollableElement2} className="mt-8 overflow-y-scroll h-[450px] ">
           {events &&
             events.map((event, index) => (
               <div
                 key={event._id}
-                data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-delay={`${index * 20}`}
-                className="cursor-pointer relative group hover:shadow-lg  transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl overflow-hidden"
+                // data-aos="fade-up"
+                // data-aos-anchor-placement="top-bottom"
+                // data-aos-delay={`${index * 20}`}
+
+                className={`cursor-pointer  relative group hover:shadow-lg  transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl overflow-hidden`}
               >
                 
                 <p onClick={()=>{setShowModal(1);setModalDetails({title:event.title,shortDescription:event.shortDescription,fullDescription:event.fullDescription,date:event.date,fromTime:event.fromTime,toTime:event.toTime,link:event.link,fileUrl:event.fileUrl})}} className="bg-white w-full h-full bg-opacity-0 opacity-0 absolute group-hover:bg-opacity-[0.8] group-hover:opacity-100 bg-bla transition-opacity duration-300 text-center items-center flex justify-center font-semibold text-2xl text-primary">Read More ...</p>

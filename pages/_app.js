@@ -27,7 +27,31 @@ Router.events.on("routeChangeError", () => {
 
 function MyApp({ Component, pageProps }) {
  
-  return <Component {...pageProps} />
+  return <><style>{`/* width */
+  ::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #edf2f7;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e0;
+    border-radius: 100vh;
+    border: 3px solid #edf2f7;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a0aec0;
+  }`}</style>
+  <Component {...pageProps} />
+  </>
 
 }
 

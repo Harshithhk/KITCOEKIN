@@ -60,24 +60,24 @@ const Navbar = () => {
           <ExamCell />
           <Link href="/alumni" passHref>
 
-            <li href="#" className={`flex items-end ${router.route != "/" ? "text-white" : "text-black"} lg:hidden cursor-pointer`}>
+            <li  className={`flex items-end ${router.route != "/" ? "text-white" : "text-black"}  cursor-pointer`}>
               ALUMNI
             </li>
           </Link>
           <Link href="/contact" passHref>
 
-            <li href="#" className="flex items-end lg:hidden cursor-pointer">
+            <li  className={`flex items-end ${router.route != "/" ? "text-white" : "text-black"} min-1200:hidden lg:hidden cursor-pointer`}>
               <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
               CONTACT
             </li>
           </Link>
           <Link href="/apply-admission" passHref>
-            <li className="flex items-end lg:hidden cursor-pointer">
+            <li className={`flex items-end ${router.route != "/" ? "text-white" : "text-black"} min-1200:hidden lg:hidden cursor-pointer`}>
               <img src="/images/Navbar/Mention.svg" className="mr-2" alt="" />
               APPLY
             </li>
           </Link>
-          <li href="#" className="flex items-center mt-[5px] cursor-pointer">
+          <li  className="flex items-center mt-[5px] cursor-pointer">
             <div
               className="ml-auto space-y-2 HAMBURGER-ICON "
               onClick={() => setOthersNavOpen((prev) => !prev)}

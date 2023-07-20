@@ -21,6 +21,7 @@ import Testimonials from "../sections/about-us/Testimonials"
 import TestimonialSlide from "../sections/home-page/TestimonialsSlide"
 import SocialMedia from "../sections/home-page/SocialMedia"
 import TestimonialSlider from "../components/TestimonialsSlider"
+import VideoSection from "../sections/home-page/videoSection"
 export async function getStaticProps() {
   let news = []
   let events = []
@@ -75,6 +76,7 @@ const testimonials = [
     <DefaultLayout>
       <HeroSectionUpdated />
       {/* <HeroSection /> */}
+      <VideoSection />
       <BtechHonours />
       <NewVision />
       <Accredations />

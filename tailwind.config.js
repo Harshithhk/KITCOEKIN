@@ -98,7 +98,12 @@ module.exports = {
           '100%': {
             boxShadow: 'var(--tw-offset) var(--tw-lat) var(--tw-color-2), (-var(--tw-offset)) (-var(--tw-lat)) var(--tw-color-4)',
           },
-        }
+        },
+        scrollY: {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(calc(-450px))' },
+        },
+        
       },
       animation: {
         "fade-out-down": "fade-out-down 0.5s ease-out ",
@@ -109,6 +114,7 @@ module.exports = {
         wiggle2: "wiggle2 7s ease-in-out infinite",
         'before-animation': 'before-animation 2s infinite',
         'after-animation': 'after-animation 2s infinite',
+        "scroll-y": 'scrollY 30s linear infinite',
 
       },
     },
@@ -116,6 +122,8 @@ module.exports = {
       xxl: { max: "3000px" },
       "2xl": { max: "1540px" },
       "3xl": { min: "1540px" },
+      "min-1200": { max: "1200px" },
+
       // => @media (max-width: 1535px) { ... }
 
       "1xl": { max: "1200px" },
