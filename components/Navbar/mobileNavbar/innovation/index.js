@@ -35,20 +35,28 @@ const Innovation = (props) => {
    
   
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">IIC-KITCOEK</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">IIC-KITCOEK</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">KITE</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">KITE</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">E-Cell</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">E-Cell</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">ARIIA</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">ARIIA</span>
+      </Link>
     </li>
   
     <li>
-        <h4 onClick={() => (setNav1(!nav1))} href="#" className="p-3 flex items-center hover:bg-slate-200 ">
+        <h4 onClick={() => (setNav1(!nav1))}  className="p-3 flex items-center hover:bg-slate-200 ">
         MAYURA AICTE Idea Lab
           <svg
             className={
@@ -71,28 +79,44 @@ const Innovation = (props) => {
         {nav1 === true ? 
         <ul className="px-4 w-full divide-y-2  ">      
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Activities</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Activities</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Layout</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Layout</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Advisory Committee</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Advisory Committee</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Mentor Committee</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Mentor Committee</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Lab Team</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Lab Team</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Industry Connect</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Industry Connect</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Student Ambasadoors</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Student Ambasadoors</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Tender Notice</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Tender Notice</span>
+            </Link>
           </li>
         </ul> : null}
     </li>

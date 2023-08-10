@@ -32,13 +32,17 @@ const Admissions = (props) => {
    
   
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Undergraduate</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Undergraduate</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Postgraduate</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Postgraduate</span>
+      </Link>
     </li>
     <li>
-        <h4 onClick={() => (setNav1(!nav1))} href="#" className="p-3 flex items-center hover:bg-slate-200 ">
+        <h4 onClick={() => (setNav1(!nav1))}  className="p-3 flex items-center hover:bg-slate-200 ">
         Ph.D. Program
           <svg
             className={
@@ -61,13 +65,17 @@ const Admissions = (props) => {
         {nav1 === true ? 
         <ul className="px-4 w-full divide-y-2 ">      
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Admission Form</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Admission Form</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Rules & Regulations</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Rules & Regulations</span>
+            </Link>
           </li>
           <li>
-            <h5 onClick={() => (setNav2(!nav2))} href="#" className="flex items-center p-3 hover:bg-slate-200 ">
+            <h5 onClick={() => (setNav2(!nav2))}  className="flex items-center p-3 hover:bg-slate-200 ">
               Ph.D. Research centers
               <svg
                 className={
@@ -91,7 +99,9 @@ const Admissions = (props) => {
               nav2 === true ? 
               <ul className="px-4 w-full  divide-y-2">      
                 <li>
-                  <a href="#" className="block p-3 hover:bg-slate-200 ">Electronic Engineering</a>
+                  <Link passHref href="">
+                  <span  className="block p-3 hover:bg-slate-200 ">Electronic Engineering</span>
+                  </Link>
                 </li>
               </ul>:null
             }

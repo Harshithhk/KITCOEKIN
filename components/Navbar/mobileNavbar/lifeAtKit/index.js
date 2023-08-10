@@ -35,22 +35,32 @@ const LifeAtKit = (props) => {
    
   
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Cultural</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Cultural</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">National Service Scheme (NSS)</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">National Service Scheme (NSS)</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">NCC</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">NCC</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Technique-2022</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Technique-2022</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">360 Degree Feedback 2020-2021</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">360 Degree Feedback 2020-2021</span>
+      </Link>
     </li> 
     <li>
-        <h4 onClick={() => (setNav1(!nav1))} href="#" className="p-3 flex items-center hover:bg-slate-200 ">
+        <h4 onClick={() => (setNav1(!nav1))}  className="p-3 flex items-center hover:bg-slate-200 ">
         Facilities
           <svg
             className={
@@ -73,16 +83,24 @@ const LifeAtKit = (props) => {
         {nav1 === true ? 
         <ul className="px-4 w-full divide-y-2  ">      
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Library</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Library</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Hostel</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Hostel</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Gymkhana</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Gymkhana</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Canteen</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Canteen</span>
+            </Link>
           </li>
           
         </ul> : null}

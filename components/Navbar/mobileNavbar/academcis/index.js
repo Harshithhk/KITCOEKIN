@@ -35,13 +35,17 @@ const Academics = (props) => {
    
   
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Rules & Regulation UG</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Rules & Regulation UG</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Rules & Regulation PG</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Rules & Regulation PG</span>
+      </Link>
     </li>
     <li>
-        <h4 onClick={() => (setNav1(!nav1))} href="#" className="p-3 flex items-center hover:bg-slate-200 ">
+        <h4 onClick={() => (setNav1(!nav1))}  className="p-3 flex items-center hover:bg-slate-200 ">
         Online Syllabus
           <svg
             className={
@@ -64,23 +68,31 @@ const Academics = (props) => {
         {nav1 === true ? 
         <ul className="px-4 w-full divide-y-2  ">      
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">2022-23 Scheme</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">2022-23 Scheme</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">2017-old Scheme</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">2017-old Scheme</span>
+            </Link>
           </li>
  
           
         </ul> : null}
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Moodle Links</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Moodle Links</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Contineo Links</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Contineo Links</span>
+      </Link>
     </li>
     <li>
-        <h4 onClick={() => (setNav2(!nav2))} href="#" className="p-3 flex items-center hover:bg-slate-200 ">
+        <h4 onClick={() => (setNav2(!nav2))}  className="p-3 flex items-center hover:bg-slate-200 ">
         Internship Policy
           <svg
             className={
@@ -103,17 +115,21 @@ const Academics = (props) => {
         {nav2 === true ? 
         <ul className="px-4 w-full divide-y-2  ">      
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Guideline & Procedure</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Guideline & Procedure</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Guidelines for Internship & Project Accounted</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Guidelines for Internship & Project Accounted</span>
+            </Link>
           </li>
  
           
         </ul> : null}
     </li>
     <li>
-        <h4 onClick={() => (setNav3(!nav3))} href="#" className="p-3 flex items-center hover:bg-slate-200 ">
+        <h4 onClick={() => (setNav3(!nav3))}  className="p-3 flex items-center hover:bg-slate-200 ">
         Academic Council Meeting Proceedings
           <svg
             className={
@@ -136,28 +152,40 @@ const Academics = (props) => {
         {nav3 === true ? 
         <ul className="px-4 w-full divide-y-2  ">      
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Meeting 27-11-2021</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Meeting 27-11-2021</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Meeting 5 - 9-July-2020</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Meeting 5 - 9-July-2020</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Meeting 4 - 5-Oct-2019</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Meeting 4 - 5-Oct-2019</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Meeting 3 - 2-March-2019</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Meeting 3 - 2-March-2019</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Meeting 2 - 6-July-2018</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Meeting 2 - 6-July-2018</span>
+            </Link>
           </li>
           <li>
-            <a href="#" className="block p-3 hover:bg-slate-200 ">Meeting 1 - 21-July-2017</a>
+            <Link passHref href="">
+            <span  className="block p-3 hover:bg-slate-200 ">Meeting 1 - 21-July-2017</span>
+            </Link>
           </li>
      
         </ul> : null}
     </li>
     <li>
-        <h4 onClick={() => (setNav4(!nav4))} href="#" className="p-3 flex items-center hover:bg-slate-200 ">
+        <h4 onClick={() => (setNav4(!nav4))}  className="p-3 flex items-center hover:bg-slate-200 ">
         Academic Calendar
           <svg
             className={
@@ -180,7 +208,7 @@ const Academics = (props) => {
         {nav4 === true ? 
         <ul className="px-4 w-full divide-y-2  ">      
           <li>
-            <h5 onClick={() => (setNav5(!nav5))} href="#" className="flex items-center p-3 hover:bg-slate-200 ">
+            <h5 onClick={() => (setNav5(!nav5))}  className="flex items-center p-3 hover:bg-slate-200 ">
             Academic Calendar 2022-2023
               <svg
                 className={
@@ -204,22 +232,34 @@ const Academics = (props) => {
               nav5 === true ? 
               <ul className="px-4 w-full divide-y-2  ">      
                 <li>
-                  <a href="#" className="block p-3 hover:bg-slate-200 ">SEM-II -TY B.Tech, B. Tech.</a>
+                  <Link passHref href="">
+                  <span  className="block p-3 hover:bg-slate-200 ">SEM-II -TY B.Tech, B. Tech.</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="block p-3 hover:bg-slate-200 ">SEM-II -FY B.Tech, M.Tech</a>
+                  <Link passHref href="">
+                  <span  className="block p-3 hover:bg-slate-200 ">SEM-II -FY B.Tech, M.Tech</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="block p-3 hover:bg-slate-200 ">SEM-II -SY B.Tech, DSE.</a>
+                  <Link passHref href="">
+                  <span  className="block p-3 hover:bg-slate-200 ">SEM-II -SY B.Tech, DSE.</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="block p-3 hover:bg-slate-200 ">SEM-I -FY B.Tech, FY M.Tech.</a>
+                  <Link passHref href="">
+                  <span  className="block p-3 hover:bg-slate-200 ">SEM-I -FY B.Tech, FY M.Tech.</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="block p-3 hover:bg-slate-200 ">SEM-I -SY,DSY B.Tech</a>
+                  <Link passHref href="">
+                  <span  className="block p-3 hover:bg-slate-200 ">SEM-I -SY,DSY B.Tech</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="block p-3 hover:bg-slate-200 ">SEM-I -TY, Final Year B.Tech</a>
+                  <Link passHref href="">
+                  <span  className="block p-3 hover:bg-slate-200 ">SEM-I -TY, Final Year B.Tech</span>
+                  </Link>
                 </li>
               </ul>:null
             }
@@ -228,10 +268,14 @@ const Academics = (props) => {
         </ul> : null}
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Modalities for Absorption of Students from Affiliated (shivaji University) Pattern to Autonomous</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Modalities for Absorption of Students from Affiliated (shivaji University) Pattern to Autonomous</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">KITCOEK Virtual Lab</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">KITCOEK Virtual Lab</span>
+      </Link>
     </li>
     </>
     :null}

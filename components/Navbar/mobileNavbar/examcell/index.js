@@ -32,16 +32,22 @@ const ExamCell = (props) => {
    
   
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Administrative Staff</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Administrative Staff</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Exam Timetable</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Exam Timetable</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Results</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Results</span>
+      </Link>
     </li>
     <li>
-        <h4 onClick={() => (setNav1(!nav1))} href="#" className="p-3 flex items-center hover:bg-slate-200 ">
+        <h4 onClick={() => (setNav1(!nav1))}  className="p-3 flex items-center hover:bg-slate-200 ">
         Exam Calendar UG & PG
           <svg
             className={
@@ -64,7 +70,7 @@ const ExamCell = (props) => {
         {nav1 === true ? 
         <ul className="px-4 w-full divide-y-2  ">      
           <li>
-            <h5 onClick={() => (setNav2(!nav2))} href="#" className="flex items-center p-3 hover:bg-slate-200 ">
+            <h5 onClick={() => (setNav2(!nav2))}  className="flex items-center p-3 hover:bg-slate-200 ">
             AY:2022-23
               <svg
                 className={
@@ -88,16 +94,20 @@ const ExamCell = (props) => {
               nav2 === true ? 
               <ul className="px-4 w-full divide-y-2  ">      
                 <li>
-                  <a href="#" className="block p-3 hover:bg-slate-200 ">F.Y.B.Tech/M.Tech 2022-23 SEM-I</a>
+                  <Link passHref href="">
+                  <span  className="block p-3 hover:bg-slate-200 ">F.Y.B.Tech/M.Tech 2022-23 SEM-I</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="block p-3 hover:bg-slate-200 ">T.Y.& Final Year B.Tech 2022-23 SEM-I</a>
+                  <Link passHref href="">
+                  <span  className="block p-3 hover:bg-slate-200 ">T.Y.& Final Year B.Tech 2022-23 SEM-I</span>
+                  </Link>
                 </li>
               </ul>:null
             }
           </li>
           <li>
-            <h5 onClick={() => (setNav3(!nav3))} href="#" className="flex items-center p-3 hover:bg-slate-200 ">
+            <h5 onClick={() => (setNav3(!nav3))}  className="flex items-center p-3 hover:bg-slate-200 ">
             AY:2021-22
               <svg
                 className={
@@ -121,10 +131,14 @@ const ExamCell = (props) => {
               nav3 === true ? 
               <ul className="px-4 w-full divide-y-2  ">      
                 <li>
-                  <a href="#" className="block p-3 hover:bg-slate-200 ">FY, DSY, SEM-I_21-22I</a>
+                  <Link passHref href="">
+                  <span  className="block p-3 hover:bg-slate-200 ">FY, DSY, SEM-I_21-22I</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="block p-3 hover:bg-slate-200 ">SY,TY,Final Year B.Tech-21-22</a>
+                  <Link passHref href="">
+                  <span  className="block p-3 hover:bg-slate-200 ">SY,TY,Final Year B.Tech-21-22</span>
+                  </Link>
                 </li>
               </ul>:null
             }
@@ -133,13 +147,19 @@ const ExamCell = (props) => {
         </ul> : null}
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Revised Rules and Regulations</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Revised Rules and Regulations</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Paper Setting</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Paper Setting</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Faculty Remuneration Format</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Faculty Remuneration Format</span>
+      </Link>
     </li>
     
     </>

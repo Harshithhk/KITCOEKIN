@@ -7,11 +7,12 @@ const TrainingPlacements = (props) => {
   const [nav3, setNav3] = React.useState(false);
   return (
     <ul className="px-4 w-full   pb-6 pt-6 ">
+      <Link passHref href="">
     <h3  className="font-bold text-xl flex items-center  text-bold mb-2">
     TRAINING & PLACEMENTS
    
     </h3>
-   
+   </Link>
   </ul>
  
       );

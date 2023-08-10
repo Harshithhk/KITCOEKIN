@@ -1,5 +1,5 @@
-import React from "react"
 import Link from "next/link";
+import React from "react"
 
 const About = (props) => {
     const [nav1, setNav1] = React.useState(false);
@@ -29,33 +29,50 @@ const About = (props) => {
       </h3>
       {props.nav1 === true ?
       <><li>
-        
-        <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">About KitCOEK</Link>
+        <Link passHref href="">
+        <span  className="block p-3 hover:bg-slate-200 ">About KitCOEK</span>
+        </Link>
       </li>
       <li>
-        <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">Founder Trustees</Link>
+        <Link passHref href="">
+        <span  className="block p-3 hover:bg-slate-200 ">Founder Trustees</span>
+        </Link>
       </li>
       <li>
-        <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">Board Of Directors</Link>
+        <Link passHref href="">
+        <span  className="block p-3 hover:bg-slate-200 ">Board Of Directors</span>
+        </Link>
       </li>
       <li>
-        <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">Governing Council</Link>
+        <Link passHref href="">
+        <span  className="block p-3 hover:bg-slate-200 ">Governing Council</span>
+        </Link>
       </li>
       <li>
-        <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">Milestones</Link>
+        <Link passHref href="">
+        <span  className="block p-3 hover:bg-slate-200 ">Milestones</span>
+        </Link>
       </li>
       <li>
-        <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">College Administration</Link>
+        <Link passHref href="">
+        <span  className="block p-3 hover:bg-slate-200 ">College Administration</span>
+        </Link>
       </li>
       <li>
-        <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">Office Administration</Link>
+        <Link passHref href="">
+        <span  className="block p-3 hover:bg-slate-200 ">Office Administration</span>
+        </Link>
       </li>
       <li>
-        <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">Internal Quality Assurance Committee(IQAC)
+        <Link passHref href="">
+        <span  className="block p-3 hover:bg-slate-200 ">Internal Quality Assurance Committee(IQAC)
+</span>
 </Link>
       </li>
       <li>
-        <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">Staff List</Link>
+        <Link passHref href="">
+        <span  className="block p-3 hover:bg-slate-200 ">Staff List</span>
+        </Link>
       </li>
       <li>
           <h4 onClick={() => (setNav1(!nav1))} href="#" className="p-3 flex items-center hover:bg-slate-200 ">
@@ -81,25 +98,39 @@ const About = (props) => {
           {nav1 === true ? 
           <ul className="px-4 w-full divide-y-2  ">      
             <li>
-              <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">KIT NIRF-2023 DCS ENGG</Link>
+              <Link passHref href="">
+              <span  className="block p-3 hover:bg-slate-200 ">KIT NIRF-2023 DCS ENGG</span>
+              </Link>
             </li>
             <li>
-              <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">KIT NIRF-2023 DCS OVERALL</Link>
+              <Link passHref href="">
+              <span  className="block p-3 hover:bg-slate-200 ">KIT NIRF-2023 DCS OVERALL</span>
+              </Link>
             </li>
             <li>
-              <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">KIT NIRF-2022 DCS ENGG</Link>
+              <Link passHref href="">
+              <span  className="block p-3 hover:bg-slate-200 ">KIT NIRF-2022 DCS ENGG</span>
+              </Link>
             </li>
             <li>
-              <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">KIT NIRF-2022 DCS OVERALL</Link>
+              <Link passHref href="">
+              <span  className="block p-3 hover:bg-slate-200 ">KIT NIRF-2022 DCS OVERALL</span>
+              </Link>
             </li>
             <li>
-              <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">Intellectual Property Right (IPR)</Link>
+              <Link passHref href="">
+              <span  className="block p-3 hover:bg-slate-200 ">Intellectual Property Right (IPR)</span>
+              </Link>
             </li>
             <li>
-              <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">National Institutional Ranking Framework1</Link>
+              <Link passHref href="">
+              <span  className="block p-3 hover:bg-slate-200 ">National Institutional Ranking Framework1</span>
+              </Link>
             </li>
             <li>
-              <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">National Institutional Ranking Framework2</Link>
+              <Link passHref href="">
+              <span  className="block p-3 hover:bg-slate-200 ">National Institutional Ranking Framework2</span>
+              </Link>
             </li>
           </ul> : null}
       </li>
@@ -128,10 +159,14 @@ const About = (props) => {
           <ul className="px-4 w-full divide-y-2  ">      
            
             <li>
-              <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">AICTE Approval</Link>
+              <Link passHref href="">
+              <span  className="block p-3 hover:bg-slate-200 ">AICTE Approval</span>
+              </Link>
             </li>
             <li>
-              <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">NBA & NAAC</Link>
+              <Link passHref href="">
+              <span  className="block p-3 hover:bg-slate-200 ">NBA & NAAC</span>
+              </Link>
             </li>
           </ul> : null}
       </li>
@@ -160,13 +195,19 @@ const About = (props) => {
           <ul className="px-4 w-full divide-y-2  ">      
            
             <li>
-              <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">Fee Proposal AY:2023-24</Link>
+              <Link passHref href="">
+              <span  className="block p-3 hover:bg-slate-200 ">Fee Proposal AY:2023-24</span>
+              </Link>
             </li>
             <li>
-              <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">Mandatory Disclosures</Link>
+              <Link passHref href="">
+              <span  className="block p-3 hover:bg-slate-200 ">Mandatory Disclosures</span>
+              </Link>
             </li>
             <li>
-              <Link passHref href="#" className="block p-3 hover:bg-slate-200 ">	E Governance Policy</Link>
+              <Link passHref href="">
+              <span  className="block p-3 hover:bg-slate-200 ">	E Governance Policy</span>
+              </Link>
             </li>
           </ul> : null}
       </li>

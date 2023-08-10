@@ -32,38 +32,60 @@ const Departments = (props) => {
    
   
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Biotechnology Engineering</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Biotechnology Engineering</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Civil Engineering</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Civil Engineering</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Civil & Environmental Engineering</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Civil & Environmental Engineering</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Computer Science & Engineering</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Computer Science & Engineering</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Computer Science & Business Systems</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Computer Science & Business Systems</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Computer Science Engineering - Data Science</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Computer Science Engineering - Data Science</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Computer Science Engineering - Artificial Intelligence And Machine Learning
-</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Computer Science Engineering - Artificial Intelligence And Machine Learning
+</span>
+</Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Electrical Engineering</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Electrical Engineering</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Electronics & Telecomm Engineering</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Electronics & Telecomm Engineering</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Mechanical Engineering</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Mechanical Engineering</span>
+      </Link>
     </li>
     <li>
-      <a href="#" className="block p-3 hover:bg-slate-200 ">Basic Sciences & Humanities</a>
+      <Link passHref href="">
+      <span  className="block p-3 hover:bg-slate-200 ">Basic Sciences & Humanities</span>
+      </Link>
     </li>
     
     </>
