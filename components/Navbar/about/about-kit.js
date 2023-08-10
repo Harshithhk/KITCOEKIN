@@ -2,7 +2,7 @@ import Link from "next/link"
 import React from "react"
 
 const AboutKit = () => (
-          <Link href="/about" className="">
+          <Link passHref href="/about"  className="">
                     <div
                         
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 hover:cursor-pointer"

@@ -30,12 +30,20 @@ function VideoSection(props) {
     className="mb-8 text-lg font-normal w-[90%] mt-2 text-[#3D3859] lg:text-xl sm:px-16 lg:px-48 ">Our institution is a catalyst for change, shaping the future by nurturing the potential within each student. Through cutting-edge programs, state-of-the-art facilities, and a vibrant community, we create an environment where students can thrive and achieve their fullest potential.</p>
 
     </span>
-   
+   <style>
+    {`
+    video::-webkit-media-controls-panel {
+      filter: invert(100%) sepia(100%) hue-rotate(206deg) saturate(200%);
+    }
+ 
+  
+    `}
+   </style>
     <div
     data-aos="zoom-in"
     data-aos-delay="0"
     className="embed-responsive embed-responsive-21by9 mt-16 mb-8 relative w-full overflow-hidden flex justify-center items-center">
-          <video class="embed-responsive-item bottom-0 left-0 right-0 top-0 h-[400px] w-[80%]" controls poster="/videos/thumbnailkit.png">
+          <video  className=" embed-responsive-item bottom-0 left-0 right-0 top-0 h-[400px] w-[80%]" controls poster="/videos/thumbnailkit.png">
             <source src="videos/videokitcoek.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>

@@ -1612,19 +1612,19 @@ const StaffList = () => {
                     {item.Course}
                     </td>
                     <td className="px-6 py-4">
-                        ${item.Designation}
+                        {item.Designation}
                     </td>
 					<td className="px-6 py-4">
-                        ${item.DateOfJoining}
+                        {item.DateOfJoining}
                     </td>
 					<td className="px-6 py-4">
-                        ${item.Qualification}
+                        {item.Qualification}
                     </td>
 					<td className="px-6 py-4">
-                        ${item.NatureOfAppointment}
+                        {item.NatureOfAppointment}
                     </td>
 					<td className="px-6 py-4">
-                        ${item.Experience}
+                        {item.Experience}
                     </td>
                 </tr>
             

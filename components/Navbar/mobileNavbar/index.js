@@ -2,11 +2,16 @@ import React from "react"
 import Link from "next/link";
 import About from "./about";
 import Admissions from "./admissions";
-import SubNavList from "./subNavList";
 import Departments from "./departments";
 import Tnp from "./tnp";
 import Notice from "./notice";
-import Others from "./others";
+import Academics from "./academcis";
+import ExamCell from "./examcell";
+import Alumni from "./alumni";
+import Committee from "./committees";
+import LifeAtKit from "./lifeAtKit";
+import Innovation from "./innovation";
+
 
 const MobileNavbar = (props) => {
     const [nav1, setNav1] = React.useState(false);
@@ -14,6 +19,10 @@ const MobileNavbar = (props) => {
     const [nav3, setNav3] = React.useState(false);
     const [nav4, setNav4] = React.useState(false);
     const [nav5, setNav5] = React.useState(false);
+    const [nav6, setNav6] = React.useState(false);
+    const [nav7, setNav7] = React.useState(false);
+    const [nav8, setNav8] = React.useState(false);
+
     return (
         <div className="absolute top-0 left-0 w-screen h-screen ">
           <div
@@ -31,32 +40,66 @@ const MobileNavbar = (props) => {
               <span className="block h-0.5 ml-auto w-5 animate-pulse bg-primary"></span>
             </div>
           </div>
-          <ul className="z-20 ">
+          
+        <ul className="text-[#24346D] divide-y-2">
+          <li className="flex flex-row justify-start gap-6 px-4 w-full   pb-6 pt-6">
+          <Link href="/contact" passHref>
+            <span className="flex ">
+              <img src="/images/Navbar/Phone.svg" className="mr-2" alt="" />
+              CONTACT
+            </span>
+                        
+          </Link>
+          <Link href="/apply-admission" passHref>
+              <span className="flex">
+                <img src="/images/Navbar/Mention.svg" className="mr-2" alt="" />
+                APPLY
+              </span>
+          </Link>
+          </li>
+          <li>
+              <About nav1 = {nav1} setNav1 = {setNav1} />
+          </li>
+          <li>
+              <Admissions nav2 = {nav2} setNav2 = {setNav2} />
+          </li>
+          <li>
+              <Departments  nav3 = {nav3} setNav3 = {setNav3}/>
+          </li>
+          <li>
             
-            <li onClick={() => (setNav1(!nav1))} className={nav5 || nav4 || nav3 || nav2?"hidden":""}>
-              <About nav1 = {nav1} />
-            </li>
-            <li onClick={() => (setNav2(!nav2))} className={ nav5 || nav4 || nav3  || nav1?"hidden":""}>
-              <Admissions nav1 = {nav1}  nav2 = {nav2} />
-            </li>
-            <li  onClick={() => (setNav3(!nav3))} className={nav5 || nav4 || nav2 || nav1 ?"hidden":""}>
-              <Departments nav1 = {nav1}  nav3 = {nav3} />
-            </li>
-            <li className={nav5 || nav4 || nav3 || nav2 || nav1 ?"hidden":""}>
-              <Tnp nav1 = {nav1} />
-            </li>
-            <li className={nav5 || nav4 || nav3 || nav2 || nav1 ?"hidden":""}>
-            <Notice nav1 = {nav1}  />
-            </li>
-            <li onClick={() => (setNav5(!nav5))} className={nav4 || nav3 || nav2 || nav1 ?"hidden":""}>
-            <Others nav1 = {nav1}  nav5 = {nav5}  />
-            </li>
-            <SubNavList nav1 = {nav1} nav2 = {nav2}  nav3 = {nav3} nav4 = {nav4} nav5 = {nav5} />
+              <Academics  nav4 = {nav4} setNav4 = {setNav4}/>
+          </li>
+          <li>
+          
+              <ExamCell  nav5 = {nav5} setNav5 = {setNav5}/>
+          </li>
+          <li>
+              <Notice  />
+          </li>
+          <li>
+              <Alumni  />
+          </li>
+          <li>
+              <Tnp />
+          </li>
+          <li>
+              <Committee nav6 = {nav6} setNav6 = {setNav6}/>
+          </li>
+          <li>
+              <LifeAtKit nav7 = {nav7} setNav7 = {setNav7}/>
+          </li>
+          <li>
+              <Innovation nav8 = {nav8} setNav8 = {setNav8}/>
+          </li>
         </ul>
+          
+
+        </div>
+      
           </div>
           
         
-        </div>
         );
 };
 

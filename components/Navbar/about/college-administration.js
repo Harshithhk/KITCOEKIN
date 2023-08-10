@@ -1,12 +1,14 @@
+import Link from "next/link";
 import React from "react"
 
 const CollegeAdministration = () => {
 
   const [subNav10, setSubNav10] = React.useState(false);
   return (
-                <a
-                    href="college-administration"
-                    className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+        <Link href="college-administration" passHref>
+                <span
+                    
+                    className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 hover:cursor-pointer"
                     // onMouseEnter ={() => (setSubNav10(!subNav10))} onMouseLeave ={() => (setSubNav10(!subNav10))}
                 >
                 
@@ -48,7 +50,7 @@ const CollegeAdministration = () => {
                     >
                         <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                             <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                <a
+                                <span
                                     href="college-administration"
                                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                 >
@@ -64,8 +66,8 @@ const CollegeAdministration = () => {
                                             {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                                         </p>
                                     </div>
-                                </a>
-                                <a
+                                </span>
+                                <span
                                     href="orgnization-structure"
                                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                 >
@@ -81,12 +83,13 @@ const CollegeAdministration = () => {
                                             {/* assssssss ssssssss ssssssssss sssssssssss assssss ssssss */}
                                         </p>
                                     </div>
-                                </a>
+                                </span>
                             </div>
                         </div>
                 </div>
                 
-                </a>
+                </span>
+                </Link>
   )
 }
 

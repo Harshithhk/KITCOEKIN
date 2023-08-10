@@ -8,7 +8,7 @@ const Alumni = (props) => {
   return (
     <ul className="px-4 w-full   pb-6 pt-6 ">
     <h3  className="font-bold text-xl flex items-center  text-bold mb-2">
-      NOTICE
+      ALUMNI
    
     </h3>
    
