@@ -6,7 +6,7 @@ const Departments = (props) => {
   const [nav2, setNav2] = React.useState(false);
   const [nav3, setNav3] = React.useState(false);
   return (
-    <ul className="px-4 w-full   pb-6 pt-6 ">
+    <ul className="px-4 w-full divide-y-2  pb-6 pt-6 ">
     <h3 onClick={() => (props.setNav3(!props.nav3))} className="font-bold text-xl flex items-center  text-bold mb-2">
       DEPARTMENTS
       <svg
