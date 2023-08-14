@@ -8,22 +8,22 @@ const NIRF_IPR = () => {
 		"SrNo": 1,
 		"NameOfFaculty": "Dr. Uma Gurav",
 		"Title": "A BLOCKCHAIN TECHNOLhover:text-primaryOGY-BASED METHOD FOR STOCK MARKET ANALYSIS AND TRANSACTIONS",
-		"Application": "documents/about/nirf/IPR/UPG_Application.pdf",
-    "Publication": "documents/about/nirf/IPR/UPG_Publication.pdf"
+		"Application": "documents/About/nirf/IPR/UPG_Application.pdf",
+    "Publication": "documents/About/nirf/IPR/UPG_Publication.pdf"
 	},
   {
 		"SrNo": 2,
 		"NameOfFaculty": "Mr. Pradeep Sadasniv Khot",
 		"Title": "AN INTELLIGENT STENOhover:text-primaryGRAPHER DESIGNSD FOR ]UDICIARY SYSTEM",
-		"Application": "documents/about/nirf/IPR/KhotPradeep17.06.2020App.pdf",
-    "Publication": "documents/about/nirf/IPR/PradeepKhot-PublicationDate21.08.2020.pdf"
+		"Application": "documents/About/nirf/IPR/KhotPradeep17.06.2020App.pdf",
+    "Publication": "documents/About/nirf/IPR/PradeepKhot-PublicationDate21.08.2020.pdf"
 	},
   {
 		"SrNo": 3,
 		"NameOfFaculty": "MALKAR RADHIKA SADASHIV",
 		"Title": "CATALYST FOR CO2 METHANATION REACTION HAVING HIGH ACTIVITY AND LONGTERM STABILITY AND PROCESS",
-		"Application": "documents/about/nirf/IPR/RadhikaMalkarPatent.pdf",
-    "Publication": "documents/about/nirf/IPR/RadhikaMalkarPatent.pdf"
+		"Application": "documents/About/nirf/IPR/RadhikaMalkarPatent.pdf",
+    "Publication": "documents/About/nirf/IPR/RadhikaMalkarPatent.pdf"
 	}
 ]
 
@@ -34,8 +34,8 @@ let nirf1819 = [{
 	"SrNo": 1,
 	"NameOfFaculty": "Dr. Vidula Swami",
 	"Title": "Identification of Idhover:text-primaryeal Structure for Water Conservation in Rural Areas using SWAT Model",
-	"Application": "documents/about/nirf/IPR/VidulaSwami-IPR.pdf",
-  "Publication": "documents/about/nirf/IPR/VidulaSwami-IPR.pdf"
+	"Application": "documents/About/nirf/IPR/VidulaSwami-IPR.pdf",
+  "Publication": "documents/About/nirf/IPR/VidulaSwami-IPR.pdf"
 }]
 
   return (

@@ -47,7 +47,7 @@ const [subNav20, setSubNav20] = React.useState(false);
             <div className="rounded-lg shadow-lg ring-1 -mt-20 ring-black ring-opacity-5 overflow-hidden">
                 <div className="relative grid gap-3 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                 <a
-                    href="documents/about/nirf/KIT_2023-0117- NIRF 2023 Engineering.pdf"
+                    href="documents/About/nirf/KIT_2023-0117- NIRF 2023 Engineering.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                     target="_blank" rel="noreferrer"
                 >
@@ -65,7 +65,7 @@ const [subNav20, setSubNav20] = React.useState(false);
                     </div>
                 </a>
                 <a
-                    href="documents/about/nirf/KIT_2023-0119- Overall.pdf"
+                    href="documents/About/nirf/KIT_2023-0119- Overall.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                     target="_blank" rel="noreferrer"
                 >
@@ -83,7 +83,7 @@ const [subNav20, setSubNav20] = React.useState(false);
                     </div>
                 </a>
                 <a
-                    href="documents/about/nirf/KIT_NIRF_Only_Engg_2022.pdf"
+                    href="documents/About/nirf/KIT_NIRF_Only_Engg_2022.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                     target="_blank" rel="noreferrer"
                 >
@@ -101,7 +101,7 @@ const [subNav20, setSubNav20] = React.useState(false);
                     </div>
                 </a>
                 <a
-                    href="documents/about/nirf/KIT_NIRF_For_Overall_2022.pdf"
+                    href="documents/About/nirf/KIT_NIRF_For_Overall_2022.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                     target="_blank" rel="noreferrer"
                 >
@@ -137,7 +137,7 @@ const [subNav20, setSubNav20] = React.useState(false);
                     </div>
                 </a>
                 <a
-                    href="documents/about/nirf/national-institutional-ranking-framework-02.pdf"
+                    href="documents/About/nirf/national-institutional-ranking-framework-02.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                     target="_blank" rel="noreferrer"
                 >
@@ -155,7 +155,7 @@ const [subNav20, setSubNav20] = React.useState(false);
                     </div>
                 </a>
                 <a
-                    href="documents/about/nirf/national-institutional-ranking-framework-01.pdf"
+                    href="documents/About/nirf/national-institutional-ranking-framework-01.pdf"
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                     target="_blank" rel="noreferrer"
                 >

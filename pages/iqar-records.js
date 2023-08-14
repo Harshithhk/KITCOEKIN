@@ -81,7 +81,7 @@ const IqarRecords = () => {
                                     <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                   </svg>
                                   <div className="col-start-2 col-end-12 sm:col-start-3">IQAC Committee</div>
-                                  <a href="documents/about/IQAC/IQAC_Committee/IQAC_22-23.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
+                                  <a href="documents/About/IQAC/IQAC_Committee/IQAC_22-23.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                       <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                     </svg>  
@@ -111,7 +111,7 @@ const IqarRecords = () => {
                                     <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                   </svg>
                                   <div className="col-start-2 col-end-12 sm:col-start-3">IQAC Committee</div>
-                                  <a href="documents/about/IQAC/IQAC_Committee/iqac-committe-2021-22.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
+                                  <a href="documents/About/IQAC/IQAC_Committee/iqac-committe-2021-22.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                       <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                     </svg>  
@@ -141,7 +141,7 @@ const IqarRecords = () => {
                                     <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                   </svg>
                                   <div className="col-start-2 col-end-12 sm:col-start-3">IQAC Committee</div>
-                                  <a href="documents/about/IQAC/IQAC_Committee/iqac-committe-2020-21.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
+                                  <a href="documents/About/IQAC/IQAC_Committee/iqac-committe-2020-21.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                       <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                     </svg>  
@@ -154,7 +154,7 @@ const IqarRecords = () => {
                                     <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                   </svg>
                                   <div className="col-start-2 col-end-12 sm:col-start-3">IQAC Activities </div>
-                                  <a href="documents/about/IQAC/IQAC_Activities/iqac-activities-2020-21.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
+                                  <a href="documents/About/IQAC/IQAC_Activities/iqac-activities-2020-21.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                       <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                     </svg>  
@@ -196,7 +196,7 @@ const IqarRecords = () => {
                                     <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                   </svg>
                                   <div className="col-start-2 col-end-12 sm:col-start-3">IQAC Activities</div>
-                                  <a href="documents/about/IQAC/IQAC_Activities/iqac-activities-2019-20.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
+                                  <a href="documents/About/IQAC/IQAC_Activities/iqac-activities-2019-20.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                       <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                     </svg>  
@@ -208,7 +208,7 @@ const IqarRecords = () => {
                                     <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                   </svg>
                                   <div className="col-start-2 col-end-12 sm:col-start-3">Annual Quality Assurance Report</div>
-                                  <a href="documents/about/IQAC/AQAR_Report/aqar-report-2019-20.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
+                                  <a href="documents/About/IQAC/AQAR_Report/aqar-report-2019-20.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                       <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                     </svg>  
@@ -238,7 +238,7 @@ const IqarRecords = () => {
                                     <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                   </svg>
                                   <div className="col-start-2 col-end-12 sm:col-start-3">IQAC Committee</div>
-                                  <a href="documents/about/IQAC/IQAC_Committee/iqac-committe-2018-19.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
+                                  <a href="documents/About/IQAC/IQAC_Committee/iqac-committe-2018-19.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                       <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                     </svg>  
@@ -250,7 +250,7 @@ const IqarRecords = () => {
                                     <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                                   </svg>
                                   <div className="col-start-2 col-end-12 sm:col-start-3">Annual Quality Assurance Report </div>
-                                  <a href="documents/about/IQAC/AQAR_Report/aqar-report-2018-19.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
+                                  <a href="documents/About/IQAC/AQAR_Report/aqar-report-2018-19.pdf" className="col-start-13 " target="_blank" rel="noreferrer">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="  h-7 w-7 hover:text-primary hover:cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                       <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                     </svg>  

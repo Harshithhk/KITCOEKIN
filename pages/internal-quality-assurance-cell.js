@@ -64,8 +64,8 @@ const InternalQualityAssuranceCell = () => {
                 Introduction
               </div>
               
-              <div className="mt-10 sm:mt-4 w-[800px] lg:w-fit lg:mr-5 text-justify text-xl text-accent sm:w-full sm:text-base">
-              <a href="documents/about/iqac/nacc-record/kit-nacc-ssr-cycle.pdf" target="_blank" rel="noreferrer">
+              <div className="mt-10 sm:mt-4 w-[90%] lg:w-fit lg:mr-5 text-justify text-xl text-accent sm:w-full sm:text-base">
+              <a href="documents/About/iqac/nacc-record/kit-nacc-ssr-cycle.pdf" target="_blank" rel="noreferrer">
                 <p className="flex hover:cursor-pointer hover:text-primary">NAAC Accreditation: Self Study Report Cycle-1 
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 hover:cursor-pointer text-primary" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clipRule="evenodd" />
@@ -215,7 +215,7 @@ const InternalQualityAssuranceCell = () => {
                 </div>
               </a>  
               <hr></hr>
-              <a href="documents/about/iqac/nacc-record/KITCOEK Undertaking IIQA 2022.pdf" target="_blank" rel="noreferrer">  
+              <a href="documents/About/iqac/nacc-record/KITCOEK Undertaking IIQA 2022.pdf" target="_blank" rel="noreferrer">  
                 <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
                     {" "}
@@ -275,7 +275,7 @@ const InternalQualityAssuranceCell = () => {
                 </div>
               </a> 
                 <hr></hr>
-              <a href="documents/about/iqac/nacc-record/student-satisfaction-survey-kit.pdf" target="_blank" rel="noreferrer">  
+              <a href="documents/About/iqac/nacc-record/student-satisfaction-survey-kit.pdf" target="_blank" rel="noreferrer">  
                 <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
                     {" "}
@@ -290,7 +290,7 @@ const InternalQualityAssuranceCell = () => {
                 </div>
               </a>
               <hr></hr>
-              <a href="documents/about/iqac/nacc-record/SSS_21-22.pdf" target="_blank" rel="noreferrer">  
+              <a href="documents/About/iqac/nacc-record/SSS_21-22.pdf" target="_blank" rel="noreferrer">  
                 <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
                     {" "}
@@ -305,7 +305,7 @@ const InternalQualityAssuranceCell = () => {
                 </div>
               </a>
               <hr></hr>
-              <a href="documents/about/iqac/nacc-record/Feedback analysis and action taken report.pdf" target="_blank" rel="noreferrer">  
+              <a href="documents/About/iqac/nacc-record/Feedback analysis and action taken report.pdf" target="_blank" rel="noreferrer">  
                 <div className="flex mt-2 mb-2 hover:cursor-pointer hover:bg-slate-100">
                   <div className=" w-[90%] text-left pl-2 pr-2 text-slate-400">
                     {" "}
