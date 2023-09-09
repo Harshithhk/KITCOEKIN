@@ -14,7 +14,7 @@ function DefaultLayout(props) {
           
               <div className="bg-white scroll-smooth mx-auto">
                 <Navbar />
-                <ChatBot />
+                {/* <ChatBot /> */}
                 <div>{props.children}
                 
                 <Modal modalToggle = {props.modalToggle} setModalToggle = {props.setModalToggle} />

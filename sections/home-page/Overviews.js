@@ -44,7 +44,9 @@ const Overviews = () => {
         <div className="flex justify-between mb-[14px]">
           <div className="w-[227px] xl:w-[160px] xl:h-[160px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/AboutUs/about2.jpg)] bg-cover bg-center"></div>
           <div className=" 1xl:hidden xl:block w-[227px] xl:w-[160px] xl:h-[160px] h-[244px] md:w-[116px] md:h-[128px] bg-[url(/images/AboutUs/about5.jpg)] bg-center bg-cover"></div>
-          <a href="kit-gallery?Tab=1">
+          {/* <a href="kit-gallery?Tab=1"> */}
+          <a href="#">
+
             <div className="flex items-center leading-[45px] tracking-[0.005em] italic hover:cursor-pointer hover:underline w-[227px] xl:w-[160px] xl:h-[160px] h-[244px] md:w-[116px] md:h-[128px] bg-[#3E395A] text-[#FFFFFF] font-[700] text-center text-[29.9774px] md:text-xl">
               <div
                 data-aos="zoom-in"

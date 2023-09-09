@@ -158,7 +158,7 @@ const OthersNavbar = (props) => {
             </div>
           </div>
           <MegaNavbar MenuList = {MenuList}  />
-          <div className="absolute w-64 h-32 -translate-x-1/2 sm:h-20 sm:w-fit left-1/2 bottom-32">
+          {/* <div className="absolute w-64 h-32 -translate-x-1/2 sm:h-20 sm:w-fit left-1/2 bottom-32">
           <img
             data-aos="fade-up"
             data-aos-delay="400"
@@ -166,7 +166,7 @@ const OthersNavbar = (props) => {
             className="h-full "
             alt="LOGO"
           />
-        </div>
+        </div> */}
           {/* <ul className="z-20 ">
             
             <li onClick={() => (setNav1(!nav1))} className={nav2 || nav3 || nav4 || nav5?"hidden":""}>
