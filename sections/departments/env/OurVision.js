@@ -2,7 +2,7 @@ import React from "react"
 
 const OurVision = () => {
   return (
-    <section className=" mx-auto flex sm:flex-col w-[1407px] sm:w-[90%] sm:mt-16 mb-36 sm:mb-16">
+    <section className=" mx-auto flex sm:flex-col items-center justify-center w-[80%] sm:w-[90%] sm:mt-16 mb-36 sm:mb-16">
       <div className="w-1/2 sm:w-[90%] sm:hidden">
         <img
           src="/images/AboutUs/Vision.svg"

@@ -8,8 +8,8 @@ const body = 'Welcome to the Department of Mechanical Engineering. It’s my ple
 'The Department conducts various activities like Group discussion, Aptitude tests for overall development of the students. The graduates have acquired self education and lifelong learning through excellent performance in competitive examination like GATE, GRE, TOEFL, CAT, UPSC etc,. The students have shown their capabilities to provide viable engineering solutions to industrial, agricultural problems through various professional societies like SAEINDIA, ASM, ISHRAE, ISNEE, ISNT, BeTIC, MECHANAS, LAMPS and Mechatronics club. The graduates are working in Multinational Companies, Defense Services, Administrative services and Academic Institutions in India and abroad.';
 
 const hod = () => (
-  <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-10 h-fit bg-white px-14 sm:px-4 sm:pb-0 sm:mb-24">
-    <div className="flex justify-between md:flex-col">
+  <section className="relative rounded-3xl z-30  mx-auto pb-10 h-fit flex items-center justify-center px-14 sm:px-4 sm:pb-0 sm:mb-24">
+    <div className="flex gap-x-24 md:flex-col">
       <div>
         <div className="pt-8 md:text-2xl text-[#24346D] text-4xl font-bold flex h-fit items-center align-middle">
           <div className="w-2 h-10 mr-4 rounded-md bg-primary"></div>

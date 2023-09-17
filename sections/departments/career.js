@@ -6,7 +6,7 @@ const Career = () => {
   const [subLinkHover1, setSubLinkHover1] = React.useState(false)
   const [subLinkHover2, setSubLinkHover2] = React.useState(false)
   return (
-    <section className=" mx-auto  w-[1407px]  sm:w-full  sm:mt-8 flex  md:flex-col items-center">
+    <section className=" mx-auto  w-[1407px]  sm:w-full  sm:mt-8 flex  md:flex-col items-center justify-center">
       {/* HEADING */}
 
       <div className=" w-[750px] rounded-xl  p-6 sm:w-full ">

@@ -31,8 +31,7 @@ const Admissions = () => {
             className={`flex items-center   cursor-pointer  ${
               router.route != "/" ? "text-white" : "text-black"
             }`}
-            // onClick={() => (setFlyer(!flyer), setFlyerTwo(false))}
-            onClick={()=>{alert("Message: (503) hashinclude.services.cloud, services paused")}}
+            onClick={() => (setFlyer(!flyer), setFlyerTwo(false))}
           >
             DEPARTMENTS
             <svg

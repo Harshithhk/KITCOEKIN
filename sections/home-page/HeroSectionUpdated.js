@@ -25,7 +25,7 @@ const HeroSectionUpdated = () => {
   // }, [count])
 
   return (
-    <section className=" h-[621px] md:h-[calc(100vh-88px)] w-full overflow-hidden  relative mb-4  md:mb-0 md:overflow-hidden">
+    <section className=" h-full  w-full overflow-hidden  relative mb-4 pb-4 md:mb-0 md:overflow-hidden">
       {count == 0 ? (
         <>
           <div className="sm:block xxl:block">

@@ -20,7 +20,7 @@ const Career = () => {
   let discription3 = 'Our faculty members are experienced professionals in their respective fields with strong academic backgrounds. They bring real-world knowledge and expertise into the classroom, enriching the learning experience for students.';
 
   return (
-    <section className=" px-2   w-full pb-10 sm:w-full  sm:mt-8 flex  md:flex-col items-center">
+    <section className=" px-2   w-full pb-10 sm:w-full  sm:mt-8 flex  md:flex-col items-center justify-center">
       {/* HEADING */}
       <div className="flex flex-row gap-x-20  sm:px-0 px-2 sm:flex sm:flex-col">
         

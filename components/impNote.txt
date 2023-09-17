@@ -1,5 +1,4 @@
 DefaultLayout --> <ChatBot /> //uncomment it
 Navbar --> othersMega --> kitlogo //uncomment it
-Navbar --> <Departments> --> onClick={() => (setFlyer(!flyer), setFlyerTwo(false))} //uncomment it
 Index.js -- > <Overviews /> --> <a href="kit-gallery?Tab=1"> //uncomment it
 sections --> alumni --> career --> quickLinksCard --> gallery //uncomment it

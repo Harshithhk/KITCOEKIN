@@ -2,7 +2,7 @@ import React from "react"
 
 const OurVision = () => {
   return (
-    <section className="mt-52 mx-auto flex sm:flex-col w-[1407px] sm:w-[90%] sm:mt-8">
+    <section className="mt-52 mx-auto flex sm:flex-col items-center justify-center w-[80%] sm:w-[90%] sm:mt-8">
       <div
         data-aos="zoom-in"
         data-aos-delay="0"
