@@ -10,7 +10,12 @@ function DefaultLayout(props) {
 
   const router = useRouter();
   useEffect(() => {
-    const tempMinWidth = window.innerWidth > 1400 ? 1400 : 1600
+    let tempMinWidth = 0
+    if(window.innerWidth > 1400){
+      tempMinWidth = 1400
+    }else if(window.innerWidth < 1400 && window.innerWidth > 760){
+      tempMinWidth = 1600
+    }
     setMinWidth(tempMinWidth)
   },[])
   
