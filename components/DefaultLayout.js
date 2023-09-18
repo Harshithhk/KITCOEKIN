@@ -9,30 +9,25 @@ function DefaultLayout(props) {
   const [windowWidth, setWindowWidth] = useState(null);
 
   const router = useRouter();
+
+  
   useEffect(() => {
-    console.log("width",window.innerWidth,"//",window.outerWidth)
 
     setWindowWidth(window.outerWidth)
-    // let zoomLevel = 0
-    // if(window.outerWidth > 760 && window.outerWidth < 900){
-    //   zoomLevel = "75%"
-    // }else if(window.outerWidth > 1200 && window.outerWidth < 1300){
-    //   zoomLevel = "75%"
-    // }else if (window.outerWidth > 1300 && window.outerWidth < 1400){
-    //   zoomLevel = "65%"
-    // }else if (window.outerWidth > 1400){
-    //   zoomLevel = "100%"
-    // }else{
-    //   zoomLevel = "100%"
-    // }
+    let overFlowX = 1500 - window.outerWidth
 
-    // // Change the zoom level when the component mounts
-    // document.body.style.zoom = zoomLevel;
-
-    // // Cleanup when the component unmounts
-    // return () => {
-    //   document.body.style.zoom = ''; // Reset the zoom level
-    // };
+    if(overFlowX > 0){
+      let zoomLevel = (100 - ((overFlowX * 100)/1500))+"%"
+      
+      // Change the zoom level when the component mounts
+      document.body.style.zoom = zoomLevel;
+  
+      // Cleanup when the component unmounts
+      return () => {
+        document.body.style.zoom = ''; // Reset the zoom level
+      };
+    }
+    
   },[])
   
   
@@ -41,7 +36,7 @@ function DefaultLayout(props) {
              
               <MetaTags route = {router.route}/>
           
-              <div className={`bg-white scroll-smooth mx-auto max-w-[1920px] ${windowWidth < 1400 && windowWidth > 760?"min-w-[1500px]":null}`}>
+              <div id="DefaultLayout" className={`bg-white scroll-smooth mx-auto max-w-[1920px] ${windowWidth < 1400 && windowWidth > 760?"min-w-[1500px]":null}`}>
                 <Navbar />
                 {/* <ChatBot /> */}
                 <div>{props.children}
