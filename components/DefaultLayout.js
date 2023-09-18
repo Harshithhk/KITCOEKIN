@@ -41,7 +41,7 @@ function DefaultLayout(props) {
              
               <MetaTags route = {router.route}/>
           
-              <div className={`bg-white scroll-smooth mx-auto max-w-[1920px] ${windowWidth > 1400 ? "min-w-[1400px]":windowWidth < 1400 && windowWidth > 760?"min-w-[1500px]":null}`}>
+              <div className={`bg-white scroll-smooth mx-auto max-w-[1920px] ${windowWidth < 1400 && windowWidth > 760?"min-w-[1500px]":null}`}>
                 <Navbar />
                 {/* <ChatBot /> */}
                 <div>{props.children}
