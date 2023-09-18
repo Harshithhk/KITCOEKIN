@@ -10,7 +10,7 @@ function DefaultLayout(props) {
 
   const router = useRouter();
   useEffect(() => {
-
+   
     setMinWidth(window.innerWidth)
   },[])
   
@@ -18,9 +18,7 @@ function DefaultLayout(props) {
              
               <MetaTags route = {router.route}/>
           
-              <div className={`bg-white scroll-smooth mx-auto max-w-[1920px] ${minWidth < 1400 ?"min-w-[1500px]":minWidth < 1400 && minWidth > 760 ?"min-w-[1500px]":null}`}>
-              {/* <div className={`bg-white scroll-smooth mx-auto max-w-[1920px] min-w-[${minWidth}px]`}> */}
-
+              <div className={`bg-white scroll-smooth mx-auto max-w-[1920px] ${minWidth > 1400 ? "min-w-[1500px]":minWidth < 1400 && minWidth > 760?"min-w-[1500px]":null}`}>
                 <Navbar />
                 {/* <ChatBot /> */}
                 <div>{props.children}
