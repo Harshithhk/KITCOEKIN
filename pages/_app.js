@@ -27,7 +27,11 @@ Router.events.on("routeChangeError", () => {
 
 function MyApp({ Component, pageProps }) {
  
-  return <><style>{`/* width */
+  return <>
+  <Head>
+        <meta name="viewport" content="viewport-fit=cover" />
+      </Head>
+  <style>{`/* width */
   ::-webkit-scrollbar {
     width: 16px;
     height: 16px;
