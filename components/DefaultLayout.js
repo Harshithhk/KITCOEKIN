@@ -13,26 +13,26 @@ function DefaultLayout(props) {
     console.log("width",window.innerWidth,"//",window.outerWidth)
 
     setWindowWidth(window.outerWidth)
-    let zoomLevel = 0
-    if(window.outerWidth > 760 && window.outerWidth < 900){
-      zoomLevel = "75%"
-    }else if(window.outerWidth > 1200 && window.outerWidth < 1300){
-      zoomLevel = "75%"
-    }else if (window.outerWidth > 1300 && window.outerWidth < 1400){
-      zoomLevel = "65%"
-    }else if (window.outerWidth > 1400){
-      zoomLevel = "100%"
-    }else{
-      zoomLevel = "100%"
-    }
+    // let zoomLevel = 0
+    // if(window.outerWidth > 760 && window.outerWidth < 900){
+    //   zoomLevel = "75%"
+    // }else if(window.outerWidth > 1200 && window.outerWidth < 1300){
+    //   zoomLevel = "75%"
+    // }else if (window.outerWidth > 1300 && window.outerWidth < 1400){
+    //   zoomLevel = "65%"
+    // }else if (window.outerWidth > 1400){
+    //   zoomLevel = "100%"
+    // }else{
+    //   zoomLevel = "100%"
+    // }
 
-    // Change the zoom level when the component mounts
-    document.body.style.zoom = zoomLevel;
+    // // Change the zoom level when the component mounts
+    // document.body.style.zoom = zoomLevel;
 
-    // Cleanup when the component unmounts
-    return () => {
-      document.body.style.zoom = ''; // Reset the zoom level
-    };
+    // // Cleanup when the component unmounts
+    // return () => {
+    //   document.body.style.zoom = ''; // Reset the zoom level
+    // };
   },[])
   
   
