@@ -6,19 +6,18 @@ import { useState,useEffect } from "react"
 import MetaTags from "./MetaTags"
 
 function DefaultLayout(props) {
-  const [minWidth, setMinWidth] = useState(null);
+  const [windowWidth, setWindowWidth] = useState(null);
 
   const router = useRouter();
   useEffect(() => {
-   console.log("width",window.innerWidth,"//",window.outerWidth)
-    setMinWidth(window.outerWidth)
+    setWindowWidth(window.outerWidth)
   },[])
   
   return (<>
              
               <MetaTags route = {router.route}/>
           
-              <div className={`bg-white scroll-smooth mx-auto max-w-[1920px] ${minWidth > 1400 ? "min-w-[1400px]":minWidth < 1400 && minWidth > 760?"min-w-[1500px]":null}`}>
+              <div className={`bg-white scroll-smooth mx-auto max-w-[1920px] ${windowWidth > 1400 ? "min-w-[1400px]":windowWidth < 1400 && windowWidth > 760?"min-w-[1500px]":null}`}>
                 <Navbar />
                 {/* <ChatBot /> */}
                 <div>{props.children}
