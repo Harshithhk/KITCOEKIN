@@ -23,7 +23,9 @@ function DefaultLayout(props) {
              
               <MetaTags route = {router.route}/>
           
-              <div className={`bg-white scroll-smooth mx-auto max-w-[1920px] min-w-[${minWidth}px]`}>
+              <div className={`bg-white scroll-smooth mx-auto max-w-[1920px] min-w-[1600px]`}>
+              {/* <div className={`bg-white scroll-smooth mx-auto max-w-[1920px] min-w-[${minWidth}px]`}> */}
+
                 <Navbar />
                 {/* <ChatBot /> */}
                 <div>{props.children}
