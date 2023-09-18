@@ -11,9 +11,30 @@ function DefaultLayout(props) {
   const router = useRouter();
   useEffect(() => {
     console.log("width",window.innerWidth,"//",window.outerWidth)
+
     setWindowWidth(window.outerWidth)
+    let zoomLevel = 0
+    if(window.outerWidth > 1200 && window.outerWidth < 1300){
+      zoomLevel = "45%"
+    }else if (window.outerWidth > 1300 && window.outerWidth < 1400){
+      zoomLevel = "65%"
+    }else if (window.outerWidth > 1400 && window.outerWidth < 1500){
+      zoomLevel = "75%"
+    }else{
+      zoomLevel = "100%"
+    }
+
+    // Change the zoom level when the component mounts
+    document.body.style.zoom = zoomLevel;
+
+    // Cleanup when the component unmounts
+    return () => {
+      document.body.style.zoom = ''; // Reset the zoom level
+    };
   },[])
   
+  
+
   return (<>
              
               <MetaTags route = {router.route}/>
