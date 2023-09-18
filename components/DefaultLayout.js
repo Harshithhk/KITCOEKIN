@@ -10,8 +10,8 @@ function DefaultLayout(props) {
 
   const router = useRouter();
   useEffect(() => {
-   console.log("width",window.innerWidth,"//",window.innerWidth)
-    setMinWidth(window.innerWidth)
+   console.log("width",window.innerWidth,"//",window.outerWidth)
+    setMinWidth(window.outerWidth)
   },[])
   
   return (<>
