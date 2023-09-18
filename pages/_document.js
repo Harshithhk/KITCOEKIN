@@ -11,6 +11,7 @@ export default function Document() {
           rel="stylesheet"
           href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <body>
         <div id="page-transition"></div>
