@@ -31,7 +31,7 @@ const EsteemedRecruiters = () => {
 
     // let zoomLevelValue = (99 - ((1500 - window.outerWidth * 100)/1500))  
     // zoomLevelValue < 90 && zoomLevelValue > 70 ? setZoomInOffSet(-1000):zoomLevelValue<60?setZoomInOffSet(-20000):null
-    window.outerWidth > 760 && window.outerWidth < 1400 ? setZoomInOffSet(1):setZoomInOffSet(0)
+    window.outerWidth > 760 && window.outerWidth < 1400 ? setZoomInOffSet(0):setZoomInOffSet(1)
   },[])
 
   return (
