@@ -5,7 +5,7 @@ const MegaNavbar = (props) => {
 
 
     return(<>
-            <section>
+            <section className="flex flex-col items-center">
                 <div className={`grid grid-cols-${props.MenuList.length} p-6 divide-x `}>
                     {
                         props.MenuList.map((menuItem,menuIndex)=>{
@@ -50,6 +50,15 @@ const MegaNavbar = (props) => {
 
                         })
                     }
+                </div>
+                <div className=" w-64 h-32 sm:h-20 sm:w-fit ">
+                    <img
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                        src="/images/Navbar/Logo.svg"
+                        className="h-full "
+                        alt="LOGO"
+                    />
                 </div>
           </section>
     </>)

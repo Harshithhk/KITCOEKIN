@@ -141,11 +141,11 @@ const OthersNavbar = (props) => {
 
 
     return (
-        <div className="absolute top-0 left-0 w-full h-screen ">
+        <div className="absolute top-0 left-0 w-full h-screen">
           <div
             data-aos="zoom-in"
             data-aos-delay="0"
-            className="absolute z-10 w-full h-full transition-all overflow-y-scroll pb-10 duration-300 bg-slate-100 "
+            className="absolute z-10 w-full h-[5000px] transition-all  pb-10 duration-300 bg-slate-100 "
           >
             <div className="z-20 absolute right-3 top-5 mr-2 text-[30px] font-bold text-primary">
             <div
@@ -158,15 +158,7 @@ const OthersNavbar = (props) => {
             </div>
           </div>
           <MegaNavbar MenuList = {MenuList}  />
-          {/* <div className="absolute w-64 h-32 -translate-x-1/2 sm:h-20 sm:w-fit left-1/2 bottom-32">
-          <img
-            data-aos="fade-up"
-            data-aos-delay="400"
-            src="/images/Navbar/Logo.svg"
-            className="h-full "
-            alt="LOGO"
-          />
-        </div> */}
+         
           {/* <ul className="z-20 ">
             
             <li onClick={() => (setNav1(!nav1))} className={nav2 || nav3 || nav4 || nav5?"hidden":""}>
