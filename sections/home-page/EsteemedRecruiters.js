@@ -1,6 +1,10 @@
 import React from "react"
+import { useEffect } from "react"
+import { useState } from "react"
 
 const EsteemedRecruiters = () => {
+
+  const [zoomInOffSet,setZoomInOffSet]=  useState(0)
   let recruiters =  [
 
     "bg-[url('/images/recruiters/recruiters-01.png')]",
@@ -23,6 +27,12 @@ const EsteemedRecruiters = () => {
     "bg-[url('/images/recruiters/recruiters-18.png')]",
   ]
 
+  useEffect(() => {
+
+    let overFlowX = 1500 - window.outerWidth
+    let zoomLevelValue = (99 - ((overFlowX * 100)/1500)) 
+    zoomLevelValue < 90 && zoomLevelValue > 70 ? setZoomInOffSet(-1000):zoomLevelValue<60?setZoomInOffSet(-20000):null
+  },[])
 
   return (
     <section className="mt-16 bg-secondary py-4 -mb-20 ">
@@ -41,6 +51,7 @@ const EsteemedRecruiters = () => {
             key={index}
             data-aos="zoom-in"
             data-aos-delay="0"
+            data-aos-offset = {zoomInOffSet}
             className={`cursor-pointer place-self-center  hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center  bg-no-repeat bg-cover ${element} shadow-sm md:w-[145px] md:h-[105px]`}
           ></div>
         ))}

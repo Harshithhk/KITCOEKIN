@@ -45,7 +45,26 @@ export async function getStaticProps() {
 
 const Home = (props) => {
   useEffect(() => {
-    Aos.init({ duration: 500, delay: 20 })
+
+    let overFlowX = 1500 - window.outerWidth
+    let zoomLevelValue = (99 - ((overFlowX * 100)/1500)) 
+    let zoomLevel = zoomLevelValue+"%"
+
+    Aos.init({ duration: 500, delay: 20 , offset: zoomLevelValue < 90 && zoomLevelValue > 70 ? -300:zoomLevelValue<60?-1000:null})
+    
+    if(overFlowX > 0 && window.outerWidth > 760){
+      
+      // Change the zoom level when the component mounts
+      document.body.style.zoom = zoomLevel;
+  
+      // Cleanup when the component unmounts
+      return () => {
+        document.body.style.zoom = ''; // Reset the zoom level
+      };
+    }
+
+    
+
   }, [])
 
 const testimonials = [
@@ -76,7 +95,7 @@ const testimonials = [
     <DefaultLayout>
       <HeroSectionUpdated />
       {/* <HeroSection /> */}
-      <VideoSection />
+      {/* <VideoSection /> */}
       <BtechHonours />
       <NewVision />
       <Accredations />
