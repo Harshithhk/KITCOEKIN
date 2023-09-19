@@ -13,10 +13,29 @@ function DefaultLayout(props) {
   
   useEffect(() => {
 
-    setWindowWidth(window.outerWidth)
     
   },[])
+  useEffect(() => {
+    
+    setWindowWidth(window.outerWidth)
+
+    let overFlowX = 1500 - window.outerWidth
+    let zoomLevel = (99 - ((overFlowX * 100)/1500))+"%"
+    
+    if(overFlowX > 0 && window.outerWidth > 760){
+      
+      // Change the zoom level when the component mounts
+      document.body.style.zoom = zoomLevel;
   
+      // Cleanup when the component unmounts
+      return () => {
+        document.body.style.zoom = ''; // Reset the zoom level
+      };
+    }
+
+    
+
+  }, [])
   
 
   return (<>
