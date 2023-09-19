@@ -4,7 +4,7 @@ import { useState } from "react"
 
 const EsteemedRecruiters = () => {
 
-  const [zoomInOffSet,setZoomInOffSet]=  useState(0)
+  // const [zoomInOffSet,setZoomInOffSet]=  useState(0)
   let recruiters =  [
 
     "bg-[url('/images/recruiters/recruiters-01.png')]",
@@ -27,12 +27,12 @@ const EsteemedRecruiters = () => {
     "bg-[url('/images/recruiters/recruiters-18.png')]",
   ]
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    // let zoomLevelValue = (99 - ((1500 - window.outerWidth * 100)/1500))  
-    // zoomLevelValue < 90 && zoomLevelValue > 70 ? setZoomInOffSet(-1000):zoomLevelValue<60?setZoomInOffSet(-20000):null
-    window.outerWidth > 760 && window.outerWidth < 1400 ? setZoomInOffSet(0):setZoomInOffSet(1)
-  },[])
+  //   // let zoomLevelValue = (99 - ((1500 - window.outerWidth * 100)/1500))  
+  //   // zoomLevelValue < 90 && zoomLevelValue > 70 ? setZoomInOffSet(-1000):zoomLevelValue<60?setZoomInOffSet(-20000):null
+  //   window.outerWidth > 760 && window.outerWidth < 1300  ? setZoomInOffSet(0):setZoomInOffSet(1)
+  // },[])
 
   return (
     <section className="mt-16 bg-secondary py-4 -mb-20 ">
@@ -46,17 +46,11 @@ const EsteemedRecruiters = () => {
 
       <div className=" p-11  w-full md:p-[16px] md:mt-0">
       <div className=" grid grid-cols-6 gap-5 divide-x-2 divide-y-2 backdrop-blur-[.5px] sm:backdrop-blur-0  h-full md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-[20px]">
-        {zoomInOffSet?recruiters.map((element,index) => (
+        {recruiters.map((element,index) => (
           <div 
             key={index}
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            className={`cursor-pointer place-self-center  hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center  bg-no-repeat bg-cover ${element} shadow-sm md:w-[145px] md:h-[105px]`}
-          ></div>
-        )):
-        recruiters.map((element,index) => (
-          <div 
-            key={index}
+            // data-aos="zoom-in"
+            // data-aos-delay="0"
             className={`cursor-pointer place-self-center  hover:shadow-2xl hover:w-[190px] md:hover:w-[145px] rounded-[22px] h-[130px] w-[185px] bg-center  bg-no-repeat bg-cover ${element} shadow-sm md:w-[145px] md:h-[105px]`}
           ></div>
         ))}
