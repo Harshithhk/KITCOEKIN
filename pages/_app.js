@@ -1,5 +1,7 @@
 import "../styles/index.css"
-
+import "../styles/aos.css"
+import "../styles/swiper-bundle.min.css"
+import "../styles/style.css"
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "next/app";
@@ -28,11 +30,7 @@ Router.events.on("routeChangeError", () => {
 function MyApp({ Component, pageProps }) {
  
   return <>
-  <Head>
-        <link href="code/homepage/css/vendors/aos.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="code/homepage/css/vendors/swiper-bundle.min.css"/>
-        <link href="code/homepage/style.css" rel="stylesheet"/>
-  </Head>
+ 
   <style>{`/* width */
   ::-webkit-scrollbar {
     width: 16px;
