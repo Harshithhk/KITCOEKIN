@@ -84,15 +84,15 @@ const Home = (props) => {
 
             {/* ------------------------- */}
 
-            {/* <ARIIA /> */}
+            <ARIIA />
 
             {/* -------------below is not mobile responsive------------ */}
 
-            {/* <Accredations /> */}
+            <Accredations />
 
             {/* ------------------------- */}
 
-            {/* <AlumniAssociation /> */}
+            <AlumniAssociation />
             
             {/* ------------------------- */}
 
