@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav
       id="Navbar"
       className={`h-[75px]  sticky top-0 z-40  md:h-[88px] sm:h-12  flex items-center px-12 sm:px-6 ${
-        router.route != "/" ? "bg-[#24346D]" : "bg-slate-50"
+        router.route != "/" ? "bg-[#24346D]" : "bg-white"
       }`}
     >
       {/* <div className="bg-white/50  h-full p-5 flex justify-center items-center rounded-b-xl "> */}

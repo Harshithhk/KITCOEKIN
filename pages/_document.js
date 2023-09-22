@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document"
 
+import Script from 'next/script'
 
 export default function Document() {
   return (
@@ -11,12 +12,18 @@ export default function Document() {
           rel="stylesheet"
           href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
         />
+
+        <link href="code/homepage/css/vendors/aos.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="code/homepage/css/vendors/swiper-bundle.min.css"/>
+        <link href="code/homepage/style.css" rel="stylesheet"/>
+
       </Head>
       <body>
         <div id="page-transition"></div>
         <Main />
         <NextScript />
       </body>
+     
     </Html>
   )
 }

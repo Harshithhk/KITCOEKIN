@@ -17,12 +17,20 @@ module.exports = {
           DEFAULT: "#F07C00",
           light: "",
         },
+        basic: {
+          DEFAULT: "#484267",
+          light: "",
+        },
         accent: {
           DEFAULT: "#24346D",
           light: "#5C5487",
         },
         secondary: {
           DEFAULT: "#F8F7FC",
+          light: "",
+        },
+        tertiary:{
+          DEFAULT: "#24346D",
           light: "",
         },
       },
@@ -111,7 +119,7 @@ module.exports = {
         wiggle: "wiggle 1s ease-in-out infinite",
         bounce2: "bounce2 3s infinite",
         bounce3: "bounce2 5s infinite",
-        wiggle2: "wiggle2 7s ease-in-out infinite",
+        wiggle2: "wiggle 5s ease-in-out infinite",
         'before-animation': 'before-animation 2s infinite',
         'after-animation': 'after-animation 2s infinite',
         "scroll-y": 'scrollY 30s linear infinite',
@@ -134,6 +142,10 @@ module.exports = {
 
       lg: { max: "1023px" },
       // => @media (max-width: 1023px) { ... }
+
+      msdh: { min: "767px" },
+      mhds: { max: "767px" },
+      // use only for hidden property
 
       md: { max: "767px" },
       // => @media (max-width: 767px) { ... }

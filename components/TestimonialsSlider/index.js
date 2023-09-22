@@ -29,14 +29,14 @@ const TestimonialSlider = (props) => {
   };
 
   return (
-    <div className=" px-32 sm:px-1  py-16 mt-20 text-[#24346D]">
+    <div className=" px-32 sm:px-1   text-basic">
       <div className="mx-auto px-4 sm:px-6 2xl:px-8">
         <div className="2xl:text-left">
-          <h2 className="text-base font-semibold tracking-wide text-[#24346D] uppercase">Testimonials</h2>
-          <p className=" sm:hidden w-fit font-[800] text-center  text-[#24346D] leading-[54px] text-[35.97px]  md:text-[22px]">
-            What our students are saying
-          </p>
-          <p className="hidden sm:block mt-2 text-4xl sm:text-3xl sm:font-bold leading-8 text-[#24346D]  font-extrabold  tracking-tight">
+          <h2 className="text-base font-semibold tracking-wide text-basic uppercase">Testimonials</h2>
+        
+          <h2 class="cpcm4 c9ob6 text-basic">What our students are saying</h2>
+
+          <p className="hidden  mt-2 text-4xl sm:text-3xl sm:font-bold leading-8 text-basic  font-extrabold  tracking-tight">
             What our students are saying
           </p>
         </div>
@@ -86,16 +86,17 @@ const TestimonialSlider = (props) => {
                 </svg>
               </div>
               <div className="ml-4 ">
-                <div className="text-base font-medium  text-[#24346D]">{testimonial.name}</div>
-                <div className=" text-sm font-medium text-[#24346D]">{testimonial.position}</div>
+                <div className="text-base font-medium  text-basic">{testimonial.name}</div>
+                <div className=" text-sm font-medium text-basic">{testimonial.position}</div>
               </div>
             </div>
           </div>
         ))}
       </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>);
+  );
 };
 
 export default TestimonialSlider;
