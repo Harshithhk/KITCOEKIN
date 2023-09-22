@@ -34,9 +34,9 @@ const TestimonialSlider = (props) => {
         <div className="2xl:text-left">
           <h2 className="text-base font-semibold tracking-wide text-basic uppercase">Testimonials</h2>
         
-          <h2 className="cpcm4 c9ob6 text-basic">What our students are saying</h2>
+          <h2 className="mhds:hidden cpcm4 c9ob6 text-basic">What our students are saying</h2>
 
-          <p className="hidden  mt-2 text-4xl sm:text-3xl sm:font-bold leading-8 text-basic  font-extrabold  tracking-tight">
+          <p className="msdh:hidden  mt-2 text-4xl sm:text-3xl sm:font-bold leading-8 text-basic  font-extrabold  tracking-tight">
             What our students are saying
           </p>
         </div>

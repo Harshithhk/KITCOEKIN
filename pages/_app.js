@@ -1,5 +1,4 @@
 import "../styles/index.css"
-// import "../styles/style.css"
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "next/app";

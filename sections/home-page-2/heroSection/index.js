@@ -42,7 +42,7 @@ function HeroSection(props) {
                                                     />
                                                 </div>
                                                     
-                                                <div className="flex flex-col items-center justify-center  ">
+                                                <a href='apply-admission' className="flex flex-col items-center justify-center  ">
                                                     <img
                                                       // data-aos="fade-up"
                                                       // data-aos-delay="0"
@@ -63,7 +63,7 @@ function HeroSection(props) {
                                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
                                                       </svg>
                                                     </span>                                                   
-                                                </div>
+                                                </a>
                                               </div>
 
                                               <div className='mhds:hidden absolute top-0 right-20  items-center justify-center flex flex-col'>

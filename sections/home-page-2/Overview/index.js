@@ -17,10 +17,10 @@ function Overview(props) {
             
                             <div className="c3myu ca3ts cighh cpvgl c4nun c51lg czaf3 cjy67 cwayg cbum8 co2li">
             
-                                <div className="cgl6d c54d1 c4q7x c4zq1">
+                                <div className="cgl6d c54d1 c4q7x c4zq1 ">
             
                                     <h2 className="cpcm4 c9ob6 text-basic " data-aos="fade-up" data-aos-anchor="[data-aos-id-6]" data-aos-delay="100">KITCoEK <span className="text-primary">OVERVIEW</span></h2>
-                                    <p className="c3czc cnvr3 cnfi1 text-justify" data-aos="fade-up" data-aos-anchor="[data-aos-id-6]" data-aos-delay="200">{isExpanded ? kitOverview : `${kitOverview.slice(0, 300)}  ... `}<span onClick={()=>{setIsExpanded(!isExpanded)}} className="text-primary hover:cursor-pointer">&nbsp;{isExpanded?"Read less":"Read more"}</span></p>
+                                    <p className="c3czc cnvr3 cnfi1 " data-aos="fade-up" data-aos-anchor="[data-aos-id-6]" data-aos-delay="200">{isExpanded ? kitOverview : `${kitOverview.slice(0, 300)}  ... `}<span onClick={()=>{setIsExpanded(!isExpanded)}} className="text-primary hover:cursor-pointer">&nbsp;{isExpanded?"Read less":"Read more"}</span></p>
                                     <ul className="cep2u c4nun czvp3 cnfi1" data-aos="fade-up" data-aos-anchor="[data-aos-id-6]" data-aos-delay="300">
                                         <li className="cighh c51lg">
                                             <svg className="cjzor c4q7x" width="20" height="20" xmlns="http://www.w3.org/2000/svg">

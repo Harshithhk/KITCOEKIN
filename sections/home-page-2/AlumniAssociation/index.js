@@ -19,7 +19,7 @@ function AlumniAssociation(props) {
             
                                     <div className="ca3ts ct5dn cv5q2 cydx6" data-aos="fade-up" data-aos-anchor="[data-aos-id-3]" data-aos-delay="300">
                                         <div>
-                                            <a className="cvk53       cmond bg-orange-400  text-white  hover:bg-primary" href="apply.html">
+                                            <a className="cvk53       cmond bg-orange-400  text-white  hover:bg-primary" href="alumni">
                                                 Join Now
                                                 <span className="cz2zl ctpj1 c9b1d c8nkc chqbb cnank cv3dq">
                                                     <svg className="ch0s7" width="12" height="10" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@ function AlumniAssociation(props) {
                                 </div>
             
                                 <div className="cka5y cef1y ctnab c0sqv corfv cwayg">
-                                    <div className="c3myu cka8y cemev">
+                                    <div className="c3myu  cemev">
                                         <img src="code/homePage/images/features-03.png" className="cwayg" width="496" height="496" alt="Features 03" data-aos="fade-up" data-aos-anchor="[data-aos-id-3]"/>
                                     </div>
                                 </div>

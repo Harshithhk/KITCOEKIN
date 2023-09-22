@@ -2,7 +2,7 @@ import React from 'react';
 
 function ArVr(props) {
     return (
-        <section className="cdxzq mb-14" data-aos-id-4="">
+        <section className="cdxzq " data-aos-id-4="">
                 <div className="c3myu ca3ts cbq8v">
             
                     <div className="chaba cqi3d c6in0 ce4pe c5q0m crgnl ck7qp cf0jn cu7lf" aria-hidden="true"></div>
@@ -145,8 +145,8 @@ function ArVr(props) {
             
                                     <div className="ca3ts cv5q2 cydx6" data-aos="fade-up" data-aos-anchor="[data-aos-id-4]" data-aos-delay="300">
                                         <div>
-                                            <a className="cvk53 cep2u c51lg ceugs clenw czotb ct4ap cmond bg-orange-400  text-white  hover:bg-primary" href="apply.html">
-                                                Explore AR/VR
+                                            <a className="cvk53 cep2u c51lg ceugs clenw czotb ct4ap cmond bg-orange-400  text-white  hover:bg-primary" href="new-vision">
+                                                AR/VR VFX Studio Lab
                                                 <span className="cz2zl ctpj1 c9b1d c8nkc chqbb cnank cv3dq">
                                                     <svg className="ch0s7" width="12" height="10" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M1 6.002h7.586L6.293 8.295a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.416l-4-4a1 1 0 0 0-1.414 1.416l2.293 2.293H1a1 1 0 1 0 0 2Z"></path>
@@ -158,9 +158,11 @@ function ArVr(props) {
             
                                 </div>
             
-                                <div className="cka5y cef1y ctnab c0sqv cvd31 cwayg">
-                                    <div className="c3myu cka8y cemev  md:w-screen">
-                                        <img src="/images/HomePage/NewVision.jpg" className="c034o cwayg w-[600px]"  alt="Features 04" data-aos="fade-up" data-aos-anchor="[data-aos-id-4]"/>
+                                <div className="cka5y ">
+                                    <div className="c3myu cka8y cemev  md:w-screen flex items-center justify-center">
+                                        <img src="/images/HomePage/NewVision.jpg" className="c034o mhds:hidden cwayg w-[600px]"  alt="Features 04" data-aos="fade-up" data-aos-anchor="[data-aos-id-4]"/>
+                                        <img src="/images/HomePage/virtual.png" className="c034o msdh:hidden cwayg "  alt="Features 04" data-aos="fade-up" data-aos-anchor="[data-aos-id-4]"/>
+
                                     </div>
                                 </div>
             

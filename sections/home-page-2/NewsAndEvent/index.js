@@ -156,7 +156,7 @@ function NewsAndEvents(props) {
             
                                 <div className="ctaq8 cgmwa cjtgt" data-aos="fade-up">
                                     <h2 className="cpcm4 c9ob6 text-basic ">Stay informed about upcoming events and news</h2>
-                                    <p className="ct5dn cnvr3 cnfi1 md:text-justify">Explore our Events and News Section to stay well-informed about upcoming college events, activities, and the latest news updates. Don't miss out on exciting happenings!</p>
+                                    <p className="ct5dn cnvr3 cnfi1 ">Explore our Events and News Section to stay well-informed about upcoming college events, activities, and the latest news updates. Don't miss out on exciting happenings!</p>
                                 </div>
                                 
                                 <div className="flex  gap-4 md:gap-y-10 md:flex-col">

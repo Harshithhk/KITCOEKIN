@@ -8,7 +8,7 @@ function ARIIA(props) {
             
                         <div className="ca3ts cvymt ctnab crwro c7tut cbatg cwayg cuywu c6e8l">
             
-                            <div className="c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up">
+                            <div className=" md:hidden c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up">
                                 <div className="cmpsc">
                                     {/*  */}
                                 </div>
@@ -19,7 +19,7 @@ function ARIIA(props) {
                                 {/* <p className="cnfi1">Atal Ranking of Institutions on Innovation Achievements</p> */}
                             </div>
             
-                            <div className="c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up" data-aos-delay="100">
+                            <div className=" c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up" data-aos-delay="100">
                                 <div className="cmpsc ">
                                 <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
