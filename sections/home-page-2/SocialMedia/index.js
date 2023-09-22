@@ -81,7 +81,7 @@ function SocialMedia(props) {
                                                         <svg
                                                             class="h-14 md:h-5 w-5 text-white group-hover:rotate-12"
                                                             fill="currentColor"
-                                                            viewbox="0 0 24 24"
+                                                            viewBox="0 0 24 24"
                                                         >
                                                             <path
                                                             id="telegram-1"

@@ -173,7 +173,7 @@ const Forum = (props) =>{
                                         <label for="simple-search" className="sr-only">Search</label>
                                         <div className="relative w-full">
                                           <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                                            <svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                               <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
                                             </svg>
                                           </div>
@@ -192,7 +192,7 @@ const Forum = (props) =>{
                                       <div className={`sm:w-full sm:space-x-0 flex sm:grid grid-cols-1  space-x-3 w-auto`}>
                                         <div className={`${!props.readMore || editTempForumData.alumniUid != tempForumData.alumniUid ?"hidden":null}`}>
 										<button onClick={()=>{setActionButton(!actionButton)}} id="actionsDropdownButton" data-dropdown-toggle="actionsDropdown" className="flex items-center justify-center sm:w-full px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg w-auto focus:outline-none  hover:text-primary focus:z-10 " type="button">
-                                          <svg className={`-ml-1 mr-1.5 w-5 h-5 ${actionButton ? "rotate-180" : null}`} fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                          <svg className={`-ml-1 mr-1.5 w-5 h-5 ${actionButton ? "rotate-180" : null}`} fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                             <path clipRule="evenodd" fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" />
                                           </svg>
                                           Actions
@@ -210,11 +210,11 @@ const Forum = (props) =>{
 										</div>
                                         <div className={`${props.readMore ?"hidden":null}`}>
 										<button onClick={()=>{setFilterButton(!filterButton)}} id="filterDropdownButton" data-dropdown-toggle="filterDropdown" className="flex items-center justify-center sm:w-full px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg w-auto focus:outline-none  hover:text-primary focus:z-10 " type="button">
-                                          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="w-4 h-4 mr-2 text-gray-400" viewbox="0 0 20 20" fill="currentColor">
+                                          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="w-4 h-4 mr-2 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z" clipRule="evenodd" />
                                           </svg>
                                           Filter
-                                          <svg className={`-mr-1 ml-1.5 w-5 h-5 ${filterButton ? "rotate-180" : null} `} fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                          <svg className={`-mr-1 ml-1.5 w-5 h-5 ${filterButton ? "rotate-180" : null} `} fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                             <path clipRule="evenodd" fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" />
                                           </svg>
                                         </button>

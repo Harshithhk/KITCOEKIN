@@ -69,7 +69,7 @@ function HeroSection(props) {
                                               <div className='mhds:hidden absolute top-0 right-20  items-center justify-center flex flex-col'>
                                                 <div className='bg-basic w-[100px] h-[250px]'></div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-[150px] h-[950px]   text-basic -mt-[250px] ">
-                                                  <path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+                                                  <path fillRule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clipRule="evenodd" />
                                                 </svg>
                                               </div>
                 
@@ -77,13 +77,13 @@ function HeroSection(props) {
                         <div key={index}  className={`mhds:hidden relative z-20 p-2 h-fit  w-[65%] mt-16    ${index === slideIndex ? 'active' : 'hidden'}`}>
                             <div className='h-full  justify-between flex items-center w-[100%] -ml-2  absolute' >
                               <div onClick={() => handleClick('left')} className='h-10 w-10 rounded-full bg-slate-500 opacity-60 flex items-center justify-center hover:cursor-pointer hover:bg-slate-400'>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 -rotate-90 text-white">
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h5.25m5.25-.75L17.25 9m0 0L21 12.75M17.25 9v12" />
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6 -rotate-90 text-white">
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h5.25m5.25-.75L17.25 9m0 0L21 12.75M17.25 9v12" />
                                 </svg>
                               </div>
                               <div onClick={() => handleClick('right')} className='h-10 w-10 rounded-full bg-slate-500 opacity-60 flex items-center justify-center hover:cursor-pointer hover:bg-slate-400'>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 -rotate-90 text-white">
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0l-3.75-3.75M17.25 21L21 17.25" />
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6 -rotate-90 text-white">
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0l-3.75-3.75M17.25 21L21 17.25" />
                                 </svg>
                               </div>
 

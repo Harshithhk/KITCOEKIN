@@ -24,19 +24,19 @@ function ARIIA(props) {
                                 <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
                                             <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="a">
-                                                <stop stop-color="#F07C58" offset="0%"></stop>
-                                                <stop stop-color="#FDB286" offset="100%"></stop>
+                                                <stop stopColor="#F07C58" offset="0%"></stop>
+                                                <stop stopColor="#FDB286" offset="100%"></stop>
                                             </linearGradient>
                                         </defs>
-                                        <g fill-rule="nonzero" fill="none">
+                                        <g fillRule="nonzero" fill="none">
                                             <path d="M43.443 49.745a1.028 1.028 0 0 1-.262-.019l-23.5-4.9a1 1 0 0 1-.775-1.186l6.2-29.352a1.006 1.006 0 0 1 1.182-.773l23.42 4.885a1 1 0 0 1 .776 1.183l-6.12 29.37a1 1 0 0 1-.921.795v-.003Z" fill="#FDB286"></path>
                                             <path d="M25 32H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h24a1 1 0 0 1 1 1v30a1 1 0 0 1-1 1ZM8 15.25l3.5 4 6.5-6.5-1-.75-5.5 4.25-2.5-2-1 1Z" fill="url(#a)"  transform="translate(6 6)"></path>
                                         </g>
                                     </svg>
                                 </div>
                                 <h4 class="cohrg c9hkg ckq42  text-basic ">ARIIA Report 21-22</h4>
-                                <p class="cnfi1 flex gap-2 hover:cursor-pointer hover:text-primary">Download <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                <p class="cnfi1 flex gap-2 hover:cursor-pointer hover:text-primary">Download <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
 </svg>
 </p>
                             </div>
@@ -46,8 +46,8 @@ function ARIIA(props) {
                                     <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
                                             <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="a">
-                                                <stop stop-color="#FDB286" offset="0%"></stop>
-                                                <stop stop-color="#F07C58" offset="100%"></stop>
+                                                <stop stopColor="#FDB286" offset="0%"></stop>
+                                                <stop stopColor="#F07C58" offset="100%"></stop>
                                             </linearGradient>
                                         </defs>
                                         <g fill-rule="nonzero" fill="none">
@@ -57,8 +57,8 @@ function ARIIA(props) {
                                     </svg>
                                 </div>
                                 <h4 class="cohrg c9hkg ckq42 text-basic ">ARIIA Certificate</h4>
-                                <p class="cnfi1 flex gap-2 hover:cursor-pointer hover:text-primary">Download <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                <p class="cnfi1 flex gap-2 hover:cursor-pointer hover:text-primary">Download <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
 </svg>
 </p>
                             </div>
