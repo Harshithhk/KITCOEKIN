@@ -27,7 +27,13 @@ Router.events.on("routeChangeError", () => {
 
 function MyApp({ Component, pageProps }) {
  
-  return <><style>{`/* width */
+  return <>
+  <Head>
+        <link href="code/homepage/css/vendors/aos.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="code/homepage/css/vendors/swiper-bundle.min.css"/>
+        <link href="code/homepage/style.css" rel="stylesheet"/>
+  </Head>
+  <style>{`/* width */
   ::-webkit-scrollbar {
     width: 16px;
     height: 16px;
