@@ -54,9 +54,6 @@ const MetaTags=()=>{
         {meta.map((tag, index) => (
             <meta key={index} name={tag.name} content={tag.content} />
         ))}
-        <link href="code/homepage/css/vendors/aos.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="code/homepage/css/vendors/swiper-bundle.min.css"/>
-        <link href="code/homepage/style.css" rel="stylesheet"/>
     </Head>
   );
 

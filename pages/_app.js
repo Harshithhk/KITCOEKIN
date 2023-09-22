@@ -1,6 +1,4 @@
 import "../styles/index.css"
-// import "../styles/aos.css"
-// import "../styles/swiper-bundle.min.css"
 // import "../styles/style.css"
 import React from "react";
 import ReactDOM from "react-dom";

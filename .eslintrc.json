@@ -9,6 +9,7 @@
     "@next/next/link-passhref":"off",
     "react/jsx-key":"off",
     "react/display-name":"off",
-    "react-hooks/exhaustive-deps":"off"
+    "react-hooks/exhaustive-deps":"off",
+    "@next/next/no-css-tags":"off"
   }
 }
