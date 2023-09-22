@@ -3,24 +3,24 @@ import React from 'react';
 function ARIIA(props) {
     return (
         <section className="">
-                <div class="ca3ts cmc2m cuafn c0sod">
-                    <div class="chn6j c8xqc cg2v6">
+                <div className="ca3ts cmc2m cuafn c0sod">
+                    <div className="chn6j c8xqc cg2v6">
             
-                        <div class="ca3ts cvymt ctnab crwro c7tut cbatg cwayg cuywu c6e8l">
+                        <div className="ca3ts cvymt ctnab crwro c7tut cbatg cwayg cuywu c6e8l">
             
-                            <div class="c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up">
-                                <div class="cmpsc">
+                            <div className="c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up">
+                                <div className="cmpsc">
                                     {/*  */}
                                 </div>
-                                <h4 class="cohrg c9hkg ckq42  text-5xl text-primary bg-orange-500 bg-opacity-70 mx-2 rounded-xl">
+                                <h4 className="cohrg c9hkg ckq42  text-5xl text-primary bg-orange-500 bg-opacity-70 mx-2 rounded-xl">
                                 <img src="/images/HomePage/ariia2.jpg" className=" rounded-tl-[80px] h-32 opacity-60  bg-opacity-5 bg-orange-50"/>
 
                                 </h4>
-                                {/* <p class="cnfi1">Atal Ranking of Institutions on Innovation Achievements</p> */}
+                                {/* <p className="cnfi1">Atal Ranking of Institutions on Innovation Achievements</p> */}
                             </div>
             
-                            <div class="c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up" data-aos-delay="100">
-                                <div class="cmpsc ">
+                            <div className="c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up" data-aos-delay="100">
+                                <div className="cmpsc ">
                                 <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
                                             <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="a">
@@ -34,15 +34,15 @@ function ARIIA(props) {
                                         </g>
                                     </svg>
                                 </div>
-                                <h4 class="cohrg c9hkg ckq42  text-basic ">ARIIA Report 21-22</h4>
-                                <p class="cnfi1 flex gap-2 hover:cursor-pointer hover:text-primary">Download <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6">
+                                <h4 className="cohrg c9hkg ckq42  text-basic ">ARIIA Report 21-22</h4>
+                                <p className="cnfi1 flex gap-2 hover:cursor-pointer hover:text-primary">Download <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
 </svg>
 </p>
                             </div>
             
-                            <div class="c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up" data-aos-delay="200">
-                                <div class="cmpsc">
+                            <div className="c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up" data-aos-delay="200">
+                                <div className="cmpsc">
                                     <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
                                             <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="a">
@@ -56,8 +56,8 @@ function ARIIA(props) {
                                         </g>
                                     </svg>
                                 </div>
-                                <h4 class="cohrg c9hkg ckq42 text-basic ">ARIIA Certificate</h4>
-                                <p class="cnfi1 flex gap-2 hover:cursor-pointer hover:text-primary">Download <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6">
+                                <h4 className="cohrg c9hkg ckq42 text-basic ">ARIIA Certificate</h4>
+                                <p className="cnfi1 flex gap-2 hover:cursor-pointer hover:text-primary">Download <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
 </svg>
 </p>

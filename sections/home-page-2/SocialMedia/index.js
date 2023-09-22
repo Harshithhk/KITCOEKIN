@@ -7,21 +7,21 @@ function SocialMedia(props) {
 
     return (
         <section className="mt-20">
-                <div class="c3myu ca3ts cbq8v">
+                <div className="c3myu ca3ts cbq8v">
             
-                    <div class="chaba cqi3d c6in0 ce4pe c5q0m cdcqj ck7qp cf0jn cu7lf" aria-hidden="true"></div>
-                    <div class="chaba cqi3d c6in0 ce4pe c5q0m cdcqj cvdk9 cgtx5 cu7lf" aria-hidden="true"></div>
+                    <div className="chaba cqi3d c6in0 ce4pe c5q0m cdcqj ck7qp cf0jn cu7lf" aria-hidden="true"></div>
+                    <div className="chaba cqi3d c6in0 ce4pe c5q0m cdcqj cvdk9 cgtx5 cu7lf" aria-hidden="true"></div>
             
-                    <div class="ca3ts cmc2m cuafn c0sod">
-                        <div class="chn6j cbovh">
+                    <div className="ca3ts cmc2m cuafn c0sod">
+                        <div className="chn6j cbovh">
             
-                            <div class="c3myu ca3ts cpvgl cjy67 cwayg co2li">
+                            <div className="c3myu ca3ts cpvgl cjy67 cwayg co2li">
             
-                                <div class="ctaq8 cgmwa cjtgt" data-aos="fade-up">
-                                    <h2 class="cpcm4 c9ob6 text-basic ">Stay Social with Your College</h2>
-                                    <p class="ct5dn cnvr3 cnfi1 ">Keep up with campus life, events, and news. Follow us on social media to stay connected with your college community!</p>
+                                <div className="ctaq8 cgmwa cjtgt" data-aos="fade-up">
+                                    <h2 className="cpcm4 c9ob6 text-basic ">Stay Social with Your College</h2>
+                                    <p className="ct5dn cnvr3 cnfi1 ">Keep up with campus life, events, and news. Follow us on social media to stay connected with your college community!</p>
                                 </div>
-                                <div class="md:-mt-7" >
+                                <div className="md:-mt-7" >
                 
                                     <section className="">
                                         <div className="flex  mx-auto flex-row md:flex-col">
@@ -51,7 +51,7 @@ function SocialMedia(props) {
                                                         </div>
                                                         <svg
                                                                 xmlns="http://www.w3.org/2000/svg"
-                                                                class="h-14 md:h-5 w-5 text-white group-hover:rotate-12"
+                                                                className="h-14 md:h-5 w-5 text-white group-hover:rotate-12"
                                                                 fill="currentColor"
                                                                 
                                                                 viewBox="0 0 24 24">
@@ -79,7 +79,7 @@ function SocialMedia(props) {
                                                             Telegram
                                                         </div>
                                                         <svg
-                                                            class="h-14 md:h-5 w-5 text-white group-hover:rotate-12"
+                                                            className="h-14 md:h-5 w-5 text-white group-hover:rotate-12"
                                                             fill="currentColor"
                                                             viewBox="0 0 24 24"
                                                         >
@@ -111,7 +111,7 @@ function SocialMedia(props) {
                                                         </div>
                                                         <svg
                                                             xmlns="http://www.w3.org/2000/svg"
-                                                            class="h-14 md:h-5 w-5 text-white group-hover:rotate-12"
+                                                            className="h-14 md:h-5 w-5 text-white group-hover:rotate-12"
                                                             fill="currentColor"
                                                             viewBox="0 0 24 24">
                                                             <path
