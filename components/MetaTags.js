@@ -23,7 +23,7 @@ const MetaTags=()=>{
             ]
         },
         {
-            "route" : "/",
+            "route" : "/about",
             "title":"Top Ranked Engineering College in Kolhapur, Sangli, Satara, Ratnagiri| KIT'S College Of Engineering (Autonomous)",
             "meta":[
                 {
@@ -37,21 +37,28 @@ const MetaTags=()=>{
             ]
         }
     ]
+
+     // Find the meta data for the given route
+  const metaTags = MetaTagsList.find(item => item.route === router.route);
+
+  if (!metaTags) {
+    // Handle the case when no matching route is found
+    return null;
+  }
+
+  const { title, meta } = metaTags;
     
-    for (const { route, title, meta } of MetaTagsList) {
-        if (router.route === route) {
-            return(<Head>
-                    <title>{title}</title>
-                    {meta.map((item,index)=>{
-                        return(<meta name={item.name} content={item.content}/>)
-                    })}
-                    <meta name="author" content="Hashinclude"/>
-                    <link rel="icon" href="/favicon.ico" />
-            </Head>)
-        }else{
-            return<></>
-        }
-    }
+  return (
+    <Head>
+        <title>{title}</title>
+        {meta.map((tag, index) => (
+            <meta key={index} name={tag.name} content={tag.content} />
+        ))}
+        <link href="code/homepage/css/vendors/aos.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="code/homepage/css/vendors/swiper-bundle.min.css"/>
+        <link href="code/homepage/style.css" rel="stylesheet"/>
+    </Head>
+  );
 
     
 }
