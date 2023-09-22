@@ -33,7 +33,7 @@ function Recruiters(props) {
                     <div class="ca3ts cmc2m    ">
                     <div class="chn6j cbovh  cuafn">
 
-                                <div class="ctaq8 cgmwa cjtgt text-center" data-aos="fade-up">
+                                <div class="ctaq8 cgmwa cjtgt md:text-center" data-aos="fade-up">
                                     <h2 class="cpcm4 c9ob6 text-basic ">Esteemed Recruiters</h2>
                                     <p class="ct5dn cnvr3 cnfi1"> Gain insight into the exciting career prospects available to you and discover the reputable employers who highly regard and seek out our accomplished graduates</p>
                                 </div>
