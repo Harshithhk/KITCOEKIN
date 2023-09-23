@@ -4,7 +4,7 @@ const ImageGrid = () => {
     return (
   <section className="overflow-hidden text-gray-700 ">
     {/*  */}
-  <div className="container  px-2 sm:hidden 2xl:block">
+  <div className="   px-2 sm:hidden 2xl:block">
     {/*  */}
     <div className="flex flex-wrap sm:flex-col -m-1 ">
         {/*  */}
@@ -52,7 +52,7 @@ const ImageGrid = () => {
     </div>
   </div>
 
-  <div className="container   sm:block 3xl:hidden 2xl:hidden">
+  <div className="    sm:block 3xl:hidden 2xl:hidden">
     {/*  */}
     <div className="flex flex-wrap   -m-1 ">
         {/*  */}
