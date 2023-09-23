@@ -81,47 +81,16 @@ const Home = (props) => {
         <DefaultLayout>
             
             <HeroSection />
-
-            {/* ------------------------- */}
-
             <ARIIA />
-
-            {/* -------------below is not mobile responsive------------ */}
-
             <Accredations />
-
-            {/* ------------------------- */}
-
             <AlumniAssociation />
-            
-            {/* ------------------------- */}
-
             <ArVr />
-
-            {/* ------------------------- */}
-            
             <Statistics />
-            
-
-            {/* ------------------------- */}
-
             <NewsAndEvents news={props.news} events={props.events} />
-            
-
-            {/* --------------------------- */}
-
             <Overview />
-           
-            {/* --------------------------- */}
-
             <Recruiters />
-
-            {/* --------------------------- */}
-
             <SocialMedia />
-            
             <TestimonialSlider testimonials = { testimonials} />
-
             <Footer />
 
         </DefaultLayout>    
