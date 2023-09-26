@@ -46,7 +46,7 @@ const PressReleaseGrid = () => {
  
     return (
         <section className="overflow-hidden text-gray-700">
-  <div className="container  py-2 mx-auto pt-20 sm:pt-0 pb-10 px-10 sm:px-4 sm:pb-5">
+  <div className="   py-2 mx-auto pt-20 sm:pt-0 pb-10 px-10 sm:px-4 sm:pb-5">
     {/* 3 */}
     {ImageGroupList.map((image,index)=>{
       return(<>

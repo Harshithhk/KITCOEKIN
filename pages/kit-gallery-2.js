@@ -39,7 +39,7 @@ const KitGallery = (props) => {
           ))}
         </select>
       </div>
-      <div className="flex flex-wrap container">
+      <div className="flex flex-wrap  ">
         {images.map((image) => (
           <div className="max-w-[400px] max-h-[600px]">
             <img

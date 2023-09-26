@@ -85,7 +85,7 @@ const testimonials = [
       <Accredations />
       <NewsAndEvents news={props.news} events={props.events} />
       <Overviews />
-      <div className="container my-24 sm:my-16 px-6  mx-auto">
+      <div className="  my-24 sm:my-16 px-6  mx-auto">
         <section className="mb-32 sm:pb-0 pb-20 text-primary text-center 2xl:text-left sm:text-center">
           <div className="flex flex-wrap justify-center relative">
             <div className="grow-0 shrink-0 basis-auto w-full 2xl:w-10/12 sm:w-fit px-3">

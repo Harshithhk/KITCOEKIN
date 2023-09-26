@@ -151,8 +151,8 @@ const Map2 = (props) => {
   return (
     
     <>
-      <div className='container '>
-        <div className='container'>
+      <div className='  '>
+        <div className=' '>
           
           
           <MapContainer center={center} scrollWheelZoom={true}  fullscreenControl={true} zoom={ZOOM_LEVEL} ref={mapRef} style={{ height: "400px" ,borderRadius:"20px"}}>

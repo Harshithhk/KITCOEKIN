@@ -1,7 +1,12 @@
 import React from 'react';
 import { useState } from 'react';
 import Modal from '../Modal';
+import { useRouter } from "next/router"
+
 const TestimonialSlider = (props) => {
+
+  const router = useRouter()
+
   const testimonials = [
     {
       id: 1,
@@ -29,7 +34,7 @@ const TestimonialSlider = (props) => {
   };
 
   return (
-    <div className=" px-32 sm:px-1   text-basic">
+    <div className=" px-32 sm:px-1 mt-32  text-basic">
       <div className="mx-auto px-4 sm:px-6 2xl:px-8">
         <div className="2xl:text-left">
           <h2 className="text-base font-semibold tracking-wide text-basic uppercase">Testimonials</h2>

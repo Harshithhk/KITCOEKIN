@@ -30,7 +30,7 @@ const TextSlider = () => {
   return (
     <section className="antialiased text-gray-600 bg-gray-200 sans-serif">
       <div
-        className="container flex mx-auto overflow-hidden shadow-sm sm:my-10 2xl:my-24 sm:flex-col 2xl:flex-row"
+        className="  flex mx-auto overflow-hidden shadow-sm sm:my-10 2xl:my-24 sm:flex-col 2xl:flex-row"
        
       >
         <div className="relative flex flex-col justify-center w-full sm:py-8 2xl:py-24 bg-primary 2xl:w-1/2 sm:w-full item-center">

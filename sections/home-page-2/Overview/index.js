@@ -73,7 +73,7 @@ function Overview(props) {
 
                                         <div className="md:hidden cqi3d c6in0 ce4pe ct5pu cnbfc ci3lf c5ve6" aria-hidden="true"></div>
 
-                                        <div className="testimonial-carousel swiper-container ca3ts ctnab cydx6">
+                                        <div className="testimonial-carousel swiper-  ca3ts ctnab cydx6">
                                             <div className="swiper-wrapper ">
                                                 <div className="grid grid-cols-7 gap-4  ">
                                                     <div className="col-start-1 col-span-4 ">

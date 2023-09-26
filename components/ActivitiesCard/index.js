@@ -27,7 +27,7 @@ const ActivitiesCard = (props) =>{
                         <div className="px-7 pt-7">
                         <h1 className="text-lg text-slate-500 font-medium">{ActivityData.date}</h1>
                         </div>
-                    <div className="container col-span-3  grid grid-cols-12 mx-auto ">
+                    <div className="  col-span-3  grid grid-cols-12 mx-auto ">
                     <div className="flex flex-col p-6 col-span-full row-span-full ">
                         <div className="flex justify-start">
                             {/* <span className="px-2 py-1 text-xs rounded-full text-white bg-primary">Label</span> */}
