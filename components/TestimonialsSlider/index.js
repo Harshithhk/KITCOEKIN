@@ -34,7 +34,7 @@ const TestimonialSlider = (props) => {
   };
 
   return (
-    <div className=" px-32 sm:px-1 mt-32  text-basic">
+    <div className={` px-32 sm:px-1 ${router.route == '/' ? '':'mt-32'}  text-basic`}>
       <div className="mx-auto px-4 sm:px-6 2xl:px-8">
         <div className="2xl:text-left">
           <h2 className="text-base font-semibold tracking-wide text-basic uppercase">Testimonials</h2>

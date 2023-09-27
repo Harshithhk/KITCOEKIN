@@ -15,9 +15,9 @@ const Footer = () => {
         </div>
       </section>
       <section className="flex h-[320px] bg-[#443b3c] pt-6 ">
-      <footer class="bg-[#443b3c]-100 text-center text-white ">
+      <footer class="bg-[#443b3c] text-lg text-center text-white ">
           <div
-            class="flex items-center  md:flex-col gap-4  border-b-2 border-transparent p-6 dark:border-[#443b3c]-500 justify-center">
+            class="flex items-center  md:flex-col gap-4  border-b-2 border-transparent p-6  justify-center">
             <div class="mr-12 md:mr-0 md:text-sm block">
               <span>Get connected with us on social networks:</span>
             </div>
@@ -91,7 +91,7 @@ const Footer = () => {
             <div class="grid-1 grid gap-8 md:grid-cols-2 grid-cols-4">
               <div class="">
                 <h6
-                  class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
+                  class="mb-4 flex items-center justify-center md:justify-start font-semibold uppercase md:justify-start">
                   
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-3 h-4 w-4">
   <path d="M11.7 2.805a.75.75 0 01.6 0A60.65 60.65 0 0122.83 8.72a.75.75 0 01-.231 1.337 49.949 49.949 0 00-9.902 3.912l-.003.002-.34.18a.75.75 0 01-.707 0A50.009 50.009 0 007.5 12.174v-.224c0-.131.067-.248.172-.311a54.614 54.614 0 014.653-2.52.75.75 0 00-.65-1.352 56.129 56.129 0 00-4.78 2.589 1.858 1.858 0 00-.859 1.228 49.803 49.803 0 00-4.634-1.527.75.75 0 01-.231-1.337A60.653 60.653 0 0111.7 2.805z" />
@@ -102,7 +102,7 @@ const Footer = () => {
                   KITCoEK 
                 </h6>
                 <p className="md:text-sm">
-                  An institute established in May 1983, KIT(Autonomous) reflects
+                  An institute established in 1983, KIT(Autonomous) reflects
                    the vision of leading industrialists and educationalists.
                   
                 </p>
@@ -171,7 +171,7 @@ const Footer = () => {
                   </span>
                   <span className="hover:cursor-pointer hover:text-orange-400 text-start md:text-sm">R.S. No. 199B/1-3, Gokul - Shirgoan, Kolhapur - 416 234, Maharashtra </span>
                 </p>
-                <p class="mb-4 flex items-center justify-start ">
+                <p class="mb-4 flex items-center justify-center md:justify-start ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -184,7 +184,7 @@ const Footer = () => {
                   </svg>
                   <span className="hover:cursor-pointer hover:text-orange-400 text-start md:text-sm">info@kitcoek.in</span>
                 </p>
-                <p class="mb-4 flex items-center justify-start ">
+                <p class="mb-4 flex items-center justify-center md:justify-start ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -197,7 +197,7 @@ const Footer = () => {
                   </svg>
                   <span className="hover:cursor-pointer hover:text-orange-400 text-start md:text-sm">+917769001199</span>
                 </p>
-                <p class="flex items-center justify-start ">
+                <p class="flex items-center justify-center md:justify-start">
                   
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-3 h-5 w-5">
   <path d="M10.5 18.75a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z" />
@@ -210,7 +210,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class=" bg-[#443b3c] -mt-8 p-8 text-center">
+          <div class=" bg-[#443b3c] -mt-8 p-8 text-base text-center">
             <span>© 2023 Copyright : </span>
             <a class="font-semibold text-white "
               href="https://tailwind-elements.com/"
