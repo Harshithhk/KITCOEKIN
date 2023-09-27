@@ -30,8 +30,8 @@ function Hero6(props) {
   }, []);
 
     return (
-<div class="relative overflow-hidden before:absolute before:top-0 before:left-1/2 before:bg-[url('/images/polygon-bg-element.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:w-full before:h-full before:-z-[1] before:transform before:-translate-x-1/2 dark:before:bg-[url('/images/polygon-bg-element.svg')]">
-  <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
+<div class="relative md:bg-gradient-to-t md:from-slate-100  md:to-transparent md:rounded-bl-[150px] md:bg-opacity-5 overflow-hidden before:absolute before:top-0 before:left-1/2 before:bg-[url('/images/polygon-bg-element.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:w-full before:h-full before:-z-[1] before:transform before:-translate-x-1/2 dark:before:bg-[url('/images/polygon-bg-element.svg')]">
+  <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10  ">
     <div class="max-w-2xl text-center mx-auto">
 
         <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">

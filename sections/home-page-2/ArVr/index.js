@@ -160,7 +160,7 @@ function ArVr(props) {
             
                                 <div className="cka5y ">
                                     <div className="c3myu cka8y cemev  md:w-screen flex items-center justify-center">
-                                        <img src="/images/HomePage/NewVision.jpg" className="c034o mhds:hidden cwayg w-[600px]"  alt="Features 04" data-aos="fade-up" data-aos-anchor="[data-aos-id-4]"/>
+                                        <img src="/images/HomePage/NewVision.jpg" className="c034o mhds:hidden cwayg max-w-[600px]"  alt="Features 04" data-aos="fade-up" data-aos-anchor="[data-aos-id-4]"/>
                                         <img src="/images/HomePage/virtual.png" className="c034o msdh:hidden cwayg "  alt="Features 04" data-aos="fade-up" data-aos-anchor="[data-aos-id-4]"/>
 
                                     </div>
