@@ -36,9 +36,9 @@ function Hero6(props) {
 
         <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
             <div class="flex justify-center">
-            <a class="inline-flex items-center gap-x-2 bg-white border border-gray-200 text-sm text-gray-800 p-1 pl-3 rounded-full transition hover:border-gray-300 dark:bg-gray-800 dark:border-gray-700 dark:hover:border-gray-600 dark:text-gray-200" href="https://api.whatsapp.com/send?phone=+917030861199">
+            <a class="inline-flex items-center gap-x-2 bg-white border border-gray-200 text-sm text-gray-800 p-1 pl-3 rounded-full transition hover:border-gray-300 " href="https://api.whatsapp.com/send?phone=+917030861199">
                 Admission enquiry - <span className='text-green-600'>WhatsApp</span>
-                <span class="py-2 px-3 inline-flex justify-center items-center gap-x-2 rounded-full bg-gray-200 font-semibold text-sm text-gray-600 dark:bg-gray-700 dark:text-gray-400">
+                <span class="py-2 px-3 inline-flex justify-center items-center gap-x-2 rounded-full bg-gray-200 font-semibold text-sm text-gray-600 ">
                 <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
                     <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -48,22 +48,22 @@ function Hero6(props) {
             </div>
 
             <div class="mt-5 max-w-2xl text-center mx-auto">
-            <h1 class="block font-bold text-basic text-4xl md:text-5xl lg:text-6xl dark:text-gray-200">
+            <h1 class="block font-bold text-basic text-4xl md:text-5xl lg:text-6xl ">
                 Let's Build
                 <span class="bg-clip-text bg-gradient-to-tl from-orange-300 to-orange-600 text-transparent"> Together</span>
             </h1>
             </div>
 
             <div class="mt-5 max-w-3xl text-center mx-auto">
-            <p class="text-lg text-gray-600 dark:text-gray-400 ">An institute established in May 1983, KITCOEK(Autonomous) reflects the vision of leading industrialists and educationalists</p>
+            <p class="text-lg text-gray-600 md:text-base ">An institute established in May 1983, KITCOEK(Autonomous) reflects the vision of leading industrialists and educationalists</p>
             </div>
 
         
 
-            <div class="mt-5 flex justify-center items-center gap-x-1 sm:gap-x-3">
-            <span class="text-sm text-gray-600 dark:text-gray-400">Notice Board:</span>
-            <span class="text-sm font-bold text-gray-900 dark:text-white">new</span>
-            <svg class="h-5 w-5 text-gray-300 dark:text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <div class="mt-5 flex justify-center items-center gap-x-1 ">
+            <span class="text-sm text-gray-600 ">Notice Board:</span>
+            <span class="text-sm font-bold text-gray-900 ">new</span>
+            <svg class="h-5 w-5 text-gray-300 " width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path d="M6 13L10 3" stroke="currentColor" stroke-linecap="round"/>
             </svg>
             <a  class="inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 hover:underline font-medium" href="/notice">
@@ -77,7 +77,7 @@ function Hero6(props) {
 
     </div>
 
-    <div class="mt-10 relative max-w-5xl mx-auto">
+    <div class="mt-10 relative mhds:hidden max-w-5xl mx-auto">
         {heros.map((hero,index)=>{
             return <div class={` ${index === slideIndex ? 'active' : 'hidden'}  w-full object-cover h-96 sm:h-[480px] ${hero} bg-no-repeat bg-center bg-cover rounded-xl`}></div>
         })}
@@ -92,12 +92,12 @@ function Hero6(props) {
         </div>
       </div> */}
 
-      <div class="absolute bottom-12 -left-20 -z-[1] w-48 h-48 bg-gradient-to-b from-orange-500 to-white p-px rounded-lg dark:to-slate-900">
-        <div class="bg-white w-48 h-48 rounded-lg dark:bg-slate-900"></div>
+      <div class="absolute bottom-12 -left-20 -z-[1] w-48 h-48 bg-gradient-to-b from-orange-500 to-white p-px rounded-lg ">
+        <div class="bg-white w-48 h-48 rounded-lg "></div>
       </div>
 
       <div class="absolute -top-12 -right-20 -z-[1] w-48 h-48 bg-gradient-to-t from-blue-600 to-cyan-400 p-px rounded-full">
-        <div class="bg-white w-48 h-48 rounded-full dark:bg-slate-900"></div>
+        <div class="bg-white w-48 h-48 rounded-full "></div>
       </div>
     </div>
   </div>
