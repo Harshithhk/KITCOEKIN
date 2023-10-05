@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import Modal from '../../../components/Modal';
 
 function SocialMedia(props) {
-    const [active, setActive] = useState(0)
+    const [active, setActive] = useState(1)
     const youtubeVideos = [
        {
         title:"Kolhapur Institute of Technology’s College of Engineering (Autonomous) Kolhapur",
