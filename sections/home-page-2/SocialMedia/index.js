@@ -159,8 +159,8 @@ function SocialMedia(props) {
                                                     <a  className={`twitter-timeline p-1`} href="https://twitter.com/officialkitcoek?ref_src=twsrc%5Etfw">Tweets by officialkitcoek</a> 
                                                     <Script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></Script>
                                                 </div>
-                                                <div className={`${active == 3 ? "block":"hidden"} items-center justify-center  p-4 md:p-2 lg:p-12 overflow-y-scroll border-2 border-slate-300 mt-6 md:mt-0  h-[600px] sm:h-[410px] rounded-xl `}>
-                                                    <img src="images/HomePage/socialcover.png" alt=""  />
+                                                <div className={`${active == 3 ? "block":"hidden"} bg-right  bg-no-repeat bg-cover bg-[url('/images/HomePage/socialcover.png')] items-center justify-center  p-4 md:p-2 lg:p-12 overflow-y-scroll border-2 border-slate-300 mt-6 md:mt-0  h-[600px] sm:h-[410px] rounded-xl `}>
+                                                    {/* <img src="images/HomePage/socialcover.png" alt=""  /> */}
                                                 </div>
                                             </div>
                                         </div>
