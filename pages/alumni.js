@@ -7,6 +7,8 @@ import Activity from "../sections/alumni/NewsAndNotices"
 import Overviews from "../sections/alumni/Overviews"
 import AboutUs from "../sections/alumni/AboutUs"
 import {checkTokenExpiration,isUserSignedIn} from "../utils/auth"
+import FAQ from "../sections/alumni/FAQ"
+import ActivityList from "../sections/alumni/ActivityList"
 // import OpenStreetMap from '../component/OpenStreetMap'
 const OpenStreetMap = dynamic(() => import('../components/Map/OpenStreetMap'), {
   ssr: false,
@@ -100,11 +102,12 @@ const Alumni = (props) => {
         </section>
 
      
-        <section className="pt-16 sm:pt-1 mt-16 mb-[-60px] overflow-clip bg-[#F8F7FC] max-w-screen">
+        <section className="pt-16 sm:pt-1 mt-16 mb-[-110px] md:mb-[-190px] md:pb-20 overflow-clip bg-white max-w-screen">
           <Career setModalToggle = {setModalToggle} />
-          <Activity  activities={props.activities} />
+          {/* <Activity  activities={props.activities} /> */}
+          <ActivityList activities={props.activities} />
           <Overviews />
-         
+          <FAQ />
         </section>
         <Footer />
       </div>

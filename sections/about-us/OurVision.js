@@ -2,7 +2,7 @@ import React from "react"
 
 const OurVision = () => {
   return (
-    <section className="mt-16 mx-auto flex sm:flex-col items-center justify-center w-[80%] sm:w-[90%] sm:mt-8">
+    <section className="my-[120px] mx-auto flex sm:flex-col items-center justify-center cbq8v sm:w-[90%] md:my-8">
       <div
         data-aos="zoom-in"
         data-aos-delay="0"
@@ -37,7 +37,7 @@ const OurVision = () => {
         <div
           data-aos="fade-left"
           data-aos-delay="0"
-          className="text-xl text-justify sm:mt-4  mt-8 text-[#24346D] font-semibold sm:text-base"
+          className="text-xl text-justify sm:mt-4  mt-8 text-[#24346D]  sm:text-base"
         >
           To be the center of excellence in technical education and predered
           choise of Students, Facult, Industry and Society

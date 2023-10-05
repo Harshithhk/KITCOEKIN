@@ -1,12 +1,13 @@
 import DefaultLayout from "../components/DefaultLayout"
-import QuickLinksCard from "../sections/departments/cseDS/career/quickLinksCard"
+import QuickLinksCard from "../sections/departments/cse/career/quickLinksCard"
 import Footer from "../sections/home-page/Footer"
+
 
 import { useEffect,useState } from "react"
 
 export async function getStaticProps() {
   let staff = []
-  staff = await fetch(process.env.SERVER_API+"/api/teachingstaff?department=Computer Sci. And Engg. [Data Science]")
+  staff = await fetch(process.env.SERVER_API+"/api/teachingstaff?department=Computer Science And Business Systems")
   staff = await staff.json()
 
   return {
@@ -17,7 +18,7 @@ export async function getStaticProps() {
   }
 }
 
-const CseDsEngineeringFaculty = ({ staff }) => {
+const CseEngineeringFaculty = ({ staff }) => {
   const [UGstaff, setUGStaff] = useState([])
   const [PGstaff, setPGStaff] = useState([])
   const [NTstaff, setNTStaff] = useState([])
@@ -92,7 +93,7 @@ const CseDsEngineeringFaculty = ({ staff }) => {
               
               <div className="mt-6 sm:ml-0  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                TEACHING STAFF (U.G)
+                TEACHING STAFF 
               </div>
               {/* -------------- */}
               {UGstaff.map((element, index) => (
@@ -238,12 +239,12 @@ const CseDsEngineeringFaculty = ({ staff }) => {
                 </div>
               ))} */}
 
-              {/* <div className="mt-10 sm:ml-4  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+              <div className="mt-10 sm:ml-4  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                 NON TEACHING STAFF
-              </div> */}
+              </div>
               {/* -------------- */}
-              {/* {NTstaff.map((element) => (
+              {NTstaff.map((element) => (
                 <div className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 ">
                   <div className="max-w-3xl sm:w-screen">
                     <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
@@ -307,7 +308,7 @@ const CseDsEngineeringFaculty = ({ staff }) => {
                     </div>
                   </div>
                 </div>
-              ))} */}
+              ))}
             </section>
 
             {/* -------------col2--------------- */}
@@ -324,4 +325,4 @@ const CseDsEngineeringFaculty = ({ staff }) => {
 
 
 
-export default CseDsEngineeringFaculty
+export default CseEngineeringFaculty

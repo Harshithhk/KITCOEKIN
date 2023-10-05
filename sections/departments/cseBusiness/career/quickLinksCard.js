@@ -46,10 +46,10 @@ const QuickLinksCard = () => {
             </QuickLinks.SubPlates>
           </QuickLinks.SubQuickLinks>
         </QuickLinks.Plates>
-        <QuickLinks.Plates href="dept-of-biotechnology-engg-faculty">
+        <QuickLinks.Plates href="dept-of-computer-science-business-systems-faculty">
           Staff
         </QuickLinks.Plates>
-        <QuickLinks.Plates href="dept-of-biotechnology-engg-laboratories">
+        <QuickLinks.Plates href="dept-of-computer-science-engg-laboratories">
           Laboratories
         </QuickLinks.Plates>
 
@@ -115,13 +115,13 @@ const QuickLinksCard = () => {
           </QuickLinks.SubQuickLinks>
         </QuickLinks.Plates>
 
-        <QuickLinks.Plates href="dept-of-biotechnology-engg-recruiters">
+        <QuickLinks.Plates href="dept-of-computer-science-engg-recruiters">
           Recruiters
         </QuickLinks.Plates>
-        <QuickLinks.Plates href="dept-of-biotechnology-engg-mous">
+        <QuickLinks.Plates href="dept-of-computer-science-engg-mous">
           MOU'S
         </QuickLinks.Plates>
-        <QuickLinks.Plates href="dept-of-biotechnology-po-peo">
+        <QuickLinks.Plates href="dept-of-computer-science-engg-po-peo">
           PO's & PEO'S
         </QuickLinks.Plates>
         <QuickLinks.Plates

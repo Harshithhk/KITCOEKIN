@@ -27,10 +27,10 @@ const QuickLinksCard = () => {
                 >Activity Report 2019-20</QuickLinks.SubPlates>
               </QuickLinks.SubQuickLinks>
             </QuickLinks.Plates>
-            <QuickLinks.Plates href="dept-of-mechanical-engg-faculty">
+            <QuickLinks.Plates href="dept-of-basic-science-humenities-faculty">
               Staff
             </QuickLinks.Plates>
-            <QuickLinks.Plates href="dept-of-mechanical-engg-laboratories">Laboratories</QuickLinks.Plates>
+            <QuickLinks.Plates href="dept-of-basic-science-humenities-laboratories">Laboratories</QuickLinks.Plates>
      
             <QuickLinks.Plates href="kit-gallery?Tab=1">Department Gallery</QuickLinks.Plates>
 

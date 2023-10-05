@@ -198,10 +198,8 @@ const handleChangeSignup = (e) => {
       })
       .catch((error) => {
         setPreLoader(0)
-
-        
         setAlertMessage(null)
-        setAlertMessage(error.response.data)
+        setAlertMessage(error.response)
         
       })
       
@@ -314,14 +312,16 @@ const handleChangeSignup = (e) => {
                                   <select id="branch" required name="branch"  onChange={handleChangeSignup}  value={tempProfileData.branch}  autoComplete="branch-name" className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                                     <option>Biotechnology Engineering</option>
                                     <option>Civil Engineering</option>
-                                    <option>Computer Sci. & Engineering</option>
-                                    <option>Computer Science & Business Systems</option>
-                                    <option>Computer Sci. & Engg. [Data Science]</option>
-                                    <option>Computer Sci. & Engg. [AI & ML]</option>
+                                    <option>Computer Sci. And Engineering</option>
+                                    <option>Computer Science And Business Systems</option>
+                                    <option>Computer Sci. And Engg. [Data Science]</option>
+                                    <option>Computer Sci. And Engg. [AI/ML]</option>
                                     <option>Electrical Engineering</option>
-                                    <option>Electronics & Telecomm Engineering</option>
-                                    <option>Civil & Environmental Engineering</option>
+                                    <option>Electronics And Telecomm Engineering</option>
+                                    <option>Civil And Environmental Engineering</option>
                                     <option>Mechanical Engineering</option>
+                                    <option>Production Engineering</option>
+                                    <option>Electronics Engineering</option>
                                   </select>
                           </div>     
                           <div>

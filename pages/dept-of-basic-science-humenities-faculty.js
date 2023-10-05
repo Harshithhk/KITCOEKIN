@@ -1,12 +1,12 @@
 import DefaultLayout from "../components/DefaultLayout"
-import QuickLinksCard from "../sections/departments/cseDS/career/quickLinksCard"
+import QuickLinksCard from "../sections/departments/bsh/career/quickLinksCard"
 import Footer from "../sections/home-page/Footer"
 
 import { useEffect,useState } from "react"
 
 export async function getStaticProps() {
   let staff = []
-  staff = await fetch(process.env.SERVER_API+"/api/teachingstaff?department=Computer Sci. And Engg. [Data Science]")
+  staff = await fetch(process.env.SERVER_API+"/api/teachingstaff?department=Basic Sciences And Humanities")
   staff = await staff.json()
 
   return {
@@ -17,7 +17,7 @@ export async function getStaticProps() {
   }
 }
 
-const CseDsEngineeringFaculty = ({ staff }) => {
+const BSHFaculty = ({ staff }) => {
   const [UGstaff, setUGStaff] = useState([])
   const [PGstaff, setPGStaff] = useState([])
   const [NTstaff, setNTStaff] = useState([])
@@ -92,7 +92,7 @@ const CseDsEngineeringFaculty = ({ staff }) => {
               
               <div className="mt-6 sm:ml-0  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
-                TEACHING STAFF (U.G)
+                TEACHING STAFF 
               </div>
               {/* -------------- */}
               {UGstaff.map((element, index) => (
@@ -104,8 +104,8 @@ const CseDsEngineeringFaculty = ({ staff }) => {
                     <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
                       <div className="flex flex-row sm:flex-col gap-x-2">
                         <div className="  -ml-20 sm:-ml-0 bg-[#24346D] shadow-lg flex items-center justify-center rounded-lg w-50 sm:w-fit sm:-mt-20 h-[170px]">
-                          <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px] flex items-center justify-center">
-                            {
+                          <div className="overflow-hidden relative bg-transparent  rounded-lg   h-[170px] w-[160px] flex items-center justify-center ">
+                          {
                             element.imgUrl === "#" || element.imgUrl === "" || element.imgUrl === " " || element.imgUrl.charAt(element.imgUrl.length - 1) == "#" ? 
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-24 h-24 text-white">
                               <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
@@ -238,12 +238,12 @@ const CseDsEngineeringFaculty = ({ staff }) => {
                 </div>
               ))} */}
 
-              {/* <div className="mt-10 sm:ml-4  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
+              <div className="mt-10 sm:ml-4  text-[#24346D] text-4xl sm:text-2xl font-bold flex h-fit items-center align-middle">
                 <div className="w-2 h-10 mr-4 rounded-md sm:h-6 bg-primary sm:mr-2 sm:w-[4px] "></div>
                 NON TEACHING STAFF
-              </div> */}
+              </div>
               {/* -------------- */}
-              {/* {NTstaff.map((element) => (
+              {NTstaff.map((element) => (
                 <div className="flex justify-center mt-2 ml-14 sm:ml-0 sm:mt-24 ">
                   <div className="max-w-3xl sm:w-screen">
                     <div className="block p-6 m-4 bg-white rounded-lg shadow-lg sm:m-0">
@@ -307,7 +307,7 @@ const CseDsEngineeringFaculty = ({ staff }) => {
                     </div>
                   </div>
                 </div>
-              ))} */}
+              ))}
             </section>
 
             {/* -------------col2--------------- */}
@@ -324,4 +324,4 @@ const CseDsEngineeringFaculty = ({ staff }) => {
 
 
 
-export default CseDsEngineeringFaculty
+export default BSHFaculty

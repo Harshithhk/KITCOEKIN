@@ -8,11 +8,12 @@ import MissionCards from "../sections/about-us/MissionCards"
 import Testimonials from "../sections/about-us/Testimonials"
 import Footer from "../sections/home-page/Footer"
 import Accreditation from "../sections/home-page/Accredations"
-import Statistics from "../sections/home-page/Statistics"
 import StatisticsNew from "../sections/home-page/StatisticsNew"
 import Gallaryslider from "../components/Gallary-slider"
 import ImageGrid from "../sections/about-us/imageGrid"
 import TestimonialSlider from "../components/TestimonialsSlider"
+import Statistics from "../sections/home-page-2/Statistics"
+import Accredations from "../sections/home-page-2/Accredations"
 
 
 let images = [
@@ -125,14 +126,17 @@ const About = () => {
         </section>
         <AboutUs />
         {/* <Awsome /> */}
-        <Accreditation />
+        {/* <Accreditation /> */}
+        <Accredations />
         <div className="mt-4">
           <OurVision />
         </div>
-        <div className="px-6 md:px-1">
-          <StatisticsNew />
+        <div className="px-6 md:px-1 md:my-10 my-32">
+          <Statistics />
         </div>
+        <div className="mx-4">
         <MissionCards />
+        </div>
             <TestimonialSlider testimonials = { testimonials} />
         <Footer />
       </div>

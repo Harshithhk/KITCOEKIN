@@ -37,7 +37,7 @@ const QuickLinksCard = () => {
             </QuickLinks.SubPlates>
           </QuickLinks.SubQuickLinks>
         </QuickLinks.Plates>
-        <QuickLinks.Plates href="dept-of-computer-science-data-science-engg-faculty">
+        <QuickLinks.Plates href="dept-of-computer-science-artificial-intelligence-machine-learning-faculty">
           Staff
         </QuickLinks.Plates>
         <QuickLinks.Plates href="dept-of-computer-science-engg-laboratories">
