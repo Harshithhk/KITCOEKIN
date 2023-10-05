@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import Modal from '../../../components/Modal';
 
 function SocialMedia(props) {
-    const [active, setActive] = useState(1)
+    const [active, setActive] = useState(3)
     const youtubeVideos = [
        {
         title:"Kolhapur Institute of Technology’s College of Engineering (Autonomous) Kolhapur",
@@ -85,13 +85,13 @@ function SocialMedia(props) {
                                                     </div>
                                                     <div
                                                         onClick={() => setActive(1)}
-                                                        style={{ background: active == 1 ? "#3D3859" : "" }}
+                                                        style={{ background: active == 1 || active == 3 ? "#3D3859" : "" }}
                                                         className="bg-[#3D3859] group relative cursor-pointer flex w-[300px] md:w-fit md:h-fit h-[90px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE]  rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
                                                     >
                                                         <div
                                                             className={`absolute   top-0 left-0 w-full md:hidden h-full text text-[60px] text-white font-bold opacity-5 flex  items-center p-7 
                                                             ${
-                                                                active == 1 && "opacity-0"
+                                                                active == 1  && "opacity-0"
                                                             }`}
                                                         >
                                                             Telegram
@@ -158,6 +158,9 @@ function SocialMedia(props) {
                                                     {/* <img src="https://source.unsplash.com/640x480/" alt="" className="rounded-lg shadow-lg bg-gray-500 aspect-video sm:min-h-96" /> */}
                                                     <a  className={`twitter-timeline p-1`} href="https://twitter.com/officialkitcoek?ref_src=twsrc%5Etfw">Tweets by officialkitcoek</a> 
                                                     <Script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></Script>
+                                                </div>
+                                                <div className={`${active == 3 ? "block":"hidden"} items-center justify-center  p-4 md:p-2 lg:p-12 overflow-y-scroll border-2 border-slate-300 mt-6 md:mt-0  h-[600px] sm:h-[410px] rounded-xl `}>
+                                                    <img src="images/HomePage/socialcover.png" alt=""  />
                                                 </div>
                                             </div>
                                         </div>
