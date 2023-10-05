@@ -76,10 +76,10 @@ const [position, setPosition] = useState({ x: 0, y: 0 });
         opacity: 0;
       }
        `}</style>
-       <div class=" ">
+       <div className=" ">
           
-       <section class=" ">
-                    <div class=" mx-auto max-w-screen-xl text-center py-16 px-12">
+       <section className=" ">
+                    <div className=" mx-auto max-w-screen-xl text-center py-16 px-12">
                     <Link href="/alumni" passHref >
                       <span
                       data-aos="zoom-in"
@@ -92,15 +92,15 @@ const [position, setPosition] = useState({ x: 0, y: 0 });
                       </svg>
                       </span>
                     </Link>
-                        <h1 class="mb-4  font-extrabold tracking-tight leading-none text-gray-900  text-6xl dark:text-white">We invest in the world’s potential</h1>
-                        <p class="mb-8  font-normal text-gray-500 text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+                        <h1 className="mb-4  font-extrabold tracking-tight leading-none text-gray-900  text-6xl dark:text-white">We invest in the world’s potential</h1>
+                        <p className="mb-8  font-normal text-gray-500 text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
                        
                      
                     </div>
                 </section>
 
        </div>
-       <div class="hexBackground animate-fade-in-out" ></div>
+       <div className="hexBackground animate-fade-in-out" ></div>
        <div className=''
        style={{
         left: `${position.x}px`,

@@ -25,22 +25,22 @@ function Recruiters(props) {
       ]
 
     return (
-        <section class="c0vpr cts0y" data-aos-id-6="">
-                <div class="c3myu ca3ts cbq8v">
+        <section className="c0vpr cts0y" data-aos-id-6="">
+                <div className="c3myu ca3ts cbq8v">
             
-                    <div class="chaba cqi3d c6in0 ce4pe c5q0m crgnl cn547 c8ukb bg-secondary md:mb-10  cu7lf " aria-hidden="true"></div>
+                    <div className="chaba cqi3d c6in0 ce4pe c5q0m crgnl cn547 c8ukb bg-secondary md:mb-10  cu7lf " aria-hidden="true"></div>
             
-                    <div class="ca3ts cmc2m    ">
-                    <div class="chn6j cbovh  cuafn">
+                    <div className="ca3ts cmc2m    ">
+                    <div className="chn6j cbovh  cuafn">
 
-                                <div class="ctaq8 cgmwa cjtgt md:text-center" data-aos="fade-up">
-                                    <h2 class="cpcm4 c9ob6 text-basic ">Esteemed Recruiters</h2>
-                                    <p class="ct5dn cnvr3 cnfi1"> Gain insight into the exciting career prospects available to you and discover the reputable employers who highly regard and seek out our accomplished graduates</p>
+                                <div className="ctaq8 cgmwa cjtgt md:text-center" data-aos="fade-up">
+                                    <h2 className="cpcm4 c9ob6 text-basic ">Esteemed Recruiters</h2>
+                                    <p className="ct5dn cnvr3 cnfi1"> Gain insight into the exciting career prospects available to you and discover the reputable employers who highly regard and seek out our accomplished graduates</p>
                                 </div>
                         </div>
-                        <div class="chn6j cbovh -mt-44 md:-mt-24 pb-24  bg-[url('/images/TnP/csm_worldmap_5832344b9b.png')]  bg-center bg-no-repeat ">
+                        <div className="chn6j cbovh -mt-44 md:-mt-24 pb-24  bg-[url('/images/TnP/csm_worldmap_5832344b9b.png')]  bg-center bg-no-repeat ">
             
-                            <div class="c3myu ca3ts cpvgl cjy67  cwayg co2li ">
+                            <div className="c3myu ca3ts cpvgl cjy67  cwayg co2li ">
             
                                 
                                 <div className="grid grid-cols-6  gap-6 md:grid-cols-2 md:gap-0">

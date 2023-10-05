@@ -76,11 +76,11 @@ const [position, setPosition] = useState({ x: 0, y: 0 });
         opacity: 0;
       }
        `}</style>
-       <div class="hexagon ">
+       <div className="hexagon ">
           
 
        </div>
-       <div class="hexBackground animate-fade-in-out" ></div>
+       <div className="hexBackground animate-fade-in-out" ></div>
        <div className='hexBackground2'
        style={{
         left: `${position.x}px`,

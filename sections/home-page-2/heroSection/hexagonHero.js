@@ -51,8 +51,8 @@ function HexagonHero(props) {
               opacity: 0;
             }
              `}</style>
-             <div class="hexagon "></div>
-             <div class="hexBackground animate-fade-in-out" ></div>
+             <div className="hexagon "></div>
+             <div className="hexBackground animate-fade-in-out" ></div>
              <div className='hexBackground2'
              style={{
               left: `${position.x}px`,
