@@ -1,10 +1,28 @@
 import React from 'react';
 import Script from 'next/script'
 import { useEffect, useState } from "react"
+import Modal from '../../../components/Modal';
 
 function SocialMedia(props) {
     const [active, setActive] = useState(0)
-
+    const youtubeVideos = [
+       {
+        title:"Kolhapur Institute of Technology’s College of Engineering (Autonomous) Kolhapur",
+        videoIframe:<iframe className='w-full h-[400px] rounded-xl' src="https://www.youtube.com/embed/VQgO5glYXZ4" title="Kolhapur Institute of Technology’s College of Engineering (Autonomous) Kolhapur" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        ,
+       },
+       {
+        title:"Kolhapur | ना IIT, ना &#39;मोठी&#39; डीग्री, कोल्हापूरच्या अमृताला तब्बल 41 लाखांचं पॅकेज!",
+        videoIframe:<iframe className='w-full h-[400px] rounded-xl' src="https://www.youtube.com/embed/NygCbGFRE3M" title="Kolhapur | ना IIT, ना &#39;मोठी&#39; डीग्री, कोल्हापूरच्या अमृताला तब्बल 41 लाखांचं पॅकेज!" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        ,
+       },
+       {
+        title:"Smart India Hackathon 2022 #KIT_Kolhapur",
+        videoIframe:<iframe className='w-full h-[400px] rounded-xl' src="https://www.youtube.com/embed/33jCUX_oiIk" title="Smart India Hackathon 2022 #KIT_Kolhapur" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        ,
+       },
+        
+      ];
     return (
         <section className="mt-20">
                 <div className="c3myu ca3ts cbq8v">
@@ -147,13 +165,13 @@ function SocialMedia(props) {
 
                                     <section className="p-6 bg-white text-gray-100">
                                         <div className="  mx-auto">
-                                            <div className="grid gap-6 my-16 md:my-8 grid-cols-3 md:grid-cols-1 ">
-                                                
-                                                <iframe className="w-full h-full rounded-xl" scrolling="no" srcDoc={`<html><body style="margin:0;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/VQgO5glYXZ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></body></html>`} title="Kolhapur Institute of Technology’s College of Engineering (Autonomous) Kolhapur" frameBorder="0" allowFullScreen></iframe>
-
-                                                <iframe className="w-full h-full rounded-xl" scrolling="no" srcDoc={`<html><body style="margin:0;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/NygCbGFRE3M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></body></html>`} title="Kolhapur | ना IIT, ना 'मोठी' डीग्री, कोल्हापूरच्या अमृताला तब्बल 41 लाखांचं पॅकेज!" frameBorder="0" allowFullScreen></iframe>
-
-                                                <iframe className="w-full h-full rounded-xl" scrolling="no" srcDoc={`<html><body style="margin:0;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/33jCUX_oiIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></body></html>`} title="Smart India Hackathon 2022 #KIT_Kolhapur" frameBorder="0" allowFullScreen></iframe>
+                                            <div className="grid gap-6 my-16 md:my-8 grid-cols-3 md:grid-cols-1">
+                                                {/* <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/VQgO5glYXZ4" title="Kolhapur Institute of Technology’s College of Engineering (Autonomous) Kolhapur" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                                <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/NygCbGFRE3M" title="Kolhapur | ना IIT, ना &#39;मोठी&#39; डीग्री, कोल्हापूरच्या अमृताला तब्बल 41 लाखांचं पॅकेज!" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                                <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/33jCUX_oiIk" title="Smart India Hackathon 2022 #KIT_Kolhapur" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
+                                                <Modal title={youtubeVideos[0].title} body={youtubeVideos[0].videoIframe} ><img src='images/HomePage/youtube1.png' alt='' className='hover:cursor-pointer'/></Modal>
+                                                <Modal title={youtubeVideos[1].title} body={youtubeVideos[1].videoIframe} ><img src='images/HomePage/youtube2.png' alt='' className='hover:cursor-pointer'/></Modal>
+                                                <Modal title={youtubeVideos[2].title} body={youtubeVideos[2].videoIframe} ><img src='images/HomePage/youtube3.png' alt='' className='hover:cursor-pointer'/></Modal>
 
                                             </div>
                                         </div>
