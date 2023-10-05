@@ -15,7 +15,7 @@ const CseEngineeringMous = () => {
         fetch( `${process.env.SERVER_API}/api/alumni/forum`)
         .then(result => result.json())
         .then(forumData => {
-          console.log(forumData)
+        //   console.log(forumData)
          setForumList(forumData)
          setForumTopic(forumData)
          })

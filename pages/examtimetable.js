@@ -46,7 +46,7 @@ import Footer from "../sections/home-page/Footer"
 // ]
 
 const FounderTrustees = ({ news }) => {
-  console.log(news)
+  // console.log(news)
   return (
     <DefaultLayout>
       <div className="w-full bg-[#24346D] pb-10">

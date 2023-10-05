@@ -142,8 +142,8 @@ const CampusPlacement = () => {
               delay: 4000,
               disableOnInteraction: true,
             }}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
+            // onSlideChange={() => console.log("slide change")}
+            // onSwiper={(swiper) => console.log(swiper)}
           >
             {placements.map((element) => (
               <SwiperSlide>

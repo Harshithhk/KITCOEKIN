@@ -36,7 +36,7 @@ const BotServer = async (switchApi, input) => {
           if (response.ok) {
             return response.json()
           } else {
-            console.log("response.statusText: ", response)
+            // console.log("response.statusText: ", response)
             throw new Error("Something Went Wrong!: " + response.statusText)
           }
         })
@@ -64,7 +64,7 @@ const BotServer = async (switchApi, input) => {
           if (response.ok) {
             return response.json()
           } else {
-            console.log("response.statusText: ", response)
+            // console.log("response.statusText: ", response)
             throw new Error("Something Went Wrong!: " + response.statusText)
           }
         })
@@ -79,7 +79,7 @@ const BotServer = async (switchApi, input) => {
       console.log("request failed in BotServer function")
       break
   }
-  console.log("=============", intent)
+  // console.log("=============", intent)
   let result = IsJsonString(JSON.stringify(intent))
     ? JSON.parse(JSON.stringify(intent))
     : null

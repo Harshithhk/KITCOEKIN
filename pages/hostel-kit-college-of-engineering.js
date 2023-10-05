@@ -24,7 +24,7 @@ const CollegeHostel = () => {
   const [gallary, setGallary] = useState(false)
 
   useEffect(() => {
-    console.log(gallary)
+    // console.log(gallary)
     return () => {}
   }, [gallary])
 

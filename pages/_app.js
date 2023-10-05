@@ -8,7 +8,7 @@ import Router from "next/router";
 import PreLoader from "../components/preLoader";
 
 Router.events.on("routeChangeStart", (url) => {
-  console.log(`Loading: ${url}`);
+  // console.log(`Loading: ${url}`);
   document.body.classList.add("body-page-transition");
   ReactDOM.render(
     <PreLoader path={url} />,

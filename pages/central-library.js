@@ -169,7 +169,7 @@ const CentralLibrary = () => {
     }
    ]
   useEffect(() => {
-    console.log(gallary)
+    // console.log(gallary)
     return () => {}
   }, [gallary])
 

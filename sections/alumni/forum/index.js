@@ -47,7 +47,7 @@ const Forum = (props) =>{
         //     ...prevFilters,
         //     [filterName]: value.toLowerCase()
         //   }));
-		console.log(name,value)
+		// console.log(name,value)
 		  const filteredData = ForumList.filter((row) => {
 			const isTopicMatch = value.toLowerCase() ? row.title.toLowerCase().includes(value.toLowerCase()) : true;
 			

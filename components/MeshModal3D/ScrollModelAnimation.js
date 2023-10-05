@@ -187,14 +187,14 @@ const ScrollModelAnimation = () => {
 
       window.addEventListener("scroll", () => {
         scrollY = window.scrollY
-        console.log(
-          "currentSection:",
-          currentSection,
-          "scrollY:",
-          scrollY,
-          "sizes.height:",
-          sizes.height
-        )
+        // console.log(
+        //   "currentSection:",
+        //   currentSection,
+        //   "scrollY:",
+        //   scrollY,
+        //   "sizes.height:",
+        //   sizes.height
+        // )
         const newSection = Math.round(scrollY / sizes.height)
 
         // if (newSection !== currentSection) {

@@ -27,7 +27,7 @@ const AlumniAbout = () => {
 
 
   useEffect(() => {
-    console.log(gallary)
+    // console.log(gallary)
     return () => {}
   }, [gallary])
   let founders = [

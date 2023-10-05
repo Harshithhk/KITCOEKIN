@@ -90,7 +90,7 @@ const handleChangeSignup = (e) => {
 
       if (file) {
       const fileLocation = URL.createObjectURL(file);
-      console.log('File location:', fileLocation);
+      // console.log('File location:', fileLocation);
 
       setTempProfileData((prevState) => ({
         ...prevState,

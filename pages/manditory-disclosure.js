@@ -872,7 +872,7 @@ const ManditoryDisclosure20 = () => {
                return (<>
                         <div className="grid grid-flow-row bg-white divide-y items-center mx-auto h-fit p-2 mt-6 gap-2 text-left rounded-lg shadow-lg ">
                           {card.map((item,itemIndex) => {
-                            console.log("------------------------------",item)
+                            // console.log("------------------------------",item)
                            if(item.url != "documents/About/"){
                             return(<>
                                   <div className="grid grid-cols-2">

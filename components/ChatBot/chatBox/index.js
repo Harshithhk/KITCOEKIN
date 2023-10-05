@@ -258,7 +258,7 @@ const ChatBox = (props) => {
                         setData(response)
                       }, 3000)
                     } catch (err) {
-                      console.log("Demn there's a error : ", err)
+                      console.log("Damn there's a error : ", err)
                     }
                   }}
                   className="focus:shadow-inner focus:bg-slate-100 hover:cursor-pointer hover:-rotate-12 rounded-full bg-white w-fit h-fit p-[10px] shadow-lg"

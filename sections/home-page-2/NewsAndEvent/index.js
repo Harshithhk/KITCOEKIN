@@ -56,7 +56,7 @@ function NewsAndEvents(props) {
     setNews(updatedNews)
     setEvents(updatedEvents)
 
-    console.log({ news, events })
+    // console.log({ news, events })
   }, [])
  
   const scrollableElement1 = useRef(null);

@@ -22,7 +22,7 @@ const TextSlider = () => {
   const [active, setActive] = useState(0)
 
   useEffect(() => {
-    console.log(active)
+    // console.log(active)
 
     return () => {}
   }, [active])

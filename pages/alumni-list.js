@@ -82,7 +82,7 @@ const CseEngineeringMous = (props) => {
 
  // Example of consuming Grid Event
  const cellClickedListener = useCallback( event => {
-   console.log('cellClicked', event);
+  //  console.log('cellClicked', event);
  }, []);
 
  // Example load data from server

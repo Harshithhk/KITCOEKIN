@@ -253,7 +253,7 @@ const AicteApproval = () => {
             </div>
 
             {aicteApprovalList.map((item, index) => {
-              console.log(item)
+              // console.log(item)
      
                 return (
                   <div className="flex mx-auto  w-[800px] h-16 p-2 mt-2  text-center shadow-lg rounded-2xl bg-slate-50">
