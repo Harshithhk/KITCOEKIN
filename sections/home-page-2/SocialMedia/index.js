@@ -147,8 +147,14 @@ function SocialMedia(props) {
 
                                     <section className="p-6 bg-white text-gray-100">
                                         <div className="  mx-auto">
-                                            <div className="grid gap-6 my-16 md:my-8 grid-cols-3 md:grid-cols-1">
-                                          
+                                            <div className="grid gap-6 my-16 md:my-8 grid-cols-3 md:grid-cols-1 ">
+                                                
+                                                <iframe className="w-full h-full rounded-xl" scrolling="no" srcDoc={`<html><body style="margin:0;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/VQgO5glYXZ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></body></html>`} title="Kolhapur Institute of Technology’s College of Engineering (Autonomous) Kolhapur" frameBorder="0" allowFullScreen></iframe>
+
+                                                <iframe className="w-full h-full rounded-xl" scrolling="no" srcDoc={`<html><body style="margin:0;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/NygCbGFRE3M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></body></html>`} title="Kolhapur | ना IIT, ना 'मोठी' डीग्री, कोल्हापूरच्या अमृताला तब्बल 41 लाखांचं पॅकेज!" frameBorder="0" allowFullScreen></iframe>
+
+                                                <iframe className="w-full h-full rounded-xl" scrolling="no" srcDoc={`<html><body style="margin:0;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/33jCUX_oiIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></body></html>`} title="Smart India Hackathon 2022 #KIT_Kolhapur" frameBorder="0" allowFullScreen></iframe>
+
                                             </div>
                                         </div>
                                     </section>
