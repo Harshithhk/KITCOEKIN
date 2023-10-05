@@ -148,10 +148,7 @@ function SocialMedia(props) {
                                     <section className="p-6 bg-white text-gray-100">
                                         <div className="  mx-auto">
                                             <div className="grid gap-6 my-16 md:my-8 grid-cols-3 md:grid-cols-1">
-                                            <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/VQgO5glYXZ4" title="Kolhapur Institute of Technology’s College of Engineering (Autonomous) Kolhapur" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                                            <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/NygCbGFRE3M" title="Kolhapur | ना IIT, ना &#39;मोठी&#39; डीग्री, कोल्हापूरच्या अमृताला तब्बल 41 लाखांचं पॅकेज!" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                                            <iframe className='w-full h-full rounded-xl' src="https://www.youtube.com/embed/33jCUX_oiIk" title="Smart India Hackathon 2022 #KIT_Kolhapur" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                                                
+                                          
                                             </div>
                                         </div>
                                     </section>
