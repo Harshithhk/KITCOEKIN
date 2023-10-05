@@ -43,10 +43,10 @@ function VideoSection(props) {
     data-aos="zoom-in"
     data-aos-delay="0"
     className="embed-responsive embed-responsive-21by9 mt-16 mb-8 relative w-full overflow-hidden flex justify-center items-center">
-          <video  className=" embed-responsive-item bottom-0 left-0 right-0 top-0 h-[400px] w-[80%]" controls poster="/videos/thumbnailkit.png">
-            <source src="videos/videokitcoek.mp4" type="video/mp4" />
+          {/* <video  className=" embed-responsive-item bottom-0 left-0 right-0 top-0 h-[400px] w-[80%]" controls poster="#">
+            <source src="#" type="video/mp4" />
             Your browser does not support the video tag.
-          </video>
+          </video> */}
     </div>
   </div>
   <div className="bg-gradient-to-b from-white-50 to-transparent  w-full h-full absolute top-0 left-0 z-0"></div>

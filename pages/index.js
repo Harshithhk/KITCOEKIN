@@ -53,29 +53,30 @@ const Home = (props) => {
     }, [])
 
     
-      const testimonials = [
-        {
-          name:"Murlidhar ",
-          position:"wipro technology (cloud architect)",
-          year:"2007",
-          department:"Computer Science And Engineering",
-          videoIframe:<iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/6L2T1G_QDWQ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)|MURLIDHAR PARULEKAR" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        },
-        {
-          name:"Chetan ",
-          position:"Marine Engineer",
-          year:"2008",
-          department:"Mechanical Engineering",
-          videoIframe:<iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/6GpqIypfb78?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;s College of Engineering (Autonomous) | Chetan Mirajkar" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        },
-        {
-          name:"Shivani ",
-          position:"software developer (KPIT)",
-          year:"2016",
-          department:"Electronic and Telecomm Engineering",
-          videoIframe:<iframe className="w-[600px] h-[350px] sm:w-fit "  src="https://www.youtube.com/embed/Eof29x_3uqk?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" title="OUR STUDENT OUR PRIDE | KIT&#39;S College of Engineering (Autonomous)| Miss. Shivani Chougule" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        }
-      ]
+    const testimonials = [
+      {
+        name:"Murlidhar ",
+        position:"wipro technology (cloud architect)",
+        year:"2007",
+        department:"Computer Science And Engineering",
+        videoIframe:<iframe className="w-[600px] h-[350px] sm:w-fit" srcDoc={`<html><body style="margin:0;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/6L2T1G_QDWQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></body></html>`} title="OUR STUDENT OUR PRIDE | KIT's College of Engineering (Autonomous)|MURLIDHAR PARULEKAR" frameBorder="0" allowFullScreen></iframe>
+      },
+      {
+        name:"Chetan ",
+        position:"Marine Engineer",
+        year:"2008",
+        department:"Mechanical Engineering",
+        videoIframe:<iframe className="w-[600px] h-[350px] sm:w-fit" srcDoc={`<html><body style="margin:0;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/6GpqIypfb78?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></body></html>`} title="OUR STUDENT OUR PRIDE | KIT's College of Engineering (Autonomous) | Chetan Mirajkar" frameBorder="0" allowFullScreen></iframe>
+      },
+      {
+        name:"Shivani ",
+        position:"software developer (KPIT)",
+        year:"2016",
+        department:"Electronic and Telecomm Engineering",
+        videoIframe:<iframe className="w-[600px] h-[350px] sm:w-fit" srcDoc={`<html><body style="margin:0;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Eof29x_3uqk?list=PLfQ03Dbp3JnNZ5c7-Jt0YkD2zcWQ3E1GJ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></body></html>`} title="OUR STUDENT OUR PRIDE | KIT's College of Engineering (Autonomous)| Miss. Shivani Chougule" frameBorder="0" allowFullScreen></iframe>
+    
+      }
+    ]
 
     return (
         <DefaultLayout>
