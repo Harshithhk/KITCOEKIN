@@ -171,10 +171,12 @@ const Map2 = (props) => {
                           <Marker position={alumniPosition} >
                                 <Popup  >
                                   <div>
-                                    <h2 className='flex items-center justify-center'> <img src="images/awatar.png" className='w-10' alt="Marker Image" />{item.name.first_name} {item.name.last_name}</h2>
-                                    <p> Branch : {item.branch}</p>
-                                    <p>Year : {item.pass_out_year}</p>
-                                    <p>Company : {item.company}</p>
+                                    <h2 className='flex items-center justify-start gap-x-2 '>
+                                    <img src={item.photoUrl || "images/awatar.png"} className='w-10 h-10 rounded-full ' alt="Marker Image" />
+                                    <span className='font-bold text-black'>{item.name.first_name} {item.name.last_name}</span></h2>
+                                    <div><span className='font-bold text-black'>Branch :</span> {item.branch}</div>
+                                    <div><span className='font-bold text-black'>Pass out Year :</span> {item.pass_out_year}</div>
+                                    <div><span className='font-bold text-black'>Company :</span> {item.company}</div>
                                   
                                   </div>
                               </Popup>

@@ -42,9 +42,9 @@ const QuickLinksCard = (props) => {
             <QuickLinks.Plates href="alumni-activities">Activities</QuickLinks.Plates>
             <QuickLinks.Plates href="alumni-list">Alumni List</QuickLinks.Plates>
             <QuickLinks.Plates href="alumni-achievements">Achievements</QuickLinks.Plates>
-            {/* <QuickLinks.Plates href="kit-gallery?Tab=16">Gallery</QuickLinks.Plates> */}
-            <QuickLinks.Plates href="alumni-forum">Forums</QuickLinks.Plates>
-            <QuickLinks.Plates href="alumni-contact">Contact Us</QuickLinks.Plates>
+            <QuickLinks.Plates href="kit-gallery?Tab=16">Gallery</QuickLinks.Plates>
+            {/* <QuickLinks.Plates href="alumni-forum">Forums</QuickLinks.Plates> */}
+            <QuickLinks.Plates href="contact">Contact Us</QuickLinks.Plates>
 
          
  

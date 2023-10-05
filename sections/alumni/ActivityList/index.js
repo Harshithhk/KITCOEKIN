@@ -94,8 +94,8 @@ function ActivityList(props) {
   }, []);
 
   return (
-    <section className="mt-20">
-                <div className="c3myu ca3ts cbq8v rounded-tl-[100px] bg-gradient-to-b from-secondary to-transparent">
+    <section className="mt-20 mb-20">
+                <div className="c3myu ca3ts cbq8v rounded-tl-[100px] bg-secondary ">
                 <AlumniActivityModal showModal = {showModal} setShowModal = {setShowModal} modalDetails={modalDetails} />
 
                     <div className="chaba cqi3d c6in0 ce4pe c5q0m cdcqj ck7qp cf0jn cu7lf" aria-hidden="true"></div>
@@ -137,7 +137,7 @@ function ActivityList(props) {
                 // data-aos-anchor-placement="top-bottom"
                 // data-aos-delay={`${index * 20}`}
 
-                className={`cursor-pointer  relative group hover:shadow-lg  transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl overflow-hidden`}
+                className={`cursor-pointer text-start relative group hover:shadow-lg  transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl overflow-hidden`}
               >
                 
                 <p onClick={()=>{setShowModal(1);setModalDetails({title:activity.title,body:activity.body,date:activity.date,link:activity.link,images:activity.images})}} className="bg-white w-full h-full bg-opacity-0 opacity-0 absolute group-hover:bg-opacity-[0.8] group-hover:opacity-100 bg-bla transition-opacity duration-300 text-center items-center flex justify-center font-semibold text-2xl text-primary">Read More ...</p>
@@ -168,7 +168,7 @@ function ActivityList(props) {
                   </div>
                   </div>
                   <div className="sm:hidden  flex text-sm text-slate-600 pr-2 font-normal  md:text-sm h-1/2 -mt-2">
-                  {activity.body.substring(0, 130)} ...  
+                  {activity.body.substring(0, 110)} ...  
                   </div>
                   
                     <div className="text-xs absolute right-8 bottom-3 sm:right-6 sm:bottom-[18px] group-hover:opacity-[0.1] text-primary">Read more...</div>
