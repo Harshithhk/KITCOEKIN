@@ -5,8 +5,10 @@ const Filters = ({showFilter,setShowFilter,rowData,setRowData,alumniList})=>{
     const [filters, setFilters] = React.useState({
         name: "",
         email: "",
+        bloodGroup:"",
         branch: "",
         year: "",
+        expertise:"",
         location: ""
       });
 
@@ -26,11 +28,13 @@ const Filters = ({showFilter,setShowFilter,rowData,setRowData,alumniList})=>{
         const filteredData = alumniList.filter((row) => {
           const isNameMatch = filters.name ? row.name.full_name.toLowerCase().includes(filters.name) : true;
           const isEmailMatch = filters.email ? row.email.toLowerCase().includes(filters.email) : true;
+          const isBloodGroupMatch = filters.bloodGroup ? row.blood_group.toLowerCase().includes(filters.bloodGroup) : true;
           const isBranchMatch = filters.branch ? row.branch.toLowerCase().includes(filters.branch) : true;
           const isYearMatch = filters.year ? row.pass_out_year.toLowerCase().includes(filters.year) : true;
+          const isExpertiseMatch = filters.expertise ? row.expertise.toLowerCase().includes(filters.expertise) : true;
           const isLocationMatch = filters.location ? row.location.toLowerCase().includes(filters.location) : true;
       
-          return isNameMatch && isEmailMatch && isBranchMatch && isYearMatch && isLocationMatch;
+          return isNameMatch && isEmailMatch && isBranchMatch && isYearMatch && isLocationMatch && isBloodGroupMatch && isExpertiseMatch;
         });
       
         // Update the filtered data in the state
@@ -43,8 +47,10 @@ const Filters = ({showFilter,setShowFilter,rowData,setRowData,alumniList})=>{
     const resetFilter = (e) => {
         document.getElementById('input-name').value = null
         document.getElementById('input-email').value = null
+        document.getElementById('input-bloodGroup').value = null
         document.getElementById('input-branch').value = null
         document.getElementById('input-year').value = null
+        document.getElementById('input-expertise').value = null
         document.getElementById('input-location').value = null
 
         setRowData(alumniList);
@@ -87,6 +93,12 @@ const Filters = ({showFilter,setShowFilter,rowData,setRowData,alumniList})=>{
             </div>
          </li>
          <li>
+            <label for="input-group-1" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Blood Group</label>
+            <div className="relative mb-3 py-2">
+              <input type="text" id="input-bloodGroup" name="input-bloodGroup" onChange={handleInput} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-4 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="A Positive" />
+            </div>
+         </li>
+         <li>
             <label for="input-group-1" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Branch</label>
             <div className="relative mb-3 py-2">
               <input type="text" id="input-branch" name="input-branch" onChange={handleInput} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-4 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="computer science and engineering" />
@@ -96,6 +108,12 @@ const Filters = ({showFilter,setShowFilter,rowData,setRowData,alumniList})=>{
             <label for="input-group-1" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Year</label>
             <div className="relative mb-3 py-2">
               <input type="text" id="input-year" name="input-year" onChange={handleInput} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-4 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="2019" />
+            </div>
+         </li>
+         <li>
+            <label for="input-group-1" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Expertise</label>
+            <div className="relative mb-3 py-2">
+              <input type="text" id="input-expertise" name="input-expertise" onChange={handleInput} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-4 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Machine Learning" />
             </div>
          </li>
          <li>

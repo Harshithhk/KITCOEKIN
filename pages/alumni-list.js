@@ -41,8 +41,10 @@ const CseEngineeringMous = (props) => {
  const [columnDefs, setColumnDefs] = useState([
    {headerName:'Name',field: 'name.full_name', filter: true, cellRenderer:MyComp,},
    {field: 'email', filter: true},
+   {headerName:'Blood Group',field: 'blood_group', filter: true},
    {field: 'branch', filter: true,enableRowGroup: true},
    {headerName:'Batch Year',field: 'pass_out_year', filter: true},
+   {headerName:'Expertise',field: 'expertise', filter: true},
    {headerName:'Location',field: 'current_address.display_name', filter: true}
  ]);
 
@@ -257,13 +259,18 @@ const CseEngineeringMous = (props) => {
                                                                   </p>
                                                               </div>
                                                           </div>
-                                                          
                                                           <div className="px-4 py-4 sm:py-[0.6px]  ">
-                                                          <span className="font-bold"> Branch: </span>{item.branch} 
+                                                            <span className="font-bold"> Blood Group: </span>{item.blood_group} 
+                                                          </div>
+                                                          <div className="px-4 py-4 sm:py-[0.6px]  ">
+                                                            <span className="font-bold"> Branch: </span>{item.branch} 
                                                           </div>
                                                          
                                                           <div className="px-4 py-4 sm:py-[0.6px]  ">
                                                           <span className="font-bold"> Batch Year: </span> {item.pass_out_year}
+                                                          </div>
+                                                          <div className="px-4 py-4 sm:py-[0.6px]  ">
+                                                          <span className="font-bold"> Expertise: </span> {item.expertise}
                                                           </div>
                                                           <div className="px-4 py-4 sm:py-[0.6px]  ">
                                                           <span className="font-bold"> Location: </span>{item.current_address.display_name} 

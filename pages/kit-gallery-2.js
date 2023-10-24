@@ -6,7 +6,7 @@ import { branchPlacement } from "../utils/constants";
 const KitGallery = (props) => {
   const [images, setImages] = useState([]);
   const router = useRouter();
-  const apiRoute = `${process.env.NEXT_PUBLIC_API_ROOT}/department/imagegallery/`;
+  const apiRoute = `${process.env.NEXT_PUBLIC_API_ROOT}/gallery/`;
 
   useEffect(() => {
     const getDepartmentImages = async () => {

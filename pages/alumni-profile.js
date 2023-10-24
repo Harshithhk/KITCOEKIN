@@ -46,11 +46,13 @@ const CseEngineeringMous = (props) => {
         "last_name":""
     },
     "date_of_birth":"",
+    "blood_group":"",
     "phone":"",
     "pass_out_year":"",
     "branch":"",
     "company":"",
     "designation":"",
+    "expertise":"",
     "email":"",
     "password":"",
     "permanent_address":{
@@ -302,7 +304,26 @@ const CseEngineeringMous = (props) => {
                                     <div>
                                         <label htmlFor="date_of_birth" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Date Of Birth</label>
                                         <input type="date" id="date_of_birth" name="date_of_birth" onChange={handleChange}  value={tempProfileData.date_of_birth} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="02/06/2000" required/>
-                                    </div>    
+                                    </div>
+                                    <div >
+                                            <label htmlFor="blood_group" className="text-base font-medium text-gray-900"> Blood Group </label>
+                                            <select id="blood_group" required name="blood_group"  onChange={handleChange}  value={tempProfileData.blood_group}  autoComplete="blood-group" className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                                            <option aria-readonly value="">Select</option>
+                                            <option>A Positive</option>
+                                            <option>A Negative</option>
+                                            <option>A Unknown</option>
+                                            <option>B Positive</option>
+                                            <option>B Negative</option>
+                                            <option>B Unknown</option>
+                                            <option>AB Positive</option>
+                                            <option>AB Negative</option>
+                                            <option>AB Unknown</option>
+                                            <option>O Positive</option>
+                                            <option>O Negative</option>
+                                            <option>O Unknown</option>
+                                            <option>Unknown</option>
+                                            </select>
+                                    </div>     
                                     <div>
                                         <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
                                         <input type="number" id="phone" name="phone" onChange={handleChange} value={tempProfileData.phone} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
@@ -310,6 +331,22 @@ const CseEngineeringMous = (props) => {
                                     <div>
                                         <label htmlFor="pass_out_year" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Pass out Year</label>
                                         <input type="number" id="pass_out_year" name="pass_out_year" onChange={handleChange} value={tempProfileData.pass_out_year} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="2019" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
+                                    </div>
+                                    <div >
+                                            <label htmlFor="branch" className="text-base font-medium text-gray-900"> Branch </label>
+                                            <select id="branch" required name="branch"  onChange={handleChange}  value={tempProfileData.branch}  autoComplete="branch-name" className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                                              <option aria-readonly value="">Select</option>
+                                              <option>Biotechnology Engineering</option>
+                                              <option>Civil Engineering</option>
+                                              <option>Computer Sci. And Engineering</option>
+                                              <option>Computer Science And Business Systems</option>
+                                              <option>Computer Sci. And Engg. [Data Science]</option>
+                                              <option>Computer Sci. And Engg. [AI And ML]</option>
+                                              <option>Electrical Engineering</option>
+                                              <option>Electronics And Telecomm Engineering</option>
+                                              <option>Civil And Environmental Engineering</option>
+                                              <option>Mechanical Engineering</option>
+                                            </select>
                                     </div> 
                                     <div className="mb-2 col-span-2 ">
                                         <label htmlFor="email" className="block  mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
@@ -320,21 +357,7 @@ const CseEngineeringMous = (props) => {
                                         <input type="password" id="password"  name="password" onChange={handleChange} value={tempProfileData.password} className={` border-primary   bg-gray-50 border text-sm rounded-lg  block w-full p-2.5  `} placeholder="•••••••••" required/>
                                     </div> 
                                       
-                                    <div >
-                                            <label htmlFor="branch" className="text-base font-medium text-gray-900"> Branch </label>
-                                            <select id="branch" required name="branch"  onChange={handleChange}  value={tempProfileData.branch}  autoComplete="branch-name" className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-                                              <option>Biotechnology Engineering</option>
-                                              <option>Civil Engineering</option>
-                                              <option>Computer Sci. & Engineering</option>
-                                              <option>Computer Science & Business Systems</option>
-                                              <option>Computer Sci. & Engg. [Data Science]</option>
-                                              <option>Computer Sci. & Engg. [AI & ML]</option>
-                                              <option>Electrical Engineering</option>
-                                              <option>Electronics & Telecomm Engineering</option>
-                                              <option>Civil & Environmental Engineering</option>
-                                              <option>Mechanical Engineering</option>
-                                            </select>
-                                    </div>     
+                                         
                                     <div>
                                         <label htmlFor="company" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Current organisation</label>
                                         <input type="text" id="company" name="company" onChange={handleChange} value={tempProfileData.company} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Hashinclude Org" required/>
@@ -344,7 +367,10 @@ const CseEngineeringMous = (props) => {
                                         <label htmlFor="designation" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Designation</label>
                                         <input type="text" id="designation" name="designation" onChange={handleChange} value={tempProfileData.designation} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Software Engineer" required/>
                                     </div>
-                                   
+                                    <div>
+                                        <label htmlFor="expertise" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Expertise</label>
+                                        <input type="text" id="expertise" name="expertise" onChange={handleChange} value={tempProfileData.expertise} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Machine Learning" required/>
+                                    </div>
                                 
                                 </div>
                               
@@ -397,6 +423,9 @@ const CseEngineeringMous = (props) => {
                                                             <span className="font-semibold">  Date Of Birth :</span> {tempProfileData.date_of_birth}
                                                             </p>
                                                             <p className=" my-2  text-[#24346D] ">
+                                                            <span className="font-semibold">  Blood Group :</span> {tempProfileData.blood_group}
+                                                            </p>
+                                                            <p className=" my-2  text-[#24346D] ">
                                                             <span className="font-semibold">  Branch :</span> {tempProfileData.branch}
                                                             </p>
                                                             <p className=" my-2  text-[#24346D] ">
@@ -418,6 +447,9 @@ const CseEngineeringMous = (props) => {
                                                             </p>
                                                             <p className=" my-2  text-[#24346D] ">
                                                             <span className="font-semibold">Designation :</span> {tempProfileData.designation}
+                                                            </p>
+                                                            <p className=" my-2  text-[#24346D] ">
+                                                            <span className="font-semibold">Expertise :</span> {tempProfileData.expertise}
                                                             </p>
                                                         </div>
                                                     </div>

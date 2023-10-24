@@ -10,10 +10,47 @@ import Team from "../sections/team"
 import { Tab } from "@headlessui/react"
 import { useRouter } from "next/router"
 
+export async function getStaticProps() {
+  let images = []
+  images = await fetch(
+    process.env.SERVER_API+"/api/gallery"
+  )
+  images = await images.json()
+  console.log(images)
+  return {
+    props: {
+      images: images,
+    },
+    revalidate: 10,
+  }
+}
+
 const KitGallery = (props) => {
   const [departmentMenu, setDepartmentMenu] = React.useState(false)
   const [menuSelected, setMenuSelected] = React.useState(false)
   let { query } = useRouter()
+
+  const TypeTab0 = 'Electrical Engineering';
+  const TypeTab1 = 'Electrical Engineering';
+  const TypeTab2 = 'Electrical Engineering';
+  const TypeTab3 = 'Electrical Engineering';
+  const TypeTab4 = 'Electrical Engineering';
+  const TypeTab5 = 'Electrical Engineering';
+  const TypeTab6 = 'Electrical Engineering';
+  const TypeTab7 = 'Electrical Engineering';
+  const TypeTab8 = 'Electrical Engineering';
+  const TypeTab9 = 'Electrical Engineering';
+  const TypeTab10 = 'Electrical Engineering';
+  const TypeTab11 = 'Electrical Engineering';
+  const TypeTab12 = 'Electrical Engineering';
+  const TypeTab13 = 'Electrical Engineering';
+  const TypeTab14 = 'Electrical Engineering';
+  const TypeTab15 = 'Electrical Engineering';
+  const TypeTab16 = 'Electrical Engineering';
+
+
+  // Use the filter() method to filter the array based on the type
+  // const filteredImages = images.filter(image => image.type === targetType);
 
   return (
     <DefaultLayout>
@@ -314,52 +351,52 @@ const KitGallery = (props) => {
               {/*  */}
 
               <Tab.Panel>
-                <Gallery Tab="0" />
+                <Gallery imageList = {props.images} Tab="0" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="1" />
+                <Gallery imageList = {props.images} Tab="1" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="2" />
+                <Gallery imageList = {props.images} Tab="2" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="3" />
+                <Gallery imageList = {props.images} Tab="3" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="4" />
+                <Gallery imageList = {props.images} Tab="4" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="5" />
+                <Gallery imageList = {props.images} Tab="5" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="6" />
+                <Gallery imageList = {props.images} Tab="6" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="7" />
+                <Gallery imageList = {props.images} Tab="7" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="8" />
+                <Gallery imageList = {props.images} Tab="8" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="9" />
+                <Gallery imageList = {props.images} Tab="9" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="10" />
+                <Gallery imageList = {props.images} Tab="10" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="11" />
+                <Gallery imageList = {props.images} Tab="11" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="12" />
+                <Gallery imageList = {props.images} Tab="12" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="13" />
+                <Gallery imageList = {props.images} Tab="13" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="14" />
+                <Gallery imageList = {props.images} Tab="14" />
               </Tab.Panel>
               <Tab.Panel>
-                <Gallery Tab="15" />
+                <Gallery imageList = {props.images} Tab="15" />
               </Tab.Panel>
 
               {/*  */}

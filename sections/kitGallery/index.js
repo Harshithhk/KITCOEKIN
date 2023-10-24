@@ -7,35 +7,7 @@ const Gallery = (props) => {
 
         switch(parseInt(props.Tab)){
             case 0:
-                SrcList = [
-                    {
-                      "src":"images/LifeAtKit/1.jpg"
-                    },
-                    {
-                      "src":"images/LifeAtKit/1.jpg"
-                    },
-                    {
-                      "src":"images/LifeAtKit/1.jpg"
-                    },
-                    {
-                      "src":"images/LifeAtKit/1.jpg"
-                    },
-                    {
-                      "src":"images/LifeAtKit/1.jpg"
-                    },
-                    {
-                      "src":"images/LifeAtKit/1.jpg"
-                    },
-                    {
-                      "src":"images/LifeAtKit/1.jpg"
-                    },
-                    {
-                      "src":"images/LifeAtKit/1.jpg"
-                    },
-                    {
-                      "src":"images/LifeAtKit/1.jpg"
-                    }
-                  ]
+                SrcList = props.imageList
                 break;
             case 1:
                 SrcList = [

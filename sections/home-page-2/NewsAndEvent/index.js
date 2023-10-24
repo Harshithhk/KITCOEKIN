@@ -28,7 +28,7 @@ function NewsAndEvents(props) {
     date:"",
     fromTime:"",
     toTime:"",
-    link:"",
+    links:[],
     fileUrl:""
   });
 
@@ -182,20 +182,20 @@ function NewsAndEvents(props) {
                                               className="cursor-pointer relative group hover:shadow-lg  transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl overflow-hidden"
                                             >
                                               
-                                              <p onClick={()=>{setShowModal(1);setModalDetails({title:element.title,shortDescription:element.shortDescription,fullDescription:element.fullDescription,date:element.date,fromTime:element.fromTime,toTime:element.toTime,link:element.link,fileUrl:element.fileUrl})}} className="bg-white w-full h-full bg-opacity-0 opacity-0 absolute group-hover:bg-opacity-[0.8] group-hover:opacity-100 bg-bla transition-opacity duration-300 text-center items-center flex justify-center font-semibold text-2xl text-primary">Read More ...</p>
+                                              <p onClick={()=>{setShowModal(1);setModalDetails({title:element.title,shortDescription:element.shortDescription,fullDescription:element.fullDescription,date:element.date,fromTime:element.fromTime,toTime:element.toTime,links:element.links,fileUrl:element.fileUrl})}} className="bg-white w-full h-full bg-opacity-0 opacity-0 absolute group-hover:bg-opacity-[0.8] group-hover:opacity-100 bg-bla transition-opacity duration-300 text-center items-center flex justify-center font-semibold text-2xl text-primary">Read More ...</p>
                                               
                                               <div className="h-full w-40 bg-basic flex flex-col justify-center items-center">
                                                 <div className="text-5xl text-white md:text-3xl">
                                                   {element.date.split(` `)[0]}
                                                 </div>
                                                 <div className="text-lg text-white md:text-xs">
-                                                  {element.date.split(` `)[1]} {element.date.split(` `)[2]}
+                                                  {element.date && element.date.split(` `)[1]?.substring(0, 3)} {element.date && element.date.split(` `)[2]}
                                                 </div>
                                               </div>
                                               {/* event body */}
                                               <div className="flex flex-col justify-center items-start w-full pl-4 text-black border-2 border-l-2 md:pl-2 rounded-r-2xl">
-                                                <div className="flex justify-between h-1/2 items-center">
-                                                  <div title={element.title} className="w-5/6 sm:w-full text-lg sm:pb-2 font-semibold  md:text-sm">
+                                                <div className="flex justify-between h-1/2 items-center w-full">
+                                                  <div title={element.title} className="w-5/6 sm:w-full text-base sm:pb-2 font-semibold  md:text-sm">
                                                   {element.title.substring(0, 30)} ...
                                                   </div>
                                                 <div className="sm:hidden w-2/6 text-[13.5px] md:-translate-x-[2px] text-[#717171] items-center  md:text-[10px]  flex">
@@ -246,7 +246,7 @@ function NewsAndEvents(props) {
                                             className={`cursor-pointer  relative group hover:shadow-lg  transition-all  flex  h-28 md:h-[95px] mt-6 rounded-2xl overflow-hidden`}
                                           >
                                             
-                                            <p onClick={()=>{setShowModal(1);setModalDetails({title:event.title,shortDescription:event.shortDescription,fullDescription:event.fullDescription,date:event.date,fromTime:event.fromTime,toTime:event.toTime,link:event.link,fileUrl:event.fileUrl})}} className="bg-white w-full h-full bg-opacity-0 opacity-0 absolute group-hover:bg-opacity-[0.8] group-hover:opacity-100 bg-bla transition-opacity duration-300 text-center items-center flex justify-center font-semibold text-2xl text-primary">Read More ...</p>
+                                            <p onClick={()=>{setShowModal(1);setModalDetails({title:event.title,shortDescription:event.shortDescription,fullDescription:event.fullDescription,date:event.date,fromTime:event.fromTime,toTime:event.toTime,links:event.links,fileUrl:event.fileUrl})}} className="bg-white w-full h-full bg-opacity-0 opacity-0 absolute group-hover:bg-opacity-[0.8] group-hover:opacity-100 bg-bla transition-opacity duration-300 text-center items-center flex justify-center font-semibold text-2xl text-primary">Read More ...</p>
                                             
                                             <div className="border-2 border-r-0 rounded-l-2xl h-full  w-40 text-[#F07C00]  flex flex-col justify-center items-center">
                                               <div className="text-5xl md:text-3xl">
@@ -254,13 +254,13 @@ function NewsAndEvents(props) {
                                               </div>
                                               <div className="text-lg md:text-xs">
                                                 {" "}
-                                                {event.date.split(` `)[1]} {event.date.split(` `)[2]}
+                                                {event.date && event.date.split(` `)[1]?.substring(0, 3)} {event.date && event.date.split(` `)[2]}
                                               </div>
                                             </div>
                                             {/* event body */}
                                             <div className="flex flex-col justify-center items-start w-full pl-4 text-black border-2 border-l-2 md:pl-2 rounded-r-2xl">
-                                              <div className="flex justify-between h-1/2 items-center">
-                                                <div title={event.title} className="w-5/6 sm:w-full text-lg sm:pb-2 font-semibold  md:text-sm">
+                                              <div className="flex justify-between h-1/2 items-center w-full">
+                                                <div title={event.title} className="w-5/6 sm:w-full text-base sm:pb-2 font-semibold  md:text-sm">
                                                 {event.title.substring(0, 30)} ...
                                                 </div>
                                               <div className="sm:hidden w-2/6 text-[13.5px] md:-translate-x-[2px] text-[#717171] items-center  md:text-[10px]  flex">
@@ -274,7 +274,7 @@ function NewsAndEvents(props) {
                                               </div>
                                               </div>
                                               <div className="sm:hidden  flex text-sm text-slate-600 pr-2 font-normal  md:text-sm h-1/2 -mt-2">
-                                              {event.shortDescription.substring(0, 130)} ...  
+                                              {event.shortDescription.substring(0, 100)} ...  
                                               </div>
                                               
                                                 <div className="text-xs absolute right-8 bottom-3 sm:right-6 sm:bottom-[18px] group-hover:opacity-[0.1] text-primary">Read more...</div>

@@ -45,9 +45,16 @@ export default function Modal(props) {
                     {props.modalDetails.fullDescription}
                     </p>
                    
-                   {props.modalDetails.link?<a href={normalizeUrl(props.modalDetails.link, { forceHttps: true })} target="_blank" rel="noreferrer"  className="my-4 sm:text-sm text-primary text-justify sm:my-0 text-lg leading-relaxed">
-                      click me : {props.modalDetails.link}
-                    </a>:null} 
+                   {props.modalDetails.links?
+                      props.modalDetails.links.map((link,index)=>(
+                        <>
+                          <a key={index} href={normalizeUrl(link.hyperLink, { forceHttps: true })} target="_blank" rel="noreferrer"  className="my-4 sm:text-sm text-slate-500 text-justify sm:my-0 text-base leading-relaxed">
+                            {link.linkTag} : <span className="text-primary hover:text-orange-600">{link.hyperLink}</span>
+                          </a><br/>
+                        </>
+                      ))
+                    :
+                      null} 
                     {props.modalDetails.fileUrl?<img src={props.modalDetails.fileUrl} className="h-fit w-fit" alt="" />:null}
                 </div>
                 {/*footer*/}

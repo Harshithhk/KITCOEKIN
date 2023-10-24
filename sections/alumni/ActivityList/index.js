@@ -148,13 +148,13 @@ function ActivityList(props) {
                   </div>
                   <div className="text-lg md:text-xs">
                     {" "}
-                    {activity.date.split(` `)[1]} {activity.date.split(` `)[2]}
+                    {activity.date && activity.date.split(` `)[1] && activity.date.split(` `)[1].substring(0, 3) ||  " "} {activity.date.split(` `)[2]}
                   </div>
                 </div>
                 {/* activity body */}
                 <div className="flex flex-col justify-center w-full pl-4 text-black border-4 border-l-2 md:pl-2 rounded-r-2xl">
-                  <div className="flex justify-between h-1/2 items-center">
-                    <div title={activity.title} className="w-5/6 sm:w-full text-lg sm:pb-2 font-semibold  md:text-sm">
+                  <div className="flex justify-between h-1/2 items-center w-full">
+                    <div title={activity.title} className="w-5/6 sm:w-full text-base sm:pb-2 font-semibold  md:text-sm">
                     {activity.title.substring(0, 30)} ...
                     </div>
                   <div className="sm:hidden w-2/6 text-[13.5px] md:-translate-x-[2px] text-[#717171] items-center  md:text-[10px]  flex">
@@ -168,7 +168,7 @@ function ActivityList(props) {
                   </div>
                   </div>
                   <div className="sm:hidden  flex text-sm text-slate-600 pr-2 font-normal  md:text-sm h-1/2 -mt-2">
-                  {activity.body.substring(0, 110)} ...  
+                  {activity.body.substring(0, 100)} ...  
                   </div>
                   
                     <div className="text-xs absolute right-8 bottom-3 sm:right-6 sm:bottom-[18px] group-hover:opacity-[0.1] text-primary">Read more...</div>

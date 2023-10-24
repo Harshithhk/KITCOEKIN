@@ -139,11 +139,13 @@ const handleChangeSignup = (e) => {
           last_name: "",
           },
           date_of_birth: "",
+          blood_group: "",
           phone:"",
           pass_out_year: "",
           branch: "",
           company: "",
           designation: "",
+          expertise: "",
           email: "",
           password: "",
           confirm_password: "",
@@ -241,9 +243,9 @@ const handleChangeSignup = (e) => {
                :null}
 
 
-              <div className="border-0 my-2 rounded-lg shadow-lg relative flex flex-col w-full  bg-white outline-none focus:outline-none">
+              <div className="border-0  rounded-lg shadow-lg relative flex flex-col w-full  bg-white outline-none focus:outline-none">
                 {/*header*/}
-                <div className="flex items-start gap-6 justify-between p-5  border-b border-solid border-slate-200 rounded-t">
+                <div className="flex items-start gap-6 justify-between px-5 py-2  border-b border-solid border-slate-200 rounded-t">
               
               <span><h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-lg dark:text-white">
                  {authToggle==0 ? "Sign in to your account":"Create your account" } 
@@ -299,6 +301,25 @@ const handleChangeSignup = (e) => {
                               <label htmlFor="date_of_birth" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Date Of Birth</label>
                               <input type="date" id="date_of_birth" name="date_of_birth" onChange={handleChangeSignup}  value={tempProfileData.date_of_birth} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="02/06/2000" required/>
                           </div>    
+                          <div >
+                                    <label htmlFor="blood_group" className="text-base font-medium text-gray-900"> Blood Group </label>
+                                    <select id="blood_group" required name="blood_group"  onChange={handleChangeSignup}  value={tempProfileData.blood_group}  autoComplete="blood-group" className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                                      <option aria-readonly value="">Select</option>
+                                      <option>A Positive</option>
+                                      <option>A Negative</option>
+                                      <option>A Unknown</option>
+                                      <option>B Positive</option>
+                                      <option>B Negative</option>
+                                      <option>B Unknown</option>
+                                      <option>AB Positive</option>
+                                      <option>AB Negative</option>
+                                      <option>AB Unknown</option>
+                                      <option>O Positive</option>
+                                      <option>O Negative</option>
+                                      <option>O Unknown</option>
+                                      <option>Unknown</option>
+                                    </select>
+                            </div> 
                           <div>
                               <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
                               <input type="number" id="phone" name="phone" onChange={handleChangeSignup} value={tempProfileData.phone} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
@@ -310,6 +331,7 @@ const handleChangeSignup = (e) => {
                           <div >
                                   <label htmlFor="branch" className="text-base font-medium text-gray-900"> Branch </label>
                                   <select id="branch" required name="branch"  onChange={handleChangeSignup}  value={tempProfileData.branch}  autoComplete="branch-name" className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                                    <option aria-readonly value="">Select</option>
                                     <option>Biotechnology Engineering</option>
                                     <option>Civil Engineering</option>
                                     <option>Computer Sci. And Engineering</option>
@@ -333,6 +355,10 @@ const handleChangeSignup = (e) => {
                               <label htmlFor="designation" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Designation</label>
                               <input type="text" id="designation" name="designation" onChange={handleChangeSignup} value={tempProfileData.designation} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Software Engineer" required/>
                           </div>
+                          <div>
+                                <label htmlFor="expertise" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Expertise</label>
+                                <input type="text" id="expertise" name="expertise" onChange={handleChangeSignup} value={tempProfileData.expertise} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Machine Learning" required/>
+                            </div>
                           <div className="mb-2">
                           <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
                           <input type="email" id="email" name="email" onChange={handleChangeSignup} value={tempProfileData.email} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required/>
@@ -368,7 +394,7 @@ const handleChangeSignup = (e) => {
 
                 </div>
                 {/*footer*/}
-                <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
+                <div className="flex items-center justify-end px-6 py-2 border-t border-solid border-slate-200 rounded-b">
                   <button
                     className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button"

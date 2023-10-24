@@ -39,7 +39,7 @@ const QuickLinksCard = (props) => {
               <div className={`${authText == 0 ? "hidden":"" }`}>
               <QuickLinks.Plates href="alumni-profile">Profile Page</QuickLinks.Plates>
             </div>
-            <QuickLinks.Plates href="alumni-activities">Activities</QuickLinks.Plates>
+            <QuickLinks.Plates href="alumni-activities" focusLink="New">Activities</QuickLinks.Plates>
             <QuickLinks.Plates href="alumni-list">Alumni List</QuickLinks.Plates>
             <QuickLinks.Plates href="alumni-achievements">Achievements</QuickLinks.Plates>
             <QuickLinks.Plates href="kit-gallery?Tab=16">Gallery</QuickLinks.Plates>
