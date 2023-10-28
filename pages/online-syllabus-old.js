@@ -2,13 +2,13 @@ import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 import { Tab } from '@headlessui/react'
 import SyllabusTabs from "../sections/academics/onlineSyllabus/SyllabusTabs"
-import SyllabusTab from "../sections/academics/onlineSyllabus/SyllabusTab"
 
 
 
 const OnlineSyllabus = () => {
   return (
     <DefaultLayout>
+      <div className="w-full bg-[#24346D]">
         <section className="flex flex-col h-[250px] items-center w-full relative">
           <img
             src="/images/AboutUs/bgcircle.png"
@@ -57,10 +57,18 @@ const OnlineSyllabus = () => {
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
-
-        <SyllabusTab/>
+        <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-[#F8F7FC] px-14 sm:px-4 sm:pb-10">
+          {/* <img
+            className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
+            src="/images/TnP/indicator.png"
+            alt=""
+          /> */}
+          {/* - */}
+          <SyllabusTabs />
+        </section>
         
         <Footer />
+      </div>
     </DefaultLayout>
   )
 }

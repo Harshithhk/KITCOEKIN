@@ -2,13 +2,28 @@ import DefaultLayout from "../components/DefaultLayout"
 import Footer from "../sections/home-page/Footer"
 import { Tab } from '@headlessui/react'
 import SyllabusTabs from "../sections/academics/onlineSyllabus/SyllabusTabs"
+import SyllabusTab from "../sections/academics/onlineSyllabus/SyllabusTab"
 
 
+export async function getStaticProps() {
+  
+  let syllabus = []
+  syllabus = await fetch(
+    process.env.SERVER_API+"/api/syllabus"
+  )
+  syllabus = await syllabus.json()
 
-const OnlineSyllabus = () => {
+  return {
+    props: {
+      syllabus: syllabus,
+    },
+    revalidate: 10,
+  }
+}
+
+const OnlineSyllabus = (props) => {
   return (
     <DefaultLayout>
-      <div className="w-full bg-[#24346D]">
         <section className="flex flex-col h-[250px] items-center w-full relative">
           <img
             src="/images/AboutUs/bgcircle.png"
@@ -38,7 +53,7 @@ const OnlineSyllabus = () => {
             data-aos-delay="0"
             className="w-[75%] mt-14 sm:text-xl  text-4xl font-bold text-center text-white z-20"
           >
-            ONLINE SYLLABUS 2023 SCHEME
+            ONLINE SYLLABUS
           </h1>
           <br/>
           <br/>
@@ -57,18 +72,10 @@ const OnlineSyllabus = () => {
           </h6>
         </section>
         {/*-------------------------------------------------------------------------------------- CONTENT -------------------------------------------------------------------------------------- */}
-        <section className="relative rounded-3xl z-30 w-[95%] mx-auto pb-20 h-fit bg-[#F8F7FC] px-14 sm:px-4 sm:pb-10">
-          {/* <img
-            className="absolute -top-28 w-[205px] h-[170px] sm:w-[110px] sm:-top-14 sm:h-[100px]"
-            src="/images/TnP/indicator.png"
-            alt=""
-          /> */}
-          {/* - */}
-          <SyllabusTabs />
-        </section>
+
+        <SyllabusTab syllabus = {props.syllabus} />
         
         <Footer />
-      </div>
     </DefaultLayout>
   )
 }
