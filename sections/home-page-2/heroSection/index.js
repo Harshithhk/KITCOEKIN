@@ -5,6 +5,7 @@ import Hero3 from './hero3';
 import Hero4 from './hero4';
 import Hero5 from './hero5';
 import Hero6 from './hero6';
+import HeroFinal from './heroFinal';
 
 function HeroSection(props) {
   return (
@@ -13,7 +14,8 @@ function HeroSection(props) {
     // <Hero3 />
     // <Hero4 />
     // <Hero5 />
-    <Hero6 />
+    // <Hero6 />
+    <HeroFinal />
   );
 }
 

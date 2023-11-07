@@ -6,7 +6,7 @@ import { useState,useEffect } from "react"
 import MetaTags from "./MetaTags"
 
 function DefaultLayout(props) {
-  const [windowWidth, setWindowWidth] = useState(null);
+    const [windowWidth, setWindowWidth] = useState(null);
 
   const router = useRouter();
 
