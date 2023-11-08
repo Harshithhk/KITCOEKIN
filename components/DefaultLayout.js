@@ -4,7 +4,7 @@ import Navbar from "./Navbar/index"
 import { useRouter } from "next/router"
 import { useState,useEffect } from "react"
 import MetaTags from "./MetaTags"
-import SocialMediaIcons from "./socialMediaIcons"
+import SocialMediaIcons from "./SocialMediaIcons"
 
 function DefaultLayout(props) {
     const [windowWidth, setWindowWidth] = useState(null);
