@@ -7,7 +7,7 @@ import MetaTags from "./MetaTags"
 import SocialMediaIcons from "./socialMediaIcons"
 
 function DefaultLayout(props) {
-  const [windowWidth, setWindowWidth] = useState(null);
+    const [windowWidth, setWindowWidth] = useState(null);
 
   const router = useRouter();
 
