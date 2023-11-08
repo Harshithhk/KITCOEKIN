@@ -5,8 +5,26 @@ function ARIIA(props) {
         // z-50 bg-white relative
         <section className="">
                 <div className="ca3ts cmc2m cuafn c0sod">
-                    <div className="chn6j c8xqc cg2v6">
-            
+
+                    <div className="chn6j  cg2v6">
+                        {/* ---------- */}
+                    <div className="flex justify-center pb-12">
+            <div className="inline-flex items-center gap-x-2 bg-white border border-gray-200 text-sm text-primary p-1 pl-3 rounded-full transition hover:border-gray-300 " >
+            Opening Hours: Tue - Sat : 9.00 am - 04.15 pm | Monday , 2nd & 4th Sun Closed
+                <span className="py-2 px-3 inline-flex justify-center items-center gap-x-2 rounded-full bg-gray-200 font-semibold text-sm text-gray-600 ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                  </svg>
+                
+                </span>
+            </div>
+            </div>
+                    {/* <p className="text-lg text-gray-600 md:text-base pb-12 flex flex-row items-center gap-2 text-primary ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 sm:w-4 sm:h-4">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                  </svg>
+                         Opening Hours: Tue - Sat : 9.00 am - 04.15 pm | Monday , 2nd & 4th Sun Closed</p> */}
+
                         <div className="ca3ts cvymt ctnab crwro c7tut cbatg cwayg cuywu c6e8l ">
             
                             {/* <div className=" md:hidden c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up">
@@ -18,7 +36,8 @@ function ARIIA(props) {
                                 </h4>
                                 <p className="cnfi1">Atal Ranking of Institutions on Innovation Achievements</p>
                             </div> */}
-                            <div className="c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up" data-aos-delay="200">
+                            {/* data-aos="fade-up" data-aos-delay="200" */}
+                            <div className="c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" >
                                 <div className="cmpsc">
                                     <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
@@ -43,7 +62,7 @@ function ARIIA(props) {
                                 </p>
                             </div>
             
-                            <div className=" c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up" data-aos-delay="100">
+                            <div className=" c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" >
                                 <div className="cmpsc ">
                                 <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
@@ -59,13 +78,13 @@ function ARIIA(props) {
                                     </svg>
                                 </div>
                                 <h4 className="cohrg c9hkg ckq42  text-basic ">ARIIA Report 21-22</h4>
-                                <p className="cnfi1 flex gap-2 hover:cursor-pointer hover:text-primary">Download <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                                <a href='/documents/home/ARIIA _ Report 21-22( new).pdf' className="cnfi1 flex gap-2 hover:cursor-pointer hover:text-primary">Download <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
 </svg>
-</p>
+</a>
                             </div>
             
-                            <div className="c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" data-aos="fade-up" data-aos-delay="200">
+                            <div className="c3myu c5mjq cqbj7 czi7t cmdln cx6v4 cevxy cbv62 cyj0f caapu ccpih cno1e" >
                                 <div className="cmpsc">
                                     <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
@@ -81,11 +100,11 @@ function ARIIA(props) {
                                     </svg>
                                 </div>
                                 <h4 className="cohrg c9hkg ckq42 text-basic ">ARIIA Certificate</h4>
-                                <p className="cnfi1 flex gap-2 hover:cursor-pointer hover:text-primary">Download 
+                                <a href='/documents/home/AIIR_RatingCertificate_2020-21.pdf' className="cnfi1 flex gap-2 hover:cursor-pointer hover:text-primary">Download 
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                     </svg>
-                                </p>
+                                </a>
                             </div>
             
                         </div>

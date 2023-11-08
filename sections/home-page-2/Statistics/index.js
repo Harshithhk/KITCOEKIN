@@ -57,7 +57,7 @@ function Statistics(props) {
                                             </svg>
                                             </div>
                                             <dt className="mt-4 font-semibold text-white">Admission</dt>
-                                            <dd className="mt-2 leading-7 flex gap-2 hover:cursor-pointer hover:text-primary text-sm text-gray-400">Enquery 
+                                            <a href='/apply-admission' className="mt-2 leading-7 flex gap-2 hover:cursor-pointer hover:text-primary text-sm text-gray-400">Enquery 
 
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-6 h-6">
                                                     <path fillRule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clipRule="evenodd" />
@@ -65,7 +65,7 @@ function Statistics(props) {
                                                 </svg>
 
 
-                                             </dd>
+                                             </a>
                                             </div>
                                             <div className="flex flex-col items-start">
                                             <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
@@ -85,12 +85,12 @@ function Statistics(props) {
                                                 </svg>
                                             </div>
                                             <dt className="mt-4 font-semibold text-white">Broucher</dt>
-                                            <dd className="mt-2 leading-7 flex gap-2 hover:cursor-pointer hover:text-primary text-sm text-gray-400">Download 
+                                            <a href='/documents/home/KIT_College_Full_Brochure_2023.pdf' className="mt-2 leading-7 flex gap-2 hover:cursor-pointer hover:text-primary text-sm text-gray-400">Download 
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                                 </svg>
 
-                                             </dd>                                            </div>
+                                             </a>                                            </div>
                                             <div className="flex flex-col items-start">
                                             <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                                             <svg
@@ -109,10 +109,10 @@ function Statistics(props) {
                                                 </svg>
                                             </div>
                                             <dt className="mt-4 font-semibold text-white">DTE Code</dt>
-                                            <dd className="mt-2 leading-7 flex gap-2 hover:cursor-pointer hover:text-primary text-sm text-gray-400">Download 
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                                            <dd className="mt-2 leading-7 flex gap-2 hover:cursor-pointer hover:text-primary text-3xl text-white">6267 
+                                                {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                                                </svg>
+                                                </svg> */}
 
                                              </dd>                                            </div>
                                         </dl>

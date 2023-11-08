@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import Modal from '../../../components/Modal';
 
 function SocialMedia(props) {
-    const [active, setActive] = useState(3)
+    const [active, setActive] = useState(2)
     const youtubeVideos = [
        {
         title:"Kolhapur Institute of Technology’s College of Engineering (Autonomous) Kolhapur",
@@ -86,7 +86,7 @@ function SocialMedia(props) {
                                                     <div
                                                         onClick={() => setActive(1)}
                                                         style={{ background: active == 1 || active == 3 ? "#3D3859" : "" }}
-                                                        className="bg-[#3D3859] group relative cursor-pointer flex w-[300px] md:w-fit md:h-fit h-[90px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE]  rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
+                                                        className="bg-[#3D3859] group relative cursor-pointer flex w-[300px] md:w-fit md:h-[53px] h-[90px] bg-gradient-to-r from-[#7D7D7D]  to-[#BEBEBE]  rounded-xl ml-auto md:mr-auto p-4 mt-3 overflow-hidden"
                                                     >
                                                         <div
                                                             className={`absolute   top-0 left-0 w-full md:hidden h-full text text-[60px] text-white font-bold opacity-5 flex  items-center p-7 
@@ -94,9 +94,9 @@ function SocialMedia(props) {
                                                                 active == 1  && "opacity-0"
                                                             }`}
                                                         >
-                                                            Telegram
+                                                            Facebook
                                                         </div>
-                                                        <svg
+                                                        {/* <svg
                                                             className="h-14 md:h-5 w-5 text-white group-hover:rotate-12"
                                                             fill="currentColor"
                                                             viewBox="0 0 24 24"
@@ -104,12 +104,14 @@ function SocialMedia(props) {
                                                             <path
                                                             id="telegram-1"
                                                             d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z" />
-                                                        </svg>
+                                                        </svg> */}
+                                                        <i class="fa fa-facebook group-hover:rotate-12 text-2xl text-white"></i>      
+
                                                         
                                                         
                                                         <div className="flex flex-col items-center ml-12 font-bold md:hidden text-white">
                                                             <div className="text-3xl  w-fit md:text-4xl">
-                                                            Telegram
+                                                            Facebook
                                                             </div>
                                                             
                                                         </div>
@@ -152,7 +154,8 @@ function SocialMedia(props) {
                                                 </div>
                                                 <div className={`${active == 1 ? "flex":"hidden"} items-center justify-center  p-4 md:p-2 lg:p-12 overflow-y-scroll border-2 border-slate-300 mt-6 md:mt-0 h-[600px] sm:h-[410px] rounded-xl `}>
                                                     {/* <img src="https://source.unsplash.com/640x480/" alt="" className="rounded-lg shadow-lg bg-gray-500 aspect-video sm:min-h-96" /> */}
-                                                    <iframe className="sm:p-2 w-full h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/HomePage/tbg.png')]" id="telegram-post-kitcoekofficial-415" src="https://t.me/kitcoekofficial/415?embed=1" scrolling="no"  ></iframe>
+                                                    {/* <iframe className="sm:p-2 w-full h-full bg-center  bg-no-repeat bg-cover bg-[url('/images/HomePage/tbg.png')]" id="telegram-post-kitcoekofficial-415" src="https://t.me/kitcoekofficial/415?embed=1" scrolling="no"  ></iframe> */}
+                                                    <iframe className="sm:p-2 w-[350px] sm:h-[400px]  h-[510px] bg-center  bg-no-repeat bg-cover" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fofficial.kitcoek&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"   scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                                                 </div>
                                                 <div className={`${active == 2 ? "block":"hidden"} items-center justify-center  p-4 md:p-2 lg:p-12 overflow-y-scroll border-2 border-slate-300 mt-6 md:mt-0  h-[600px] sm:h-[410px] rounded-xl `}>
                                                     {/* <img src="https://source.unsplash.com/640x480/" alt="" className="rounded-lg shadow-lg bg-gray-500 aspect-video sm:min-h-96" /> */}
