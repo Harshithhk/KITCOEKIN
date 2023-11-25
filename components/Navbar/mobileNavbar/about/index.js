@@ -29,48 +29,48 @@ const About = (props) => {
       </h3>
       {props.nav1 === true ?
       <><li>
-        <Link passHref href="">
+        <Link passHref href="about">
         <span  className="block p-3 hover:bg-slate-200 ">About KitCOEK</span>
         </Link>
       </li>
       <li>
-        <Link passHref href="">
+        <Link passHref href="founder-trustees">
         <span  className="block p-3 hover:bg-slate-200 ">Founder Trustees</span>
         </Link>
       </li>
       <li>
-        <Link passHref href="">
+        <Link passHref href="board-of-directors">
         <span  className="block p-3 hover:bg-slate-200 ">Board Of Directors</span>
         </Link>
       </li>
       <li>
-        <Link passHref href="">
+        <Link passHref href="governing-council">
         <span  className="block p-3 hover:bg-slate-200 ">Governing Council</span>
         </Link>
       </li>
       <li>
-        <Link passHref href="">
+        <Link passHref href="milestones">
         <span  className="block p-3 hover:bg-slate-200 ">Milestones</span>
         </Link>
       </li>
       <li>
-        <Link passHref href="">
+        <Link passHref href="college-administration">
         <span  className="block p-3 hover:bg-slate-200 ">College Administration</span>
         </Link>
       </li>
       <li>
-        <Link passHref href="">
+        <Link passHref href="office-administration">
         <span  className="block p-3 hover:bg-slate-200 ">Office Administration</span>
         </Link>
       </li>
       <li>
-        <Link passHref href="">
+        <Link passHref href="internal-quality-assurance-cell">
         <span  className="block p-3 hover:bg-slate-200 ">Internal Quality Assurance Committee(IQAC)
 </span>
 </Link>
       </li>
       <li>
-        <Link passHref href="">
+        <Link passHref href="staff-list">
         <span  className="block p-3 hover:bg-slate-200 ">Staff List</span>
         </Link>
       </li>
@@ -98,37 +98,37 @@ const About = (props) => {
           {nav1 === true ? 
           <ul className="px-4 w-full divide-y-2  ">      
             <li>
-              <Link passHref href="">
+              <Link passHref href="documents/About/nirf/KIT_2023-0117-%20NIRF%202023%20Engineering.pdf ">
               <span  className="block p-3 hover:bg-slate-200 ">KIT NIRF-2023 DCS ENGG</span>
               </Link>
             </li>
             <li>
-              <Link passHref href="">
+              <Link passHref href="documents/About/nirf/KIT_2023-0119-%20Overall.pdf">
               <span  className="block p-3 hover:bg-slate-200 ">KIT NIRF-2023 DCS OVERALL</span>
               </Link>
             </li>
             <li>
-              <Link passHref href="">
+              <Link passHref href="documents/About/nirf/KIT_NIRF_Only_Engg_2022.pdf">
               <span  className="block p-3 hover:bg-slate-200 ">KIT NIRF-2022 DCS ENGG</span>
               </Link>
             </li>
             <li>
-              <Link passHref href="">
+              <Link passHref href="documents/About/nirf/KIT_NIRF_For_Overall_2022.pdf">
               <span  className="block p-3 hover:bg-slate-200 ">KIT NIRF-2022 DCS OVERALL</span>
               </Link>
             </li>
             <li>
-              <Link passHref href="">
+              <Link passHref href="NIRF_IPR">
               <span  className="block p-3 hover:bg-slate-200 ">Intellectual Property Right (IPR)</span>
               </Link>
             </li>
             <li>
-              <Link passHref href="">
+              <Link passHref href="documents/About/nirf/national-institutional-ranking-framework-02.pdf">
               <span  className="block p-3 hover:bg-slate-200 ">National Institutional Ranking Framework1</span>
               </Link>
             </li>
             <li>
-              <Link passHref href="">
+              <Link passHref href="documents/About/nirf/national-institutional-ranking-framework-01.pdf">
               <span  className="block p-3 hover:bg-slate-200 ">National Institutional Ranking Framework2</span>
               </Link>
             </li>
@@ -159,12 +159,12 @@ const About = (props) => {
           <ul className="px-4 w-full divide-y-2  ">      
            
             <li>
-              <Link passHref href="">
+              <Link passHref href="aicte-approval">
               <span  className="block p-3 hover:bg-slate-200 ">AICTE Approval</span>
               </Link>
             </li>
             <li>
-              <Link passHref href="">
+              <Link passHref href="documents/About/accreditation/NAAC-and-NBA.pdf">
               <span  className="block p-3 hover:bg-slate-200 ">NBA & NAAC</span>
               </Link>
             </li>
@@ -195,17 +195,17 @@ const About = (props) => {
           <ul className="px-4 w-full divide-y-2  ">      
            
             <li>
-              <Link passHref href="">
+              <Link passHref href="documents/About/manditory-disclosure/Fee%20proposal%202023-24%20submitted%20to%20Fees%20Regulating%20Authority.pdf">
               <span  className="block p-3 hover:bg-slate-200 ">Fee Proposal AY:2023-24</span>
               </Link>
             </li>
             <li>
-              <Link passHref href="">
+              <Link passHref href="manditory-disclosure">
               <span  className="block p-3 hover:bg-slate-200 ">Mandatory Disclosures</span>
               </Link>
             </li>
             <li>
-              <Link passHref href="">
+              <Link passHref href="documents/About/manditory-disclosure/KIT%20e%20Governance%20Policy%202022.pdf">
               <span  className="block p-3 hover:bg-slate-200 ">	E Governance Policy</span>
               </Link>
             </li>

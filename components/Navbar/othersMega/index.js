@@ -28,18 +28,21 @@ const OthersNavbar = (props) => {
             "links":["tnp"],
             "subMenu2":["Training and Placement"]
           },
-          {
-            "title":"Student Resources",
-            "links":["notice"],
-            "subMenu2":[
-            
-              "Notice",
-              
-             
-            ],
-          },
+         
           
                   ]
+      },
+      {
+        "title":"Notice",
+        "subMenu1":[
+          {
+            "title":"",
+            "links":["notice"],
+            "subMenu2":["Notice"]
+          },
+          
+         
+        ],
       },
       {
         "title":"Committees",

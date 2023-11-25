@@ -14,7 +14,7 @@ const ImageGrid = (props) => {
     });
   }
   const ImageGroupList = createGroups(GridArray,6)
- 
+ console.log(ImageGroupList)
     return (
         <section className="overflow-hidden text-gray-700 sm:pt-4">
   <div className="   py-2 mx-auto pt-20 sm:pt-0 pb-10 px-10 sm:px-4 sm:pb-5">
@@ -26,30 +26,30 @@ const ImageGrid = (props) => {
       <div className="flex flex-wrap w-1/2 sm:w-fit">
         <div className="w-1/2 p-1 md:p-2">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src={ image[0] ? image[0].fileUrl : "images/noImageBG.jpg" } />
+            src={ image[0] ? image[0].src : "images/noImageBG.jpg" } />
         </div>
         <div className="w-1/2 p-1 md:p-2">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src={ image[1] ? image[1].fileUrl : "images/noImageBG.jpg" } />
+            src={ image[1] ? image[1].src : "images/noImageBG.jpg" } />
         </div>
         <div className="w-full p-1 md:p-2">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src={ image[2] ? image[2].fileUrl : "images/noImageBG.jpg" } />
+            src={ image[2] ? image[2].src : "images/noImageBG.jpg" } />
         </div>
       </div>
       {/* 1 */}
       <div className="flex flex-wrap w-1/2 sm:w-fit">
         <div className="w-full p-1 md:p-2">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src={ image[3] ? image[3].fileUrl : "images/noImageBG.jpg" } /> 
+            src={ image[3] ? image[3].src : "images/noImageBG.jpg" } /> 
         </div>
         <div className="w-1/2 p-1 md:p-2">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src={ image[4] ? image[4].fileUrl : "images/noImageBG.jpg" } />
+            src={ image[4] ? image[4].src : "images/noImageBG.jpg" } />
         </div>
         <div className="w-1/2 p-1 md:p-2">
           <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-            src={ image[5] ? image[5].fileUrl : "images/noImageBG.jpg" } />
+            src={ image[5] ? image[5].src : "images/noImageBG.jpg" } />
         </div>
       </div>
       {/* 2 */}

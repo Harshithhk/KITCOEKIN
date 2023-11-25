@@ -35,12 +35,12 @@ const Academics = (props) => {
    
   
     <li>
-      <Link passHref href="">
+      <Link passHref href="documents/home/ug.pdf">
       <span  className="block p-3 hover:bg-slate-200 ">Rules & Regulation UG</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="documents/home/pg.pdf">
       <span  className="block p-3 hover:bg-slate-200 ">Rules & Regulation PG</span>
       </Link>
     </li>
@@ -66,14 +66,19 @@ const Academics = (props) => {
           </svg> 
         </h4>
         {nav1 === true ? 
-        <ul className="px-4 w-full divide-y-2  ">      
+        <ul className="px-4 w-full divide-y-2  "> 
+         <li>
+            <Link passHref href="online-syllabus">
+            <span  className="block p-3 hover:bg-slate-200 ">Online Syllabus</span>
+            </Link>
+          </li>     
           <li>
-            <Link passHref href="">
+            <Link passHref href="online-syllabus-old">
             <span  className="block p-3 hover:bg-slate-200 ">2022-23 Scheme</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="old_2017_online-syllabus">
             <span  className="block p-3 hover:bg-slate-200 ">2017-old Scheme</span>
             </Link>
           </li>
@@ -82,12 +87,12 @@ const Academics = (props) => {
         </ul> : null}
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="http://210.212.172.190/links/index.html">
       <span  className="block p-3 hover:bg-slate-200 ">Moodle Links</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="https://210.212.172.178/sims/">
       <span  className="block p-3 hover:bg-slate-200 ">Contineo Links</span>
       </Link>
     </li>
@@ -115,12 +120,12 @@ const Academics = (props) => {
         {nav2 === true ? 
         <ul className="px-4 w-full divide-y-2  ">      
           <li>
-            <Link passHref href="">
+            <Link passHref href="documents/academics/internship-policy/kit-internship-policy-2020.pdf">
             <span  className="block p-3 hover:bg-slate-200 ">Guideline & Procedure</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="documents/academics/internship-policy/guidelines-for-internship-and-project-accounted-throgh-kite.pdf">
             <span  className="block p-3 hover:bg-slate-200 ">Guidelines for Internship & Project Accounted</span>
             </Link>
           </li>
@@ -152,32 +157,32 @@ const Academics = (props) => {
         {nav3 === true ? 
         <ul className="px-4 w-full divide-y-2  ">      
           <li>
-            <Link passHref href="">
+            <Link passHref href="documents/academics/academic-council/AC%20Proceedings%20Nov%2027,%202021.pdf">
             <span  className="block p-3 hover:bg-slate-200 ">Meeting 27-11-2021</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="documents/academics/academic-council/academic-council-meet-5-9-july-2020.pdf">
             <span  className="block p-3 hover:bg-slate-200 ">Meeting 5 - 9-July-2020</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="documents/academics/academic-council/academic-council-meet-1-21-July-2017.pdf">
             <span  className="block p-3 hover:bg-slate-200 ">Meeting 4 - 5-Oct-2019</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="documents/academics/academic-council/academic-council-meet-2-6-July-2018.pdf">
             <span  className="block p-3 hover:bg-slate-200 ">Meeting 3 - 2-March-2019</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="documents/academics/academic-council/academic-council-meet-3-2-march-2019.pdf">
             <span  className="block p-3 hover:bg-slate-200 ">Meeting 2 - 6-July-2018</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="documents/academics/academic-council/academic-council-meet-4-5-oct-2019.pdf">
             <span  className="block p-3 hover:bg-slate-200 ">Meeting 1 - 21-July-2017</span>
             </Link>
           </li>
@@ -232,32 +237,32 @@ const Academics = (props) => {
               nav5 === true ? 
               <ul className="px-4 w-full divide-y-2  ">      
                 <li>
-                  <Link passHref href="">
+                  <Link passHref href="documents/academics/academic-calender/Academic22_23/13-01-2023%20Updated%20Academic%20Calender%202022-23%20Sem-II%20(TY%20B.Tech,%20B.%20Tech.).pdf">
                   <span  className="block p-3 hover:bg-slate-200 ">SEM-II -TY B.Tech, B. Tech.</span>
                   </Link>
                 </li>
                 <li>
-                  <Link passHref href="">
+                  <Link passHref href="documents/academics/academic-calender/Academic22_23/Academic%20Calender%202022-23%20Sem-II%20(FY%20B.Tech,FY%20M.Tech).pdf">
                   <span  className="block p-3 hover:bg-slate-200 ">SEM-II -FY B.Tech, M.Tech</span>
                   </Link>
                 </li>
                 <li>
-                  <Link passHref href="">
+                  <Link passHref href="documents/academics/academic-calender/Academic22_23/13.01.2023%20Updated%20Academic%20Calender%202022-23%20Sem-II%20(SY%20B.Tech,%20DSE).pdf">
                   <span  className="block p-3 hover:bg-slate-200 ">SEM-II -SY B.Tech, DSE.</span>
                   </Link>
                 </li>
                 <li>
-                  <Link passHref href="">
+                  <Link passHref href="documents/academics/academic-calender/Academic22_23/Academic%20Calender%202022-23%20Sem-I%20(FY%20B.Tech,%20%20FY%20MTech).pdf">
                   <span  className="block p-3 hover:bg-slate-200 ">SEM-I -FY B.Tech, FY M.Tech.</span>
                   </Link>
                 </li>
                 <li>
-                  <Link passHref href="">
+                  <Link passHref href="documents/academics/academic-calender/Academic22_23/Academic%20Calender%20AY_2022-23%20Sem-I%20(SY%20B.Tech,%20DSE).pdf">
                   <span  className="block p-3 hover:bg-slate-200 ">SEM-I -SY,DSY B.Tech</span>
                   </Link>
                 </li>
                 <li>
-                  <Link passHref href="">
+                  <Link passHref href="documents/academics/academic-calender/Academic22_23/12-08-2022%20Final%20Academic%20Calender%202022-23%20Sem-I%20(TY%20B.Tech,%20B.%20Tech.).pdf">
                   <span  className="block p-3 hover:bg-slate-200 ">SEM-I -TY, Final Year B.Tech</span>
                   </Link>
                 </li>
@@ -268,12 +273,12 @@ const Academics = (props) => {
         </ul> : null}
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="documents/home/modalities.pdf">
       <span  className="block p-3 hover:bg-slate-200 ">Modalities for Absorption of Students from Affiliated (shivaji University) Pattern to Autonomous</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="http://210.212.172.182/index.html">
       <span  className="block p-3 hover:bg-slate-200 ">KITCOEK Virtual Lab</span>
       </Link>
     </li>

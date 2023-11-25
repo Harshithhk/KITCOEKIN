@@ -32,12 +32,12 @@ const Admissions = (props) => {
    
   
     <li>
-      <Link passHref href="">
+      <Link passHref href="admission-undergraduate">
       <span  className="block p-3 hover:bg-slate-200 ">Undergraduate</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="admission-postgraduate">
       <span  className="block p-3 hover:bg-slate-200 ">Postgraduate</span>
       </Link>
     </li>
@@ -65,12 +65,12 @@ const Admissions = (props) => {
         {nav1 === true ? 
         <ul className="px-4 w-full divide-y-2 ">      
           <li>
-            <Link passHref href="">
+            <Link passHref href="documents/admission/phdProgram/kit-phd-admission-form.pdf">
             <span  className="block p-3 hover:bg-slate-200 ">Admission Form</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="documents/admission/phdProgram/phd-student-guidlines.pdf">
             <span  className="block p-3 hover:bg-slate-200 ">Rules & Regulations</span>
             </Link>
           </li>
@@ -99,7 +99,7 @@ const Admissions = (props) => {
               nav2 === true ? 
               <ul className="px-4 w-full  divide-y-2">      
                 <li>
-                  <Link passHref href="">
+                  <Link passHref href="phd-center-electronics">
                   <span  className="block p-3 hover:bg-slate-200 ">Electronic Engineering</span>
                   </Link>
                 </li>

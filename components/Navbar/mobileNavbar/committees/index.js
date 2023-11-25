@@ -32,17 +32,17 @@ const Committee = (props) => {
    
   
     <li>
-      <Link passHref href="">
+      <Link passHref href="college-council">
       <span  className="block p-3 hover:bg-slate-200 ">Governance Committee</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="statutory-committee">
       <span  className="block p-3 hover:bg-slate-200 ">Statutory Committee</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="women-development-cell">
       <span  className="block p-3 hover:bg-slate-200 ">Women Development Cell</span>
       </Link>
     </li>

@@ -32,58 +32,58 @@ const Departments = (props) => {
    
   
     <li>
-      <Link passHref href="">
+      <Link passHref href="best-biotechnology-engineering-college-kolhapur-biotechnology-engineering-college">
       <span  className="block p-3 hover:bg-slate-200 ">Biotechnology Engineering</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="best-civil-engineering-college-kolhapur-civil-engineering-college">
       <span  className="block p-3 hover:bg-slate-200 ">Civil Engineering</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="best-environmental-engineering-college-kolhapur-environmental-engineering-college">
       <span  className="block p-3 hover:bg-slate-200 ">Civil & Environmental Engineering</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="best-cse-college-kolhapur-best-computer-science-engineering-college">
       <span  className="block p-3 hover:bg-slate-200 ">Computer Science & Engineering</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="best-cse-college-kolhapur-best-computer-science-business-systems">
       <span  className="block p-3 hover:bg-slate-200 ">Computer Science & Business Systems</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="best-cse-college-kolhapur-best-computer-science-engineering-data-science-college">
       <span  className="block p-3 hover:bg-slate-200 ">Computer Science Engineering - Data Science</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="best-cse-college-kolhapur-best-computer-science-engineering-artificial-intelligence-machine-learning">
       <span  className="block p-3 hover:bg-slate-200 ">Computer Science Engineering - Artificial Intelligence And Machine Learning
 </span>
 </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="best-electrical-engineering-college-kolhapur-electrical-engineering-college">
       <span  className="block p-3 hover:bg-slate-200 ">Electrical Engineering</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="best-eandtc-engineering-college-kolhapur-etc-engineering-college">
       <span  className="block p-3 hover:bg-slate-200 ">Electronics & Telecomm Engineering</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="best-mechanical-engineering-college-kolhapur-mechanical-engineering-college">
       <span  className="block p-3 hover:bg-slate-200 ">Mechanical Engineering</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="best-basic-science-and-humanities-engineering-college-kolhapur-basic-science-and-humanities-engineering-college">
       <span  className="block p-3 hover:bg-slate-200 ">Basic Sciences & Humanities</span>
       </Link>
     </li>

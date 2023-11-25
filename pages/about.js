@@ -58,7 +58,7 @@ const About = () => {
   
   return (
     <DefaultLayout>
-      <div className="relative w-full overflow-hidden">
+      <div className="relative w-full overflow-hidden pb-[150px]">
         {gallary && <Gallaryslider images={images} setGallary={setGallary} />}
         <section className="relative flex flex-col items-center w-full">
           <img
@@ -128,14 +128,16 @@ const About = () => {
         {/* <Awsome /> */}
         {/* <Accreditation /> */}
         <Accredations />
+      
         <div className="mt-4">
           <OurVision />
         </div>
-        <div className="px-6 md:px-1 md:my-10 my-32">
-          <Statistics />
-        </div>
+       
         <div className="mx-4">
         <MissionCards />
+        </div>
+        <div className="px-6 md:px-1 md:my-10 my-32">
+          <Statistics />
         </div>
             <TestimonialSlider testimonials = { testimonials} />
         <Footer />

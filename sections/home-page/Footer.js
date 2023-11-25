@@ -113,19 +113,19 @@ const Footer = () => {
                   About
                 </h6>
                 <p className="mb-4">
-                  <a href="#!" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
+                  <a href="/about" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
                     >About KITCoEK</a>
                 </p>
                 <p className="mb-4">
-                  <a href="#!" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
+                  <a href="founder-trustees" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
                     >Founder Trustees</a>
                 </p>
                 <p className="mb-4">
-                  <a href="#!" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
+                  <a href="board-of-directors" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
                     >Board Of Directors</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
+                  <a href="internal-quality-assurance-cell" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
                     > IQAC</a>
                 </p>
               </div>
@@ -135,19 +135,19 @@ const Footer = () => {
                   Useful links
                 </h6>
                 <p className="mb-4">
-                  <a href="#!" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
+                  <a href="/notice" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
                     >Notice</a>
                 </p>
                 <p className="mb-4">
-                  <a href="#!" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
+                  <a  href="https://www.ecellkitcoek.com/" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
                     >E-Cell</a>
                 </p>
                 <p className="mb-4">
-                  <a href="#!" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
+                  <a href="/alumni" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
                     >Alumni</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
+                  <a href="apply-admission" className="text-white md:text-sm hover:cursor-pointer hover:text-orange-400 "
                     >Apply to KIT</a>
                 </p>
               </div>

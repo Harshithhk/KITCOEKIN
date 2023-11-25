@@ -32,17 +32,17 @@ const ExamCell = (props) => {
    
   
     <li>
-      <Link passHref href="">
+      <Link passHref href="administration-staff">
       <span  className="block p-3 hover:bg-slate-200 ">Administrative Staff</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="semister-exam-timetable">
       <span  className="block p-3 hover:bg-slate-200 ">Exam Timetable</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="results">
       <span  className="block p-3 hover:bg-slate-200 ">Results</span>
       </Link>
     </li>
@@ -94,12 +94,12 @@ const ExamCell = (props) => {
               nav2 === true ? 
               <ul className="px-4 w-full divide-y-2  ">      
                 <li>
-                  <Link passHref href="">
+                  <Link passHref href="documents/examCell/exam-calender/AY_22-23/F.Y.B.Tech%20Examination%20Calendar%20(Sem-I,A.Y.%202022-23).pdf">
                   <span  className="block p-3 hover:bg-slate-200 ">F.Y.B.Tech/M.Tech 2022-23 SEM-I</span>
                   </Link>
                 </li>
                 <li>
-                  <Link passHref href="">
+                  <Link passHref href="documents/examCell/exam-calender/AY_22-23/Exam-Calendar-SEM-I_2022-23%20TY%20and%20Final%20Year.pdf">
                   <span  className="block p-3 hover:bg-slate-200 ">T.Y.& Final Year B.Tech 2022-23 SEM-I</span>
                   </Link>
                 </li>
@@ -131,12 +131,12 @@ const ExamCell = (props) => {
               nav3 === true ? 
               <ul className="px-4 w-full divide-y-2  ">      
                 <li>
-                  <Link passHref href="">
+                  <Link passHref href="documents/examCell/exam-calender/AY_21-22/Exam-Calendar-FY,DSY%20SEM-I_2021-22.pdf">
                   <span  className="block p-3 hover:bg-slate-200 ">FY, DSY, SEM-I_21-22I</span>
                   </Link>
                 </li>
                 <li>
-                  <Link passHref href="">
+                  <Link passHref href="documents/examCell/exam-calender/AY_21-22/Exam-Calendar-SEM-II_2021-22.pdf">
                   <span  className="block p-3 hover:bg-slate-200 ">SY,TY,Final Year B.Tech-21-22</span>
                   </Link>
                 </li>
@@ -147,17 +147,17 @@ const ExamCell = (props) => {
         </ul> : null}
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="documents/examCell/Revised%20Rules%20from2021-22.pdf">
       <span  className="block p-3 hover:bg-slate-200 ">Revised Rules and Regulations</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="paper-setting-documents">
       <span  className="block p-3 hover:bg-slate-200 ">Paper Setting</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="remuneration-format">
       <span  className="block p-3 hover:bg-slate-200 ">Faculty Remuneration Format</span>
       </Link>
     </li>

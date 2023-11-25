@@ -35,22 +35,22 @@ const Innovation = (props) => {
    
   
     <li>
-      <Link passHref href="">
+      <Link passHref href="innovation-and-entrepreneurship-iic-kitcoek">
       <span  className="block p-3 hover:bg-slate-200 ">IIC-KITCOEK</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="https://sites.google.com/kitcoek.in/kite/home">
       <span  className="block p-3 hover:bg-slate-200 ">KITE</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="https://www.ecellkitcoek.com/">
       <span  className="block p-3 hover:bg-slate-200 ">E-Cell</span>
       </Link>
     </li>
     <li>
-      <Link passHref href="">
+      <Link passHref href="innovation-and-entrepreneurship-ariia">
       <span  className="block p-3 hover:bg-slate-200 ">ARIIA</span>
       </Link>
     </li>
@@ -79,42 +79,42 @@ const Innovation = (props) => {
         {nav1 === true ? 
         <ul className="px-4 w-full divide-y-2  ">      
           <li>
-            <Link passHref href="">
+            <Link passHref href="IdeaLab-ACTIVITIES">
             <span  className="block p-3 hover:bg-slate-200 ">Activities</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="IdeaLab-LAYOUT">
             <span  className="block p-3 hover:bg-slate-200 ">Layout</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="IdeaLab-ADVISORY-COMMITTEE ">
             <span  className="block p-3 hover:bg-slate-200 ">Advisory Committee</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="IdeaLab-MENTOR-COMMITTEE">
             <span  className="block p-3 hover:bg-slate-200 ">Mentor Committee</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="IdeaLab-Lab-TEAM">
             <span  className="block p-3 hover:bg-slate-200 ">Lab Team</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="idealab-industry-connect">
             <span  className="block p-3 hover:bg-slate-200 ">Industry Connect</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="idealab-student-ambasadoors">
             <span  className="block p-3 hover:bg-slate-200 ">Student Ambasadoors</span>
             </Link>
           </li>
           <li>
-            <Link passHref href="">
+            <Link passHref href="documents/home/Idea_Lab_kit%20tender%20notice.pdf">
             <span  className="block p-3 hover:bg-slate-200 ">Tender Notice</span>
             </Link>
           </li>
